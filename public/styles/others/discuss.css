@@ -1,0 +1,55 @@
+#chatsect {
+  min-height: 90vh;
+  width: 80vw;
+  margin: 20px auto;
+  background-image: var(--grad-pr);
+  border-radius: 36px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+#chatbox {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  overflow-y: scroll;
+  padding: 0;
+}
+#chatbox li {
+  width: fit-content;
+  max-width: 40vw;
+  margin: 25px 15px !important;
+  display: flex;
+  flex-direction: column;
+}
+#chatbox li .name {
+  margin-bottom: 5px;
+  font-size: 15px;
+  text-align: center;
+  color: #fee996;
+}
+#chatbox li .msg {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 36px;
+  min-height: 20px;
+  line-height: 20px;
+  background: #fee996;
+  overflow-x: scroll;
+}
+#chatbox li.self {
+  align-self: flex-end;
+  margin: 10px 15px !important;
+}
+form {
+  flex-direction: row;
+}
+form * {
+  margin: 20px auto;
+}
+form#sendmsg input {
+  margin: 5px;
+}
+
+#chatbox ::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}

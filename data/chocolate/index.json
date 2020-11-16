@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Broken Chocolates",
+    "slug": "broken-chocolates",
+    "src": "choc1.png"
+  },
+  {
+    "title": "Stacked Chocolates",
+    "slug": "stacked-chocolates",
+    "src": "choc2.png"
+  },
+  {
+    "title": "Cupcakes",
+    "slug": "cupcakes",
+    "src": "choc3.png"
+  },
+  {
+    "title": "Syrup on Icecream",
+    "slug": "syrup-icecream",
+    "src": "choc4.png"
+  },
+  {
+    "title": "Chocolate and Coffee Beans",
+    "slug": "chocolate-coffee-beans",
+    "src": "choc5.png"
+  },
+  {
+    "title": "White Chocolates",
+    "slug": "white-chocolates",
+    "src": "choc6.png"
+  },
+  {
+    "title": "Chocolate Icecreams",
+    "slug": "chocolate-icecreams",
+    "src": "choc7.png"
+  },
+  {
+    "title": "Chocolate Syrup",
+    "slug": "chocolate-syrup",
+    "src": "choc8.png"
+  },
+  {
+    "title": "Sliced Chocolates",
+    "slug": "sliced-chocolates",
+    "src": "choc9.png"
+  },
+  {
+    "title": "Chocolate and Nuts",
+    "slug": "chocolate-nuts",
+    "src": "choc10.png"
+  }
+]

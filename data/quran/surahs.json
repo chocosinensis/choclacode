@@ -1,0 +1,692 @@
+[
+  [
+    {
+      "num": "1",
+      "eng": "Al-Fatihah",
+      "ara": "الْفَاتِحَة",
+      "mng": "The Opener"
+    },
+    {
+      "num": "2",
+      "eng": "Al-Baqarah",
+      "ara": "الْبَقَرَة",
+      "mng": "The Cow"
+    },
+    {
+      "num": "3",
+      "eng": "Ali Imran",
+      "ara": "آلِ عِمْرَان",
+      "mng": "Family of Imran"
+    },
+    {
+      "num": "4",
+      "eng": "An-Nisa",
+      "ara": "النِّسَاء",
+      "mng": "The Women"
+    },
+    {
+      "num": "5",
+      "eng": "Al-Maidah",
+      "ara": "الْمَائِدَة",
+      "mng": "The Table Spread"
+    },
+    {
+      "num": "6",
+      "eng": "Al-An'am",
+      "ara": "الْأَنْعَام",
+      "mng": "The Cattle"
+    },
+    {
+      "num": "7",
+      "eng": "Al-A'raf",
+      "ara": "الْأَعْرَاف",
+      "mng": "The Heights"
+    },
+    {
+      "num": "8",
+      "eng": "Al-Anfal",
+      "ara": "الْأَنْفَال",
+      "mng": "The Spoils of War"
+    },
+    {
+      "num": "9",
+      "eng": "At-Tawbah",
+      "ara": "التَّوْبَة",
+      "mng": "The Repentance"
+    },
+    {
+      "num": "10",
+      "eng": "Yunus",
+      "ara": "يُونُس",
+      "mng": "Jonah"
+    },
+    {
+      "num": "11",
+      "eng": "Hud",
+      "ara": "هُود",
+      "mng": "Hud"
+    },
+    {
+      "num": "12",
+      "eng": "Yusuf",
+      "ara": "يُوسُف",
+      "mng": "Joseph"
+    },
+    {
+      "num": "13",
+      "eng": "Ar-Ra'd",
+      "ara": "الرَّعْد",
+      "mng": "The Thunder"
+    },
+    {
+      "num": "14",
+      "eng": "Ibrahim",
+      "ara": "إِبْرَاهِيم",
+      "mng": "Abraham"
+    },
+    {
+      "num": "15",
+      "eng": "Al-Hijr",
+      "ara": "الْحِجْر",
+      "mng": "The Rocky Tract"
+    },
+    {
+      "num": "16",
+      "eng": "Al-Nahl",
+      "ara": "النَّحْل",
+      "mng": "The Bee"
+    },
+    {
+      "num": "17",
+      "eng": "Al-Isra",
+      "ara": "الْإِسْرَاء",
+      "mng": "The Night Journey"
+    },
+    {
+      "num": "18",
+      "eng": "Al-Kahf",
+      "ara": "الْكَهْف",
+      "mng": "The Cave"
+    },
+    {
+      "num": "19",
+      "eng": "Maryam",
+      "ara": "مَرْيَم",
+      "mng": "Mary"
+    },
+    {
+      "num": "20",
+      "eng": "Ta-Ha",
+      "ara": "طه",
+      "mng": "Ta Ha"
+    },
+    {
+      "num": "21",
+      "eng": "Al-Anbiya",
+      "ara": "الْأَنْبِيَاء",
+      "mng": "The Prophets"
+    },
+    {
+      "num": "22",
+      "eng": "Al-Hajj",
+      "ara": "الْحَجّ",
+      "mng": "The Pilgrimage"
+    },
+    {
+      "num": "23",
+      "eng": "Al-Muminun",
+      "ara": "الْمُؤْمِنُون",
+      "mng": "The Believers"
+    },
+    {
+      "num": "24",
+      "eng": "An-Nur",
+      "ara": "النُّور",
+      "mng": "The Light"
+    },
+    {
+      "num": "25",
+      "eng": "Al-Furqan",
+      "ara": "الْفُرْقَان",
+      "mng": "The Criterian"
+    },
+    {
+      "num": "26",
+      "eng": "Ash-Shu'ara",
+      "ara": "الشُّعَرَاء",
+      "mng": "The Poets"
+    },
+    {
+      "num": "27",
+      "eng": "An-Naml",
+      "ara": "النَّمْل",
+      "mng": "The Ant"
+    },
+    {
+      "num": "28",
+      "eng": "Al-Qasas",
+      "ara": "الْقَصَص",
+      "mng": "The Stories"
+    },
+    {
+      "num": "29",
+      "eng": "Al-'Ankabut",
+      "ara": "الْعَنْكَبُوت",
+      "mng": "The Spider"
+    },
+    {
+      "num": "30",
+      "eng": "Ar-Rum",
+      "ara": "الرُّوم",
+      "mng": "The Romans"
+    },
+    {
+      "num": "31",
+      "eng": "Luqman",
+      "ara": "لُقْمَان",
+      "mng": "Luqman"
+    },
+    {
+      "num": "32",
+      "eng": "As-Sajdah",
+      "ara": "السَّجْدَة",
+      "mng": "The Prostration"
+    },
+    {
+      "num": "33",
+      "eng": "Al-Ahjab",
+      "ara": "الْأَحْزَاب",
+      "mng": "The Combined Forces"
+    },
+    {
+      "num": "34",
+      "eng": "Saba",
+      "ara": "سَبَأ",
+      "mng": "Sheba"
+    },
+    {
+      "num": "35",
+      "eng": "Fatir",
+      "ara": "فَاطِر",
+      "mng": "The Originator"
+    },
+    {
+      "num": "36",
+      "eng": "Ya-Sin",
+      "ara": "يس",
+      "mng": "Ya Sin"
+    },
+    {
+      "num": "37",
+      "eng": "As-Saffat",
+      "ara": "الصَّافَّات",
+      "mng": "Those who set the Ranks"
+    },
+    {
+      "num": "38",
+      "eng": "Saad",
+      "ara": "ص",
+      "mng": "The Letter \"Saad\""
+    }
+  ], 
+  [
+    {
+      "num": "39",
+      "eng": "Az-Zumar",
+      "ara": "الزُّمَر",
+      "mng": "The Troops"
+    },
+    {
+      "num": "40",
+      "eng": "Ghafir",
+      "ara": "غَافِر",
+      "mng": "The Forgiver"
+    },
+    {
+      "num": "41",
+      "eng": "Fussilat",
+      "ara": "فُصِّلَت",
+      "mng": "Explained in Detail"
+    },
+    {
+      "num": "42",
+      "eng": "Ash-Shura",
+      "ara": "الشُّورىٰ",
+      "mng": "The Consultation"
+    },
+    {
+      "num": "43",
+      "eng": "Az-Zukhruf",
+      "ara": "الْزُّخْرُف",
+      "mng": "The Ornaments of Gold"
+    },
+    {
+      "num": "44",
+      "eng": "Ad-Dukhan",
+      "ara": "الدُّخَان",
+      "mng": "The Smoke"
+    },
+    {
+      "num": "45",
+      "eng": "Al-Jathiyah",
+      "ara": "الْجَاثِيَة",
+      "mng": "The Crouching"
+    },
+    {
+      "num": "46",
+      "eng": "Al-Ahqaf",
+      "ara": "الْأَحْقَاف",
+      "mng": "The Wind-curved Sandvilles"
+    },
+    {
+      "num": "47",
+      "eng": "Muhammad",
+      "ara": "مُحَمَّد",
+      "mng": "Muhammad"
+    },
+    {
+      "num": "48",
+      "eng": "Al-Fath",
+      "ara": "الْفَتْح",
+      "mng": "The Victory"
+    },
+    {
+      "num": "49",
+      "eng": "Al-Hujurat",
+      "ara": "الْحُجُرَات",
+      "mng": "The Rooms"
+    },
+    {
+      "num": "50",
+      "eng": "Qaf",
+      "ara": "ق",
+      "mng": "The Letter \"Qaf\""
+    },
+    {
+      "num": "51",
+      "eng": "Adh-Dhariyat",
+      "ara": "الذَّارِيَات",
+      "mng": "The Winnowing Winds"
+    },
+    {
+      "num": "52",
+      "eng": "At-Tur",
+      "ara": "الطُّور",
+      "mng": "The Mount"
+    },
+    {
+      "num": "53",
+      "eng": "An-Najm",
+      "ara": "النَّجْم",
+      "mng": "The Star"
+    },
+    {
+      "num": "54",
+      "eng": "Al-Qamar",
+      "ara": "الْقَمَر",
+      "mng": "The Moon"
+    },
+    {
+      "num": "55",
+      "eng": "Ar-Rahman",
+      "ara": "الرَّحْمَٰن",
+      "mng": "The Beneficient"
+    },
+    {
+      "num": "56",
+      "eng": "Al-Waqi'ah",
+      "ara": "الْوَاقِعَة",
+      "mng": "The Inevitable"
+    },
+    {
+      "num": "57",
+      "eng": "Al-Hadid",
+      "ara": "الْحَدِيد",
+      "mng": "The Iron"
+    },
+    {
+      "num": "58",
+      "eng": "Al-Mujadalah",
+      "ara": "الْمُجَادَلَة",
+      "mng": "The Pleading Woman"
+    },
+    {
+      "num": "59",
+      "eng": "Al-Hashr",
+      "ara": "الْحَشْر",
+      "mng": "The Exile"
+    },
+    {
+      "num": "60",
+      "eng": "Al-Mumtahinah",
+      "ara": "الْمُمْتَحِنَة",
+      "mng": "She that is to be Examined"
+    },
+    {
+      "num": "61",
+      "eng": "As-Saff",
+      "ara": "الصَّفّ",
+      "mng": "The Ranks"
+    },
+    {
+      "num": "62",
+      "eng": "Al-Jumu'ah",
+      "ara": "الْجُمُعَة",
+      "mng": "The Congregation, Friday"
+    },
+    {
+      "num": "63",
+      "eng": "Al-Munafiqun",
+      "ara": "الْمُنَافِقُون",
+      "mng": "The Hypocrites"
+    },
+    {
+      "num": "64",
+      "eng": "At-Tagabun",
+      "ara": "التَّغَابُن",
+      "mng": "The Mutual Disillusion"
+    },
+    {
+      "num": "65",
+      "eng": "At-Talaq",
+      "ara": "الطَّلَاق",
+      "mng": "The Divorce"
+    },
+    {
+      "num": "66",
+      "eng": "At-Tahrim",
+      "ara": "التَّحْرِيم",
+      "mng": "The Prohibition"
+    },
+    {
+      "num": "67",
+      "eng": "Al-Mulk",
+      "ara": "الْمُلْك",
+      "mng": "The Sovereignty"
+    },
+    {
+      "num": "68",
+      "eng": "Al-Qalam",
+      "ara": "الْقَلَم",
+      "mng": "The Pen"
+    },
+    {
+      "num": "69",
+      "eng": "Al-Haqqah",
+      "ara": "الْحَاقَّة",
+      "mng": "The Reality"
+    },
+    {
+      "num": "70",
+      "eng": "Al-Ma'arij",
+      "ara": "الْمَعَارِج",
+      "mng": "The Ascending Stairways"
+    },
+    {
+      "num": "71",
+      "eng": "Nuh",
+      "ara": "نُوح",
+      "mng": "Noah"
+    },
+    {
+      "num": "72",
+      "eng": "Al-Jinn",
+      "ara": "الْجِنّ",
+      "mng": "The Jinn"
+    },
+    {
+      "num": "73",
+      "eng": "Al-Muzzammil",
+      "ara": "الْمُزَّمِّل",
+      "mng": "The Enshouded One"
+    },
+    {
+      "num": "74",
+      "eng": "Al-Muddatthir",
+      "ara": "الْمُدَّثِّر",
+      "mng": "The Cloaked One"
+    },
+    {
+      "num": "75",
+      "eng": "Al-Qiyamah",
+      "ara": "الْقِيَامَة",
+      "mng": "The Resurrection"
+    },
+    {
+      "num": "76",
+      "eng": "Al-Insan",
+      "ara": "الْإِنْسَان",
+      "mng": "The Man"
+    }
+  ], 
+  [
+    {
+      "num": "77",
+      "eng": "Al-Mursalat",
+      "ara": "الْمُرْسَلَات",
+      "mng": "The Emissaries"
+    },
+    {
+      "num": "78",
+      "eng": "An-Naba",
+      "ara": "النَّبَأ",
+      "mng": "The Tidings"
+    },
+    {
+      "num": "79",
+      "eng": "An-Nazi'at",
+      "ara": "النَّازِعَات",
+      "mng": "Those who Drag Forth"
+    },
+    {
+      "num": "80",
+      "eng": "'Abasa",
+      "ara": "عَبَسَ",
+      "mng": "He Frowned"
+    },
+    {
+      "num": "81",
+      "eng": "At-Takwir",
+      "ara": "التَّكْوِير",
+      "mng": "The Overthrowing"
+    },
+    {
+      "num": "82",
+      "eng": "Al-Infitar",
+      "ara": "الْإِنْفِطَار",
+      "mng": "The Cleaving"
+    },
+    {
+      "num": "83",
+      "eng": "Al-Mutaffifin",
+      "ara": "الْمُطَفِّفِين",
+      "mng": "The Defrauding"
+    },
+    {
+      "num": "84",
+      "eng": "Al-Inshiqaq",
+      "ara": "الْإِنْشِقَاق",
+      "mng": "The Sundering"
+    },
+    {
+      "num": "85",
+      "eng": "Al-Buruj",
+      "ara": "الْبُرُوج",
+      "mng": "The Mansion of the Stars"
+    },
+    {
+      "num": "86",
+      "eng": "At-Tariq",
+      "ara": "الطَّارِق",
+      "mng": "The Nightcomer"
+    },
+    {
+      "num": "87",
+      "eng": "Al-A'la",
+      "ara": "الْأَعْلَىٰ",
+      "mng": "The Most High"
+    },
+    {
+      "num": "88",
+      "eng": "Al-Ghashiyah",
+      "ara": "الْغَاشِيَة",
+      "mng": "The Overwhelming"
+    },
+    {
+      "num": "89",
+      "eng": "Al-Fajr",
+      "ara": "الْفَجْر",
+      "mng": "The Dawn"
+    },
+    {
+      "num": "90",
+      "eng": "Al-Balad",
+      "ara": "الْبَلَد",
+      "mng": "The City"
+    },
+    {
+      "num": "91",
+      "eng": "Ash-Shams",
+      "ara": "الشَّمْس",
+      "mng": "The Sun"
+    },
+    {
+      "num": "92",
+      "eng": "Al-Layl",
+      "ara": "الَّيْل",
+      "mng": "The Night"
+    },
+    {
+      "num": "93",
+      "eng": "Ad-Duha",
+      "ara": "الضُّحَىٰ",
+      "mng": "The Morning Hours"
+    },
+    {
+      "num": "94",
+      "eng": "Ash-Sharh",
+      "ara": "الشَّرْح",
+      "mng": "The Relief"
+    },
+    {
+      "num": "95",
+      "eng": "At-Tin",
+      "ara": "التِّين",
+      "mng": "The Fig"
+    },
+    {
+      "num": "96",
+      "eng": "Al-'Alaq",
+      "ara": "الْعَلَق",
+      "mng": "The Clot"
+    },
+    {
+      "num": "97",
+      "eng": "Al-Qadr",
+      "ara": "الْقَدْر",
+      "mng": "The Power"
+    },
+    {
+      "num": "98",
+      "eng": "Al-Bayyinah",
+      "ara": "الْبَيِّنَة",
+      "mng": "The Clear Proof"
+    },
+    {
+      "num": "99",
+      "eng": "Az-Zalzalah",
+      "ara": "الزَّلْزَلَة",
+      "mng": "The Earthquake"
+    },
+    {
+      "num": "100",
+      "eng": "Al-'Adiyat",
+      "ara": "الْعَادِيَات",
+      "mng": "The Courser"
+    },
+    {
+      "num": "101",
+      "eng": "Al-Qari'ah",
+      "ara": "الْقَارِعَة",
+      "mng": "The Calamity"
+    },
+    {
+      "num": "102",
+      "eng": "At-Takathur",
+      "ara": "التَّكَاثُر",
+      "mng": "The Riverly in World Increase"
+    },
+    {
+      "num": "103",
+      "eng": "Al-'Asr",
+      "ara": "الْعَصْر",
+      "mng": "The Declining Day"
+    },
+    {
+      "num": "104",
+      "eng": "Al-Humazah",
+      "ara": "الْهُمَزَة",
+      "mng": "The Traducer"
+    },
+    {
+      "num": "105",
+      "eng": "Al-Fil",
+      "ara": "الْفِيل",
+      "mng": "The Elephant"
+    },
+    {
+      "num": "106",
+      "eng": "Quraish",
+      "ara": "قُرَيْش",
+      "mng": "Quraish"
+    },
+    {
+      "num": "107",
+      "eng": "Al-Ma'un",
+      "ara": "الْمَاعُون",
+      "mng": "The Small Kindness"
+    },
+    {
+      "num": "108",
+      "eng": "Al-Kawthar",
+      "ara": "الْكَوْثَر",
+      "mng": "The Abundance"
+    },
+    {
+      "num": "109",
+      "eng": "Al-Kafirun",
+      "ara": "الْكَافِرُون",
+      "mng": "The Disbelievers"
+    },
+    {
+      "num": "110",
+      "eng": "An-Nasr",
+      "ara": "النَّصْر",
+      "mng": "The Divine Support"
+    },
+    {
+      "num": "111",
+      "eng": "Al-Lahab",
+      "ara": "الْمَسَد",
+      "mng": "The Palm Fiber"
+    },
+    {
+      "num": "112",
+      "eng": "Al-Ikhlas",
+      "ara": "الْإِخْلَاص",
+      "mng": "The Sincerity"
+    },
+    {
+      "num": "113",
+      "eng": "Al-Falaq",
+      "ara": "الْفَلَق",
+      "mng": "The Daybreak"
+    },
+    {
+      "num": "114",
+      "eng": "An-Naas",
+      "ara": "النَّاس",
+      "mng": "The Mankind"
+    }
+  ]
+]

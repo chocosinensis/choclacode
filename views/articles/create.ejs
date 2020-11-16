@@ -1,0 +1,24 @@
+<%- include('../partials/head.ejs') %>
+  <script src="/js/articles.js"></script>
+  <script>window.addEventListener('load', () => articles().create())</script>
+<%- include('../partials/header.ejs') %>
+
+  <section><% const bodyplaceholder = `<p>The hereafter, the ever eternal place of living after death.</p><p>Every person has to suffer death, and after death, they will enter the hereafter. ...</p>`; %>
+    <h1>Create Article</h1>
+    <p>Create a very inspiring article to increase the fear of Allah!</p>
+    <form class="article">
+      <input type="text" name="title" placeholder="Title e.g. The Hereafter">
+      <p class="title-err error"></p>
+      <textarea name="body" cols="30" rows="10" placeholder="Body e.g. <%= bodyplaceholder %>"></textarea>
+      <p class="body-err error"></p>
+      <input type="text" name="slug" placeholder="Slug e.g. the-hereafter">
+      <p class="slug-err error"></p>
+      <input type="submit" value="Create">
+    </form>
+    <div class="preview">
+      <h1 class="title"></h1>
+      <article></article>
+    </div>
+  </section>
+
+<%- include('../partials/footer.ejs') %>

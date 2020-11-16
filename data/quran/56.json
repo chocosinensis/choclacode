@@ -1,0 +1,578 @@
+[
+  {
+    "num": "1",
+    "ara": "إِذَا وَقَعَتِ الْوَاقِعَةُ",
+    "eng": "When the Occurrence occurs,",
+    "ban": "যখন কিয়ামতের ঘটনা ঘটবে,"
+  },
+  {
+    "num": "2",
+    "ara": "لَيْسَ لِوَقْعَتِهَا كَاذِبَةٌ",
+    "eng": "There is, at its occurrence, no denial.",
+    "ban": "যার বাস্তবতায় কোন সংশয় নেই।"
+  },
+  {
+    "num": "3",
+    "ara": "خَافِضَةٌ رَّافِعَةٌ",
+    "eng": "It will bring down [some] and raise up [others].",
+    "ban": "এটা নীচু করে দেবে, সমুন্নত করে দেবে।"
+  },
+  {
+    "num": "4",
+    "ara": "إِذَا رُجَّتِ الْأَرْضُ رَجًّا",
+    "eng": "When the earth is shaken with convulsion",
+    "ban": "যখন প্রবলভাবে প্রকম্পিত হবে পৃথিবী।"
+  },
+  {
+    "num": "5",
+    "ara": "وَبُسَّتِ الْجِبَالُ بَسًّا",
+    "eng": "And the mountains are broken down, crumbling",
+    "ban": "এবং পর্বতমালা ভেঙ্গে চুরমার হয়ে যাবে।"
+  },
+  {
+    "num": "6",
+    "ara": "فَكَانَتْ هَبَاءً مُّنبَثًّا",
+    "eng": "And become dust dispersing.",
+    "ban": "অতঃপর তা হয়ে যাবে উৎক্ষিপ্ত ধূলিকণা।"
+  },
+  {
+    "num": "7",
+    "ara": "وَكُنتُمْ أَزْوَاجًا ثَلَاثَةً",
+    "eng": "And you become [of] three kinds:",
+    "ban": "এবং তোমরা তিনভাবে বিভক্ত হয়ে পড়বে।"
+  },
+  {
+    "num": "8",
+    "ara": "فَأَصْحَابُ الْمَيْمَنَةِ مَا أَصْحَابُ الْمَيْمَنَةِ",
+    "eng": "Then the companions of the right - what are the companions of the right?",
+    "ban": "যারা ডান দিকে, কত ভাগ্যবান তারা।"
+  },
+  {
+    "num": "9",
+    "ara": "وَأَصْحَابُ الْمَشْأَمَةِ مَا أَصْحَابُ الْمَشْأَمَةِ",
+    "eng": "And the companions of the left - what are the companions of the left?",
+    "ban": "এবং যারা বামদিকে, কত হতভাগা তারা।"
+  },
+  {
+    "num": "10",
+    "ara": "وَالسَّابِقُونَ السَّابِقُونَ",
+    "eng": "And the forerunners, the forerunners -",
+    "ban": "অগ্রবর্তীগণ তো অগ্রবর্তীই।"
+  },
+  {
+    "num": "11",
+    "ara": "أُولَئِكَ الْمُقَرَّبُونَ",
+    "eng": "Those are the ones brought near [to Allah]",
+    "ban": "তারাই নৈকট্যশীল,"
+  },
+  {
+    "num": "12",
+    "ara": "فِي جَنَّاتِ النَّعِيمِ",
+    "eng": "In the Gardens of Pleasure,",
+    "ban": "অবদানের উদ্যানসমূহে,"
+  },
+  {
+    "num": "13",
+    "ara": "ثُلَّةٌ مِّنَ الْأَوَّلِينَ",
+    "eng": "A [large] company of the former peoples",
+    "ban": "তারা একদল পূর্ববর্তীদের মধ্য থেকে।"
+  },
+  {
+    "num": "14",
+    "ara": "وَقَلِيلٌ مِّنَ الْآخِرِينَ",
+    "eng": "And a few of the later peoples,",
+    "ban": "এবং অল্পসংখ্যক পরবর্তীদের মধ্যে থেকে।"
+  },
+  {
+    "num": "15",
+    "ara": "عَلَى سُرُرٍ مَّوْضُونَةٍ",
+    "eng": "On thrones woven [with ornament],",
+    "ban": "স্বর্ণ খচিত সিংহাসন।"
+  },
+  {
+    "num": "16",
+    "ara": "مُّتَّكِئِينَ عَلَيْهَا مُتَقَابِلِينَ",
+    "eng": "Reclining on them, facing each other.",
+    "ban": "তারা তাতে হেলান দিয়ে বসবে পরস্পর মুখোমুখি হয়ে।"
+  },
+  {
+    "num": "17",
+    "ara": "يَطُوفُ عَلَيْهِمْ وِلْدَانٌ مُّخَلَّدُونَ",
+    "eng": "There will circulate among them young boys made eternal",
+    "ban": "তাদের কাছে ঘোরাফেরা করবে চির কিশোরেরা।"
+  },
+  {
+    "num": "18",
+    "ara": "بِأَكْوَابٍ وَأَبَارِيقَ وَكَأْسٍ مِّن مَّعِينٍ",
+    "eng": "With vessels, pitchers and a cup [of wine] from a flowing spring -",
+    "ban": "পানপাত্র কুঁজা ও খাঁটি সূরাপূর্ণ পেয়ালা হাতে নিয়ে,"
+  },
+  {
+    "num": "19",
+    "ara": "لَّا يُصَدَّعُونَ عَنْهَا وَلَا يُنزِفُونَ",
+    "eng": "No headache will they have therefrom, nor will they be intoxicated -",
+    "ban": "যা পান করলে তাদের শিরঃপীড়া হবে না এবং বিকারগ্রস্ত ও হবে না।"
+  },
+  {
+    "num": "20",
+    "ara": "وَفَاكِهَةٍ مِّمَّا يَتَخَيَّرُونَ",
+    "eng": "And fruit of what they select",
+    "ban": "আর তাদের পছন্দমত ফল-মুল নিয়ে,"
+  },
+  {
+    "num": "21",
+    "ara": "وَلَحْمِ طَيْرٍ مِّمَّا يَشْتَهُونَ",
+    "eng": "And the meat of fowl, from whatever they desire.",
+    "ban": "এবং রুচিমত পাখীর মাংস নিয়ে।"
+  },
+  {
+    "num": "22",
+    "ara": "وَحُورٌ عِينٌ",
+    "eng": "And [for them are] fair women with large, [beautiful] eyes,",
+    "ban": "তথায় থাকবে আনতনয়না হুরগণ,"
+  },
+  {
+    "num": "23",
+    "ara": "كَأَمْثَالِ اللُّؤْلُؤِ الْمَكْنُونِ",
+    "eng": "The likenesses of pearls well-protected,",
+    "ban": "আবরণে রক্ষিত মোতির ন্যায়,"
+  },
+  {
+    "num": "24",
+    "ara": "جَزَاءً بِمَا كَانُوا يَعْمَلُونَ",
+    "eng": "As reward for what they used to do.",
+    "ban": "তারা যা কিছু করত, তার পুরস্কারস্বরূপ।"
+  },
+  {
+    "num": "25",
+    "ara": "لَا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا تَأْثِيمًا",
+    "eng": "They will not hear therein ill speech or commission of sin -",
+    "ban": "তারা তথায় অবান্তর ও কোন খারাপ কথা শুনবে না।"
+  },
+  {
+    "num": "26",
+    "ara": "إِلَّا قِيلًا سَلَامًا سَلَامًا",
+    "eng": "Only a saying: \"Peace, peace.\"",
+    "ban": "কিন্তু শুনবে সালাম আর সালাম।"
+  },
+  {
+    "num": "27",
+    "ara": "وَأَصْحَابُ الْيَمِينِ مَا أَصْحَابُ الْيَمِينِ",
+    "eng": "The companions of the right - what are the companions of the right?",
+    "ban": "যারা ডান দিকে থাকবে, তারা কত ভাগ্যবান।"
+  },
+  {
+    "num": "28",
+    "ara": "فِي سِدْرٍ مَّخْضُودٍ",
+    "eng": "[They will be] among lote trees with thorns removed",
+    "ban": "তারা থাকবে কাঁটাবিহীন বদরিকা বৃক্ষে।"
+  },
+  {
+    "num": "29",
+    "ara": "وَطَلْحٍ مَّنضُودٍ",
+    "eng": "And [banana] trees layered [with fruit]",
+    "ban": "এবং কাঁদি কাঁদি কলায়,"
+  },
+  {
+    "num": "30",
+    "ara": "وَظِلٍّ مَّمْدُودٍ",
+    "eng": "And shade extended",
+    "ban": "এবং দীর্ঘ ছায়ায়।"
+  },
+  {
+    "num": "31",
+    "ara": "وَمَاءٍ مَّسْكُوبٍ",
+    "eng": "And water poured out",
+    "ban": "এবং প্রবাহিত পানিতে,"
+  },
+  {
+    "num": "32",
+    "ara": "وَفَاكِهَةٍ كَثِيرَةٍ",
+    "eng": "And fruit, abundant [and varied],",
+    "ban": "ও প্রচুর ফল-মূলে,"
+  },
+  {
+    "num": "33",
+    "ara": "لَّا مَقْطُوعَةٍ وَلَا مَمْنُوعَةٍ",
+    "eng": "Neither limited [to season] nor forbidden,",
+    "ban": "যা শেষ হবার নয় এবং নিষিদ্ধ ও নয়,"
+  },
+  {
+    "num": "34",
+    "ara": "وَفُرُشٍ مَّرْفُوعَةٍ",
+    "eng": "And [upon] beds raised high.",
+    "ban": "আর থাকবে সমুন্নত শয্যায়।"
+  },
+  {
+    "num": "35",
+    "ara": "إِنَّا أَنشَأْنَاهُنَّ إِنشَاءً",
+    "eng": "Indeed, We have produced the women of Paradise in a [new] creation",
+    "ban": "আমি জান্নাতী রমণীগণকে বিশেষরূপে সৃষ্টি করেছি।"
+  },
+  {
+    "num": "36",
+    "ara": "فَجَعَلْنَاهُنَّ أَبْكَارًا",
+    "eng": "And made them virgins,",
+    "ban": "অতঃপর তাদেরকে করেছি চিরকুমারী।"
+  },
+  {
+    "num": "37",
+    "ara": "عُرُبًا أَتْرَابًا",
+    "eng": "Devoted [to their husbands] and of equal age,",
+    "ban": "কামিনী, সমবয়স্কা।"
+  },
+  {
+    "num": "38",
+    "ara": "لِّأَصْحَابِ الْيَمِينِ",
+    "eng": "For the companions of the right [who are]",
+    "ban": "ডান দিকের লোকদের জন্যে।"
+  },
+  {
+    "num": "39",
+    "ara": "ثُلَّةٌ مِّنَ الْأَوَّلِينَ",
+    "eng": "A [large] company of the former peoples",
+    "ban": "তারা একদল পূর্ববর্তীদের মধ্য থেকে।"
+  },
+  {
+    "num": "40",
+    "ara": "وَثُلَّةٌ مِّنَ الْآخِرِينَ",
+    "eng": "And a company of the later peoples.",
+    "ban": "এবং একদল পরবর্তীদের মধ্য থেকে।"
+  },
+  {
+    "num": "41",
+    "ara": "وَأَصْحَابُ الشِّمَالِ مَا أَصْحَابُ الشِّمَالِ",
+    "eng": "And the companions of the left - what are the companions of the left?",
+    "ban": "বামপার্শ্বস্থ লোক, কত না হতভাগা তারা।"
+  },
+  {
+    "num": "42",
+    "ara": "فِي سَمُومٍ وَحَمِيمٍ",
+    "eng": "[They will be] in scorching fire and scalding water",
+    "ban": "তারা থাকবে প্রখর বাষ্পে এবং উত্তপ্ত পানিতে,"
+  },
+  {
+    "num": "43",
+    "ara": "وَظِلٍّ مِّن يَحْمُومٍ",
+    "eng": "And a shade of black smoke,",
+    "ban": "এবং ধুম্রকুঞ্জের ছায়ায়।"
+  },
+  {
+    "num": "44",
+    "ara": "لَّا بَارِدٍ وَلَا كَرِيمٍ",
+    "eng": "Neither cool nor beneficial.",
+    "ban": "যা শীতল নয় এবং আরামদায়কও নয়।"
+  },
+  {
+    "num": "45",
+    "ara": "إِنَّهُمْ كَانُوا قَبْلَ ذَلِكَ مُتْرَفِينَ",
+    "eng": "Indeed they were, before that, indulging in affluence,",
+    "ban": "তারা ইতিপূর্বে স্বাচ্ছন্দ্যশীল ছিল।"
+  },
+  {
+    "num": "46",
+    "ara": "وَكَانُوا يُصِرُّونَ عَلَى الْحِنثِ الْعَظِيمِ",
+    "eng": "And they used to persist in the great violation,",
+    "ban": "তারা সদাসর্বদা ঘোরতর পাপকর্মে ডুবে থাকত।"
+  },
+  {
+    "num": "47",
+    "ara": "وَكَانُوا يَقُولُونَ أَئِذَا مِتْنَا وَكُنَّا تُرَابًا وَعِظَامًا أَإِنَّا لَمَبْعُوثُونَ",
+    "eng": "And they used to say, \"When we die and become dust and bones, are we indeed to be resurrected?",
+    "ban": "তারা বলতঃ আমরা যখন মরে অস্থি ও মৃত্তিকায় পরিণত হয়ে যাব, তখনও কি পুনরুত্থিত হব?"
+  },
+  {
+    "num": "48",
+    "ara": "أَوَآبَاؤُنَا الْأَوَّلُونَ",
+    "eng": "And our forefathers [as well]?\"",
+    "ban": "এবং আমাদের পূর্বপুরুষগণও!"
+  },
+  {
+    "num": "49",
+    "ara": "قُلْ إِنَّ الْأَوَّلِينَ وَالْآخِرِينَ",
+    "eng": "Say, [O Muhammad], \"Indeed, the former and the later peoples",
+    "ban": "বলুনঃ পূর্ববর্তী ও পরবর্তীগণ,"
+  },
+  {
+    "num": "50",
+    "ara": "لَمَجْمُوعُونَ إِلَى مِيقَاتِ يَوْمٍ مَّعْلُومٍ",
+    "eng": "Are to be gathered together for the appointment of a known Day.\"",
+    "ban": "সবাই একত্রিত হবে এক নির্দিষ্ট দিনের নির্দিষ্ট সময়ে।"
+  },
+  {
+    "num": "51",
+    "ara": "ثُمَّ إِنَّكُمْ أَيُّهَا الضَّالُّونَ الْمُكَذِّبُونَ",
+    "eng": "Then indeed you, O those astray [who are] deniers,",
+    "ban": "অতঃপর হে পথভ্রষ্ট, মিথ্যারোপকারীগণ।"
+  },
+  {
+    "num": "52",
+    "ara": "لَآكِلُونَ مِن شَجَرٍ مِّن زَقُّومٍ",
+    "eng": "Will be eating from trees of zaqqum",
+    "ban": "তোমরা অবশ্যই ভক্ষণ করবে যাক্কুম বৃক্ষ থেকে,"
+  },
+  {
+    "num": "53",
+    "ara": "فَمَالِئُونَ مِنْهَا الْبُطُونَ",
+    "eng": "And filling with it your bellies",
+    "ban": "অতঃপর তা দ্বারা উদর পূর্ণ করবে,"
+  },
+  {
+    "num": "54",
+    "ara": "فَشَارِبُونَ عَلَيْهِ مِنَ الْحَمِيمِ",
+    "eng": "And drinking on top of it from scalding water",
+    "ban": "অতঃপর তার উপর পান করবে উত্তপ্ত পানি।"
+  },
+  {
+    "num": "55",
+    "ara": "فَشَارِبُونَ شُرْبَ الْهِيمِ",
+    "eng": "And will drink as the drinking of thirsty camels.",
+    "ban": "পান করবে পিপাসিত উটের ন্যায়।"
+  },
+  {
+    "num": "56",
+    "ara": "هَذَا نُزُلُهُمْ يَوْمَ الدِّينِ",
+    "eng": "That is their accommodation on the Day of Recompense.",
+    "ban": "কেয়ামতের দিন এটাই হবে তাদের আপ্যায়ন।"
+  },
+  {
+    "num": "57",
+    "ara": "نَحْنُ خَلَقْنَاكُمْ فَلَوْلَا تُصَدِّقُونَ",
+    "eng": "We have created you, so why do you not believe?",
+    "ban": "আমি সৃষ্টি করেছি তোমাদেরকে। অতঃপর কেন তোমরা তা সত্য বলে বিশ্বাস কর না।"
+  },
+  {
+    "num": "58",
+    "ara": "أَفَرَأَيْتُم مَّا تُمْنُونَ",
+    "eng": "Have you seen that which you emit?",
+    "ban": "তোমরা কি ভেবে দেখেছ, তোমাদের বীর্যপাত সম্পর্কে।"
+  },
+  {
+    "num": "59",
+    "ara": "أَأَنتُمْ تَخْلُقُونَهُ أَمْ نَحْنُ الْخَالِقُونَ",
+    "eng": "Is it you who creates it, or are We the Creator?",
+    "ban": "তোমরা তাকে সৃষ্টি কর, না আমি সৃষ্টি করি?"
+  },
+  {
+    "num": "60",
+    "ara": "نَحْنُ قَدَّرْنَا بَيْنَكُمُ الْمَوْتَ وَمَا نَحْنُ بِمَسْبُوقِينَ",
+    "eng": "We have decreed death among you, and We are not to be outdone",
+    "ban": "আমি তোমাদের মৃত্যুকাল নির্ধারিত করেছি এবং আমি অক্ষম নই।"
+  },
+  {
+    "num": "61",
+    "ara": "عَلَى أَن نُّبَدِّلَ أَمْثَالَكُمْ وَنُنشِئَكُمْ فِي مَا لَا تَعْلَمُونَ",
+    "eng": "In that We will change your likenesses and produce you in that [form] which you do not know.",
+    "ban": "এ ব্যাপারে যে, তোমাদের পরিবর্তে তোমাদের মত লোককে নিয়ে আসি এবং তোমাদেরকে এমন করে দেই, যা তোমরা জান না।"
+  },
+  {
+    "num": "62",
+    "ara": "وَلَقَدْ عَلِمْتُمُ النَّشْأَةَ الْأُولَى فَلَوْلَا تَذَكَّرُونَ",
+    "eng": "And you have already known the first creation, so will you not remember?",
+    "ban": "তোমরা অবগত হয়েছ প্রথম সৃষ্টি সম্পর্কে, তবে তোমরা অনুধাবন কর না কেন?"
+  },
+  {
+    "num": "63",
+    "ara": "أَفَرَأَيْتُم مَّا تَحْرُثُونَ",
+    "eng": "And have you seen that [seed] which you sow?",
+    "ban": "তোমরা যে বীজ বপন কর, সে সম্পর্কে ভেবে দেখেছ কি?"
+  },
+  {
+    "num": "64",
+    "ara": "أَأَنتُمْ تَزْرَعُونَهُ أَمْ نَحْنُ الزَّارِعُونَ",
+    "eng": "Is it you who makes it grow, or are We the grower?",
+    "ban": "তোমরা তাকে উৎপন্ন কর, না আমি উৎপন্নকারী ?"
+  },
+  {
+    "num": "65",
+    "ara": "لَوْ نَشَاءُ لَجَعَلْنَاهُ حُطَامًا فَظَلْتُمْ تَفَكَّهُونَ",
+    "eng": "If We willed, We could make it [dry] debris, and you would remain in wonder,",
+    "ban": "আমি ইচ্ছা করলে তাকে খড়কুটা করে দিতে পারি, অতঃপর হয়ে যাবে তোমরা বিস্ময়াবিষ্ট।"
+  },
+  {
+    "num": "66",
+    "ara": "إِنَّا لَمُغْرَمُونَ",
+    "eng": "[Saying], \"Indeed, we are [now] in debt;",
+    "ban": "বলবেঃ আমরা তো ঋণের চাপে পড়ে গেলাম;"
+  },
+  {
+    "num": "67",
+    "ara": "بَلْ نَحْنُ مَحْرُومُونَ",
+    "eng": "Rather, we have been deprived.\"",
+    "ban": "বরং আমরা হূত সর্বস্ব হয়ে পড়লাম।"
+  },
+  {
+    "num": "68",
+    "ara": "أَفَرَأَيْتُمُ الْمَاءَ الَّذِي تَشْرَبُونَ",
+    "eng": "And have you seen the water that you drink?",
+    "ban": "তোমরা যে পানি পান কর, সে সম্পর্কে ভেবে দেখেছ কি?"
+  },
+  {
+    "num": "69",
+    "ara": "أَأَنتُمْ أَنزَلْتُمُوهُ مِنَ الْمُزْنِ أَمْ نَحْنُ الْمُنزِلُونَ",
+    "eng": "Is it you who brought it down from the clouds, or is it We who bring it down?",
+    "ban": "তোমরা তা মেঘ থেকে নামিয়ে আন, না আমি বর্ষন করি?"
+  },
+  {
+    "num": "70",
+    "ara": "لَوْ نَشَاءُ جَعَلْنَاهُ أُجَاجًا فَلَوْلَا تَشْكُرُونَ",
+    "eng": "If We willed, We could make it bitter, so why are you not grateful?",
+    "ban": "আমি ইচ্ছা করলে তাকে লোনা করে দিতে পারি, অতঃপর তোমরা কেন কৃতজ্ঞতা প্রকাশ কর না?"
+  },
+  {
+    "num": "71",
+    "ara": "أَفَرَأَيْتُمُ النَّارَ الَّتِي تُورُونَ",
+    "eng": "And have you seen the fire that you ignite?",
+    "ban": "তোমরা যে অগ্নি প্রজ্জ্বলিত কর, সে সম্পর্কে ভেবে দেখেছ কি?"
+  },
+  {
+    "num": "72",
+    "ara": "أَأَنتُمْ أَنشَأْتُمْ شَجَرَتَهَا أَمْ نَحْنُ الْمُنشِئُونَ",
+    "eng": "Is it you who produced its tree, or are We the producer?",
+    "ban": "তোমরা কি এর বৃক্ষ সৃষ্টি করেছ, না আমি সৃষ্টি করেছি ?"
+  },
+  {
+    "num": "73",
+    "ara": "نَحْنُ جَعَلْنَاهَا تَذْكِرَةً وَمَتَاعًا لِّلْمُقْوِينَ",
+    "eng": "We have made it a reminder and provision for the travelers,",
+    "ban": "আমি সেই বৃক্ষকে করেছি স্মরণিকা এবং মরুবাসীদের জন্য সামগ্রী।"
+  },
+  {
+    "num": "74",
+    "ara": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ",
+    "eng": "So exalt the name of your Lord, the Most Great.",
+    "ban": "অতএব, আপনি আপনার মহান পালনকর্তার নামে পবিত্রতা ঘোষণা করুন।"
+  },
+  {
+    "num": "75",
+    "ara": "فَلَا أُقْسِمُ بِمَوَاقِعِ النُّجُومِ",
+    "eng": "Then I swear by the setting of the stars,",
+    "ban": "অতএব, আমি তারকারাজির অস্তাচলের শপথ করছি,"
+  },
+  {
+    "num": "76",
+    "ara": "وَإِنَّهُ لَقَسَمٌ لَّوْ تَعْلَمُونَ عَظِيمٌ",
+    "eng": "And indeed, it is an oath - if you could know - [most] great.",
+    "ban": "নিশ্চয় এটা এক মহা শপথ-যদি তোমরা জানতে।"
+  },
+  {
+    "num": "77",
+    "ara": "إِنَّهُ لَقُرْآنٌ كَرِيمٌ",
+    "eng": "Indeed, it is a noble Qur'an",
+    "ban": "নিশ্চয় এটা সম্মানিত কোরআন,"
+  },
+  {
+    "num": "78",
+    "ara": "فِي كِتَابٍ مَّكْنُونٍ",
+    "eng": "In a Register well-protected;",
+    "ban": "যা আছে এক গোপন কিতাবে,"
+  },
+  {
+    "num": "79",
+    "ara": "لَّا يَمَسُّهُ إِلَّا الْمُطَهَّرُونَ",
+    "eng": "None touch it except the purified.",
+    "ban": "যারা পাক-পবিত্র, তারা ব্যতীত অন্য কেউ একে স্পর্শ করবে না।"
+  },
+  {
+    "num": "80",
+    "ara": "تَنزِيلٌ مِّن رَّبِّ الْعَالَمِينَ",
+    "eng": "[It is] a revelation from the Lord of the worlds.",
+    "ban": "এটা বিশ্ব-পালনকর্তার পক্ষ থেকে অবতীর্ণ।"
+  },
+  {
+    "num": "81",
+    "ara": "أَفَبِهَذَا الْحَدِيثِ أَنتُم مُّدْهِنُونَ",
+    "eng": "Then is it to this statement that you are indifferent",
+    "ban": "তবুও কি তোমরা এই বাণীর প্রতি শৈথিল্য পদর্শন করবে?"
+  },
+  {
+    "num": "82",
+    "ara": "وَتَجْعَلُونَ رِزْقَكُمْ أَنَّكُمْ تُكَذِّبُونَ",
+    "eng": "And make [the thanks for] your provision that you deny [the Provider]?",
+    "ban": "এবং একে মিথ্যা বলাকেই তোমরা তোমাদের ভূমিকায় পরিণত করবে?"
+  },
+  {
+    "num": "83",
+    "ara": "فَلَوْلَا إِذَا بَلَغَتِ الْحُلْقُومَ",
+    "eng": "Then why, when the soul at death reaches the throat",
+    "ban": "অতঃপর যখন কারও প্রাণ কন্ঠাগত হয়।"
+  },
+  {
+    "num": "84",
+    "ara": "وَأَنتُمْ حِينَئِذٍ تَنظُرُونَ",
+    "eng": "And you are at that time looking on -",
+    "ban": "এবং তোমরা তাকিয়ে থাক,"
+  },
+  {
+    "num": "85",
+    "ara": "وَنَحْنُ أَقْرَبُ إِلَيْهِ مِنكُمْ وَلَكِن لَّا تُبْصِرُونَ",
+    "eng": "And Our angels are nearer to him than you, but you do not see -",
+    "ban": "তখন আমি তোমাদের অপেক্ষা তার অধিক নিকটে থাকি; কিন্তু তোমরা দেখ না।"
+  },
+  {
+    "num": "86",
+    "ara": "فَلَوْلَا إِن كُنتُمْ غَيْرَ مَدِينِينَ",
+    "eng": "Then why do you not, if you are not to be recompensed,",
+    "ban": "যদি তোমাদের হিসাব-কিতাব না হওয়াই ঠিক হয়,"
+  },
+  {
+    "num": "87",
+    "ara": "تَرْجِعُونَهَا إِن كُنتُمْ صَادِقِينَ",
+    "eng": "Bring it back, if you should be truthful?",
+    "ban": "তবে তোমরা এই আত্মাকে ফিরাও না কেন, যদি তোমরা সত্যবাদী হও ?"
+  },
+  {
+    "num": "88",
+    "ara": "فَأَمَّا إِن كَانَ مِنَ الْمُقَرَّبِينَ",
+    "eng": "And if the deceased was of those brought near to Allah,",
+    "ban": "যদি সে নৈকট্যশীলদের একজন হয়;"
+  },
+  {
+    "num": "89",
+    "ara": "فَرَوْحٌ وَرَيْحَانٌ وَجَنَّتُ نَعِيمٍ",
+    "eng": "Then [for him is] rest and bounty and a garden of pleasure.",
+    "ban": "তবে তার জন্যে আছে সুখ, উত্তম রিযিক এবং নেয়ামতে ভরা উদ্যান।"
+  },
+  {
+    "num": "90",
+    "ara": "وَأَمَّا إِن كَانَ مِنْ أَصْحَابِ الْيَمِينِ",
+    "eng": "And if he was of the companions of the right,",
+    "ban": "আর যদি সে ডান পার্শ্বস্থদের একজন হয়,"
+  },
+  {
+    "num": "91",
+    "ara": "فَسَلَامٌ لَّكَ مِنْ أَصْحَابِ الْيَمِينِ",
+    "eng": "Then [the angels will say], \"Peace for you; [you are] from the companions of the right.\"",
+    "ban": "তবে তাকে বলা হবেঃ তোমার জন্যে ডানপার্শ্বসস্থদের পক্ষ থেকে সালাম।"
+  },
+  {
+    "num": "92",
+    "ara": "وَأَمَّا إِن كَانَ مِنَ الْمُكَذِّبِينَ الضَّالِّينَ",
+    "eng": "But if he was of the deniers [who were] astray,",
+    "ban": "আর যদি সে পথভ্রষ্ট মিথ্যারোপকারীদের একজন হয়,"
+  },
+  {
+    "num": "93",
+    "ara": "فَنُزُلٌ مِّنْ حَمِيمٍ",
+    "eng": "Then [for him is] accommodation of scalding water",
+    "ban": "তবে তার আপ্যায়ন হবে উত্তপ্ত পানি দ্বারা।"
+  },
+  {
+    "num": "94",
+    "ara": "وَتَصْلِيَةُ جَحِيمٍ",
+    "eng": "And burning in Hellfire",
+    "ban": "এবং সে নিক্ষিপ্ত হবে অগ্নিতে।"
+  },
+  {
+    "num": "95",
+    "ara": "إِنَّ هَذَا لَهُوَ حَقُّ الْيَقِينِ",
+    "eng": "Indeed, this is the true certainty,",
+    "ban": "এটা ধ্রুব সত্য।"
+  },
+  {
+    "num": "96",
+    "ara": "فَسَبِّحْ بِاسْمِ رَبِّكَ الْعَظِيمِ",
+    "eng": "So exalt the name of your Lord, the Most Great.",
+    "ban": "অতএব, আপনি আপনার মহান পালনকর্তার নামে পবিত্রতা ঘোষণা করুন।"
+  }
+]

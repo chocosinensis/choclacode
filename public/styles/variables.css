@@ -1,0 +1,18 @@
+:root {
+  --primary: #4d2f14;
+  --secondary: #886546;
+  --tertiary: #5d4632;
+
+  --font-pr: #301904;
+  --font-se: whitesmoke;
+
+  --grad-pr: -webkit-linear-gradient(right, var(--primary), var(--secondary));
+  --grad-se: -webkit-linear-gradient(right, var(--secondary), var(--tertiary));
+  --grad-te: -webkit-linear-gradient(right, var(--primary), var(--tertiary));
+
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}

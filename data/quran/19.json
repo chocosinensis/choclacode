@@ -1,0 +1,590 @@
+[
+  {
+    "num": "1",
+    "ara": "كهيعص",
+    "eng": "Kaf, Ha, Ya, 'Ayn, Sad.",
+    "ban": "কাফ-হা-ইয়া-আইন-সাদ"
+  },
+  {
+    "num": "2",
+    "ara": "ذِكْرُ رَحْمَتِ رَبِّكَ عَبْدَهُ زَكَرِيَّا",
+    "eng": "[This is] a mention of the mercy of your Lord to His servant Zechariah",
+    "ban": "এটা আপনার পালনকর্তার অনুগ্রহের বিবরণ তাঁর বান্দা যাকারিয়ার প্রতি।"
+  },
+  {
+    "num": "3",
+    "ara": "إِذْ نَادَى رَبَّهُ نِدَاءً خَفِيًّا",
+    "eng": "When he called to his Lord a private supplication.",
+    "ban": "যখন সে তাঁর পালনকর্তাকে আহবান করেছিল নিভৃতে।"
+  },
+  {
+    "num": "4",
+    "ara": "قَالَ رَبِّ إِنِّي وَهَنَ الْعَظْمُ مِنِّي وَاشْتَعَلَ الرَّأْسُ شَيْبًا وَلَمْ أَكُن بِدُعَائِكَ رَبِّ شَقِيًّا",
+    "eng": "He said, \"My Lord, indeed my bones have weakened, and my head has filled with white, and never have I been in my supplication to You, my Lord, unhappy.",
+    "ban": "সে বললঃ হে আমার পালনকর্তা আমার অস্থি বয়স-ভারাবনত হয়েছে; বার্ধক্যে মস্তক সুশুভ্র হয়েছে; হে আমার পালনকর্তা! আপনাকে ডেকে আমি কখনও বিফলমনোরথ হইনি।"
+  },
+  {
+    "num": "5",
+    "ara": "وَإِنِّي خِفْتُ الْمَوَالِيَ مِن وَرَائِي وَكَانَتِ امْرَأَتِي عَاقِرًا فَهَبْ لِي مِن لَّدُنكَ وَلِيًّا",
+    "eng": "And indeed, I fear the successors after me, and my wife has been barren, so give me from Yourself an heir",
+    "ban": "আমি ভয় করি আমার পর আমার স্বগোত্রকে এবং আমার স্ত্রী বন্ধ্যা; কাজেই আপনি নিজের পক্ষ থেকে আমাকে এক জন কর্তব্য পালনকারী দান করুন।"
+  },
+  {
+    "num": "6",
+    "ara": "يَرِثُنِي وَيَرِثُ مِنْ آلِ يَعْقُوبَ وَاجْعَلْهُ رَبِّ رَضِيًّا",
+    "eng": "Who will inherit me and inherit from the family of Jacob. And make him, my Lord, pleasing [to You].\"",
+    "ban": "সে আমার স্থলাভিষিক্ত হবে ইয়াকুব বংশের এবং হে আমার পালনকর্তা, তাকে করুন সন্তোষজনক।"
+  },
+  {
+    "num": "7",
+    "ara": "يَا زَكَرِيَّا إِنَّا نُبَشِّرُكَ بِغُلَامٍ اسْمُهُ يَحْيَى لَمْ نَجْعَل لَّهُ مِن قَبْلُ سَمِيًّا",
+    "eng": "[He was told], \"O Zechariah, indeed We give you good tidings of a boy whose name will be John. We have not assigned to any before [this] name.\"",
+    "ban": "হে যাকারিয়া, আমি তোমাকে এক পুত্রের সুসংবাদ দিচ্ছি, তার নাম হবে ইয়াহইয়া। ইতিপূর্বে এই নামে আমি কারও নাম করণ করিনি।"
+  },
+  {
+    "num": "8",
+    "ara": "قَالَ رَبِّ أَنَّى يَكُونُ لِي غُلَامٌ وَكَانَتِ امْرَأَتِي عَاقِرًا وَقَدْ بَلَغْتُ مِنَ الْكِبَرِ عِتِيًّا",
+    "eng": "He said, \"My Lord, how will I have a boy when my wife has been barren and I have reached extreme old age?\"",
+    "ban": "সে বললঃ হে আমার পালনকর্তা কেমন করে আমার পুত্র হবে অথচ আমার স্ত্রী যে বন্ধ্যা, আর আমিও যে বার্ধক্যের শেষ প্রান্তে উপনীত।"
+  },
+  {
+    "num": "9",
+    "ara": "قَالَ كَذَلِكَ قَالَ رَبُّكَ هُوَ عَلَيَّ هَيِّنٌ وَقَدْ خَلَقْتُكَ مِن قَبْلُ وَلَمْ تَكُ شَيْئًا",
+    "eng": "[An angel] said, \"Thus [it will be]; your Lord says, 'It is easy for Me, for I created you before, while you were nothing.' \"",
+    "ban": "তিনি বললেনঃ এমনিতেই হবে। তোমার পালনকর্তা বলে দিয়েছেনঃ এটা আমার পক্ষে সহজ। আমি তো পুর্বে তোমাকে সৃষ্টি করেছি এবং তুমি কিছুই ছিলে না।"
+  },
+  {
+    "num": "10",
+    "ara": "قَالَ رَبِّ اجْعَل لِّي آيَةً قَالَ آيَتُكَ أَلَّا تُكَلِّمَ النَّاسَ ثَلَاثَ لَيَالٍ سَوِيًّا",
+    "eng": "[Zechariah] said, \"My Lord, make for me a sign.\" He said, \"Your sign is that you will not speak to the people for three nights, [being] sound.\"",
+    "ban": "সে বললঃ হে আমার পালনকর্তা, আমাকে একটি নির্দশন দিন। তিনি বললেন তোমার নিদর্শন এই যে, তুমি সুস্থ অবস্থায় তিন দিন মানুষের সাথে কথাবার্তা বলবে না।"
+  },
+  {
+    "num": "11",
+    "ara": "فَخَرَجَ عَلَى قَوْمِهِ مِنَ الْمِحْرَابِ فَأَوْحَى إِلَيْهِمْ أَن سَبِّحُوا بُكْرَةً وَعَشِيًّا",
+    "eng": "So he came out to his people from the prayer chamber and signaled to them to exalt [Allah] in the morning and afternoon.",
+    "ban": "অতঃপর সে কক্ষ থেকে বের হয়ে তার সম্প্রদায়ের কাছে এল এবং ইঙ্গিতে তাদেরকে সকাল সন্ধ্যায় আল্লাহকে স্মরণ করতে বললঃ"
+  },
+  {
+    "num": "12",
+    "ara": "يَا يَحْيَى خُذِ الْكِتَابَ بِقُوَّةٍ وَآتَيْنَاهُ الْحُكْمَ صَبِيًّا",
+    "eng": "[Allah] said, \"O John, take the Scripture with determination.\" And We gave him judgement [while yet] a boy",
+    "ban": "হে ইয়াহইয়া দৃঢ়তার সাথে এই গ্রন্থ ধারণ কর। আমি তাকে শৈশবেই বিচারবুদ্ধি দান করেছিলাম।"
+  },
+  {
+    "num": "13",
+    "ara": "وَحَنَانًا مِّن لَّدُنَّا وَزَكَاةً وَكَانَ تَقِيًّا",
+    "eng": "And affection from Us and purity, and he was fearing of Allah",
+    "ban": "এবং নিজের পক্ষ থেকে আগ্রহ ও পবিত্রতা দিয়েছি। সে ছিল পরহেযগার।"
+  },
+  {
+    "num": "14",
+    "ara": "وَبَرًّا بِوَالِدَيْهِ وَلَمْ يَكُن جَبَّارًا عَصِيًّا",
+    "eng": "And dutiful to his parents, and he was not a disobedient tyrant.",
+    "ban": "পিতা-মাতার অনুগত এবং সে উদ্ধত, নাফরমান ছিল না।"
+  },
+  {
+    "num": "15",
+    "ara": "وَسَلَامٌ عَلَيْهِ يَوْمَ وُلِدَ وَيَوْمَ يَمُوتُ وَيَوْمَ يُبْعَثُ حَيًّا",
+    "eng": "And peace be upon him the day he was born and the day he dies and the day he is raised alive.",
+    "ban": "তার প্রতি শান্তি-যেদিন সে জন্মগ্রহণ করে এবং যেদিন মৃত্যুবরণ করবে এবং যেদিন জীবিতাবস্থায় পুনরুত্থিত হবে।"
+  },
+  {
+    "num": "16",
+    "ara": "وَاذْكُرْ فِي الْكِتَابِ مَرْيَمَ إِذِ انتَبَذَتْ مِنْ أَهْلِهَا مَكَانًا شَرْقِيًّا",
+    "eng": "And mention, [O Muhammad], in the Book [the story of] Mary, when she withdrew from her family to a place toward the east.",
+    "ban": "এই কিতাবে মারইয়ামের কথা বর্ণনা করুন, যখন সে তার পরিবারের লোকজন থেকে পৃথক হয়ে পূর্বদিকে এক স্থানে আশ্রয় নিল।"
+  },
+  {
+    "num": "17",
+    "ara": "فَاتَّخَذَتْ مِن دُونِهِمْ حِجَابًا فَأَرْسَلْنَا إِلَيْهَا رُوحَنَا فَتَمَثَّلَ لَهَا بَشَرًا سَوِيًّا",
+    "eng": "And she took, in seclusion from them, a screen. Then We sent to her Our Angel, and he represented himself to her as a well-proportioned man.",
+    "ban": "অতঃপর তাদের থেকে নিজেকে আড়াল করার জন্যে সে পর্দা করলো। অতঃপর আমি তার কাছে আমার রূহ প্রেরণ করলাম, সে তার নিকট পুর্ণ মানবাকৃতিতে আত্নপ্রকাশ করল।"
+  },
+  {
+    "num": "18",
+    "ara": "قَالَتْ إِنِّي أَعُوذُ بِالرَّحْمَنِ مِنكَ إِن كُنتَ تَقِيًّا",
+    "eng": "She said, \"Indeed, I seek refuge in the Most Merciful from you, [so leave me], if you should be fearing of Allah.\"",
+    "ban": "মারইয়াম বললঃ আমি তোমা থেকে দয়াময়ের আশ্রয় প্রার্থনা করি যদি তুমি আল্লাহভীরু হও।"
+  },
+  {
+    "num": "19",
+    "ara": "قَالَ إِنَّمَا أَنَا رَسُولُ رَبِّكِ لِأَهَبَ لَكِ غُلَامًا زَكِيًّا",
+    "eng": "He said, \"I am only the messenger of your Lord to give you [news of] a pure boy.\"",
+    "ban": "সে বললঃ আমি তো শুধু তোমার পালনকর্তা প্রেরিত, যাতে তোমাকে এক পবিত্র পুত্র দান করে যাব।"
+  },
+  {
+    "num": "20",
+    "ara": "قَالَتْ أَنَّى يَكُونُ لِي غُلَامٌ وَلَمْ يَمْسَسْنِي بَشَرٌ وَلَمْ أَكُ بَغِيًّا",
+    "eng": "She said, \"How can I have a boy while no man has touched me and I have not been unchaste?\"",
+    "ban": "মরিইয়াম বললঃ কিরূপে আমার পুত্র হবে, যখন কোন মানব আমাকে স্পর্শ করেনি এবং আমি ব্যভিচারিণীও কখনও ছিলাম না ?"
+  },
+  {
+    "num": "21",
+    "ara": "قَالَ كَذَلِكِ قَالَ رَبُّكِ هُوَ عَلَيَّ هَيِّنٌ وَلِنَجْعَلَهُ آيَةً لِّلنَّاسِ وَرَحْمَةً مِّنَّا وَكَانَ أَمْرًا مَّقْضِيًّا",
+    "eng": "He said, \"Thus [it will be]; your Lord says, 'It is easy for Me, and We will make him a sign to the people and a mercy from Us. And it is a matter [already] decreed.' \"",
+    "ban": "সে বললঃ এমনিতেই হবে। তোমার পালনকর্তা বলেছেন, এটা আমার জন্যে সহজ সাধ্য এবং আমি তাকে মানুষের জন্যে একটি নিদর্শন ও আমার পক্ষ থেকে অনুগ্রহ স্বরূপ করতে চাই। এটা তো এক স্থিরীকৃত ব্যাপার।"
+  },
+  {
+    "num": "22",
+    "ara": "فَحَمَلَتْهُ فَانتَبَذَتْ بِهِ مَكَانًا قَصِيًّا",
+    "eng": "So she conceived him, and she withdrew with him to a remote place.",
+    "ban": "অতঃপর তিনি গর্ভে সন্তান ধারণ করলেন এবং তৎসহ এক দূরবর্তী স্থানে চলে গেলেন।"
+  },
+  {
+    "num": "23",
+    "ara": "فَأَجَاءَهَا الْمَخَاضُ إِلَى جِذْعِ النَّخْلَةِ قَالَتْ يَا لَيْتَنِي مِتُّ قَبْلَ هَذَا وَكُنتُ نَسْيًا مَّنسِيًّا",
+    "eng": "And the pains of childbirth drove her to the trunk of a palm tree. She said, \"Oh, I wish I had died before this and was in oblivion, forgotten.\"",
+    "ban": "প্রসব বেদনা তাঁকে এক খেজুর বৃক্ষ-মূলে আশ্রয় নিতে বাধ্য করল। তিনি বললেনঃ হায়, আমি যদি কোনরূপে এর পূর্বে মরে যেতাম এবং মানুষের স্মৃতি থেকে বিলুপ্ত হয়ে, যেতাম!"
+  },
+  {
+    "num": "24",
+    "ara": "فَنَادَاهَا مِن تَحْتِهَا أَلَّا تَحْزَنِي قَدْ جَعَلَ رَبُّكِ تَحْتَكِ سَرِيًّا",
+    "eng": "But he called her from below her, \"Do not grieve; your Lord has provided beneath you a stream.",
+    "ban": "অতঃপর ফেরেশতা তাকে নিম্নদিক থেকে আওয়ায দিলেন যে, তুমি দুঃখ করো না। তোমার পালনকর্তা তোমার পায়ের তলায় একটি নহর জারি করেছেন।"
+  },
+  {
+    "num": "25",
+    "ara": "وَهُزِّي إِلَيْكِ بِجِذْعِ النَّخْلَةِ تُسَاقِطْ عَلَيْكِ رُطَبًا جَنِيًّا",
+    "eng": "And shake toward you the trunk of the palm tree; it will drop upon you ripe, fresh dates.",
+    "ban": "আর তুমি নিজের দিকে খেজুর গাছের কান্ডে নাড়া দাও, তা থেকে তোমার উপর সুপক্ক খেজুর পতিত হবে।"
+  },
+  {
+    "num": "26",
+    "ara": "فَكُلِي وَاشْرَبِي وَقَرِّي عَيْنًا فَإِمَّا تَرَيِنَّ مِنَ الْبَشَرِ أَحَدًا فَقُولِي إِنِّي نَذَرْتُ لِلرَّحْمَنِ صَوْمًا فَلَنْ أُكَلِّمَ الْيَوْمَ إِنسِيًّا",
+    "eng": "So eat and drink and be contented. And if you see from among humanity anyone, say, 'Indeed, I have vowed to the Most Merciful abstention, so I will not speak today to [any] man.' \"",
+    "ban": "যখন আহার কর, পান কর এবং চক্ষু শীতল কর। যদি মানুষের মধ্যে কাউকে তুমি দেখ, তবে বলে দিওঃ আমি আল্লাহর উদ্দেশে রোযা মানত করছি। সুতরাং আজ আমি কিছুতেই কোন মানুষের সাথে কথা বলব না।"
+  },
+  {
+    "num": "27",
+    "ara": "فَأَتَتْ بِهِ قَوْمَهَا تَحْمِلُهُ قَالُوا يَا مَرْيَمُ لَقَدْ جِئْتِ شَيْئًا فَرِيًّا",
+    "eng": "Then she brought him to her people, carrying him. They said, \"O Mary, you have certainly done a thing unprecedented.",
+    "ban": "অতঃপর তিনি সন্তানকে নিয়ে তার সম্প্রদায়ের কাছে উপস্থিত হলেন। তারা বললঃ হে মারইয়াম, তুমি একটি অঘটন ঘটিয়ে বসেছ।"
+  },
+  {
+    "num": "28",
+    "ara": "يَا أُخْتَ هَارُونَ مَا كَانَ أَبُوكِ امْرَأَ سَوْءٍ وَمَا كَانَتْ أُمُّكِ بَغِيًّا",
+    "eng": "O sister of Aaron, your father was not a man of evil, nor was your mother unchaste.\"",
+    "ban": "হে হারূণ-ভাগিনী, তোমার পিতা অসৎ ব্যক্তি ছিলেন না এবং তোমার মাতাও ছিল না ব্যভিচারিনী।"
+  },
+  {
+    "num": "29",
+    "ara": "فَأَشَارَتْ إِلَيْهِ قَالُوا كَيْفَ نُكَلِّمُ مَن كَانَ فِي الْمَهْدِ صَبِيًّا",
+    "eng": "So she pointed to him. They said, \"How can we speak to one who is in the cradle a child?\"",
+    "ban": "অতঃপর তিনি হাতে সন্তানের দিকে ইঙ্গিত করলেন। তারা বললঃ যে কোলের শিশু তার সাথে আমরা কেমন করে কথা বলব?"
+  },
+  {
+    "num": "30",
+    "ara": "قَالَ إِنِّي عَبْدُ اللَّهِ آتَانِيَ الْكِتَابَ وَجَعَلَنِي نَبِيًّا",
+    "eng": "[Jesus] said, \"Indeed, I am the servant of Allah. He has given me the Scripture and made me a prophet.",
+    "ban": "সন্তান বললঃ আমি তো আল্লাহর দাস। তিনি আমাকে কিতাব দিয়েছেন এবং আমাকে নবী করেছেন।"
+  },
+  {
+    "num": "31",
+    "ara": "وَجَعَلَنِي مُبَارَكًا أَيْنَ مَا كُنتُ وَأَوْصَانِي بِالصَّلَاةِ وَالزَّكَاةِ مَا دُمْتُ حَيًّا",
+    "eng": "And He has made me blessed wherever I am and has enjoined upon me prayer and zakah as long as I remain alive",
+    "ban": "আমি যেখানেই থাকি, তিনি আমাকে বরকতময় করেছেন। তিনি আমাকে নির্দেশ দিয়েছেন, যতদিন জীবিত থাকি, ততদিন নামায ও যাকাত আদায় করতে।"
+  },
+  {
+    "num": "32",
+    "ara": "وَبَرًّا بِوَالِدَتِي وَلَمْ يَجْعَلْنِي جَبَّارًا شَقِيًّا",
+    "eng": "And [made me] dutiful to my mother, and He has not made me a wretched tyrant.",
+    "ban": "এবং জননীর অনুগত থাকতে এবং আমাকে তিনি উদ্ধত ও হতভাগ্য করেননি।"
+  },
+  {
+    "num": "33",
+    "ara": "وَالسَّلَامُ عَلَيَّ يَوْمَ وُلِدتُّ وَيَوْمَ أَمُوتُ وَيَوْمَ أُبْعَثُ حَيًّا",
+    "eng": "And peace is on me the day I was born and the day I will die and the day I am raised alive.\"",
+    "ban": "আমার প্রতি সালাম যেদিন আমি জন্মগ্রহণ করেছি, যেদিন মৃত্যুবরণ করব এবং যেদিন পুনরুজ্জীবিত হয়ে উত্থিত হব।"
+  },
+  {
+    "num": "34",
+    "ara": "ذَلِكَ عِيسَى ابْنُ مَرْيَمَ قَوْلَ الْحَقِّ الَّذِي فِيهِ يَمْتَرُونَ",
+    "eng": "That is Jesus, the son of Mary - the word of truth about which they are in dispute.",
+    "ban": "এই মারইয়ামের পুত্র ঈসা। সত্যকথা, যে সম্পর্কে লোকেরা বিতর্ক করে।"
+  },
+  {
+    "num": "35",
+    "ara": "مَا كَانَ لِلَّهِ أَن يَتَّخِذَ مِن وَلَدٍ سُبْحَانَهُ إِذَا قَضَى أَمْرًا فَإِنَّمَا يَقُولُ لَهُ كُن فَيَكُونُ",
+    "eng": "It is not [befitting] for Allah to take a son; exalted is He! When He decrees an affair, He only says to it, \"Be,\" and it is.",
+    "ban": "আল্লাহ এমন নন যে, সন্তান গ্রহণ করবেন, তিনি পবিত্র ও মহিমাময় সত্তা, তিনি যখন কোন কাজ করা সিদ্ধান্ত করেন, তখন একথাই বলেনঃ হও এবং তা হয়ে যায়।"
+  },
+  {
+    "num": "36",
+    "ara": "وَإِنَّ اللَّهَ رَبِّي وَرَبُّكُمْ فَاعْبُدُوهُ هَذَا صِرَاطٌ مُّسْتَقِيمٌ",
+    "eng": "[Jesus said], \"And indeed, Allah is my Lord and your Lord, so worship Him. That is a straight path.\"",
+    "ban": "তিনি আরও বললেনঃ নিশ্চয় আল্লাহ আমার পালনকর্তা ও তোমাদের পালনকর্তা। অতএব, তোমরা তার এবাদত কর। এটা সরল পথ।"
+  },
+  {
+    "num": "37",
+    "ara": "فَاخْتَلَفَ الْأَحْزَابُ مِن بَيْنِهِمْ فَوَيْلٌ لِّلَّذِينَ كَفَرُوا مِن مَّشْهَدِ يَوْمٍ عَظِيمٍ",
+    "eng": "Then the factions differed [concerning Jesus] from among them, so woe to those who disbelieved - from the scene of a tremendous Day.",
+    "ban": "অতঃপর তাদের মধ্যে দলগুলো পৃথক পৃথক পথ অবলম্বন করল। সুতরাং মহাদিবস আগমনকালে কাফেরদের জন্যে ধবংস।"
+  },
+  {
+    "num": "38",
+    "ara": "أَسْمِعْ بِهِمْ وَأَبْصِرْ يَوْمَ يَأْتُونَنَا لَكِنِ الظَّالِمُونَ الْيَوْمَ فِي ضَلَالٍ مُّبِينٍ",
+    "eng": "How [clearly] they will hear and see the Day they come to Us, but the wrongdoers today are in clear error.",
+    "ban": "সেদিন তারা কি চমৎকার শুনবে এবং দেখবে, যেদিন তারা আমার কাছে আগমন করবে। কিন্তু আজ জালেমরা প্রকাশ্য বিভ্রান্তিতে রয়েছে।"
+  },
+  {
+    "num": "39",
+    "ara": "وَأَنذِرْهُمْ يَوْمَ الْحَسْرَةِ إِذْ قُضِيَ الْأَمْرُ وَهُمْ فِي غَفْلَةٍ وَهُمْ لَا يُؤْمِنُونَ",
+    "eng": "And warn them, [O Muhammad], of the Day of Regret, when the matter will be concluded; and [yet], they are in [a state of] heedlessness, and they do not believe.",
+    "ban": "আপনি তাদেরকে পরিতাপের দিবস সম্পর্কে হুশিয়ার করে দিন যখন সব ব্যাপারের মীমাংসা হয়ে যাবে। এখন তারা অনবধানতায় আছে এবং তারা বিশ্বাস স্থাপন করছে না।"
+  },
+  {
+    "num": "40",
+    "ara": "إِنَّا نَحْنُ نَرِثُ الْأَرْضَ وَمَنْ عَلَيْهَا وَإِلَيْنَا يُرْجَعُونَ",
+    "eng": "Indeed, it is We who will inherit the earth and whoever is on it, and to Us they will be returned.",
+    "ban": "আমিই চুড়ান্ত মালিকানার অধিকারী হব পৃথিবীর এবং তার উপর যারা আছে তাদের এবং আমারই কাছে তারা প্রত্যাবর্তিত হবে।"
+  },
+  {
+    "num": "41",
+    "ara": "وَاذْكُرْ فِي الْكِتَابِ إِبْرَاهِيمَ إِنَّهُ كَانَ صِدِّيقًا نَّبِيًّا",
+    "eng": "And mention in the Book [the story of] Abraham. Indeed, he was a man of truth and a prophet.",
+    "ban": "আপনি এই কিতাবে ইব্রাহীমের কথা বর্ণনা করুন। নিশ্চয় তিনি ছিলেন সত্যবাদী, নবী।"
+  },
+  {
+    "num": "42",
+    "ara": "إِذْ قَالَ لِأَبِيهِ يَا أَبَتِ لِمَ تَعْبُدُ مَا لَا يَسْمَعُ وَلَا يُبْصِرُ وَلَا يُغْنِي عَنكَ شَيْئًا",
+    "eng": "[Mention] when he said to his father, \"O my father, why do you worship that which does not hear and does not see and will not benefit you at all?",
+    "ban": "যখন তিনি তার পিতাকে বললেনঃ হে আমার পিতা, যে শোনে না, দেখে না এবং তোমার কোন উপকারে আসে না, তার এবাদত কেন কর?"
+  },
+  {
+    "num": "43",
+    "ara": "يَا أَبَتِ إِنِّي قَدْ جَاءَنِي مِنَ الْعِلْمِ مَا لَمْ يَأْتِكَ فَاتَّبِعْنِي أَهْدِكَ صِرَاطًا سَوِيًّا",
+    "eng": "O my father, indeed there has come to me of knowledge that which has not come to you, so follow me; I will guide you to an even path.",
+    "ban": "হে আমার পিতা, আমার কাছে এমন জ্ঞান এসেছে; যা তোমার কাছে আসেনি, সুতরাং আমার অনুসরণ কর, আমি তোমাকে সরল পথ দেখাব।"
+  },
+  {
+    "num": "44",
+    "ara": "يَا أَبَتِ لَا تَعْبُدِ الشَّيْطَانَ إِنَّ الشَّيْطَانَ كَانَ لِلرَّحْمَنِ عَصِيًّا",
+    "eng": "O my father, do not worship Satan. Indeed Satan has ever been, to the Most Merciful, disobedient.",
+    "ban": "হে আমার পিতা, শয়তানের এবাদত করো না। নিশ্চয় শয়তান দয়াময়ের অবাধ্য।"
+  },
+  {
+    "num": "45",
+    "ara": "يَا أَبَتِ إِنِّي أَخَافُ أَن يَمَسَّكَ عَذَابٌ مِّنَ الرَّحْمَنِ فَتَكُونَ لِلشَّيْطَانِ وَلِيًّا",
+    "eng": "O my father, indeed I fear that there will touch you a punishment from the Most Merciful so you would be to Satan a companion [in Hellfire].\"",
+    "ban": "হে আমার পিতা, আমি আশঙ্কা করি, দয়াময়ের একটি আযাব তোমাকে স্পর্শ করবে, অতঃপর তুমি শয়তানের সঙ্গী হয়ে যাবে।"
+  },
+  {
+    "num": "46",
+    "ara": "قَالَ أَرَاغِبٌ أَنتَ عَنْ آلِهَتِي يَا إِبْرَاهِيمُ لَئِن لَّمْ تَنتَهِ لَأَرْجُمَنَّكَ وَاهْجُرْنِي مَلِيًّا",
+    "eng": "[His father] said, \"Have you no desire for my gods, O Abraham? If you do not desist, I will surely stone you, so avoid me a prolonged time.\"",
+    "ban": "পিতা বললঃ যে ইব্রাহীম, তুমি কি আমার উপাস্যদের থেকে মুখ ফিরিয়ে নিচ্ছ? যদি তুমি বিরত না হও, আমি অবশ্যই প্রস্তরাঘাতে তোমার প্রাণনাশ করব। তুমি চিরতরে আমার কাছ থেকে দূর হয়ে যাও।"
+  },
+  {
+    "num": "47",
+    "ara": "قَالَ سَلَامٌ عَلَيْكَ سَأَسْتَغْفِرُ لَكَ رَبِّي إِنَّهُ كَانَ بِي حَفِيًّا",
+    "eng": "[Abraham] said, \"Peace will be upon you. I will ask forgiveness for you of my Lord. Indeed, He is ever gracious to me.",
+    "ban": "ইব্রাহীম বললেনঃ তোমার উপর শান্তি হোক, আমি আমার পালনকর্তার কাছে তোমার জন্যে ক্ষমা প্রার্থনা করব। নিশ্চয় তিনি আমার প্রতি মেহেরবান।"
+  },
+  {
+    "num": "48",
+    "ara": "وَأَعْتَزِلُكُمْ وَمَا تَدْعُونَ مِن دُونِ اللَّهِ وَأَدْعُو رَبِّي عَسَى أَلَّا أَكُونَ بِدُعَاءِ رَبِّي شَقِيًّا",
+    "eng": "And I will leave you and those you invoke other than Allah and will invoke my Lord. I expect that I will not be in invocation to my Lord unhappy.\"",
+    "ban": "আমি পরিত্যাগ করছি তোমাদেরকে এবং তোমরা আল্লাহ ব্যতীত যাদের এবাদত কর তাদেরকে; আমি আমার পালনকর্তার এবাদত করব। আশা করি, আমার পালনকর্তার এবাদত করে আমি বঞ্চিত হব না।"
+  },
+  {
+    "num": "49",
+    "ara": "فَلَمَّا اعْتَزَلَهُمْ وَمَا يَعْبُدُونَ مِن دُونِ اللَّهِ وَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ وَكُلًّا جَعَلْنَا نَبِيًّا",
+    "eng": "So when he had left them and those they worshipped other than Allah, We gave him Isaac and Jacob, and each [of them] We made a prophet.",
+    "ban": "অতঃপর তিনি যখন তাদেরকে এবং তার আল্লাহ ব্যতীত যাদের এবাদত করত, তাদের সবাইকে পরিত্যাগ করলেন, তখন আমি তাকে দান করলাম ইসহাক ও ইয়াকুব এবং প্রত্যেককে নবী করলাম।"
+  },
+  {
+    "num": "50",
+    "ara": "وَوَهَبْنَا لَهُم مِّن رَّحْمَتِنَا وَجَعَلْنَا لَهُمْ لِسَانَ صِدْقٍ عَلِيًّا",
+    "eng": "And We gave them of Our mercy, and we made for them a reputation of high honor.",
+    "ban": "আমি তাদেরকে দান করলাম আমার অনুগ্রহ এবং তাদেরকে দিলাম সমুচ্চ সুখ্যাতি।"
+  },
+  {
+    "num": "51",
+    "ara": "وَاذْكُرْ فِي الْكِتَابِ مُوسَى إِنَّهُ كَانَ مُخْلَصًا وَكَانَ رَسُولًا نَّبِيًّا",
+    "eng": "And mention in the Book, Moses. Indeed, he was chosen, and he was a messenger and a prophet.",
+    "ban": "এই কিতাবে মূসার কথা বর্ণনা করুন, তিনি ছিলেন মনোনীত এবং তিনি ছিলেন রাসূল, নবী।"
+  },
+  {
+    "num": "52",
+    "ara": "وَنَادَيْنَاهُ مِن جَانِبِ الطُّورِ الْأَيْمَنِ وَقَرَّبْنَاهُ نَجِيًّا",
+    "eng": "And We called him from the side of the mount at [his] right and brought him near, confiding [to him].",
+    "ban": "আমি তাকে আহবান করলাম তূর পাহাড়ের ডান দিক থেকে এবং গুঢ়তত্ত্ব আলোচনার উদ্দেশে তাকে নিকটবর্তী করলাম।"
+  },
+  {
+    "num": "53",
+    "ara": "وَوَهَبْنَا لَهُ مِن رَّحْمَتِنَا أَخَاهُ هَارُونَ نَبِيًّا",
+    "eng": "And We gave him out of Our mercy his brother Aaron as a prophet.",
+    "ban": "আমি নিজ অনুগ্রহে তাঁকে দান করলাম তাঁর ভাই হারুনকে নবীরূপে।"
+  },
+  {
+    "num": "54",
+    "ara": "وَاذْكُرْ فِي الْكِتَابِ إِسْمَاعِيلَ إِنَّهُ كَانَ صَادِقَ الْوَعْدِ وَكَانَ رَسُولًا نَّبِيًّا",
+    "eng": "And mention in the Book, Ishmael. Indeed, he was true to his promise, and he was a messenger and a prophet.",
+    "ban": "এই কিতাবে ইসমাঈলের কথা বর্ণনা করুন, তিনি প্রতিশ্রুতি পালনে সত্যাশ্রয়ী এবং তিনি ছিলেন রসূল, নবী।"
+  },
+  {
+    "num": "55",
+    "ara": "وَكَانَ يَأْمُرُ أَهْلَهُ بِالصَّلَاةِ وَالزَّكَاةِ وَكَانَ عِندَ رَبِّهِ مَرْضِيًّا",
+    "eng": "And he used to enjoin on his people prayer and zakah and was to his Lord pleasing.",
+    "ban": "তিনি তাঁর পরিবারবর্গকে নামায ও যাকাত আদায়ের নির্দেশ দিতেন এবং তিনি তাঁর পালনকর্তার কাছে পছন্দনীয় ছিলেন।"
+  },
+  {
+    "num": "56",
+    "ara": "وَاذْكُرْ فِي الْكِتَابِ إِدْرِيسَ إِنَّهُ كَانَ صِدِّيقًا نَّبِيًّا",
+    "eng": "And mention in the Book, Idrees. Indeed, he was a man of truth and a prophet.",
+    "ban": "এই কিতাবে ইদ্রীসের কথা আলোচনা করুন, তিনি ছিলেন সত্যবাদী নবী।"
+  },
+  {
+    "num": "57",
+    "ara": "وَرَفَعْنَاهُ مَكَانًا عَلِيًّا",
+    "eng": "And We raised him to a high station.",
+    "ban": "আমি তাকে উচ্চে উন্নীত করেছিলাম।"
+  },
+  {
+    "num": "58",
+    "ara": "أُولَئِكَ الَّذِينَ أَنْعَمَ اللَّهُ عَلَيْهِم مِّنَ النَّبِيِّينَ مِن ذُرِّيَّةِ آدَمَ وَمِمَّنْ حَمَلْنَا مَعَ نُوحٍ وَمِن ذُرِّيَّةِ إِبْرَاهِيمَ وَإِسْرَائِيلَ وَمِمَّنْ هَدَيْنَا وَاجْتَبَيْنَا إِذَا تُتْلَى عَلَيْهِمْ آيَاتُ الرَّحْمَنِ خَرُّوا سُجَّدًا وَبُكِيًّا",
+    "eng": "Those were the ones upon whom Allah bestowed favor from among the prophets of the descendants of Adam and of those We carried [in the ship] with Noah, and of the descendants of Abraham and Israel, and of those whom We guided and chose. When the verses of the Most Merciful were recited to them, they fell in prostration and weeping.",
+    "ban": "এরাই তারা-নবীগণের মধ্য থেকে যাদেরকে আল্লাহ তা’আলা নেয়ামত দান করেছেন। এরা আদমের বংশধর এবং যাদেরকে আমি নূহের সাথে নৌকায় আরোহন করিয়েছিলাম, তাদের বংশধর, এবং ইব্রাহীম ও ইসরাঈলের বংশধর এবং যাদেরকে আমি পথ প্রদর্শন করেছি ও মনোনীত করেছি, তাদের বংশোদ্ভূত। তাদের কাছে যখন দয়াময় আল্লাহর আয়াতসমূহ পাঠ করা হত, তখন তারা সেজদায় লুটিয়ে পড়ত এবং ক্রন্দন করত।"
+  },
+  {
+    "num": "59",
+    "ara": "فَخَلَفَ مِن بَعْدِهِمْ خَلْفٌ أَضَاعُوا الصَّلَاةَ وَاتَّبَعُوا الشَّهَوَاتِ فَسَوْفَ يَلْقَوْنَ غَيًّا",
+    "eng": "But there came after them successors who neglected prayer and pursued desires; so they are going to meet evil -",
+    "ban": "অতঃপর তাদের পরে এল অপদার্থ পরবর্তীরা। তারা নামায নষ্ট করল এবং কুপ্রবৃত্তির অনুবর্তী হল। সুতরাং তারা অচিরেই পথভ্রষ্টতা প্রত্যক্ষ করবে।"
+  },
+  {
+    "num": "60",
+    "ara": "إِلَّا مَن تَابَ وَآمَنَ وَعَمِلَ صَالِحًا فَأُولَئِكَ يَدْخُلُونَ الْجَنَّةَ وَلَا يُظْلَمُونَ شَيْئًا",
+    "eng": "Except those who repent, believe and do righteousness; for those will enter Paradise and will not be wronged at all.",
+    "ban": "কিন্তু তারা ব্যতীত, যারা তওবা করেছে, বিশ্বাস স্থাপন করেছে। সুতরাং তারা জান্নাতে প্রবেশ করবে এবং তাদের উপর কোন জুলুম করা হবে না।"
+  },
+  {
+    "num": "61",
+    "ara": "جَنَّاتِ عَدْنٍ الَّتِي وَعَدَ الرَّحْمَنُ عِبَادَهُ بِالْغَيْبِ إِنَّهُ كَانَ وَعْدُهُ مَأْتِيًّا",
+    "eng": "[Therein are] gardens of perpetual residence which the Most Merciful has promised His servants in the unseen. Indeed, His promise has ever been coming.",
+    "ban": "তাদের স্থায়ী বসবাস হবে যার ওয়াদা দয়াময় আল্লাহ তাঁর বান্দাদেরকে অদৃশ্যভাবে দিয়েছেন। অবশ্যই তাঁর ওয়াদার তারা পৌঁছাবে।"
+  },
+  {
+    "num": "62",
+    "ara": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا إِلَّا سَلَامًا وَلَهُمْ رِزْقُهُمْ فِيهَا بُكْرَةً وَعَشِيًّا",
+    "eng": "They will not hear therein any ill speech - only [greetings of] peace - and they will have their provision therein, morning and afternoon.",
+    "ban": "তারা সেখানে সালাম ব্যতীত কোন অসার কথাবার্তা শুনবে না এবং সেখানে সকাল-সন্ধ্যা তাদের জন্যে রুযী থাকবে।"
+  },
+  {
+    "num": "63",
+    "ara": "تِلْكَ الْجَنَّةُ الَّتِي نُورِثُ مِنْ عِبَادِنَا مَن كَانَ تَقِيًّا",
+    "eng": "That is Paradise, which We give as inheritance to those of Our servants who were fearing of Allah.",
+    "ban": "এটা ঐ জান্নাত যার অধিকারী করব আমার বান্দাদের মধ্যে পরহেযগারদেরকে।"
+  },
+  {
+    "num": "64",
+    "ara": "وَمَا نَتَنَزَّلُ إِلَّا بِأَمْرِ رَبِّكَ لَهُ مَا بَيْنَ أَيْدِينَا وَمَا خَلْفَنَا وَمَا بَيْنَ ذَلِكَ وَمَا كَانَ رَبُّكَ نَسِيًّا",
+    "eng": "[Gabriel said], \"And we [angels] descend not except by the order of your Lord. To Him belongs that before us and that behind us and what is in between. And never is your Lord forgetful -",
+    "ban": "(জিব্রাইল বললঃ) আমি আপনার পালনকর্তার আদেশ ব্যতীত অবতরণ করি না, যা আমাদের সামনে আছে, যা আমাদের পশ্চাতে আছে এবং যা এ দুই-এর মধ্যস্থলে আছে, সবই তাঁর এবং আপনার পালনকর্তা বিস্মৃত হওয়ার নন।"
+  },
+  {
+    "num": "65",
+    "ara": "رَّبُّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا فَاعْبُدْهُ وَاصْطَبِرْ لِعِبَادَتِهِ هَلْ تَعْلَمُ لَهُ سَمِيًّا",
+    "eng": "Lord of the heavens and the earth and whatever is between them - so worship Him and have patience for His worship. Do you know of any similarity to Him?\"",
+    "ban": "তিনি নভোমন্ডল, ভূমন্ডলে এতদুভয়ের মধ্যবর্তী সবার পালনকর্তা। সুতরাং তাঁরই বন্দেগী করুন এবং তাতে দৃঢ় থাকুন আপনি কি তাঁর সমনাম কাউকে জানেন?"
+  },
+  {
+    "num": "66",
+    "ara": "وَيَقُولُ الْإِنسَانُ أَإِذَا مَا مِتُّ لَسَوْفَ أُخْرَجُ حَيًّا",
+    "eng": "And the disbeliever says, \"When I have died, am I going to be brought forth alive?\"",
+    "ban": "মানুষ বলেঃ আমার মৃত্যু হলে পর আমি কি জীবিত অবস্থায় পুনরুত্থিত হব?"
+  },
+  {
+    "num": "67",
+    "ara": "أَوَلَا يَذْكُرُ الْإِنسَانُ أَنَّا خَلَقْنَاهُ مِن قَبْلُ وَلَمْ يَكُ شَيْئًا",
+    "eng": "Does man not remember that We created him before, while he was nothing?",
+    "ban": "মানুষ কি স্মরণ করে না যে, আমি তাকে ইতি পূর্বে সৃষ্টি করেছি এবং সে তখন কিছুই ছিল না।"
+  },
+  {
+    "num": "68",
+    "ara": "فَوَرَبِّكَ لَنَحْشُرَنَّهُمْ وَالشَّيَاطِينَ ثُمَّ لَنُحْضِرَنَّهُمْ حَوْلَ جَهَنَّمَ جِثِيًّا",
+    "eng": "So by your Lord, We will surely gather them and the devils; then We will bring them to be present around Hell upon their knees.",
+    "ban": "সুতরাং আপনার পালনকর্তার কসম, আমি অবশ্যই তাদেরকে এবং শয়তানদেরকে একত্রে সমবেত করব, অতঃপর অবশ্যই তাদেরকে নতজানু অবস্থায় জাহান্নামের চারপাশে উপস্থিত করব।"
+  },
+  {
+    "num": "69",
+    "ara": "ثُمَّ لَنَنزِعَنَّ مِن كُلِّ شِيعَةٍ أَيُّهُمْ أَشَدُّ عَلَى الرَّحْمَنِ عِتِيًّا",
+    "eng": "Then We will surely extract from every sect those of them who were worst against the Most Merciful in insolence.",
+    "ban": "অতঃপর প্রত্যেক সম্প্রদায়ের মধ্যে যে দয়াময় আল্লাহর সর্বাধিক অবাধ্য আমি অবশ্যই তাকে পৃথক করে নেব।"
+  },
+  {
+    "num": "70",
+    "ara": "ثُمَّ لَنَحْنُ أَعْلَمُ بِالَّذِينَ هُمْ أَوْلَى بِهَا صِلِيًّا",
+    "eng": "Then, surely it is We who are most knowing of those most worthy of burning therein.",
+    "ban": "অতঃপর তাদের মধ্যে যারা জাহান্নামে প্রবেশের অধিক যোগ্য, আমি তাদের বিষয়ে ভালোভাবে জ্ঞাত আছি।"
+  },
+  {
+    "num": "71",
+    "ara": "وَإِن مِّنكُمْ إِلَّا وَارِدُهَا كَانَ عَلَى رَبِّكَ حَتْمًا مَّقْضِيًّا",
+    "eng": "And there is none of you except he will come to it. This is upon your Lord an inevitability decreed.",
+    "ban": "তোমাদের মধ্যে এমন কেউ নেই যে তথায় পৌছবে না। এটা আপনার পালনকর্তার অনিবার্য ফায়সালা।"
+  },
+  {
+    "num": "72",
+    "ara": "ثُمَّ نُنَجِّي الَّذِينَ اتَّقَوا وَّنَذَرُ الظَّالِمِينَ فِيهَا جِثِيًّا",
+    "eng": "Then We will save those who feared Allah and leave the wrongdoers within it, on their knees.",
+    "ban": "অতঃপর আমি পরহেযগারদেরকে উদ্ধার করব এবং জালেমদেরকে সেখানে নতজানু অবস্থায় ছেড়ে দেব।"
+  },
+  {
+    "num": "73",
+    "ara": "وَإِذَا تُتْلَى عَلَيْهِمْ آيَاتُنَا بَيِّنَاتٍ قَالَ الَّذِينَ كَفَرُوا لِلَّذِينَ آمَنُوا أَيُّ الْفَرِيقَيْنِ خَيْرٌ مَّقَامًا وَأَحْسَنُ نَدِيًّا",
+    "eng": "And when Our verses are recited to them as clear evidences, those who disbelieve say to those who believe, \"Which of [our] two parties is best in position and best in association?\"",
+    "ban": "যখন তাদের কাছে আমার সুস্পষ্ট আয়াতসমূহ তেলাওয়াত করা হয়, তখন কাফেররা মুমিনদেরকে বলেঃ দুই দলের মধ্যে কোনটি মর্তবায় শ্রেষ্ঠ এবং কার মজলিস উত্তম?"
+  },
+  {
+    "num": "74",
+    "ara": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هُمْ أَحْسَنُ أَثَاثًا وَرِئْيًا",
+    "eng": "And how many a generation have We destroyed before them who were better in possessions and [outward] appearance?",
+    "ban": "তাদের পূর্বে কত মানব গোষ্ঠীকে আমি বিনাশ করেছি, তারা তাদের চাইতে সম্পদে ও জাঁক-জমকে শ্রেষ্ঠ ছিল।"
+  },
+  {
+    "num": "75",
+    "ara": "قُلْ مَن كَانَ فِي الضَّلَالَةِ فَلْيَمْدُدْ لَهُ الرَّحْمَنُ مَدًّا حَتَّى إِذَا رَأَوْا مَا يُوعَدُونَ إِمَّا الْعَذَابَ وَإِمَّا السَّاعَةَ فَسَيَعْلَمُونَ مَنْ هُوَ شَرٌّ مَّكَانًا وَأَضْعَفُ جُندًا",
+    "eng": "Say, \"Whoever is in error - let the Most Merciful extend for him an extension [in wealth and time] until, when they see that which they were promised - either punishment [in this world] or the Hour [of resurrection] - they will come to know who is worst in position and weaker in soldiers.\"",
+    "ban": "বলুন, যারা পথভ্রষ্টতায় আছে, দয়াময় আল্লাহ তাদেরকে যথেষ্ট অবকাশ দেবেন; এমনকি অবশেষে তারা প্রত্যক্ষ করবে যে বিষয়ে তাদেরকে ওয়াদা দেয়া হচ্ছে, তা আযাব হোক অথবা কেয়ামতই হোক। সুতরাং তখন তারা জানতে পারবে কে মর্তবায় নিকৃষ্ট ও দলবলে দূর্বল।"
+  },
+  {
+    "num": "76",
+    "ara": "وَيَزِيدُ اللَّهُ الَّذِينَ اهْتَدَوْا هُدًى وَالْبَاقِيَاتُ الصَّالِحَاتُ خَيْرٌ عِندَ رَبِّكَ ثَوَابًا وَخَيْرٌ مَّرَدًّا",
+    "eng": "And Allah increases those who were guided, in guidance, and the enduring good deeds are better to your Lord for reward and better for recourse.",
+    "ban": "যারা সৎপথে চলে আল্লাহ তাদের পথপ্রাপ্তি বৃদ্ধি করেন এবং স্থায়ী সৎকর্মসমূহ তোমার পালনকর্তার কাছে সওয়াবের দিক দিয়ে শ্রেষ্ঠ এবং প্রতিদান হিসেবেও শ্রেষ্ট।"
+  },
+  {
+    "num": "77",
+    "ara": "أَفَرَأَيْتَ الَّذِي كَفَرَ بِآيَاتِنَا وَقَالَ لَأُوتَيَنَّ مَالًا وَوَلَدًا",
+    "eng": "Then, have you seen he who disbelieved in Our verses and said, \"I will surely be given wealth and children [in the next life]?\"",
+    "ban": "আপনি কি তাকে লক্ষ্য করেছেন যে, আমার নিদর্শনাবলীতে বিশ্বাস করে না এবং বলেঃ আমাকে অর্থ-সম্পদ ও সন্তান-সন্ততি অবশ্যই দেয়া হবে।"
+  },
+  {
+    "num": "78",
+    "ara": "أَطَّلَعَ الْغَيْبَ أَمِ اتَّخَذَ عِندَ الرَّحْمَنِ عَهْدًا",
+    "eng": "Has he looked into the unseen, or has he taken from the Most Merciful a promise?",
+    "ban": "সে কি অদৃশ্য বিষয় জেনে ফেলেছে, অথবা দয়াময় আল্লাহর নিকট থেকে কোন প্রতিশ্রুতি প্রাপ্ত হয়েছে?"
+  },
+  {
+    "num": "79",
+    "ara": "كَلَّا سَنَكْتُبُ مَا يَقُولُ وَنَمُدُّ لَهُ مِنَ الْعَذَابِ مَدًّا",
+    "eng": "No! We will record what he says and extend for him from the punishment extensively.",
+    "ban": "না, এটা ঠিক নয়। সে যা বলে আমি তা লিখে রাখব এবং তার শাস্তি দীর্ঘায়িত করতে থাকব।"
+  },
+  {
+    "num": "80",
+    "ara": "وَنَرِثُهُ مَا يَقُولُ وَيَأْتِينَا فَرْدًا",
+    "eng": "And We will inherit him [in] what he mentions, and he will come to Us alone.",
+    "ban": "সে যা বলে, মৃত্যুর পর আমি তা নিয়ে নেব এবং সে আমার কাছে আসবে একাকী।"
+  },
+  {
+    "num": "81",
+    "ara": "وَاتَّخَذُوا مِن دُونِ اللَّهِ آلِهَةً لِّيَكُونُوا لَهُمْ عِزًّا",
+    "eng": "And they have taken besides Allah [false] deities that they would be for them [a source of] honor.",
+    "ban": "তারা আল্লাহ ব্যতীত অন্যান্য ইলাহ গ্রহণ করেছে, যাতে তারা তাদের জন্যে সাহায্যকারী হয়।"
+  },
+  {
+    "num": "82",
+    "ara": "كَلَّا سَيَكْفُرُونَ بِعِبَادَتِهِمْ وَيَكُونُونَ عَلَيْهِمْ ضِدًّا",
+    "eng": "No! Those \"gods\" will deny their worship of them and will be against them opponents [on the Day of Judgement].",
+    "ban": "কখনই নয়, তারা তাদের এবাদত অস্বীকার করবে এবং তাদের বিপক্ষে চলে যাবে।"
+  },
+  {
+    "num": "83",
+    "ara": "أَلَمْ تَرَ أَنَّا أَرْسَلْنَا الشَّيَاطِينَ عَلَى الْكَافِرِينَ تَؤُزُّهُمْ أَزًّا",
+    "eng": "Do you not see that We have sent the devils upon the disbelievers, inciting them to [evil] with [constant] incitement?",
+    "ban": "আপনি কি লক্ষ্য করেননি যে, আমি কাফেরদের উপর শয়তানদেরকে ছেড়ে দিয়েছি। তারা তাদেরকে বিশেষভাবে (মন্দকর্মে) উৎসাহিত করে।"
+  },
+  {
+    "num": "84",
+    "ara": "فَلَا تَعْجَلْ عَلَيْهِمْ إِنَّمَا نَعُدُّ لَهُمْ عَدًّا",
+    "eng": "So be not impatient over them. We only count out to them a [limited] number.",
+    "ban": "সুতরাং তাদের ব্যাপারে আপনি তাড়াহুড়া করবেন না। আমি তো তাদের গণনা পূর্ণ করছি মাত্র।"
+  },
+  {
+    "num": "85",
+    "ara": "يَوْمَ نَحْشُرُ الْمُتَّقِينَ إِلَى الرَّحْمَنِ وَفْدًا",
+    "eng": "On the Day We will gather the righteous to the Most Merciful as a delegation",
+    "ban": "সেদিন দয়াময়ের কাছে পরহেযগারদেরকে অতিথিরূপে সমবেত করব,"
+  },
+  {
+    "num": "86",
+    "ara": "وَنَسُوقُ الْمُجْرِمِينَ إِلَى جَهَنَّمَ وِرْدًا",
+    "eng": "And will drive the criminals to Hell in thirst",
+    "ban": "এবং অপরাধীদেরকে পিপাসার্ত অবস্থায় জাহান্নামের দিকে হাঁকিয়ে নিয়ে যাব।"
+  },
+  {
+    "num": "87",
+    "ara": "لَّا يَمْلِكُونَ الشَّفَاعَةَ إِلَّا مَنِ اتَّخَذَ عِندَ الرَّحْمَنِ عَهْدًا",
+    "eng": "None will have [power of] intercession except he who had taken from the Most Merciful a covenant.",
+    "ban": "যে দয়াময় আল্লাহর কাছ থেকে প্রতিশ্রুতি গ্রহণ করেছে, সে ব্যতীত আর কেউ সুপারিশ করার অধিকারী হবে না।"
+  },
+  {
+    "num": "88",
+    "ara": "وَقَالُوا اتَّخَذَ الرَّحْمَنُ وَلَدًا",
+    "eng": "And they say, \"The Most Merciful has taken [for Himself] a son.\"",
+    "ban": "তারা বলেঃ দয়াময় আল্লাহ সন্তান গ্রহণ করেছেন।"
+  },
+  {
+    "num": "89",
+    "ara": "لَّقَدْ جِئْتُمْ شَيْئًا إِدًّا",
+    "eng": "You have done an atrocious thing.",
+    "ban": "নিশ্চয় তোমরা তো এক অদ্ভুত কান্ড করেছ।"
+  },
+  {
+    "num": "90",
+    "ara": "تَكَادُ السَّمَاوَاتُ يَتَفَطَّرْنَ مِنْهُ وَتَنشَقُّ الْأَرْضُ وَتَخِرُّ الْجِبَالُ هَدًّا",
+    "eng": "The heavens almost rupture therefrom and the earth splits open and the mountains collapse in devastation",
+    "ban": "হয় তো এর কারণেই এখনই নভোমন্ডল ফেটে পড়বে, পৃথিবী খন্ড-বিখন্ড হবে এবং পর্বতমালা চূর্ণ-বিচুর্ণ হবে।"
+  },
+  {
+    "num": "91",
+    "ara": "أَن دَعَوْا لِلرَّحْمَنِ وَلَدًا",
+    "eng": "That they attribute to the Most Merciful a son.",
+    "ban": "এ কারণে যে, তারা দয়াময় আল্লাহর জন্যে সন্তান আহবান করে।"
+  },
+  {
+    "num": "92",
+    "ara": "وَمَا يَنبَغِي لِلرَّحْمَنِ أَن يَتَّخِذَ وَلَدًا",
+    "eng": "And it is not appropriate for the Most Merciful that He should take a son.",
+    "ban": "অথচ সন্তান গ্রহণ করা দয়াময়ের জন্য শোভনীয় নয়।"
+  },
+  {
+    "num": "93",
+    "ara": "إِن كُلُّ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ إِلَّا آتِي الرَّحْمَنِ عَبْدًا",
+    "eng": "There is no one in the heavens and earth but that he comes to the Most Merciful as a servant.",
+    "ban": "নভোমন্ডল ও ভূ-মন্ডলে কেউ নেই যে, দয়াময় আল্লাহর কাছে দাস হয়ে উপস্থিত হবে না।"
+  },
+  {
+    "num": "94",
+    "ara": "لَّقَدْ أَحْصَاهُمْ وَعَدَّهُمْ عَدًّا",
+    "eng": "He has enumerated them and counted them a [full] counting.",
+    "ban": "তাঁর কাছে তাদের পরিসংখ্যান রয়েছে এবং তিনি তাদেরকে গণনা করে রেখেছেন।"
+  },
+  {
+    "num": "95",
+    "ara": "وَكُلُّهُمْ آتِيهِ يَوْمَ الْقِيَامَةِ فَرْدًا",
+    "eng": "And all of them are coming to Him on the Day of Resurrection alone.",
+    "ban": "কেয়ামতের দিন তাদের সবাই তাঁর কাছে একাকী অবস্থায় আসবে।"
+  },
+  {
+    "num": "96",
+    "ara": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ سَيَجْعَلُ لَهُمُ الرَّحْمَنُ وُدًّا",
+    "eng": "Indeed, those who have believed and done righteous deeds - the Most Merciful will appoint for them affection.",
+    "ban": "যারা বিশ্বাস স্থাপন করে এবং সৎকর্ম সম্পাদন করে, তাদেরকে দয়াময় আল্লাহ ভালবাসা দেবেন।"
+  },
+  {
+    "num": "97",
+    "ara": "فَإِنَّمَا يَسَّرْنَاهُ بِلِسَانِكَ لِتُبَشِّرَ بِهِ الْمُتَّقِينَ وَتُنذِرَ بِهِ قَوْمًا لُّدًّا",
+    "eng": "So, [O Muhammad], We have only made Qur'an easy in the Arabic language that you may give good tidings thereby to the righteous and warn thereby a hostile people.",
+    "ban": "আমি কোরআনকে আপনার ভাষায় সহজ করে দিয়েছি, যাতে আপনি এর দ্বারা পরহেযগারদেরকে সুসংবাদ দেন এবং কলহকারী সম্প্রদায়কে সতর্ক করেন।"
+  },
+  {
+    "num": "98",
+    "ara": "وَكَمْ أَهْلَكْنَا قَبْلَهُم مِّن قَرْنٍ هَلْ تُحِسُّ مِنْهُم مِّنْ أَحَدٍ أَوْ تَسْمَعُ لَهُمْ رِكْزًا",
+    "eng": "And how many have We destroyed before them of generations? Do you perceive of them anyone or hear from them a sound?",
+    "ban": "তাদের পূর্বে আমি কত মানবগোষ্ঠীকে ধ্বংস করেছি। আপনি কি তাদের কাহারও সাড়া পান, অথবা তাদের ক্ষীনতম আওয়ায ও শুনতে পান?"
+  }
+]

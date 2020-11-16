@@ -1,0 +1,50 @@
+</head>
+
+<body>
+  <header class="grid">
+    <div class="main-logo"><a href="/"><img src="/assets/img/logo/logo.svg" alt="logo"></a></div>
+    <nav class="links">
+      <ul>
+        <li class="dropdown">
+          <p>Explore</p>
+          <div>
+            <a href="/quran">Quran</a>
+            <a href="/articles">Articles</a>
+            <a href="/chocolate">Chocolate</a>
+          </div>
+        </li>
+        <li class="dropdown"><% if (user) { %>
+          <p>Express</p>
+          <div>
+            <a href="/api">API</a>
+            <a href="/articles/create">Create Article</a>
+            <a href="/discuss">Discuss</a>
+            <a href="/auth/account" id="name"><%= user.username %></a>
+          </div><% } else { %>
+          <p>Auth</p>
+          <div>
+            <a href="/auth/login">Login</a>
+            <a href="/auth/signup">Sign Up</a>
+          </div><% } %>
+        </li>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </nav>
+    <button class="burger">
+      <i class="material-icons">menu</i>
+    </button>
+    <aside class="links">
+      <ul class="nosb">
+        <li><a href="/">Home</a></li>
+        <li><a href="/quran">Quran</a></li>
+        <li><a href="/articles">Articles</a></li>
+        <li><a href="/chocolate">Chocolate</a></li><% if (user) { %>
+        <li><a href="/api">API</a></li>
+        <li><a href="/discuss">Discuss</a></li>
+        <li><a href="/auth/account"><%= user.username %></a></li><% } else { %>
+        <li><a href="/auth/login">Login</a></li>
+        <li><a href="/auth/signup">Sign Up</a></li><% } %>
+        <li><a href="/about">About</a></li>
+      </ul>
+    </aside>
+  </header>

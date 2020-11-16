@@ -1,0 +1,42 @@
+.articles {
+  padding: 0;
+  margin: 50px 0;
+  width: 80%;
+}
+.article.link {
+  border-left: 20px solid var(--primary);
+  padding-left: 50px;
+}
+.article.link:hover {
+  border-left-color: var(--secondary);
+}
+.article.link a {
+  display: block;
+}
+.article.link a * {
+  margin: 20px 0 10px;
+}
+.article .title {
+  margin-bottom: 30px;
+}
+.article .author {
+  font-size: 1.2em;
+}
+.article.details .title {
+  text-align: center;
+  margin: 0 auto 50px;
+}
+.article.details ul {
+  display: flex;
+}
+.article.details li {
+  margin-right: 30px;
+}
+.center {
+  text-align: center;
+  width: 80%;
+  font-size: larger;
+  font-weight: bold;
+  margin: auto;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Choclacode",
+  "nickname": "Saqib",
+  "languages": {
+    "JavaScript": "80%",
+    "Php": "50%",
+    "Python": "60%",
+    "Java": "60%", "Kotlin": "20%",
+    "C": "20%", "C++": "20%", "C#": "20%",
+    "HTML": "80%", "CSS": "80%"
+  },
+  "frameworks": {
+    "JavaScript": {
+      "front-end": {
+        "React": "75%",
+        "React Native": "50%",
+        "Vue": "0%"
+      },
+      "back-end": {
+        "node-js": "80%",
+        "express": "80%"
+      }
+    },
+    "Python": { "Django": "40%" },
+    "Php": { "Laravel": "0%" }
+  },
+  "development": {
+    "since": "Oct 2020",
+    "experience": 0,
+    "skills": {
+      "front-end": "80%",
+      "back-end": "75%",
+      "full-stack": "25%"
+    }
+  },
+  "contact": {
+    "mail": "saqib@choclacode.eu.org",
+    "twitter": "@choclacode",
+    "facebook": "/choclacode",
+    "whatsapp": "+8801757055270"
+  }
+}

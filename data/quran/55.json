@@ -1,0 +1,470 @@
+[
+  {
+    "num": "1",
+    "ara": "الرَّحْمَنُ",
+    "eng": "The Most Merciful",
+    "ban": "করুনাময় আল্লাহ।"
+  },
+  {
+    "num": "2",
+    "ara": "عَلَّمَ الْقُرْآنَ",
+    "eng": "Taught the Qur'an,",
+    "ban": "শিক্ষা দিয়েছেন কোরআন,"
+  },
+  {
+    "num": "3",
+    "ara": "خَلَقَ الْإِنسَانَ",
+    "eng": "Created man,",
+    "ban": "সৃষ্টি করেছেন মানুষ,"
+  },
+  {
+    "num": "4",
+    "ara": "عَلَّمَهُ الْبَيَانَ",
+    "eng": "[And] taught him eloquence.",
+    "ban": "তাকে শিখিয়েছেন বর্ণনা।"
+  },
+  {
+    "num": "5",
+    "ara": "الشَّمْسُ وَالْقَمَرُ بِحُسْبَانٍ",
+    "eng": "The sun and the moon [move] by precise calculation,",
+    "ban": "সূর্য ও চন্দ্র হিসাবমত চলে।"
+  },
+  {
+    "num": "6",
+    "ara": "وَالنَّجْمُ وَالشَّجَرُ يَسْجُدَانِ",
+    "eng": "And the stars and trees prostrate.",
+    "ban": "এবং তৃণলতা ও বৃক্ষাদি সেজদারত আছে।"
+  },
+  {
+    "num": "7",
+    "ara": "وَالسَّمَاءَ رَفَعَهَا وَوَضَعَ الْمِيزَانَ",
+    "eng": "And the heaven He raised and imposed the balance",
+    "ban": "তিনি আকাশকে করেছেন সমুন্নত এবং স্থাপন করেছেন তুলাদন্ড।"
+  },
+  {
+    "num": "8",
+    "ara": "أَلَّا تَطْغَوْا فِي الْمِيزَانِ",
+    "eng": "That you not transgress within the balance.",
+    "ban": "যাতে তোমরা সীমালংঘন না কর তুলাদন্ডে।"
+  },
+  {
+    "num": "9",
+    "ara": "وَأَقِيمُوا الْوَزْنَ بِالْقِسْطِ وَلَا تُخْسِرُوا الْمِيزَانَ",
+    "eng": "And establish weight in justice and do not make deficient the balance.",
+    "ban": "তোমরা ন্যায্য ওজন কায়েম কর এবং ওজনে কম দিয়ো না।"
+  },
+  {
+    "num": "10",
+    "ara": "وَالْأَرْضَ وَضَعَهَا لِلْأَنَامِ",
+    "eng": "And the earth He laid [out] for the creatures.",
+    "ban": "তিনি পৃথিবীকে স্থাপন করেছেন সৃষ্টজীবের জন্যে।"
+  },
+  {
+    "num": "11",
+    "ara": "فِيهَا فَاكِهَةٌ وَالنَّخْلُ ذَاتُ الْأَكْمَامِ",
+    "eng": "Therein is fruit and palm trees having sheaths [of dates]",
+    "ban": "এতে আছে ফলমূল এবং বহিরাবরণবিশিষ্ট খর্জুর বৃক্ষ।"
+  },
+  {
+    "num": "12",
+    "ara": "وَالْحَبُّ ذُو الْعَصْفِ وَالرَّيْحَانُ",
+    "eng": "And grain having husks and scented plants.",
+    "ban": "আর আছে খোসাবিশিষ্ট শস্য ও সুগন্ধি ফুল।"
+  },
+  {
+    "num": "13",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "14",
+    "ara": "خَلَقَ الْإِنسَانَ مِن صَلْصَالٍ كَالْفَخَّارِ",
+    "eng": "He created man from clay like [that of] pottery.",
+    "ban": "তিনি মানুষকে সৃষ্টি করেছেন পোড়া মাটির ন্যায় শুষ্ক মৃত্তিকা থেকে।"
+  },
+  {
+    "num": "15",
+    "ara": "وَخَلَقَ الْجَانَّ مِن مَّارِجٍ مِّن نَّارٍ",
+    "eng": "And He created the jinn from a smokeless flame of fire.",
+    "ban": "এবং জিনকে সৃষ্টি করেছেন অগ্নিশিখা থেকে।"
+  },
+  {
+    "num": "16",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "17",
+    "ara": "رَبُّ الْمَشْرِقَيْنِ وَرَبُّ الْمَغْرِبَيْنِ",
+    "eng": "[He is] Lord of the two sunrises and Lord of the two sunsets.",
+    "ban": "তিনি দুই উদয়াচল ও দুই অস্তাচলের মালিক।"
+  },
+  {
+    "num": "18",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "19",
+    "ara": "مَرَجَ الْبَحْرَيْنِ يَلْتَقِيَانِ",
+    "eng": "He released the two seas, meeting [side by side];",
+    "ban": "তিনি পাশাপাশি দুই দরিয়া প্রবাহিত করেছেন।"
+  },
+  {
+    "num": "20",
+    "ara": "بَيْنَهُمَا بَرْزَخٌ لَّا يَبْغِيَانِ",
+    "eng": "Between them is a barrier [so] neither of them transgresses.",
+    "ban": "উভয়ের মাঝখানে রয়েছে এক অন্তরাল, যা তারা অতিক্রম করে না।"
+  },
+  {
+    "num": "21",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "22",
+    "ara": "يَخْرُجُ مِنْهُمَا اللُّؤْلُؤُ وَالْمَرْجَانُ",
+    "eng": "From both of them emerge pearl and coral.",
+    "ban": "উভয় দরিয়া থেকে উৎপন্ন হয় মোতি ও প্রবাল।"
+  },
+  {
+    "num": "23",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "24",
+    "ara": "وَلَهُ الْجَوَارِ الْمُنشَآتُ فِي الْبَحْرِ كَالْأَعْلَامِ",
+    "eng": "And to Him belong the ships [with sails] elevated in the sea like mountains.",
+    "ban": "দরিয়ায় বিচরণশীল পর্বতদৃশ্য জাহাজসমূহ তাঁরই (নিয়ন্ত্রনাধীন)"
+  },
+  {
+    "num": "25",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "26",
+    "ara": "كُلُّ مَنْ عَلَيْهَا فَانٍ",
+    "eng": "Everyone upon the earth will perish,",
+    "ban": "ভূপৃষ্টের সবকিছুই ধ্বংসশীল।"
+  },
+  {
+    "num": "27",
+    "ara": "وَيَبْقَى وَجْهُ رَبِّكَ ذُو الْجَلَالِ وَالْإِكْرَامِ",
+    "eng": "And there will remain the Face of your Lord, Owner of Majesty and Honor.",
+    "ban": "একমাত্র আপনার মহিমায় ও মহানুভব পালনকর্তার সত্তা ছাড়া।"
+  },
+  {
+    "num": "28",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "29",
+    "ara": "يَسْأَلُهُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ كُلَّ يَوْمٍ هُوَ فِي شَأْنٍ",
+    "eng": "Whoever is within the heavens and earth asks Him; every day He is bringing about a matter.",
+    "ban": "নভোমন্ডল ও ভূমন্ডলের সবাই তাঁর কাছে প্রার্থী। তিনি সর্বদাই কোন না কোন কাজে রত আছেন।"
+  },
+  {
+    "num": "30",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "31",
+    "ara": "سَنَفْرُغُ لَكُمْ أَيُّهَ الثَّقَلَانِ",
+    "eng": "We will attend to you, O prominent beings.",
+    "ban": "হে জিন ও মানব! আমি শীঘ্রই তোমাদের জন্যে কর্মমুক্ত হয়ে যাব।"
+  },
+  {
+    "num": "32",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "33",
+    "ara": "يَا مَعْشَرَ الْجِنِّ وَالْإِنسِ إِنِ اسْتَطَعْتُمْ أَن تَنفُذُوا مِنْ أَقْطَارِ السَّمَاوَاتِ وَالْأَرْضِ فَانفُذُوا لَا تَنفُذُونَ إِلَّا بِسُلْطَانٍ",
+    "eng": "O company of jinn and mankind, if you are able to pass beyond the regions of the heavens and the earth, then pass. You will not pass except by authority [from Allah].",
+    "ban": "হে জিন ও মানবকূল, নভোমন্ডল ও ভূমন্ডলের প্রান্ত অতিক্রম করা যদি তোমাদের সাধ্যে কুলায়, তবে অতিক্রম কর। কিন্তু ছাড়পত্র ব্যতীত তোমরা তা অতিক্রম করতে পারবে না।"
+  },
+  {
+    "num": "34",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "35",
+    "ara": "يُرْسَلُ عَلَيْكُمَا شُوَاظٌ مِّن نَّارٍ وَنُحَاسٌ فَلَا تَنتَصِرَانِ",
+    "eng": "There will be sent upon you a flame of fire and smoke, and you will not defend yourselves.",
+    "ban": "ছাড়া হবে তোমাদের প্রতি অগ্নিস্ফুলিঙ্গ ও ধুম্রকুঞ্জ তখন তোমরা সেসব প্রতিহত করতে পারবে না।"
+  },
+  {
+    "num": "36",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "37",
+    "ara": "فَإِذَا انشَقَّتِ السَّمَاءُ فَكَانَتْ وَرْدَةً كَالدِّهَانِ",
+    "eng": "And when the heaven is split open and becomes rose-colored like oil -",
+    "ban": "যেদিন আকাশ বিদীর্ণ হবে তখন সেটি রক্তবর্ণে রঞ্জিত চামড়ার মত হয়ে যাবে।"
+  },
+  {
+    "num": "38",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "39",
+    "ara": "فَيَوْمَئِذٍ لَّا يُسْأَلُ عَن ذَنبِهِ إِنسٌ وَلَا جَانٌّ",
+    "eng": "Then on that Day none will be asked about his sin among men or jinn.",
+    "ban": "সেদিন মানুষ না তার অপরাধ সম্পর্কে জিজ্ঞাসিত হবে, না জিন।"
+  },
+  {
+    "num": "40",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "41",
+    "ara": "يُعْرَفُ الْمُجْرِمُونَ بِسِيمَاهُمْ فَيُؤْخَذُ بِالنَّوَاصِي وَالْأَقْدَامِ",
+    "eng": "The criminals will be known by their marks, and they will be seized by the forelocks and the feet.",
+    "ban": "অপরাধীদের পরিচয় পাওয়া যাবে তাদের চেহারা থেকে; অতঃপর তাদের কপালের চুল ও পা ধরে টেনে নেয়া হবে।"
+  },
+  {
+    "num": "42",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "43",
+    "ara": "هَذِهِ جَهَنَّمُ الَّتِي يُكَذِّبُ بِهَا الْمُجْرِمُونَ",
+    "eng": "This is Hell, which the criminals deny.",
+    "ban": "এটাই জাহান্নাম, যাকে অপরাধীরা মিথ্যা বলত।"
+  },
+  {
+    "num": "44",
+    "ara": "يَطُوفُونَ بَيْنَهَا وَبَيْنَ حَمِيمٍ آنٍ",
+    "eng": "They will go around between it and scalding water, heated [to the utmost degree].",
+    "ban": "তারা জাহান্নামের অগ্নি ও ফুটন্ত পানির মাঝখানে প্রদক্ষিণ করবে।"
+  },
+  {
+    "num": "45",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "46",
+    "ara": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتَانِ",
+    "eng": "But for he who has feared the position of his Lord are two gardens -",
+    "ban": "যে ব্যক্তি তার পালনকর্তার সামনে পেশ হওয়ার ভয় রাখে, তার জন্যে রয়েছে দু’টি উদ্যান।"
+  },
+  {
+    "num": "47",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "48",
+    "ara": "ذَوَاتَا أَفْنَانٍ",
+    "eng": "Having [spreading] branches.",
+    "ban": "উভয় উদ্যানই ঘন শাখা-পল্লববিশিষ্ট।"
+  },
+  {
+    "num": "49",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "50",
+    "ara": "فِيهِمَا عَيْنَانِ تَجْرِيَانِ",
+    "eng": "In both of them are two springs, flowing.",
+    "ban": "উভয় উদ্যানে আছে বহমান দুই প্রস্রবন।"
+  },
+  {
+    "num": "51",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "52",
+    "ara": "فِيهِمَا مِن كُلِّ فَاكِهَةٍ زَوْجَانِ",
+    "eng": "In both of them are of every fruit, two kinds.",
+    "ban": "উভয়ের মধ্যে প্রত্যেক ফল বিভিন্ন রকমের হবে।"
+  },
+  {
+    "num": "53",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "54",
+    "ara": "مُتَّكِئِينَ عَلَى فُرُشٍ بَطَائِنُهَا مِنْ إِسْتَبْرَقٍ وَجَنَى الْجَنَّتَيْنِ دَانٍ",
+    "eng": "[They are] reclining on beds whose linings are of silk brocade, and the fruit of the two gardens is hanging low.",
+    "ban": "তারা তথায় রেশমের আস্তরবিশিষ্ট বিছানায় হেলান দিয়ে বসবে। উভয় উদ্যানের ফল তাদের নিকট ঝুলবে।"
+  },
+  {
+    "num": "55",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "56",
+    "ara": "فِيهِنَّ قَاصِرَاتُ الطَّرْفِ لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَانٌّ",
+    "eng": "In them are women limiting [their] glances, untouched before them by man or jinni -",
+    "ban": "তথায় থাকবে আনতনয়ন রমনীগন, কোন জিন ও মানব পূর্বে যাদের ব্যবহার করেনি।"
+  },
+  {
+    "num": "57",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "58",
+    "ara": "كَأَنَّهُنَّ الْيَاقُوتُ وَالْمَرْجَانُ",
+    "eng": "As if they were rubies and coral.",
+    "ban": "প্রবাল ও পদ্মরাগ সদৃশ রমণীগণ।"
+  },
+  {
+    "num": "59",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "60",
+    "ara": "هَلْ جَزَاءُ الْإِحْسَانِ إِلَّا الْإِحْسَانُ",
+    "eng": "Is the reward for good [anything] but good?",
+    "ban": "সৎকাজের প্রতিদান উত্তম পুরস্কার ব্যতীত কি হতে পারে?"
+  },
+  {
+    "num": "61",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "62",
+    "ara": "وَمِن دُونِهِمَا جَنَّتَانِ",
+    "eng": "And below them both [in excellence] are two [other] gardens -",
+    "ban": "এই দু’টি ছাড়া আরও দু’টি উদ্যান রয়েছে।"
+  },
+  {
+    "num": "63",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "64",
+    "ara": "مُدْهَامَّتَانِ",
+    "eng": "Dark green [in color].",
+    "ban": "কালোমত ঘন সবুজ।"
+  },
+  {
+    "num": "65",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "66",
+    "ara": "فِيهِمَا عَيْنَانِ نَضَّاخَتَانِ",
+    "eng": "In both of them are two springs, spouting.",
+    "ban": "তথায় আছে উদ্বেলিত দুই প্রস্রবণ।"
+  },
+  {
+    "num": "67",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "68",
+    "ara": "فِيهِمَا فَاكِهَةٌ وَنَخْلٌ وَرُمَّانٌ",
+    "eng": "In both of them are fruit and palm trees and pomegranates.",
+    "ban": "তথায় আছে ফল-মূল, খর্জুর ও আনার।"
+  },
+  {
+    "num": "69",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "70",
+    "ara": "فِيهِنَّ خَيْرَاتٌ حِسَانٌ",
+    "eng": "In them are good and beautiful women -",
+    "ban": "সেখানে থাকবে সচ্চরিত্রা সুন্দরী রমণীগণ।"
+  },
+  {
+    "num": "71",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "72",
+    "ara": "حُورٌ مَّقْصُورَاتٌ فِي الْخِيَامِ",
+    "eng": "Fair ones reserved in pavilions -",
+    "ban": "তাঁবুতে অবস্থানকারিণী হুরগণ।"
+  },
+  {
+    "num": "73",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "74",
+    "ara": "لَمْ يَطْمِثْهُنَّ إِنسٌ قَبْلَهُمْ وَلَا جَانٌّ",
+    "eng": "Untouched before them by man or jinni -",
+    "ban": "কোন জিন ও মানব পূর্বে তাদেরকে স্পর্শ করেনি।"
+  },
+  {
+    "num": "75",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "76",
+    "ara": "مُتَّكِئِينَ عَلَى رَفْرَفٍ خُضْرٍ وَعَبْقَرِيٍّ حِسَانٍ",
+    "eng": "Reclining on green cushions and beautiful fine carpets.",
+    "ban": "তারা সবুজ মসনদে এবং উৎকৃষ্ট মূল্যবান বিছানায় হেলান দিয়ে বসবে।"
+  },
+  {
+    "num": "77",
+    "ara": "فَبِأَيِّ آلَاءِ رَبِّكُمَا تُكَذِّبَانِ",
+    "eng": "So which of the favors of your Lord would you deny?",
+    "ban": "অতএব, তোমরা উভয়ে তোমাদের পালনকর্তার কোন কোন অনুগ্রহকে অস্বীকার করবে?"
+  },
+  {
+    "num": "78",
+    "ara": "تَبَارَكَ اسْمُ رَبِّكَ ذِي الْجَلَالِ وَالْإِكْرَامِ",
+    "eng": "Blessed is the name of your Lord, Owner of Majesty and Honor.",
+    "ban": "কত পূণ্যময় আপনার পালনকর্তার নাম, যিনি মহিমাময় ও মহানুভব।"
+  }
+]
