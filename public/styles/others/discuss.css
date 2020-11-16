@@ -24,7 +24,7 @@
   margin-bottom: 5px;
   font-size: 15px;
   text-align: center;
-  color: #fee996;
+  color: var(--font-pr);
 }
 #chatbox li .msg {
   display: inline-block;
@@ -32,7 +32,8 @@
   border-radius: 36px;
   min-height: 20px;
   line-height: 20px;
-  background: #fee996;
+  background: var(--font-pr);
+  color: var(--font-se);
   overflow-x: scroll;
 }
 #chatbox li.self {
