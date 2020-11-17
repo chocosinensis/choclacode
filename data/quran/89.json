@@ -1,0 +1,182 @@
+[
+  {
+    "num": "1",
+    "ara": "وَالْفَجْرِ",
+    "eng": "By the dawn",
+    "ban": "শপথ ফজরের,"
+  },
+  {
+    "num": "2",
+    "ara": "وَلَيَالٍ عَشْرٍ",
+    "eng": "And [by] ten nights",
+    "ban": "শপথ দশ রাত্রির, শপথ তার,"
+  },
+  {
+    "num": "3",
+    "ara": "وَالشَّفْعِ وَالْوَتْرِ",
+    "eng": "And [by] the even [number] and the odd",
+    "ban": "যা জোড় ও যা বিজোড়"
+  },
+  {
+    "num": "4",
+    "ara": "وَاللَّيْلِ إِذَا يَسْرِ",
+    "eng": "And [by] the night when it passes,",
+    "ban": "এবং শপথ রাত্রির যখন তা গত হতে থাকে"
+  },
+  {
+    "num": "5",
+    "ara": "هَلْ فِي ذَلِكَ قَسَمٌ لِّذِي حِجْرٍ",
+    "eng": "Is there [not] in [all] that an oath [sufficient] for one of perception?",
+    "ban": "এর মধ্যে আছে শপথ জ্ঞানী ব্যক্তির জন্যে।"
+  },
+  {
+    "num": "6",
+    "ara": "أَلَمْ تَرَ كَيْفَ فَعَلَ رَبُّكَ بِعَادٍ",
+    "eng": "Have you not considered how your Lord dealt with 'Aad -",
+    "ban": "আপনি কি লক্ষ্য করেননি, আপনার পালনকর্তা আদ বংশের ইরাম গোত্রের সাথে কি আচরণ করেছিলেন,"
+  },
+  {
+    "num": "7",
+    "ara": "إِرَمَ ذَاتِ الْعِمَادِ",
+    "eng": "[With] Iram - who had lofty pillars,",
+    "ban": "যাদের দৈহিক গঠন স্তম্ভ ও খুঁটির ন্যায় দীর্ঘ ছিল এবং"
+  },
+  {
+    "num": "8",
+    "ara": "الَّتِي لَمْ يُخْلَقْ مِثْلُهَا فِي الْبِلَادِ",
+    "eng": "The likes of whom had never been created in the land?",
+    "ban": "যাদের সমান শক্তি ও বলবীর্যে সারা বিশ্বের শহরসমূহে কোন লোক সৃজিত হয়নি"
+  },
+  {
+    "num": "9",
+    "ara": "وَثَمُودَ الَّذِينَ جَابُوا الصَّخْرَ بِالْوَادِ",
+    "eng": "And [with] Thamud, who carved out the rocks in the valley?",
+    "ban": "এবং সামুদ গোত্রের সাথে, যারা উপত্যকায় পাথর কেটে গৃহ নির্মাণ করেছিল।"
+  },
+  {
+    "num": "10",
+    "ara": "وَفِرْعَوْنَ ذِي الْأَوْتَادِ",
+    "eng": "And [with] Pharaoh, owner of the stakes? -",
+    "ban": "এবং বহু কীলকের অধিপতি ফেরাউনের সাথে"
+  },
+  {
+    "num": "11",
+    "ara": "الَّذِينَ طَغَوْا فِي الْبِلَادِ",
+    "eng": "[All of] whom oppressed within the lands",
+    "ban": "যারা দেশে সীমালঙ্ঘন করেছিল।"
+  },
+  {
+    "num": "12",
+    "ara": "فَأَكْثَرُوا فِيهَا الْفَسَادَ",
+    "eng": "And increased therein the corruption.",
+    "ban": "অতঃপর সেখানে বিস্তর অশান্তি সৃষ্টি করেছিল।"
+  },
+  {
+    "num": "13",
+    "ara": "فَصَبَّ عَلَيْهِمْ رَبُّكَ سَوْطَ عَذَابٍ",
+    "eng": "So your Lord poured upon them a scourge of punishment.",
+    "ban": "অতঃপর আপনার পালনকর্তা তাদেরকে শাস্তির কশাঘাত করলেন।"
+  },
+  {
+    "num": "14",
+    "ara": "إِنَّ رَبَّكَ لَبِالْمِرْصَادِ",
+    "eng": "Indeed, your Lord is in observation.",
+    "ban": "নিশ্চয় আপনার পালকর্তা সতর্ক দৃষ্টি রাখেন।"
+  },
+  {
+    "num": "15",
+    "ara": "فَأَمَّا الْإِنسَانُ إِذَا مَا ابْتَلَاهُ رَبُّهُ فَأَكْرَمَهُ وَنَعَّمَهُ فَيَقُولُ رَبِّي أَكْرَمَنِ",
+    "eng": "And as for man, when his Lord tries him and [thus] is generous to him and favors him, he says, \"My Lord has honored me.\"",
+    "ban": "মানুষ এরূপ যে, যখন তার পালনকর্তা তাকে পরীক্ষা করেন, অতঃপর সম্মান ও অনুগ্রহ দান করেন, তখন বলে, আমার পালনকর্তা আমাকে সম্মান দান করেছেন।"
+  },
+  {
+    "num": "16",
+    "ara": "وَأَمَّا إِذَا مَا ابْتَلَاهُ فَقَدَرَ عَلَيْهِ رِزْقَهُ فَيَقُولُ رَبِّي أَهَانَنِ",
+    "eng": "But when He tries him and restricts his provision, he says, \"My Lord has humiliated me.\"",
+    "ban": "এবং যখন তাকে পরীক্ষা করেন, অতঃপর রিযিক সংকুচিত করে দেন, তখন বলেঃ আমার পালনকর্তা আমাকে হেয় করেছেন।"
+  },
+  {
+    "num": "17",
+    "ara": "كَلَّا بَل لَّا تُكْرِمُونَ الْيَتِيمَ",
+    "eng": "No! But you do not honor the orphan",
+    "ban": "এটা অমূলক, বরং তোমরা এতীমকে সম্মান কর না।"
+  },
+  {
+    "num": "18",
+    "ara": "وَلَا تَحَاضُّونَ عَلَى طَعَامِ الْمِسْكِينِ",
+    "eng": "And you do not encourage one another to feed the poor.",
+    "ban": "এবং মিসকীনকে অন্নদানে পরস্পরকে উৎসাহিত কর না।"
+  },
+  {
+    "num": "19",
+    "ara": "وَتَأْكُلُونَ التُّرَاثَ أَكْلًا لَّمًّا",
+    "eng": "And you consume inheritance, devouring [it] altogether,",
+    "ban": "এবং তোমরা মৃতের ত্যাজ্য সম্পত্তি সম্পূর্ণরূপে কুক্ষিগত করে ফেল"
+  },
+  {
+    "num": "20",
+    "ara": "وَتُحِبُّونَ الْمَالَ حُبًّا جَمًّا",
+    "eng": "And you love wealth with immense love.",
+    "ban": "এবং তোমরা ধন-সম্পদকে প্রাণভরে ভালবাস।"
+  },
+  {
+    "num": "21",
+    "ara": "كَلَّا إِذَا دُكَّتِ الْأَرْضُ دَكًّا دَكًّا",
+    "eng": "No! When the earth has been leveled - pounded and crushed -",
+    "ban": "এটা অনুচিত। যখন পৃথিবী চুর্ণ-বিচুর্ণ হবে"
+  },
+  {
+    "num": "22",
+    "ara": "وَجَاءَ رَبُّكَ وَالْمَلَكُ صَفًّا صَفًّا",
+    "eng": "And your Lord has come and the angels, rank upon rank,",
+    "ban": "এবং আপনার পালনকর্তা ও ফেরেশতাগণ সারিবদ্ধভাবে উপস্থিত হবেন,"
+  },
+  {
+    "num": "23",
+    "ara": "وَجِيءَ يَوْمَئِذٍ بِجَهَنَّمَ يَوْمَئِذٍ يَتَذَكَّرُ الْإِنسَانُ وَأَنَّى لَهُ الذِّكْرَى",
+    "eng": "And brought [within view], that Day, is Hell - that Day, man will remember, but what good to him will be the remembrance?",
+    "ban": "এবং সেদিন জাহান্নামকে আনা হবে, সেদিন মানুষ স্মরণ করবে, কিন্তু এই স্মরণ তার কি কাজে আসবে?"
+  },
+  {
+    "num": "24",
+    "ara": "يَقُولُ يَا لَيْتَنِي قَدَّمْتُ لِحَيَاتِي",
+    "eng": "He will say, \"Oh, I wish I had sent ahead [some good] for my life.\"",
+    "ban": "সে বলবেঃ হায়, এ জীবনের জন্যে আমি যদি কিছু অগ্রে প্রেরণ করতাম!"
+  },
+  {
+    "num": "25",
+    "ara": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُ أَحَدٌ",
+    "eng": "So on that Day, none will punish [as severely] as His punishment,",
+    "ban": "সেদিন তার শাস্তির মত শাস্তি কেউ দিবে না।"
+  },
+  {
+    "num": "26",
+    "ara": "وَلَا يُوثِقُ وَثَاقَهُ أَحَدٌ",
+    "eng": "And none will bind [as severely] as His binding [of the evildoers].",
+    "ban": "এবং তার বন্ধনের মত বন্ধন কেউ দিবে না।"
+  },
+  {
+    "num": "27",
+    "ara": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ",
+    "eng": "[To the righteous it will be said], \"O reassured soul,",
+    "ban": "হে প্রশান্ত মন,"
+  },
+  {
+    "num": "28",
+    "ara": "ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
+    "eng": "Return to your Lord, well-pleased and pleasing [to Him],",
+    "ban": "তুমি তোমার পালনকর্তার নিকট ফিরে যাও সন্তুষ্ট ও সন্তোষভাজন হয়ে।"
+  },
+  {
+    "num": "29",
+    "ara": "فَادْخُلِي فِي عِبَادِي",
+    "eng": "And enter among My [righteous] servants",
+    "ban": "অতঃপর আমার বান্দাদের অন্তর্ভুক্ত হয়ে যাও।"
+  },
+  {
+    "num": "30",
+    "ara": "وَادْخُلِي جَنَّتِي",
+    "eng": "And enter My Paradise.\"",
+    "ban": "এবং আমার জান্নাতে প্রবেশ কর।"
+  }
+]

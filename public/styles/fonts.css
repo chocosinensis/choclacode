@@ -1,0 +1,31 @@
+/* @import... */
+@import url('https://fonts.googleapis.com/css?family=Material+Icons');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+.eng {
+  font-family: 'Quicksand';
+}
+.ban {
+  font-family: 'Siyamrupali';
+}
+.ara {
+  font-family: 'Janna LT';
+}
+
+/* @font-face... */
+@font-face {
+  font-family: 'Quicksand';
+  src: url('/assets/fonts/Quicksand.ttf');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/assets/fonts/JetBrainsMono.ttf');
+}
+@font-face {
+  font-family: 'Siyamrupali';
+  src: url('/assets/fonts/Siyamrupali.ttf');
+}
+@font-face {
+  font-family: 'Janna LT';
+  src: url('/assets/fonts/JannaLT.ttf');
+}

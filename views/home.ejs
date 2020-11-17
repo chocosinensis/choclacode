@@ -1,0 +1,50 @@
+<%- include('./partials/head.ejs') %>
+  <link rel="stylesheet" href="/styles/others/articles.css">
+  <script src="/js/quotes.js"></script>
+<%- include('./partials/header.ejs') %>
+
+  <section id="head">
+    <div class="main grid">
+      <div>
+        <h1 class="title">Choclacode</h1>
+        <article>
+          <p>Welcome to the official website of <span class="color">Choclacode.</span></p>
+          <p>Lorem chocolate ipsum chocolor sit amet chocolectetur adipisicing elit. Beatae commodi chocolatis nobis incidunt ducimus eum totam sunt hic facilis culpa chocolates labore dicta sequi nihil pariatur vitae, doloremque chocolate expedita, nisi quidem soluta consequuntur? Libero, chocolequatur deleniti. Alias incidunt assumenda chocolores soluta eum tenetur ducimus atque inventore, chocolatur obcaecati eveniet.</p>
+          <p>Yes, Lorem ipsum, but in a chocolatey flavor.</p>
+        </article>
+      </div>
+      <img src="/assets/img/logo/notitle.svg" alt="logo">
+    </div>
+    <div class="quote"></div>
+  </section>
+
+  <section id="articles">
+    <h1 class="title">Articles</h1>
+    <ul class="articles"><% articles.forEach((article) => { %>
+      <li class="article link">
+      <a href="/articles/<%- article.slug %>">
+        <h1 class="title"><%- article.title %></h1>
+        <div class="author"><%- article.author.name %></div>
+        <div class="time"><%- article.createdAt %></div>
+      </a>
+      </li><% }); %>
+    </ul>
+  </section>
+
+  <section id="chocolate">
+    <h1>Chocolate</h1>
+    <ul class="card-container"><% chocs.forEach((choc) => { %>
+      <li class="card">
+        <div class="card-img" style="background-image: url('/assets/img/chocolate/<%= choc.src %>');"></div>
+        <h3 class="card-title"><%= choc.title %></h3>
+        <div class="card-link">
+          <a href="/chocolate/<%= choc.slug %>" class="btn">More Info...</a>
+        </div>
+      </li><% }); %>
+    </ul>
+    <div class="link">
+      <a href="/chocolate" class="btn">View All</a>
+    </div>
+  </section>
+
+<%- include('./partials/footer.ejs') %>

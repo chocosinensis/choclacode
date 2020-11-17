@@ -1,0 +1,32 @@
+{
+  "name": "choclacode",
+  "version": "1.0.0",
+  "description": "Choclacode official website 1.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/choclacode/choclacode.git"
+  },
+  "keywords": [],
+  "author": "Saqib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/choclacode/choclacode/issues"
+  },
+  "homepage": "https://github.com/choclacode/choclacode#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.12",
+    "socket.io": "^3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

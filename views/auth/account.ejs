@@ -1,0 +1,16 @@
+<%- include('../partials/head.ejs') %>
+  <script src="/js/auth.js"></script>
+<%- include('../partials/header.ejs') %>
+
+  <section>
+    <div class="preview">
+      <h1>Account info</h1>
+      <div>
+        <p>Username : <%- user.username %></p>
+        <p>Email : <%- user.email %></p>
+      </div>
+      <a href="/auth/logout" class="btn">Log Out</a>
+    </div>
+  </section>
+
+<%- include('../partials/footer.ejs') %>

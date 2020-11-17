@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+  margin: auto;
+}
+.chocs {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.choc-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin: 30px 0;
+}
+.choc-content article {
+  text-align: justify;
+  margin-right: 20px;
+}
+.choc-img {
+  max-width: 100%;
+}
+
+/* @media */
+@media screen and (max-width: 768px) {
+  .choc-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+}

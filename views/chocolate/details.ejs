@@ -1,0 +1,20 @@
+<%- include('../partials/head.ejs') %>
+  <link rel="stylesheet" href="/styles/others/chocolate.css">
+<%- include('../partials/header.ejs') %>
+
+  <section>
+    <div class="choc-details">
+      <h1 class="title"><%= choc.title %></h1>
+      <div class="choc-content">
+        <article>
+          <p><%= choc.content %></p>
+          <p><%= choc.content %></p>
+          <p><%= choc.content %></p>
+        </article>
+        <img src="/assets/img/chocolate/<%= choc.src %>" class="choc-img">
+      </div>
+      <a href="/chocolate" class="btn">Back</a>
+    </div>
+  </section>
+
+<%- include('../partials/footer.ejs') %>

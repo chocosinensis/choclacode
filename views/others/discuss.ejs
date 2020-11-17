@@ -1,0 +1,16 @@
+<%- include('../partials/head.ejs') %>
+  <link rel="stylesheet" href="/styles/others/discuss.css">
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/js/discuss.js"></script>
+  <script>window.addEventListener('load', () => discuss())</script>
+<%- include('../partials/header.ejs') %>
+
+  <section id="chatsect">
+    <ul id="chatbox"></ul>
+    <form id="sendmsg">
+      <input type="text" name="msg" placeholder="Type a message..." autocomplete="off">
+      <input type="submit" class="material-icons" value="send">
+    </form>
+  </section>
+
+<%- include('../partials/footer.ejs') %>
