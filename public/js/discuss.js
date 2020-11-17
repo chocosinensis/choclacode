@@ -3,6 +3,7 @@ const discuss = () => {
   const name = document.querySelector('.links #name').textContent;
   const chatbox = document.querySelector('#chatbox');
   const form = document.querySelector('#sendmsg');
+  const users = document.querySelector('.preview .users');
   const sendmsg = (data, isself=false) => 
     chatbox.innerHTML += isself ? 
       `<li class="self">
@@ -13,11 +14,14 @@ const discuss = () => {
         <span class="msg">${data.msg}</span>
       </li>`;
 
+  socket.on('connection', () => socket.emit('newuser', { name }));
+  socket.on('users', (data) => data.forEach(user => users.innerHTML += `<li>${user.name}</li>`));
+
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const msg = form.msg.value.replace(/<\/?script(.)*>/g, '');
     if (msg == '' || /^\s+$/g.test(msg)) return;
-    socket.emit('new-msg', { name, msg });
+    socket.emit('newmsg', { name, msg });
     sendmsg(msg, true);
     form.msg.value = '';
   });

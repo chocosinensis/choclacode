@@ -8,9 +8,19 @@ const listen = async (app) => {
     { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
   );
   const server = app.listen(process.env.PORT || 3000);
-  
+
   const io = require('socket.io')(server);
-  io.on('connection', (socket) => socket.on('new-msg', (data) => socket.broadcast.emit('sendmsg', data)));
+  io.on('connection', (socket) => {
+    const users = [];
+    socket.emit('connection');
+    socket.on('newuser', ({ name }) => {
+      users.push({ name });
+      io.sockets.emit('users', users);
+    });
+    socket.on('newmsg', (data) => socket.broadcast.emit('sendmsg', data));
+
+    socket.on('disconnect', () => {});
+  });
 }
 
 const config = (app) => {
