@@ -43,6 +43,14 @@ userSchema.statics.login = async function (username, password) {
   }
   throw Error('Incorrect username');
 }
+userSchema.statics.delete = async function (email, password) {
+  const user = await this.findOne({ email });
+  if (user) {
+    const auth = await compare(password, user.password);
+    if (auth) return user.remove();
+    throw Error('Incorrect password');
+  }
+}
 
 const User = model('user', userSchema);
 

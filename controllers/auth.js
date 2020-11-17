@@ -29,17 +29,27 @@ const login_post = async (req, res) => {
   }
 }
 
-const account_get = (req, res) => 
-  res.render('auth/account', { title: res.locals.user.username });
-
 const logout_get = (req, res) => {
   res.cookie('jwt', '', { maxAge: 1 });
   res.redirect('/');
 }
 
+const account_get = (req, res) => 
+  res.render('auth/account', { title: res.locals.user.username });
+const account_delete = async (req, res) => {
+  const { email, password } = req.body;
+  try {
+    const user = await User.delete(email, password);
+    res.status(201).json({ user: user._id });
+  } catch (err) {
+    const errors = handleErrors(err).auth;
+    res.status(400).json({ errors });
+  }
+}
+
 module.exports = {
   signup_get, signup_post,
   login_get, login_post,
-  account_get,
-  logout_get
+  logout_get,
+  account_get, account_delete
 };

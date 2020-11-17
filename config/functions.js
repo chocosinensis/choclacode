@@ -9,7 +9,7 @@ const schemaType = (min, max, errors) => {
   };
 }
 const handleErrors = (err) => {
-  let errors = { 
+  let errors = {
     auth: {
       username: '', email: '', password: ''
     },
@@ -48,6 +48,23 @@ const authget = (res, rendering, title) => {
   res.render(rendering, { title });
 }
 
+const socket = (io) => {
+  let users = [];
+  io.on('connection', (socket) => {
+    let _name;
+    socket.emit('connection');
+    socket.on('newuser', ({ name }) => {
+      _name = name;
+      users = users.includes(name) ? users : [...users, name];
+      io.sockets.emit('users', users);
+    });
+    socket.on('newmsg', (data) => socket.broadcast.emit('sendmsg', data));
+    socket.on('disconnect', () => {
+      users = users.filter(user => user != _name);
+      socket.broadcast.emit('users', users);
+    });
+  });
+}
 const jsonify = (object, indent=2) => {
   const ind1 = Array(indent).fill(' ').join('');
   const keys = Object.keys(object);
@@ -70,5 +87,5 @@ const toDate = (date) => `${date.toDateString().substr(4)} ${date.toTimeString()
 module.exports = {
   schemaType, handleErrors, 
   createToken, authget, 
-  jsonify, toDate
+  socket, jsonify, toDate
 };
