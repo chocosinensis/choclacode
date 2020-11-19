@@ -26,5 +26,4 @@ const discuss = () => {
     form.msg.value = '';
   });
   socket.on('sendmsg', sendmsg);
-  socket.on('disconnect', () => socket.emit('userout', { name }));
 }

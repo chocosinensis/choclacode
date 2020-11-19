@@ -16,9 +16,11 @@ const articles = () => {
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
 
-      const title = form.title.value;
-      const body = form.body.value.replace(/<\/?script(.)*?>/g, '');
-      const slug = path == 'create' ? form.slug.value : '';
+      const [title, body, slug] = [
+        form.title.value,
+        form.body.value.replace(/<\/?script(.)*?>/g, ''),
+        path == 'create' ? form.slug.value : ''
+      ];
 
       try {
         const res = await fetch(`/articles/${path}`, {
@@ -47,8 +49,6 @@ const articles = () => {
       () => article.body.innerHTML = form.body.value.replace(/<\/?script(.)*?>/g, '')
     );
   }
-  const create = () => main('create', 'POST');
-  const edit = () => main(location.pathname.substr(10), 'PUT');
   const _delete = () => {
     const del = document.querySelector('a.delete');
 
@@ -59,5 +59,9 @@ const articles = () => {
         .catch(console.log))
   }
 
-  return { create, edit, _delete };
+  return {
+    create: () => main('create', 'POST'),
+    edit: () => main(location.pathname.substr(10), 'PUT'),
+    _delete
+  };
 }

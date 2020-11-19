@@ -1,13 +1,13 @@
 const { sign } = require('jsonwebtoken');
 
-const schemaType = (min, max, errors) => { 
-  return {
-    type: String,
-    required: [true, errors[0]],
-    minlength: [min, errors[1]],
-    maxlength: [max, errors[2]]
-  };
-}
+const { code } = require('./keys').jwt;
+
+const schemaType = (min, max, errors) => ({
+  type: String,
+  required: [true, errors[0]],
+  minlength: [min, errors[1]],
+  maxlength: [max, errors[2]]
+});
 const handleErrors = (err) => {
   let errors = {
     auth: {
@@ -41,7 +41,7 @@ const handleErrors = (err) => {
 }
 
 const createToken = (id) => sign(
-  { id }, 'mysecretcodethatisawsome', { expiresIn: 3 * 24 * 60 * 60 }
+  { id }, code, { expiresIn: 3 * 24 * 60 * 60 }
 );
 const authget = (res, rendering, title) => {
   if (res.locals.user) res.redirect('/');
@@ -66,12 +66,12 @@ const socket = (io) => {
   });
 }
 const jsonify = (object, indent=2) => {
-  const ind1 = Array(indent).fill(' ').join('');
+  const ind = Array(indent).fill(' ').join('');
   const keys = Object.keys(object);
   let json = '{';
   for (let key in object) {
     const value = object[key];
-    json += `\n${ind1}"${key}": ${
+    json += `\n${ind}"${key}": ${
       typeof value == 'string' ? `"${value}"` :
       typeof value == 'object' ? jsonify(value, indent + 2) :
       value

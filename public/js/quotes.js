@@ -2,7 +2,7 @@ window.addEventListener('load', async () => {
   const quotes = await (await fetch('/api/quotes')).json();
   const quoteElem = document.querySelector('.quote');
 
-  const get = { 
+  const get = {
     link: ({ surah, ayah }) => `/quran/${surah}#${ayah}`,
     ayah: ({ surah, ayah }) => `(${surah} : ${ayah})`
   };

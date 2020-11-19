@@ -1,11 +1,12 @@
 const { verify } = require('jsonwebtoken');
 
 const User = require('../models/User');
+const { code } = require('../config/keys').jwt;
 
 const requireAuth = (req, res, next) => {
   const token = req.cookies.jwt;
   if (token) {
-    verify(token, 'mysecretcodethatisawsome', (err, decodedToken) => {
+    verify(token, code, (err, decodedToken) => {
       if (err) res.redirect('/auth/login');
       else next();
     });
@@ -15,7 +16,7 @@ const requireAuth = (req, res, next) => {
 const checkUser = (req, res, next) => {
   const token = req.cookies.jwt;
   if (token) {
-    verify(token, 'mysecretcodethatisawsome', async (err, decodedToken) => {
+    verify(token, code, async (err, decodedToken) => {
       if (err) {
         res.locals.user = null;
         next();
