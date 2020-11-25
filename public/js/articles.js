@@ -19,7 +19,7 @@ const articles = () => {
       const [title, body, slug] = [
         form.title.value,
         form.body.value.replace(/<\/?script(.)*?>/g, ''),
-        path == 'create' ? form.slug.value : ''
+        path == 'create' ? form.slug.value : location.pathname.slice(location.pathname.lastIndexOf('/edit/') + 6)
       ];
 
       try {
@@ -36,7 +36,7 @@ const articles = () => {
           errors.body.textContent = data.errors.body;
           if (path == 'create') errors.slug.textContent = data.errors.slug;
         }
-        if (data.article) location.pathname = '/articles';
+        if (data.article) location.pathname = `/articles/${slug}`;
       } catch (err) { console.log(err.message); }
     });
 

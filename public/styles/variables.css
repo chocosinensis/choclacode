@@ -5,6 +5,7 @@
 
   --font-pr: #301904;
   --font-se: whitesmoke;
+  --font-te: #555;
 
   --grad-pr: -webkit-linear-gradient(right, var(--primary), var(--secondary));
   --grad-se: -webkit-linear-gradient(right, var(--secondary), var(--tertiary));

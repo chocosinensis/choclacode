@@ -26,10 +26,10 @@
   text-align: center;
   margin: 0 auto 50px;
 }
-.article.details ul {
+.article.details ul.actions {
   display: flex;
 }
-.article.details li {
+.article.details .actions li {
   margin-right: 30px;
 }
 .center {
