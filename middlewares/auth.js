@@ -1,7 +1,7 @@
 const { verify } = require('jsonwebtoken');
 
 const User = require('../models/User');
-const { code } = require('../config/keys').jwt;
+const { code } = require('../config/keys.json').jwt;
 
 const requireAuth = (req, res, next) => {
   const token = req.cookies.jwt;

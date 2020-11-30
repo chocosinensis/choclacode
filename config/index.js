@@ -2,7 +2,7 @@ const { static, urlencoded, json } = require('express');
 const { connect } = require('mongoose');
 const cookie = require('cookie-parser');
 
-const { password } = require('./keys').mongodb;
+const { password } = require('./keys.json').mongodb;
 const { socket } = require('./functions');
 
 const listen = async (app) => {

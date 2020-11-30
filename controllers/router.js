@@ -17,8 +17,18 @@ const about_get = (req, res) => {
   res.render('others/about', { title: 'About', about });
 }
 
-const err403 = (req, res) => res.status(403).render('errors/403', { title: '403' });
-const err404 = (req, res) => res.status(404).render('errors/404', { title: '404' });
+const err403 = (req, res) => res.status(403)
+  .render('others/error', {
+    title: '403 - Forbidden',
+    status: 403,
+    detail: 'Forbidden'
+  });
+const err404 = (req, res) => res.status(404)
+  .render('others/error', {
+    title: '404 - Not Found',
+    status: 404,
+    detail: 'Not Found'
+  });
 
 module.exports = {
   home_get, about_get,

@@ -1,6 +1,6 @@
 const { sign } = require('jsonwebtoken');
 
-const { code } = require('./keys').jwt;
+const { code } = require('./keys.json').jwt;
 
 const schemaType = (min, max, errors) => ({
   type: String,
@@ -43,10 +43,8 @@ const handleErrors = (err) => {
 const createToken = (id) => sign(
   { id }, code, { expiresIn: 3 * 24 * 60 * 60 }
 );
-const authget = (res, rendering, title) => {
-  if (res.locals.user) res.redirect('/');
-  res.render(rendering, { title });
-}
+const authget = (res, rendering, title) =>
+  res.locals.user ? res.redirect('/') : res.render(rendering, { title });
 
 const socket = (io) => {
   let users = [];
@@ -80,7 +78,7 @@ const jsonify = (object, indent=2) => {
       json += ',';
   }
   indent = Array(indent - 2).fill(' ').join('');
-  return json + `\n${indent}}`;
+  return `${json}\n${indent}}`;
 }
 const toDate = (date) => `${date.toDateString().substr(4)} ${date.toTimeString().substring(0, 8)}`;
 

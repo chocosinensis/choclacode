@@ -3,7 +3,7 @@ const { verify } = require('jsonwebtoken');
 const Article = require('../models/Article');
 const User = require('../models/User');
 const { handleErrors, toDate } = require('../config/functions');
-const { code } = require('../config/keys').jwt;
+const { code } = require('../config/keys.json').jwt;
 
 const articles_get = (req, res) => Article.find()
   .then((articles) => res.render('articles/home', { title: 'Articles', articles }))
