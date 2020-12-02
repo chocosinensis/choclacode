@@ -1,6 +1,7 @@
 const { static, urlencoded, json } = require('express');
 const { connect } = require('mongoose');
 const cookie = require('cookie-parser');
+const cors = require('cors');
 
 const { password } = require('./keys.json').mongodb;
 const { socket } = require('./functions');
@@ -22,6 +23,7 @@ const config = (app) => {
   app.use(urlencoded({ extended: true }));
   app.use(json());
   app.use(cookie());
+  app.use(cors());
 }
 
 module.exports = { listen, config };
