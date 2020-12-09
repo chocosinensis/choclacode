@@ -3,8 +3,8 @@
   "nickname": "Saqib",
   "languages": {
     "JavaScript": "80%",
-    "Php": "50%",
     "Python": "60%",
+    "Php": "50%",
     "Java": "60%", "Kotlin": "20%",
     "C": "20%", "C++": "20%", "C#": "20%",
     "HTML": "80%", "CSS": "80%"
@@ -35,8 +35,10 @@
   },
   "contact": {
     "mail": "saqib@choclacode.eu.org",
+    "github": "@choclacode",
     "twitter": "@choclacode",
+    "instagram": "@choclacode",
     "facebook": "/choclacode",
-    "whatsapp": "+8801757055270"
+    "discord": "@choclacode"
   }
 }
