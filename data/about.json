@@ -5,8 +5,8 @@
     "JavaScript": "80%",
     "Python": "60%",
     "Php": "50%",
-    "Java": "60%", "Kotlin": "20%",
-    "C": "20%", "C++": "20%", "C#": "20%",
+    "Java": "60%", "Kotlin": "10%",
+    "C": "10%", "C++": "10%", "C#": "10%",
     "HTML": "80%", "CSS": "80%"
   },
   "frameworks": {
@@ -14,19 +14,22 @@
       "front-end": {
         "React": "75%",
         "React Native": "50%",
-        "Vue": "0%"
+        "Vue": "20%"
       },
       "back-end": {
         "node-js": "80%",
         "express": "80%"
       }
     },
-    "Python": { "Django": "40%" },
+    "Python": {
+      "Flask": "20%",
+      "Django": "20%"
+    },
     "Php": { "Laravel": "0%" }
   },
   "development": {
     "since": "Oct 2020",
-    "experience": 0,
+    "experience": 1,
     "skills": {
       "front-end": "80%",
       "back-end": "75%",

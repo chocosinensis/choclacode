@@ -2,10 +2,6 @@
   text-align: center;
   margin: auto;
 }
-.chocs {
-  max-width: 1200px;
-  margin: 20px auto;
-}
 .choc-content {
   display: grid;
   grid-template-columns: 2fr 1fr;

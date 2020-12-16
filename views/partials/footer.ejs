@@ -7,12 +7,16 @@
           <a href="/" class="color">Choclacode</a> is a developer, who likes programming and chocolate (but doesn't eat a lot). His favourite programming language is JavaScript. (Don't think he misspelled 'Choclacode' xD)
         </span>
       </div>
-      <div class="social">
-        <div><a href="//github.com/choclacode" target="_blank"><i class="fab fa-github"></i></a></div>
-        <div><a href="//twitter.com/choclacode" target="_blank"><i class="fab fa-twitter"></i></a></div>
-        <div><a href="//youtube.com/channel/UCuxNNDSPkN4MTbyubs9OQfQ" target="_blank"><i class="fab fa-youtube"></i></a></div>
-        <div><a href="//instagram.com/choclacode" target="_blank"><i class="fab fa-instagram"></i></a></div>
-        <div><a href="//facebook.com/choclacode" target="_blank"><i class="fab fa-facebook"></i></a></div>
+      <div class="social"><%
+      const links = [
+        { href: '//github.com/choclacode', name: 'github' },
+        { href: '//twitter.com/choclacode', name: 'twitter' },
+        { href: '//youtube.com/channel/UCuxNNDSPkN4MTbyubs9OQfQ', name: 'youtube' },
+        { href: '//instagram.com/choclacode', name: 'instagram' },
+        { href: '//facebook.com/choclacode', name: 'facebook' },
+      ];
+      links.forEach(({ href, name }) => { %>
+        <div><a href="<%- href %>"><i class="fab fa-<%- name %>"></i></a></div><% }); %>
       </div>
     </div>
     <div class="copyright">

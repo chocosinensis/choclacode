@@ -33,15 +33,17 @@
 
   <section id="chocolate">
     <h1>Chocolate</h1>
-    <ul class="card-container"><% chocs.forEach((choc) => { %>
-      <li class="card">
-        <div class="card-img" style="background-image: url('/assets/img/chocolate/<%= choc.src %>');"></div>
-        <h3 class="card-title"><%= choc.title %></h3>
-        <div class="card-link">
-          <a href="/chocolate/<%= choc.slug %>" class="btn">More Info...</a>
-        </div>
-      </li><% }); %>
-    </ul>
+    <div class="container">
+      <ul class="card-container"><% chocs.forEach((choc) => { %>
+        <li class="card">
+          <div class="card-img" style="background-image: url('/assets/img/chocolate/<%= choc.src %>');"></div>
+          <h3 class="card-title"><%= choc.title %></h3>
+          <div class="card-link">
+            <a href="/chocolate/<%= choc.slug %>" class="btn">More Info...</a>
+          </div>
+        </li><% }); %>
+      </ul>
+    </div>
     <div class="link">
       <a href="/chocolate" class="btn">View All</a>
     </div>

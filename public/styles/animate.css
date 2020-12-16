@@ -1,4 +1,7 @@
 /* animations */
+aside.links.show ul {
+  animation: slide 1s ease 1 forwards;
+}
 .quote q, .quote a {
   animation: slide 1s ease 1 normal,
     slide 1s ease 6s 1 reverse;

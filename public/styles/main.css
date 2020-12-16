@@ -1,20 +1,20 @@
 /* variables */
-@import url('variables.css');
+@import 'variables.css';
 
 /* reset */
-@import url('reset.css');
+@import 'reset.css';
 
 /* fonts */
-@import url('fonts.css');
+@import 'fonts.css';
 
 /* base styles */
-@import url('base.css');
+@import 'base.css';
 
 /* util classes */
-@import url('util.css');
+@import 'util.css';
 
 /* media styles */
-@import url('media.css');
+@import 'media.css';
 
 /* animations */
-@import url('animate.css');
+@import 'animate.css';

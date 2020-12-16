@@ -3,12 +3,15 @@ const { connect } = require('mongoose');
 const cookie = require('cookie-parser');
 const cors = require('cors');
 
-const { password } = require('./keys.json').mongodb;
+const {
+  username, password,
+  domain, database
+} = require('./keys.json').mongodb;
 const { socket } = require('./functions');
 
 const listen = async (app) => {
   await connect(
-    `mongodb+srv://saqib:${password}@choco.gduh2.mongodb.net/base-choco`,
+    `mongodb+srv://${username}:${password}@${domain}/${database}`,
     { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
   );
   const server = app.listen(process.env.PORT || 3000);
