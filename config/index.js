@@ -21,7 +21,11 @@ const listen = async (app) => {
 }
 
 const config = (app) => {
+  // settings
   app.set('view engine', 'ejs');
+  app.set('json spaces', 2);
+
+  // middlewares
   app.use(static('public'));
   app.use(urlencoded({ extended: true }));
   app.use(json());

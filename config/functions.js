@@ -63,27 +63,10 @@ const socket = (io) => {
     });
   });
 }
-const jsonify = (object, indent=2) => {
-  const ind = Array(indent).fill(' ').join('');
-  const keys = Object.keys(object);
-  let json = '{';
-  for (let key in object) {
-    const value = object[key];
-    json += `\n${ind}"${key}": ${
-      typeof value == 'string' ? `"${value}"` :
-      typeof value == 'object' ? jsonify(value, indent + 2) :
-      value
-    }`;
-    if (keys.lastIndexOf(key) != keys.length - 1)
-      json += ',';
-  }
-  indent = Array(indent - 2).fill(' ').join('');
-  return `${json}\n${indent}}`;
-}
 const toDate = (date) => `${date.toDateString().substr(4)} ${date.toTimeString().substring(0, 8)}`;
 
 module.exports = {
   schemaType, handleErrors, 
   createToken, authget, 
-  socket, jsonify, toDate
+  socket, toDate
 };

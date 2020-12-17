@@ -8,17 +8,17 @@ const {
 } = require('../controllers/auth');
 const { requireAuth } = require('../middlewares/auth');
 
-const router = Router();
+const auth = Router();
 
-router.get('/signup', signup_get);
-router.post('/signup', signup_post);
+auth.get('/signup', signup_get);
+auth.post('/signup', signup_post);
 
-router.get('/login', login_get);
-router.post('/login', login_post);
+auth.get('/login', login_get);
+auth.post('/login', login_post);
 
-router.get('/logout', logout_get);
+auth.get('/logout', logout_get);
 
-router.get('/account', requireAuth, account_get);
-router.delete('/account', requireAuth, account_delete);
+auth.get('/account', requireAuth, account_get);
+auth.delete('/account', requireAuth, account_delete);
 
-module.exports = router;
+module.exports = auth;

@@ -1,5 +1,4 @@
 const Article = require('../models/Article');
-const { jsonify } = require('../config/functions');
 
 const home_get =  async (req, res) => {
   const articles = [
@@ -13,7 +12,7 @@ const home_get =  async (req, res) => {
   });
 }
 const about_get = (req, res) => {
-  const about = jsonify(require('../data/about.json'));
+  const about = JSON.stringify(require('../data/about.json'), null, 2);
   res.render('others/about', { title: 'About', about });
 }
 

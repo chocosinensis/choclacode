@@ -1,6 +1,9 @@
 const { Router } = require('express');
 
-const { chocolate_get, chocolatedetail_get } = require('../../controllers/api/chocolate');
+const {
+  chocolate_get,
+  chocolatedetail_get
+} = require('../../controllers/api/chocolate');
 
 const chocolate = Router();
 
