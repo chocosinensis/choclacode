@@ -20,6 +20,7 @@
     background-image: var(--grad-pr);
     display: flex !important;
     justify-content: space-between;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   }
   nav.links {
     display: none;
@@ -55,6 +56,7 @@
     min-width: 300px;
     margin: 0;
     overflow-y: scroll;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
   }
   aside.links.show li {
     height: 60px;

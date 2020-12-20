@@ -94,6 +94,7 @@ footer * {
 footer .about {
   padding: 20px;
   background-image: var(--grad-pr);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
 footer .about .logo {
   grid-column: 1/2;
@@ -146,4 +147,5 @@ footer .copyright {
   justify-content: center;
   background-image: var(--grad-se);
   min-height: 50px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 }
