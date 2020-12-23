@@ -13,6 +13,7 @@
 }
 .choc-img {
   max-width: 100%;
+  border-radius: 12px;
 }
 
 /* @media */
@@ -21,5 +22,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+  }
+  .choc-content article {
+    margin-right: 0;
   }
 }

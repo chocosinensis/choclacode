@@ -1,9 +1,11 @@
 const discuss = () => {
   const socket = io();
-  const name = document.querySelector('.links #name').textContent;
-  const chatbox = document.querySelector('#chatbox');
-  const form = document.querySelector('#sendmsg');
-  const users = document.querySelector('.preview .users');
+  const [name, chatbox, form, users] = [
+    document.querySelector('.links #name').textContent,
+    document.querySelector('#chatbox'),
+    document.querySelector('#sendmsg'),
+    document.querySelector('.preview .users')
+  ];
   const sendmsg = (data, isself=false) => 
     chatbox.innerHTML += isself ? 
       `<li class="self">
