@@ -9,18 +9,18 @@ const {
 } = require('../controllers/articles');
 const { requireAuth } = require('../middlewares/auth');
 
-const articlesRouter = Router();
+const articles = Router();
 
-articlesRouter.get('/', articles_get);
+articles.get('/', articles_get);
 
-articlesRouter.get('/create', requireAuth, createarticle_get);
-articlesRouter.post('/create', requireAuth, createarticle_post);
+articles.get('/create', requireAuth, createarticle_get);
+articles.post('/create', requireAuth, createarticle_post);
 
-articlesRouter.get('/:slug', article_get);
+articles.get('/:slug', article_get);
 
-articlesRouter.get('/edit/:slug', requireAuth, editarticle_get);
-articlesRouter.put('/edit/:slug', requireAuth, editarticle_put);
+articles.get('/edit/:slug', requireAuth, editarticle_get);
+articles.put('/edit/:slug', requireAuth, editarticle_put);
 
-articlesRouter.delete('/delete/:slug', requireAuth, deletearticle);
+articles.delete('/delete/:slug', requireAuth, deletearticle);
 
-module.exports = articlesRouter;
+module.exports = articles;

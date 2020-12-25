@@ -16,6 +16,10 @@
   -webkit-text-fill-color: transparent;
   width: fit-content;
 }
+.center-align {
+  text-align: center;
+  margin: auto;
+}
 img[alt="logo"] {
   width: 100px;
   height: 100px;

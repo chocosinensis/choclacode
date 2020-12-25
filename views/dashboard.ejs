@@ -1,0 +1,57 @@
+<%- include('./partials/head.ejs') %>
+  <link rel="stylesheet" href="/styles/others/articles.css">
+<%- include('./partials/header.ejs') %>
+
+  <section>
+    <div class="container">
+      <h1 class="title center-align">Dashboard</h1>
+      <div class="preview">
+        <h1>Actions</h1>
+        <div>
+          <div class="code">
+            <pre>Account Info</pre>
+            <a href="/auth/account" style="margin-left: 20px;">
+              <i class="material-icons-outlined btn">info</i>
+            </a>
+          </div>
+          <div class="code" style="margin-top: 20px;">
+            <pre>View Articles</pre>
+            <a href="#articles" style="margin-left: 20px;">
+              <i class="material-icons-outlined btn">view_list</i>
+            </a>
+          </div>
+          <div class="code" style="margin-top: 20px;">
+            <pre>Create Article</pre>
+            <a href="/articles/create" style="margin-left: 20px;">
+              <i class="material-icons-outlined btn">create</i>
+            </a>
+          </div>
+          <div class="code" style="margin-top: 20px;">
+            <pre>Discuss</pre>
+            <a href="/discuss" style="margin-left: 20px;">
+              <i class="material-icons-outlined btn">chat</i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="preview" id="articles">
+        <h1>Articles</h1>
+        <p><%=
+          `${articles.length} ${articles.length == 1 ?
+            'article' : 'articles'}`
+        %></p><% if (articles.length) { %>
+        <ul class="articles"><% articles.forEach(article => { %>
+          <li class="article link">
+            <a href="/articles/<%= article.slug %>">
+              <h1 class="title"><%= article.title %></h1>
+              <div class="author"><%= article.author.name %></div>
+              <div class="time"><%= article.createdAt %></div>
+            </a>
+          </li><% }) %>
+        </ul><% } else { %>
+        <p>Sorry, you don't have any articles :)</p><% } %>
+      </div>
+    </div>
+  </section>
+
+<%- include('./partials/footer.ejs') %>

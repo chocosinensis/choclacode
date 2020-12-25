@@ -15,6 +15,12 @@ const about_get = (req, res) => {
   const about = JSON.stringify(require('../data/about.json'), null, 2);
   res.render('others/about', { title: 'About', about });
 }
+const dashboard_get = async (req, res) => {
+  const { user } = res.locals;
+  const articles = await Article.find({ 'author.id': user.id });
+
+  res.render('dashboard', { title: 'Dashboard', articles });
+}
 
 const err403 = (req, res) => res.status(403)
   .render('others/error', {
@@ -30,6 +36,6 @@ const err404 = (req, res) => res.status(404)
   });
 
 module.exports = {
-  home_get, about_get,
+  home_get, about_get, dashboard_get,
   err403, err404
 };

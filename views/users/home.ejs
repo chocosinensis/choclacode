@@ -1,0 +1,22 @@
+<%- include('../partials/head.ejs') %>
+<%- include('../partials/header.ejs') %>
+
+  <section>
+    <div class="container">
+      <h1>Users</h1>
+      <ul class="card-container"><% users.forEach(({ username, email}) => { %>
+        <li class="card">
+          <h3 class="card-title">
+            <%= username %>
+          </h3>
+          <div class="card-link">
+            <a href="/users/<%= username %>">
+              <i class="material-icons btn">person</i>
+            </a>
+          </div>
+        </li><% }) %>
+      </ul>
+    </div>
+  </section>
+
+<%- include('../partials/footer.ejs') %>
