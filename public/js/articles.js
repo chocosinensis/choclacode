@@ -46,7 +46,7 @@ const articles = () => {
     });
     form.body.addEventListener(
       'keyup', 
-      () => article.body.innerHTML = form.body.value.replace(/<\/?script(.)*?>/g, '')
+      () => article.body.innerHTML = marked(form.body.value.replace(/<\/?script(.)*?>/g, ''))
     );
   }
   const _delete = () => {

@@ -33,4 +33,10 @@ const checkUser = (req, res, next) => {
   }
 }
 
-module.exports = { requireAuth, checkUser };
+const requireGuest = (req, res, next) => {
+  res.locals.user ?
+    res.redirect('/') :
+    next();
+}
+
+module.exports = { requireAuth, checkUser, requireGuest };

@@ -1,17 +1,16 @@
 const { static, urlencoded, json } = require('express');
 const { connect } = require('mongoose');
 const cookie = require('cookie-parser');
-const cors = require('cors');
 
 const {
   username, password,
-  domain, database
+  url, database
 } = require('./keys.json').mongodb;
 const { socket } = require('./functions');
 
 const listen = async (app) => {
   await connect(
-    `mongodb+srv://${username}:${password}@${domain}/${database}`,
+    `mongodb+srv://${username}:${password}@${url}/${database}`,
     { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
   );
   const server = app.listen(process.env.PORT || 3000);
@@ -30,7 +29,6 @@ const config = (app) => {
   app.use(urlencoded({ extended: true }));
   app.use(json());
   app.use(cookie());
-  app.use(cors());
 }
 
 module.exports = { listen, config };

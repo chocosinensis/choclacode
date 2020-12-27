@@ -2,7 +2,7 @@
   "mongodb": {
     "username": "saqib",
     "password": "09jHOCFX4O17Z02ZAji1hd23",
-    "domain": "choco.gduh2.mongodb.net",
+    "url": "choco.gduh2.mongodb.net",
     "database": "base-choco"
   },
   "jwt": {

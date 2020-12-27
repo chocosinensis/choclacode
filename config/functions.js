@@ -43,9 +43,6 @@ const handleErrors = (err) => {
 const createToken = (id) => sign(
   { id }, code, { expiresIn: 3 * 24 * 60 * 60 }
 );
-const authget = (res, rendering, title) =>
-  res.locals.user ? res.redirect('/') : res.render(rendering, { title });
-
 const socket = (io) => {
   let users = [];
   io.on('connection', (socket) => {
@@ -67,6 +64,5 @@ const toDate = (date) => `${date.toDateString().substr(4)} ${date.toTimeString()
 
 module.exports = {
   schemaType, handleErrors, 
-  createToken, authget, 
-  socket, toDate
+  createToken, socket, toDate
 };

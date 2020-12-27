@@ -85,7 +85,7 @@ img[alt="logo"] {
   border-radius: 36px;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
-.quote .content {
+.quote .content, blockquote {
   display: block;
   padding-left: 20px;
   border-left: 3px solid var(--primary);

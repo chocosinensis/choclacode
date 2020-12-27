@@ -32,7 +32,7 @@ const auth = () => {
             errors.email.textContent = data.errors.email;
         }
         if (data.user)
-          location.pathname = sup ? '/auth/account' : '/';
+          location.pathname = '/dashboard';
       } catch (err) { console.log(err.message); }
     });
   }

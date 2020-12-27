@@ -35,6 +35,9 @@ button, input[type='submit'] {
   border: none;
   cursor: pointer;
 }
+hr {
+  border-color: var(--primary);
+}
 :focus {
   outline: none;
 }

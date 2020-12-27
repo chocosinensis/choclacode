@@ -6,17 +6,17 @@ const {
   logout_get,
   account_get, account_delete
 } = require('../controllers/auth');
-const { requireAuth } = require('../middlewares/auth');
+const { requireAuth, requireGuest } = require('../middlewares/auth');
 
 const auth = Router();
 
-auth.get('/signup', signup_get);
-auth.post('/signup', signup_post);
+auth.get('/signup', requireGuest, signup_get);
+auth.post('/signup', requireGuest, signup_post);
 
-auth.get('/login', login_get);
-auth.post('/login', login_post);
+auth.get('/login', requireGuest, login_get);
+auth.post('/login', requireGuest, login_post);
 
-auth.get('/logout', logout_get);
+auth.get('/logout', requireAuth, logout_get);
 
 auth.get('/account', requireAuth, account_get);
 auth.delete('/account', requireAuth, account_delete);

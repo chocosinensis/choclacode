@@ -1,7 +1,7 @@
 const User = require('../models/User');
-const { handleErrors, createToken, authget } = require('../config/functions');
+const { handleErrors, createToken } = require('../config/functions');
 
-const signup_get = (req, res) => authget(res, 'auth/signup', 'Sign Up');
+const signup_get = (req, res) => res.render('auth/signup', { title: 'Sign Up' });
 const signup_post = async (req, res) => {
   const { username, email, password } = req.body;
   try {
@@ -15,7 +15,7 @@ const signup_post = async (req, res) => {
   }
 }
 
-const login_get = (req, res) => authget(res, 'auth/login', 'Login');
+const login_get = (req, res) => res.render('auth/login', { title: 'Login' });
 const login_post = async (req, res) => {
   const { username, password } = req.body;
   try {

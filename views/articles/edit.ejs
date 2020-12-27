@@ -1,5 +1,6 @@
 <%- include('../partials/head.ejs') %>
   <link rel="stylesheet" href="/styles/others/articles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="/js/articles.js"></script>
   <script>window.addEventListener('load', () => articles().edit())</script>
 <%- include('../partials/header.ejs') %>
@@ -10,7 +11,7 @@
     <form class="article">
       <input type="text" name="title" placeholder="Title" value="<%- article.title %>">
       <p class="title-err error"></p>
-      <textarea name="body" cols="30" rows="10" placeholder="Body"><%- article.body %></textarea>
+      <textarea name="body" cols="30" rows="10" placeholder="Body"><%- article.raw %></textarea>
       <p class="body-err error"></p>
       <input type="submit" class="material-icons-outlined" value="edit">
     </form>
