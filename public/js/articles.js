@@ -53,7 +53,7 @@ const articles = () => {
     const del = document.querySelector('a.delete');
 
     del.addEventListener('click', () => 
-      fetch(`/articles/delete/${del.dataset.doc}`, { method: 'DELETE' })
+      fetch(`/articles/${del.dataset.doc}/delete`, { method: 'DELETE' })
         .then((res) => res.json())
         .then((data) => location.pathname = data.redirect)
         .catch(console.log))

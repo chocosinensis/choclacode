@@ -18,9 +18,9 @@ articles.post('/create', requireAuth, checkUser, createarticle_post);
 
 articles.get('/:slug', article_get);
 
-articles.get('/edit/:slug', requireAuth, editarticle_get);
-articles.put('/edit/:slug', requireAuth, checkUser, editarticle_put);
+articles.get('/:slug/edit', requireAuth, editarticle_get);
+articles.put('/:slug/edit', requireAuth, checkUser, editarticle_put);
 
-articles.delete('/delete/:slug', requireAuth, checkUser, deletearticle);
+articles.delete('/:slug/delete', requireAuth, checkUser, deletearticle);
 
 module.exports = articles;

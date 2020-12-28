@@ -9,7 +9,7 @@ const surah_get = (req, res) => {
       if (num == req.params.surah) info = { num, eng, ara };
     }));
     res.render('quran/surah', { 
-      title: `${info.eng} - ${info.ara}`, 
+      title: `${info.eng} &laquo; ${info.ara}`, 
       info, surah 
     });
   } catch {
