@@ -53,7 +53,7 @@ const socket = (io) => {
       users = users.includes(name) ? users : [...users, name];
       io.sockets.emit('users', users);
     });
-    socket.on('newmsg', (data) => socket.broadcast.emit('sendmsg', data));
+    socket.on('newmsg', (data) => io.sockets.emit('sendmsg', data));
     socket.on('disconnect', () => {
       users = users.filter(user => user != _name);
       socket.broadcast.emit('users', users);

@@ -22,7 +22,7 @@ a {
   display: inline-block;
   cursor: pointer;
 }
-pre {
+pre, code {
   font-family: 'JetBrains Mono';
 }
 input, textarea {
