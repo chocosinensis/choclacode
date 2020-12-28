@@ -1,0 +1,9 @@
+<ul class="articles"><% articles.forEach((article) => { %>
+  <li class="article link">
+  <a href="/articles/<%- article.slug %>">
+    <h1 class="title"><%- article.title %></h1>
+    <div class="author"><%- article.author.name %></div>
+    <div class="time"><%- article.createdAt %></div>
+  </a>
+  </li><% }); %>
+</ul>

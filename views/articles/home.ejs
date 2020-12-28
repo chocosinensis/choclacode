@@ -5,15 +5,7 @@
   <section>
     <h1>Articles</h1>
     <p>Read, learn and increase the faith for Allah!</p>
-    <ul class="articles"><% articles.forEach((article) => { %>
-      <li class="article link">
-      <a href="/articles/<%- article.slug %>">
-        <h1 class="title"><%- article.title %></h1>
-        <div class="author"><%- article.author.name %></div>
-        <div class="time"><%- article.createdAt %></div>
-      </a>
-      </li><% }); %>
-    </ul>
+    <%- include('../shared/articles.ejs', { articles }) %>
     <% if (user) { %><a href="/articles/create" class="btn">Create</a><% } %>
   </section>
 

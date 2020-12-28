@@ -7,16 +7,14 @@ const discuss = () => {
     document.querySelector('.preview .users')
   ];
   const sendmsg = ({ name: n, msg }) => 
-    chatbox.innerHTML += n == name ? `
-        <li class="self">
-          <span class="msg">${msg}</span>
-        </li>
-      ` : `
-        <li>
-          <span class="name">${n}</span>
-          <span class="msg">${msg}</span>
-        </li>
-      `;
+    chatbox.innerHTML += n == name ?
+      `<li class="self">
+        <span class="msg">${msg}</span>
+      </li>` :
+      `<li>
+        <span class="name">${n}</span>
+        <span class="msg">${msg}</span>
+      </li>`;
 
   socket.on('connection', () => socket.emit('newuser', { name }));
   socket.on('users', (data) => users.innerHTML = data.map(user => `<li>${user}</li>`).join(''));

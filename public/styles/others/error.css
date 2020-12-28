@@ -8,9 +8,14 @@
 }
 .errorsect .status {
   padding: 5px 10px;
+  letter-spacing: 0.1em;
   border-right: 3px solid var(--font-pr);
 }
 .errorsect .detail {
-  color: var(--font-te);
+  color: var(--primary);
+  font-size: 0.75em;
+  font-weight: bolder;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
   margin-left: 10px;
 }

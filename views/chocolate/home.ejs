@@ -5,15 +5,7 @@
   <section>
     <h1 class="title">Chocolate</h1>
     <div class="container">
-      <ul class="card-container"><% chocolates.forEach((choc) => { %>
-        <li class="card">
-          <div class="card-img" style="background-image: url('/assets/img/chocolate/<%= choc.src %>');"></div>
-          <h3 class="card-title"><%= choc.title %></h3>
-          <div class="card-link">
-            <a href="/chocolate/<%= choc.slug %>" class="btn">More Info...</a>
-          </div>
-        </li><% }); %>
-      </ul>
+      <%- include('../shared/chocolates.ejs', { chocs: chocolates }) %>
       <p>This is just dummy information about chocolate, only gave because I love them. Don't learn about chocolate from here. But feel free to use the 'lorem chocolate ipsum'!</p>
     </div>
   </section>

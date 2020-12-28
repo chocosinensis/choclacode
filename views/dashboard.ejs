@@ -40,15 +40,7 @@
           `${articles.length} ${articles.length == 1 ?
             'article' : 'articles'}`
         %></p><% if (articles.length) { %>
-        <ul class="articles"><% articles.forEach(article => { %>
-          <li class="article link">
-            <a href="/articles/<%= article.slug %>">
-              <h1 class="title"><%= article.title %></h1>
-              <div class="author"><%= article.author.name %></div>
-              <div class="time"><%= article.createdAt %></div>
-            </a>
-          </li><% }) %>
-        </ul><% } else { %>
+        <%- include('./shared/articles.ejs', { articles }) %><% } else { %>
         <p>Sorry, you don't have any articles :)</p><% } %>
       </div>
     </div>

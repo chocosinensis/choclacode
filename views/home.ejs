@@ -20,29 +20,13 @@
 
   <section id="articles">
     <h1 class="title">Articles</h1>
-    <ul class="articles"><% articles.forEach((article) => { %>
-      <li class="article link">
-      <a href="/articles/<%- article.slug %>">
-        <h1 class="title"><%- article.title %></h1>
-        <div class="author"><%- article.author.name %></div>
-        <div class="time"><%- article.createdAt %></div>
-      </a>
-      </li><% }); %>
-    </ul>
+    <%- include('./shared/articles.ejs', { articles }) %>
   </section>
 
   <section id="chocolate">
     <h1>Chocolate</h1>
     <div class="container">
-      <ul class="card-container"><% chocs.forEach((choc) => { %>
-        <li class="card">
-          <div class="card-img" style="background-image: url('/assets/img/chocolate/<%= choc.src %>');"></div>
-          <h3 class="card-title"><%= choc.title %></h3>
-          <div class="card-link">
-            <a href="/chocolate/<%= choc.slug %>" class="btn">More Info...</a>
-          </div>
-        </li><% }); %>
-      </ul>
+      <%- include('./shared/chocolates.ejs', { chocs }) %>
     </div>
     <div class="link">
       <a href="/chocolate" class="btn">View All</a>
