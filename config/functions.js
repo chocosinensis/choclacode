@@ -24,8 +24,13 @@ const handleErrors = (err) => {
     errors.auth.password = 'Incorrect password entered';
 
   if (err.code == 11000) {
-    errors.auth.username = 'That username is already registered';
-    errors.article.slug = 'Please use a different slug, because this has already been used';
+    if (err.message.includes('username'))
+      errors.auth.username = 'Your entered username has already been registered';
+    if (err.message.includes('email'))
+      errors.auth.email = 'Your entered email has already been registered';
+    if (err.message.includes('slug'))
+      errors.article.slug = 'Please use a different slug, because this has already been used';
+
     return errors;
   }
 

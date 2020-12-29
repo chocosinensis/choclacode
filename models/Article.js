@@ -10,7 +10,7 @@ const articleSchema = new Schema({
       'Title can have a maximum of 124 characters'
     ]),
     validate: [
-      (val) => /^[\w\d\s()_!?\-]+$/g.test(val),
+      (val) => /^[\w\d\s()\._!?\-]+$/g.test(val),
       'Title can only contain alphabets, numbers, hyphens (-), underscores (_) and brackets'
     ]
   },
