@@ -1,6 +1,6 @@
 const Article = require('../models/Article');
 
-const home_get =  async (req, res) => {
+const home_get = async (req, res) => {
   const articles = [
     await Article.findById('5fb271b0ca65a63f893903a3'),
     await Article.findById('5fb20ffc2aa4d6132d2248ba')

@@ -8,8 +8,8 @@ const {
 } = require('./keys.json').mongodb;
 const { socket } = require('./functions');
 
-const listen = async (app) => {
-  await connect(
+const listen = (app) => {
+  connect(
     `mongodb+srv://${username}:${password}@${url}/${database}`,
     { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
   );
