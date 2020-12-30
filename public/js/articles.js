@@ -15,6 +15,7 @@ const articles = () => {
 
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
+      Object.values(errors).forEach(e => path == 'create' && (e.value = ''));
 
       const [title, body, slug] = [
         form.title.value,

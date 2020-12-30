@@ -32,6 +32,7 @@ const discuss = () => {
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
+    form.msg.focus();
     const msg = form.msg.value.replace(/<\/?script(.)*>/g, '');
     if (msg == '' || /^\s+$/g.test(msg)) return;
     socket.emit('newmsg', { name, msg });

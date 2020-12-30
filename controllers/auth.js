@@ -39,7 +39,7 @@ const account_get = (req, res) =>
 const account_delete = async (req, res) => {
   const { email, password } = req.body;
   try {
-    const user = await User.delete(email, password);
+    const user = await User.delete(res.locals.user.id, email, password);
     res.status(201).json({ user: user._id });
   } catch (err) {
     const errors = handleErrors(err).auth;

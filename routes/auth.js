@@ -6,7 +6,7 @@ const {
   logout_get,
   account_get, account_delete
 } = require('../controllers/auth');
-const { requireAuth, requireGuest } = require('../middlewares/auth');
+const { requireAuth, checkUser, requireGuest } = require('../middlewares/auth');
 
 const auth = Router();
 
@@ -19,6 +19,6 @@ auth.post('/login', requireGuest, login_post);
 auth.get('/logout', requireAuth, logout_get);
 
 auth.get('/account', requireAuth, account_get);
-auth.delete('/account', requireAuth, account_delete);
+auth.delete('/account', requireAuth, checkUser, account_delete);
 
 module.exports = auth;

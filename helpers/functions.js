@@ -19,7 +19,7 @@ const handleErrors = (err) => {
   };
 
   if (err.message == 'Incorrect username')
-    errors.auth.username = 'That username is not registered';
+    errors.auth.username = 'Your entered username is not registered';
   if (err.message == 'Incorrect password')
     errors.auth.password = 'Incorrect password entered';
 
@@ -34,21 +34,22 @@ const handleErrors = (err) => {
     return errors;
   }
 
-  if (err.message.includes('user validation failed')) 
-    Object.values(err.errors).forEach(({ properties }) => 
-      errors.auth[properties.path] = properties.message);
-
-  if (err.message.includes('article validation failed'))
-    Object.values(err.errors).forEach(({ properties }) =>
-      errors.article[properties.path] = properties.message);
+  const updateErrors = (field) => {
+    if (err.message.includes(
+      `${field == 'auth' ? 'user' : field} validation failed`)) 
+      Object.values(err.errors).forEach(({ properties }) => 
+        errors[field][properties.path] = properties.message);
+  }
+  updateErrors('auth');
+  updateErrors('article');
 
   return errors;
 }
 
-const createToken = (id) => sign(
-  { id }, code, { expiresIn: 3 * 24 * 60 * 60 }
-);
-const toDate = (date) => `${date.toDateString().substr(4)} ${date.toTimeString().substring(0, 8)}`;
+const createToken = (id) => sign({ id }, code, { expiresIn: 3 * 24 * 60 * 60 });
+const toDate = (date) => `${date
+  .toDateString().substr(4)} ${date
+  .toTimeString().substring(0, 8)}`;
 
 module.exports = {
   schemaType, handleErrors, 

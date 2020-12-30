@@ -5,23 +5,23 @@ const { schemaType } = require('../helpers/functions');
 const articleSchema = new Schema({
   title: {
     ...schemaType(4, 124, [
-      'Title is a required field',
+      'Please enter a title',
       'Title must be at least 4 characters long',
       'Title can have a maximum of 124 characters'
     ]),
     validate: [
       (val) => /^[\w\d\s()\._!?\-]+$/g.test(val),
-      'Title can only contain alphabets, numbers, hyphens (-), underscores (_) and brackets'
+      'Title can only contain the following : A-Z a-z 0-9 . _ - ? !'
     ]
   },
   body: {
     type: String,
-    required: [true, 'Body is a required field'],
+    required: [true, 'Please write something for your article'],
     minlength: [25, 'Body must be at least 25 characters long']
   },
   slug: {
     ...schemaType(4, 124, [
-      'Slug is a required field',
+      'Please enter an article slug',
       'Slug must be at least 4 characters long',
       'Slug can have a maximum of 124 characters'
     ]),
