@@ -6,7 +6,7 @@ const {
   username, password,
   url, database
 } = require('./keys.json').mongodb;
-const { socket } = require('./functions');
+const { discuss } = require('../helpers/socket');
 
 const listen = (app) => {
   connect(
@@ -16,7 +16,7 @@ const listen = (app) => {
   const server = app.listen(process.env.PORT || 3000);
 
   const io = require('socket.io')(server);
-  socket(io);
+  discuss(io);
 }
 
 const config = (app) => {

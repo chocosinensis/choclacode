@@ -21,12 +21,16 @@
   flex-direction: column;
 }
 #chatbox li .name {
+  margin-left: 15px;
   margin-bottom: 5px;
   font-size: 15px;
-  text-align: center;
+  text-align: left;
   color: var(--font-pr);
 }
 #chatbox li .msg {
+  display: flex;
+}
+#chatbox li .text {
   display: inline-block;
   padding: 10px 20px;
   border-radius: 36px;
@@ -36,9 +40,21 @@
   color: var(--font-se);
   overflow-x: scroll;
 }
+#chatbox li .time {
+  opacity: 0.1;
+  margin: auto 4px;
+  transition: opacity 0.2s ease-out;
+  cursor: default;
+}
+#chatbox li:hover .time {
+  opacity: 1;
+}
 #chatbox li.self {
   align-self: flex-end;
   margin: 10px 15px !important;
+}
+#chatbox li.self .msg {
+  flex-direction: row-reverse;
 }
 form {
   flex-direction: row;
@@ -50,6 +66,10 @@ form#sendmsg input {
   margin: 5px;
 }
 
+#chatbox * {
+  scrollbar-color: var(--font-pr) var(--font-pr);
+  scrollbar-width: none;
+}
 #chatbox ::-webkit-scrollbar {
   height: 0;
   width: 0;

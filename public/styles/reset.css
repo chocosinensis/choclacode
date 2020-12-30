@@ -47,6 +47,10 @@ hr {
   background-color: var(--secondary);
 }
 
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary) #ddd;
+}
 ::-webkit-scrollbar {
   height: 1px;
   width: 3px;

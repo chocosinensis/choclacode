@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const { schemaType } = require('../config/functions');
+const { schemaType } = require('../helpers/functions');
 
 const articleSchema = new Schema({
   title: {

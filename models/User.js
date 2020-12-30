@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 const { genSalt, hash, compare } = require('bcrypt');
 
-const { schemaType } = require('../config/functions');
+const { schemaType } = require('../helpers/functions');
 
 const userSchema = new Schema({
   username: { 
@@ -11,7 +11,10 @@ const userSchema = new Schema({
       'Usernames can have a maximum of 32 characters'
     ]), 
     unique: true, lowercase: [true, 'Username must be lowercase'],
-    validate: [(val) => /^[a-z\d]+$/g.test(val), 'Username can only be alphanumberic and cannot contain whitespace']
+    validate: [
+      (val) => /^[a-z\d_\-]+$/g.test(val),
+      'Username can only be alphanumberic, contain hyphens (-) and underscores (_) and cannot contain whitespaces'
+    ]
   },
   email: {
     type: String,

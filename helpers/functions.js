@@ -1,6 +1,6 @@
 const { sign } = require('jsonwebtoken');
 
-const { code } = require('./keys.json').jwt;
+const { code } = require('../config/keys.json').jwt;
 
 const schemaType = (min, max, errors) => ({
   type: String,
@@ -48,26 +48,9 @@ const handleErrors = (err) => {
 const createToken = (id) => sign(
   { id }, code, { expiresIn: 3 * 24 * 60 * 60 }
 );
-const socket = (io) => {
-  let users = [];
-  io.on('connection', (socket) => {
-    let _name;
-    socket.emit('connection');
-    socket.on('newuser', ({ name }) => {
-      _name = name;
-      users = users.includes(name) ? users : [...users, name];
-      io.sockets.emit('users', users);
-    });
-    socket.on('newmsg', (data) => io.sockets.emit('sendmsg', data));
-    socket.on('disconnect', () => {
-      users = users.filter(user => user != _name);
-      socket.broadcast.emit('users', users);
-    });
-  });
-}
 const toDate = (date) => `${date.toDateString().substr(4)} ${date.toTimeString().substring(0, 8)}`;
 
 module.exports = {
   schemaType, handleErrors, 
-  createToken, socket, toDate
+  createToken, toDate
 };

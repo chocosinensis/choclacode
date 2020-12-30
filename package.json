@@ -4,7 +4,8 @@
   "description": "Choclacode official website 1.0",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon ."
+    "start": "node .",
+    "serve": "npx nodemon"
   },
   "repository": {
     "type": "git",
@@ -27,8 +28,5 @@
     "marked": "^1.2.7",
     "mongoose": "^5.10.12",
     "socket.io": "^3.0.1"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
   }
 }

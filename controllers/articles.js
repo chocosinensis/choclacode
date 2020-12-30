@@ -1,7 +1,7 @@
 const marked = require('marked');
 
 const Article = require('../models/Article');
-const { handleErrors, toDate } = require('../config/functions');
+const { handleErrors, toDate } = require('../helpers/functions');
 
 const articles_get = (req, res) => Article.find()
   .then((articles) => res.render('articles/home', { title: 'Articles', articles }))

@@ -6,15 +6,26 @@ const discuss = () => {
     document.querySelector('#sendmsg'),
     document.querySelector('.preview .users')
   ];
-  const sendmsg = ({ name: n, msg }) => 
+  const sendmsg = ({ name: n, msg, time }) => {
+    msg = msg.split(' ')
+      .map(m => m.startsWith('@') ? `<span class="title">${m}</span>` : m)
+      .join(' ');
     chatbox.innerHTML += n == name ?
       `<li class="self">
-        <span class="msg">${msg}</span>
+        <div class="msg">
+          <span class="text">${msg}</span>
+          <span class="time">${time}</span>
+        </div>
       </li>` :
       `<li>
         <span class="name">${n}</span>
-        <span class="msg">${msg}</span>
+        <div class="msg">
+          <span class="text">${msg}</span>
+          <span class="time">${time}</span>
+        </div>
       </li>`;
+    chatbox.scrollTop = chatbox.scrollHeight;
+  }
 
   socket.on('connection', () => socket.emit('newuser', { name }));
   socket.on('users', (data) => users.innerHTML = data.map(user => `<li>${user}</li>`).join(''));

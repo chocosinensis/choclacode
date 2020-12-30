@@ -112,6 +112,9 @@ img[alt="logo"] {
   padding: 20px;
   margin: 0 auto;
 }
+.code, .articles, .nosb {
+  scrollbar-width: none;
+}
 .code::-webkit-scrollbar,
 .articles::-webkit-scrollbar,
 .nosb::-webkit-scrollbar {
