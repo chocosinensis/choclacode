@@ -16,10 +16,6 @@
     .shadow {
       fill: #3a1f0d;
     }
-    .topping path {
-      stroke-width: 0;
-      fill: #3a1f0d;
-    }
     text {
       fill: url('#texteffect');
       font-size: 8px;

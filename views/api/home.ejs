@@ -6,10 +6,14 @@
     <p>APIs to use in different applications</p>
     <p>Requesting to please not click any of the links if you are not a developer; because it may look scary to you</p>
 
-    <ul class="flex">
-      <li><a href="/api/quran">Quran</a></li>
-      <li><a href="/api/chocolate">Chocolate</a></li>
-      <li><a href="/api/quotes">Quotes</a></li>
+    <ul class="flex"><%
+      const apis = [
+        { l: 'quran', n: 'Quran' },
+        { l: 'chocolate', n: 'Chocolate' },
+        { l: 'quotes', n: 'Quotes' },
+      ];
+      apis.forEach(({ l, n }) => { %>
+      <li><a href="/api/<%- l %>?raw=false"><%- n %></a></li><% }) %>
     </ul>
   </section>
 

@@ -16,10 +16,6 @@
     .shadow {
       fill: #3a1f0d;
     }
-    .topping path {
-      stroke-width: 0;
-      fill: #3a1f0d;
-    }
   </style>
   <g class="faded">
     <path d="M31,80 L16,42 H20 L35,80" class="side" />
