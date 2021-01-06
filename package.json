@@ -14,12 +14,15 @@
   "keywords": [],
   "author": "Saqib",
   "license": "ISC",
+  "engines": {
+    "node": "15.x"
+  },
   "bugs": {
     "url": "https://github.com/choclacode/choclacode/issues"
   },
   "homepage": "https://github.com/choclacode/choclacode#readme",
   "dependencies": {
-    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "ejs": "^3.1.5",

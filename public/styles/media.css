@@ -97,6 +97,9 @@
   .card {
     width: 80%;
   }
+  .desktop {
+    display: none;
+  }
 }
 @media screen and (max-width: 576px) {
   /* header */
