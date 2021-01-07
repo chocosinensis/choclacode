@@ -100,6 +100,10 @@
   .desktop {
     display: none;
   }
+  .preview.cover {
+    height: 10rem;
+    width: 30rem;
+  }
 }
 @media screen and (max-width: 576px) {
   /* header */
@@ -114,5 +118,9 @@
   /* util */
   .card {
     width: 100%;
+  }
+  .preview.cover {
+    height: 5rem;
+    width: 15rem;
   }
 }

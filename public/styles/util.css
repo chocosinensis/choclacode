@@ -134,6 +134,13 @@ img[alt="logo"] {
 .preview .btn {
   margin: 20px auto;
 }
+.preview.cover {
+  height: 12rem;
+  width: 36rem;
+  padding: 0;
+  background: url('/assets/img/logo/cover.png') no-repeat center center;
+  background-size: contain;
+}
 .error {
   color: #ffa0a0;
   text-align: center;

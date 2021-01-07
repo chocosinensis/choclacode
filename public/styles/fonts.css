@@ -11,15 +11,14 @@
 .ara {
   font-family: 'Janna LT';
 }
+pre, code {
+  font-family: 'JetBrains Mono';
+}
 
 /* @font-face... */
 @font-face {
   font-family: 'Quicksand';
   src: url('/assets/fonts/Quicksand.ttf');
-}
-@font-face {
-  font-family: 'JetBrains Mono';
-  src: url('/assets/fonts/JetBrainsMono.ttf');
 }
 @font-face {
   font-family: 'Siyamrupali';
@@ -28,4 +27,8 @@
 @font-face {
   font-family: 'Janna LT';
   src: url('/assets/fonts/JannaLT.ttf');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/assets/fonts/JetBrainsMono.ttf');
 }

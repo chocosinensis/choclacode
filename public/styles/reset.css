@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
 }
 * {
-  font-family: 'Quicksand';
+  font-family: 'Quicksand', 'Siyamrupali', 'Janna LT';
   scroll-behavior: smooth;
   transition: color 0.4s ease,
     background-color 0.4s ease;
@@ -21,9 +21,6 @@ a {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
-}
-pre, code {
-  font-family: 'JetBrains Mono';
 }
 input, textarea {
   margin: 10px;
