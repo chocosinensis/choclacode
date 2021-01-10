@@ -1,4 +1,4 @@
-const discuss = () => {
+(() => {
   const socket = io();
   const [name, chatbox, form, users] = [
     document.querySelector('.links #name').textContent,
@@ -39,4 +39,4 @@ const discuss = () => {
     form.msg.value = '';
   });
   socket.on('sendmsg', sendmsg);
-}
+})();

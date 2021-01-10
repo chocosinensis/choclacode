@@ -1,6 +1,6 @@
 <%- include('../partials/head.ejs') %>
   <link rel="stylesheet" href="/styles/others/articles.css"><% if (user && user.id == article.author.id) { %>
-  <script src="/js/articles.js"></script>
+  <script defer src="/js/articles.js"></script>
   <script>window.addEventListener('load', () => articles()._delete())</script><% } %>
 <%- include('../partials/header.ejs') %>
 

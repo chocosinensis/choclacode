@@ -1,4 +1,4 @@
-window.addEventListener('load', async () => {
+(async () => {
   const quotes = await (await fetch('/api/quotes')).json();
   const quoteElem = document.querySelector('.quote');
 
@@ -20,4 +20,4 @@ window.addEventListener('load', async () => {
     i = i == quotes.length - 1 ? 0 : i + 1;
     renderquote(quotes[i]);
   }, 7000);
-});
+})();
