@@ -17,7 +17,7 @@ const about_get = (req, res) => {
 }
 const dashboard_get = async (req, res) => {
   const { user } = res.locals;
-  const articles = await Article.find({ 'author.id': user.id });
+  const articles = await Article.find({ 'author.id': user.id, deleted: false });
 
   res.render('dashboard', { title: 'Dashboard', articles });
 }

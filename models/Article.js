@@ -35,8 +35,24 @@ const articleSchema = new Schema({
     id: String,
     name: String
   },
-  createdAt: String
+  createdAt: String,
+  deleted: Boolean
 });
+
+articleSchema.pre('save', function (next) {
+  this.deleted = false;
+  next();
+});
+
+articleSchema.statics.delete = async function (slug, id, username) {
+  return this.findOneAndUpdate({
+    slug, 'author.id': id, 'author.name': username,
+    deleted: false
+  }, { $set: {
+    slug: `${slug} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`,
+    deleted: true
+  } }, { useFindAndModify: false });
+}
 
 const Article = model('article', articleSchema);
 

@@ -40,6 +40,7 @@ const account_delete = async (req, res) => {
   const { email, password } = req.body;
   try {
     const user = await User.delete(res.locals.user.id, email, password);
+    res.cookie('jwt', '', { maxAge: 1 });
     res.status(201).json({ user: user._id });
   } catch (err) {
     const errors = handleErrors(err).auth;

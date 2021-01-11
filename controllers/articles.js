@@ -3,7 +3,7 @@ const marked = require('marked');
 const Article = require('../models/Article');
 const { handleErrors, toDate } = require('../helpers/functions');
 
-const articles_get = (req, res) => Article.find()
+const articles_get = (req, res) => Article.find({ deleted: false })
   .then((articles) => res.render('articles/home', { title: 'Articles', articles }))
   .catch(console.log);
 
@@ -24,7 +24,7 @@ const createarticle_post = async (req, res) => {
   }
 }
 
-const article_get = (req, res) => Article.findOne({ slug: req.params.slug })
+const article_get = (req, res) => Article.findOne({ slug: req.params.slug, deleted: false })
   .then(({ title, body, slug, author, createdAt }) => res.render('articles/details', { 
     title: `${title} &laquo ${author.name}`,
     article: { title, body: marked(body), slug, author, createdAt }
@@ -33,7 +33,10 @@ const article_get = (req, res) => Article.findOne({ slug: req.params.slug })
 const editarticle_get = async (req, res) => {
   const { id, username } = res.locals.user;
   const { slug } = req.params;
-  const article = await Article.findOne({ slug, 'author.id': id, 'author.name': username });
+  const article = await Article.findOne({
+    slug, 'author.id': id, 'author.name': username,
+    deleted: false
+  });
   if (article)
     res.render('articles/edit', {
       title: 'Edit Article',
@@ -47,7 +50,10 @@ const editarticle_put = async (req, res) => {
   const { slug } = req.params;
   const { id, username } = res.locals.user;
   try {
-    const article = await Article.findOne({ slug, 'author.id': id, 'author.name': username });
+    const article = await Article.findOne({
+      slug, 'author.id': id, 'author.name': username,
+      deleted: false
+    });
     article.title = title;
     article.body = body;
     article.save();
@@ -61,7 +67,7 @@ const editarticle_put = async (req, res) => {
 const deletearticle = (req, res) => {
   const { slug } = req.params;
   const { id, username } = res.locals.user;
-  Article.findOneAndDelete({ slug, 'author.id': id, 'author.name': username })
+  Article.delete(slug, id, username)
     .then(() => res.json({ redirect: '/articles' }))
     .catch(() => res.json({ redirect: '/articles' }));
 }
