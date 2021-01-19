@@ -11,16 +11,17 @@ const { requireAuth, checkUser } = require('../middlewares/auth');
 
 const articles = Router();
 
-articles.get('/', articles_get);
+articles
+  .get('/', articles_get)
 
-articles.get('/create', requireAuth, createarticle_get);
-articles.post('/create', requireAuth, checkUser, createarticle_post);
+  .get('/create', requireAuth, createarticle_get)
+  .post('/create', requireAuth, checkUser, createarticle_post)
 
-articles.get('/:slug', article_get);
+  .get('/:slug', article_get)
 
-articles.get('/:slug/edit', requireAuth, editarticle_get);
-articles.put('/:slug/edit', requireAuth, checkUser, editarticle_put);
+  .get('/:slug/edit', requireAuth, editarticle_get)
+  .put('/:slug/edit', requireAuth, checkUser, editarticle_put)
 
-articles.delete('/:slug/delete', requireAuth, checkUser, deletearticle);
+  .delete('/:slug/delete', requireAuth, checkUser, deletearticle);
 
 module.exports = articles;

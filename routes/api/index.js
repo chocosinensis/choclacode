@@ -7,10 +7,11 @@ const [quran, chocolate] = [require('./quran'), require('./chocolate')];
 
 const api = Router();
 
-api.get('/', requireAuth, api_get);
+api
+  .get('/', requireAuth, api_get)
 
-api.use('/quran', cors(), quran);
-api.use('/chocolate', cors(), chocolate);
-api.get('/quotes', quotes_get);
+  .use('/quran', cors(), quran)
+  .use('/chocolate', cors(), chocolate)
+  .get('/quotes', quotes_get);
 
 module.exports = api;

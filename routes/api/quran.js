@@ -7,8 +7,8 @@ const {
 
 const quran = Router();
 
-quran.get('/', quran_get);
-
-quran.get('/:surah', surah_get);
+quran
+  .get('/', quran_get)
+  .get('/:surah', surah_get);
 
 module.exports = quran;

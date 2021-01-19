@@ -20,15 +20,16 @@ const listen = (app) => {
 }
 
 const config = (app) => {
-  // settings
-  app.set('view engine', 'ejs');
-  app.set('json spaces', 2);
+  app
+    // settings
+    .set('view engine', 'ejs')
+    .set('json spaces', 2)
 
-  // middlewares
-  app.use(static('public'));
-  app.use(urlencoded({ extended: true }));
-  app.use(json());
-  app.use(cookie());
+    // middlewares
+    .use(static('public'))
+    .use(urlencoded({ extended: true }))
+    .use(json())
+    .use(cookie());
 }
 
 module.exports = { listen, config };

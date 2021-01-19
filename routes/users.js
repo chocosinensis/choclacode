@@ -5,7 +5,8 @@ const { requireAuth } = require('../middlewares/auth');
 
 const users = Router();
 
-users.get('/', requireAuth, users_get);
-users.get('/:username', requireAuth, user_get);
+users
+  .get('/', requireAuth, users_get)
+  .get('/:username', requireAuth, user_get);
 
 module.exports = users;

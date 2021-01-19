@@ -10,15 +10,16 @@ const { requireAuth, checkUser, requireGuest } = require('../middlewares/auth');
 
 const auth = Router();
 
-auth.get('/signup', requireGuest, signup_get);
-auth.post('/signup', requireGuest, signup_post);
+auth
+  .get('/signup', requireGuest, signup_get)
+  .post('/signup', requireGuest, signup_post)
 
-auth.get('/login', requireGuest, login_get);
-auth.post('/login', requireGuest, login_post);
+  .get('/login', requireGuest, login_get)
+  .post('/login', requireGuest, login_post)
 
-auth.get('/logout', requireAuth, logout_get);
+  .get('/logout', requireAuth, logout_get)
 
-auth.get('/account', requireAuth, account_get);
-auth.delete('/account', requireAuth, checkUser, account_delete);
+  .get('/account', requireAuth, account_get)
+  .delete('/account', requireAuth, checkUser, account_delete);
 
 module.exports = auth;

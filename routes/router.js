@@ -17,20 +17,21 @@ const [quran, articles, chocolate, auth, discuss, api, users] = [
 
 const root = Router();
 
-root.get('*', checkUser);
-root.get('/', home_get);
-root.get('/about', about_get);
-root.get('/dashboard', requireAuth, dashboard_get);
+root
+  .get('*', checkUser)
+  .get('/', home_get)
+  .get('/about', about_get)
+  .get('/dashboard', requireAuth, dashboard_get)
 
-root.use('/quran', quran);
-root.use('/articles', articles);
-root.use('/chocolate', chocolate);
-root.use('/auth', auth);
-root.use('/discuss', discuss);
-root.use('/api', api);
-root.use('/users', users);
+  .use('/quran', quran)
+  .use('/articles', articles)
+  .use('/chocolate', chocolate)
+  .use('/auth', auth)
+  .use('/discuss', discuss)
+  .use('/api', api)
+  .use('/users', users)
 
-root.get('/403', err403);
-root.use(err404);
+  .get('/403', err403)
+  .use(err404);
 
 module.exports = root;
