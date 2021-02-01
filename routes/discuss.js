@@ -1,7 +1,7 @@
 const { Router } = require('express');
 
 const { discussget } = require('../controllers/discuss');
-const { requireAuth } = require('../middlewares/auth');
+const { requireAuth } = require('../resources/middlewares/auth');
 
 const discuss = Router();
 

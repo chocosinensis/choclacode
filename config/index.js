@@ -1,16 +1,18 @@
 const { static, urlencoded, json } = require('express');
 const { connect } = require('mongoose');
 const cookie = require('cookie-parser');
+require('dotenv').config();
+
+const { discuss } = require('../resources/helpers/socket');
 
 const {
-  username, password,
-  url, database
-} = require('./keys.json').mongodb;
-const { discuss } = require('../helpers/socket');
+  DB_USERNAME, DB_PASSWORD,
+  DB_URL, DB_DATABASE
+} = process.env;
 
 const listen = (app) => {
   connect(
-    `mongodb+srv://${username}:${password}@${url}/${database}`,
+    `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@${DB_URL}/${DB_DATABASE}`,
     { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
   );
   const server = app.listen(process.env.PORT || 3000);

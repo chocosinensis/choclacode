@@ -1,12 +1,11 @@
 <%- include('../partials/head.ejs') %>
-  <link rel="stylesheet" href="/styles/others/chocolate.css">
 <%- include('../partials/header.ejs') %>
 
-  <section><% const lorem = 'Lorem chocolate ipsum chocolor sit amet chocolectetur adipisicing elit. Beatae commodi chocolatis nobis incidunt ducimus eum totam sunt hic facilis culpa chocolates labore dicta sequi nihil pariatur vitae, doloremque chocolate expedita, nisi quidem soluta consequuntur? Libero, chocolequatur deleniti. Alias incidunt assumenda chocolores soluta eum tenetur ducimus atque inventore, chocolatur obcaecati eveniet.'; %>
+  <section class="chocolates">
     <div class="choc-details">
       <h1 class="title"><%= choc.title %></h1>
       <div class="choc-content">
-        <article>
+        <article><% const lorem = 'Lorem chocolate ipsum chocolor sit amet chocolectetur adipisicing elit. Beatae commodi chocolatis nobis incidunt ducimus eum totam sunt hic facilis culpa chocolates labore dicta sequi nihil pariatur vitae, doloremque chocolate expedita, nisi quidem soluta consequuntur? Libero, chocolequatur deleniti. Alias incidunt assumenda chocolores soluta eum tenetur ducimus atque inventore, chocolatur obcaecati eveniet.'; %>
           <p><%= choc.content %></p>
           <p><%- lorem %></p>
           <p><%- lorem %></p>

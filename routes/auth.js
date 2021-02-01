@@ -6,7 +6,9 @@ const {
   logout_get,
   account_get, account_delete
 } = require('../controllers/auth');
-const { requireAuth, checkUser, requireGuest } = require('../middlewares/auth');
+const {
+  requireAuth, checkUser, requireGuest
+} = require('../resources/middlewares/auth');
 
 const auth = Router();
 

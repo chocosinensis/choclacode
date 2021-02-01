@@ -1,6 +1,6 @@
 const { sign } = require('jsonwebtoken');
 
-const { code } = require('../config/keys.json').jwt;
+const { JWT_SECRET } = process.env;
 
 const schemaType = (min, max, errors) => ({
   type: String,
@@ -46,7 +46,7 @@ const handleErrors = (err) => {
   return errors;
 }
 
-const createToken = (id) => sign({ id }, code, { expiresIn: 3 * 24 * 60 * 60 });
+const createToken = (id) => sign({ id }, JWT_SECRET, { expiresIn: 3 * 24 * 60 * 60 });
 const toDate = (date) => `${date
   .toDateString().substr(4)} ${date
   .toTimeString().substring(0, 8)}`;

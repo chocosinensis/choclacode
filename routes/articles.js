@@ -7,7 +7,7 @@ const {
   editarticle_get, editarticle_put,
   deletearticle
 } = require('../controllers/articles');
-const { requireAuth, checkUser } = require('../middlewares/auth');
+const { requireAuth, checkUser } = require('../resources/middlewares/auth');
 
 const articles = Router();
 

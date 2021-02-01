@@ -4,16 +4,7 @@ const {
   home_get, about_get, dashboard_get,
   err403, err404
 } = require('../controllers/router');
-const { requireAuth, checkUser } = require('../middlewares/auth');
-const [quran, articles, chocolate, auth, discuss, api, users] = [
-  require('./quran'),
-  require('./articles'),
-  require('./chocolate'),
-  require('./auth'),
-  require('./discuss'),
-  require('./api'),
-  require('./users')
-];
+const { requireAuth, checkUser } = require('../resources/middlewares/auth');
 
 const root = Router();
 
@@ -23,13 +14,13 @@ root
   .get('/about', about_get)
   .get('/dashboard', requireAuth, dashboard_get)
 
-  .use('/quran', quran)
-  .use('/articles', articles)
-  .use('/chocolate', chocolate)
-  .use('/auth', auth)
-  .use('/discuss', discuss)
-  .use('/api', api)
-  .use('/users', users)
+  .use('/quran', require('./quran'))
+  .use('/articles', require('./articles'))
+  .use('/chocolate', require('./chocolate'))
+  .use('/auth', require('./auth'))
+  .use('/discuss', require('./discuss'))
+  .use('/api', require('./api'))
+  .use('/users', require('./users'))
 
   .get('/403', err403)
   .use(err404);

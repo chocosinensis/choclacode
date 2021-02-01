@@ -1,8 +1,3 @@
-body {
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
-}
 * {
   font-family: 'Quicksand', 'Siyamrupali', 'Janna LT',
     -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -10,6 +5,36 @@ body {
   scroll-behavior: smooth;
   transition: color 0.4s ease,
     background-color 0.4s ease;
+  scrollbar-width: thin;
+  scrollbar-color: $primary #ddd;
+
+  &:focus {
+    outline: none;
+  }
+  &::selection {
+    color: $font-se;
+    background-color: $secondary;
+  }
+  &::-webkit-scrollbar {
+    height: 1px;
+    width: 3px;
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: $primary;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #ddd;
+  }
+
+  @include media ($breakpoint-md) {
+    cursor: default !important;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 ul {
   padding: 0;
@@ -19,7 +44,7 @@ article {
   text-align: justify;
 }
 a {
-  color: var(--font-pr);
+  color: $font-pr;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -35,28 +60,5 @@ button, input[type='submit'] {
   cursor: pointer;
 }
 hr {
-  border-color: var(--primary);
-}
-:focus {
-  outline: none;
-}
-
-::selection {
-  color: var(--font-se);
-  background-color: var(--secondary);
-}
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: var(--primary) #ddd;
-}
-::-webkit-scrollbar {
-  height: 1px;
-  width: 3px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: var(--primary);
-}
-::-webkit-scrollbar-track {
-  background-color: #ddd;
+  border-color: $primary;
 }

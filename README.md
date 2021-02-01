@@ -14,6 +14,7 @@ Dependencies :
 - [jsonwebtoken](https://jwt.io)
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js#readme)
 - [cookie-parser](https://github.com/expressjs/cookie-parser#readme)
+- [dotenv](https://github.com/motdotla/dotenv#readme)
 - [socket.io](https://socket.io)
 - [marked](https://marked.js.org) : Markdown to HTML
 

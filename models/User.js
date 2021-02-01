@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 const { genSalt, hash, compare } = require('bcryptjs');
 
-const { schemaType } = require('../helpers/functions');
+const { schemaType } = require('../resources/helpers/functions');
 
 const userSchema = new Schema({
   username: { 
