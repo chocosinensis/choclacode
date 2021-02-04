@@ -1,3 +1,20 @@
+// @import...
+@import 'dropdown';
+@import 'card';
+
+// mixins
+@mixin btnhover {
+  background-color: $secondary;
+  color: $primary;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+@mixin quote {
+  display: block;
+  padding-left: 20px;
+  border-left: 3px solid $primary;
+  overflow-x: hidden;
+}
+
 // classes
 .color {
   &, & * {
@@ -27,59 +44,7 @@ img[alt="logo"] {
   width: 100px;
   height: 100px;
 }
-.dropdown {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-width: 50px;
-  border-radius: 36px;
-  padding: 0;
 
-  p {
-    min-width: 50px;
-    margin: 5px auto;
-    padding: 5px 7.5px;
-    color: $primary;
-    text-align: center;
-    border-radius: 36px;
-    cursor: pointer;
-
-    &:hover {
-      background-color: $primary;
-      color: $font-se;
-    }
-  }
-
-  div {
-    display: none;
-
-    a {
-      margin: 0;
-      padding: 7.5px 10px;
-      border-radius: 0;
-      text-align: center;
-
-      &:hover {
-        color: $font-se;
-        background-color: $primary;
-      }
-    }
-  }
-
-  &:hover {
-    div {
-      position: absolute;
-      top: 40px;
-      min-width: 100px;
-      display: flex;
-      flex-direction: column;
-      background-color: $font-se;
-      z-index: 1;
-      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
-    }
-  }
-}
 .btn {
   color: $font-se;
   background-color: $primary;
@@ -87,11 +52,13 @@ img[alt="logo"] {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
   border-radius: 36px;
   cursor: pointer;
+
+  &:hover {
+    @include btnhover;
+  }
 }
-.btn:hover, input[type='submit']:hover {
-  background-color: $secondary;
-  color: $primary;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+input[type='submit']:hover {
+  @include btnhover;
 }
 .quote {
   max-width: $breakpoint-md;
@@ -106,6 +73,10 @@ img[alt="logo"] {
       slide 1s ease 6s 1 reverse;
   }
 
+  .content {
+    @include quote;
+  }
+
   q {
     font-size: 1.75em;
     color: $font-se;
@@ -117,11 +88,8 @@ img[alt="logo"] {
     @include anim;
   }
 }
-.quote .content, blockquote {
-  display: block;
-  padding-left: 20px;
-  border-left: 3px solid $primary;
-  overflow-x: hidden;
+blockquote {
+  @include quote;
 }
 .code {
   max-height: 500px;
@@ -182,54 +150,6 @@ img[alt="logo"] {
     @include none;
   }
 }
-
-// card
-.card-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-
-  .card {
-    width: 30%;
-    margin: 20px auto;
-    padding: 0;
-    border-radius: 12px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
-
-    .card-img {
-      min-width: 100%;
-      min-height: 200px;
-      background-position: center;
-      background-size: cover;
-      border-top-left-radius: 12px;
-      border-top-right-radius: 12px;
-    }
-
-    .card-title {
-      margin: 0;
-      padding: 20px;
-      border-bottom: 0.5px solid rgba(0, 0, 0, 0.2);
-    }
-
-    .card-link {
-      padding: 20px;
-      display: flex;
-      justify-content: flex-end;
-    }
-
-    @include media ($breakpoint-lg) {
-      width: 40%;
-    }
-    @include media ($breakpoint-md) {
-      width: 80%;
-    }
-    @include media ($breakpoint-sm) {
-      width: 100%;
-    }
-  }
-}
-
-// flex
 .flex {
   display: flex;
   justify-content: space-evenly;

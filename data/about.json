@@ -6,7 +6,7 @@
     "Python": "60%",
     "Php": "50%",
     "Java": "60%", "Kotlin": "10%",
-    "C": "10%", "C++": "10%", "C#": "10%",
+    "C++": "40%", "C": "10%", "C#": "10%",
     "HTML": "80%", "CSS": "80%"
   },
   "frameworks": {
@@ -17,7 +17,7 @@
         "Vue": "20%"
       },
       "back-end": {
-        "node-js": "80%",
+        "node.js": "80%",
         "express": "80%"
       }
     },
@@ -37,11 +37,10 @@
     }
   },
   "contact": {
-    "mail": "saqib@choclacode.eu.org",
+    "mail": "contact@choclacode.eu.org",
     "github": "@choclacode",
     "twitter": "@choclacode",
     "instagram": "@choclacode",
-    "facebook": "/choclacode",
-    "discord": "@choclacode"
+    "facebook": "/choclacode"
   }
 }

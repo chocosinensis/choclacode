@@ -1,28 +1,28 @@
 {
   "name": "choclacode",
-  "version": "1.3.0",
-  "description": "Choclacode official website 1.0",
+  "version": "1.3.1",
+  "description": "Choclacode official website v1",
   "main": "app.js",
+  "author": "Saqib <saqib@choclacode.eu.org> (http://choclacode.eu.org/)",
+  "license": "ISC",
+  "engines": {
+    "node": "15.x"
+  },
   "scripts": {
     "start": "node .",
     "serve": "npx concurrently \"npm run serve:app\" \"npm run watch:sass\"",
     "serve:app": "npx nodemon",
-    "watch:sass": "npx node-sass -w resources/sass/main.scss -o public/styles"
+    "watch:sass": "npx node-sass -w resources/sass/main.scss -o public/styles --output-style compressed"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/choclacode/choclacode.git"
   },
-  "keywords": [],
-  "author": "Saqib",
-  "license": "ISC",
-  "engines": {
-    "node": "15.x"
-  },
   "bugs": {
     "url": "https://github.com/choclacode/choclacode/issues"
   },
   "homepage": "https://github.com/choclacode/choclacode#readme",
+  "keywords": [],
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.5",

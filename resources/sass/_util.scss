@@ -54,7 +54,7 @@ $breakpoint-xl: 1200px;
   font-family: 'Janna LT';
 }
 pre, code {
-  font-family: 'JetBrains Mono', 'Courier New', Courier, monospace;
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
 }
 
 // @font-face... 
@@ -71,8 +71,8 @@ pre, code {
   src: url('/assets/fonts/JannaLT.ttf');
 }
 @font-face {
-  font-family: 'JetBrains Mono';
-  src: url('/assets/fonts/JetBrainsMono.ttf');
+  font-family: 'Fira Code';
+  src: url('/assets/fonts/FiraCode.ttf');
 }
 
 // keyframes
