@@ -38,6 +38,19 @@
       margin: 0 auto 50px;
     }
 
+    ul:not(.actions) {
+      list-style-type: disc;
+      padding-inline-start: 40px;
+  
+      ul {
+        list-style-type: circle;
+  
+        ul {
+          list-style-type: square;
+        }
+      }
+    }
+
     ul.actions {
       display: flex;
 

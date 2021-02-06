@@ -26,7 +26,7 @@ const createarticle_post = async (req, res) => {
 
 const article_get = (req, res) => Article.findOne({ slug: req.params.slug, deleted: false })
   .then(({ title, body, slug, author, createdAt }) => res.render('articles/details', { 
-    title: `${title} &laquo ${author.name}`,
+    title: `${title} &laquo; ${author.name}`,
     article: { title, body: marked(body), slug, author, createdAt }
   })).catch(() => res.redirect('/articles'));
 
