@@ -37,7 +37,7 @@ const articles = () => {
           errors.body.textContent = data.errors.body;
           if (path == 'create') errors.slug.textContent = data.errors.slug;
         } else if (data.article)
-          location.pathname = `/articles/${slug}`;
+          location.assign(`/articles/${slug}`);
       } catch (err) { console.log(err.message); }
     });
 
@@ -56,7 +56,7 @@ const articles = () => {
     del.addEventListener('click', () => 
       fetch(`/articles/${del.dataset.doc}/delete`, { method: 'DELETE' })
         .then((res) => res.json())
-        .then((data) => location.pathname = data.redirect)
+        .then((data) => location.assign(data.redirect))
         .catch(console.log))
   }
 

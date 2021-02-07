@@ -2,16 +2,16 @@ const { sign } = require('jsonwebtoken');
 
 const { JWT_SECRET } = process.env;
 
-const schemaType = (min, max, errors) => ({
+const schemaType = (min, max, [reqErr, minErr, maxErr]) => ({
   type: String,
-  required: [true, errors[0]],
-  minlength: [min, errors[1]],
-  maxlength: [max, errors[2]]
+  required: [true, reqErr],
+  minlength: [min, minErr],
+  maxlength: [max, maxErr]
 });
 const handleErrors = (err) => {
   let errors = {
     auth: {
-      username: '', email: '', password: ''
+      username: '', email: '', password: '', newPass: ''
     },
     article: {
       title: '', body: '', slug: ''
@@ -22,6 +22,8 @@ const handleErrors = (err) => {
     errors.auth.username = 'Your entered username is not registered';
   if (err.message == 'Incorrect password')
     errors.auth.password = 'Incorrect password entered';
+  if (err.message == 'Short password')
+    errors.auth.newPass = 'Password must have at least 6 characters';
 
   if (err.code == 11000) {
     if (err.message.includes('username'))

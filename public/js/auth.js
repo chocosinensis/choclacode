@@ -32,19 +32,49 @@ const auth = () => {
             errors.email.textContent = data.errors.email;
         }
         if (data.user)
-          location.pathname = '/dashboard';
+          location.assign('/dashboard');
       } catch (err) { console.log(err.message); }
     });
   }
   const account = () => {
+    const changeForm = document.querySelector('form.change');
     const deleteForm = document.querySelector('form.delete');
     const errors = {
+      change: {
+        current: changeForm.querySelector('.error.current'),
+        newPass: changeForm.querySelector('.error.new')
+      },
       _delete: {
         email: deleteForm.querySelector('.error.email'),
         password: deleteForm.querySelector('.error.password')
       }
     };
 
+    changeForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const [current, newPass] = [
+        changeForm.current.value,
+        changeForm.new.value
+      ];
+
+      try {
+        const res = await fetch('/auth/account', {
+          method: 'PUT',
+          body: JSON.stringify({ current, newPass }),
+          headers: { 'Content-Type': 'application/json' }
+        });
+        const data = await res.json();
+        console.log(data);
+        if (data.errors) {
+          const { current, newPass } = errors.change;
+          current.textContent = data.errors.password;
+          newPass.textContent = data.errors.newPass;
+        }
+        if (data.user)
+          location.assign('/dashboard');
+      } catch (err) { console.log(err.message); }
+    });
     deleteForm.addEventListener('submit', async (e) => {
       e.preventDefault();
 
@@ -66,7 +96,7 @@ const auth = () => {
           password.textContent = data.errors.password;
         }
         if (data.user)
-          location.pathname = '/';
+          location.assign('/');
       } catch (err) { console.log(err.message); }
     });
   }

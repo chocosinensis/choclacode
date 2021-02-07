@@ -36,10 +36,28 @@ const logout_get = (req, res) => {
 
 const account_get = (req, res) => 
   res.render('auth/account', { title: res.locals.user.username });
+const account_edit = async (req, res) => {
+  const { email } = res.locals.user;
+  const { current, newPass } = req.body;
+  try {
+    const { user, err } = await User.changePassword({
+      email, password: { current, newPass }
+    });
+    if (err)
+      throw err;
+    res.status(201).json({ user: user._id });
+  } catch (err) {
+    const errors = handleErrors(err).auth;
+    console.log(err, errors);
+    res.status(400).json({ errors });
+  }
+}
 const account_delete = async (req, res) => {
   const { email, password } = req.body;
   try {
     const user = await User.delete(res.locals.user.id, email, password);
+    if (!user)
+      throw new Error();
     res.cookie('jwt', '', { maxAge: 1 });
     res.status(201).json({ user: user._id });
   } catch (err) {
@@ -52,5 +70,5 @@ module.exports = {
   signup_get, signup_post,
   login_get, login_post,
   logout_get,
-  account_get, account_delete
+  account_get, account_edit, account_delete
 };

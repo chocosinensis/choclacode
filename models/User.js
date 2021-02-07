@@ -27,15 +27,18 @@ const userSchema = new Schema({
   },
   password: schemaType(6, 255, [
     'Please enter a password',
-    'Passwords must have at least 6 characters',
-    'Passwords can have a maximum of 255 characters'
+    'Password must have at least 6 characters',
+    'Password can have a maximum of 255 characters'
   ]),
   deleted: Boolean
 });
 
 userSchema.pre('save', async function (next) {
-  const salt = await genSalt();
-  this.password = await hash(this.password, salt);
+  if (this.isModified('password')) {
+    const salt = await genSalt();
+    this.password = await hash(this.password, salt);
+  }
+
   this.deleted = false;
   next();
 });
@@ -45,9 +48,23 @@ userSchema.statics.login = async function (username, password) {
   if (user) {
     const auth = await compare(password, user.password);
     if (auth) return user;
-    throw Error('Incorrect password');
+    throw new Error('Incorrect password');
   }
-  throw Error('Incorrect username');
+  throw new Error('Incorrect username');
+}
+userSchema.statics.changePassword = async function ({ email, password }) {
+  const user = await this.findOne({ email, deleted: false });
+  if (user) {
+    const auth = await compare(password.current, user.password);
+    if (auth) {
+      if (password.newPass.length < 6)
+        return { user, err: new Error('Short password') };
+      user.password = password.newPass;
+      user.save();
+      return { user, err: null };
+    }
+    return { user, err: new Error('Incorrect password') };
+  }
 }
 userSchema.statics.delete = async function (_id, email, password) {
   const user = await this.findOne({ _id, email, deleted: false });
@@ -61,7 +78,7 @@ userSchema.statics.delete = async function (_id, email, password) {
           deleted: true
         } }, { useFindAndModify: false });
 
-    throw Error('Incorrect password');
+    throw new Error('Incorrect password');
   }
 }
 
