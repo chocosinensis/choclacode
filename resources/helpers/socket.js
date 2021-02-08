@@ -1,6 +1,6 @@
 const discuss = (io) => {
   const bot = 'chocoBot';
-  const helpMsg = `Discussion area <br><br> @user <br> &nbsp;&nbsp; - mention @user <br><br>
+  const helpMsg = (name) => `Here you go @${name} <br><br> @user <br> &nbsp;&nbsp; - mention @user <br><br>
 Help @chocoBot <br> &nbsp;&nbsp; - show this message <br><br>
 -p [ ... @user1 , @user2 ] &lt;msg&gt; <br> &nbsp;&nbsp; - sends private message to mentioned users`;
 
@@ -25,24 +25,21 @@ Help @chocoBot <br> &nbsp;&nbsp; - show this message <br><br>
     });
     socket.on('newmsg', ({ name, msg }) => {
       const msgToSend = { name, msg, time: getTime() };
-      const mentions = msg.split(/\s+/g)
+      const mentions = msg.split(/\s+/gs)
         .filter(m => m.startsWith('@')).map(m => m.slice(1));
       socket.emit('sendmsg', msgToSend);
       if (!msg.match(/^\s*-p\s+/g))
         socket.broadcast.emit('sendmsg', msgToSend);
       mentions.length && mentions.forEach(n => {
-        if (n == 'chocoBot') {
-          if (
-            msg.toLowerCase().includes('thanks') ||
-            msg.toLowerCase().includes('thank you') ||
-            msg.toLowerCase().includes('thank')
-          )
-            io.sockets.emit('sendmsg', botMsg(`My pleasure @${name} 😊️`));
-          else if (msg == `@${n}`)
-            io.sockets.emit('sendmsg', botMsg(`I am here @${name} 🙂️`));
-          else if (msg.toLowerCase().includes('help'))
-            io.sockets.emit('sendmsg', botMsg(helpMsg));
-        } else {
+        if (n == 'chocoBot')
+          io.sockets.emit('sendmsg', botMsg(
+            msg.toLowerCase().includes('thank') ? `My pleasure @${name} 😊️` :
+            msg.toLowerCase().includes('help') ? helpMsg(name) :
+            msg == `@${n}` ? `I am here @${name} 🙂️` : `Yeah dear @${name}`
+          ));
+        else if (n.toLowerCase() == 'everyone')
+          io.sockets.emit('sendmsg', botMsg(`@${name} mentioned everyone`));
+        else {
           const user = users.find(u => u.name == n);
           if (user) {
             if (msg.match(/^\s*-p\s+/g)) {

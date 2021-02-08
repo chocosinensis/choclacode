@@ -1,21 +1,40 @@
 header {
+  background-image: $grad-pr;
+  display: flex !important;
+  justify-content: space-between;
   min-width: 80px;
-  padding: 20px;
+  padding: 5px 10%;
 
   .main-logo {
-    grid-column: 2/4;
+    flex: 2;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
 
     img {
       border-radius: 50%;
-      padding: 5px;
+      padding: 0;
     }
     img:hover {
       background-color: $secondary;
     }
+
+    @include media ($breakpoint-md) {
+      padding: 0;
+    }
   }
 
   nav.links {
-    grid-column: 7/12;
+    flex: 1;
+
+    @mixin link {
+      color: $font-se;
+
+      &:hover {
+        color: $primary;
+        background-color: $secondary;
+      }
+    }
 
     ul {
       display: flex;
@@ -23,25 +42,23 @@ header {
 
       li {
         margin: 20px auto;
-      }
 
+        p {
+          @include link;
+        }
+      }
     }
 
     a.link {
-      color: $primary;
       margin: 5px auto;
       padding: 5px;
       min-width: 50px;
       text-align: center;
       border-radius: 36px;
-
-      &:hover {
-        color: $font-se;
-        background-color: $primary;
-      }
+      @include link;
     }
 
-    @include media ($breakpoint-md) {
+    @include media ($breakpoint-lg) {
       @include none;
     }
   }
@@ -49,7 +66,7 @@ header {
   button.burger {
     @include none;
 
-    @include media ($breakpoint-md) {
+    @include media ($breakpoint-lg) {
       display: inline-block;
       background: transparent;
 
@@ -116,13 +133,8 @@ header {
     }
   }
 
-  @include media ($breakpoint-md) {
-    background-image: $grad-pr;
-    display: flex !important;
-    justify-content: space-between;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
-  }
   @include media ($breakpoint-sm) {
+    padding: 20px 30px;
     height: 50px;
 
     .main-logo {
@@ -131,6 +143,29 @@ header {
         width: 40px;
       }
     }
+  }
+}
+
+main {
+  padding: 0 10% 10px;
+  padding-top: 1px;
+
+  &.chocolatey {
+    background-image: $grad-pr;
+    box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5);
+
+    * {
+      color: $font-se;
+    }
+
+    .title {
+      background-image: $grad-te;
+    }
+  }
+
+  @include media ($breakpoint-sm) {
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
@@ -152,14 +187,10 @@ section {
         width: 300px;
         grid-column: 9/12;
         position: absolute;
-        right: 50px;
-
-        @include media ($breakpoint-lg) {
-          right: -50px;
-        }
+        right: 10%;
       }
 
-      @include media ($breakpoint-md) {
+      @include media ($breakpoint-lg) {
         div {
           grid-column: 1/13;
           z-index: 1;
@@ -176,6 +207,24 @@ section {
     h1, .link {
       display: flex;
       justify-content: center;
+    }
+  }
+
+  &#themes {
+    min-height: fit-content;
+    padding: 10px;
+
+    .theme-container {
+      height: 300px;
+      width: 400px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 30px;
+
+      .code {
+        height: 140px;
+        width: 135px;
+      }
     }
   }
 }
@@ -208,12 +257,14 @@ footer {
   }
 
   .about {
-    padding: 20px;
+    padding: 20px 10%;
     background-image: $grad-pr;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
 
     .logo {
       grid-column: 1/2;
+      display: flex;
+      align-items: center;
+      justify-content: center;
 
       img {
         width: 150px;
@@ -222,7 +273,7 @@ footer {
     }
 
     .content {
-      grid-column: 3/7;
+      grid-column: 3/8;
 
       .about-text {
         display: inline-block;
@@ -232,7 +283,7 @@ footer {
     }
 
     .social {
-      grid-column: 8/12;
+      grid-column: 9/13;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -273,6 +324,7 @@ footer {
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        padding: 20px;
       }
     }
   }

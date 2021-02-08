@@ -8,3 +8,10 @@
       aside.classList.remove('show');
   });
 })();
+(() => {
+  if (!localStorage.getItem('theme'))
+    localStorage.setItem('theme', 'default');
+
+  document.querySelector('main')
+    .classList.add(localStorage.getItem('theme'));
+})();

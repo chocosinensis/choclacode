@@ -146,7 +146,7 @@ blockquote {
   font-size: 15px;
 }
 .desktop {
-  @include media ($breakpoint-md) {
+  @include media ($breakpoint-lg) {
     @include none;
   }
 }
