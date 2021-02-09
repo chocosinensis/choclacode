@@ -147,8 +147,7 @@ header {
 }
 
 main {
-  padding: 0 10% 10px;
-  padding-top: 1px;
+  padding: 10px 10%;
 
   &.chocolatey {
     background-image: $grad-pr;
@@ -164,8 +163,7 @@ main {
   }
 
   @include media ($breakpoint-sm) {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 10px 0;
   }
 }
 
@@ -216,10 +214,10 @@ section {
 
     .theme-container {
       height: 300px;
-      width: 400px;
+      max-width: 400px;
       display: grid;
       grid-template-columns: 1fr 1fr;
-      gap: 30px;
+      gap: 15px;
 
       .code {
         height: 140px;
