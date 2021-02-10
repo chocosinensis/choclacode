@@ -18,7 +18,7 @@
 // classes
 .color {
   &, & * {
-    color: $primary;
+    color: $primary !important;
   }
 }
 .container {
@@ -141,7 +141,7 @@ blockquote {
   }
 }
 .error {
-  color: #ffa0a0;
+  color: #ffa0a0 !important;
   text-align: center;
   font-size: 15px;
 }

@@ -15,7 +15,7 @@ const listen = (app) => {
     `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@${DB_URL}/${DB_DATABASE}`,
     { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
   );
-  const server = app.listen(process.env.PORT ?? 3000);
+  const server = app.listen(process.env.PORT);
 
   const io = require('socket.io')(server);
   discuss(io);

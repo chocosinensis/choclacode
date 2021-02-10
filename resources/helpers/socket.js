@@ -1,8 +1,8 @@
 const discuss = (io) => {
   const bot = 'chocoBot';
   const helpMsg = (name) => `Here you go @${name} <br><br> @user <br> &nbsp;&nbsp; - mention @user <br><br>
-Help @chocoBot <br> &nbsp;&nbsp; - show this message <br><br>
--p [ ... @user1 , @user2 ] &lt;msg&gt; <br> &nbsp;&nbsp; - sends private message to mentioned users`;
+  @chocoBot help <br> &nbsp;&nbsp; - show this message <br><br>
+  -p [ ... @user1 , @user2 ] &lt;msg&gt; <br> &nbsp;&nbsp; - send private message to mentioned users`;
 
   let users = [];
 
