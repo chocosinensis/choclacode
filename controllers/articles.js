@@ -50,13 +50,10 @@ const editarticle_put = async (req, res) => {
   const { slug } = req.params;
   const { id, username } = res.locals.user;
   try {
-    const article = await Article.findOne({
-      slug, 'author.id': id, 'author.name': username,
-      deleted: false
+    const article = await Article.edit({
+      slug, id, username,
+      title, body
     });
-    article.title = title;
-    article.body = body;
-    article.save();
     res.status(201).json({ article: article._id });
   } catch (err) {
     const errors = handleErrors(err).article;

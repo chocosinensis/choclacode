@@ -44,6 +44,15 @@ articleSchema.pre('save', function (next) {
   next();
 });
 
+articleSchema.statics.edit = async function ({
+  slug, id, username,
+  title, body
+}) {
+  return await this.findOneAndUpdate({
+    slug, 'author.id': id, 'author.name': username,
+    deleted: false
+  }, { $set: { title, body } }, { useFindAndModify: false });
+}
 articleSchema.statics.delete = async function (slug, id, username) {
   return this.findOneAndUpdate({
     slug, 'author.id': id, 'author.name': username,
