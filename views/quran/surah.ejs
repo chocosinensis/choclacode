@@ -10,12 +10,13 @@
       </li><% } %><% surah.forEach(({ num, ara, eng, ban }) => { %>
       <li id="<%- num %>">
         <div class="num"><%- `${info.num} : ${num}` %></div>
-        <div class="ara"><%- ara %></div>
-        <div class="num">English - Saheeh International</div>
-        <div class="eng"><%- eng %></div>
-        <div class="num">Bengali - Mohiuddin Khan</div>
-        <div class="ban"><%- ban %></div>
+        <% if (show.ara) { %><div class="ara"><%- ara %></div><% } %>
+        <% if (show.eng) { %><div class="num">English - Saheeh International</div>
+        <div class="eng"><%- eng %></div><% } %>
+        <% if (show.ban) { %><div class="num">Bengali - Mohiuddin Khan</div>
+        <div class="ban"><%- ban %></div><% } %>
       </li><% }) %>
+      <hr>
     </ul>
   </section>
 

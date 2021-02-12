@@ -6,7 +6,7 @@
   <section class="article details">
     <h1 class="title"><%- article.title %></h1>
     <article><%- article.body %></article>
-    <p>Author: <span class="author title"><%- article.author.name %></span></p>
+    <p>Author: <span class="author title">@<%- article.author.name %></span></p>
     <p>Created on: <%- article.createdAt %></p> <br/><br/><br/><% if (user && user.id == article.author.id) { %>
     <ul class="actions">
       <li><a href="/articles/<%- article.slug %>/edit" class="material-icons-outlined btn">edit</a></li>

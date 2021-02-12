@@ -19,7 +19,9 @@
             <a href="/api">API</a>
             <a href="/users">Users</a>
             <a href="/discuss">Discuss</a>
-            <a href="/dashboard" id="name"><%= user.username %></a>
+            <a href="/dashboard">
+              @<span id="name"><%= user.username %></span>
+            </a>
           </div><% } else { %>
           <p>Auth</p>
           <div>
@@ -41,7 +43,7 @@
         <li><a href="/chocolate">Chocolate</a></li><% if (user) { %>
         <li><a href="/api">API</a></li>
         <li><a href="/discuss">Discuss</a></li>
-        <li><a href="/dashboard"><%= user.username %></a></li><% } else { %>
+        <li><a href="/dashboard">@<%= user.username %></a></li><% } else { %>
         <li><a href="/auth/login">Login</a></li>
         <li><a href="/auth/signup">Sign Up</a></li><% } %>
         <li><a href="/about">About</a></li>

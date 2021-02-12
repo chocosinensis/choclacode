@@ -18,7 +18,7 @@
         </div>
       </li>` :
       `<li>
-        <span class="name">${n}</span>
+        <span class="name">@${n}</span>
         <div class="msg">
           <span class="text">${msg}</span>
           <span class="time">${time}</span>
@@ -28,7 +28,7 @@
   }
 
   socket.on('connection', () => socket.emit('newuser', { name }));
-  socket.on('users', (data) => users.innerHTML = data.map(user => `<li>${user}</li>`).join(''));
+  socket.on('users', (data) => users.innerHTML = data.map(user => `<li>@${user}</li>`).join(''));
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();

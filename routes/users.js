@@ -7,6 +7,6 @@ const users = Router();
 
 users
   .get('/', requireAuth, users_get)
-  .get('/:username', requireAuth, user_get);
+  .get('/@:username', requireAuth, user_get);
 
 module.exports = users;

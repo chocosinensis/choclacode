@@ -7,10 +7,10 @@
       <ul class="card-container"><% users.forEach(({ username, email}) => { %>
         <li class="card">
           <h3 class="card-title">
-            <%= username %>
+            @<%= username %>
           </h3>
           <div class="card-link">
-            <a href="/users/<%= username %>">
+            <a href="/users/@<%= username %>">
               <i class="material-icons btn">person</i>
             </a>
           </div>
