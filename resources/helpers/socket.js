@@ -11,7 +11,32 @@ const discuss = (io) => {
     const m = d.getMinutes();
     return `${h / 10 < 1 ? `0${h}`: h}:${m / 10 < 1 ? `0${m}`: m}`
   }
-  const botMsg = (msg, time = getTime()) => ({ name: bot, msg, time });
+  const msgify = (msg) => msg
+    .replace(/<\/?script(.)*>/g, '&lt;script&gt;')
+    .replace(/<link/g, '&lt;link&gt;')
+    .replace(/<\/?style>/g, '&lt;style&gt;');
+  const markupify = ({ name, msg, time }) => {
+    msg = msgify(msg.split(' ')
+      .map(m => m.startsWith('@') ? `<span class="title">${m}</span>` : m)
+      .join(' '));
+    return {
+      name,
+      self: `<li class="self">
+        <div class="msg">
+          <span class="text">${msg}</span>
+          <span class="time">${time}</span>
+        </div>
+      </li>`,
+      msg: `<li>
+        <span class="name">@${name}</span>
+        <div class="msg">
+          <span class="text">${msg}</span>
+          <span class="time">${time}</span>
+        </div>
+      </li>`
+    };
+  }
+  const botMsg = (msg, time = getTime()) => markupify({ name: bot, msg, time });
 
   io.on('connection', (socket) => {
     let _name;
@@ -24,7 +49,7 @@ const discuss = (io) => {
       io.sockets.emit('users', users.map(({ name }) => name));
     });
     socket.on('newmsg', ({ name, msg }) => {
-      const msgToSend = { name, msg, time: getTime() };
+      const msgToSend = markupify({ name, msg, time: getTime() });
       const mentions = msg.split(/\s+/gs)
         .filter(m => m.startsWith('@')).map(m => m.slice(1));
       socket.emit('sendmsg', msgToSend);

@@ -36,12 +36,10 @@ const articleSchema = new Schema({
     name: String
   },
   createdAt: String,
-  deleted: Boolean
-});
-
-articleSchema.pre('save', function (next) {
-  this.deleted = false;
-  next();
+  deleted: {
+    type: Boolean,
+    default: false
+  }
 });
 
 articleSchema.statics.edit = async function ({

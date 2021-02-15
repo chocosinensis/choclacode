@@ -6,26 +6,6 @@
     document.querySelector('#sendmsg'),
     document.querySelector('.preview .users')
   ];
-  const sendmsg = ({ name: n, msg, time }) => {
-    msg = msg.split(' ')
-      .map(m => m.startsWith('@') ? `<span class="title">${m}</span>` : m)
-      .join(' ');
-    chatbox.innerHTML += n == name ?
-      `<li class="self">
-        <div class="msg">
-          <span class="text">${msg}</span>
-          <span class="time">${time}</span>
-        </div>
-      </li>` :
-      `<li>
-        <span class="name">@${n}</span>
-        <div class="msg">
-          <span class="text">${msg}</span>
-          <span class="time">${time}</span>
-        </div>
-      </li>`;
-    chatbox.scrollTop = chatbox.scrollHeight;
-  }
 
   socket.on('connection', () => socket.emit('newuser', { name }));
   socket.on('users', (data) => users.innerHTML = data.map(user => `<li>@${user}</li>`).join(''));
@@ -33,10 +13,13 @@
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     form.msg.focus();
-    const msg = form.msg.value.replace(/<\/?script(.)*>/g, '');
+    const msg = form.msg.value.replace(/<\/?script(.)*>/g, '').replace(/<link/g, '');
     if (msg == '' || /^\s+$/g.test(msg)) return;
     socket.emit('newmsg', { name, msg });
     form.msg.value = '';
   });
-  socket.on('sendmsg', sendmsg);
+  socket.on('sendmsg', ({ name: n, self, msg }) => {
+    chatbox.innerHTML += n == name ? self : msg;
+    chatbox.scrollTop = chatbox.scrollHeight;
+  });
 })();

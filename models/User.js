@@ -30,7 +30,10 @@ const userSchema = new Schema({
     'Password must have at least 6 characters',
     'Password can have a maximum of 255 characters'
   ]),
-  deleted: Boolean
+  deleted: {
+    type: Boolean,
+    default: false
+  }
 });
 
 userSchema.pre('save', async function (next) {
@@ -39,7 +42,6 @@ userSchema.pre('save', async function (next) {
     this.password = await hash(this.password, salt);
   }
 
-  this.deleted = false;
   next();
 });
 
