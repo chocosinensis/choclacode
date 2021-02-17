@@ -25,13 +25,13 @@ const dashboard_get = async (req, res) => {
 
 const err403 = (req, res) => res.status(403)
   .render('others/error', {
-    title: '403 - Forbidden',
+    title: '403 &laquo; Forbidden',
     status: 403,
     detail: 'Forbidden'
   });
 const err404 = (req, res) => res.status(404)
   .render('others/error', {
-    title: '404 - Not Found',
+    title: '404 &laquo; Not Found',
     status: 404,
     detail: 'Not Found'
   });

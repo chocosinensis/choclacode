@@ -10,6 +10,7 @@ const articles = () => {
       body: document.querySelector('.body-err.error'),
       slug: path == 'create' ? document.querySelector('.slug-err.error') : ''
     };
+    const textify = (str) => str.trim().replace(/(<\/?script(.)*?>|<\/?style>|<link)/g, '');
     const slugify = (str) => str.toLowerCase().trim()
       .replace(/[\.?!]*/g, '').replace('&', 'and').replace(/[\s\W]/g, '-');
 
@@ -18,9 +19,9 @@ const articles = () => {
       Object.values(errors).forEach(e => path == 'create' && (e.value = ''));
 
       const [title, body, slug] = [
-        form.title.value,
-        form.body.value.replace(/<\/?script(.)*?>/g, ''),
-        path == 'create' ? form.slug.value : location.pathname.split('/').slice(2)[0]
+        form.title.value.trim(),
+        textify(form.body.value),
+        path == 'create' ? slugify(form.slug.value) : location.pathname.split('/').slice(2)[0]
       ];
 
       try {
@@ -43,11 +44,11 @@ const articles = () => {
 
     form.title.addEventListener('keyup', () => {
       form.slug.value = slugify(form.title.value);
-      article.title.textContent = form.title.value;
+      article.title.textContent = form.title.value.trim();
     });
     form.body.addEventListener(
       'keyup', 
-      () => article.body.innerHTML = marked(form.body.value.replace(/<\/?script(.)*?>/g, ''))
+      () => article.body.innerHTML = marked(textify(form.body.value))
     );
   }
   const _delete = () => {
@@ -60,9 +61,25 @@ const articles = () => {
         .catch(console.log))
   }
 
+  const search = () => {
+    const [input, articlesUL, articles] = [
+      document.querySelector('input#search'),
+      document.querySelector('ul.articles'),
+      document.querySelectorAll('ul.articles li.link')
+    ];
+
+    input.addEventListener('keyup', () => {
+      articlesUL.innerHTML = '';
+      [...articles].filter((li) => li.querySelector('a h1')
+          .textContent.toLowerCase()
+          .includes(input.value.trim().toLowerCase()))
+        .forEach((li) => articlesUL.appendChild(li));
+    });
+  }
+
   return {
     create: () => main('create', 'POST'),
     edit: () => main(location.pathname.substr(10), 'PUT'),
-    _delete
+    _delete, search
   };
 }

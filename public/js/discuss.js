@@ -13,7 +13,7 @@
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     form.msg.focus();
-    const msg = form.msg.value.replace(/<\/?script(.)*>/g, '').replace(/<link/g, '');
+    const msg = form.msg.value;
     if (msg == '' || /^\s+$/g.test(msg)) return;
     socket.emit('newmsg', { name, msg });
     form.msg.value = '';

@@ -11,7 +11,7 @@ const discuss = (io) => {
     const m = d.getMinutes();
     return `${h / 10 < 1 ? `0${h}`: h}:${m / 10 < 1 ? `0${m}`: m}`
   }
-  const msgify = (msg) => msg
+  const msgify = (msg) => msg.trim()
     .replace(/<\/?script(.)*>/g, '&lt;script&gt;')
     .replace(/<link/g, '&lt;link&gt;')
     .replace(/<\/?style>/g, '&lt;style&gt;');

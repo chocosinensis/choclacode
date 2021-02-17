@@ -52,11 +52,28 @@ a {
   display: inline-block;
   cursor: pointer;
 }
+form {
+  max-width: $breakpoint-sm;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 36px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: $grad-pr;
+}
 input, textarea {
   margin: 10px;
   padding: 7.5px 10px;
   border: none;
   border-radius: 36px;
+  background: $font-pr;
+  color: $font-se;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+textarea {
+  padding: 20px;
 }
 button, input[type='submit'] {
   border: none;

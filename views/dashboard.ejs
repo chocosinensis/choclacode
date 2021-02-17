@@ -46,7 +46,7 @@
           `${articles.length} ${articles.length == 1 ?
             'article' : 'articles'}`
         %></p><% if (articles.length) { %>
-        <%- include('./shared/articles.ejs', { articles }) %><% } else { %>
+        <%- include('./shared/articles.ejs', { articles, search: true }) %><% } else { %>
         <p>You did not write any articles :)</p><% } %>
       </div>
     </div>

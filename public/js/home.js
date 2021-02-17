@@ -4,14 +4,12 @@
 
   const renderquote = ({
     quote, src: { surah, ayah }
-  }) => quoteElem.innerHTML = `
-    <div class="content">
-      <q>${quote}</q>
-      <a href="/quran/${surah}#${ayah}" target="_blank">
-        (${surah} : ${ayah})
-      </a>
-    </div>
-  `;
+  }) => quoteElem.innerHTML = `<div class="content">
+    <q>${quote}</q>
+    <a href="/quran/${surah}#${ayah}" target="_blank">
+      (${surah} : ${ayah})
+    </a>
+  </div>`;
   renderquote(quotes[0]);
 
   let i = 0;

@@ -36,7 +36,7 @@ const checkUser = (req, res, next) => {
 
 const requireGuest = (req, res, next) => {
   res.locals.user ?
-    res.redirect('/') :
+    res.redirect('/dashboard') :
     next();
 }
 

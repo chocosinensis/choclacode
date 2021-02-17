@@ -4,7 +4,7 @@
   <section>
     <h1>Articles</h1>
     <p>Read, learn and increase the faith for Allah!</p>
-    <%- include('../shared/articles.ejs', { articles }) %>
+    <%- include('../shared/articles.ejs', { articles, search: true }) %>
     <% if (user) { %><a href="/articles/create" class="btn">Create</a><% } %>
   </section>
 

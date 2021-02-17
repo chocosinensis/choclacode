@@ -13,8 +13,8 @@ const auth = () => {
       errors.username.textContent = errors.password.textContent = '';
 
       const [username, email, password] = [
-        form.username.value,
-        sup ? form.email.value : '',
+        form.username.value.trim(),
+        sup ? form.email.value.trim() : '',
         form.password.value
       ]
 
