@@ -83,7 +83,7 @@ const discuss = (io) => {
             msg == `@${n}` ? `I am here @${name} 🙂️` : `Yeah dear @${name}`
           ));
         else if (n.toLowerCase() == 'everyone')
-          io.sockets.emit('sendmsg', likeMsg(msgToSend.id, `@${name} mentioned everyone`));
+          io.sockets.emit('sendmsg', botMsg(likeMsg(msgToSend.id, `@${name} mentioned everyone`)));
         else {
           const user = users.find(u => u.name == n);
           if (user) {
