@@ -9,9 +9,6 @@
 
   let msgTrack = 0;
 
-  socket.on('connection', () => socket.emit('newuser', { name }));
-  socket.on('users', (data) => users.innerHTML = data.map(user => `<li>@${user}</li>`).join(''));
-
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     form.msg.focus();
@@ -31,8 +28,29 @@
     if (!form.msg.value)
       msgTrack = 0;
   });
+
+  socket.on('connection', () => socket.emit('newuser', { name }));
+  socket.on('users', (data) => users.innerHTML = data.map(user => `<li>@${user}</li>`).join(''));
   socket.on('sendmsg', ({ name: n, self, msg }) => {
     chatbox.innerHTML += n == name ? self : msg;
+    const last = chatbox.lastElementChild;
+    last.addEventListener(
+      'dblclick',
+      () => socket.emit('msglike', { id: last.dataset.id }),
+      { once: true }
+    );
     chatbox.scrollTop = chatbox.scrollHeight;
+  });
+  socket.on('msglike', ({ id }) => {
+    const li = chatbox.querySelector(`li[data-id="${id}"]`);
+    if (!li)
+      return;
+
+    li.dataset.likes++;
+    if (li.dataset.likes == 1)
+      li.innerHTML += `<span class="like">❤️
+      <span class="count">${li.dataset.likes}</span></span>`;
+    else
+      li.querySelector('.like .count').textContent = li.dataset.likes;
   });
 })();
