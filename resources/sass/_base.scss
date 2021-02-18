@@ -17,6 +17,7 @@ header {
     }
     img:hover {
       background-color: $secondary;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
     }
 
     @include media ($breakpoint-md) {
@@ -33,6 +34,7 @@ header {
       &:hover {
         color: $primary;
         background-color: $secondary;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
       }
     }
 
@@ -81,6 +83,7 @@ header {
         i {
           color: $primary;
           background-color: $secondary;
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
         }
       }
     }

@@ -28,10 +28,12 @@ const config = (app) => {
     .set('json spaces', 2)
 
     // middlewares
-    .use(static('public'))
-    .use(urlencoded({ extended: true }))
-    .use(json())
-    .use(cookie());
+    .use(
+      static('public'),
+      urlencoded({ extended: true }),
+      json(),
+      cookie()
+    );
 }
 
 module.exports = { listen, config };

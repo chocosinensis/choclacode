@@ -9,9 +9,10 @@ const showLangs = (req, res, next) => {
       show.eng = true;
     if (lang.includes('ban'))
       show.ban = true;
-  } else {
+    if (!show.ara && !show.eng && !show.ban)
+      show.ara = show.eng = show.ban = true;
+  } else
     show.ara = show.eng = show.ban = true;
-  }
 
   res.locals.show = show;
   next();

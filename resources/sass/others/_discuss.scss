@@ -4,7 +4,7 @@
   margin: 20px auto;
   background-image: $grad-pr;
   border-radius: 36px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
   #chatbox {
     display: flex;
@@ -19,6 +19,11 @@
       margin: 25px 15px !important;
       display: flex;
       flex-direction: column;
+
+      p {
+        margin: 0;
+        line-height: 20px;
+      }
 
       .name {
         margin-left: 15px;
@@ -40,6 +45,7 @@
         line-height: 20px;
         background: $font-pr;
         color: $font-se;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
         overflow-x: scroll;
       }
 
@@ -85,11 +91,11 @@
   }
   
   #chatbox * {
-    scrollbar-color: $font-pr $font-pr;
     scrollbar-width: none;
-  }
-  #chatbox ::-webkit-scrollbar {
-    height: 0;
-    width: 0;
+
+    &::-webkit-scrollbar {
+      height: 0;
+      width: 0;
+    }
   }
 }

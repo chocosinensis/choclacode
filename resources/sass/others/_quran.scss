@@ -29,7 +29,7 @@
     max-width: 900px;
     float: right;
     margin: 50px auto;
-  
+
     ul {
       display: flex;
       flex-direction: column;
@@ -37,7 +37,7 @@
       padding-inline-start: 5px;
       margin-block-start: 0;
       margin-block-end: 0;
-  
+
       li {
         height: 60px;
         padding: 10px;
@@ -45,7 +45,7 @@
         cursor: pointer;
         position: relative;
         z-index: 1;
-  
+
         &::before {
           position: absolute;
           content: "";
@@ -59,11 +59,13 @@
           z-index: -1;
           opacity: 0;
         }
-        &:hover::before {
-          opacity: 1;
-        }
-  
+
         &:hover {
+          &::before {
+            opacity: 1;
+            box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+          }
+
           * {
             color: whitesmoke;
           }
@@ -74,14 +76,14 @@
         width: 80vw;
       }
     }
-  
+
     span {
       display: inline-block;
       margin-top: -10px;
       color: $font-pr;
       cursor: pointer;
     }
-  
+
     .num {
       color: #a0a0a0 !important;
       font-size: 16px;

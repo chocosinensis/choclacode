@@ -1,8 +1,17 @@
+const marked = require('marked');
+
 const discuss = (io) => {
   const bot = 'chocoBot';
-  const helpMsg = (name) => `Here you go @${name} <br><br> @user <br> &nbsp;&nbsp; - mention @user <br><br>
-  @chocoBot help <br> &nbsp;&nbsp; - show this message <br><br>
+  const helpMsg = (name) => `Here you go @${name} <br>
+  @user <br> &nbsp;&nbsp; - mention @user <br>
+  @chocoBot help <br> &nbsp;&nbsp; - show this message
+  @chocoBot lstyle <br> &nbsp;&nbsp; - show list of stylistic commands <br>
   -p [ ... @user1 , @user2 ] &lt;msg&gt; <br> &nbsp;&nbsp; - send private message to mentioned users`;
+  const styleMsg = (name) => `Here you go @${name} <br>
+  \\*\\*Bold\\*\\* / \\_\\_Bold\\_\\_ - __Bold__
+  \\*Italics\\* / \\_Italics\\_ - _Italics_
+  \\~\\~Strike\\~\\~ - ~~Strike~~
+  \\\`Mono\\\` - \`Mono\``;
 
   let users = [];
 
@@ -11,13 +20,13 @@ const discuss = (io) => {
     const m = d.getMinutes();
     return `${h / 10 < 1 ? `0${h}`: h}:${m / 10 < 1 ? `0${m}`: m}`
   }
-  const msgify = (msg) => msg.trim()
-    .replace(/<\/?script(.)*>/g, '&lt;script&gt;')
-    .replace(/<link/g, '&lt;link&gt;')
-    .replace(/<\/?style>/g, '&lt;style&gt;');
+  const msgify = (msg) => marked(msg.trim()
+    .replace(/\n+/g, '<br>').replace(/&lt;br&gt;/g, '<br>'));
+  const cleanify = (msg) => msg.replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
   const markupify = ({ name, msg, time }) => {
     msg = msgify(msg.split(' ')
-      .map(m => m.startsWith('@') ? `<span class="title">${m}</span>` : m)
+      .map(m => m.startsWith('@') ? `<span class="title">${m}</span>` : cleanify(m))
       .join(' '));
     return {
       name,
@@ -60,6 +69,7 @@ const discuss = (io) => {
           io.sockets.emit('sendmsg', botMsg(
             msg.toLowerCase().includes('thank') ? `My pleasure @${name} 😊️` :
             msg.toLowerCase().includes('help') ? helpMsg(name) :
+            msg.toLowerCase().includes('lstyle') ? styleMsg(name) :
             msg == `@${n}` ? `I am here @${name} 🙂️` : `Yeah dear @${name}`
           ));
         else if (n.toLowerCase() == 'everyone')
