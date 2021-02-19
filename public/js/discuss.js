@@ -8,6 +8,7 @@
   ];
 
   let msgTrack = 0;
+  let likes = [];
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -33,12 +34,15 @@
   socket.on('users', (data) => users.innerHTML = data.map(user => `<li>@${user}</li>`).join(''));
   socket.on('sendmsg', ({ name: n, self, msg }) => {
     chatbox.innerHTML += n == name ? self : msg;
-    const last = chatbox.lastElementChild;
-    last.addEventListener(
-      'dblclick',
-      () => socket.emit('msglike', { id: last.dataset.id }),
-      { once: true }
-    );
+    [...chatbox.children].forEach((li) => {
+      if (likes.includes(li.dataset.id))
+        return;
+
+      li.addEventListener('dblclick', () => {
+        likes.push(li.dataset.id);
+        socket.emit('msglike', { id: li.dataset.id });
+      }, { once: true });
+    });
     chatbox.scrollTop = chatbox.scrollHeight;
   });
   socket.on('msglike', ({ id }) => {
