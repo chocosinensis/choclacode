@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const { schemaType } = require('../resources/helpers/functions');
+const { schemaType, removify } = require('../resources/helpers/functions');
 
 const articleSchema = new Schema({
   title: {
@@ -56,7 +56,7 @@ articleSchema.statics.delete = async function (slug, id, username) {
     slug, 'author.id': id, 'author.name': username,
     deleted: false
   }, { $set: {
-    slug: `${slug} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`,
+    slug: removify(slug),
     deleted: true
   } }, { useFindAndModify: false });
 }

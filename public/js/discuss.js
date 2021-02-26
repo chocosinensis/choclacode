@@ -1,10 +1,10 @@
 (() => {
   const socket = io();
   const [name, chatbox, form, users] = [
-    document.querySelector('.links #name').textContent,
-    document.querySelector('#chatbox'),
-    document.querySelector('#sendmsg'),
-    document.querySelector('.preview .users')
+    $('.links #name').textContent,
+    $('#chatbox'),
+    $('#sendmsg'),
+    $('.preview .users')
   ];
 
   let msgTrack = 0;

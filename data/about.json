@@ -1,38 +1,36 @@
 {
-  "name": "Choclacode",
-  "nickname": "Saqib",
+  "name": "Saqib",
+  "pseudonym": "Choclacode",
   "languages": {
-    "JavaScript": "80%",
-    "Python": "60%",
-    "Php": "50%",
-    "Java": "60%", "Kotlin": "10%",
-    "C++": "40%", "C": "10%", "C#": "10%",
+    "JavaScript": "90%", "Python": "80%", "Php": "80%",
+    "Java": "80%", "Kotlin": "10%", "Dart": "10%",
+    "Assembly": "10%", "C++": "40%", "C": "10%", "C#": "10%",
     "HTML": "80%", "CSS": "80%"
   },
   "frameworks": {
     "JavaScript": {
       "front-end": {
-        "React": "75%",
-        "React Native": "50%",
-        "Vue": "20%"
+        "React": "75%", "React Native": "50%",
+        "Vue": "50%", "Svelte": "40%",
+        "Next": "40%", "Nuxt": "40%"
       },
       "back-end": {
-        "node.js": "80%",
         "express": "80%"
       }
     },
     "Python": {
-      "Flask": "20%",
+      "Flask": "60%",
       "Django": "20%"
     },
-    "Php": { "Laravel": "0%" }
+    "Php": { "Laravel": "20%" },
+    "Java": { "Spring": "20%" }
   },
   "development": {
     "since": "Oct 2020",
     "experience": 1,
     "skills": {
+      "back-end": "80%",
       "front-end": "80%",
-      "back-end": "75%",
       "full-stack": "25%"
     }
   },

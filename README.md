@@ -10,11 +10,11 @@ Created with : [`Express.js`](https://expressjs.com)
 Dependencies :
 - [ejs](https://ejs.co) : Embedded JavaScript
 - [cors](https://github.com/expressjs/cors#readme)
-- [mongoose](https://mongoosejs.com)
+- [mongoose](https://mongoosejs.com) : Mongoose ORM
 - [jsonwebtoken](https://jwt.io)
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js#readme)
 - [cookie-parser](https://github.com/expressjs/cookie-parser#readme)
-- [dotenv](https://github.com/motdotla/dotenv#readme)
+- [dotenv](https://github.com/motdotla/dotenv#readme) : .env
 - [socket.io](https://socket.io)
 - [marked](https://marked.js.org) : Markdown to HTML
 

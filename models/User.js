@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 const { genSalt, hash, compare } = require('bcryptjs');
 
-const { schemaType } = require('../resources/helpers/functions');
+const { schemaType, removify } = require('../resources/helpers/functions');
 
 const userSchema = new Schema({
   username: { 
@@ -75,8 +75,8 @@ userSchema.statics.delete = async function (_id, email, password) {
     if (auth)
       return this.findOneAndUpdate({ _id, email, deleted: false },
         { $set: {
-          username: `${user.username} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`,
-          email: `${user.email} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`,
+          username: removify(user.username),
+          email: removify(user.email),
           deleted: true
         } }, { useFindAndModify: false });
 

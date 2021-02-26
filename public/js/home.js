@@ -1,6 +1,6 @@
 (async () => {
   const quotes = await (await fetch('/api/quotes')).json();
-  const quoteElem = document.querySelector('.quote');
+  const quoteElem = $('.quote');
 
   const renderquote = ({
     quote, src: { surah, ayah }
@@ -20,9 +20,9 @@
 })();
 (() => {
   const [main, themes, icons] = [
-    document.querySelector('main'),
-    document.querySelectorAll('#themes a'),
-    document.querySelectorAll('#themes a i')
+    $('main'),
+    $$('#themes a'),
+    $$('#themes a i')
   ];
   const updateIcons = () => {
     icons.forEach((i) => i.textContent =

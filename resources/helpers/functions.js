@@ -47,6 +47,7 @@ const handleErrors = (err) => {
 
   return errors;
 }
+const removify = (str) => `${str} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`;
 
 const createToken = (id) => sign({ id }, JWT_SECRET, { expiresIn: 3 * 24 * 60 * 60 });
 const toDate = (date) => `${date
@@ -54,6 +55,6 @@ const toDate = (date) => `${date
   .toTimeString().substring(0, 8)}`;
 
 module.exports = {
-  schemaType, handleErrors, 
+  schemaType, handleErrors, removify,
   createToken, toDate
 };

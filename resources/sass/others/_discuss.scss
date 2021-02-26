@@ -60,6 +60,7 @@
 
       .like {
         padding: 5px;
+        color: $font-se;
         background-color: $primary;
         position: absolute;
         left: 10px;
@@ -67,7 +68,12 @@
         border-radius: 36px;
         font-size: 0.5rem;
         opacity: 0.5;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
         transition: opacity 0.2s ease-out;
+      }
+
+      &:last-of-type {
+        animation: fade 0.1s ease 1;
       }
 
       &:hover {

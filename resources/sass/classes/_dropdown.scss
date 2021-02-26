@@ -42,8 +42,10 @@
       text-align: center;
 
       &:hover {
-        color: $font-se;
         background-color: $primary;
+        &, & * {
+          color: $font-se;
+        }
       }
     }
   }

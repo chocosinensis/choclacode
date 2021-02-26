@@ -32,6 +32,19 @@
     }
   }
 
+  @mixin ul {
+    list-style-type: disc;
+    padding-inline-start: 40px;
+
+    ul {
+      list-style-type: circle;
+
+      ul {
+        list-style-type: square;
+      }
+    }
+  }
+
   &.details {
     .title {
       text-align: center;
@@ -39,16 +52,7 @@
     }
 
     ul:not(.actions) {
-      list-style-type: disc;
-      padding-inline-start: 40px;
-  
-      ul {
-        list-style-type: circle;
-  
-        ul {
-          list-style-type: square;
-        }
-      }
+      @include ul;
     }
 
     ul.actions {
@@ -57,6 +61,12 @@
       li {
         margin-right: 30px;
       }
+    }
+  }
+
+  & ~ .preview {
+    ul {
+      @include ul;
     }
   }
 

@@ -1,11 +1,11 @@
 const auth = () => {
   const main = (path) => {
-    const form = document.querySelector(`form#${path}`);
+    const form = $(`form#${path}`);
     const sup = path == 'signup';
     const errors = {
-      username: form.querySelector('.username.error'),
-      email: sup ? form.querySelector('.email.error') : '',
-      password: form.querySelector('.password.error')
+      username: $_(form, '.username.error'),
+      email: sup ? $_(form, '.email.error') : '',
+      password: $_(form, '.password.error')
     };
 
     form.addEventListener('submit', async (e) => {
@@ -37,16 +37,16 @@ const auth = () => {
     });
   }
   const account = () => {
-    const changeForm = document.querySelector('form.change');
-    const deleteForm = document.querySelector('form.delete');
+    const changeForm = $('form.change');
+    const deleteForm = $('form.delete');
     const errors = {
       change: {
-        current: changeForm.querySelector('.error.current'),
-        newPass: changeForm.querySelector('.error.new')
+        current: $_(changeForm, '.error.current'),
+        newPass: $_(changeForm, '.error.new')
       },
       _delete: {
-        email: deleteForm.querySelector('.error.email'),
-        password: deleteForm.querySelector('.error.password')
+        email: $_(deleteForm, '.error.email'),
+        password: $_(deleteForm, '.error.password')
       }
     };
 

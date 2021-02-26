@@ -1,14 +1,14 @@
 const articles = () => {
   const main = (path, method) => {
-    const form = document.querySelector('form.article');
+    const form = $('form.article');
     const article = {
-      title: document.querySelector('.preview .title'),
-      body: document.querySelector('.preview article'),
+      title: $('.preview .title'),
+      body: $('.preview article'),
     };
     const errors = {
-      title: document.querySelector('.title-err.error'),
-      body: document.querySelector('.body-err.error'),
-      slug: path == 'create' ? document.querySelector('.slug-err.error') : ''
+      title: $_(form, '.title-err.error'),
+      body: $_(form, '.body-err.error'),
+      slug: path == 'create' ? $_(form, '.slug-err.error') : ''
     };
     const textify = (str) => str.trim().replace(/(<\/?script(.)*?>|<\/?style>|<link)/g, '');
     const slugify = (str) => str.toLowerCase().trim()
@@ -52,7 +52,7 @@ const articles = () => {
     );
   }
   const _delete = () => {
-    const del = document.querySelector('a.delete');
+    const del = $('a.delete');
 
     del.addEventListener('click', () => 
       fetch(`/articles/${del.dataset.doc}/delete`, { method: 'DELETE' })
@@ -63,16 +63,18 @@ const articles = () => {
 
   const search = () => {
     const [input, articlesUL, articles] = [
-      document.querySelector('input#search'),
-      document.querySelector('ul.articles'),
-      document.querySelectorAll('ul.articles li.link')
+      $('input#search'),
+      $('ul.articles'),
+      $$('ul.articles li.link')
     ];
 
     input.addEventListener('keyup', () => {
+      const value = input.value.trim().toLowerCase();
+      const selector = value.startsWith('@') ? '.author' : 'h1';
       articlesUL.innerHTML = '';
-      [...articles].filter((li) => li.querySelector('a h1')
+      [...articles].filter((li) => $_(li, `a ${selector}`)
           .textContent.toLowerCase()
-          .includes(input.value.trim().toLowerCase()))
+          .includes(value))
         .forEach((li) => articlesUL.appendChild(li));
     });
   }

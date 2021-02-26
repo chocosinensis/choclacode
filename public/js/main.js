@@ -1,6 +1,11 @@
+const $_ = (el, selector) => el.querySelector(selector);
+const $$_ = (el, selector) => el.querySelectorAll(selector);
+const $ = (selector) => $_(document, selector);
+const $$ = (selector) => $$_(document, selector);
+
 (() => {
-  const bur = document.querySelector('button.burger');
-  const aside = document.querySelector('aside.links');
+  const bur = $('button.burger');
+  const aside = $('aside.links');
 
   bur.addEventListener('click', () => aside.classList.add('show'));
   aside.addEventListener('click', (e) => {
@@ -12,6 +17,5 @@
   if (!localStorage.getItem('theme'))
     localStorage.setItem('theme', 'default');
 
-  document.querySelector('main')
-    .classList.add(localStorage.getItem('theme'));
+  $('main').classList.add(localStorage.getItem('theme'));
 })();

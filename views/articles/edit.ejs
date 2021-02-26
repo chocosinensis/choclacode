@@ -6,7 +6,7 @@
 
   <section><% const bodyplaceholder = `<p>The hereafter, the ever eternal place of living after death.</p><p>Every person has to suffer death, and after death, they will enter the hereafter. ...</p>`; %>
     <h1>Edit Article</h1>
-    <p>Edit your article</p>
+    <p>Edit your article : <span class="title"><%- article.title %></span></p>
     <form class="article">
       <input type="text" name="title" placeholder="Title" value="<%- article.title %>">
       <p class="title-err error"></p>
