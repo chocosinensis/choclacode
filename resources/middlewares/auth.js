@@ -5,13 +5,14 @@ const User = require('../../models/User');
 const { JWT_SECRET } = process.env;
 
 const requireAuth = (req, res, next) => {
+  const redirect = `/auth/login?next=${req.originalUrl}`;
   const token = req.cookies.jwt;
   if (token) {
     verify(token, JWT_SECRET, (err, decodedToken) => {
-      if (err) res.redirect('/auth/login');
+      if (err) res.redirect(redirect);
       else next();
     });
-  } else res.redirect('/auth/login');
+  } else res.redirect(redirect);
 }
 
 const checkUser = (req, res, next) => {

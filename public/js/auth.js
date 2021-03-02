@@ -16,7 +16,7 @@ const auth = () => {
         form.username.value.trim(),
         sup ? form.email.value.trim() : '',
         form.password.value
-      ]
+      ];
 
       try {
         const res = await fetch(`/auth/${path}`, { 
@@ -32,7 +32,10 @@ const auth = () => {
             errors.email.textContent = data.errors.email;
         }
         if (data.user)
-          location.assign('/dashboard');
+          location.assign(
+            new URLSearchParams(location.search).get('next') ??
+            '/dashboard'
+          );
       } catch (err) { console.log(err.message); }
     });
   }
