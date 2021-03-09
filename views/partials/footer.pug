@@ -1,0 +1,31 @@
+-
+  const links = [
+    ['//github.com/choclacode', 'github'],
+    ['//twitter.com/choclacode', 'twitter'],
+    ['//youtube.com/channel/UCuxNNDSPkN4MTbyubs9OQfQ', 'youtube'],
+    ['//instagram.com/choclacode', 'instagram'],
+    ['//facebook.com/choclacode', 'facebook']
+  ];
+
+footer
+  .about.grid
+    .logo
+      img(src="/assets/img/logo/logo.png", alt="logo")
+    .content.desktop
+      h4
+        | Who is
+        a.color(href="/") Choclacode
+        | ?
+      .about-text
+        a.color(href="/") Choclacode
+        | is a developer, who likes programming and chocolate (but doesn't eat a lot). His favourite programming language is JavaScript. (Don't think he misspelled 'Choclacode' xD)
+    .social
+      for l in links
+        div
+          a(href=`${l[0]}`, target="_blank")
+            i.fab(class=`fa-${l[1]}`)
+  .copyright
+    span
+      | Copyright &copy;
+      a.color(href="/") Choclacode
+      | 2021

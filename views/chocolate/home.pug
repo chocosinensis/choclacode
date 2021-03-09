@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  body
+    include ../partials/header
+    main
+      section.chocolates
+        h1.title Chocolate
+        .container
+          include ../shared/chocolates
+          +chocolates(chocolates)
+          p These are some dummy information about chocolate, only gave because I love them. Don't learn about chocolate from here. But feel free to use the 'lorem chocolate ipsum'!
+    include ../partials/footer

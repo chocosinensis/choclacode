@@ -1,0 +1,36 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  script(defer, src="/js/auth.js")
+  script window.addEventListener('load', () => auth().account());
+  body
+    include ../partials/header
+    main
+      section
+        .preview
+          h1 Account Info
+          div
+            p
+              | Username : #{''}
+              span.title @#{ user.username }
+            p Email : #{ user.email }
+          a.btn(href="/auth/loguout") Log Out
+        .preview
+          h3 Change Password
+          form.change
+            input(type="password", name="current", placeholder="Current Password")
+            .current.error
+            input(type="password", name="new", placeholder="New Password")
+            .new.error
+            input.material-icons-outlined(type="submit", value="edit")
+        .preview
+          h3.error Delete your account
+          p(style="font-size: 0.8rem") Please avoid this section if you don't want to delete your account.
+          p(style="font-size: 0.8rem") But if you really want, please enter your email and password in order to proceed.
+          form.delete
+            input(type="email", name="email", placeholder="Email")
+            .email.error
+            input(type="password", name="password", placeholder="Password")
+            .password.error
+            input.material-icons-outlined.error(type="submit", value="delete")
+    include ../partials/footer

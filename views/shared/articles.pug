@@ -1,0 +1,12 @@
+mixin articles(articles, search)
+  if search
+    script(defer, src="/js/articles.js")
+    script window.addEventListener('load', () => articles().search());
+    input#search(type="text", placeholder="Enter Search Term")
+  ul.articles
+    for article in articles
+      li.article.link
+        a(href=`/articles/${article.slug}`)
+          h1.title= article.title
+          .author.title @#{ article.author.name }
+          .time= article.createdAt

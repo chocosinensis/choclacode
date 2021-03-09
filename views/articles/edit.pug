@@ -1,0 +1,24 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  script(defer, src="https://cdn.jsdelivr.net/npm/marked/marked.min.js")
+  script(defer, src="/js/articles.js")
+  script window.addEventListener('load', () => articles().edit());
+  body
+    include ../partials/header
+    main
+      section
+        h1 Edit Article
+        p
+          | Edit your article: #{''}
+          span.title= article.title
+        form.article
+          input(type="text", name="title", placeholder="Title e.g. The Hereafter", value=article.title)
+          p.title-err.error
+          textarea(name="body", cols="30", rows="10", placeholder="Body")= article.raw
+          p.body-err.error
+          input.material-icons-outlined(type="submit", value="edit")
+        .preview.article
+          h1.title= article.title
+          article !{article.body}
+    include ../partials/footer

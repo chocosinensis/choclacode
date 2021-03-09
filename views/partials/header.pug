@@ -1,0 +1,57 @@
+noscript
+  strong We are sorry but choclacode.eu.org doesn't work without JavaScript. Enable it to view it.
+header
+  .main-logo
+    a(href="/")
+      img(src="/assets/img/logo/logo.png", alt="logo")
+  nav.links
+    ul
+      li.dropdown
+        p Explore
+        div
+          a(href="/quran") Quran
+          a(href="/articles") Articles
+          a(href="/chocolate") Chocolate
+      li.dropdown
+        if user
+          p Express
+          div
+            a(href="/dashboard")
+              | @
+              span#name= user.username
+            a(href="/discuss") Discuss
+            a(href="/users") Users
+            a(href="/api") API
+        else
+          p Auth
+          div
+            a(href="/auth/login") Login
+            a(href="/auth/signup") Sign Up
+      li
+        a.link(href="/about") About
+  button.burger
+    i.material-icons menu
+  aside.links
+    ul.nosb
+      li
+        a(href="/") Home
+      li
+        a(href="/quran") Quran
+      li
+        a(href="/articles") Articles
+      li
+        a(href="/chocolate") Chocolate
+      if user
+        li
+          a(href="/dashboard") @#{ user.username }
+        li
+          a(href="/discuss") Discuss
+        li
+          a(href="/users") Users
+      else
+        li
+          a(href="/auth/login") Login
+        li
+          a(href="/auth/signup") Sign Up
+      li
+        a(href="/about") About

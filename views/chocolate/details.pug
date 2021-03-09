@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  body
+    include ../partials/header
+    main
+      section.chocolates
+        .choc-details
+          h1.title= choc.title
+          .choc-content
+            article
+              - const lorem = 'Lorem chocolate ipsum chocolor sit amet chocolectetur adipisicing elit. Beatae commodi chocolatis nobis incidunt ducimus eum totam sunt hic facilis culpa chocolates labore dicta sequi nihil pariatur vitae, doloremque chocolate expedita, nisi quidem soluta consequuntur? Libero, chocolequatur deleniti. Alias incidunt assumenda chocolores soluta eum tenetur ducimus atque inventore, chocolatur obcaecati eveniet.';
+              p= choc.content
+              p= lorem
+              p= lorem
+              p= lorem
+            img.choc-img(src=`/assets/img/chocolate/${choc.src}`, alt="Loading Image...")
+          a.btn(href="/chocolate") Back
+    include ../partials/footer

@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  body
+    include ../partials/header
+    main
+      section.about
+        h1 About
+        p
+          | About #{''}
+          span.color Choclacode
+        .preview.cover
+        .code
+          pre= about
+    include ../partials/footer

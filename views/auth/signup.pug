@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  script(defer, src="/js/auth.js")
+  script window.addEventListener('load', () => auth().signup());
+  body
+    include ../partials/header
+    main
+      section
+        h1 Sign Up
+        p Sign up to join and connect with us.
+        form.auth#signup
+          input(type="text", name="username", placeholder="Username e.g. saqib123")
+          .username.error
+          input(type="email", name="email", placeholder="Email")
+          .email.error
+          input(type="password", name="password", placeholder="Password")
+          .password.error
+          input(type="submit", value="Sign Up")
+    include ../partials/footer

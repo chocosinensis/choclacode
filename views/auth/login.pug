@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  script(defer, src="/js/auth.js")
+  script window.addEventListener('load', () => auth().login());
+  body
+    include ../partials/header
+    main
+      section
+        h1 Login
+        p Login to your account
+        form.auth#login
+          input(type="text", name="username", placeholder="Username e.g. saqib123")
+          .username.error
+          input(type="password", name="password", placeholder="Password")
+          .password.error
+          input(type="submit", value="Login")
+    include ../partials/footer

@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  if user && user.id == article.author.id
+    script(defer, src="/js/articles.js")
+    script window.addEventListener('load', () => articles()._delete());
+  body
+    include ../partials/header
+    main
+      section.article.details
+        h1.title= article.title
+        article !{article.body}
+        p
+          | Author: #{''}
+          span.author.title @#{ article.author.name }
+        p Created at: #{ article.createdAt }
+        br
+        br
+        br
+        if user && user.id == article.author.id
+          ul.actions
+            li
+              a.material-icons-outlined.btn(href=`/articles/${article.slug}/edit`) edit
+            li
+              a.material-icons-outlined.btn.delete(data.doc=article.slug) delete
+        p
+          a.btn(href="/articles") Back
+    include ../partials/footer

@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  script(defer, src="https://cdn.jsdelivr.net/npm/marked/marked.min.js")
+  script(defer, src="/js/articles.js")
+  script window.addEventListener('load', () => articles().create());
+  body
+    include ../partials/header
+    main
+      section
+        - const bodyplaceholder = `\nThe Hereafter, the ever eternal place of living after death.\nEvery person has to suffer death, and after death, they will enter the hereafter. ...\n`;
+        h1 Create Article
+        p Create an inspiring article to increase the fear of Allah!
+        form.article
+          input(type="text", name="title", placeholder="Title e.g. The Hereafter")
+          p.title-err.error
+          textarea(name="body", cols="30", rows="10", placeholder=`Body e.g. ${bodyplaceholder}You can use markdown for writing`)
+          p.body-err.error
+          input(type="text", name="slug", placeholder="Slug e.g. the-hereafter")
+          p.slug-err.error
+          input(type="submit", value="Create")
+        .preview.article
+          h1.title
+          article
+    include ../partials/footer

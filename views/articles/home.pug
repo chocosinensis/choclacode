@@ -1,0 +1,14 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  body
+    include ../partials/header
+    main
+      section
+        h1 Articles
+        p Read, learn and increase the faith for Allah!
+        include ../shared/articles
+        +articles(articles, true)
+        if user
+          a.btn(href="/articles/create") Create
+    include ../partials/footer

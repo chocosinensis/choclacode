@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  body
+    include ../partials/header
+    main
+      section
+        .container
+          h1 Users
+          ul.card-container
+            for u in users
+              li.card
+                h3.card-title @#{ u.username }
+                .card-link
+                  a(href=`/users/@${u.username}`)
+                    i.material-icons.btn person
+    include ../partials/footer

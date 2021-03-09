@@ -1,0 +1,29 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  script(defer, src="/js/quran.js")
+  body
+    include ../partials/header
+    main
+      section.surah
+        h1.title
+          | #{ info.eng }
+          br
+          | #{ info.ara }
+        ul
+          if !(info.num == 1 || info.num == 9)
+            li#bismillah
+              span.ara بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
+          for a in surah
+            li(id=a.num)
+              .num= `${info.num} : ${a.num}`
+              if show.ara
+                .ara= a.ara
+              if show.eng
+                .num English - Saheeh International
+                .eng= a.eng
+              if show.ban
+                .num Bengali - Mohiuddin Khan
+                .ban= a.ban
+          hr
+    include ../partials/footer

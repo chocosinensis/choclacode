@@ -24,7 +24,7 @@ const listen = (app) => {
 const config = (app) => {
   app
     // settings
-    .set('view engine', 'ejs')
+    .set('view engine', 'pug')
     .set('json spaces', 2)
 
     // middlewares

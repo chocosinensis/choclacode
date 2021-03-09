@@ -1,9 +1,0 @@
-<ul class="card-container"><% chocs.forEach((choc) => { %>
-  <li class="card">
-    <div class="card-img" style="background-image: url('/assets/img/chocolate/<%= choc.src %>');"></div>
-    <h3 class="card-title"><%= choc.title %></h3>
-    <div class="card-link">
-      <a href="/chocolate/<%= choc.slug %>" class="btn">More Info...</a>
-    </div>
-  </li><% }); %>
-</ul>

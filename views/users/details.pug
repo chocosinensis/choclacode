@@ -1,0 +1,20 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  body
+    include ../partials/header
+    main
+      section
+        .preview
+          h1 User Info
+          div
+            p
+              | Username : #{''}
+              span.title @#{ username }
+            p Email : #{ email }
+          div
+            a(href=`mailto:1 email`, target="_blank")
+              i.material-icons.btn mail
+            a(href="/discuss")
+              i.material-icons.btn chat
+    include ../partials/footer

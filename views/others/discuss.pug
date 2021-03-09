@@ -1,0 +1,18 @@
+doctype html
+html(lang="en")
+  include ../partials/head
+  script(defer, src="/socket.io/socket.io.js")
+  script(defer, src="/js/discuss.js")
+  body
+    include ../partials/header
+    main
+      section#chatsect
+        ul#chatbox
+        form#sendmsg
+          input(type="text", name="msg", placeholder="Type a message...", autocomplete="off")
+          input.material-icons-outlined(type="submit", value="send")
+      section
+        .preview
+          h3.title Active Users
+          ul.users
+    include ../partials/footer
