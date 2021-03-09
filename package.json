@@ -12,6 +12,9 @@
     "start": "node .",
     "serve": "npx concurrently \"npm run serve:app\" \"npm run watch\"",
     "serve:app": "npx nodemon",
+    "build": "npx concurrently \"npm run build:js\" \"npm run build:sass\"",
+    "build:js": "webpack",
+    "build:sass": "npx node-sass resources/sass/main.scss -o public/styles --output-style compressed",
     "watch": "npx concurrently \"npm run watch:js\" \"npm run watch:sass\"",
     "watch:js": "webpack -w",
     "watch:sass": "npx node-sass -w resources/sass/main.scss -o public/styles --output-style compressed"
