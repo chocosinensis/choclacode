@@ -12,7 +12,7 @@
     "start": "node .",
     "serve": "npx concurrently \"npm run serve:app\" \"npm run watch\"",
     "serve:app": "npx nodemon",
-    "b": "npx concurrently \"npm run build:js\" \"npm run build:sass\"",
+    "build": "npx concurrently \"npm run build:js\" \"npm run build:sass\"",
     "build:js": "webpack",
     "build:sass": "npx node-sass resources/sass/main.scss -o public/styles --output-style compressed",
     "watch": "npx concurrently \"npm run watch:js\" \"npm run watch:sass\"",
@@ -41,9 +41,7 @@
     "marked": "^1.2.7",
     "mongoose": "^5.10.12",
     "pug": "^3.0.2",
-    "socket.io": "^3.0.1"
-  },
-  "devDependencies": {
+    "socket.io": "^3.0.1",
     "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0"
   }

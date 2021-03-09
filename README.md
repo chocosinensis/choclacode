@@ -13,6 +13,7 @@ Dependencies :
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js#readme)
 - [dotenv](https://github.com/motdotla/dotenv#readme) : .env
 - [pug](https://pugjs.org)
+- [webpack](https://webpack.js.org)
 - [cors](https://github.com/expressjs/cors#readme)
 - [cookie-parser](https://github.com/expressjs/cookie-parser#readme)
 - [socket.io](https://socket.io)

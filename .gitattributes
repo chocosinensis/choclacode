@@ -1,2 +1,3 @@
 .gitignore merge=ignore
-/resources/sass/ merge=ignore
+/resources/sass/** merge=ignore
+/resources/js/** merge=ignore
