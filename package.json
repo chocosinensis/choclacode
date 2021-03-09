@@ -1,6 +1,6 @@
 {
   "name": "choclacode",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Choclacode official website v1",
   "main": "app.js",
   "author": "Saqib <saqib@choclacode.eu.org> (http://choclacode.eu.org/)",
@@ -10,8 +10,10 @@
   },
   "scripts": {
     "start": "node .",
-    "serve": "npx concurrently \"npm run serve:app\" \"npm run watch:sass\"",
+    "serve": "npx concurrently \"npm run serve:app\" \"npm run watch\"",
     "serve:app": "npx nodemon",
+    "watch": "npx concurrently \"npm run watch:js\" \"npm run watch:sass\"",
+    "watch:js": "webpack -w",
     "watch:sass": "npx node-sass -w resources/sass/main.scss -o public/styles --output-style compressed"
   },
   "repository": {
@@ -37,5 +39,9 @@
     "mongoose": "^5.10.12",
     "pug": "^3.0.2",
     "socket.io": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.24.4",
+    "webpack-cli": "^4.5.0"
   }
 }

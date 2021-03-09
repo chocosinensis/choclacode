@@ -1,9 +1,6 @@
 doctype html
 html(lang="en")
   include ../partials/head
-  if user && user.id == article.author.id
-    script(defer, src="/js/articles.js")
-    script window.addEventListener('load', () => articles()._delete());
   body
     include ../partials/header
     main
