@@ -87,6 +87,9 @@ export class Article {
   }  
 }
 
+Article.create = () => new Article('create', 'POST');
+Article.edit = () => new Article('edit', 'PUT');
+
 Article.delete = () => {
   const del = $('a.delete');
   del.addEventListener('click', () => 

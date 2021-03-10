@@ -14,7 +14,7 @@ export class Auth {
     this.form = $(`form#${this.path}`);
     this.errors = {
       username: $_(this.form, '.username.error'),
-      email: sup ? $_(this.form, '.email.error') : '',
+      email: this.sup ? $_(this.form, '.email.error') : '',
       password: $_(this.form, '.password.error')
     };
   }
@@ -141,4 +141,6 @@ class AuthAccount {
   }
 }
 
+Auth.login = () => new Auth('login');
+Auth.signup = () => new Auth('signup');
 Auth.account = () => new AuthAccount();
