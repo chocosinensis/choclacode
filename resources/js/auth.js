@@ -24,12 +24,12 @@ export class Auth {
       e.preventDefault();
       Object.values(this.errors)
         .forEach(e => this.sup && (e.value = ''));
-  
+
       const { json } = this.getBody();
-  
+
       try {
         const data = await fetchEndpoint(`/auth/${this.path}`, 'POST', json);
-        this.error(data);
+        this.handleData(data);
       } catch (err) { console.log(err.message); }
     }
   }
@@ -53,7 +53,7 @@ export class Auth {
     };
   }
 
-  error(data) {
+  handleData(data) {
     if (data.errors) {
       this.errors.username.textContent = data.errors.username;
       this.errors.password.textContent = data.errors.password;

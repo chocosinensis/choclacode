@@ -57,7 +57,7 @@ export class Discuss {
       const li = $_(this.chatbox, `li[data-id="${id}"]`);
       if (!li)
         return;
-    
+
       li.dataset.likes++;
       if (li.dataset.likes == 1)
         li.innerHTML += `<span class="like">❤️

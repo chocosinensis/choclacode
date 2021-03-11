@@ -44,7 +44,7 @@ export class Article {
           this.method, json
         );
 
-        this.error(data, { slug });
+        this.handleData(data, { slug });
       } catch (err) { console.log(err.message); }
     }
   }
@@ -53,11 +53,11 @@ export class Article {
     this.form.addEventListener('submit', this.submit);
     this.form.title.addEventListener('keyup', () => {
       this.form.slug.value = slugify(this.form.title.value);
-      article.title.textContent = this.form.title.value.trim();
+      this.article.title.textContent = this.form.title.value.trim();
     });
     this.form.body.addEventListener(
       'keyup', 
-      () => article.body.innerHTML = marked(textify(this.form.body.value))
+      () => this.article.body.innerHTML = marked(textify(this.form.body.value))
     );
   }
 
@@ -77,7 +77,7 @@ export class Article {
     };
   }
 
-  error(data, { slug }) {
+  handleData(data, { slug }) {
     if (data.errors) {
       this.errors.title.textContent = data.errors.title;
       this.errors.body.textContent = data.errors.body;
