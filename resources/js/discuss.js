@@ -1,10 +1,8 @@
-import { $, $_, $$_ } from './utils';
+import { $, $_, $$_, Base } from './utils';
 
-export class Discuss {
+export class Discuss extends Base {
   constructor() {
-    this.init();
-    this.arrows();
-    this.events();
+    super();
   }
 
   init() {

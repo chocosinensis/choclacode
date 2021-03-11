@@ -48,7 +48,6 @@ const account_edit = async (req, res) => {
     res.status(201).json({ user: user._id });
   } catch (err) {
     const errors = handleErrors(err).auth;
-    console.log(err, errors);
     res.status(400).json({ errors });
   }
 }
@@ -56,8 +55,6 @@ const account_delete = async (req, res) => {
   const { email, password } = req.body;
   try {
     const user = await User.delete(res.locals.user.id, email, password);
-    if (!user)
-      throw new Error();
     res.cookie('jwt', '', { maxAge: 1 });
     res.status(201).json({ user: user._id });
   } catch (err) {

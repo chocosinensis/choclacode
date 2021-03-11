@@ -19,7 +19,7 @@ html(lang="en")
             li
               a.material-icons-outlined.btn(href=`/articles/${article.slug}/edit`) edit
             li
-              a.material-icons-outlined.btn.delete(data.doc=article.slug) delete
+              a.material-icons-outlined.btn.delete(data-doc=article.slug) delete
         p
           a.btn(href="/articles") Back
     include ../partials/footer

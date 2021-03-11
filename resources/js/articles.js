@@ -1,19 +1,20 @@
 import marked from 'marked';
 
-import { $, $_, $$, fetchEndpoint } from './utils';
+import { $, $_, $$, Base } from './utils';
 
 const textify = (str) => str.trim().replace(/(<\/?script(.)*?>|<\/?style>|<link)/g, '');
 const slugify = (str) => str.toLowerCase().trim()
   .replace(/[\.?!]*/g, '').replace('&', 'and').replace(/[\s\W]/g, '-');
 
-export class Article {
+export class Article extends Base {
   constructor(path, method) {
-    this.path = path;
-    this.method = method;
-
-    this.init();
-    this.arrows();
-    this.events();
+    super({ path, method }, [true]);
+    super.toSubmit({
+      cond: this.path == 'create',
+      method,
+      url: `/articles/${this.path == 'create' ? this.path :
+        `${this.getBody().raw.slug}/${this.path}`}`
+    });
   }
 
   init() {
@@ -29,25 +30,25 @@ export class Article {
     };
   }
 
-  arrows() {
-    this.submit = async (e) => {
-      e.preventDefault();
-      Object.values(this.errors)
-        .forEach(e => this.path == 'create' && (e.value = ''));  
+  // arrows() {
+  //   this.submit = async (e) => {
+  //     e.preventDefault();
+  //     Object.values(this.errors)
+  //       .forEach(e => this.path == 'create' && (e.value = ''));
 
-      const { raw: { slug }, json } = this.getBody();
+  //     const { raw: { slug }, json } = this.getBody();
 
-      try {
-        const data = await fetchEndpoint(
-          `/articles/${this.path == 'create' ?
-            this.path : `${slug}/${this.path}`}`,
-          this.method, json
-        );
+  //     try {
+  //       const data = await fetchEndpoint(
+  //         `/articles/${this.path == 'create' ?
+  //           this.path : `${slug}/${this.path}`}`,
+  //         this.method, json
+  //       );
 
-        this.handleData(data, { slug });
-      } catch (err) { console.log(err.message); }
-    }
-  }
+  //       this.handleData(data, { slug });
+  //     } catch (err) { console.log(err.message); }
+  //   }
+  // }
 
   events() {
     this.form.addEventListener('submit', this.submit);

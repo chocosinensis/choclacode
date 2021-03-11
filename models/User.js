@@ -69,8 +69,11 @@ userSchema.statics.changePassword = async function ({ email, password }) {
   }
 }
 userSchema.statics.delete = async function (_id, email, password) {
-  const user = await this.findOne({ _id, email, deleted: false });
-  if (user) {
+  if (!_id || !email || !password)
+    throw new Error('Incorrect username');
+
+  const user = await this.findOne({ email, deleted: false });
+  if (user && user._id == _id) {
     const auth = await compare(password, user.password);
     if (auth)
       return this.findOneAndUpdate({ _id, email, deleted: false },

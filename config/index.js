@@ -6,6 +6,7 @@ require('dotenv').config();
 const { discuss } = require('../resources/helpers/socket');
 
 const {
+  PORT,
   DB_USERNAME, DB_PASSWORD,
   DB_URL, DB_DATABASE
 } = process.env;
@@ -15,7 +16,7 @@ const listen = (app) => {
     `mongodb+srv://${DB_USERNAME}:${DB_PASSWORD}@${DB_URL}/${DB_DATABASE}`,
     { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true }
   ).catch();
-  const server = app.listen(process.env.PORT);
+  const server = app.listen(PORT);
 
   const io = require('socket.io')(server);
   discuss(io);
