@@ -1,3 +1,7 @@
-/node_modules/
+# npm
+/node_modules/**
+/package-lock.json
+
+# public
 /public/js/**
 /public/styles/**

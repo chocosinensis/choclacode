@@ -20,6 +20,8 @@ const handleErrors = (err) => {
 
   if (err.message == 'Incorrect username')
     errors.auth.username = 'Your entered username is not registered';
+  if (err.message == 'Incorrect email')
+    errors.auth.email = 'Incorrect email entered';
   if (err.message == 'Incorrect password')
     errors.auth.password = 'Incorrect password entered';
   if (err.message == 'Short password')
@@ -36,14 +38,14 @@ const handleErrors = (err) => {
     return errors;
   }
 
-  const updateErrors = (field) => {
-    if (err.message.includes(
-      `${field == 'auth' ? 'user' : field} validation failed`)) 
-      Object.values(err.errors).forEach(({ properties }) => 
-        errors[field][properties.path] = properties.message);
+  const updateErrors = (...fields) => {
+    for (const field of fields)
+      if (err.message.includes(
+        `${field == 'auth' ? 'user' : field} validation failed`)) 
+        Object.values(err.errors).forEach(({ properties }) => 
+          errors[field][properties.path] = properties.message);
   }
-  updateErrors('auth');
-  updateErrors('article');
+  updateErrors('auth', 'article');
 
   return errors;
 }

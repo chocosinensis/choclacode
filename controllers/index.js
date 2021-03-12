@@ -3,8 +3,8 @@ const Chocolate = require('../models/Chocolate');
 
 const home_get = async (req, res) => {
   const articles = [
-    await Article.findById('5fb271b0ca65a63f893903a3'),
-    await Article.findById('5fb20ffc2aa4d6132d2248ba')
+    await Article.findById('5fb20ffc2aa4d6132d2248ba'),
+    await Article.findById('5fb271b0ca65a63f893903a3')
   ];
   const chocs = Chocolate.find();
   res.render('home', {
@@ -22,6 +22,9 @@ const dashboard_get = async (req, res) => {
 
   res.render('dashboard', { title: 'Dashboard', articles });
 }
+const disscuss_get = (req, res) => res.render('others/discuss', {
+  title: 'Discuss', socket: true
+});
 
 const err403 = (req, res) => res.status(403)
   .render('others/error', {
@@ -37,6 +40,6 @@ const err404 = (req, res) => res.status(404)
   });
 
 module.exports = {
-  home_get, about_get, dashboard_get,
+  home_get, about_get, dashboard_get, disscuss_get,
   err403, err404
 };

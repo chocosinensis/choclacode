@@ -13,11 +13,16 @@ Dependencies :
 - [bcrypt](https://github.com/kelektiv/node.bcrypt.js#readme)
 - [dotenv](https://github.com/motdotla/dotenv#readme) : .env
 - [pug](https://pugjs.org)
-- [webpack](https://webpack.js.org)
 - [cors](https://github.com/expressjs/cors#readme)
 - [cookie-parser](https://github.com/expressjs/cookie-parser#readme)
 - [socket.io](https://socket.io)
 - [marked](https://marked.js.org) : Markdown to HTML
+
+Dev Dependencies :
+- [webpack](https://webpack.js.org)
+- [nodemon](https://nodemon.io)
+- [concurrently](https://npmjs.com/package/concurrently)
+- [node-sass](https://npmjs.com/package/node-sass)
 
 <!--
 **choclacode/choclacode** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.

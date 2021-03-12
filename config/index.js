@@ -3,6 +3,7 @@ const { connect } = require('mongoose');
 const cookie = require('cookie-parser');
 require('dotenv').config();
 
+const rootRouter = require('../routes');
 const { discuss } = require('../resources/helpers/socket');
 
 const {
@@ -33,7 +34,8 @@ const config = (app) => {
       static('public'),
       urlencoded({ extended: true }),
       json(),
-      cookie()
+      cookie(),
+      rootRouter
     );
 }
 

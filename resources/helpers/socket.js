@@ -24,9 +24,9 @@ const discuss = (io) => {
     return `${h / 10 < 1 ? `0${h}`: h}:${m / 10 < 1 ? `0${m}`: m}`
   }
   const msgify = (msg) => marked(msg.trim()
-  .replace(/\n+/g, '<br>').replace(/&lt;br&gt;/g, '<br>'));
+    .replace(/\n+/g, '<br>').replace(/&lt;br&gt;/g, '<br>'));
   const cleanify = (msg) => msg.replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;');
+    .replace(/>/g, '&gt;');
   const markupify = ({ name, msg, time }) => {
     msg = msgify(msg.split(' ')
     .map(m => m.startsWith('@') ? `<span class="title">${m}</span>` : cleanify(m))
