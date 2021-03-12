@@ -14,7 +14,7 @@ const user_get = async (req, res) => {
     return res.redirect('/users');
 
   res.render('users/details', {
-    title: `${username}`,
+    title: `@${username}`,
     username, email: user.email,
   });
 }

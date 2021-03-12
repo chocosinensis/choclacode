@@ -35,7 +35,7 @@ const logout_get = (req, res) => {
 }
 
 const account_get = (req, res) => 
-  res.render('auth/account', { title: res.locals.user.username });
+  res.render('auth/account', { title: `@${res.locals.user.username}` });
 const account_edit = async (req, res) => {
   const { email } = res.locals.user;
   const { current, newPass } = req.body;

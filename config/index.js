@@ -1,10 +1,11 @@
 const { static, urlencoded, json } = require('express');
 const { connect } = require('mongoose');
 const cookie = require('cookie-parser');
+const socketio = require('socket.io');
 require('dotenv').config();
 
 const rootRouter = require('../routes');
-const { discuss } = require('../resources/helpers/socket');
+const socket = require('../resources/helpers/socket');
 
 const {
   PORT,
@@ -19,8 +20,7 @@ const listen = (app) => {
   ).catch();
   const server = app.listen(PORT);
 
-  const io = require('socket.io')(server);
-  discuss(io);
+  socket(socketio(server));
 }
 
 const config = (app) => {

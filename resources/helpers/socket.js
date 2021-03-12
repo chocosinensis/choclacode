@@ -104,4 +104,6 @@ const discuss = (io) => {
   });
 }
 
-module.exports = { discuss };
+module.exports = (io) => {
+  discuss(io);
+}
