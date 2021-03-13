@@ -7,14 +7,14 @@ const connect = require('./connect');
 const rootRouter = require('../routes');
 const socket = require('../resources/helpers/socket');
 
-const listen = (app) => {
+exports.listen = (app) => {
   connect();
   const server = app.listen(process.env.PORT);
 
   socket(socketio(server));
 }
 
-const config = (app) => {
+exports.config = (app) => {
   app
     // settings
     .set('view engine', 'pug')
@@ -29,5 +29,3 @@ const config = (app) => {
       rootRouter
     );
 }
-
-module.exports = { listen, config };

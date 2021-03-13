@@ -27,7 +27,7 @@ const articleSchema = new Schema({
     ]),
     unique: true,
     validate: [
-      (val) => /^[a-z0-9\_\-]+$/g.test(val), 
+      (val) => /^[a-z0-9\_\-]+$/g.test(val),
       'Slugs can contain only lowercase letters, numbers, hyphens (-) and underscores (_)'
     ]
   },

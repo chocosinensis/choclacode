@@ -18,15 +18,15 @@
   &.link {
     padding-left: 50px;
     border-left: 10px solid $primary;
-  
+
     a {
       display: block;
-  
+
       * {
         margin: 20px 0 10px;
       }
     }
-  
+
     &:hover {
       border-left-color: $secondary;
     }
@@ -71,5 +71,5 @@
     font-size: larger;
     font-weight: bold;
     margin: 10px auto;
-  }  
+  }
 }

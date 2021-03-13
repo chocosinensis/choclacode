@@ -4,12 +4,12 @@ const { genSalt, hash, compare } = require('bcryptjs');
 const { schemaType, removify } = require('../resources/helpers/functions');
 
 const userSchema = new Schema({
-  username: { 
+  username: {
     ...schemaType(4, 32, [
       'Please enter a username',
       'Usernames must have at least 4 characters',
       'Usernames can have a maximum of 32 characters'
-    ]), 
+    ]),
     unique: true, lowercase: [true, 'Username must be lowercase'],
     validate: [
       (val) => /^[a-z\d_\-]+$/g.test(val),

@@ -30,26 +30,6 @@ export class Article extends Base {
     };
   }
 
-  // arrows() {
-  //   this.submit = async (e) => {
-  //     e.preventDefault();
-  //     Object.values(this.errors)
-  //       .forEach(e => this.path == 'create' && (e.value = ''));
-
-  //     const { raw: { slug }, json } = this.getBody();
-
-  //     try {
-  //       const data = await fetchEndpoint(
-  //         `/articles/${this.path == 'create' ?
-  //           this.path : `${slug}/${this.path}`}`,
-  //         this.method, json
-  //       );
-
-  //       this.handleData(data, { slug });
-  //     } catch (err) { console.log(err.message); }
-  //   }
-  // }
-
   events() {
     this.form.addEventListener('submit', this.submit);
     this.form.title.addEventListener('keyup', () => {
@@ -57,7 +37,7 @@ export class Article extends Base {
       this.article.title.textContent = this.form.title.value.trim();
     });
     this.form.body.addEventListener(
-      'keyup', 
+      'keyup',
       () => this.article.body.innerHTML = marked(textify(this.form.body.value))
     );
   }
@@ -85,7 +65,7 @@ export class Article extends Base {
       if (this.path == 'create') this.errors.slug.textContent = data.errors.slug;
     } else if (data.article)
       location.assign(`/articles/${slug}`);
-  }  
+  }
 }
 
 Article.create = () => new Article('create', 'POST');
@@ -93,7 +73,7 @@ Article.edit = () => new Article('edit', 'PUT');
 
 Article.delete = () => {
   const del = $('a.delete');
-  del.addEventListener('click', () => 
+  del.addEventListener('click', () =>
     fetch(`/articles/${del.dataset.doc}/delete`, { method: 'DELETE' })
       .then((res) => res.json())
       .then((data) => location.assign(data.redirect))

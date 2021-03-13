@@ -28,12 +28,12 @@ export class Discuss extends Base {
     this.handleKeyUp = (e) => {
       const selfs = $$_(this.chatbox, '.self .msg .text');
       const { msg } = this.form;
-  
+
       if (e.key == 'ArrowUp')
         msg.value = selfs?.[selfs.length - ++this.msgTrack]?.textContent ?? '';
       else if (e.key == 'ArrowDown')
         msg.value = selfs?.[selfs.length - --this.msgTrack]?.textContent ?? '';
-  
+
       if (!msg.value)
         this.msgTrack = 0;
     }
@@ -71,7 +71,7 @@ export class Discuss extends Base {
   }
   domEvents() {
     this.form.addEventListener('submit', this.submitMsg);
-    this.form.msg.addEventListener('keyup', this.handleKeyUp);  
+    this.form.msg.addEventListener('keyup', this.handleKeyUp);
   }
   socketEvents() {
     this.socket.on('connection', () => this.socket.emit('newuser', { name: this.name }));

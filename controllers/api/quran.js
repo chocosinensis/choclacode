@@ -1,6 +1,6 @@
 const Surah = require('../../models/Surah');
 
-const quran_get = (req, res) => {
+exports.quran_get = (req, res) => {
   const surahs = Surah.find();
 
   const { raw } = req.query;
@@ -12,7 +12,7 @@ const quran_get = (req, res) => {
   res.json(surahs);
 }
 
-const surah_get = (req, res) => {
+exports.surah_get = (req, res) => {
   const { surah } = req.params;
 
   try {
@@ -30,5 +30,3 @@ const surah_get = (req, res) => {
     res.redirect('/api/quran');
   }
 }
-
-module.exports = { quran_get, surah_get };

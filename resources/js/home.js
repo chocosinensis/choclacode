@@ -27,7 +27,7 @@ export class Home {
   async quote() {
     const quotes = await (await fetch('/api/quotes')).json();
     this.renderquote(quotes[0]);
-  
+
     let i = 0;
     setInterval(() => {
       i = i == quotes.length - 1 ? 0 : i + 1;

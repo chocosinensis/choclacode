@@ -2,13 +2,14 @@ const { sign } = require('jsonwebtoken');
 
 const { JWT_SECRET } = process.env;
 
-const schemaType = (min, max, [reqErr, minErr, maxErr]) => ({
+exports.schemaType = (min, max, [reqErr, minErr, maxErr]) => ({
   type: String,
   required: [true, reqErr],
   minlength: [min, minErr],
   maxlength: [max, maxErr]
 });
-const handleErrors = (err) => {
+
+exports.handleErrors = (err) => {
   let errors = {
     auth: {
       username: '', email: '', password: '', newPass: ''
@@ -41,22 +42,19 @@ const handleErrors = (err) => {
   const updateErrors = (...fields) => {
     for (const field of fields)
       if (err.message.includes(
-        `${field == 'auth' ? 'user' : field} validation failed`)) 
-        Object.values(err.errors).forEach(({ properties }) => 
+        `${field == 'auth' ? 'user' : field} validation failed`))
+        Object.values(err.errors).forEach(({ properties }) =>
           errors[field][properties.path] = properties.message);
   }
   updateErrors('auth', 'article');
 
   return errors;
 }
-const removify = (str) => `${str} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`;
 
-const createToken = (id) => sign({ id }, JWT_SECRET, { expiresIn: 3 * 24 * 60 * 60 });
-const toDate = (date) => `${date
+exports.removify = (str) => `${str} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`;
+
+exports.createToken = (id) => sign({ id }, JWT_SECRET, { expiresIn: 3 * 24 * 60 * 60 });
+
+exports.toDate = (date) => `${date
   .toDateString().substr(4)} ${date
   .toTimeString().substring(0, 8)}`;
-
-module.exports = {
-  schemaType, handleErrors, removify,
-  createToken, toDate
-};

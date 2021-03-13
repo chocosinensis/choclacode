@@ -4,7 +4,7 @@ const User = require('../../models/User');
 
 const { JWT_SECRET } = process.env;
 
-const requireAuth = (req, res, next) => {
+exports.requireAuth = (req, res, next) => {
   const redirect = `/auth/login?next=${req.originalUrl}`;
   const token = req.cookies.jwt;
   if (token) {
@@ -15,7 +15,7 @@ const requireAuth = (req, res, next) => {
   } else res.redirect(redirect);
 }
 
-const checkUser = (req, res, next) => {
+exports.checkUser = (req, res, next) => {
   if (res.locals.user)
     return next();
 
@@ -38,10 +38,8 @@ const checkUser = (req, res, next) => {
   }
 }
 
-const requireGuest = (req, res, next) => {
+exports.requireGuest = (req, res, next) => {
   res.locals.user ?
     res.redirect('/dashboard') :
     next();
 }
-
-module.exports = { requireAuth, checkUser, requireGuest };

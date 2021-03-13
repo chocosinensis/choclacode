@@ -3,13 +3,13 @@ const marked = require('marked');
 const Article = require('../../models/Article');
 const { handleErrors } = require('../../resources/helpers/functions');
 
-const article_get = (req, res) => Article.findOne({ slug: res.locals.slug, deleted: false })
-  .then(({ title, body, slug, author, createdAt }) => res.render('articles/details', { 
+exports.article_get = (req, res) => Article.findOne({ slug: res.locals.slug, deleted: false })
+  .then(({ title, body, slug, author, createdAt }) => res.render('articles/details', {
     title: `${title} &laquo; ${author.name}`,
     article: { title, body: marked(body), slug, author, createdAt }
   })).catch(() => res.redirect('/articles'));
 
-const editarticle_get = async (req, res) => {
+exports.editarticle_get = async (req, res) => {
   const { id, username } = res.locals.user;
   const { slug } = res.locals;
   const article = await Article.findOne({
@@ -24,7 +24,7 @@ const editarticle_get = async (req, res) => {
   else
     res.redirect('/articles');
 }
-const editarticle_put = async (req, res) => {
+exports.editarticle_put = async (req, res) => {
   const { title, body } = req.body;
   const { slug } = res.locals;
   const { id, username } = res.locals.user;
@@ -40,16 +40,10 @@ const editarticle_put = async (req, res) => {
   }
 }
 
-const deletearticle = (req, res) => {
+exports.deletearticle = (req, res) => {
   const { slug } = res.locals;
   const { id, username } = res.locals.user;
   Article.delete(slug, id, username)
     .then(() => res.json({ redirect: '/articles' }))
     .catch(() => res.json({ redirect: '/articles' }));
 }
-
-module.exports = {
-  article_get,
-  editarticle_get, editarticle_put,
-  deletearticle
-};

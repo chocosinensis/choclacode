@@ -1,4 +1,4 @@
-const showLangs = (req, res, next) => {
+exports.showLangs = (req, res, next) => {
   const show = { ara: false, eng: false, ban: false };
   const { lang } = req.query;
 
@@ -17,5 +17,3 @@ const showLangs = (req, res, next) => {
   res.locals.show = show;
   next();
 }
-
-module.exports = { showLangs };

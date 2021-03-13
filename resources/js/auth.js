@@ -16,21 +16,6 @@ export class Auth extends Base {
     };
   }
 
-  // arrows() {
-  //   this.submit = async (e) => {
-  //     e.preventDefault();
-  //     Object.values(this.errors)
-  //       .forEach(e => this.sup && (e.value = ''));
-
-  //     const { json } = this.getBody();
-
-  //     try {
-  //       const data = await fetchEndpoint(`/auth/${this.path}`, 'POST', json);
-  //       this.handleData(data);
-  //     } catch (err) { console.log(err.message); }
-  //   }
-  // }
-
   events() {
     this.form.addEventListener('submit', this.submit);
   }
@@ -196,7 +181,7 @@ class DeleteAccount extends Base {
 //     try {
 //       const data = await fetchEndpoint(
 //         '/auth/account', 'PUT',
-//         JSON.stringify({ current, newPass })  
+//         JSON.stringify({ current, newPass })
 //       );
 //       if (data.errors) {
 //         const { current, newPass } = errors.change;
