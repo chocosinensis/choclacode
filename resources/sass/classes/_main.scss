@@ -89,6 +89,7 @@ input[type='submit']:hover {
   }
 }
 blockquote {
+  margin: 10px;
   @include quote;
 }
 .code {

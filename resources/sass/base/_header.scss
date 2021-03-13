@@ -2,8 +2,15 @@ header {
   background-image: $grad-pr;
   display: flex !important;
   justify-content: space-between;
+  height: 70px;
   min-width: 80px;
   padding: 5px 10%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+  transition: top 0.2s ease;
 
   .main-logo {
     flex: 2;
@@ -11,13 +18,21 @@ header {
     align-items: center;
     padding: 0 15px;
 
-    img {
-      border-radius: 50%;
-      padding: 0;
-    }
-    img:hover {
-      background-color: $secondary;
-      box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    a {
+      height: 70px;
+      width: 70px;
+
+      img {
+        height: 100%;
+        width: 100%;
+        border-radius: 50%;
+        padding: 0;
+
+        &:hover {
+          background-color: $secondary;
+          box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+        }
+      }
     }
 
     @include media ($breakpoint-md) {
@@ -44,8 +59,6 @@ header {
       justify-content: space-evenly;
 
       li {
-        margin: 20px auto;
-
         p {
           @include link;
         }

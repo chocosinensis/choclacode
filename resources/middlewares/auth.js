@@ -16,6 +16,9 @@ const requireAuth = (req, res, next) => {
 }
 
 const checkUser = (req, res, next) => {
+  if (res.locals.user)
+    return next();
+
   const token = req.cookies.jwt;
   if (token) {
     verify(token, JWT_SECRET, async (err, decodedToken) => {

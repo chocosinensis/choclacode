@@ -2,6 +2,12 @@ const marked = require('marked');
 
 const discuss = (io) => {
   const bot = 'chocoBot';
+  const emoticons = {
+    shrug: '¯\\\\_(ツ)_/¯',
+    tableflip: '(╯°□°）╯︵ ┻━┻',
+    unflip: '┬─┬ ノ( ゜-゜ノ)'
+  };
+
   const helpMsg = (name) => `Here you go @${name} <br>
   @user <br> &nbsp;&nbsp; - mention @user <br>
   @chocoBot help <br> &nbsp;&nbsp; - show this message
@@ -25,12 +31,17 @@ const discuss = (io) => {
   }
   const msgify = (msg) => marked(msg.trim()
     .replace(/\n+/g, '<br>').replace(/&lt;br&gt;/g, '<br>'));
-  const cleanify = (msg) => msg.replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
+  const emotify = (msg) => {
+    if (!msg.startsWith('/'))
+      return msg;
+
+    return emoticons[msg.substring(1, msg.length)] ?? msg;
+  }
+  const cleanify = (msg) => msg.startsWith('@') ?
+    `<span class="title">${msg}</span>` :
+    emotify(msg.replace(/</g, '&lt;').replace(/>/g, '&gt;'));
   const markupify = ({ name, msg, time }) => {
-    msg = msgify(msg.split(' ')
-    .map(m => m.startsWith('@') ? `<span class="title">${m}</span>` : cleanify(m))
-    .join(' '));
+    msg = msgify(msg.split(' ').map(m => cleanify(m)).join(' '));
     const id = `msg-${Math.random()}-_-${Math.random()}`
     return {
       name, id,
@@ -80,7 +91,8 @@ const discuss = (io) => {
             msg.toLowerCase().includes('help') ? helpMsg(name) :
             msg.toLowerCase().includes('lstyle') ? styleMsg(name) :
             msg.toLowerCase().includes('hint') ? hintmsg :
-            msg == `@${n}` ? `I am here @${name} 🙂️` : `Yeah dear @${name}`
+            msg == `@${n}` ? `I am here @${name} 🙂️` :
+            Math.random() > 0.5 ? `Yeah dear @${name}` : `/shrug @${name}`
           ));
         else if (n.toLowerCase() == 'everyone')
           io.sockets.emit('sendmsg', botMsg(likeMsg(msgToSend.id, `@${name} mentioned everyone`)));

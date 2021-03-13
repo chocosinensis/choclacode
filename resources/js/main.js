@@ -1,24 +1,37 @@
-import { $, matchUrl } from './utils';
+import { $, $_, matchUrl } from './utils';
 import { Home } from './home';
 import { Article } from './articles';
 import { Auth } from './auth';
 import { quran } from './quran';
 import { Discuss } from './discuss';
 
-const bur = $('button.burger');
-const aside = $('aside.links');
+const header = $('header');
+const bur = $_(header, 'button.burger');
+const aside = $_(header, 'aside.links');
 
 export const main = () => {
-  bur.addEventListener('click', () => aside.classList.add('show'));
-  aside.addEventListener('click', (e) => {
-    if (e.target == aside)
-      aside.classList.remove('show');
-  });
+  (() => {
+    let prevScrollPos = pageYOffset;
+    document.addEventListener('scroll', () => {
+      const currentScrollPos = pageYOffset;
+      header.style.top = `${prevScrollPos > currentScrollPos ?
+        0 : -90}px`;
+      prevScrollPos = currentScrollPos;
+    });
+  })();
+  (() => {
+    bur.addEventListener('click', () => aside.classList.add('show'));
+    aside.addEventListener('click', (e) => {
+      if (e.target == aside)
+        aside.classList.remove('show');
+    });
+  })();
+  (() => {
+    if (!localStorage.getItem('theme'))
+      localStorage.setItem('theme', 'default');
 
-  if (!localStorage.getItem('theme'))
-    localStorage.setItem('theme', 'default');
-
-  $('main').classList.add(localStorage.getItem('theme'));
+    $('main').classList.add(localStorage.getItem('theme'));
+  })();
 }
 
 export const routes = () => {
