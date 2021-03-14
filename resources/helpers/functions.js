@@ -1,5 +1,7 @@
 const { sign } = require('jsonwebtoken');
 
+const { maxAge } = require('./constants');
+
 const { JWT_SECRET } = process.env;
 
 exports.schemaType = (min, max, [reqErr, minErr, maxErr]) => ({
@@ -53,7 +55,7 @@ exports.handleErrors = (err) => {
 
 exports.removify = (str) => `${str} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`;
 
-exports.createToken = (id) => sign({ id }, JWT_SECRET, { expiresIn: 3 * 24 * 60 * 60 });
+exports.createToken = (id) => sign({ id }, JWT_SECRET, { expiresIn: maxAge });
 
 exports.toDate = (date) => `${date
   .toDateString().substr(4)} ${date

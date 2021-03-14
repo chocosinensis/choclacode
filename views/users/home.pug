@@ -10,6 +10,8 @@ html(lang="en")
           ul.card-container
             for u in users
               li.card
+                .card-img(style=`min-height: 125px;`)
+                  img.avatar(src=u.profileImg, alt="")
                 h3.card-title @#{ u.username }
                 .card-link
                   a(href=`/users/@${u.username}`)

@@ -73,7 +73,7 @@ Article.edit = () => new Article('edit', 'PUT');
 
 Article.delete = () => {
   const del = $('a.delete');
-  del.addEventListener('click', () =>
+  del.addEventListener('dblclick', () =>
     fetch(`/articles/${del.dataset.doc}/delete`, { method: 'DELETE' })
       .then((res) => res.json())
       .then((data) => location.assign(data.redirect))

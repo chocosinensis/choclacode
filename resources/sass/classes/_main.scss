@@ -44,6 +44,15 @@ img[alt="logo"] {
   width: 100px;
   height: 100px;
 }
+img.avatar {
+  height: 75px;
+  width: 75px;
+  max-height: 75px;
+  max-width: 75px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 4px rgba($color: #000, $alpha: 0.5);
+}
 
 .btn {
   color: $font-se;
@@ -124,6 +133,31 @@ blockquote {
     margin: 20px auto;
   }
 
+  &.account {
+    .img {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      span.upload {
+        background: $font-pr;
+        color: $font-se;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+
+        &:hover {
+          @include btnhover;
+        }
+      }
+
+      form.image {
+        input[type="file"] {
+          @include none;
+        }
+      }
+    }
+  }
+
   &.cover {
     height: 12rem;
     width: 36rem;
@@ -170,4 +204,7 @@ blockquote {
     text-align: center;
     color: $font-se;
   }
+}
+.hidden {
+  @include none;
 }

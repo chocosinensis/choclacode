@@ -1,4 +1,4 @@
-import { $, $_, Base } from './utils';
+import { $, $_, Base, fetchEndpoint } from './utils';
 
 export class Auth extends Base {
   constructor(path) {
@@ -47,6 +47,61 @@ export class Auth extends Base {
         new URLSearchParams(location.search).get('next') ??
         '/dashboard'
       );
+  }
+}
+
+class ChangeProfileImage extends Base {
+  constructor() {
+    super();
+  }
+
+  init() {
+    this.uploadform = $('form.image');
+    this.urlform = $('form.url');
+    this.image = $('.account img.avatar');
+    this.upload = $('span.upload');
+    this.img = $('span.imgdata')?.dataset?.img ?? null;
+  }
+
+  arrows() {
+    this.uploadImage = async () => {
+      const data = await fetch('/images', {
+        method: 'POST',
+        body: new FormData(this.uploadform)
+      }).then((r) => r.json());
+
+      if (data.image) {
+        const { image, id } = await fetchEndpoint(
+          '/auth/account/image', 'PUT',
+          JSON.stringify({ image: data.image })
+        );
+        this.image.src = image;
+        this.img && await fetchEndpoint(`/images/${this.img}`, 'DELETE');
+        this.img = id;
+      }
+    }
+    this.urlImage = async (e) => {
+      e.preventDefault();
+
+      const { image } = await fetchEndpoint(
+        '/auth/account/image', 'PUT',
+        JSON.stringify({ image: this.urlform.urlinput.value })
+      );
+      this.urlform.urlinput.value = '';
+      this.image.src = image;
+
+      this.img && await fetchEndpoint(`/images/${this.img}`, 'DELETE');
+      if ($('span.imgdata'))
+        $('span.imgdata').dataset.img = '';
+      this.img = null;
+    }
+  }
+
+  events() {
+    this.uploadform.image.addEventListener('change', this.uploadImage, { once: true });
+    this.upload.addEventListener('click',
+      () => this.uploadform.image.click());
+    this.urlform.addEventListener('submit', this.urlImage, { once: true });
   }
 }
 
@@ -144,82 +199,10 @@ class DeleteAccount extends Base {
   }
 }
 
-// class AuthAccount {
-//   constructor() {
-//     this.init();
-//     this.events();
-//   }
-
-//   init() {
-//     this.changeForm = $('form.change');
-//     this.deleteForm = $('form.delete');
-//     this.errors = {
-//       change: {
-//         current: $_(this.changeForm, '.error.current'),
-//         newPass: $_(this.changeForm, '.error.new')
-//       },
-//       _delete: {
-//         email: $_(this.deleteForm, '.error.email'),
-//         password: $_(this.deleteForm, '.error.password')
-//       }
-//     };
-//   }
-
-//   events() {
-//     this.changeForm.addEventListener('submit', this.changesubmit);
-//     this.deleteForm.addEventListener('submit', this.deletesubmit);
-//   }
-
-//   async changesubmit() {
-//     e.preventDefault();
-
-//     const [current, newPass] = [
-//       this.changeForm.current.value,
-//       this.changeForm.new.value
-//     ];
-
-//     try {
-//       const data = await fetchEndpoint(
-//         '/auth/account', 'PUT',
-//         JSON.stringify({ current, newPass })
-//       );
-//       if (data.errors) {
-//         const { current, newPass } = errors.change;
-//         current.textContent = data.errors.password;
-//         newPass.textContent = data.errors.newPass;
-//       }
-//       if (data.user)
-//         location.assign('/dashboard');
-//     } catch (err) { console.log(err.message); }
-//   }
-
-//   async deletesubmit() {
-//     e.preventDefault();
-
-//     const [email, password] = [
-//       this.deleteForm.email.value,
-//       this.deleteForm.password.value
-//     ];
-
-//     try {
-//       const data = await fetchEndpoint(
-//         '/auth/account', 'DELETE',
-//         JSON.stringify({ email, password })
-//       );
-//       if (data.errors) {
-//         const { email, password } = this.errors._delete;
-//         email.textContent = data.errors.email;
-//         password.textContent = data.errors.password;
-//       }
-//       if (data.user)
-//         location.assign('/');
-//     } catch (err) { console.log(err.message); }
-//   }
-// }
-
 Auth.login = () => new Auth('login');
 Auth.signup = () => new Auth('signup');
 Auth.account = () => {
+  new ChangeProfileImage();
   new ChangePassword();
   new DeleteAccount();
 }

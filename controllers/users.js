@@ -2,7 +2,8 @@ const User = require('../models/User');
 
 exports.users_get = async (req, res) => {
   const users = (await User.find({ deleted: false }))
-    .map(({ username, email }) => ({ username, email }));
+    .map(({ username, email, profileImg }) =>
+      ({ username, email, profileImg }));
 
   res.render('users/home', { title: 'Users', users });
 }
@@ -16,5 +17,6 @@ exports.user_get = async (req, res) => {
   res.render('users/details', {
     title: `@${username}`,
     username, email: user.email,
+    profileImg: user.profileImg
   });
 }

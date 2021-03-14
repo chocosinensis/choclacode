@@ -5,14 +5,29 @@ html(lang="en")
     include ../partials/header
     main
       section
-        .preview
+        .preview.account
           h1 Account Info
+          .img
+            img.avatar(src=user.profileImg, alt="Img")
           div
             p
               | Username : #{''}
               span.title @#{ user.username }
             p Email : #{ user.email }
           a.btn(href="/auth/logout") Log Out
+        .preview.account
+          h3 Change Profile Picture
+          .img
+            form.image
+              h4 Upload Image
+              span.upload.btn.material-icons-outlined upload_file
+              input(type="file", name="image")
+          p OR
+          form.url
+            input(type="text", name="urlinput", placeholder="Enter a url")
+            input.material-icons-outlined(type="submit", value="edit")
+          if img
+            span.imgdata(data-img=img)
         .preview
           h3 Change Password
           form.change

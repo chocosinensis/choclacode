@@ -1,6 +1,6 @@
-const find = () => require('../data/quran/surahs.json');
+exports.find = () => require('../data/quran/surahs.json');
 
-const findById = (id) => {
+exports.findById = (id) => {
   try {
     const surah = require(`../data/quran/${id}.json`);
     return surah;
@@ -8,5 +8,3 @@ const findById = (id) => {
     throw err;
   }
 }
-
-module.exports = { find, findById };

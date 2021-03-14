@@ -30,6 +30,10 @@ const userSchema = new Schema({
     'Password must have at least 6 characters',
     'Password can have a maximum of 255 characters'
   ]),
+  profileImg: {
+    type: String,
+    default: '/assets/img/profile.png'
+  },
   deleted: {
     type: Boolean,
     default: false

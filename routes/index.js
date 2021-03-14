@@ -19,6 +19,7 @@ root
   .use('/articles', require('./articles'))
   .use('/chocolate', require('./chocolate'))
   .use('/auth', require('./auth'))
+  .use('/images', require('./images'))
   .use('/api', require('./api'))
   .use('/users', require('./users'))
 
