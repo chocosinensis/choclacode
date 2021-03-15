@@ -1,5 +1,5 @@
 const Article = require('../../models/Article');
-const { handleErrors, toDate } = require('../../resources/helpers/functions');
+const { handleErrors } = require('../../resources/helpers/functions');
 
 exports.articles_get = (req, res) => Article.find({ deleted: false })
   .then((articles) => res.render('articles/home', { title: 'Articles', articles }))
@@ -12,8 +12,7 @@ exports.createarticle_post = async (req, res) => {
   try {
     const article = await Article.create({
       title, body, slug,
-      author: { id, name: username },
-      createdAt: toDate(new Date())
+      author: { id, name: username }
     });
     res.status(201).json({ article: article._id });
   } catch (err) {

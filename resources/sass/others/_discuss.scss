@@ -72,6 +72,16 @@
         transition: opacity 0.2s ease-out;
       }
 
+      a {
+        color: $tertiary;
+        text-decoration: underline;
+      }
+
+      img {
+        max-height: 50px;
+        max-width: 50px;
+      }
+
       &:last-of-type {
         animation: fade 0.1s ease 1;
       }

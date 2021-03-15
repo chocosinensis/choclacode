@@ -1,6 +1,16 @@
 const { Schema, model } = require('mongoose');
 
-const { schemaType, removify } = require('../resources/helpers/functions');
+const { schemaType, removify, toDate } = require('../resources/helpers/functions');
+
+const userSchema = new Schema({
+  id: String,
+  name: String
+});
+
+const dateSchema = {
+  type: String,
+  default: toDate(new Date())
+};
 
 const articleSchema = new Schema({
   title: {
@@ -10,7 +20,7 @@ const articleSchema = new Schema({
       'Title can have a maximum of 124 characters'
     ]),
     validate: [
-      (val) => /^[\w\d\s()\._!?\-]+$/g.test(val),
+      (val) => /^[\w\d\s():\._!?\u0980-\u09ff\-]+$/gu.test(val),
       'Title can only contain the following : A-Z a-z 0-9 . _ - ? !'
     ]
   },
@@ -27,15 +37,19 @@ const articleSchema = new Schema({
     ]),
     unique: true,
     validate: [
-      (val) => /^[a-z0-9\_\-]+$/g.test(val),
+      (val) => /^[a-z\u0980-\u09ff0-9_\-]+$/gu.test(val),
       'Slugs can contain only lowercase letters, numbers, hyphens (-) and underscores (_)'
     ]
   },
-  author: {
-    id: String,
-    name: String
+  author: userSchema,
+  createdAt: dateSchema,
+  likes: {
+    type: [{
+      likedBy: userSchema,
+      likedAt: dateSchema
+    }],
+    default: []
   },
-  createdAt: String,
   deleted: {
     type: Boolean,
     default: false
@@ -59,6 +73,16 @@ articleSchema.statics.delete = async function (slug, id, username) {
     slug: removify(slug),
     deleted: true
   } }, { useFindAndModify: false });
+}
+
+articleSchema.statics.like = async function (slug, id, name) {
+  const article = await this.findOne({ slug, deleted: false });
+  if (article.likes.find(({ likedBy }) => likedBy.id === id))
+    article.likes = article.likes.filter(({ likedBy }) => likedBy.id !== id);
+  else
+    article.likes.push({ likedBy: { id, name } });
+  await article.save();
+  return article.likes;
 }
 
 const Article = model('article', articleSchema);

@@ -13,8 +13,22 @@ html(lang="en")
         p Created at: #{ article.createdAt }
         br
         br
-        br
+        if user
+          ul.actions
+            li
+              a.material-icons-outlined.btn.like(
+                data-doc=article.slug,
+                data-liked=article.likes.find(({ likedBy }) => likedBy.id === user.id) ? 'liked' : 'no'
+              ) favorite_outline
+        p.likes= article.likes.length ? `${article.likes.length} ${article.likes.length == 1 ? 'like' : 'likes'}` : ''
         if user && user.id == article.author.id
+          ul.actions.likes
+            if article.likes.length
+              li.tag Liked By :
+            for like in article.likes
+              li.tag @#{like.likedBy.name}
+          br
+          br
           ul.actions
             li
               a.material-icons-outlined.btn(href=`/articles/${article.slug}/edit`) edit

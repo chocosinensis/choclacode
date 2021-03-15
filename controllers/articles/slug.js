@@ -4,9 +4,15 @@ const Article = require('../../models/Article');
 const { handleErrors } = require('../../resources/helpers/functions');
 
 exports.article_get = (req, res) => Article.findOne({ slug: res.locals.slug, deleted: false })
-  .then(({ title, body, slug, author, createdAt }) => res.render('articles/details', {
-    title: `${title} &laquo; ${author.name}`,
-    article: { title, body: marked(body), slug, author, createdAt }
+  .then(({
+    title, body, slug, author,
+    createdAt, likes, comments
+  }) => res.render('articles/details', {
+    title: `${title} &laquo; @${author.name}`,
+    article: {
+      title, body: marked(body), slug, author,
+      createdAt, likes, comments
+    }
   })).catch(() => res.redirect('/articles'));
 
 exports.editarticle_get = async (req, res) => {
@@ -46,4 +52,12 @@ exports.deletearticle = (req, res) => {
   Article.delete(slug, id, username)
     .then(() => res.json({ redirect: '/articles' }))
     .catch(() => res.json({ redirect: '/articles' }));
+}
+
+exports.like_post = (req, res) => {
+  const { slug } = res.locals;
+  const { id, username } = res.locals.user;
+  Article.like(slug, id, username)
+    .then((likes) => res.json({ likes }))
+    .catch((err) => res.json({ errors: handleErrors(err).article }));
 }

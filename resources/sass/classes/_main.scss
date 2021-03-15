@@ -119,6 +119,13 @@ blockquote {
 .code, .articles, .nosb {
   @include nosb;
 }
+.tag {
+  padding: 5px 7.5px;
+  background-color: $font-pr;
+  color: $font-se;
+  border-radius: 36px;
+  box-shadow: 0 0 4px rgba($color: #000, $alpha: 0.5);
+}
 .preview {
   max-width: $breakpoint-sm;
   padding: 20px;

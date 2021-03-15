@@ -77,7 +77,36 @@ Article.delete = () => {
     fetch(`/articles/${del.dataset.doc}/delete`, { method: 'DELETE' })
       .then((res) => res.json())
       .then((data) => location.assign(data.redirect))
-      .catch(console.log));
+      .catch(console.log), { once: true });
+}
+
+Article.like = () => {
+  const like = $('a.like');
+  like.textContent = like.dataset.liked == 'liked' ? 'favorite' : 'favorite_outline';
+  like.addEventListener('click', async () => {
+    const { likes } = await fetch(
+      `/articles/${like.dataset.doc}/like`,
+      { method: 'POST' }
+    ).then((res) => res.json());
+
+    if (likes) {
+      $('p.likes').innerHTML = likes.length > 0 ?
+        `${likes.length} ${likes.length == 1 ? 'like' : 'likes'}` : '';
+      like.dataset.liked = like.dataset.liked == 'liked' ? 'no' : 'liked';
+      like.textContent = like.dataset.liked == 'liked' ?
+        'favorite' : 'favorite_outline';
+
+      if ($('ul.actions.likes')) {
+        const peopleLiked = $('ul.actions.likes');
+        if (likes.length <= 0)
+          return (peopleLiked.innerHTML = '');
+        peopleLiked.innerHTML = '<li class="tag">Liked By :</li>';
+        likes.forEach(({ likedBy }) => {
+          peopleLiked.innerHTML += `<li class="tag">@${likedBy.name}</li>`;
+        });
+      }
+    }
+  });
 }
 
 Article.search = () => {
@@ -86,8 +115,23 @@ Article.search = () => {
     $('ul.articles'),
     $$('ul.articles li.link')
   ];
+  const getLikes = (el) => $_(el, 'small.likes').textContent.split(' ')[0];
   input.addEventListener('keyup', () => {
     const value = input.value.trim().toLowerCase();
+    if (value.startsWith('/')) {
+      articlesUL.innerHTML = '';
+      if (value == '/desc') {
+        [...articles].reverse()
+          .forEach((el) => articlesUL.appendChild(el));
+      } else if (value == '/likes') {
+        const art = articles;
+        [...art].sort((a, b) => getLikes(b) - getLikes(a))
+          .forEach((el) => articlesUL.appendChild(el));
+      } else {
+        [...articles].forEach((el) => articlesUL.appendChild(el));
+      }
+      return;
+    }
     const selector = value.startsWith('@') ? '.author' : 'h1';
     articlesUL.innerHTML = '';
     [...articles].filter((li) => $_(li, `a ${selector}`)

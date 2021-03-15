@@ -6,5 +6,6 @@ mixin articles(articles, search)
       li.article.link
         a(href=`/articles/${article.slug}`)
           h1.title= article.title
+          small.likes= article.likes.length ? `${article.likes.length} ${article.likes.length == 1 ? 'like' : 'likes'}` : ''
           .author.title @#{ article.author.name }
           .time= article.createdAt
