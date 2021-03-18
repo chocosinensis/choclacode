@@ -48,6 +48,7 @@
         color: $font-se;
         box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
         overflow-x: scroll;
+        word-wrap: break-word;
       }
 
       .time {
@@ -119,8 +120,14 @@
       margin: 20px auto;
     }
 
-    input {
-      margin: 5px;
+    textarea {
+      height: 30px;
+      line-height: 30px;
+      padding: 2.5px 8.5px;
+      margin: 10px;
+      max-width: $breakpoint-sm;
+      width: 100%;
+      resize: none;
     }
   }
 

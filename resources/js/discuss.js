@@ -22,31 +22,53 @@ export class Discuss extends Base {
       this.form.msg.focus();
       const msg = this.form.msg.value;
       if (msg == '' || /^\s+$/g.test(msg)) return;
-      this.socket.emit('newmsg', { name: this.name, msg });
+      this.socket.emit('newmsg__discuss', { name: this.name, msg });
       this.form.msg.value = '';
     }
     this.handleKeyUp = (e) => {
       const selfs = $$_(this.chatbox, '.self .msg .text');
       const { msg } = this.form;
 
-      if (e.key == 'ArrowUp')
-        msg.value = selfs?.[selfs.length - ++this.msgTrack]?.textContent ?? '';
-      else if (e.key == 'ArrowDown')
-        msg.value = selfs?.[selfs.length - --this.msgTrack]?.textContent ?? '';
+      if (e.key === 'Enter') {
+        if (e.shiftKey)
+          msg.scrollTop = msg.scrollHeight;
+        else {
+          msg.scrollTop = 0;
+          msg.value = msg.value.substring(0, msg.value.length - 1);
+          this.submitMsg(e);
+        }
+      } else if (['ArrowUp', 'ArrowDown'].includes(e.key) && e.shiftKey) {
+        if (e.key === 'ArrowUp')
+          msg.value = selfs?.[selfs.length - ++this.msgTrack]?.textContent ?? '';
+        else if (e.key === 'ArrowDown')
+          msg.value = selfs?.[selfs.length - --this.msgTrack]?.textContent ?? '';
+        msg.value = msg.value.substring(0, msg.value.length - 1);
+        msg.focus();
+      }
 
       if (!msg.value)
         this.msgTrack = 0;
     }
 
-    this.sendmsg = ({ name: n, self, msg }) => {
-      this.chatbox.innerHTML += n == this.name ? self : msg;
+    const checkPrevSender = (n, l = this.chatbox.lastElementChild) => {
+      if (l && !l.classList.contains('self')) {
+        const name = $_(l, '.name');
+        if (!name) {
+          return checkPrevSender(n, l.previousSibling);
+        }
+        return name.textContent === `@${n}`;
+      }
+      return false;
+    }
+    this.sendmsg = ({ name: n, self, msg, msgNoName }) => {
+      this.chatbox.innerHTML += checkPrevSender(n) ? msgNoName : n == this.name ? self : msg;
       [...this.chatbox.children].forEach((li) => {
         if (this.likes.includes(li.dataset.id))
           return;
 
         li.addEventListener('dblclick', () => {
           this.likes.push(li.dataset.id);
-          this.socket.emit('msglike', { id: li.dataset.id });
+          this.socket.emit('msglike__discuss', { id: li.dataset.id });
         }, { once: true });
       });
       this.chatbox.scrollTop = this.chatbox.scrollHeight;
@@ -74,10 +96,10 @@ export class Discuss extends Base {
     this.form.msg.addEventListener('keyup', this.handleKeyUp);
   }
   socketEvents() {
-    this.socket.on('connection', () => this.socket.emit('newuser', { name: this.name }));
-    this.socket.on('users',
+    this.socket.on('connection', () => this.socket.emit('newuser__discuss', { name: this.name }));
+    this.socket.on('users__discuss',
       (data) => this.users.innerHTML = data.map(user => `<li>@${user}</li>`).join(''));
-    this.socket.on('sendmsg', this.sendmsg);
-    this.socket.on('msglike', this.msglike);
+    this.socket.on('sendmsg__discuss', this.sendmsg);
+    this.socket.on('msglike__discuss', this.msglike);
   }
 }

@@ -40,6 +40,6 @@ exports.checkUser = (req, res, next) => {
 
 exports.requireGuest = (req, res, next) => {
   res.locals.user ?
-    res.redirect('/dashboard') :
+    res.redirect(req.query.next ?? '/dashboard') :
     next();
 }

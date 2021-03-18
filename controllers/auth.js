@@ -1,5 +1,5 @@
-const { gfs } = require('../config/multer');
 const User = require('../models/User');
+const { gfs } = require('../resources/helpers/gfs');
 const { maxAge } = require('../resources/helpers/constants');
 const { handleErrors, createToken } = require('../resources/helpers/functions');
 

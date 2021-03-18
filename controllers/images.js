@@ -1,7 +1,7 @@
 const { Types: { ObjectId } } = require('mongoose');
 
-const { gfs } = require('../config/multer');
-const { err404 } = require('.');
+const { gfs } = require('../resources/helpers/gfs');
+const { err404 } = require('../resources/middlewares/error');
 
 exports.images_post = (req, res) => {
   res.json({ image: `/images/${req.file.filename}` });

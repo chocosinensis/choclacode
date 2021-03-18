@@ -1,6 +1,6 @@
 const { Router } = require('express');
 
-const { upload } = require('../config/multer');
+const { upload } = require('../resources/middlewares/multer');
 const {
   images_post,
   image_get, image_delete

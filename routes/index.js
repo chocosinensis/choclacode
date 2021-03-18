@@ -1,10 +1,14 @@
 const { Router } = require('express');
 
 const {
-  home_get, about_get, dashboard_get, disscuss_get,
-  err403, err404
+  home_get, about_get,
+  dashboard_get, disscuss_get
 } = require('../controllers');
 const { requireAuth, checkUser } = require('../resources/middlewares/auth');
+const {
+  err403, err404,
+  errorHandler
+} = require('../resources/middlewares/error');
 
 const root = Router();
 
@@ -24,6 +28,9 @@ root
   .use('/users', require('./users'))
 
   .get('/403', err403)
-  .use(err404);
+  .use(
+    err404,
+    errorHandler
+  );
 
 module.exports = root;

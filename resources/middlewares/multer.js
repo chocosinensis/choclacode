@@ -1,12 +1,9 @@
 const { extname } = require('path');
 const crypto = require('crypto');
-const { mongo, connection } = require('mongoose');
 const multer = require('multer');
 const GridFSStorage = require('multer-gridfs-storage');
 
-const { uri } = require('../resources/helpers/constants');
-
-exports.gfs = () => new mongo.GridFSBucket(connection.db, { bucketName: 'uploads' });
+const { uri } = require('../helpers/constants');
 
 exports.upload = multer({
   storage: new GridFSStorage({
