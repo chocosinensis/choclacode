@@ -39,8 +39,6 @@
 
         @include media($breakpoint-sm) {
           position: relative;
-          width: fit-content;
-          width: -moz-fit-content;
 
           .time {
             position: absolute;
