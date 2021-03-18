@@ -37,7 +37,7 @@ export class Discuss extends Base {
           msg.value = msg.value.substring(0, msg.value.length - 1);
           this.submitMsg(e);
         }
-      } else if (['ArrowUp', 'ArrowDown'].includes(e.key) && e.shiftKey) {
+      } else if (['ArrowUp', 'ArrowDown'].includes(e.key) && e.altKey) {
         if (e.key === 'ArrowUp')
           msg.value = selfs?.[selfs.length - ++this.msgTrack]?.textContent ?? '';
         else if (e.key === 'ArrowDown')

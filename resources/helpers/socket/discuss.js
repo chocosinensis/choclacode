@@ -2,7 +2,7 @@ const marked = require('marked');
 
 const bot = 'chocoBot';
 const emoticons = {
-  shrug: '¯\\\\_(ツ)_/¯',
+  shrug: '¯\\\\\\_(ツ)\\_/¯',
   tableflip: '(╯°□°）╯︵ ┻━┻',
   unflip: '┬─┬ ノ( ゜-゜ノ)'
 };
@@ -18,7 +18,7 @@ const styleMsg = (name) => `Here you go @${name} <br>
 \\~\\~Strike\\~\\~ - ~~Strike~~
 \\\`Mono\\\` - \`Mono\``;
 const hintmsg = `Double tap a message to react to it ❤️
-Hold shift key and press up or down key to navigate between your sent messages ✏️
+Hold alt key and press up or down key to navigate between your sent messages ✏️
 -p [ ... @user1 , @user2 ] &lt;msg&gt; <br> &nbsp;&nbsp; - send private message to mentioned users`;
 
 const getTime = (d = new Date()) => {
