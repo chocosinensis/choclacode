@@ -36,6 +36,19 @@
 
       .msg {
         display: flex;
+
+        @include media($breakpoint-sm) {
+          position: relative;
+          width: fit-content;
+          width: -moz-fit-content;
+
+          .time {
+            position: absolute;
+            top: 50%;
+            left: calc(100% + 3px);
+            transform: translate(0, -50%);
+          }
+        }
       }
 
       .text {
@@ -99,6 +112,15 @@
 
         .msg {
           flex-direction: row-reverse;
+
+          @include media($breakpoint-sm) {
+            position: relative;
+
+            .time {
+              position: absolute;
+              left: -45px;
+            }
+          }
         }
 
         .like {
@@ -132,12 +154,7 @@
   }
 
   #chatbox * {
-    scrollbar-width: none;
-
-    &::-webkit-scrollbar {
-      height: 0;
-      width: 0;
-    }
+    @include nosb;
   }
 
   & ~ section .preview ul li {
