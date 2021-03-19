@@ -1,5 +1,7 @@
 const marked = require('marked');
 
+const Surah = require('../../../models/Surah');
+
 const bot = 'chocoBot';
 const emoticons = {
   shrug: '¯\\\\\\_(ツ)\\_/¯',
@@ -7,25 +9,49 @@ const emoticons = {
   unflip: '┬─┬ ノ( ゜-゜ノ)'
 };
 
-const helpMsg = (name) => `Here you go @${name} <br>
-  @user <br> &nbsp;&nbsp; - mention @user <br>
-  @chocoBot help <br> &nbsp;&nbsp; - show this message
-  @chocoBot lstyle <br> &nbsp;&nbsp; - show list of stylistic commands
-  @chocoBot hint <br> &nbsp;&nbsp; - show some hints <br>`;
-const styleMsg = (name) => `Here you go @${name} <br>
+const helpMsg = (name) => `Here you go @${name} \n
+  @user \n &nbsp;&nbsp; - mention @user \n
+  @chocoBot help \n &nbsp;&nbsp; - show this message
+  @chocoBot lstyle \n &nbsp;&nbsp; - show list of stylistic commands
+  @chocoBot inspire <surah>:<ayah> \n &nbsp; &nbsp; - inspire with the mentioned or a random verse
+  @chocoBot tip \n &nbsp;&nbsp; - show some tips \n`;
+const styleMsg = (name) => `Here you go @${name} \n
 \\*\\*Bold\\*\\* / \\_\\_Bold\\_\\_ - __Bold__
 \\*Italics\\* / \\_Italics\\_ - _Italics_
 \\~\\~Strike\\~\\~ - ~~Strike~~
 \\\`Mono\\\` - \`Mono\``;
-const hintmsg = `Double tap a message to react to it ❤️
+const tipmsg = `Double tap a message to react to it ❤️
 Hold alt key and press up or down key to navigate between your sent messages ✏️
--p [ ... @user1 , @user2 ] &lt;msg&gt; <br> &nbsp;&nbsp; - send private message to mentioned users`;
+-p [ ... @user1 , @user2 ] &lt;msg&gt; \n &nbsp;&nbsp; - send private message to mentioned users`;
 
 const getTime = (d = new Date()) => {
   const h = d.getHours();
   const m = d.getMinutes();
   const g = (v) => v / 10 < 1 ? `0${v}`: v;
   return `${g(h)}:${g(m)}`;
+}
+const inspire = (msg) => {
+  let surahNo, ayahNo;
+  if (msg)
+    [surahNo, ayahNo] = msg.split(':');
+
+  if (
+    isNaN(surahNo) ||
+    (Number(surahNo) < 1 || 114 < Number(surahNo))
+  )
+    surahNo = Math.floor(Math.random() * 114) + 1;
+
+  const { info, surah } = Surah.findById(surahNo);
+
+  if (
+    isNaN(ayahNo) ||
+    (Number(ayahNo) < 1 || surah.length < Number(ayahNo))
+  )
+    ayahNo = Math.floor(Math.random() * (surah.length - 1)) + 1;
+
+  const ayah = surah[Number(ayahNo) - 1];
+  return `${ayah.ara} \n\n ${ayah.eng} \n\n ${ayah.ban} \n
+  #${info.eng} - ${info.num} : ${Number(ayahNo)}`;
 }
 const msgify = (msg) => marked(msg.trim()
   .replace(/\n/g, ' <br> ').replace(/&lt;br&gt;/g, '<br>'));
@@ -88,8 +114,9 @@ exports.discuss = (io) => {
             msg.toLowerCase().includes('thank') ? likeMsg(msgToSend.id, `My pleasure @${name} 😊️`) :
             msg.toLowerCase().includes('help') ? helpMsg(name) :
             msg.toLowerCase().includes('lstyle') ? styleMsg(name) :
-            msg.toLowerCase().includes('hint') ? hintmsg :
-            msg == `@${n}` ? `I am here @${name} 🙂️` :
+            msg.toLowerCase().includes('tip') ? tipmsg :
+            msg.toLowerCase().includes('inspire') ? inspire(msg.split(/\s+/g)[2]) :
+            msg == `@${n}` ? `I am here @${name} 🙂️ \n Need some #help ?` :
             Math.random() > 0.5 ? `Yeah dear @${name}` : `/shrug @${name}`
           ));
         else if (n.toLowerCase() == 'everyone')

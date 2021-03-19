@@ -25,16 +25,16 @@ export class Discuss extends Base {
       this.socket.emit('newmsg__discuss', { name: this.name, msg });
       this.form.msg.value = '';
     }
-    this.handleKeyUp = (e) => {
+    this.handleKeyDown = (e) => {
       const selfs = $$_(this.chatbox, '.self .msg .text');
       const { msg } = this.form;
 
       if (e.key === 'Enter') {
+        if (!e.shiftKey) e.preventDefault();
         if (e.shiftKey)
           msg.scrollTop = msg.scrollHeight;
         else {
           msg.scrollTop = 0;
-          msg.value = msg.value.substring(0, msg.value.length - 1);
           this.submitMsg(e);
         }
       } else if (['ArrowUp', 'ArrowDown'].includes(e.key) && e.altKey) {
@@ -74,6 +74,7 @@ export class Discuss extends Base {
       this.chatbox.scrollTop = this.chatbox.scrollHeight;
     }
     this.msglike = ({ id }) => {
+      this.form.msg.focus();
       const li = $_(this.chatbox, `li[data-id="${id}"]`);
       if (!li)
         return;
@@ -93,7 +94,7 @@ export class Discuss extends Base {
   }
   domEvents() {
     this.form.addEventListener('submit', this.submitMsg);
-    this.form.msg.addEventListener('keyup', this.handleKeyUp);
+    this.form.msg.addEventListener('keydown', this.handleKeyDown);
   }
   socketEvents() {
     this.socket.on('connection', () => this.socket.emit('newuser__discuss', { name: this.name }));
