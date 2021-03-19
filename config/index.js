@@ -7,15 +7,17 @@ const connect = require('./connect');
 const rootRouter = require('../routes');
 const socket = require('../resources/helpers/socket');
 
-exports.listen = (app) => {
+const listen = (app) => {
   connect();
-  const server = app.listen(process.env.PORT);
 
+  const server = app.listen(process.env.PORT);
   socket(socketio(server));
+
+  return app;
 }
 
-exports.config = (app) => {
-  app
+module.exports = (app) => {
+  listen(app)
     // settings
     .set('view engine', 'pug')
     .set('json spaces', 2)

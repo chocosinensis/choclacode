@@ -37,21 +37,21 @@ const inspire = (msg) => {
 
   if (
     isNaN(surahNo) ||
-    (Number(surahNo) < 1 || 114 < Number(surahNo))
+    (parseInt(surahNo) < 1 || 114 < parseInt(surahNo))
   )
     surahNo = Math.floor(Math.random() * 114) + 1;
 
-  const { info, surah } = Surah.findById(surahNo);
+  const { info, surah } = Surah.findById(parseInt(surahNo));
 
   if (
     isNaN(ayahNo) ||
-    (Number(ayahNo) < 1 || surah.length < Number(ayahNo))
+    (parseInt(ayahNo) < 1 || surah.length < parseInt(ayahNo))
   )
     ayahNo = Math.floor(Math.random() * (surah.length - 1)) + 1;
 
-  const ayah = surah[Number(ayahNo) - 1];
+  const ayah = surah[parseInt(ayahNo) - 1];
   return `${ayah.ara} \n\n ${ayah.eng} \n\n ${ayah.ban} \n
-  #${info.eng} - ${info.num} : ${Number(ayahNo)}`;
+  #${info.eng} - ${info.num} : ${parseInt(ayahNo)}`;
 }
 const msgify = (msg) => marked(msg.trim()
   .replace(/\n/g, ' <br> ').replace(/&lt;br&gt;/g, '<br>'));
@@ -61,7 +61,8 @@ const emotify = (msg) => {
 
   return emoticons[msg.substring(1, msg.length)] ?? msg;
 }
-const cleanify = (msg) => msg.startsWith('@') || msg.startsWith('#') ?
+const cleanify = (msg) => (msg.startsWith('@') || msg.startsWith('#')) &&
+  msg.length > 1 ?
   `<span class="title">${msg}</span>` :
   emotify(msg.replace(/</g, '&lt;').replace(/>/g, '&gt;'));
 const markupify = ({ name, msg, time }) => {
