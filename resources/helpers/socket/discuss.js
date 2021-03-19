@@ -36,7 +36,7 @@ const inspire = (msg) => {
     [surahNo, ayahNo] = msg.split(':');
 
   if (
-    isNaN(surahNo) ||
+    isNaN(surahNo) || !isFinite(surahNo) ||
     (parseInt(surahNo) < 1 || 114 < parseInt(surahNo))
   )
     surahNo = Math.floor(Math.random() * 114) + 1;
@@ -44,7 +44,7 @@ const inspire = (msg) => {
   const { info, surah } = Surah.findById(parseInt(surahNo));
 
   if (
-    isNaN(ayahNo) ||
+    isNaN(ayahNo) || !isFinite(ayahNo) ||
     (parseInt(ayahNo) < 1 || surah.length < parseInt(ayahNo))
   )
     ayahNo = Math.floor(Math.random() * (surah.length - 1)) + 1;
