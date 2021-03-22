@@ -1,6 +1,6 @@
 import marked from 'marked';
 
-import { $, $_, $$, Base } from './utils';
+import { $, $_, $$, Base } from '../utils';
 
 const textify = (str) => str.trim().replace(/(<\/?script(.)*?>|<\/?style>|<link)/g, '');
 const slugify = (str) => str.toLowerCase().trim()
@@ -109,7 +109,15 @@ Article.like = () => {
   });
 }
 
+Article.details = () => {
+  if ($('a.delete')) Article.delete();
+  if ($('a.like')) Article.like();
+}
+
 Article.search = () => {
+  if (!$('input#search'))
+    return;
+
   const [input, articlesUL, articles] = [
     $('input#search'),
     $('ul.articles'),

@@ -1,10 +1,10 @@
-import { $, $_ } from './utils';
-
-const header = $('header');
-const bur = $_(header, 'button.burger');
-const aside = $_(header, 'aside.links');
+import { $, $_ } from '../utils';
 
 export const main = () => {
+  const header = $('header');
+  const bur = $_(header, 'button.burger');
+  const aside = $_(header, 'aside.links');
+
   (() => {
     let prevScrollPos = pageYOffset;
     document.addEventListener('scroll', () => {
@@ -28,3 +28,5 @@ export const main = () => {
     $('main').classList.add(localStorage.getItem('theme'));
   })();
 }
+
+export * from './routes';

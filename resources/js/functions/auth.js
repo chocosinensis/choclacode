@@ -1,4 +1,4 @@
-import { $, $_, Base, fetchEndpoint } from './utils';
+import { $, $_, Base, fetchEndpoint } from '../utils';
 
 export class Auth extends Base {
   constructor(path) {

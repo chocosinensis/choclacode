@@ -1,4 +1,4 @@
-import { $, $_, $$_, Base } from './utils';
+import { $, $_, $$_, Base } from '../utils';
 
 export class Discuss extends Base {
   constructor() {

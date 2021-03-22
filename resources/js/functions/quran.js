@@ -1,4 +1,4 @@
-import { $ } from './utils';
+import { $ } from '../utils';
 
 const removePadding = (el) => {
   el && (el.parentElement.style.padding = '10px 0');
