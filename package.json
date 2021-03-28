@@ -17,9 +17,7 @@
     "build:sass": "npx node-sass resources/sass/main.scss -o public/styles --output-style compressed",
     "watch": "npx concurrently \"npm:watch:*\"",
     "watch:js": "webpack -w",
-    "watch:sass": "npm run build:sass -- -w",
-    "push:origin": "git push origin main master",
-    "push:build": "git push heroku master"
+    "watch:sass": "npm run build:sass -- -w"
   },
   "repository": {
     "type": "git",
