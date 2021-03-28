@@ -1,5 +1,5 @@
 const User = require('../models/User');
-const { gfs } = require('../resources/helpers/gfs');
+const Grid = require('../models/Grid');
 const { maxAge } = require('../resources/helpers/constants');
 const { handleErrors, createToken } = require('../resources/helpers/functions');
 
@@ -36,15 +36,13 @@ exports.logout_get = (req, res) => {
   res.redirect('/');
 }
 
-exports.account_get = (req, res) => {
+exports.account_get = async (req, res) => {
   const filename = res.locals.user.profileImg.split('/')[2];
-  gfs().find({ filename }).toArray((err, files) => {
-    const file = files[0];
-    if (file)
-      res.locals.img = file._id;
+  const file = await Grid.findOne({ filename });
+  if (file)
+    res.locals.img = file._id;
 
-    res.render('auth/account', { title: `@${res.locals.user.username}` });
-  });
+  res.render('auth/account', { title: `@${res.locals.user.username}` });
 }
 
 exports.password_edit = async (req, res) => {
@@ -68,13 +66,10 @@ exports.profileimage_edit = async (req, res) => {
     const user = await User.findById(res.locals.user.id);
     const { image } = req.body;
     user.profileImg = image;
-    user.save();
-    gfs().find({ filename: image.split('/')[2] }).toArray((err, files) => {
-      const file = files[0];
-      const id = file?._id ?? null;
-
-      res.json({ image, id });
-    });
+    await user.save();
+    const file = await Grid.findOne({ filename: image.split('/')[2] });
+    const id = file?._id ?? null;
+    res.json({ image, id });
   } catch {}
 }
 

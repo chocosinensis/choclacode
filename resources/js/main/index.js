@@ -22,10 +22,10 @@ export const main = () => {
     });
   })();
   (() => {
-    if (!localStorage.getItem('theme'))
-      localStorage.setItem('theme', 'default');
+    if (!$.l('theme'))
+      $.l('theme', 'default');
 
-    $('main').classList.add(localStorage.getItem('theme'));
+    $('main').classList.add($.l('theme'));
   })();
 }
 
