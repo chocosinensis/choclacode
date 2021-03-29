@@ -25,6 +25,5 @@ exports.dashboard_get = async (req, res) => {
   res.render('dashboard', { title: 'Dashboard', articles });
 }
 
-exports.disscuss_get = (req, res) => res.render('others/discuss', {
-  title: 'Discuss', socket: true
-});
+exports.disscuss_get = (req, res) =>
+  res.render('others/discuss', { title: 'Discuss' });

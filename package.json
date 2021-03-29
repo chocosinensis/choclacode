@@ -1,6 +1,6 @@
 {
   "name": "choclacode",
-  "version": "1.5.7",
+  "version": "1.5.8",
   "description": "Choclacode official website v1",
   "main": "app.js",
   "author": "Saqib <saqib@choclacode.eu.org> (http://choclacode.eu.org/)",
@@ -46,6 +46,7 @@
     "socket.io": "^3.0.1"
   },
   "devDependencies": {
+    "socket.io-client": "^4.0.0",
     "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0"
   }

@@ -26,6 +26,7 @@ Dev Dependencies :
 - [nodemon](https://nodemon.io)
 - [concurrently](https://npmjs.com/package/concurrently)
 - [node-sass](https://npmjs.com/package/node-sass)
+- [socket.io](https://socket.io) client
 
 ---
 

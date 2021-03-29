@@ -1,3 +1,5 @@
+import io from 'socket.io-client';
+
 import { $, $_, $$_, Base } from '../utils';
 
 export class Discuss extends Base {
