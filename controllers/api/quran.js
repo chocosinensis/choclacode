@@ -1,32 +1,33 @@
-const Surah = require('../../models/Surah');
+const Surah = require('../../models/Surah')
 
 exports.quran_get = (req, res) => {
-  const surahs = Surah.find();
+  const surahs = Surah.find()
 
-  const { raw } = req.query;
+  const { raw } = req.query
   if (raw && raw == 'false')
     return res.render('api/details', {
-      title: `API &laquo; Quran`, json: JSON.stringify(surahs, null, 2)
-    });
+      title: `API &laquo; Quran`,
+      json: JSON.stringify(surahs, null, 2),
+    })
 
-  res.json(surahs);
+  res.json(surahs)
 }
 
 exports.surah_get = (req, res) => {
-  const { surah } = req.params;
+  const { surah } = req.params
 
   try {
-    const surahjson = Surah.findById(surah);
+    const surahjson = Surah.findById(surah)
 
-    const { raw } = req.query;
+    const { raw } = req.query
     if (raw && raw == 'false')
       return res.render('api/details', {
         title: `API &laquo; Surah`,
-        json: JSON.stringify(surahjson, null, 2)
-      });
+        json: JSON.stringify(surahjson, null, 2),
+      })
 
-    res.json(surahjson);
+    res.json(surahjson)
   } catch {
-    res.redirect('/api/quran');
+    res.redirect('/api/quran')
   }
 }

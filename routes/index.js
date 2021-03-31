@@ -1,16 +1,19 @@
-const { Router } = require('express');
+const { Router } = require('express')
 
 const {
-  home_get, about_get,
-  dashboard_get, disscuss_get
-} = require('../controllers');
-const { requireAuth, checkUser } = require('../resources/middlewares/auth');
+  home_get,
+  about_get,
+  dashboard_get,
+  disscuss_get,
+} = require('../controllers')
+const { requireAuth, checkUser } = require('../resources/middlewares/auth')
 const {
-  err403, err404,
-  errorHandler
-} = require('../resources/middlewares/error');
+  err403,
+  err404,
+  errorHandler,
+} = require('../resources/middlewares/error')
 
-const root = Router();
+const root = Router()
 
 root
   .get('*', checkUser)
@@ -28,9 +31,6 @@ root
   .use('/users', require('./users'))
 
   .get('/403', err403)
-  .use(
-    err404,
-    errorHandler
-  );
+  .use(err404, errorHandler)
 
-module.exports = root;
+module.exports = root

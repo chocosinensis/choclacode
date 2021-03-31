@@ -1,22 +1,22 @@
-const User = require('../models/User');
+const User = require('../models/User')
 
 exports.users_get = async (req, res) => {
-  const users = (await User.find({ deleted: false }))
-    .map(({ username, email, profileImg }) =>
-      ({ username, email, profileImg }));
+  const users = (
+    await User.find({ deleted: false })
+  ).map(({ username, email, profileImg }) => ({ username, email, profileImg }))
 
-  res.render('users/home', { title: 'Users', users });
+  res.render('users/home', { title: 'Users', users })
 }
 
 exports.user_get = async (req, res) => {
-  const { username } = req.params;
-  const user = await User.findOne({ username, deleted: false });
-  if (!user)
-    return res.redirect('/users');
+  const { username } = req.params
+  const user = await User.findOne({ username, deleted: false })
+  if (!user) return res.redirect('/users')
 
   res.render('users/details', {
     title: `@${username}`,
-    username, email: user.email,
-    profileImg: user.profileImg
-  });
+    username,
+    email: user.email,
+    profileImg: user.profileImg,
+  })
 }

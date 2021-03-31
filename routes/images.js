@@ -1,18 +1,19 @@
-const { Router } = require('express');
+const { Router } = require('express')
 
-const { upload } = require('../resources/middlewares/multer');
+const { upload } = require('../resources/middlewares/multer')
 const {
   images_post,
-  image_get, image_delete
-} = require('../controllers/images');
-const { requireAuth } = require('../resources/middlewares/auth');
+  image_get,
+  image_delete,
+} = require('../controllers/images')
+const { requireAuth } = require('../resources/middlewares/auth')
 
-const images = Router();
+const images = Router()
 
 images
   .post('/', requireAuth, upload.single('image'), images_post)
 
   .get('/:image', image_get)
-  .delete('/:id', requireAuth, image_delete);
+  .delete('/:id', requireAuth, image_delete)
 
-module.exports = images;
+module.exports = images

@@ -1,20 +1,20 @@
-const { static, urlencoded, json } = require('express');
-const cookie = require('cookie-parser');
-const cors = require('cors');
-const socketio = require('socket.io');
-require('dotenv').config();
+const { static, urlencoded, json } = require('express')
+const cookie = require('cookie-parser')
+const cors = require('cors')
+const socketio = require('socket.io')
+require('dotenv').config()
 
-const connect = require('./connect');
-const rootRouter = require('../routes');
-const socket = require('../resources/helpers/socket');
+const connect = require('./connect')
+const rootRouter = require('../routes')
+const socket = require('../resources/helpers/socket')
 
 const listen = (app) => {
-  connect();
+  connect()
 
-  const server = app.listen(process.env.PORT);
-  socket(socketio(server));
+  const server = app.listen(process.env.PORT)
+  socket(socketio(server))
 
-  return app;
+  return app
 }
 
 module.exports = (app) => {
@@ -25,10 +25,5 @@ module.exports = (app) => {
 
     // middlewares
     .use('/public', cors(), static('public'))
-    .use(
-      urlencoded({ extended: true }),
-      json(),
-      cookie(),
-      rootRouter
-    );
+    .use(urlencoded({ extended: true }), json(), cookie(), rootRouter)
 }

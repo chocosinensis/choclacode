@@ -1,12 +1,10 @@
-const { Router } = require('express');
+const { Router } = require('express')
 
-const { users_get, user_get } = require('../controllers/users');
-const { requireAuth } = require('../resources/middlewares/auth');
+const { users_get, user_get } = require('../controllers/users')
+const { requireAuth } = require('../resources/middlewares/auth')
 
-const users = Router();
+const users = Router()
 
-users
-  .get('/', requireAuth, users_get)
-  .get('/@:username', requireAuth, user_get);
+users.get('/', requireAuth, users_get).get('/@:username', requireAuth, user_get)
 
-module.exports = users;
+module.exports = users

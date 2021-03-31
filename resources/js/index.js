@@ -1,4 +1,4 @@
-import { main, routes } from './main';
+import { main, routes } from './main'
 
-main();
-routes();
+main()
+routes()

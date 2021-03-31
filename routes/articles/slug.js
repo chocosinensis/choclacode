@@ -1,14 +1,15 @@
-const { Router } = require('express');
+const { Router } = require('express')
 
 const {
   article_get,
-  editarticle_get, editarticle_put,
+  editarticle_get,
+  editarticle_put,
   deletearticle,
-  like_post
-} = require('../../controllers/articles/slug');
-const { requireAuth, checkUser } = require('../../resources/middlewares/auth');
+  like_post,
+} = require('../../controllers/articles/slug')
+const { requireAuth, checkUser } = require('../../resources/middlewares/auth')
 
-const slug = Router();
+const slug = Router()
 
 slug
   .get('/', article_get)
@@ -18,6 +19,6 @@ slug
 
   .delete('/delete', requireAuth, checkUser, deletearticle)
 
-  .post('/like', requireAuth, checkUser, like_post);
+  .post('/like', requireAuth, checkUser, like_post)
 
-module.exports = slug;
+module.exports = slug

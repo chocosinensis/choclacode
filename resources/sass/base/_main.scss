@@ -16,7 +16,8 @@ main {
     }
 
     .color {
-      &, & * {
+      &,
+      & * {
         color: $secondary;
       }
     }
@@ -25,7 +26,8 @@ main {
       color: $font-se !important;
     }
 
-    hr, tr {
+    hr,
+    tr {
       border-color: wheat;
     }
     .errorsect {
@@ -39,7 +41,7 @@ main {
     }
   }
 
-  @include media ($breakpoint-sm) {
+  @include media($breakpoint-sm) {
     padding: 10px 0;
   }
 }
@@ -65,7 +67,7 @@ section {
         right: 10%;
       }
 
-      @include media ($breakpoint-lg) {
+      @include media($breakpoint-lg) {
         div {
           grid-column: 1/13;
           z-index: 1;
@@ -79,7 +81,8 @@ section {
   }
 
   &#chocolate {
-    h1, .link {
+    h1,
+    .link {
       display: flex;
       justify-content: center;
     }

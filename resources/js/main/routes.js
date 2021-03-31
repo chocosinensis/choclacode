@@ -1,11 +1,5 @@
-import { handleRoutes } from '../utils';
-import {
-  Home,
-  Article,
-  Auth,
-  quran,
-  Discuss
-} from '../functions';
+import { handleRoutes } from '../utils'
+import { Home, Article, Auth, quran, Discuss } from '../functions'
 
 export const routes = handleRoutes([
   [/^\/$/g, () => new Home()],
@@ -17,5 +11,5 @@ export const routes = handleRoutes([
   [/^\/auth\/signup$/g, Auth.signup],
   [/^\/auth\/account$/g, Auth.account],
   [/^\/quran(\/.*)?$/g, quran],
-  [/^\/discuss$/g, () => new Discuss()]
-]);
+  [/^\/discuss$/g, () => new Discuss()],
+])

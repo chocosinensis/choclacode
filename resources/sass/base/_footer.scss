@@ -65,7 +65,7 @@ footer {
       }
     }
 
-    @include media ($breakpoint-lg) {
+    @include media($breakpoint-lg) {
       &.grid {
         display: flex !important;
         flex-direction: column;

@@ -1,5 +1,5 @@
-const { discuss } = require('./discuss');
+const { discuss } = require('./discuss')
 
 module.exports = (io) => {
-  discuss(io);
+  discuss(io)
 }

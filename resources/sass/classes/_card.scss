@@ -34,13 +34,13 @@
       justify-content: flex-end;
     }
 
-    @include media ($breakpoint-lg) {
+    @include media($breakpoint-lg) {
       width: 40%;
     }
-    @include media ($breakpoint-md) {
+    @include media($breakpoint-md) {
       width: 80%;
     }
-    @include media ($breakpoint-sm) {
+    @include media($breakpoint-sm) {
       width: 100%;
     }
   }

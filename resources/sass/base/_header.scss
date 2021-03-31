@@ -35,7 +35,7 @@ header {
       }
     }
 
-    @include media ($breakpoint-md) {
+    @include media($breakpoint-md) {
       padding: 0;
     }
   }
@@ -74,7 +74,7 @@ header {
       @include link;
     }
 
-    @include media ($breakpoint-lg) {
+    @include media($breakpoint-lg) {
       @include none;
     }
   }
@@ -82,7 +82,7 @@ header {
   button.burger {
     @include none;
 
-    @include media ($breakpoint-lg) {
+    @include media($breakpoint-lg) {
       display: inline-block;
       background: transparent;
 
@@ -150,7 +150,7 @@ header {
     }
   }
 
-  @include media ($breakpoint-sm) {
+  @include media($breakpoint-sm) {
     padding: 20px 30px;
     height: 50px;
 

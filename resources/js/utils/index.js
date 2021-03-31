@@ -1,5 +1,5 @@
-export * from './dom';
+export * from './dom'
 
-export * from './methods';
+export * from './methods'
 
-export * from './Base';
+export * from './Base'

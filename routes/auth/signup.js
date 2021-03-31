@@ -1,11 +1,9 @@
-const { Router } = require('express');
+const { Router } = require('express')
 
-const { signup_get, signup_post } = require('../../controllers/auth');
+const { signup_get, signup_post } = require('../../controllers/auth')
 
-const signup = Router();
+const signup = Router()
 
-signup
-  .get('/', signup_get)
-  .post('/', signup_post);
+signup.get('/', signup_get).post('/', signup_post)
 
-module.exports = signup;
+module.exports = signup

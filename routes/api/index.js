@@ -1,16 +1,16 @@
-const { Router } = require('express');
-const cors = require('cors');
+const { Router } = require('express')
+const cors = require('cors')
 
-const { api_get, quotes_get } = require('../../controllers/api');
-const { requireAuth } = require('../../resources/middlewares/auth');
+const { api_get, quotes_get } = require('../../controllers/api')
+const { requireAuth } = require('../../resources/middlewares/auth')
 
-const api = Router();
+const api = Router()
 
 api
   .get('/', requireAuth, api_get)
 
   .use('/quran', cors(), require('./quran'))
   .use('/chocolate', cors(), require('./chocolate'))
-  .get('/quotes', quotes_get);
+  .get('/quotes', quotes_get)
 
-module.exports = api;
+module.exports = api
