@@ -2,7 +2,7 @@ mixin chocolates(chocs)
   ul.card-container
     for choc in chocs
       li.card
-        .card-img(style=`background-image: url('/assets/img/chocolate/${choc.src}');`)
+        .card-img(style=`background-image: url('/public/assets/img/chocolate/${choc.src}');`)
         h3.card-title= choc.title
         .card-link
           a.btn(href=`/chocolate/${choc.slug}`) More Info

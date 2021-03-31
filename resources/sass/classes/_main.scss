@@ -169,7 +169,7 @@ blockquote {
     height: 12rem;
     width: 36rem;
     padding: 0;
-    background: url('/assets/img/logo/cover.png') no-repeat center center;
+    background: url('/public/assets/img/logo/cover.png') no-repeat center center;
     background-size: contain;
 
     @include media ($breakpoint-md) {

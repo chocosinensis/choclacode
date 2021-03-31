@@ -1,5 +1,6 @@
 const { static, urlencoded, json } = require('express');
 const cookie = require('cookie-parser');
+const cors = require('cors');
 const socketio = require('socket.io');
 require('dotenv').config();
 
@@ -23,8 +24,8 @@ module.exports = (app) => {
     .set('json spaces', 2)
 
     // middlewares
+    .use('/public', cors(), static('public'))
     .use(
-      static('public'),
       urlencoded({ extended: true }),
       json(),
       cookie(),

@@ -1,6 +1,6 @@
 {
   "name": "choclacode",
-  "version": "1.5.8",
+  "version": "1.6.0",
   "description": "Choclacode official website v1",
   "main": "app.js",
   "author": "Saqib <saqib@choclacode.eu.org> (http://choclacode.eu.org/)",
@@ -14,7 +14,7 @@
     "serve:app": "npx nodemon",
     "build": "npx concurrently \"npm:build:*\"",
     "build:js": "webpack",
-    "build:sass": "npx node-sass resources/sass/main.scss -o public/styles --output-style compressed",
+    "build:sass": "npx node-sass resources/sass/main.scss -o public/ --output-style compressed",
     "watch": "npx concurrently \"npm:watch:*\"",
     "watch:js": "webpack -w",
     "watch:sass": "npm run build:sass -- -w"

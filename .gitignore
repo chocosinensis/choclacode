@@ -3,5 +3,4 @@
 /package-lock.json
 
 # public
-/public/js/**
-/public/styles/**
+/public/main.*

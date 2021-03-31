@@ -32,7 +32,7 @@ const userSchema = new Schema({
   ]),
   profileImg: {
     type: String,
-    default: '/assets/img/profile.png'
+    default: '/public/assets/img/profile.png'
   },
   deleted: {
     type: Boolean,
