@@ -7,7 +7,7 @@ const {
   deletearticle,
   like_post,
 } = require('../../controllers/articles/slug')
-const { requireAuth, checkUser } = require('../../resources/middlewares/auth')
+const { requireAuth, checkUser } = require('../../middlewares/auth')
 
 const slug = Router()
 

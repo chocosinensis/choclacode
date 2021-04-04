@@ -1,5 +1,5 @@
 const Article = require('../../models/Article')
-const { handleErrors } = require('../../resources/helpers/functions')
+const { handleErrors } = require('../../helpers/functions')
 
 exports.articles_get = (req, res) =>
   Article.find({ deleted: false })

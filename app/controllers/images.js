@@ -1,5 +1,5 @@
 const Grid = require('../models/Grid')
-const { err404 } = require('../resources/middlewares/error')
+const { err404 } = require('../middlewares/error')
 
 exports.images_post = (req, res) => {
   res.json({ image: `/images/${req.file.filename}` })

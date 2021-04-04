@@ -5,7 +5,7 @@ const {
   requireAuth,
   checkUser,
   requireGuest,
-} = require('../../resources/middlewares/auth')
+} = require('../../middlewares/auth')
 
 const auth = Router()
 

@@ -1,6 +1,6 @@
 const marked = require('marked')
 
-const Surah = require('../../../models/Surah')
+const Surah = require('../../models/Surah')
 
 const bot = 'chocoBot'
 const emoticons = {

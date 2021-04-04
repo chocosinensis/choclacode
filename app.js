@@ -1,5 +1,4 @@
-const express = require('express')
+const app = require('./app/index')
+const { listen } = require('./config')
 
-const config = require('./config')
-
-config(express())
+listen(app)

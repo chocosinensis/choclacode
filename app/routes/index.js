@@ -6,12 +6,8 @@ const {
   dashboard_get,
   disscuss_get,
 } = require('../controllers')
-const { requireAuth, checkUser } = require('../resources/middlewares/auth')
-const {
-  err403,
-  err404,
-  errorHandler,
-} = require('../resources/middlewares/error')
+const { requireAuth, checkUser } = require('../middlewares/auth')
+const { err403, err404, errorHandler } = require('../middlewares/error')
 
 const root = Router()
 

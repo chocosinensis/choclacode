@@ -5,8 +5,8 @@ const {
   createarticle_get,
   createarticle_post,
 } = require('../../controllers/articles')
-const { assignParams } = require('../../resources/middlewares')
-const { requireAuth, checkUser } = require('../../resources/middlewares/auth')
+const { assignParams } = require('../../middlewares')
+const { requireAuth, checkUser } = require('../../middlewares/auth')
 
 const articles = Router()
 

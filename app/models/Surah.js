@@ -1,4 +1,4 @@
-exports.find = () => require('../data/quran/surahs.json')
+exports.find = () => require('../../data/quran/surahs.json')
 
 exports.findById = (id) => {
   try {
@@ -6,7 +6,7 @@ exports.findById = (id) => {
       .find()
       .flat()
       .find(({ num }) => num == id)
-    const surah = require(`../data/quran/${id}.json`)
+    const surah = require(`../../data/quran/${id}.json`)
     return { info, surah }
   } catch (err) {
     throw err

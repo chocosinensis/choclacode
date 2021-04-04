@@ -1,10 +1,6 @@
 const { Schema, model } = require('mongoose')
 
-const {
-  schemaType,
-  removify,
-  toDate,
-} = require('../resources/helpers/functions')
+const { schemaType, removify, toDate } = require('../helpers/functions')
 
 const userSchema = new Schema({
   id: String,

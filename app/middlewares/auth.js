@@ -1,6 +1,6 @@
 const { verify } = require('jsonwebtoken')
 
-const User = require('../../models/User')
+const User = require('../models/User')
 
 const { JWT_SECRET } = process.env
 

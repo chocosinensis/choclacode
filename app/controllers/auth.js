@@ -1,7 +1,7 @@
 const User = require('../models/User')
 const Grid = require('../models/Grid')
-const { maxAge } = require('../resources/helpers/constants')
-const { handleErrors, createToken } = require('../resources/helpers/functions')
+const { maxAge } = require('../helpers/constants')
+const { handleErrors, createToken } = require('../helpers/functions')
 
 exports.signup_get = (req, res) =>
   res.render('auth/signup', { title: 'Sign Up' })

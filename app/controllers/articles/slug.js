@@ -1,7 +1,7 @@
 const marked = require('marked')
 
 const Article = require('../../models/Article')
-const { handleErrors } = require('../../resources/helpers/functions')
+const { handleErrors } = require('../../helpers/functions')
 
 exports.article_get = (req, res) =>
   Article.findOne({ slug: res.locals.slug, deleted: false })

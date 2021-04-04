@@ -1,6 +1,6 @@
 const { connect } = require('mongoose')
 
-const { uri } = require('../resources/helpers/constants')
+const { uri } = require('../app/helpers/constants')
 
 module.exports = async () => {
   try {

@@ -2,7 +2,7 @@ const { Router } = require('express')
 const cors = require('cors')
 
 const { api_get, quotes_get } = require('../../controllers/api')
-const { requireAuth } = require('../../resources/middlewares/auth')
+const { requireAuth } = require('../../middlewares/auth')
 
 const api = Router()
 
