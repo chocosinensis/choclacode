@@ -1,49 +1,45 @@
-doctype html
-html(lang="en")
-  include ../partials/head
-  body
-    include ../partials/header
-    main
-      section
-        .preview.account
-          h1 Account Info
-          .img
-            img.avatar(src=user.profileImg, alt="Img")
-          div
-            p
-              | Username : #{''}
-              span.title @#{ user.username }
-            p Email : #{ user.email }
-          a.btn(href="/auth/logout") Log Out
-        .preview.account
-          h3 Change Profile Picture
-          .img
-            form.image
-              h4 Upload Image
-              span.upload.btn.material-icons-outlined upload_file
-              input(type="file", name="image")
-          p OR
-          form.url
-            input(type="text", name="urlinput", placeholder="Enter a url")
-            input.material-icons-outlined(type="submit", value="edit")
-          if img
-            span.imgdata(data-img=img)
-        .preview
-          h3 Change Password
-          form.change
-            input(type="password", name="current", placeholder="Current Password")
-            .current.error
-            input(type="password", name="new", placeholder="New Password")
-            .new.error
-            input.material-icons-outlined(type="submit", value="edit")
-        .preview
-          h3.error Delete your account
-          p(style="font-size: 0.8rem") Please avoid this section if you don't want to delete your account.
-          p(style="font-size: 0.8rem") But if you really want, please enter your email and password in order to proceed.
-          form.delete
-            input(type="email", name="email", placeholder="Email")
-            .email.error
-            input(type="password", name="password", placeholder="Password")
-            .password.error
-            input.material-icons-outlined.error(type="submit", value="delete")
-    include ../partials/footer
+extends ../layout.pug
+
+block content
+  section
+    .preview.account
+      h1 Account Info
+      .img
+        img.avatar(src=user.profileImg, alt="Img")
+      div
+        p
+          | Username : #{''}
+          span.title @#{ user.username }
+        p Email : #{ user.email }
+      a.btn(href="/auth/logout") Log Out
+    .preview.account
+      h3 Change Profile Picture
+      .img
+        form.image
+          h4 Upload Image
+          span.upload.btn.material-icons-outlined upload_file
+          input(type="file", name="image")
+      p OR
+      form.url
+        input(type="text", name="urlinput", placeholder="Enter a url")
+        input.material-icons-outlined(type="submit", value="edit")
+      if img
+        span.imgdata(data-img=img)
+    .preview
+      h3 Change Password
+      form.change
+        input(type="password", name="current", placeholder="Current Password")
+        .current.error
+        input(type="password", name="new", placeholder="New Password")
+        .new.error
+        input.material-icons-outlined(type="submit", value="edit")
+    .preview
+      h3.error Delete your account
+      p(style="font-size: 0.8rem") Please avoid this section if you don't want to delete your account.
+      p(style="font-size: 0.8rem") But if you really want, please enter your email and password in order to proceed.
+      form.delete
+        input(type="email", name="email", placeholder="Email")
+        .email.error
+        input(type="password", name="password", placeholder="Password")
+        .password.error
+        input.material-icons-outlined.error(type="submit", value="delete")

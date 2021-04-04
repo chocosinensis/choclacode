@@ -1,36 +1,32 @@
-doctype html
-html(lang="en")
-  include ./partials/head
-  body
-    include ./partials/header
-    main
-      section
-        .container
-          h1.title.center-align Dashboard
-          .preview
-            img.avatar(src=user.profileImg, alt="")
-            h1
-              span Welcome, #{''}
-              span.title @#{ user.username }
-              span #{' '}!
-          .preview
-            h1 Actions
-            div
-              mixin code(pre, link, icon, martop)
-                .code(style=`${martop ? 'margin-top: 20px;' : ''}`)
-                  pre= pre
-                  a(href=link, style="margin-left: 20px;")
-                    i.material-icons-outlined.btn= icon
-              +code('Account', '/auth/account', 'info', false)
-              +code('View Articles', '#articles', 'view_list', true)
-              +code('Create Article', '/articles/create', 'create', true)
-              +code('Discuss', '/discuss', 'chat', true)
-          .preview#articles
-            h1 Articles
-            p= `${articles.length} ${articles.length == 1 ? 'article' : 'articles'}`
-            if articles.length
-              include ./shared/articles
-              +articles(articles, true)
-            else
-              p You did not write any articles :)
-    include ./partials/footer
+extends ./layout.pug
+
+block content
+  section
+    .container
+      h1.title.center-align Dashboard
+      .preview
+        img.avatar(src=user.profileImg, alt="")
+        h1
+          span Welcome, #{''}
+          span.title @#{ user.username }
+          span #{' '}!
+      .preview
+        h1 Actions
+        div
+          mixin code(pre, link, icon, martop)
+            .code(style=`${martop ? 'margin-top: 20px;' : ''}`)
+              pre= pre
+              a(href=link, style="margin-left: 20px;")
+                i.material-icons-outlined.btn= icon
+          +code('Account', '/auth/account', 'info', false)
+          +code('View Articles', '#articles', 'view_list', true)
+          +code('Create Article', '/articles/create', 'create', true)
+          +code('Discuss', '/discuss', 'chat', true)
+      .preview#articles
+        h1 Articles
+        p= `${articles.length} ${articles.length == 1 ? 'article' : 'articles'}`
+        if articles.length
+          include ./shared/articles
+          +articles(articles, true)
+        else
+          p You did not write any articles :)

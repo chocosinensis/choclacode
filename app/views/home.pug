@@ -1,43 +1,39 @@
-doctype html
-html(lang="en")
-  include ./partials/head
-  body
-    include ./partials/header
-    main
-      section#head
-        - const lorem = 'Lorem chocolate ipsum chocolor sit amet chocolectetur adipisicing elit. Beatae commodi chocolatis nobis incidunt ducimus eum totam sunt hic facilis culpa chocolates labore dicta sequi nihil pariatur vitae, doloremque chocolate expedita, nisi quidem soluta consequuntur? Libero, chocolequatur deleniti. Alias incidunt assumenda chocolores soluta eum tenetur ducimus atque inventore, chocolatur obcaecati eveniet.';
-        .main.grid
-          div
-            h1.title Choclacode
-            article
-              p
-                | Welcome to the Official website of #{''}
-                span.color Choclacode
-                | .
-              p.desktop= lorem
-              p.desktop Yes, Lorem ipsum, but in a chocolatey flavor.
-          img(src="/public/assets/img/logo/notitle.png", alt="logo")
-        .quote
-      section#articles
-        h1.title Articles
-        include ./shared/articles
-        +articles(articles, false)
-      section#chocolate
-        h1 Chocolate
-        .container
-          include ./shared/chocolates
-          +chocolates(chocs)
-        .link
-          a.btn(href="/chocolate") View All
-      section#themes
-        .preview
-          h1 Choose your theme
-          .theme-container
-            mixin code(pre, theme, icon)
-              .code
-                pre= pre
-                a(style="margin-left:20px;", data-theme=theme)
-                  i.material-icons-outlined.btn= icon
-            +code('Default', 'default', 'done')
-            +code('Chocolatey', 'chocolatey', 'disabled_by_default')
-    include ./partials/footer
+extends ./layout.pug
+
+block content
+  section#head
+    - const lorem = 'Lorem chocolate ipsum chocolor sit amet chocolectetur adipisicing elit. Beatae commodi chocolatis nobis incidunt ducimus eum totam sunt hic facilis culpa chocolates labore dicta sequi nihil pariatur vitae, doloremque chocolate expedita, nisi quidem soluta consequuntur? Libero, chocolequatur deleniti. Alias incidunt assumenda chocolores soluta eum tenetur ducimus atque inventore, chocolatur obcaecati eveniet.';
+    .main.grid
+      div
+        h1.title Choclacode
+        article
+          p
+            | Welcome to the Official website of #{''}
+            span.color Choclacode
+            | .
+          p.desktop= lorem
+          p.desktop Yes, Lorem ipsum, but in a chocolatey flavor.
+      img(src="/public/assets/img/logo/notitle.png", alt="logo")
+    .quote
+  section#articles
+    h1.title Articles
+    include ./shared/articles
+    +articles(articles, false)
+  section#chocolate
+    h1 Chocolate
+    .container
+      include ./shared/chocolates
+      +chocolates(chocs)
+    .link
+      a.btn(href="/chocolate") View All
+  section#themes
+    .preview
+      h1 Choose your theme
+      .theme-container
+        mixin code(pre, theme, icon)
+          .code
+            pre= pre
+            a(style="margin-left:20px;", data-theme=theme)
+              i.material-icons-outlined.btn= icon
+        +code('Default', 'default', 'done')
+        +code('Chocolatey', 'chocolatey', 'disabled_by_default')

@@ -1,21 +1,17 @@
-doctype html
-html(lang="en")
-  include ../partials/head
-  body
-    include ../partials/header
-    main
-      section
-        h1.title API
-        p API endpoints to use in different applications.
-        p Humbly requesting you to not to click any of the following links if you are not a developer; because they may look scary to you.
-        ul.flex
-          -
-            const apis = [
-              ['quran', 'Quran'],
-              ['chocolate', 'Chocolate'],
-              ['quotes', 'Quotes']
-            ];
-          for api in apis
-            li
-              a(href=`/api/${api[0]}?raw=false`)= api[1]
-    include ../partials/footer
+extends ../layout.pug
+
+block content
+  section
+    h1.title API
+    p API endpoints to use in different applications.
+    p Humbly requesting you to not to click any of the following links if you are not a developer; because they may look scary to you.
+    ul.flex
+      -
+        const apis = [
+          ['quran', 'Quran'],
+          ['chocolate', 'Chocolate'],
+          ['quotes', 'Quotes']
+        ];
+      for api in apis
+        li
+          a(href=`/api/${api[0]}?raw=false`)= api[1]

@@ -1,16 +1,12 @@
-doctype html
-html(lang="en")
-  include ../partials/head
-  body
-    include ../partials/header
-    main
-      section#chatsect
-        ul#chatbox
-        form#sendmsg
-          textarea(name="msg", placeholder="Type a message...", autocomplete="off")
-          input.material-icons-outlined(type="submit", value="send")
-      section
-        .preview
-          h3.title Active Users
-          ul.users
-    include ../partials/footer
+extends ../layout.pug
+
+block content
+  section#chatsect
+    ul#chatbox
+    form#sendmsg
+      textarea(name="msg", placeholder="Type a message...", autocomplete="off")
+      input.material-icons-outlined(type="submit", value="send")
+  section
+    .preview
+      h3.title Active Users
+      ul.users

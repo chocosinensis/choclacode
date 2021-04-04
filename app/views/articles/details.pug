@@ -1,40 +1,36 @@
-doctype html
-html(lang="en")
-  include ../partials/head
-  body
-    include ../partials/header
-    main
-      section.article.details
-        h1.title= article.title
-        article !{article.body}
-        p
-          | Author: #{''}
-          span.author.title @#{ article.author.name }
-        p Created at: #{ article.createdAt }
-        br
-        br
-        if user
-          ul.actions
-            li
-              a.material-icons-outlined.btn.like(
-                data-doc=article.slug,
-                data-liked=article.likes.find(({ likedBy }) => likedBy.id === user.id) ? 'liked' : 'no'
-              ) favorite_outline
-        p.likes= article.likes.length ? `${article.likes.length} ${article.likes.length == 1 ? 'like' : 'likes'}` : ''
-        if user && user.id == article.author.id
-          ul.actions.likes
-            if article.likes.length
-              li.tag Liked By :
-            for like in article.likes
-              li.tag @#{like.likedBy.name}
-          br
-          br
-          ul.actions
-            li
-              a.material-icons-outlined.btn(href=`/articles/${article.slug}/edit`) edit
-            li
-              a.material-icons-outlined.btn.delete(data-doc=article.slug) delete
-          span(style="opacity: 0.2") Double click to delete
-        p
-          a.btn(href="/articles") Back
-    include ../partials/footer
+extends ../layout.pug
+
+block content
+  section.article.details
+    h1.title= article.title
+    article !{article.body}
+    p
+      | Author: #{''}
+      span.author.title @#{ article.author.name }
+    p Created at: #{ article.createdAt }
+    br
+    br
+    if user
+      ul.actions
+        li
+          a.material-icons-outlined.btn.like(
+            data-doc=article.slug,
+            data-liked=article.likes.find(({ likedBy }) => likedBy.id === user.id) ? 'liked' : 'no'
+          ) favorite_outline
+    p.likes= article.likes.length ? `${article.likes.length} ${article.likes.length == 1 ? 'like' : 'likes'}` : ''
+    if user && user.id == article.author.id
+      ul.actions.likes
+        if article.likes.length
+          li.tag Liked By :
+        for like in article.likes
+          li.tag @#{like.likedBy.name}
+      br
+      br
+      ul.actions
+        li
+          a.material-icons-outlined.btn(href=`/articles/${article.slug}/edit`) edit
+        li
+          a.material-icons-outlined.btn.delete(data-doc=article.slug) delete
+      span(style="opacity: 0.2") Double click to delete
+    p
+      a.btn(href="/articles") Back

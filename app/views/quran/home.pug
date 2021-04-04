@@ -1,23 +1,19 @@
-doctype html
-html(lang="en")
-  include ../partials/head
-  body
-    include ../partials/header
-    main
-      section.quran
-        h1.title
-          | The Noble Quran
-          br
-          | القرآن الكريم
-        h4 Surahs (Chapters)
-        .row
-          for list in surahs
-            ul
-              for s in list
-                li
-                  a(href=`/quran/${s.num}`)
-                    span.num= s.num
-                    span.eng= s.eng
-                    span.ara= s.ara
-                    span.mng= s.mng
-    include ../partials/footer
+extends ../layout.pug
+
+block content
+  section.quran
+    h1.title
+      | The Noble Quran
+      br
+      | القرآن الكريم
+    h4 Surahs (Chapters)
+    .row
+      for list in surahs
+        ul
+          for s in list
+            li
+              a(href=`/quran/${s.num}`)
+                span.num= s.num
+                span.eng= s.eng
+                span.ara= s.ara
+                span.mng= s.mng
