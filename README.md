@@ -27,6 +27,10 @@ Dev Dependencies :
 - [concurrently](https://npmjs.com/package/concurrently)
 - [node-sass](https://npmjs.com/package/node-sass)
 - [socket.io](https://socket.io) client
+- [jest](jestjs.io)
+- @types/jest
+- [supertest](https://github.com/visionmedia/supertest#readme)
+- [mongodb-memory-server](https://github.com/nodkz/mongodb-memory-server)
 
 ---
 
