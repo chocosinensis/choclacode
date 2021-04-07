@@ -4,7 +4,7 @@ run:
 
 # git
 or:
-	git push origin main master
+	git push origin main
 
 prod:
 	git push heroku main
