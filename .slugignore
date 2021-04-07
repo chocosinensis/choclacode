@@ -1,0 +1,16 @@
+# npm
+/node_modules
+/package-lock.json
+
+# development
+/tests
+**/.*
+!/.git*
+/Makefile
+/config/nodemon.json
+/config/jest.config.js
+/README.md
+/.vscode
+
+# public
+/public/main.*

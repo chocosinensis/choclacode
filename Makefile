@@ -7,4 +7,4 @@ or:
 	git push origin main master
 
 prod:
-	git push heroku master
+	git push heroku main
