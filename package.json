@@ -1,8 +1,8 @@
 {
   "name": "choclacode",
-  "version": "2.1.0",
+  "version": "2.3.0",
   "description": "Choclacode official website",
-  "main": "app.js",
+  "main": "app",
   "author": "Saqib <saqib@choclacode.eu.org> (http://choclacode.eu.org/)",
   "license": "ISC",
   "engines": {
@@ -10,13 +10,14 @@
   },
   "scripts": {
     "start": "node .",
+    "test": "jest --forceExit --config config/jest.config.js",
     "serve": "npx concurrently \"npm:serve:app\" \"npm:watch\"",
-    "serve:app": "npx nodemon",
+    "serve:app": "npx nodemon --config config/nodemon.json",
     "build": "npx concurrently \"npm:build:*\"",
-    "build:js": "webpack",
-    "build:sass": "npx node-sass resources/sass/main.scss -o public/ --output-style compressed",
+    "build:js": "webpack --config config/webpack.config.js",
+    "build:sass": "npx node-sass app/resources/sass/main.scss -o public/ --output-style compressed",
     "watch": "npx concurrently \"npm:watch:*\"",
-    "watch:js": "webpack -w",
+    "watch:js": "npm run build:js -- -w",
     "watch:sass": "npm run build:sass -- -w"
   },
   "repository": {
@@ -46,7 +47,11 @@
     "socket.io": "^3.0.1"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.22",
+    "jest": "^26.6.3",
+    "mongodb-memory-server": "^6.9.6",
     "socket.io-client": "^4.0.0",
+    "supertest": "^6.1.3",
     "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0"
   }

@@ -49,12 +49,11 @@ exports.password_edit = async (req, res) => {
   const { email } = res.locals.user
   const { current, newPass } = req.body
   try {
-    const { user, err } = await User.changePassword({
+    const user = await User.changePassword({
       email,
       password: { current, newPass },
     })
-    if (err) throw err
-    res.status(201).json({ user: user._id })
+    res.status(200).json({ user: user._id })
   } catch (err) {
     const errors = handleErrors(err).auth
     res.status(400).json({ errors })
@@ -63,13 +62,11 @@ exports.password_edit = async (req, res) => {
 
 exports.profileimage_edit = async (req, res) => {
   try {
-    const user = await User.findById(res.locals.user.id)
     const { image } = req.body
-    user.profileImg = image
-    await user.save()
+    await User.editProfileImage(res.locals.user.id, image)
     const file = await Grid.findOne({ filename: image.split('/')[2] })
     const id = file?._id ?? null
-    res.json({ image, id })
+    res.status(200).json({ image, id })
   } catch {}
 }
 
@@ -78,7 +75,7 @@ exports.account_delete = async (req, res) => {
   try {
     const user = await User.delete(res.locals.user.id, email, password)
     res.cookie('jwt', '', { maxAge: 1 })
-    res.status(201).json({ user: user._id })
+    res.status(200).json({ user: user._id })
   } catch (err) {
     const errors = handleErrors(err).auth
     res.status(400).json({ errors })

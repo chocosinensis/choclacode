@@ -15,7 +15,7 @@ exports.home_get = async (req, res) => {
 }
 
 exports.about_get = (req, res) => {
-  const about = JSON.stringify(require('../data/about.json'), null, 2)
+  const about = JSON.stringify(require('../../data/about.json'), null, 2)
   res.render('others/about', { title: 'About', about })
 }
 

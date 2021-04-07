@@ -1,4 +1,5 @@
 const Surah = require('../models/Surah')
+const { err404 } = require('../middlewares/error')
 
 const surahs = Surah.find()
 
@@ -13,6 +14,6 @@ exports.surah_get = (req, res) => {
       surah,
     })
   } catch {
-    res.redirect('/quran')
+    err404(req, res)
   }
 }

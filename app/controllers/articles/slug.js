@@ -2,6 +2,7 @@ const marked = require('marked')
 
 const Article = require('../../models/Article')
 const { handleErrors } = require('../../helpers/functions')
+const { err404 } = require('../../middlewares/error')
 
 exports.article_get = (req, res) =>
   Article.findOne({ slug: res.locals.slug, deleted: false })
@@ -19,7 +20,7 @@ exports.article_get = (req, res) =>
         },
       })
     )
-    .catch(() => res.redirect('/articles'))
+    .catch(() => err404(req, res))
 
 exports.editarticle_get = async (req, res) => {
   const { id, username } = res.locals.user
@@ -39,7 +40,7 @@ exports.editarticle_get = async (req, res) => {
         body: marked(article.body),
       },
     })
-  else res.redirect('/articles')
+  else err404(req, res)
 }
 exports.editarticle_put = async (req, res) => {
   const { title, body } = req.body
@@ -53,7 +54,7 @@ exports.editarticle_put = async (req, res) => {
       title,
       body,
     })
-    res.status(201).json({ article: article._id })
+    res.status(200).json({ article: article._id })
   } catch (err) {
     const errors = handleErrors(err).article
     res.status(400).json({ errors })
@@ -64,14 +65,14 @@ exports.deletearticle = (req, res) => {
   const { slug } = res.locals
   const { id, username } = res.locals.user
   Article.delete(slug, id, username)
-    .then(() => res.json({ redirect: '/articles' }))
-    .catch(() => res.json({ redirect: '/articles' }))
+    .then(() => res.status(200).json({ redirect: '/articles' }))
+    .catch(() => res.status(400).json({ redirect: '/articles' }))
 }
 
 exports.like_post = (req, res) => {
   const { slug } = res.locals
   const { id, username } = res.locals.user
   Article.like(slug, id, username)
-    .then((likes) => res.json({ likes }))
-    .catch((err) => res.json({ errors: handleErrors(err).article }))
+    .then(({ likes, status }) => res.status(status).json({ likes }))
+    .catch((err) => res.status(400).json({ errors: handleErrors(err).article }))
 }

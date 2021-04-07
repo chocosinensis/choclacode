@@ -65,16 +65,18 @@ articleSchema.statics.edit = async function ({
   title,
   body,
 }) {
-  return await this.findOneAndUpdate(
-    {
-      slug,
-      'author.id': id,
-      'author.name': username,
-      deleted: false,
-    },
-    { $set: { title, body } },
-    { useFindAndModify: false }
-  )
+  const article = await this.findOne({
+    slug,
+    'author.id': id,
+    'author.name': username,
+    deleted: false,
+  })
+  article.title = title
+  article.body = body
+  article.slug = slug
+
+  await article.save()
+  return article
 }
 articleSchema.statics.delete = async function (slug, id, username) {
   return this.findOneAndUpdate(
@@ -96,11 +98,16 @@ articleSchema.statics.delete = async function (slug, id, username) {
 
 articleSchema.statics.like = async function (slug, id, name) {
   const article = await this.findOne({ slug, deleted: false })
-  if (article.likes.find(({ likedBy }) => likedBy.id === id))
+  let status
+  if (article.likes.find(({ likedBy }) => likedBy.id === id)) {
     article.likes = article.likes.filter(({ likedBy }) => likedBy.id !== id)
-  else article.likes.push({ likedBy: { id, name } })
+    status = 200
+  } else {
+    article.likes.push({ likedBy: { id, name } })
+    status = 201
+  }
   await article.save()
-  return article.likes
+  return { likes: article.likes, status }
 }
 
 const Article = model('article', articleSchema)

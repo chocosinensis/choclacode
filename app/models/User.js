@@ -64,14 +64,19 @@ userSchema.statics.changePassword = async function ({ email, password }) {
   if (user) {
     const auth = await compare(password.current, user.password)
     if (auth) {
-      if (password.newPass.length < 6)
-        return { user, err: new Error('Short password') }
+      if (password.newPass.length < 6) throw new Error('Short password')
       user.password = password.newPass
-      user.save()
-      return { user, err: null }
+      await user.save()
+      return user
     }
-    return { user, err: new Error('Incorrect password') }
+    throw new Error('Incorrect password')
   }
+}
+userSchema.statics.editProfileImage = async function (id, image) {
+  const user = await this.findById(id)
+  user.profileImg = image
+  await user.save()
+  return user
 }
 userSchema.statics.delete = async function (_id, email, password) {
   if (!_id || !email || !password) throw new Error('Incorrect username')

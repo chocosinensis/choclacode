@@ -1,4 +1,5 @@
 const Chocolate = require('../models/Chocolate')
+const { err404 } = require('../middlewares/error')
 
 exports.chocolate_get = (req, res) => {
   const chocolates = Chocolate.find()
@@ -13,6 +14,6 @@ exports.chocolatedetail_get = (req, res) => {
       choc,
     })
   } catch {
-    res.redirect('/chocolate')
+    err404(req, res)
   }
 }

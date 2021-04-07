@@ -7,7 +7,7 @@ const { uri } = require('../helpers/constants')
 
 exports.upload = multer({
   storage: new GridFSStorage({
-    url: uri,
+    url: uri(),
     file: (req, file) =>
       new Promise((resolve, reject) => {
         crypto.randomBytes(16, (err, buf) => {

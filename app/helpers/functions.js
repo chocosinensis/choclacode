@@ -1,8 +1,11 @@
+const { resolve } = require('path')
+const { config } = require('dotenv')
 const { sign } = require('jsonwebtoken')
 
 const { maxAge } = require('./constants')
 
-const { JWT_SECRET } = process.env
+exports.dotenv = (env = '.env') =>
+  config({ path: resolve(__dirname, `../../config/.env/${env}`) })
 
 exports.schemaType = (min, max, [reqErr, minErr, maxErr]) => ({
   type: String,
@@ -67,7 +70,8 @@ exports.handleErrors = (err) => {
 exports.removify = (str) =>
   `${str} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`
 
-exports.createToken = (id) => sign({ id }, JWT_SECRET, { expiresIn: maxAge })
+exports.createToken = (id) =>
+  sign({ id }, process.env.JWT_SECRET, { expiresIn: maxAge })
 
 exports.toDate = (date) =>
   `${date.toDateString().substr(4)} ${date.toTimeString().substring(0, 8)}`
