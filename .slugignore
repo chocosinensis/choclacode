@@ -5,12 +5,11 @@
 # development
 /tests
 **/.*
-!/.git*
+!/.gitignore
 /Makefile
 /config/nodemon.json
 /config/jest.config.js
 /README.md
-/.vscode
 
 # public
 /public/main.*
