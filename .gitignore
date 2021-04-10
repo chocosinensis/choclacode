@@ -3,6 +3,7 @@
 /package-lock.json
 
 # development
+/config/.env/.env
 /.vscode
 
 # public
