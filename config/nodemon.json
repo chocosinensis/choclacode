@@ -2,7 +2,7 @@
   "ignore": [
     "/data/**",
     "/tests/**",
-    "/public/js/**",
+    "/public/**",
     "/app/resources/js/**"
   ],
   "ext": "js,json"
