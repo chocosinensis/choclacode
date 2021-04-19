@@ -1,6 +1,6 @@
 {
   "name": "choclacode",
-  "version": "2.3.5",
+  "version": "2.4.0",
   "description": "Choclacode official website",
   "main": "app",
   "author": "Saqib <saqib@choclacode.eu.org> (http://choclacode.eu.org/)",
@@ -10,11 +10,11 @@
   },
   "scripts": {
     "start": "node .",
-    "test": "jest --forceExit --config config/jest.config.js",
+    "test": "jest --config config/.jestrc.js",
     "serve": "npx concurrently \"npm:serve:app\" \"npm:watch\"",
     "serve:app": "npx nodemon --config config/nodemon.json",
     "build": "npx concurrently \"npm:build:*\"",
-    "build:js": "webpack --config config/webpack.config.js",
+    "build:js": "webpack --config config/webpack.js",
     "build:sass": "npx node-sass app/resources/sass/main.scss -o public/ --output-style compressed",
     "watch": "npx concurrently \"npm:watch:*\"",
     "watch:js": "npm run build:js -- -w",

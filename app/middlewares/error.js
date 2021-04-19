@@ -1,16 +1,5 @@
-exports.err403 = (req, res) =>
-  res.status(403).render('others/error', {
-    title: '403 &laquo; Forbidden',
-    status: 403,
-    detail: 'Forbidden',
-  })
-
-exports.err404 = (req, res) =>
-  res.status(404).render('others/error', {
-    title: '404 &laquo; Not Found',
-    status: 404,
-    detail: 'Not Found',
-  })
+exports.error = (status, detail) => (req, res) =>
+  res.status(status).render('others/error', { status, detail })
 
 exports.errorHandler = (err, req, res) => {
   if (err) {

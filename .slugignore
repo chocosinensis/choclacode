@@ -5,11 +5,11 @@
 # development
 /tests
 **/.*
+**/*.md
 !/.gitignore
 /Makefile
 /config/nodemon.json
-/config/jest.config.js
-/README.md
+/config/.jestrc.js
 
 # public
 /public/main.*

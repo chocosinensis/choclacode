@@ -6,7 +6,7 @@ exports.chocolate_get = (req, res) => {
   const { raw } = req.query
   if (raw && raw == 'false')
     return res.render('api/details', {
-      title: `API &laquo; Chocolates`,
+      title: 'Chocolates',
       json: JSON.stringify(chocolates, null, 2),
     })
 
@@ -20,7 +20,7 @@ exports.chocolatedetail_get = (req, res) => {
     const { raw } = req.query
     if (raw && raw == 'false')
       return res.render('api/details', {
-        title: `API &laquo; ${choc.title} &laquo; Chocolates`,
+        title: `${choc.title}`,
         json: JSON.stringify(choc, null, 2),
       })
 

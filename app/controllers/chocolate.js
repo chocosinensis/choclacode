@@ -1,19 +1,15 @@
 const Chocolate = require('../models/Chocolate')
-const { err404 } = require('../middlewares/error')
 
 exports.chocolate_get = (req, res) => {
   const chocolates = Chocolate.find()
-  res.render('chocolate/home', { title: 'Chocolate', chocolates })
+  res.render('chocolate/home', { chocolates })
 }
 
-exports.chocolatedetail_get = (req, res) => {
+exports.chocolatedetail_get = (req, res, next) => {
   try {
     const choc = Chocolate.findById(req.params.slug)
-    res.render('chocolate/details', {
-      title: `${choc.title} - Chocolate`,
-      choc,
-    })
+    res.render('chocolate/details', { choc })
   } catch {
-    err404(req, res)
+    next()
   }
 }

@@ -1,5 +1,8 @@
 extends ../layout.pug
 
+block title
+  | #{article.title} &laquo; @#{article.author.name}
+
 block content
   section.article.details
     h1.title= article.title

@@ -60,5 +60,6 @@ You are good to go!
 
 ---
 
-If you have any questions, feel free to drop a message in my personal twitter account
+For any queries, feel free to drop a message in my personal twitter account
+
 [@choclacode](https://twitter.com/choclacode)

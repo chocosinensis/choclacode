@@ -1,4 +1,4 @@
-// variables
+// $variables...
 $primary: #4d2f14;
 $secondary: #886546;
 $tertiary: #5d4632;
@@ -17,7 +17,7 @@ $breakpoint-md: 768px;
 $breakpoint-lg: 992px;
 $breakpoint-xl: 1200px;
 
-// mixins
+// @mixin...
 @mixin media($breakpoint) {
   @media screen and (max-width: $breakpoint) {
     & {
@@ -51,14 +51,15 @@ $breakpoint-xl: 1200px;
 
 // fonts
 // @import...
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Fira+Code:wght@300');
 @import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined');
 @import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
 
 .eng {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 .ban {
-  font-family: 'MuktiNarrow';
+  font-family: 'Siyam Rupali';
 }
 .ara {
   font-family: 'Janna LT';
@@ -66,20 +67,13 @@ $breakpoint-xl: 1200px;
 pre,
 code {
   font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  font-weight: 300 !important;
 }
 
 // @font-face...
 @font-face {
-  font-family: 'Quicksand';
-  src: url('/public/assets/fonts/Quicksand.ttf');
-}
-@font-face {
-  font-family: 'MuktiNarrow';
-  src: url('/public/assets/fonts/MuktiNarrow.ttf');
-}
-@font-face {
-  font-family: 'Janna LT';
-  src: url('/public/assets/fonts/JannaLT.ttf');
+  font-family: 'Siyam Rupali';
+  src: url('/public/assets/fonts/Siyamrupali.ttf');
 }
 @font-face {
   font-family: 'Fira Code';

@@ -1,12 +1,15 @@
 extends ./layout.pug
 
+block title
+  | Dashboard
+
 block content
   section
     .container
       h1.title.center-align Dashboard
       .preview
         img.avatar(src=user.profileImg, alt="")
-        h1
+        h1.center-align
           span Welcome, #{''}
           span.title @#{ user.username }
           span #{' '}!

@@ -8,7 +8,6 @@ exports.home_get = async (req, res) => {
   ]
   const chocs = Chocolate.find()
   res.render('home', {
-    title: 'Home',
     articles,
     chocs: [chocs[9], chocs[6], chocs[3]],
   })
@@ -16,15 +15,14 @@ exports.home_get = async (req, res) => {
 
 exports.about_get = (req, res) => {
   const about = JSON.stringify(require('../../data/about.json'), null, 2)
-  res.render('others/about', { title: 'About', about })
+  res.render('others/about', { about })
 }
 
 exports.dashboard_get = async (req, res) => {
   const { user } = res.locals
   const articles = await Article.find({ 'author.id': user.id, deleted: false })
 
-  res.render('dashboard', { title: 'Dashboard', articles })
+  res.render('dashboard', { articles })
 }
 
-exports.disscuss_get = (req, res) =>
-  res.render('others/discuss', { title: 'Discuss' })
+exports.disscuss_get = (req, res) => res.render('others/discuss')

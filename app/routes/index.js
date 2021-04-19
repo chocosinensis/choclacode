@@ -7,7 +7,7 @@ const {
   disscuss_get,
 } = require('../controllers')
 const { requireAuth, checkUser } = require('../middlewares/auth')
-const { err403, err404, errorHandler } = require('../middlewares/error')
+const { error, errorHandler } = require('../middlewares/error')
 
 const root = Router()
 
@@ -26,7 +26,7 @@ root
   .use('/api', require('./api'))
   .use('/users', require('./users'))
 
-  .get('/403', err403)
-  .use(err404, errorHandler)
+  .get('/403', error(403, 'Forbidden'))
+  .use(error(404, 'Not Found'), errorHandler)
 
 module.exports = root

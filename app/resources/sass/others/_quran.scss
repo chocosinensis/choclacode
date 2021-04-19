@@ -1,3 +1,7 @@
+$local-lg: 1200px;
+$local-md: 630px;
+$local-sm: 425px;
+
 @mixin qur {
   font-size: 24px;
   text-align: center;
@@ -12,7 +16,6 @@
   font-weight: bold;
   display: flex;
   flex-direction: column;
-  width: 90vw;
   margin: 0 auto;
 
   .title {
@@ -26,7 +29,7 @@
   .row {
     display: flex;
     flex-direction: row;
-    max-width: 900px;
+    max-width: 1200px;
     float: right;
     margin: 50px auto;
 
@@ -35,6 +38,7 @@
       flex-direction: column;
       width: 300px;
       padding-inline-start: 5px;
+      margin: 0 40px;
       margin-block-start: 0;
       margin-block-end: 0;
 
@@ -72,8 +76,9 @@
         }
       }
 
-      @include media(1005px) {
+      @include media($local-lg) {
         width: 80vw;
+        margin: 0;
       }
     }
 
@@ -93,15 +98,15 @@
       margin-left: 20px;
       width: 140px;
 
-      @include media(1005px) {
+      @include media($local-lg) {
         width: 45vw;
         margin-left: 40px;
       }
-      @include media(630px) {
+      @include media($local-md) {
         width: 40vw;
         margin-left: 45px;
       }
-      @include media(425px) {
+      @include media($local-sm) {
         margin-left: 25px;
       }
     }
@@ -111,7 +116,7 @@
       margin-left: 0px;
       width: 90px;
 
-      @include media(1005px) {
+      @include media($local-lg) {
         width: 20vw;
       }
     }
@@ -124,26 +129,26 @@
       overflow: hidden;
       cursor: pointer;
 
-      @include media(1005px) {
+      @include media($local-lg) {
         width: 60vw;
         margin-left: 55px;
       }
-      @include media(630px) {
+      @include media($local-md) {
         margin-left: 60px;
       }
-      @include media(425px) {
+      @include media($local-sm) {
         margin-left: 40px;
       }
     }
 
-    @include media(1005px) {
+    @include media($local-lg) {
       width: 80vw;
       display: block;
       margin: 50px auto;
     }
   }
 
-  @include media(1005px) {
+  @include media($local-lg) {
     font-size: 16px;
   }
 }

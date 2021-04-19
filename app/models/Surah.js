@@ -1,4 +1,4 @@
-exports.find = () => require('../../data/quran/surahs.json')
+exports.find = () => require('../../data/surahs.json')
 
 exports.findById = (id) => {
   try {

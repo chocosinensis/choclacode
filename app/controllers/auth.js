@@ -3,8 +3,7 @@ const Grid = require('../models/Grid')
 const { maxAge } = require('../helpers/constants')
 const { handleErrors, createToken } = require('../helpers/functions')
 
-exports.signup_get = (req, res) =>
-  res.render('auth/signup', { title: 'Sign Up' })
+exports.signup_get = (req, res) => res.render('auth/signup')
 exports.signup_post = async (req, res) => {
   const { username, email, password } = req.body
   try {
@@ -18,7 +17,7 @@ exports.signup_post = async (req, res) => {
   }
 }
 
-exports.login_get = (req, res) => res.render('auth/login', { title: 'Login' })
+exports.login_get = (req, res) => res.render('auth/login')
 exports.login_post = async (req, res) => {
   const { username, password } = req.body
   try {
@@ -42,7 +41,7 @@ exports.account_get = async (req, res) => {
   const file = await Grid.findOne({ filename })
   if (file) res.locals.img = file._id
 
-  res.render('auth/account', { title: `@${res.locals.user.username}` })
+  res.render('auth/account')
 }
 
 exports.password_edit = async (req, res) => {

@@ -1,5 +1,8 @@
 extends ../layout.pug
 
+block title
+  | #{status} &laquo; #{detail}
+
 block content
   section.errorsect
     span.status= status

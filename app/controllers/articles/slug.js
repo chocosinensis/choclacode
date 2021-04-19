@@ -1,39 +1,25 @@
 const marked = require('marked')
 
 const Article = require('../../models/Article')
+const { getArticleBySlug, getArticle } = require('../../services/articles')
 const { handleErrors } = require('../../helpers/functions')
-const { err404 } = require('../../middlewares/error')
+const { error } = require('../../middlewares/error')
 
 exports.article_get = (req, res) =>
-  Article.findOne({ slug: res.locals.slug, deleted: false })
-    .then(({ title, body, slug, author, createdAt, likes, comments }) =>
-      res.render('articles/details', {
-        title: `${title} &laquo; @${author.name}`,
-        article: {
-          title,
-          body: marked(body),
-          slug,
-          author,
-          createdAt,
-          likes,
-          comments,
-        },
-      })
-    )
-    .catch(() => err404(req, res))
+  getArticleBySlug(res.locals.slug)
+    .then((article) => res.render('articles/details', { article }))
+    .catch(() => error(404, 'Not Found')(req, res))
 
 exports.editarticle_get = async (req, res) => {
   const { id, username } = res.locals.user
   const { slug } = res.locals
-  const article = await Article.findOne({
+  const article = await getArticle({
     slug,
     'author.id': id,
     'author.name': username,
-    deleted: false,
   })
   if (article)
     res.render('articles/edit', {
-      title: 'Edit Article',
       article: {
         title: article.title,
         raw: article.body,

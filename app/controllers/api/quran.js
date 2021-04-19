@@ -6,7 +6,7 @@ exports.quran_get = (req, res) => {
   const { raw } = req.query
   if (raw && raw == 'false')
     return res.render('api/details', {
-      title: `API &laquo; Quran`,
+      title: 'Quran',
       json: JSON.stringify(surahs, null, 2),
     })
 
@@ -22,7 +22,7 @@ exports.surah_get = (req, res) => {
     const { raw } = req.query
     if (raw && raw == 'false')
       return res.render('api/details', {
-        title: `API &laquo; Surah`,
+        title: `${surahjson.info.eng}`,
         json: JSON.stringify(surahjson, null, 2),
       })
 

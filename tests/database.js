@@ -23,9 +23,7 @@ exports.close = async () => {
 }
 
 exports.clear = async () => {
-  const collections = connection.collections
-
-  for (const key in collections) {
-    await collections[key].deleteMany()
+  for (const c of Object.values(connection.collections)) {
+    await c.deleteMany()
   }
 }
