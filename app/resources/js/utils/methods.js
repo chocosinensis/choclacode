@@ -9,7 +9,7 @@ export const fetchEndpoint = async (path, method, body) => {
   return data
 }
 
-export const handleRoutes = (routes) => () => {
+export const makeRoutes = (routes) => () => {
   routes.forEach(([url, callback]) => {
     if (location.pathname.match(url)) callback()
   })

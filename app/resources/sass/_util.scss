@@ -30,6 +30,11 @@ $breakpoint-xl: 1200px;
   display: none;
 }
 
+@mixin invisible {
+  opacity: 0;
+  pointer-events: none;
+}
+
 @mixin nosb {
   scrollbar-width: none;
 

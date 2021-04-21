@@ -80,11 +80,15 @@ header {
   }
 
   button.burger {
-    @include none;
+    @include invisible;
 
     @include media($breakpoint-lg) {
-      display: inline-block;
       background: transparent;
+      display: inline-block;
+      opacity: 1;
+      pointer-events: all;
+      transition: 0.2s ease;
+      transition-property: color, background-color, box-shadow;
 
       i {
         color: $font-se;
@@ -103,17 +107,21 @@ header {
   }
 
   aside.links {
-    @include none;
+    @include invisible;
+    height: 0;
+    width: 0;
 
     &.show {
-      display: block;
       height: 100%;
-      width: 100%;
+      width: 100vw;
       background-color: rgba(0, 0, 0, 0.5);
       position: fixed;
       top: 0;
       left: 0;
       z-index: 6;
+      opacity: 1;
+      pointer-events: all;
+      transition: opacity 1s ease;
       overflow: hidden !important;
 
       ul {
@@ -145,6 +153,16 @@ header {
               color: $primary;
             }
           }
+        }
+      }
+
+      &.reverse {
+        width: 200vw;
+        animation: slide 1s ease 1 forwards reverse,
+          fade 1s ease forwards reverse;
+
+        ul {
+          width: 20%;
         }
       }
     }

@@ -16,7 +16,17 @@ export const main = () => {
   ;(() => {
     bur.addEventListener('click', () => aside.classList.add('show'))
     aside.addEventListener('click', (e) => {
-      if (e.target == aside) aside.classList.remove('show')
+      if (e.target == aside) {
+        aside.classList.add('reverse')
+        aside.addEventListener(
+          'animationend',
+          () => {
+            aside.classList.remove('show')
+            aside.classList.remove('reverse')
+          },
+          { once: true }
+        )
+      }
     })
   })()
   ;(() => {

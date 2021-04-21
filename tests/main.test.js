@@ -19,7 +19,8 @@ describe('config', () => {
   })
 
   it('should use the test database', () => {
-    expect(connection.db.databaseName).not.toBe('base-choco')
-    expect(connection.db.databaseName).not.toBe('test-choco')
+    const dbname = connection.db.databaseName
+    expect(dbname).not.toBe('base-choco')
+    expect(dbname).not.toBe('test-choco')
   })
 })

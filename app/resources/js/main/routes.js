@@ -1,10 +1,10 @@
-import { handleRoutes } from '../utils'
+import { makeRoutes } from '../utils'
 import { Home, Article, Auth, quran, Discuss } from '../functions'
 
-export const routes = handleRoutes([
+export const routes = makeRoutes([
   [/^\/$/g, () => new Home()],
   [/^\/articles\/create$/g, Article.create],
-  [/^\/articles\/.*\/edit$/g, Article.edit],
+  [/^\/articles\/.+\/edit$/g, Article.edit],
   [/^\/articles\/.+$/g, Article.details],
   [/^.+$/g, Article.search],
   [/^\/auth\/login$/g, Auth.login],
