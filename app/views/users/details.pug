@@ -12,9 +12,11 @@ block content
         p
           | Username : #{''}
           span.title @#{ username }
-        p Email : #{ email }
+        if email
+          p Email : #{ email }
       div
-        a(href=`mailto:1 email`, target="_blank")
-          i.material-icons.btn mail
+        if email
+          a(href=`mailto:${email}`, target="_blank")
+            i.material-icons.btn mail
         a(href="/discuss")
           i.material-icons.btn chat

@@ -3,7 +3,7 @@ const User = require('../models/User')
 exports.users_get = async (req, res) => {
   const users = (
     await User.find({ deleted: false })
-  ).map(({ username, email, profileImg }) => ({ username, email, profileImg }))
+  ).map(({ username, profileImg }) => ({ username, profileImg }))
 
   res.render('users/home', { users })
 }
@@ -15,7 +15,7 @@ exports.user_get = async (req, res, next) => {
 
   res.render('users/details', {
     username,
-    email: user.email,
+    email: res.locals.user.isAdmin === true ? user.email : undefined,
     profileImg: user.profileImg,
   })
 }
