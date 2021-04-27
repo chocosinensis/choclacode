@@ -1,3 +1,12 @@
+'use strict'
+
+/**
+ * Determines whether to include a language or not
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ * @param {import('express').NextFunction} next
+ */
 exports.showLangs = (req, res, next) => {
   const show = { ara: false, eng: false, ban: false }
   const { lang } = req.query

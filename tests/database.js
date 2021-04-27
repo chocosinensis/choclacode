@@ -1,3 +1,5 @@
+'use strict'
+
 const { connection, connect, disconnect } = require('mongoose')
 const { MongoMemoryServer } = require('mongodb-memory-server')
 

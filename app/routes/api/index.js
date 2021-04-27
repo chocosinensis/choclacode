@@ -1,3 +1,5 @@
+'use strict'
+
 const { Router } = require('express')
 const cors = require('cors')
 

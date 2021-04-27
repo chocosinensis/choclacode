@@ -9,7 +9,6 @@
 !/.gitignore
 /Makefile
 /config/nodemon.json
-/config/.jestrc.js
 
 # public
 /public/main.*

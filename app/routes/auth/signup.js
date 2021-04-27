@@ -1,3 +1,5 @@
+'use strict'
+
 const { Router } = require('express')
 
 const { signup_get, signup_post } = require('../../controllers/auth')

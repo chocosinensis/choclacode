@@ -1,3 +1,5 @@
+'use strict'
+
 exports.find = () => require('../../data/chocolate/index.json')
 
 exports.findById = (id) => {

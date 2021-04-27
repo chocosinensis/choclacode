@@ -1,3 +1,5 @@
+'use strict'
+
 const { resolve } = require('path')
 const express = require('express')
 const cookie = require('cookie-parser')
@@ -20,6 +22,12 @@ const connectDatabase = async () => {
   } catch {}
 }
 
+/**
+ * Connects to database, starts the server and configures socket.io
+ * Every steps are skipped in test environment
+ *
+ * @param {import('express').Application} app
+ */
 const listen = (app) => {
   const { PORT, NODE_ENV } = process.env
 
@@ -33,6 +41,11 @@ const listen = (app) => {
   return app
 }
 
+/**
+ * Configures the application
+ *
+ * @param {import('express').Application} app
+ */
 module.exports = (app) =>
   listen(app)
     // settings
@@ -40,6 +53,7 @@ module.exports = (app) =>
     .set('views', resolve(__dirname, '../app/views'))
     .set('view engine', 'pug')
     .set('json spaces', 2)
+    .disable('x-powered-by')
 
     // middlewares
     .use('/public', cors(), express.static(resolve(__dirname, '../public')))

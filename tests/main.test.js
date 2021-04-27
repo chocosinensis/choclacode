@@ -1,3 +1,5 @@
+'use strict'
+
 const { connection } = require('mongoose')
 
 const app = require('../app')

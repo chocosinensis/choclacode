@@ -1,5 +1,13 @@
+'use strict'
+
 const Surah = require('../../models/Surah')
 
+/**
+ * @route GET /api/quran
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.quran_get = (req, res) => {
   const surahs = Surah.find()
 
@@ -13,6 +21,12 @@ exports.quran_get = (req, res) => {
   res.json(surahs)
 }
 
+/**
+ * @route GET /api/quran/:surah
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.surah_get = (req, res) => {
   const { surah } = req.params
 

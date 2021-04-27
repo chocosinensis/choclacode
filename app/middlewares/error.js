@@ -1,12 +1,20 @@
+'use strict'
+
+/**
+ * Returns a middleware redirecting to the error page
+ *
+ * @param {Number | String} status
+ * @param {String} detail
+ */
 exports.error = (status, detail) => (req, res) =>
   res.status(status).render('others/error', { status, detail })
 
-exports.errorHandler = (err, req, res) => {
-  if (err) {
-    res.status(500).render('others/error', {
-      title: '500 &laquo; Internal Server Error',
-      status: 500,
-      detail: 'Internal Server Error',
-    })
-  }
-}
+/**
+ *
+ * @param {Error} err
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ * @param {import('express').NextFunction} next
+ */
+exports.errorHandler = (err, req, res, next) =>
+  this.error(500, 'Internal Server Error')(req, res)

@@ -1,12 +1,26 @@
+'use strict'
+
 const { resolve } = require('path')
 const { config } = require('dotenv')
 const { sign } = require('jsonwebtoken')
 
 const { maxAge } = require('./constants')
 
+/**
+ * Configures `process.env` with the corresponding `.env` file
+ *
+ * @param {String} env
+ */
 exports.dotenv = (env = '.env') =>
   config({ path: resolve(__dirname, `../../config/.env/${env}`) })
 
+/**
+ * The regular schema field object for mongoose models
+ *
+ * @param {Number} min
+ * @param {Number} max
+ * @param {Array} param2
+ */
 exports.schemaType = (min, max, [reqErr, minErr, maxErr]) => ({
   type: String,
   required: [true, reqErr],
@@ -14,6 +28,11 @@ exports.schemaType = (min, max, [reqErr, minErr, maxErr]) => ({
   maxlength: [max, maxErr],
 })
 
+/**
+ * Handles mongoose model errors
+ *
+ * @param {Error} err
+ */
 exports.handleErrors = (err) => {
   let errors = {
     auth: {
@@ -67,11 +86,25 @@ exports.handleErrors = (err) => {
   return errors
 }
 
+/**
+ * Marks a certain string for removation / deletion
+ *
+ * @param {String} str
+ */
 exports.removify = (str) =>
   `${str} ${Math.random()}-dele-${Math.random()}-ted-${Math.random()}-_-`
 
+/**
+ * Creates a JWT token
+ *
+ * @param {String} id
+ */
 exports.createToken = (id) =>
   sign({ id }, process.env.JWT_SECRET, { expiresIn: maxAge })
 
+/**
+ * Custom date string formatter
+ * @param {Date} date
+ */
 exports.toDate = (date) =>
   `${date.toDateString().substr(4)} ${date.toTimeString().substring(0, 8)}`

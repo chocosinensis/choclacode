@@ -1,5 +1,13 @@
+'use strict'
+
 const User = require('../models/User')
 
+/**
+ * @route GET /users
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.users_get = async (req, res) => {
   const users = (
     await User.find({ deleted: false })
@@ -8,6 +16,12 @@ exports.users_get = async (req, res) => {
   res.render('users/home', { users })
 }
 
+/**
+ * @route GET /users/@:username
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.user_get = async (req, res, next) => {
   const { username } = req.params
   const user = await User.findOne({ username, deleted: false })

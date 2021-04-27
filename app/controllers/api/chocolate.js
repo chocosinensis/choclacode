@@ -1,5 +1,13 @@
+'use strict'
+
 const Chocolate = require('../../models/Chocolate')
 
+/**
+ * @route GET /api/chocolate
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.chocolate_get = (req, res) => {
   const chocolates = Chocolate.find()
 
@@ -13,6 +21,12 @@ exports.chocolate_get = (req, res) => {
   res.json(chocolates)
 }
 
+/**
+ * @route GET /api/chocolate/:slug
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.chocolatedetail_get = (req, res) => {
   try {
     const choc = Chocolate.findById(req.params.slug)

@@ -1,12 +1,12 @@
 {
   "name": "choclacode",
-  "version": "2.5.1",
+  "version": "2.6.0",
   "description": "Choclacode official website",
   "main": "app",
   "author": "Saqib <saqib@choclacode.eu.org> (http://choclacode.eu.org/)",
   "license": "ISC",
   "engines": {
-    "node": "15.x"
+    "node": "16.x"
   },
   "scripts": {
     "start": "node .",
@@ -15,7 +15,7 @@
     "serve:app": "npx nodemon --config config/nodemon.json",
     "build": "npx concurrently \"npm:build:*\"",
     "build:js": "webpack --config config/webpack.js",
-    "build:sass": "npx node-sass app/resources/sass/main.scss -o public/ --output-style compressed",
+    "build:sass": "npx sass app/resources/sass/main.scss public/main.css --style=compressed --no-source-map",
     "watch": "npx concurrently \"npm:watch:*\"",
     "watch:js": "npm run build:js -- -w",
     "watch:sass": "npm run build:sass -- -w"
@@ -39,20 +39,20 @@
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "marked": "^1.2.7",
-    "mongoose": "^5.10.12",
+    "marked": "^2.0.3",
+    "mongoose": "^5.12.5",
     "multer": "^1.4.2",
     "multer-gridfs-storage": "^4.2.0",
     "pug": "^3.0.2",
-    "socket.io": "^3.0.1"
+    "socket.io": "^4.0.1"
   },
   "devDependencies": {
-    "@types/jest": "^26.0.22",
+    "@types/jest": "^26.0.23",
     "jest": "^26.6.3",
     "mongodb-memory-server": "^6.9.6",
-    "socket.io-client": "^4.0.0",
+    "socket.io-client": "^4.0.1",
     "supertest": "^6.1.3",
-    "webpack": "^5.24.4",
-    "webpack-cli": "^4.5.0"
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
   }
 }

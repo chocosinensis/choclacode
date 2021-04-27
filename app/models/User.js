@@ -1,3 +1,5 @@
+'use strict'
+
 const { Schema, model } = require('mongoose')
 const { genSalt, hash, compare } = require('bcryptjs')
 
@@ -41,6 +43,9 @@ const userSchema = new Schema({
   },
 })
 
+/**
+ * Hashes the password
+ */
 userSchema.pre('save', async function (next) {
   if (this.isModified('password')) {
     const salt = await genSalt()
@@ -50,6 +55,12 @@ userSchema.pre('save', async function (next) {
   next()
 })
 
+/**
+ * Logs in a user with the given credentials
+ *
+ * @param {String} username
+ * @param {String} password
+ */
 userSchema.statics.login = async function (username, password) {
   const user = await this.findOne({ username, deleted: false })
   if (user) {
@@ -59,6 +70,10 @@ userSchema.statics.login = async function (username, password) {
   }
   throw new Error('Incorrect username')
 }
+
+/**
+ * Changes the password of a user
+ */
 userSchema.statics.changePassword = async function ({ email, password }) {
   const user = await this.findOne({ email, deleted: false })
   if (user) {
@@ -72,12 +87,27 @@ userSchema.statics.changePassword = async function ({ email, password }) {
     throw new Error('Incorrect password')
   }
 }
+
+/**
+ * Updates the profile image of a user
+ *
+ * @param {String} id
+ * @param {String} image
+ */
 userSchema.statics.editProfileImage = async function (id, image) {
   const user = await this.findById(id)
   user.profileImg = image
   await user.save()
   return user
 }
+
+/**
+ * Marks a user for deletion
+ *
+ * @param {String} _id
+ * @param {String} email
+ * @param {String} password
+ */
 userSchema.statics.delete = async function (_id, email, password) {
   if (!_id || !email || !password) throw new Error('Incorrect username')
 

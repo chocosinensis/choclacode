@@ -1,3 +1,5 @@
+'use strict'
+
 const { Schema, model } = require('mongoose')
 
 const { schemaType, removify, toDate } = require('../helpers/functions')
@@ -58,6 +60,9 @@ const articleSchema = new Schema({
   },
 })
 
+/**
+ * Edits an article
+ */
 articleSchema.statics.edit = async function ({
   slug,
   id,
@@ -78,6 +83,14 @@ articleSchema.statics.edit = async function ({
   await article.save()
   return article
 }
+
+/**
+ * Marks an article for deletion
+ *
+ * @param {String} slug
+ * @param {String} id
+ * @param {String} username
+ */
 articleSchema.statics.delete = async function (slug, id, username) {
   return this.findOneAndUpdate(
     {
@@ -96,6 +109,13 @@ articleSchema.statics.delete = async function (slug, id, username) {
   )
 }
 
+/**
+ * Likes or unlikes an article
+ *
+ * @param {String} slug
+ * @param {String} id
+ * @param {String} name
+ */
 articleSchema.statics.like = async function (slug, id, name) {
   const article = await this.findOne({ slug, deleted: false })
   let status

@@ -1,3 +1,5 @@
+'use strict'
+
 const { extname } = require('path')
 const crypto = require('crypto')
 const multer = require('multer')
@@ -5,6 +7,9 @@ const GridFSStorage = require('multer-gridfs-storage')
 
 const { uri } = require('../helpers/constants')
 
+/**
+ * Multer middleware for uploading files
+ */
 exports.upload = multer({
   storage: new GridFSStorage({
     url: uri(),

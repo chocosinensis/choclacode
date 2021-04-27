@@ -1,9 +1,7 @@
-const request = require('supertest')
+'use strict'
 
-const app = require('../../app')
 const db = require('../database')
-
-const agent = request.agent(app)
+const agent = require('../agent')
 
 beforeAll(async () => {
   require('../../app/helpers/functions').dotenv('.env.test')

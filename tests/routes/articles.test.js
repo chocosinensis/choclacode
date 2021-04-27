@@ -1,9 +1,8 @@
-const request = require('supertest')
+'use strict'
 
-const app = require('../../app')
 const db = require('../database')
+const agent = require('../agent')
 
-const agent = request.agent(app)
 const lorem = `Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
 Blanditiis, ut. Sequi quae numquam iure cupiditate recusandae, quos modi sunt iste!`
 const user = {

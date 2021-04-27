@@ -1,3 +1,5 @@
+'use strict'
+
 const marked = require('marked')
 
 const Article = require('../../models/Article')
@@ -5,11 +7,23 @@ const { getArticleBySlug, getArticle } = require('../../services/articles')
 const { handleErrors } = require('../../helpers/functions')
 const { error } = require('../../middlewares/error')
 
+/**
+ * @route GET /articles/:slug
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.article_get = (req, res) =>
   getArticleBySlug(res.locals.slug)
     .then((article) => res.render('articles/details', { article }))
     .catch(() => error(404, 'Not Found')(req, res))
 
+/**
+ * @route GET /articles/:slug/edit
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.editarticle_get = async (req, res) => {
   const { id, username } = res.locals.user
   const { slug } = res.locals
@@ -28,6 +42,13 @@ exports.editarticle_get = async (req, res) => {
     })
   else err404(req, res)
 }
+
+/**
+ * @route PUT /articles/:slug/edit
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.editarticle_put = async (req, res) => {
   const { title, body } = req.body
   const { slug } = res.locals
@@ -47,6 +68,12 @@ exports.editarticle_put = async (req, res) => {
   }
 }
 
+/**
+ * @route DELETE /articles/:slug/delete
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.deletearticle = (req, res) => {
   const { slug } = res.locals
   const { id, username } = res.locals.user
@@ -55,6 +82,12 @@ exports.deletearticle = (req, res) => {
     .catch(() => res.status(400).json({ redirect: '/articles' }))
 }
 
+/**
+ * @route POST /articles/:slug/like
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
 exports.like_post = (req, res) => {
   const { slug } = res.locals
   const { id, username } = res.locals.user

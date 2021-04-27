@@ -1,3 +1,5 @@
+'use strict'
+
 const marked = require('marked')
 
 const Surah = require('../../models/Surah')
@@ -30,6 +32,12 @@ const getTime = (d = new Date()) => {
   const g = (v) => (v / 10 < 1 ? `0${v}` : v)
   return `${g(h)}:${g(m)}`
 }
+
+/**
+ * Gets a random verse
+ *
+ * @param {String} msg
+ */
 const inspire = (msg) => {
   let surahNo, ayahNo
   if (msg) [surahNo, ayahNo] = msg.split(':')
@@ -98,6 +106,10 @@ const markupify = ({ name, msg, time }) => {
 }
 const botMsg = (msg, time = getTime()) => markupify({ name: bot, msg, time })
 
+/**
+ *
+ * @param {import('socket.io').Server} io
+ */
 exports.discuss = (io) => {
   let users = []
 
