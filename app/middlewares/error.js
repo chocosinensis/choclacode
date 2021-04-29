@@ -6,8 +6,12 @@
  * @param {Number | String} status
  * @param {String} detail
  */
-exports.error = (status, detail) => (req, res) =>
-  res.status(status).render('others/error', { status, detail })
+exports.error = (status, detail, err = null) => (req, res) =>
+  res.status(status).render('others/error', {
+    status,
+    detail,
+    err: process.env.NODE_ENV === 'development' ? err : undefined,
+  })
 
 /**
  *
@@ -17,4 +21,4 @@ exports.error = (status, detail) => (req, res) =>
  * @param {import('express').NextFunction} next
  */
 exports.errorHandler = (err, req, res, next) =>
-  this.error(500, 'Internal Server Error')(req, res)
+  this.error(500, 'Internal Server Error', err)(req, res)
