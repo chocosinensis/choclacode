@@ -1,0 +1,26 @@
+version: '3'
+
+services:
+  choc:
+    build:
+      context: ../../
+      dockerfile: config/.docker/Dockerfile
+    ports:
+      - '3000:3000'
+    # volumes:
+    #   - ../../:/usr/src/app:ro
+    #   - /usr/src/app/node_modules
+    env_file:
+      - ../.env/.env.production
+    external_links:
+      - chocmongo
+  chocmongo:
+    container_name: mongo
+    image: mongo
+    ports:
+      - '27017:27017'
+    volumes:
+      - 'data:/data/db'
+
+volumes:
+  data:

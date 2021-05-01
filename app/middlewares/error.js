@@ -5,6 +5,7 @@
  *
  * @param {Number | String} status
  * @param {String} detail
+ * @return {function(import('express').Request, import('express').Response)}
  */
 exports.error = (status, detail, err = null) => (req, res) =>
   res.status(status).render('others/error', {

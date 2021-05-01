@@ -1,0 +1,14 @@
+# npm
+/node_modules
+/package-lock.json
+
+# development
+/tests
+**/.*
+**/*.md
+!/.gitignore
+/Makefile
+/config/nodemon.json
+
+# public
+/public/main.*

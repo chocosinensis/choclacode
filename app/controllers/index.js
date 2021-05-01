@@ -10,13 +10,11 @@ const Chocolate = require('../models/Chocolate')
  * @param {import('express').Response} res
  */
 exports.home_get = async (req, res) => {
-  const articles = [
-    await Article.findById('5fb20ffc2aa4d6132d2248ba'),
-    await Article.findById('5fb271b0ca65a63f893903a3'),
-  ]
+  const articles = await Article.find().limit(2)
   const chocs = Chocolate.find()
   res.render('home', {
-    articles,
+    articles:
+      articles.length == 2 ? articles : require('../../data/articles.json'),
     chocs: [chocs[9], chocs[6], chocs[3]],
   })
 }
