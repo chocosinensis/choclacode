@@ -126,10 +126,7 @@ describe('/auth/account', () => {
       await agent.get('/auth/logout')
 
       await agent.post('/auth/login').send(user).expect(400)
-      await agent
-        .post('/auth/login')
-        .send({ username: user.username, password: 'testing_just_test' })
-        .expect(200)
+      await agent.post('/auth/login').send({ username: user.username, password: 'testing_just_test' }).expect(200)
     })
 
     it('should not change the password without cookie', async () => {
@@ -218,9 +215,7 @@ describe('/auth/account', () => {
     })
 
     it('should not remove the user with wrong creds', async () => {
-      const res = await req
-        .send({ email: 'invalid@email.com', password: 'VANDALISED PASSWORD' })
-        .expect(400)
+      const res = await req.send({ email: 'invalid@email.com', password: 'VANDALISED PASSWORD' }).expect(400)
       expect(res.body.errors).toHaveProperty('email')
     })
   })

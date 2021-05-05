@@ -8,8 +8,6 @@ const { error } = require('../middlewares/error')
 
 const users = Router()
 
-users
-  .get('/', requireAuth, users_get)
-  .get('/@:username', requireAuth, user_get, error(404, 'Not Found'))
+users.get('/', requireAuth, users_get).get('/@:username', requireAuth, user_get, error(404, 'Not Found'))
 
 module.exports = users

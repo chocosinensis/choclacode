@@ -15,8 +15,7 @@ exports.showLangs = (req, res, next) => {
     if (lang.includes('ara')) show.ara = true
     if (lang.includes('eng')) show.eng = true
     if (lang.includes('ban')) show.ban = true
-    if (!show.ara && !show.eng && !show.ban)
-      show.ara = show.eng = show.ban = true
+    if (!show.ara && !show.eng && !show.ban) show.ara = show.eng = show.ban = true
   } else show.ara = show.eng = show.ban = true
 
   res.locals.show = show

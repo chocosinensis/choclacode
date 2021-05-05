@@ -22,13 +22,7 @@ exports.createArticle = async ({ title, body, slug, id, name }) => {
 
 exports.getArticleBySlug = async (slug) => {
   try {
-    const {
-      title,
-      body: raw,
-      author,
-      createdAt,
-      likes,
-    } = await Article.findOne({
+    const { title, body: raw, author, createdAt, likes } = await Article.findOne({
       slug,
       deleted: false,
     })
@@ -39,5 +33,4 @@ exports.getArticleBySlug = async (slug) => {
   }
 }
 
-exports.getArticle = async (params) =>
-  await Article.findOne({ ...params, deleted: false })
+exports.getArticle = async (params) => await Article.findOne({ ...params, deleted: false })

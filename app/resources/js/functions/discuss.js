@@ -39,10 +39,8 @@ export class Discuss extends Base {
           this.submitMsg(e)
         }
       } else if (['ArrowUp', 'ArrowDown'].includes(e.key) && e.altKey) {
-        if (e.key === 'ArrowUp')
-          msg.value = selfs?.[selfs.length - ++this.msgTrack]?.textContent ?? ''
-        else if (e.key === 'ArrowDown')
-          msg.value = selfs?.[selfs.length - --this.msgTrack]?.textContent ?? ''
+        if (e.key === 'ArrowUp') msg.value = selfs?.[selfs.length - ++this.msgTrack]?.textContent ?? ''
+        else if (e.key === 'ArrowDown') msg.value = selfs?.[selfs.length - --this.msgTrack]?.textContent ?? ''
         msg.value = msg.value.substring(0, msg.value.length - 1)
         msg.focus()
       }
@@ -61,11 +59,7 @@ export class Discuss extends Base {
       return false
     }
     this.sendmsg = ({ name: n, self, msg, msgNoName }) => {
-      this.chatbox.innerHTML += checkPrevSender(n)
-        ? msgNoName
-        : n == this.name
-        ? self
-        : msg
+      this.chatbox.innerHTML += checkPrevSender(n) ? msgNoName : n == this.name ? self : msg
       ;[...this.chatbox.children].forEach((li) => {
         if (this.likes.includes(li.dataset.id)) return
 
@@ -102,15 +96,10 @@ export class Discuss extends Base {
     this.form.msg.addEventListener('keydown', this.handleKeyDown)
   }
   socketEvents() {
-    this.socket.on('connection', () =>
-      this.socket.emit('newuser__discuss', { name: this.name })
-    )
+    this.socket.on('connection', () => this.socket.emit('newuser__discuss', { name: this.name }))
     this.socket.on(
       'users__discuss',
-      (data) =>
-        (this.users.innerHTML = data
-          .map((user) => `<li>@${user}</li>`)
-          .join(''))
+      (data) => (this.users.innerHTML = data.map((user) => `<li>@${user}</li>`).join(''))
     )
     this.socket.on('sendmsg__discuss', this.sendmsg)
     this.socket.on('msglike__discuss', this.msglike)

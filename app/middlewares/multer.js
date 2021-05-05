@@ -30,10 +30,7 @@ exports.upload = multer({
   limits: { fileSize: 1_000_000 },
   fileFilter(req, file, callback) {
     const filetypes = /jpeg|jpg|png|gif/
-    if (
-      filetypes.test(extname(file.originalname).toLowerCase()) &&
-      filetypes.test(file.mimetype)
-    ) {
+    if (filetypes.test(extname(file.originalname).toLowerCase()) && filetypes.test(file.mimetype)) {
       return callback(null, true)
     }
 

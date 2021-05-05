@@ -59,5 +59,4 @@ exports.checkUser = (req, res, next) => {
  * @param {import('express').Response} res
  * @param {import('express').NextFunction} next
  */
-exports.requireGuest = (req, res, next) =>
-  res.locals.user ? res.redirect(req.query.next ?? '/dashboard') : next()
+exports.requireGuest = (req, res, next) => (res.locals.user ? res.redirect(req.query.next ?? '/dashboard') : next())

@@ -9,8 +9,7 @@ const {
 /**
  * The GridFSBucket instance
  */
-exports.gfs = () =>
-  new mongo.GridFSBucket(connection.db, { bucketName: 'uploads' })
+exports.gfs = () => new mongo.GridFSBucket(connection.db, { bucketName: 'uploads' })
 
 /**
  * Retreaves a single gridfs document
@@ -47,5 +46,4 @@ exports.delete = (id) =>
  *
  * @param {String} filename
  */
-exports.streamByName = (filename) =>
-  this.gfs().openDownloadStreamByName(filename)
+exports.streamByName = (filename) => this.gfs().openDownloadStreamByName(filename)

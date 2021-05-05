@@ -24,19 +24,13 @@ export class Base {
   arrows() {
     this.submit = (e) => {
       e.preventDefault()
-      Object.values(this.errors).forEach(
-        (e) => this.submitCond && (e.value = '')
-      )
+      Object.values(this.errors).forEach((e) => this.submitCond && (e.value = ''))
 
       const { raw, json } = this.getBody()
 
       ;(async () => {
         try {
-          const data = await fetchEndpoint(
-            this.fetchUrl,
-            this.fetchMethod,
-            json
-          )
+          const data = await fetchEndpoint(this.fetchUrl, this.fetchMethod, json)
           this.handleData(data, raw)
         } catch (err) {
           console.log(err.message)

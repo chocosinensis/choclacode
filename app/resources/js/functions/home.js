@@ -38,11 +38,7 @@ export class Home {
   updateIcons() {
     this.icons.forEach(
       (i) =>
-        (i.textContent = this.main.classList.contains(
-          i.parentElement.dataset.theme
-        )
-          ? 'done'
-          : 'disabled_by_default')
+        (i.textContent = this.main.classList.contains(i.parentElement.dataset.theme) ? 'done' : 'disabled_by_default')
     )
   }
   theme() {

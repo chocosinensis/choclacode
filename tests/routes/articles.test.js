@@ -95,10 +95,7 @@ describe('PUT /articles/:slug/edit', () => {
       body: lorem.substr(0, 10),
     }
 
-    const res = await agent
-      .put(`/articles/${article.slug}/edit`)
-      .send(payload)
-      .expect(400)
+    const res = await agent.put(`/articles/${article.slug}/edit`).send(payload).expect(400)
     expect(res.body.article).toBeUndefined()
     expect(res.body.errors).toHaveProperty('title')
   })
@@ -107,8 +104,7 @@ describe('PUT /articles/:slug/edit', () => {
 describe('DELETE /articles/:slug/delete', () => {
   beforeEach(async () => await agent.post('/articles/create').send(article))
 
-  it('should properly delete the article', () =>
-    agent.delete(`/articles/${article.slug}/delete`).expect(200))
+  it('should properly delete the article', () => agent.delete(`/articles/${article.slug}/delete`).expect(200))
 })
 
 describe('POST /articles/:slug/like', () => {
@@ -132,8 +128,6 @@ describe('POST /articles/:slug/like', () => {
   it('should remove the like', async () => {
     await req.expect(201)
     const res = await agent.post(`/articles/${article.slug}/like`).expect(200)
-    expect(res.body.likes).not.toMatchObject([
-      { likedBy: { name: user.username } },
-    ])
+    expect(res.body.likes).not.toMatchObject([{ likedBy: { name: user.username } }])
   })
 })

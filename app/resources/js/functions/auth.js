@@ -27,9 +27,7 @@ export class Auth extends Base {
       this.form.password.value,
     ]
 
-    const obj = this.sup
-      ? { username, email, password }
-      : { username, password }
+    const obj = this.sup ? { username, email, password } : { username, password }
 
     return {
       json: JSON.stringify(obj),
@@ -43,10 +41,7 @@ export class Auth extends Base {
       this.errors.password.textContent = data.errors.password
       if (this.sup) this.errors.email.textContent = data.errors.email
     }
-    if (data.user)
-      location.assign(
-        new URLSearchParams(location.search).get('next') ?? '/dashboard'
-      )
+    if (data.user) location.assign(new URLSearchParams(location.search).get('next') ?? '/dashboard')
   }
 }
 
@@ -71,11 +66,7 @@ class ChangeProfileImage extends Base {
       }).then((r) => r.json())
 
       if (data.image) {
-        const { image, id } = await fetchEndpoint(
-          '/auth/account/image',
-          'PUT',
-          JSON.stringify({ image: data.image })
-        )
+        const { image, id } = await fetchEndpoint('/auth/account/image', 'PUT', JSON.stringify({ image: data.image }))
         this.image.src = image
         this.img && (await fetchEndpoint(`/images/${this.img}`, 'DELETE'))
         this.img = id
@@ -130,10 +121,7 @@ class ChangePassword extends Base {
   }
 
   getBody() {
-    const [current, newPass] = [
-      this.changeForm.current.value,
-      this.changeForm.new.value,
-    ]
+    const [current, newPass] = [this.changeForm.current.value, this.changeForm.new.value]
 
     const raw = { current, newPass }
 
@@ -176,10 +164,7 @@ class DeleteAccount extends Base {
   }
 
   getBody() {
-    const [email, password] = [
-      this.deleteForm.email.value,
-      this.deleteForm.password.value,
-    ]
+    const [email, password] = [this.deleteForm.email.value, this.deleteForm.password.value]
 
     const raw = { email, password }
 

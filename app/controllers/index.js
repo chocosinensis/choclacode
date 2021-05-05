@@ -13,8 +13,7 @@ exports.home_get = async (req, res) => {
   const articles = await Article.find().limit(2)
   const chocs = Chocolate.find()
   res.render('home', {
-    articles:
-      articles.length == 2 ? articles : require('../../data/articles.json'),
+    articles: articles.length == 2 ? articles : require('../../data/articles.json'),
     chocs: [chocs[9], chocs[6], chocs[3]],
   })
 }

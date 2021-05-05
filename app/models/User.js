@@ -23,10 +23,7 @@ const userSchema = new Schema({
     type: String,
     required: [true, 'Please enter an email'],
     unique: true,
-    validate: [
-      (val) => /^\w+([\.-]?\w)*@\w+(\.[a-z]{2,8}){1,2}$/g.test(val),
-      'Please enter a valid email address',
-    ],
+    validate: [(val) => /^\w+([\.-]?\w)*@\w+(\.[a-z]{2,8}){1,2}$/g.test(val), 'Please enter a valid email address'],
   },
   password: schemaType(6, 255, [
     'Please enter a password',

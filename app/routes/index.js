@@ -2,12 +2,7 @@
 
 const { Router } = require('express')
 
-const {
-  home_get,
-  about_get,
-  dashboard_get,
-  discuss_get,
-} = require('../controllers')
+const { home_get, about_get, dashboard_get, discuss_get } = require('../controllers')
 const { requireAuth, checkUser } = require('../middlewares/auth')
 const { error, errorHandler } = require('../middlewares/error')
 

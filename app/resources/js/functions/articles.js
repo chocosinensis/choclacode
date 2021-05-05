@@ -2,8 +2,7 @@ import marked from 'marked'
 
 import { $, $_, $$, Base } from '../utils'
 
-const textify = (str) =>
-  str.trim().replace(/(<\/?script(.)*?>|<\/?style>|<link)/g, '')
+const textify = (str) => str.trim().replace(/(<\/?script(.)*?>|<\/?style>|<link)/g, '')
 const slugify = (str) =>
   str
     .toLowerCase()
@@ -18,11 +17,7 @@ export class Article extends Base {
     super.toSubmit({
       cond: this.path == 'create',
       method,
-      url: `/articles/${
-        this.path == 'create'
-          ? this.path
-          : `${this.getBody().raw.slug}/${this.path}`
-      }`,
+      url: `/articles/${this.path == 'create' ? this.path : `${this.getBody().raw.slug}/${this.path}`}`,
     })
   }
 
@@ -47,8 +42,7 @@ export class Article extends Base {
     })
     this.form.body.addEventListener(
       'keyup',
-      () =>
-        (this.article.body.innerHTML = marked(textify(this.form.body.value)))
+      () => (this.article.body.innerHTML = marked(textify(this.form.body.value)))
     )
   }
 
@@ -56,16 +50,12 @@ export class Article extends Base {
     const [title, body, slug] = [
       this.form.title.value.trim(),
       textify(this.form.body.value),
-      this.path == 'create'
-        ? slugify(this.form.slug.value)
-        : location.pathname.split('/').slice(2)[0],
+      this.path == 'create' ? slugify(this.form.slug.value) : location.pathname.split('/').slice(2)[0],
     ]
 
     return {
       raw: { title, body, slug },
-      json: JSON.stringify(
-        this.path == 'create' ? { title, body, slug } : { title, body }
-      ),
+      json: JSON.stringify(this.path == 'create' ? { title, body, slug } : { title, body }),
     }
   }
 
@@ -96,21 +86,16 @@ Article.delete = () => {
 
 Article.like = () => {
   const like = $('a.like')
-  like.textContent =
-    like.dataset.liked == 'liked' ? 'favorite' : 'favorite_outline'
+  like.textContent = like.dataset.liked == 'liked' ? 'favorite' : 'favorite_outline'
   like.addEventListener('click', async () => {
     const { likes } = await fetch(`/articles/${like.dataset.doc}/like`, {
       method: 'POST',
     }).then((res) => res.json())
 
     if (likes) {
-      $('p.likes').innerHTML =
-        likes.length > 0
-          ? `${likes.length} ${likes.length == 1 ? 'like' : 'likes'}`
-          : ''
+      $('p.likes').innerHTML = likes.length > 0 ? `${likes.length} ${likes.length == 1 ? 'like' : 'likes'}` : ''
       like.dataset.liked = like.dataset.liked == 'liked' ? 'no' : 'liked'
-      like.textContent =
-        like.dataset.liked == 'liked' ? 'favorite' : 'favorite_outline'
+      like.textContent = like.dataset.liked == 'liked' ? 'favorite' : 'favorite_outline'
 
       if ($('ul.actions.likes')) {
         const peopleLiked = $('ul.actions.likes')
@@ -132,11 +117,7 @@ Article.details = () => {
 Article.search = () => {
   if (!$('input#search')) return
 
-  const [input, articlesUL, articles] = [
-    $('input#search'),
-    $('ul.articles'),
-    $$('ul.articles li.link'),
-  ]
+  const [input, articlesUL, articles] = [$('input#search'), $('ul.articles'), $$('ul.articles li.link')]
   const getLikes = (el) => $_(el, 'small.likes').textContent.split(' ')[0]
   input.addEventListener('keyup', () => {
     const value = input.value.trim().toLowerCase()
@@ -146,9 +127,7 @@ Article.search = () => {
         ;[...articles].reverse().forEach((el) => articlesUL.appendChild(el))
       } else if (value == '/likes') {
         const art = articles
-        ;[...art]
-          .sort((a, b) => getLikes(b) - getLikes(a))
-          .forEach((el) => articlesUL.appendChild(el))
+        ;[...art].sort((a, b) => getLikes(b) - getLikes(a)).forEach((el) => articlesUL.appendChild(el))
       } else {
         ;[...articles].forEach((el) => articlesUL.appendChild(el))
       }
@@ -157,9 +136,7 @@ Article.search = () => {
     const selector = value.startsWith('@') ? '.author' : 'h1'
     articlesUL.innerHTML = ''
     ;[...articles]
-      .filter((li) =>
-        $_(li, `a ${selector}`).textContent.toLowerCase().includes(value)
-      )
+      .filter((li) => $_(li, `a ${selector}`).textContent.toLowerCase().includes(value))
       .forEach((li) => articlesUL.appendChild(li))
   })
 }

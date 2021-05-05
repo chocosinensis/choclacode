@@ -158,8 +158,7 @@ header {
 
       &.reverse {
         width: 200vw;
-        animation: slide 1s ease 1 forwards reverse,
-          fade 1s ease forwards reverse;
+        animation: slide 1s ease 1 forwards reverse, fade 1s ease forwards reverse;
 
         ul {
           width: 20%;

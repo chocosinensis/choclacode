@@ -9,9 +9,7 @@ const User = require('../models/User')
  * @param {import('express').Response} res
  */
 exports.users_get = async (req, res) => {
-  const users = (
-    await User.find({ deleted: false })
-  ).map(({ username, profileImg }) => ({ username, profileImg }))
+  const users = (await User.find({ deleted: false })).map(({ username, profileImg }) => ({ username, profileImg }))
 
   res.render('users/home', { users })
 }

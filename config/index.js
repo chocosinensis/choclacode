@@ -57,9 +57,4 @@ module.exports = (app) =>
 
     // middlewares
     .use('/public', cors(), express.static(resolve(__dirname, '../public')))
-    .use(
-      express.urlencoded({ extended: true }),
-      express.json(),
-      cookie(),
-      rootRouter
-    )
+    .use(express.urlencoded({ extended: true }), express.json(), cookie(), rootRouter)

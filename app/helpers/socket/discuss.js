@@ -42,22 +42,12 @@ const inspire = (msg) => {
   let surahNo, ayahNo
   if (msg) [surahNo, ayahNo] = msg.split(':')
 
-  if (
-    isNaN(surahNo) ||
-    !isFinite(surahNo) ||
-    parseInt(surahNo) < 1 ||
-    114 < parseInt(surahNo)
-  )
+  if (isNaN(surahNo) || !isFinite(surahNo) || parseInt(surahNo) < 1 || 114 < parseInt(surahNo))
     surahNo = Math.floor(Math.random() * 114) + 1
 
   const { info, surah } = Surah.findById(parseInt(surahNo))
 
-  if (
-    isNaN(ayahNo) ||
-    !isFinite(ayahNo) ||
-    parseInt(ayahNo) < 1 ||
-    surah.length < parseInt(ayahNo)
-  )
+  if (isNaN(ayahNo) || !isFinite(ayahNo) || parseInt(ayahNo) < 1 || surah.length < parseInt(ayahNo))
     ayahNo = Math.floor(Math.random() * (surah.length - 1)) + 1
 
   const ayah = surah[parseInt(ayahNo) - 1]
@@ -124,17 +114,9 @@ exports.discuss = (io) => {
     socket.emit('connection')
     socket.on('newuser__discuss', ({ name }) => {
       _name = name
-      users = users.includes({ name })
-        ? users
-        : [...users, { name, id: socket.id }]
-      socket.emit(
-        'sendmsg__discuss',
-        botMsg(`Welcome to the discussion area, @${_name} ! 👋️`)
-      )
-      socket.broadcast.emit(
-        'sendmsg__discuss',
-        botMsg(`@${_name} joined the discussion 😀️`)
-      )
+      users = users.includes({ name }) ? users : [...users, { name, id: socket.id }]
+      socket.emit('sendmsg__discuss', botMsg(`Welcome to the discussion area, @${_name} ! 👋️`))
+      socket.broadcast.emit('sendmsg__discuss', botMsg(`@${_name} joined the discussion 😀️`))
       io.sockets.emit(
         'users__discuss',
         users.map(({ name }) => name)
@@ -147,8 +129,7 @@ exports.discuss = (io) => {
         .filter((m) => m.startsWith('@'))
         .map((m) => m.slice(1))
       socket.emit('sendmsg__discuss', msgToSend)
-      if (!msg.match(/^\s*-p\s+/g))
-        socket.broadcast.emit('sendmsg__discuss', msgToSend)
+      if (!msg.match(/^\s*-p\s+/g)) socket.broadcast.emit('sendmsg__discuss', msgToSend)
       mentions.length &&
         mentions.forEach((n) => {
           if (n == 'chocoBot')
@@ -173,19 +154,12 @@ exports.discuss = (io) => {
               )
             )
           else if (n.toLowerCase() == 'everyone')
-            io.sockets.emit(
-              'sendmsg__discuss',
-              botMsg(likeMsg(msgToSend.id, `@${name} mentioned everyone`))
-            )
+            io.sockets.emit('sendmsg__discuss', botMsg(likeMsg(msgToSend.id, `@${name} mentioned everyone`)))
           else {
             const user = users.find((u) => u.name == n)
             if (user) {
-              if (msg.match(/^\s*-p\s+/g))
-                socket.to(user.id).emit('sendmsg__discuss', msgToSend)
-              else
-                socket
-                  .to(user.id)
-                  .emit('sendmsg__discuss', botMsg(`@${name} mentioned you`))
+              if (msg.match(/^\s*-p\s+/g)) socket.to(user.id).emit('sendmsg__discuss', msgToSend)
+              else socket.to(user.id).emit('sendmsg__discuss', botMsg(`@${name} mentioned you`))
             }
           }
         })
@@ -193,10 +167,7 @@ exports.discuss = (io) => {
     socket.on('msglike__discuss', ({ id }) => like(id))
     socket.on('disconnect', () => {
       users = users.filter(({ name }) => name != _name)
-      socket.broadcast.emit(
-        'sendmsg__discuss',
-        botMsg(`@${_name} left the discussion 😥️`)
-      )
+      socket.broadcast.emit('sendmsg__discuss', botMsg(`@${_name} left the discussion 😥️`))
       socket.broadcast.emit(
         'users__discuss',
         users.map(({ name }) => name)

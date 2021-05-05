@@ -21,5 +21,4 @@ exports.error = (status, detail, err = null) => (req, res) =>
  * @param {import('express').Response} res
  * @param {import('express').NextFunction} next
  */
-exports.errorHandler = (err, req, res, next) =>
-  this.error(500, 'Internal Server Error', err)(req, res)
+exports.errorHandler = (err, req, res, next) => this.error(500, 'Internal Server Error', err)(req, res)
