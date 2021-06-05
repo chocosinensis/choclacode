@@ -1,0 +1,92 @@
+// $variables...
+$primary: #4d2f14
+$secondary: #886546
+$tertiary: #5d4632
+
+$font-pr: #301904
+$font-se: whitesmoke
+$font-te: #555
+$font-url: '/public/assets/fonts/'
+
+$grad-pr: -webkit-linear-gradient(right, $primary, $secondary)
+$grad-se: -webkit-linear-gradient(right, $secondary, $tertiary)
+$grad-te: -webkit-linear-gradient(right, $primary, $tertiary)
+
+$breakpoint-xs: 0
+$breakpoint-sm: 576px
+$breakpoint-md: 768px
+$breakpoint-lg: 992px
+$breakpoint-xl: 1200px
+
+// @mixin...
+@mixin media($breakpoint)
+  @media screen and (max-width: $breakpoint)
+    &
+      @content
+
+@mixin none
+  display: none
+
+@mixin invisible
+  opacity: 0
+  pointer-events: none
+
+@mixin nosb
+  scrollbar-width: none
+
+  &::-webkit-scrollbar
+    height: 0
+    width: 0
+
+@mixin insideUl
+  ul
+    list-style-type: circle
+
+    ul
+      list-style-type: square
+
+// fonts
+// @import...
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Fira+Code:wght@300')
+@import url('https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined')
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css')
+
+.eng
+  font-family: 'Poppins', sans-serif
+
+.ban
+  font-family: 'Siyam Rupali'
+
+.ara
+  font-family: 'Janna LT'
+
+pre,
+code
+  font-family: 'Fira Code', 'Courier New', Courier, monospace
+  font-weight: 300 !important
+
+// @font-face...
+@font-face
+  font-family: 'Siyam Rupali'
+  src: url('#{$font-url}Siyamrupali.ttf')
+
+@font-face
+  font-family: 'Janna LT'
+  src: url('#{$font-url}JannaLT.ttf')
+
+// @keyframes...
+@keyframes slide
+  from
+    margin-left: -100%
+    color: $primary
+
+  to
+    margin-left: 0
+    color: $font-se
+
+@keyframes fade
+  from
+    opacity: 0
+
+  to
+    opacity: 1

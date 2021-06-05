@@ -1,0 +1,135 @@
+#chatsect
+  min-height: 90vh
+  width: 80vw
+  margin: 20px auto
+  background-image: $grad-pr
+  border-radius: 36px
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2)
+
+  #chatbox
+    display: flex
+    flex-direction: column
+    height: 70vh
+    overflow-y: scroll
+    padding: 0
+
+    li
+      width: fit-content
+      max-width: 40vw
+      margin: 25px 15px !important
+      display: flex
+      flex-direction: column
+      position: relative
+
+      p
+        margin: 0
+        line-height: 20px
+
+      .name
+        margin-left: 15px
+        margin-bottom: 5px
+        font-size: 15px
+        text-align: left
+        color: $font-pr
+
+      .msg
+        display: flex
+
+        @include media($breakpoint-sm)
+          position: relative
+
+          .time
+            position: absolute
+            top: 50%
+            left: calc(100% + 3px)
+            transform: translate(0, -50%)
+
+      .text
+        display: inline-block
+        padding: 10px 20px
+        border-radius: 36px
+        min-height: 20px
+        line-height: 20px
+        background: $font-pr
+        color: $font-se
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.5)
+        overflow-x: scroll
+        word-wrap: break-word
+
+      .time
+        color: $font-pr
+        opacity: 0.1
+        margin: auto 4px
+        transition: opacity 0.2s ease-out
+        cursor: default
+
+      .like
+        padding: 5px
+        color: $font-se
+        background-color: $primary
+        position: absolute
+        left: 10px
+        bottom: -12px
+        border-radius: 36px
+        font-size: 0.5rem
+        opacity: 0.5
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.2)
+        transition: opacity 0.2s ease-out
+
+      a
+        color: $tertiary
+        text-decoration: underline
+
+      img
+        max-height: 50px
+        max-width: 50px
+
+      &:last-of-type
+        animation: fade 0.1s ease 1
+
+      &:hover
+        .time,
+        .like
+          opacity: 1
+
+      &.self
+        align-self: flex-end
+        margin: 10px 15px !important
+
+        .msg
+          flex-direction: row-reverse
+
+          @include media($breakpoint-sm)
+            position: relative
+
+            .time
+              position: absolute
+              left: -45px
+
+        .like
+          left: auto
+          right: 10px
+
+    *
+      @include nosb
+
+  form
+    flex-direction: row
+
+    *
+      margin: 20px auto
+
+    textarea
+      height: 30px
+      line-height: 30px
+      padding: 2.5px 8.5px
+      margin: 10px
+      max-width: $breakpoint-sm
+      width: 100%
+      resize: none
+
+  #chatbox *
+    @include nosb
+
+  & ~ section .preview ul li
+    line-height: 30px

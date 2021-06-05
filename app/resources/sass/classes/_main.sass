@@ -1,0 +1,198 @@
+// @import...
+@import 'dropdown'
+@import 'card'
+
+// mixins
+@mixin btnhover
+  background-color: $secondary
+  color: $primary
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2)
+
+@mixin quote
+  display: block
+  padding-left: 20px
+  border-left: 3px solid $primary
+  overflow-x: hidden
+
+// classes
+.color
+  &,
+  & *
+    color: $primary
+
+.container
+  max-width: 1200px
+  margin: 20px auto
+
+.grid
+  display: grid
+  grid-template-columns: repeat(12, 1fr)
+
+.title
+  background-image: $grad-pr
+  background-clip: unset
+  -webkit-background-clip: text
+  -webkit-text-fill-color: transparent
+  width: fit-content
+
+.center-align
+  text-align: center
+  margin-left: auto
+  margin-right: auto
+
+img[alt='logo']
+  width: 100px
+  height: 100px
+
+img.avatar
+  height: 75px
+  width: 75px
+  max-height: 75px
+  max-width: 75px
+  object-fit: cover
+  border-radius: 50%
+  box-shadow: 0 0 4px rgba($color: #000, $alpha: 0.5)
+
+.btn
+  color: $font-se
+  background-color: $primary
+  padding: 7.5px 10px
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2)
+  border-radius: 36px
+  cursor: pointer
+
+  &:hover
+    @include btnhover
+
+input[type='submit']:hover
+  @include btnhover
+
+.quote
+  max-width: $breakpoint-md
+  margin: 50px auto
+  background-image: $grad-pr
+  padding: 10px 20px
+  border-radius: 36px
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2)
+
+  @mixin anim
+    animation: slide 1s ease 1 normal, slide 1s ease 6s 1 reverse
+
+  .content
+    @include quote
+
+  q
+    font-size: 1.75em
+    color: $font-se
+    @include anim
+
+  a
+    color: $font-se
+    @include anim
+
+blockquote
+  margin: 10px
+  @include quote
+
+.code
+  max-height: 500px
+  max-width: $breakpoint-md
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2)
+  border-left: 5px solid $primary
+  border-top-right-radius: 24px
+  border-bottom-right-radius: 24px
+  overflow: scroll
+  margin: auto
+
+  pre
+    padding: 20px
+    margin: 0 auto
+
+.code,
+.articles,
+.nosb
+  @include nosb
+
+.tag
+  padding: 5px 7.5px
+  background-color: $font-pr
+  color: $font-se
+  border-radius: 36px
+  box-shadow: 0 0 4px rgba($color: #000, $alpha: 0.5)
+
+.preview
+  max-width: $breakpoint-sm
+  padding: 20px
+  margin: 50px auto
+  display: flex
+  flex-direction: column
+  align-items: center
+  border-radius: 36px
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2)
+
+  .btn
+    margin: 20px auto
+
+  &.account
+    .img
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+
+      span.upload
+        background: $font-pr
+        color: $font-se
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2)
+
+        &:hover
+          @include btnhover
+
+      form.image
+        input[type='file']
+          @include none
+
+  &.cover
+    height: 12rem
+    width: 36rem
+    padding: 0
+    background: url('/public/assets/img/logo/cover.png') no-repeat center center
+    background-size: contain
+
+    @include media($breakpoint-md)
+      height: 10rem
+      width: 30rem
+
+    @include media($breakpoint-sm)
+      height: 5rem
+      width: 15rem
+
+.error
+  color: #ffa0a0 !important
+  text-align: center
+  font-size: 15px
+
+.desktop
+  @include media($breakpoint-lg)
+    @include none
+
+.flex
+  display: flex
+  justify-content: space-evenly
+  flex-wrap: wrap
+  margin: 50px 0
+
+  li
+    background-image: $grad-pr
+    border-radius: 36px
+    min-width: 250px
+    margin: 20px
+
+  a
+    display: block
+    padding: 10px 20px
+    text-align: center
+    color: $font-se
+
+.hidden
+  @include none

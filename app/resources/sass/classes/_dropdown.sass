@@ -1,0 +1,51 @@
+.dropdown
+  position: relative
+  display: flex
+  flex-direction: column
+  align-items: center
+  min-width: 50px
+  border-radius: 36px
+  padding: 0
+
+  p
+    min-width: 50px
+    margin: 5px auto
+    padding: 5px 7.5px
+    color: $primary
+    text-align: center
+    border-radius: 36px
+    cursor: pointer
+
+    &:hover
+      background-color: $primary
+      color: $font-se
+
+  div
+    position: absolute
+    top: 40px
+    min-width: 100px
+    display: flex
+    flex-direction: column
+    background-color: $font-se
+    transition: opacity 0.4s ease
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5)
+    z-index: 1
+    opacity: 0
+    pointer-events: none
+
+    a
+      margin: 0
+      padding: 7.5px 10px
+      border-radius: 0
+      text-align: center
+
+      &:hover
+        background-color: $primary
+        &,
+        & *
+          color: $font-se
+
+  &:hover
+    div
+      opacity: 1
+      pointer-events: all

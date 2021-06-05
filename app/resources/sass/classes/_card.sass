@@ -1,0 +1,41 @@
+.card-container
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+
+  .card
+    width: 30%
+    margin: 20px auto
+    padding: 0
+    border-radius: 12px
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5)
+
+    &-img
+      display: flex
+      align-items: center
+      justify-content: center
+      min-width: 100%
+      min-height: 200px
+      background-position: center
+      background-size: cover
+      border-top-left-radius: 12px
+      border-top-right-radius: 12px
+
+    &-title
+      margin: 0
+      padding: 20px
+      border-bottom: 0.5px solid rgba(0, 0, 0, 0.2)
+
+    &-link
+      padding: 20px
+      display: flex
+      justify-content: flex-end
+
+    @include media($breakpoint-lg)
+      width: 40%
+
+    @include media($breakpoint-md)
+      width: 80%
+
+    @include media($breakpoint-sm)
+      width: 100%

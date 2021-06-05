@@ -1,6 +1,6 @@
 {
   "name": "choclacode",
-  "version": "2.7.1",
+  "version": "2.7.2",
   "description": "Choclacode official website",
   "main": "app",
   "author": "Saqib <saqib@choclacode.eu.org> (http://choclacode.eu.org/)",
@@ -15,7 +15,7 @@
     "serve:app": "npx nodemon --config config/nodemon.json",
     "build": "npx concurrently \"npm:build:*\"",
     "build:js": "webpack --config config/webpack.js",
-    "build:sass": "npx sass app/resources/sass/main.scss public/main.css --style=compressed --no-source-map",
+    "build:sass": "npx sass app/resources/sass/main.sass public/main.css --style=compressed --no-source-map",
     "watch": "npx concurrently \"npm:watch:*\"",
     "watch:js": "npm run build:js -- -w",
     "watch:sass": "npm run build:sass -- -w"

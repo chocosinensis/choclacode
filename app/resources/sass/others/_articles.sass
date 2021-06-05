@@ -1,0 +1,67 @@
+.articles
+  max-height: 700px
+  width: 90%
+  padding: 0
+  margin: 50px 0
+  overflow: scroll
+  box-sizing: border-box
+
+.article
+  .title
+    margin-bottom: 30px
+
+  .author
+    font-size: 1.2em
+
+  &.link
+    padding-left: 50px
+    border-left: 10px solid $primary
+
+    a
+      display: block
+
+      *
+        margin: 20px 0 10px
+
+    small.likes
+      opacity: 0.5
+
+    &:hover
+      border-left-color: $secondary
+
+  @mixin ul
+    list-style-type: disc
+    padding-inline-start: 20px
+
+    &
+      @include insideUl
+
+  &.details
+    .title
+      text-align: center
+      margin: 0 auto 50px
+
+    ul:not(.actions)
+      @include ul
+
+    ul.actions
+      display: flex
+
+      li
+        margin-right: 30px
+
+      &.likes
+        flex-wrap: wrap
+
+        li
+          margin-top: 10px
+
+  & ~ .preview
+    ul
+      @include ul
+
+  blockquote > *
+    width: 80%
+    font-size: larger
+    font-weight: bold
+    margin: 10px auto
