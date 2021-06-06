@@ -17,6 +17,7 @@ exports.quran_get = (req, res) => res.render('quran/home', { surahs })
  *
  * @param {import('express').Request} req
  * @param {import('express').Response} res
+ * @param {import('express').NextFunction} next
  */
 exports.surah_get = (req, res, next) => {
   try {

@@ -2,18 +2,40 @@
 run:
 	npm run serve
 
-# docker
-docup:
-	docker-compose -f ./config/.docker/docker-compose.yml up -d
+docdevup:
+	docker-compose \
+		-f ./config/.docker/docker-compose.yml \
+		-f ./config/.docker/docker-compose.dev.yml \
+		up -d
 
-docbuild:
-	docker-compose -f ./config/.docker/docker-compose.yml up -d --build
+docdevbuild:
+	docker-compose \
+		-f ./config/.docker/docker-compose.yml \
+		-f ./config/.docker/docker-compose.dev.yml \
+		up -d --build
 
-docdown:
-	docker-compose -f ./config/.docker/docker-compose.yml down
+docdevdown:
+	docker volume prune -f && \
+	docker-compose \
+		-f ./config/.docker/docker-compose.yml \
+		-f ./config/.docker/docker-compose.dev.yml \
+		down
 
-# git
-or:
+# production
+docprodup:
+	docker-compose \
+		-f ./config/.docker/docker-compose.yml \
+		-f ./config/.docker/docker-compose.prod.yml \
+		up -d --build
+
+docproddown:
+	docker volume prune -f && \
+	docker-compose \
+		-f ./config/.docker/docker-compose.yml \
+		-f ./config/.docker/docker-compose.prod.yml \
+		down
+
+push:
 	git push origin main
 
 prod:

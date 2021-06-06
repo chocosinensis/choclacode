@@ -5,26 +5,28 @@ const marked = require('marked')
 const Article = require('../../models/Article')
 const { getArticleBySlug, getArticle } = require('../../services/articles')
 const { handleErrors } = require('../../helpers/functions')
-const { error } = require('../../middlewares/error')
+const { logger, error } = require('../../helpers/logger')
 
 /**
  * @route GET /articles/:slug
  *
  * @param {import('express').Request} req
  * @param {import('express').Response} res
+ * @param {import('express').NextFunction} next
  */
-exports.article_get = (req, res) =>
+exports.article_get = (req, res, next) =>
   getArticleBySlug(res.locals.slug)
     .then((article) => res.render('articles/details', { article }))
-    .catch(() => error(404, 'Not Found')(req, res))
+    .catch(() => next())
 
 /**
  * @route GET /articles/:slug/edit
  *
  * @param {import('express').Request} req
  * @param {import('express').Response} res
+ * @param {import('express').NextFunction} next
  */
-exports.editarticle_get = async (req, res) => {
+exports.editarticle_get = async (req, res, next) => {
   const { id, username } = res.locals.user
   const { slug } = res.locals
   const article = await getArticle({
@@ -40,7 +42,7 @@ exports.editarticle_get = async (req, res) => {
         body: marked(article.body),
       },
     })
-  else err404(req, res)
+  else next()
 }
 
 /**
@@ -61,9 +63,11 @@ exports.editarticle_put = async (req, res) => {
       title,
       body,
     })
+    logger.log(`Article edited: ~@['${title}'] :.= ${username}`)
     res.status(200).json({ article: article._id })
   } catch (err) {
     const errors = handleErrors(err).article
+    error.log(`Article editing failed: ~@['${title}']\t${err.stack}`)
     res.status(400).json({ errors })
   }
 }
@@ -74,12 +78,19 @@ exports.editarticle_put = async (req, res) => {
  * @param {import('express').Request} req
  * @param {import('express').Response} res
  */
-exports.deletearticle = (req, res) => {
+exports.deletearticle = async (req, res) => {
   const { slug } = res.locals
   const { id, username } = res.locals.user
+  const { title } = await Article.findOne({ slug })
   Article.delete(slug, id, username)
-    .then(() => res.status(200).json({ redirect: '/articles' }))
-    .catch(() => res.status(400).json({ redirect: '/articles' }))
+    .then(() => {
+      logger.log(`Article deleted: ~@['${title}']`)
+      res.status(200).json({ redirect: '/articles' })
+    })
+    .catch((err) => {
+      error.log(`Article deletion failed: ~@['${title}']\t${err.stack}`)
+      res.status(400).json({ redirect: '/articles' })
+    })
 }
 
 /**

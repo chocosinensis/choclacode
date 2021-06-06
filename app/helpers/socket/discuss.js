@@ -4,6 +4,14 @@ const marked = require('marked')
 
 const Surah = require('../../models/Surah')
 
+const events = {
+  newuser: 'newuser__discuss',
+  users: 'users__discuss',
+  newmsg: 'newmsg__discuss',
+  sendmsg: 'sendmsg__discuss',
+  msglike: 'msglike__discuss',
+}
+
 const bot = 'chocoBot'
 const emoticons = {
   shrug: '¯\\\\\\_(ツ)\\_/¯',
@@ -61,11 +69,7 @@ const msgify = (msg) =>
       .replace(/\n/g, ' <br> ')
       .replace(/&lt;br&gt;/g, '<br>')
   )
-const emotify = (msg) => {
-  if (!msg.startsWith('/')) return msg
-
-  return emoticons[msg.substring(1, msg.length)] ?? msg
-}
+const emotify = (msg) => (!msg.startsWith('/') ? msg : emoticons[msg.substring(1, msg.length)] ?? msg)
 const cleanify = (msg) =>
   (msg.startsWith('@') || msg.startsWith('#')) && msg.length > 1
     ? `<span class="title">${msg}</span>`
@@ -103,7 +107,7 @@ const botMsg = (msg, time = getTime()) => markupify({ name: bot, msg, time })
 exports.discuss = (io) => {
   let users = []
 
-  const like = (id) => io.sockets.emit('msglike__discuss', { id })
+  const like = (id) => io.sockets.emit(events.msglike, { id })
   const likeMsg = (id, msg) => {
     like(id)
     return msg
@@ -112,29 +116,29 @@ exports.discuss = (io) => {
   io.on('connection', (socket) => {
     let _name
     socket.emit('connection')
-    socket.on('newuser__discuss', ({ name }) => {
+    socket.on(events.newuser, ({ name }) => {
       _name = name
       users = users.includes({ name }) ? users : [...users, { name, id: socket.id }]
-      socket.emit('sendmsg__discuss', botMsg(`Welcome to the discussion area, @${_name} ! 👋️`))
-      socket.broadcast.emit('sendmsg__discuss', botMsg(`@${_name} joined the discussion 😀️`))
+      socket.emit(events.sendmsg, botMsg(`Welcome to the discussion area, @${_name} ! 👋️`))
+      socket.broadcast.emit(events.sendmsg, botMsg(`@${_name} joined the discussion 😀️`))
       io.sockets.emit(
-        'users__discuss',
+        events.users,
         users.map(({ name }) => name)
       )
     })
-    socket.on('newmsg__discuss', ({ name, msg }) => {
+    socket.on(events.newmsg, ({ name, msg }) => {
       const msgToSend = markupify({ name, msg, time: getTime() })
       const mentions = msg
         .split(/\s+/gs)
         .filter((m) => m.startsWith('@'))
         .map((m) => m.slice(1))
-      socket.emit('sendmsg__discuss', msgToSend)
-      if (!msg.match(/^\s*-p\s+/g)) socket.broadcast.emit('sendmsg__discuss', msgToSend)
+      socket.emit(events.sendmsg, msgToSend)
+      if (!msg.match(/^\s*-p\s+/g)) socket.broadcast.emit(events.sendmsg, msgToSend)
       mentions.length &&
         mentions.forEach((n) => {
           if (n == 'chocoBot')
             io.sockets.emit(
-              'sendmsg__discuss',
+              events.sendmsg,
               botMsg(
                 msg.toLowerCase().includes('thank')
                   ? likeMsg(msgToSend.id, `My pleasure @${name} 😊️`)
@@ -154,22 +158,22 @@ exports.discuss = (io) => {
               )
             )
           else if (n.toLowerCase() == 'everyone')
-            io.sockets.emit('sendmsg__discuss', botMsg(likeMsg(msgToSend.id, `@${name} mentioned everyone`)))
+            io.sockets.emit(events.sendmsg, botMsg(likeMsg(msgToSend.id, `@${name} mentioned everyone`)))
           else {
             const user = users.find((u) => u.name == n)
             if (user) {
-              if (msg.match(/^\s*-p\s+/g)) socket.to(user.id).emit('sendmsg__discuss', msgToSend)
-              else socket.to(user.id).emit('sendmsg__discuss', botMsg(`@${name} mentioned you`))
+              if (msg.match(/^\s*-p\s+/g)) socket.to(user.id).emit(events.sendmsg, msgToSend)
+              else socket.to(user.id).emit(events.sendmsg, botMsg(`@${name} mentioned you`))
             }
           }
         })
     })
-    socket.on('msglike__discuss', ({ id }) => like(id))
+    socket.on(events.msglike, ({ id }) => like(id))
     socket.on('disconnect', () => {
       users = users.filter(({ name }) => name != _name)
-      socket.broadcast.emit('sendmsg__discuss', botMsg(`@${_name} left the discussion 😥️`))
+      socket.broadcast.emit(events.sendmsg, botMsg(`@${_name} left the discussion 😥️`))
       socket.broadcast.emit(
-        'users__discuss',
+        events.users,
         users.map(({ name }) => name)
       )
     })

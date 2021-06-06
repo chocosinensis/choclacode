@@ -1,6 +1,7 @@
 'use strict'
 
 const Grid = require('../models/Grid')
+const { logger } = require('../helpers/logger')
 
 /**
  * @route POST /images
@@ -9,6 +10,7 @@ const Grid = require('../models/Grid')
  * @param {import('express').Response} res
  */
 exports.images_post = (req, res) => {
+  logger.log(`New image created: ~@[/images/${req.file.filename}]`)
   res.json({ image: `/images/${req.file.filename}` })
 }
 

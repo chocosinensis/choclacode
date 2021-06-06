@@ -9,8 +9,10 @@ const socketio = require('socket.io')
 
 require('../app/helpers/functions').dotenv()
 const rootRouter = require('../app/routes')
+const { morgan } = require('../app/middlewares')
 const { uri } = require('../app/helpers/constants')
 const socket = require('../app/helpers/socket')
+const { logger, error } = require('../app/helpers/logger')
 
 const connectDatabase = async () => {
   try {
@@ -19,7 +21,10 @@ const connectDatabase = async () => {
       useUnifiedTopology: true,
       useCreateIndex: true,
     })
-  } catch {}
+    logger.log(`Database Connected ~~> ~@[${process.env.DB_ATLAS == 'false' ? uri() : 'Atlas'}]`)
+  } catch (err) {
+    error.log(err.stack.toString())
+  }
 }
 
 /**
@@ -29,6 +34,8 @@ const connectDatabase = async () => {
  * @param {import('express').Application} app
  */
 const listen = (app) => {
+  logger.log('Application Started')
+
   const { PORT, NODE_ENV } = process.env
 
   if (NODE_ENV === 'test') return app
@@ -37,6 +44,7 @@ const listen = (app) => {
 
   const server = app.listen(PORT)
   socket(socketio(server))
+  logger.log(`Application Listening ==> ~@[http://localhost:${PORT}]`)
 
   return app
 }
@@ -57,4 +65,4 @@ module.exports = (app) =>
 
     // middlewares
     .use('/public', cors(), express.static(resolve(__dirname, '../public')))
-    .use(express.urlencoded({ extended: true }), express.json(), cookie(), rootRouter)
+    .use(express.urlencoded({ extended: true }), express.json(), cookie(process.env.COOKIE_SECRET), morgan, rootRouter)

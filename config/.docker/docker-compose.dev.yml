@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  choc:
+    build:
+      args:
+        NODE_ENV: development
+    env_file:
+      - ../.env/.env.dev
+    volumes:
+      - ../../app:/usr/src/app/app
+      - ../../config:/usr/src/app/config
+      - ../../data:/usr/src/app/data
+      - ../../public:/usr/src/app/public
+    command: npm run serve

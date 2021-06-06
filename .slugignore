@@ -4,6 +4,7 @@
 
 # development
 /tests
+/logs
 **/.*
 **/*.md
 !/.gitignore

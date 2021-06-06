@@ -2,6 +2,14 @@ import io from 'socket.io-client'
 
 import { $, $_, $$_, Base } from '../utils'
 
+const events = {
+  newuser: 'newuser__discuss',
+  users: 'users__discuss',
+  newmsg: 'newmsg__discuss',
+  sendmsg: 'sendmsg__discuss',
+  msglike: 'msglike__discuss',
+}
+
 export class Discuss extends Base {
   constructor() {
     super()
@@ -24,7 +32,7 @@ export class Discuss extends Base {
       this.form.msg.focus()
       const msg = this.form.msg.value
       if (msg == '' || /^\s+$/g.test(msg)) return
-      this.socket.emit('newmsg__discuss', { name: this.name, msg })
+      this.socket.emit(events.newmsg, { name: this.name, msg })
       this.form.msg.value = ''
     }
     this.handleKeyDown = (e) => {
@@ -67,7 +75,7 @@ export class Discuss extends Base {
           'dblclick',
           () => {
             this.likes.push(li.dataset.id)
-            this.socket.emit('msglike__discuss', { id: li.dataset.id })
+            this.socket.emit(events.msglike, { id: li.dataset.id })
           },
           { once: true }
         )
@@ -96,12 +104,9 @@ export class Discuss extends Base {
     this.form.msg.addEventListener('keydown', this.handleKeyDown)
   }
   socketEvents() {
-    this.socket.on('connection', () => this.socket.emit('newuser__discuss', { name: this.name }))
-    this.socket.on(
-      'users__discuss',
-      (data) => (this.users.innerHTML = data.map((user) => `<li>@${user}</li>`).join(''))
-    )
-    this.socket.on('sendmsg__discuss', this.sendmsg)
-    this.socket.on('msglike__discuss', this.msglike)
+    this.socket.on('connection', () => this.socket.emit(events.newuser, { name: this.name }))
+    this.socket.on(events.users, (data) => (this.users.innerHTML = data.map((user) => `<li>@${user}</li>`).join('')))
+    this.socket.on(events.sendmsg, this.sendmsg)
+    this.socket.on(events.msglike, this.msglike)
   }
 }

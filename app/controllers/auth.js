@@ -4,6 +4,7 @@ const User = require('../models/User')
 const Grid = require('../models/Grid')
 const { maxAge } = require('../helpers/constants')
 const { handleErrors, createToken } = require('../helpers/functions')
+const { logger, error } = require('../helpers/logger')
 
 /**
  * @route GET /auth/signup
@@ -25,9 +26,11 @@ exports.signup_post = async (req, res) => {
     const user = await User.create({ username, email, password })
     const token = createToken(user._id)
     res.cookie('jwt', token, { httpOnly: true, maxAge: maxAge * 1000 })
+    logger.log(`New user created: ~@[${user.username}]`)
     res.status(201).json({ user: user._id })
   } catch (err) {
     const errors = handleErrors(err).auth
+    error.log(`User creation failed: ~@[${username}]\t${err.stack}`)
     res.status(400).json({ errors })
   }
 }
@@ -52,9 +55,11 @@ exports.login_post = async (req, res) => {
     const user = await User.login(username, password)
     const token = createToken(user._id)
     res.cookie('jwt', token, { httpOnly: true, maxAge: maxAge * 1000 })
+    logger.log(`User logged in: ~@[${user.username}]`)
     res.status(200).json({ user: user._id })
   } catch (err) {
     const errors = handleErrors(err).auth
+    error.log(`User login failed: ~@[${username}]\t${err.stack}`)
     res.status(400).json({ errors })
   }
 }
@@ -67,6 +72,7 @@ exports.login_post = async (req, res) => {
  */
 exports.logout_get = (req, res) => {
   res.cookie('jwt', '', { maxAge: 1 })
+  logger.log(`Logging out user: ~@[${res.locals?.user?.username}]`)
   res.redirect('/')
 }
 
@@ -91,16 +97,18 @@ exports.account_get = async (req, res) => {
  * @param {import('express').Response} res
  */
 exports.password_edit = async (req, res) => {
-  const { email } = res.locals.user
+  const { email, username } = res.locals.user
   const { current, newPass } = req.body
   try {
     const user = await User.changePassword({
       email,
       password: { current, newPass },
     })
+    logger.log(`Updated password for user: ~@[${username}]`)
     res.status(200).json({ user: user._id })
   } catch (err) {
     const errors = handleErrors(err).auth
+    error.log(`Password updating failed for user: ~@[${username}]\t${err.stack}`)
     res.status(400).json({ errors })
   }
 }
@@ -129,12 +137,15 @@ exports.profileimage_edit = async (req, res) => {
  */
 exports.account_delete = async (req, res) => {
   const { email, password } = req.body
+  const { id, username } = res.locals.user
   try {
-    const user = await User.delete(res.locals.user.id, email, password)
+    const user = await User.delete(id, email, password)
     res.cookie('jwt', '', { maxAge: 1 })
+    logger.log(`User deleted: ~@[${username}]`)
     res.status(200).json({ user: user._id })
   } catch (err) {
     const errors = handleErrors(err).auth
+    error.log(`User deletion failed: ~@[${username}]\t${err.stack}`)
     res.status(400).json({ errors })
   }
 }

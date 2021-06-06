@@ -1,5 +1,19 @@
 'use strict'
 
+const { logger } = require('../helpers/logger')
+
+/**
+ * Local `morgan` middleware
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ * @param {import('express').NextFunction} next
+ */
+exports.morgan = (req, res, next) => {
+  logger.log(`=:= ${req.originalUrl} =.= ~@[${req.method}] ~~> #{ ${req.hostname} } <| ${req.ip} |>`)
+  next()
+}
+
 /**
  * Maps `res.locals` with `req.params`
  *

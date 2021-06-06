@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  choc:
+    build:
+      args:
+        NODE_ENV: production
+    env_file:
+      - ../.env/.env.production
+    command: npm start
