@@ -22,8 +22,8 @@ const articleSchema = new Schema({
       'Title can have a maximum of 124 characters',
     ]),
     validate: [
-      (val) => /^[\w\d\s():\._!?\u0980-\u09ff\-]+$/gu.test(val),
-      'Title can only contain the following : A-Z a-z 0-9 . _ - ? !',
+      (val) => /^[\w\d\s():'"\._!?\u0980-\u09ff\-]+$/gu.test(val),
+      'Title can only contain the following : A-Z a-z 0-9 \' " . _ - ? !',
     ],
   },
   body: {
