@@ -9,14 +9,15 @@ const {
   deletearticle,
   like_post,
 } = require('../../controllers/articles/slug')
+const { mathjax } = require('../../middlewares')
 const { requireAuth, checkUser } = require('../../middlewares/auth')
 
 const slug = Router()
 
 slug
-  .get('/', article_get)
+  .get('/', mathjax, article_get)
 
-  .get('/edit', requireAuth, editarticle_get)
+  .get('/edit', requireAuth, mathjax, editarticle_get)
   .put('/edit', requireAuth, checkUser, editarticle_put)
 
   .delete('/delete', requireAuth, checkUser, deletearticle)
