@@ -1,6 +1,6 @@
 {
   "name": "choclacode",
-  "version": "2.8.3",
+  "version": "2.8.4",
   "description": "Choclacode official website",
   "main": "app",
   "author": "Saqib <saqib@choclacode.eu.org> (http://choclacode.eu.org/)",
@@ -22,10 +22,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/choclacode/choclacode.git"
+    "url": "git+https://github.com/chocosinensis/choclacode.git"
   },
   "bugs": {
-    "url": "https://github.com/choclacode/choclacode/issues"
+    "url": "https://github.com/chocosinensis/choclacode/issues"
   },
   "homepage": "http://choclacode.eu.org/",
   "keywords": [
