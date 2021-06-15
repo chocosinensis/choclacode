@@ -29,9 +29,16 @@ exports.quran_get = (req, res) => {
  */
 exports.surah_get = (req, res) => {
   const { surah } = req.params
+  const { show } = res.locals
 
   try {
     const surahjson = Surah.findById(surah)
+    surahjson.surah = surahjson.surah.map(({ num, ara, eng, ban }) => ({
+      num,
+      ara: show.ara ? ara : undefined,
+      eng: show.eng ? eng : undefined,
+      ban: show.ban ? ban : undefined,
+    }))
 
     const { raw } = req.query
     if (raw && raw == 'false')

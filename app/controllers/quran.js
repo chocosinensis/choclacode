@@ -20,9 +20,18 @@ exports.quran_get = (req, res) => res.render('quran/home', { surahs })
  * @param {import('express').NextFunction} next
  */
 exports.surah_get = (req, res, next) => {
+  const { show } = res.locals
+
   try {
-    const { info, surah } = Surah.findById(req.params.surah)
-    res.render('quran/surah', { info, surah })
+    const data = Surah.findById(req.params.surah)
+    data.surah = data.surah.map(({ num, ara, eng, ban }) => ({
+      num,
+      ara: show.ara ? ara : undefined,
+      eng: show.eng ? eng : undefined,
+      ban: show.ban ? ban : undefined,
+    }))
+
+    res.render('quran/surah', data)
   } catch {
     next()
   }
