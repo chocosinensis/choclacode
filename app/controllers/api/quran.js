@@ -47,7 +47,7 @@ exports.surah_get = (req, res) => {
         json: JSON.stringify(surahjson, null, 2),
       })
 
-    res.json(surahjson)
+    res.json({ success: true, ...surahjson })
   } catch {
     if (raw && raw == 'false') return res.redirect('/api/quran')
     res.status(404).json({
