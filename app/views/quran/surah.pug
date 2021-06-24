@@ -10,7 +10,7 @@ block content
       br
       | #{ info.ara }
     ul
-      if !(info.num == 1 || info.num == 9)
+      if info.bismillah
         li#bismillah
           span.ara بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ
       for a in surah
@@ -19,9 +19,9 @@ block content
           if show.ara
             .ara= a.ara
           if show.eng
-            .num English - Saheeh International
+            .num= info.translations.eng
             .eng= a.eng
           if show.ban
-            .num Bengali - Mohiuddin Khan
+            .num= info.translations.eng
             .ban= a.ban
       hr

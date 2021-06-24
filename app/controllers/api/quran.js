@@ -30,6 +30,7 @@ exports.quran_get = (req, res) => {
 exports.surah_get = (req, res) => {
   const { surah } = req.params
   const { show } = res.locals
+  const { raw } = req.query
 
   try {
     const surahjson = Surah.findById(surah)
@@ -40,7 +41,6 @@ exports.surah_get = (req, res) => {
       ban: show.ban ? ban : undefined,
     }))
 
-    const { raw } = req.query
     if (raw && raw == 'false')
       return res.render('api/details', {
         title: `${surahjson.info.eng}`,
@@ -49,6 +49,10 @@ exports.surah_get = (req, res) => {
 
     res.json(surahjson)
   } catch {
-    res.redirect('/api/quran')
+    if (raw && raw == 'false') return res.redirect('/api/quran')
+    res.status(404).json({
+      success: false,
+      msg: 'Surah Not Found',
+    })
   }
 }

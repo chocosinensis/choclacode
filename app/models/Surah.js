@@ -9,10 +9,13 @@ exports.find = () => require('../../data/surahs.json')
  */
 exports.findById = (id) => {
   try {
-    const info = exports
-      .find()
-      .flat()
-      .find(({ num }) => num == id)
+    // prettier-ignore
+    const surahinfo = exports.find().flat().find(({ num }) => num == id)
+    const info = {
+      ...surahinfo,
+      translations: { eng: 'English » Saheeh International', ban: 'Bengali » Mohiuddin Khan' },
+      bismillah: ['', '1', '9'].includes(surahinfo.num),
+    }
     const surah = require(`../../data/quran/${id}.json`)
     return { info, surah }
   } catch (err) {
