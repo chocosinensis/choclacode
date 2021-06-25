@@ -13,7 +13,7 @@ exports.findById = (id) => {
     const surahinfo = exports.find().flat().find(({ num }) => num == id)
     const info = {
       ...surahinfo,
-      translations: { eng: 'English » Saheeh International', ban: 'Bengali » Mohiuddin Khan' },
+      translations: { eng: 'English » Saheeh International', ban: 'Bengali » Zohurul Hoque' },
       bismillah: !['', '1', '9'].includes(surahinfo.num),
     }
     const surah = require(`../../data/quran/${id}.json`)
