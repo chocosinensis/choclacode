@@ -2,11 +2,15 @@
 
 const { Router } = require('express')
 
-const { quran_get, surah_get } = require('../../controllers/api/quran')
+const { quran_get, search, surah_get } = require('../../controllers/api/quran')
 const { showLangs } = require('../../middlewares/quran')
 
 const quran = Router()
 
-quran.get('/', quran_get).get('/:surah', showLangs, surah_get)
+// prettier-ignore
+quran
+  .get('/', quran_get)
+  .get('/search', showLangs, search)
+  .get('/:surah', showLangs, surah_get)
 
 module.exports = quran

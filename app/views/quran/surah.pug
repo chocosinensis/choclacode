@@ -18,10 +18,8 @@ block content
           .num= `${info.num} : ${a.num}`
           if show.ara
             .ara= a.ara
-          if show.eng
-            .num= info.translations.eng
-            .eng= a.eng
-          if show.ban
-            .num= info.translations.eng
-            .ban= a.ban
+          for l in ['eng', 'ban']
+            if show[l]
+              .num= info.translations[l]
+              div(class=l)= a[l]
       hr

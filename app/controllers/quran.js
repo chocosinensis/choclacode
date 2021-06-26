@@ -23,13 +23,7 @@ exports.surah_get = (req, res, next) => {
   const { show } = res.locals
 
   try {
-    const data = Surah.findById(req.params.surah)
-    data.surah = data.surah.map(({ num, ara, eng, ban }) => ({
-      num,
-      ara: show.ara ? ara : undefined,
-      eng: show.eng ? eng : undefined,
-      ban: show.ban ? ban : undefined,
-    }))
+    const data = Surah.findById(req.params.surah, show)
 
     res.render('quran/surah', data)
   } catch {

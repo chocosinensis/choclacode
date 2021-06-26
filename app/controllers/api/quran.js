@@ -22,6 +22,37 @@ exports.quran_get = (req, res) => {
 }
 
 /**
+ * @route GET /api/quran/search
+ *
+ * @param {import('express').Request} req
+ * @param {import('express').Response} res
+ */
+exports.search = (req, res) => {
+  const { show } = res.locals
+  const { term, l, raw } = req.query
+
+  try {
+    const lan = ['ara', 'eng', 'ban'].includes(l) ? l : 'eng'
+    const ayahs = Surah.search(term, lan, show)
+
+    if (raw && raw == 'false')
+      return res.render('api/details', {
+        title: 'Search « Quran',
+        json: JSON.stringify(ayahs, null, 2),
+      })
+
+    if (ayahs.length == 0) res.json({ success: false, msg: 'No Ayahs Found', ayahs })
+    else res.json({ success: true, ayahs })
+  } catch {
+    if (raw && raw == 'false') return res.redirect('/api/quran?raw=false')
+    res.json({
+      success: false,
+      msg: 'Some Error Occured',
+    })
+  }
+}
+
+/**
  * @route GET /api/quran/:surah
  *
  * @param {import('express').Request} req
@@ -33,13 +64,7 @@ exports.surah_get = (req, res) => {
   const { raw } = req.query
 
   try {
-    const surahjson = Surah.findById(surah)
-    surahjson.surah = surahjson.surah.map(({ num, ara, eng, ban }) => ({
-      num,
-      ara: show.ara ? ara : undefined,
-      eng: show.eng ? eng : undefined,
-      ban: show.ban ? ban : undefined,
-    }))
+    const surahjson = Surah.findById(surah, show)
 
     if (raw && raw == 'false')
       return res.render('api/details', {
@@ -49,7 +74,7 @@ exports.surah_get = (req, res) => {
 
     res.json({ success: true, ...surahjson })
   } catch {
-    if (raw && raw == 'false') return res.redirect('/api/quran')
+    if (raw && raw == 'false') return res.redirect('/api/quran?raw=false')
     res.status(404).json({
       success: false,
       msg: 'Surah Not Found',
