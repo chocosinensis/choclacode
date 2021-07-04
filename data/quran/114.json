@@ -2,37 +2,43 @@
   {
     "num": "1",
     "ara": "قُلْ أَعُوذُ بِرَبِّ النَّاسِ",
-    "eng": "Say, \"I seek refuge in the Lord of mankind,",
-    "ban": "তুমি বলে যাও -- \"আমি আশ্রয় চাইছি মানুষের প্রভুর কাছে, --"
+    "eng:sai": "Say, \"I seek refuge in the Lord of mankind,",
+    "eng:arb": "Say: 'I take refuge with the Lord of men,",
+    "ban": "বলুন, আমি আশ্রয় গ্রহণ করিতেছি মানুষের পালনকর্তার,"
   },
   {
     "num": "2",
     "ara": "مَلِكِ النَّاسِ",
-    "eng": "The Sovereign of mankind.",
-    "ban": "\"মানুষের মালিকের, --"
+    "eng:sai": "The Sovereign of mankind.",
+    "eng:arb": "the King of men,",
+    "ban": "মানুষের অধিপতির,"
   },
   {
     "num": "3",
     "ara": "إِلَهِ النَّاسِ",
-    "eng": "The God of mankind,",
-    "ban": "\"মানুষের উপাস্যের,"
+    "eng:sai": "The God of mankind,",
+    "eng:arb": "the God of men,",
+    "ban": "মানুষের মা’বুদের"
   },
   {
     "num": "4",
     "ara": "مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ",
-    "eng": "From the evil of the retreating whisperer -",
-    "ban": "\"গোপনে আনাগোনাকারীর কুমন্ত্রণার অনিষ্ট থেকে, --"
+    "eng:sai": "From the evil of the retreating whisperer -",
+    "eng:arb": "from the evil of the slinking whisperer",
+    "ban": "তার অনিষ্ট থেকে, যে কুমন্ত্রণা দেয় ও আত্নগোপন করে,"
   },
   {
     "num": "5",
     "ara": "الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ",
-    "eng": "Who whispers [evil] into the breasts of mankind -",
-    "ban": "\"যে মানুষের বুকের ভেতরে কুমন্ত্রণা দেয়,"
+    "eng:sai": "Who whispers [evil] into the breasts of mankind -",
+    "eng:arb": "who whispers in the breasts of men",
+    "ban": "যে কুমন্ত্রণা দেয় মানুষের অন্তরে"
   },
   {
     "num": "6",
     "ara": "مِنَ الْجِنَّةِ وَالنَّاسِ",
-    "eng": "From among the jinn and mankind.\"",
-    "ban": "\"জিনের অথবা মানুষের মধ্যে থেকে।\""
+    "eng:sai": "From among the jinn and mankind.\"",
+    "eng:arb": "of jinn and men.'",
+    "ban": "জ্বিনের মধ্য থেকে অথবা মানুষের মধ্য থেকে।"
   }
 ]

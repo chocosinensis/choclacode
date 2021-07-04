@@ -2,67 +2,78 @@
   {
     "num": "1",
     "ara": "وَالْعَادِيَاتِ ضَبْحًا",
-    "eng": "By the racers, panting,",
-    "ban": "ভাবো ঊর্ধ্বশ্বাসে ধাবমানদের কথা,"
+    "eng:sai": "By the racers, panting,",
+    "eng:arb": "By the snorting chargers,",
+    "ban": "শপথ উর্ধ্বশ্বাসে চলমান অশ্বসমূহের,"
   },
   {
     "num": "2",
     "ara": "فَالْمُورِيَاتِ قَدْحًا",
-    "eng": "And the producers of sparks [when] striking",
-    "ban": "ফলে যারা আগুনের ফুলকি ছোড়ে আঘাতের ছোটে,"
+    "eng:sai": "And the producers of sparks [when] striking",
+    "eng:arb": "by the strikers of fire,",
+    "ban": "অতঃপর ক্ষুরাঘাতে অগ্নিবিচ্ছুরক অশ্বসমূহের"
   },
   {
     "num": "3",
     "ara": "فَالْمُغِيرَاتِ صُبْحًا",
-    "eng": "And the chargers at dawn,",
-    "ban": "আর যারা ভোরে অভিযান চালায়,"
+    "eng:sai": "And the chargers at dawn,",
+    "eng:arb": "by the dawn-raiders",
+    "ban": "অতঃপর প্রভাতকালে আক্রমণকারী অশ্বসমূহের"
   },
   {
     "num": "4",
     "ara": "فَأَثَرْنَ بِهِ نَقْعًا",
-    "eng": "Stirring up thereby [clouds of] dust,",
-    "ban": "আর তার ফলে যারা ধূলো উড়ায় --"
+    "eng:sai": "Stirring up thereby [clouds of] dust,",
+    "eng:arb": "blazing a trail of dust,",
+    "ban": "ও যারা সে সময়ে ধুলি উৎক্ষিপ্ত করে"
   },
   {
     "num": "5",
     "ara": "فَوَسَطْنَ بِهِ جَمْعًا",
-    "eng": "Arriving thereby in the center collectively,",
-    "ban": "তখন এর ফলে সৈন্যদলকে ভেদ করে যায়।"
+    "eng:sai": "Arriving thereby in the center collectively,",
+    "eng:arb": "cleaving there with a host!",
+    "ban": "অতঃপর যারা শক্রদলের অভ্যন্তরে ঢুকে পড়ে-"
   },
   {
     "num": "6",
     "ara": "إِنَّ الْإِنسَانَ لِرَبِّهِ لَكَنُودٌ",
-    "eng": "Indeed mankind, to his Lord, is ungrateful.",
-    "ban": "মানুষ নিশ্চয়ই তার প্রভুর প্রতি বড় অকৃতজ্ঞ,"
+    "eng:sai": "Indeed mankind, to his Lord, is ungrateful.",
+    "eng:arb": "Surely Man is ungrateful to his Lord,",
+    "ban": "নিশ্চয় মানুষ তার পালনকর্তার প্রতি অকৃতজ্ঞ।"
   },
   {
     "num": "7",
     "ara": "وَإِنَّهُ عَلَى ذَلِكَ لَشَهِيدٌ",
-    "eng": "And indeed, he is to that a witness.",
-    "ban": "আর সে আলবৎ এ বিষয়ে অবশ্য প্রত্যক্ষদশ।"
+    "eng:sai": "And indeed, he is to that a witness.",
+    "eng:arb": "and surely he is a witness against that!",
+    "ban": "এবং সে অবশ্য এ বিষয়ে অবহিত"
   },
   {
     "num": "8",
     "ara": "وَإِنَّهُ لِحُبِّ الْخَيْرِ لَشَدِيدٌ",
-    "eng": "And indeed he is, in love of wealth, intense.",
-    "ban": "আর নিঃসন্দেহ সে ধনসম্পদের মোহে দুরন্ত।"
+    "eng:sai": "And indeed he is, in love of wealth, intense.",
+    "eng:arb": "Surely he is passionate in his love for good things.",
+    "ban": "এবং সে নিশ্চিতই ধন-সম্পদের ভালবাসায় মত্ত।"
   },
   {
     "num": "9",
     "ara": "أَفَلَا يَعْلَمُ إِذَا بُعْثِرَ مَا فِي الْقُبُورِ",
-    "eng": "But does he not know that when the contents of the graves are scattered",
-    "ban": "তবে কি সে জানে না যখন কবরগুলোয় যা আছে তা তোলা হবে,"
+    "eng:sai": "But does he not know that when the contents of the graves are scattered",
+    "eng:arb": "Knows he not that when that which is in the tombs is over-thrown,",
+    "ban": "সে কি জানে না, যখন কবরে যা আছে, তা উত্থিত হবে"
   },
   {
     "num": "10",
     "ara": "وَحُصِّلَ مَا فِي الصُّدُورِ",
-    "eng": "And that within the breasts is obtained,",
-    "ban": "এবং অন্তরে যা আছে তা প্রকাশ করা হবে?"
+    "eng:sai": "And that within the breasts is obtained,",
+    "eng:arb": "and that which is in the breasts is brought out --",
+    "ban": "এবং অন্তরে যা আছে, তা অর্জন করা হবে?"
   },
   {
     "num": "11",
     "ara": "إِنَّ رَبَّهُم بِهِمْ يَوْمَئِذٍ لَّخَبِيرٌ",
-    "eng": "Indeed, their Lord with them, that Day, is [fully] Acquainted.",
-    "ban": "নিঃসন্দেহ তাদের প্রভু সেইদিন তাদের সন্বন্ধে সবিশেষে অবহিত থাকবেন।"
+    "eng:sai": "Indeed, their Lord with them, that Day, is [fully] Acquainted.",
+    "eng:arb": "surely on that day their Lord shall be aware of them!",
+    "ban": "সেদিন তাদের কি হবে, সে সম্পর্কে তাদের পালনকর্তা সবিশেষ জ্ঞাত।"
   }
 ]

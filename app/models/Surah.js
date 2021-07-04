@@ -8,10 +8,11 @@ exports.find = () => require('../../data/surahs.json')
  * @param {{ [prop: 'num' | 'ara' | 'eng' | 'ban']: String }} param0
  * @param {{ [prop: 'ara' | 'eng' | 'ban']: Boolean }} show
  */
-const formatAyah = ({ num, ara, eng, ban }, show) => ({
+const formatAyah = ({ num, ara, 'eng:sai': ens, 'eng:arb': ena, ban }, show) => ({
   num,
   ara: show.ara ? ara : undefined,
-  eng: show.eng ? eng : undefined,
+  'eng:sai': show['eng:sai'] ? ens : undefined,
+  'eng:arb': show['eng:arb'] ? ena : undefined,
   ban: show.ban ? ban : undefined,
 })
 
@@ -27,7 +28,11 @@ exports.findById = (id, show) => {
     const surahinfo = this.find().flat().find(({ num }) => num == id)
     const info = {
       ...surahinfo,
-      translations: { eng: 'English » Saheeh International', ban: 'Bengali » Zohurul Hoque' },
+      translations: {
+        'eng:sai': 'English » Saheeh International',
+        'eng:arb': 'English » Arberry',
+        ban: 'Bengali » Zohurul Hoque',
+      },
       bismillah: !['', '1', '9'].includes(surahinfo.num),
     }
     const surah = require(`../../data/quran/${id}.json`).map((ayah) => formatAyah(ayah, show))
@@ -47,9 +52,9 @@ exports.findById = (id, show) => {
 exports.search = (term, l, show) => {
   const ayahs = []
   for (let i = 1; i <= 114; i++) {
-    const { info, surah } = this.findById(i, { ara: true, eng: true, ban: true })
+    const { info, surah } = this.findById(i, { ara: true, 'eng:sai': true, ban: true })
     surah.forEach((ayah) => {
-      if (ayah[l].includes(term)) ayahs.push({ info, ...formatAyah(ayah, show) })
+      if (ayah[l === 'eng' ? 'eng:sai' : l].includes(term)) ayahs.push({ info, ...formatAyah(ayah, show) })
     })
   }
   return ayahs

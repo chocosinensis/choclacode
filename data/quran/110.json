@@ -2,19 +2,22 @@
   {
     "num": "1",
     "ara": "إِذَا جَاءَ نَصْرُ اللَّهِ وَالْفَتْحُ",
-    "eng": "When the victory of Allah has come and the conquest,",
-    "ban": "যখন আল্লাহ্‌র সাহায্য ও বিজয় আসছে,"
+    "eng:sai": "When the victory of Allah has come and the conquest,",
+    "eng:arb": "When comes the help of God, and victory,",
+    "ban": "যখন আসবে আল্লাহর সাহায্য ও বিজয়"
   },
   {
     "num": "2",
     "ara": "وَرَأَيْتَ النَّاسَ يَدْخُلُونَ فِي دِينِ اللَّهِ أَفْوَاجًا",
-    "eng": "And you see the people entering into the religion of Allah in multitudes,",
-    "ban": "আর লোকেদের দলে-দলে আল্লাহ্‌র ধর্মে প্রবেশ করতে দেখতে পাচ্ছ,"
+    "eng:sai": "And you see the people entering into the religion of Allah in multitudes,",
+    "eng:arb": "and thou seest men entering God's religion in throngs,",
+    "ban": "এবং আপনি মানুষকে দলে দলে আল্লাহর দ্বীনে প্রবেশ করতে দেখবেন,"
   },
   {
     "num": "3",
     "ara": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَاسْتَغْفِرْهُ إِنَّهُ كَانَ تَوَّابًا",
-    "eng": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.",
-    "ban": "তখন তোমার প্রভুর প্রশংসায় জপতপ করো ও তাঁর পরিত্রাণ খোঁজো। নিঃসন্দেহ তিনি বারবার প্রত্যাবর্তনকারী।"
+    "eng:sai": "Then exalt [Him] with praise of your Lord and ask forgiveness of Him. Indeed, He is ever Accepting of repentance.",
+    "eng:arb": "then proclaim the praise of thy Lord, and seek His forgiveness; for He turns again unto men.",
+    "ban": "তখন আপনি আপনার পালনকর্তার পবিত্রতা বর্ণনা করুন এবং তাঁর কাছে ক্ষমা প্রার্থনা করুন। নিশ্চয় তিনি ক্ষমাকারী।"
   }
 ]

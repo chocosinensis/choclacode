@@ -2,19 +2,22 @@
   {
     "num": "1",
     "ara": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ",
-    "eng": "Indeed, We have granted you, [O Muhammad], al-Kawthar.",
-    "ban": "নিঃসন্দেহ আমরা তোমাকে প্রাচুর্য দিয়েছি।"
+    "eng:sai": "Indeed, We have granted you, [O Muhammad], al-Kawthar.",
+    "eng:arb": "Surely We have given thee abundance;",
+    "ban": "নিশ্চয় আমি আপনাকে কাওসার দান করেছি।"
   },
   {
     "num": "2",
     "ara": "فَصَلِّ لِرَبِّكَ وَانْحَرْ",
-    "eng": "So pray to your Lord and sacrifice [to Him alone].",
-    "ban": "সুতরাং তোমার প্রভুর উদ্দেশ্যে নামায আদায় করো এবং কুরবানি করো।"
+    "eng:sai": "So pray to your Lord and sacrifice [to Him alone].",
+    "eng:arb": "so pray unto thy Lord and sacrifice.",
+    "ban": "অতএব আপনার পালনকর্তার উদ্দেশ্যে নামায পড়ুন এবং কোরবানী করুন।"
   },
   {
     "num": "3",
     "ara": "إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
-    "eng": "Indeed, your enemy is the one cut off.",
-    "ban": "তোমার বিদ্বেষকারীই তো স্বয়ং বঞ্চিত।"
+    "eng:sai": "Indeed, your enemy is the one cut off.",
+    "eng:arb": "Surely he that hates thee, he is the one cut off.",
+    "ban": "যে আপনার শত্রু, সেই তো লেজকাটা, নির্বংশ।"
   }
 ]

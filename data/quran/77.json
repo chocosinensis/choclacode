@@ -2,301 +2,351 @@
   {
     "num": "1",
     "ara": "وَالْمُرْسَلَاتِ عُرْفًا",
-    "eng": "By those [winds] sent forth in gusts",
-    "ban": "ভাবো প্রেরিতপুরুষগণের কথা -- একের পর এক,"
+    "eng:sai": "By those [winds] sent forth in gusts",
+    "eng:arb": "By the loosed ones successively",
+    "ban": "কল্যাণের জন্যে প্রেরিত বায়ুর শপথ,"
   },
   {
     "num": "2",
     "ara": "فَالْعَاصِفَاتِ عَصْفًا",
-    "eng": "And the winds that blow violently",
-    "ban": "আর ভাবো ঝড়ের মতো আসা দমকা হাওয়ার কথা,"
+    "eng:sai": "And the winds that blow violently",
+    "eng:arb": "storming tempestuously",
+    "ban": "সজোরে প্রবাহিত ঝটিকার শপথ,"
   },
   {
     "num": "3",
     "ara": "وَالنَّاشِرَاتِ نَشْرًا",
-    "eng": "And [by] the winds that spread [clouds]",
-    "ban": "আর ভাবো যারা ছড়াচ্ছে ছড়ানোর মতো,"
+    "eng:sai": "And [by] the winds that spread [clouds]",
+    "eng:arb": "by the scatterers scattering",
+    "ban": "মেঘবিস্তৃতকারী বায়ুর শপথ"
   },
   {
     "num": "4",
     "ara": "فَالْفَارِقَاتِ فَرْقًا",
-    "eng": "And those [angels] who bring criterion",
-    "ban": "তারপর আলাদা করে দেয় আলাদা করণে,"
+    "eng:sai": "And those [angels] who bring criterion",
+    "eng:arb": "and the severally severing",
+    "ban": "মেঘপুঞ্জ বিতরণকারী বায়ুর শপথ এবং"
   },
   {
     "num": "5",
     "ara": "فَالْمُلْقِيَاتِ ذِكْرًا",
-    "eng": "And those [angels] who deliver a message",
-    "ban": "তারপর গেথে দেঁয় স্মারক গ্রন্থ, --"
+    "eng:sai": "And those [angels] who deliver a message",
+    "eng:arb": "and those hurling a reminder",
+    "ban": "ওহী নিয়ে অবতরণকারী ফেরেশতাগণের শপথ-"
   },
   {
     "num": "6",
     "ara": "عُذْرًا أَوْ نُذْرًا",
-    "eng": "As justification or warning,",
-    "ban": "পরিশোধিত করতে অথবা সতর্ক করতে।"
+    "eng:sai": "As justification or warning,",
+    "eng:arb": "excusing or warning,",
+    "ban": "ওযর-আপত্তির অবকাশ না রাখার জন্যে অথবা সতর্ক করার জন্যে।"
   },
   {
     "num": "7",
     "ara": "إِنَّمَا تُوعَدُونَ لَوَاقِعٌ",
-    "eng": "Indeed, what you are promised is to occur.",
-    "ban": "নিশ্চয় তোমাদের যা ওয়াদা করা হয়েছে তা অবশ্যই ঘটতে যাচ্ছে।"
+    "eng:sai": "Indeed, what you are promised is to occur.",
+    "eng:arb": "surely that which you are promised is about to fall!",
+    "ban": "নিশ্চয়ই তোমাদেরকে প্রদত্ত ওয়াদা বাস্তবায়িত হবে।"
   },
   {
     "num": "8",
     "ara": "فَإِذَا النُّجُومُ طُمِسَتْ",
-    "eng": "So when the stars are obliterated",
-    "ban": "সুতরাং যখন তারাগুলো ঝিমিয়ে পড়বে।"
+    "eng:sai": "So when the stars are obliterated",
+    "eng:arb": "When the stars shall be extinguished,",
+    "ban": "অতঃপর যখন নক্ষত্রসমুহ নির্বাপিত হবে,"
   },
   {
     "num": "9",
     "ara": "وَإِذَا السَّمَاءُ فُرِجَتْ",
-    "eng": "And when the heaven is opened",
-    "ban": "আর যখন আকাশ ভেঙ্গে পড়বে,"
+    "eng:sai": "And when the heaven is opened",
+    "eng:arb": "when heaven shall be split",
+    "ban": "যখন আকাশ ছিদ্রযুক্ত হবে,"
   },
   {
     "num": "10",
     "ara": "وَإِذَا الْجِبَالُ نُسِفَتْ",
-    "eng": "And when the mountains are blown away",
-    "ban": "আর যখন পাহাড়গুলোকে উড়িয়ে দেওয়া হবে,"
+    "eng:sai": "And when the mountains are blown away",
+    "eng:arb": "when the mountains shall be scattered",
+    "ban": "যখন পর্বতমালাকে উড়িয়ে দেয়া হবে এবং"
   },
   {
     "num": "11",
     "ara": "وَإِذَا الرُّسُلُ أُقِّتَتْ",
-    "eng": "And when the messengers' time has come...",
-    "ban": "আর যখন রসূলগণকে নির্ধারিত সময়ে নিয়ে আসা হবে --"
+    "eng:sai": "And when the messengers' time has come...",
+    "eng:arb": "and when the Messengers' time is set,",
+    "ban": "যখন রসূলগণের একত্রিত হওয়ার সময় নিরূপিত হবে,"
   },
   {
     "num": "12",
     "ara": "لِأَيِّ يَوْمٍ أُجِّلَتْ",
-    "eng": "For what Day was it postponed?",
-    "ban": "কোন সে দিনের জন্য ধার্য রাখা হয়েছে?"
+    "eng:sai": "For what Day was it postponed?",
+    "eng:arb": "to what day shall they be delayed?",
+    "ban": "এসব বিষয় কোন দিবসের জন্যে স্থগিত রাখা হয়েছে?"
   },
   {
     "num": "13",
     "ara": "لِيَوْمِ الْفَصْلِ",
-    "eng": "For the Day of Judgement.",
-    "ban": "ফয়সালার দিনের জন্য।"
+    "eng:sai": "For the Day of Judgement.",
+    "eng:arb": "To the Day of Decision.",
+    "ban": "বিচার দিবসের জন্য।"
   },
   {
     "num": "14",
     "ara": "وَمَا أَدْرَاكَ مَا يَوْمُ الْفَصْلِ",
-    "eng": "And what can make you know what is the Day of Judgement?",
-    "ban": "আর কী তোমাকে বুঝতে দেবে ফয়সালার দিনটি কি?"
+    "eng:sai": "And what can make you know what is the Day of Judgement?",
+    "eng:arb": "And what shall teach thee what is the Day of Decision?",
+    "ban": "আপনি জানেন বিচার দিবস কি?"
   },
   {
     "num": "15",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক্ সেইদিন সত্যপ্রত্যাখ্যানকারীদের জন্য!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "16",
     "ara": "أَلَمْ نُهْلِكِ الْأَوَّلِينَ",
-    "eng": "Did We not destroy the former peoples?",
-    "ban": "আমরা কি পূর্ববর্তীদের নিধন করি নি?"
+    "eng:sai": "Did We not destroy the former peoples?",
+    "eng:arb": "Did We not destroy the ancients,",
+    "ban": "আমি কি পূর্ববর্তীদেরকে ধ্বংস করিনি?"
   },
   {
     "num": "17",
     "ara": "ثُمَّ نُتْبِعُهُمُ الْآخِرِينَ",
-    "eng": "Then We will follow them with the later ones.",
-    "ban": "তারপর পরবর্তীদেরও আমরা তাদের অনুগমন করাব।"
+    "eng:sai": "Then We will follow them with the later ones.",
+    "eng:arb": "and then follow them with the later folk?",
+    "ban": "অতঃপর তাদের পশ্চাতে প্রেরণ করব পরবর্তীদেরকে।"
   },
   {
     "num": "18",
     "ara": "كَذَلِكَ نَفْعَلُ بِالْمُجْرِمِينَ",
-    "eng": "Thus do We deal with the criminals.",
-    "ban": "এইভাবেই আমরা অপরাধীদের প্রতি আচরণ করে থাকি।"
+    "eng:sai": "Thus do We deal with the criminals.",
+    "eng:arb": "So We serve the sinners.",
+    "ban": "অপরাধীদের সাথে আমি এরূপই করে থাকি।"
   },
   {
     "num": "19",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক সেইদিন সত্যপ্রত্যাখ্যানকারীদের প্রতি!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "20",
     "ara": "أَلَمْ نَخْلُقكُّم مِّن مَّاءٍ مَّهِينٍ",
-    "eng": "Did We not create you from a liquid disdained?",
-    "ban": "তোমাদের কি আমরা সৃষ্টি করি নি এক তুচ্ছ জলীয় পদার্থ থেকে?"
+    "eng:sai": "Did We not create you from a liquid disdained?",
+    "eng:arb": "Did We not create you of a mean water,",
+    "ban": "আমি কি তোমাদেরকে তুচ্ছ পানি থেকে সৃষ্টি করিনি?"
   },
   {
     "num": "21",
     "ara": "فَجَعَلْنَاهُ فِي قَرَارٍ مَّكِينٍ",
-    "eng": "And We placed it in a firm lodging",
-    "ban": "তারপর আমরা তা স্থাপন করি এক সুরক্ষিত স্থানে, --"
+    "eng:sai": "And We placed it in a firm lodging",
+    "eng:arb": "that We laid within a sure lodging",
+    "ban": "অতঃপর আমি তা রেখেছি এক সংরক্ষিত আধারে,"
   },
   {
     "num": "22",
     "ara": "إِلَى قَدَرٍ مَّعْلُومٍ",
-    "eng": "For a known extent.",
-    "ban": "এক অবহিত পরিমাপ পর্যন্ত;"
+    "eng:sai": "For a known extent.",
+    "eng:arb": "till a known term decreed?",
+    "ban": "এক নির্দিষ্টকাল পর্যন্ত,"
   },
   {
     "num": "23",
     "ara": "فَقَدَرْنَا فَنِعْمَ الْقَادِرُونَ",
-    "eng": "And We determined [it], and excellent [are We] to determine.",
-    "ban": "তারপর আমরা বিন্যস্ত করি, সুতরাং কত নিপুণ বিন্যাসকারী আমরা!"
+    "eng:sai": "And We determined [it], and excellent [are We] to determine.",
+    "eng:arb": "We determined; excellent determiners are We.",
+    "ban": "অতঃপর আমি পরিমিত আকারে সৃষ্টি করেছি, আমি কত সক্ষম স্রষ্টা?"
   },
   {
     "num": "24",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক্ সেইদিন সত্যপ্রত্যাখ্যানকারীদের প্রতি!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "25",
     "ara": "أَلَمْ نَجْعَلِ الْأَرْضَ كِفَاتًا",
-    "eng": "Have We not made the earth a container",
-    "ban": "আমরা কি পৃথিবীটাকে বানাই নি আধাররূপে --"
+    "eng:sai": "Have We not made the earth a container",
+    "eng:arb": "Made We not the earth to be a housing",
+    "ban": "আমি কি পৃথিবীকে সৃষ্টি করিনি ধারণকারিণীরূপে,"
   },
   {
     "num": "26",
     "ara": "أَحْيَاءً وَأَمْوَاتًا",
-    "eng": "Of the living and the dead?",
-    "ban": "জীবিত ও মৃত, --"
+    "eng:sai": "Of the living and the dead?",
+    "eng:arb": "for the living and for the dead?",
+    "ban": "জীবিত ও মৃতদেরকে?"
   },
   {
     "num": "27",
     "ara": "وَجَعَلْنَا فِيهَا رَوَاسِيَ شَامِخَاتٍ وَأَسْقَيْنَاكُم مَّاءً فُرَاتًا",
-    "eng": "And We placed therein lofty, firmly set mountains and have given you to drink sweet water.",
-    "ban": "আর তাতেই তো আমরা বানিয়েছি উঁচু পাহাড়-পর্বত, আর তোমাদের পান করতে দিয়েছি সুপেয় পানি?"
+    "eng:sai": "And We placed therein lofty, firmly set mountains and have given you to drink sweet water.",
+    "eng:arb": "Set We not therein soaring mountains? Sated you with sweetest water?",
+    "ban": "আমি তাতে স্থাপন করেছি মজবুত সুউচ্চ পর্বতমালা এবং পান করিয়েছি তোমাদেরকে তৃষ্ণা নিবারণকারী সুপেয় পানি।"
   },
   {
     "num": "28",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক সেইদিন সত্যপ্রত্যাখ্যানকারীদের প্রতি!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "29",
     "ara": "انطَلِقُوا إِلَى مَا كُنتُم بِهِ تُكَذِّبُونَ",
-    "eng": "[They will be told], \"Proceed to that which you used to deny.",
-    "ban": "\"তোমরা চলো তারই দিকে যাকে তোমরা অস্বীকার করতে, --"
+    "eng:sai": "[They will be told], \"Proceed to that which you used to deny.",
+    "eng:arb": "Depart to that you cried was lies!",
+    "ban": "চল তোমরা তারই দিকে, যাকে তোমরা মিথ্যা বলতে।"
   },
   {
     "num": "30",
     "ara": "انطَلِقُوا إِلَى ظِلٍّ ذِي ثَلَاثِ شُعَبٍ",
-    "eng": "Proceed to a shadow [of smoke] having three columns",
-    "ban": "\"চলো সেই ছায়ার দিকে যার রয়েছে তিনটি স্তর, --"
+    "eng:sai": "Proceed to a shadow [of smoke] having three columns",
+    "eng:arb": "Depart to a triple-massing shadow",
+    "ban": "চল তোমরা তিন কুন্ডলীবিশিষ্ট ছায়ার দিকে,"
   },
   {
     "num": "31",
     "ara": "لَّا ظَلِيلٍ وَلَا يُغْنِي مِنَ اللَّهَبِ",
-    "eng": "[But having] no cool shade and availing not against the flame.\"",
-    "ban": "\"যা ছায়াময় নয় এবং অগ্নিশিখা থেকে রক্ষা করার মতোও নয়।"
+    "eng:sai": "[But having] no cool shade and availing not against the flame.\"",
+    "eng:arb": "unshading against the blazing flame",
+    "ban": "যে ছায়া সুনিবিড় নয় এবং অগ্নির উত্তাপ থেকে রক্ষা করে না।"
   },
   {
     "num": "32",
     "ara": "إِنَّهَا تَرْمِي بِشَرَرٍ كَالْقَصْرِ",
-    "eng": "Indeed, it throws sparks [as huge] as a fortress,",
-    "ban": "\"নিঃসন্দেহ এটি স্ফুলিঙ্গ তোলে অট্টালিকার আকারে,"
+    "eng:sai": "Indeed, it throws sparks [as huge] as a fortress,",
+    "eng:arb": "that shoots sparks like dry faggots,",
+    "ban": "এটা অট্টালিকা সদৃশ বৃহৎ স্ফুলিংগ নিক্ষেপ করবে।"
   },
   {
     "num": "33",
     "ara": "كَأَنَّهُ جِمَالَتٌ صُفْرٌ",
-    "eng": "As if they were yellowish [black] camels.",
-    "ban": "\"যেন সেগুলো হলুদবরণ উটের পাল।\""
+    "eng:sai": "As if they were yellowish [black] camels.",
+    "eng:arb": "sparks like to golden herds.",
+    "ban": "যেন সে পীতবর্ণ উষ্ট্রশ্রেণী।"
   },
   {
     "num": "34",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক্ সেইদিন সত্যপ্রত্যাখ্যানকারীদের প্রতি!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "35",
     "ara": "هَذَا يَوْمُ لَا يَنطِقُونَ",
-    "eng": "This is a Day they will not speak,",
-    "ban": "এ হচ্ছে ঐ দিন যেদিন তারা কোনো কথা বলতে পারবে না,"
+    "eng:sai": "This is a Day they will not speak,",
+    "eng:arb": "This is the day they shall not speak",
+    "ban": "এটা এমন দিন, যেদিন কেউ কথা বলবে না।"
   },
   {
     "num": "36",
     "ara": "وَلَا يُؤْذَنُ لَهُمْ فَيَعْتَذِرُونَ",
-    "eng": "Nor will it be permitted for them to make an excuse.",
-    "ban": "আর তাদের অনুমতি দেওয়া হবে না যেন তারা অজুহাত দেখাতে পারে।"
+    "eng:sai": "Nor will it be permitted for them to make an excuse.",
+    "eng:arb": "neither be given leave, and excuse themselves.",
+    "ban": "এবং কাউকে তওবা করার অনুমতি দেয়া হবে না।"
   },
   {
     "num": "37",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক্ সেইদিন সত্যপ্রত্যাখানকারীদের প্রতি!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "38",
     "ara": "هَذَا يَوْمُ الْفَصْلِ جَمَعْنَاكُمْ وَالْأَوَّلِينَ",
-    "eng": "This is the Day of Judgement; We will have assembled you and the former peoples.",
-    "ban": "এই হচ্ছে ফয়সালা করার দিন, আমরা তোমাদের সমবেত করেছি, আর পূর্ববর্তীদেরও।"
+    "eng:sai": "This is the Day of Judgement; We will have assembled you and the former peoples.",
+    "eng:arb": "'This is the Day of Decision; We have joined you with the ancients;",
+    "ban": "এটা বিচার দিবস, আমি তোমাদেরকে এবং তোমাদের পূর্ববর্তীদেরকে একত্রিত করেছি।"
   },
   {
     "num": "39",
     "ara": "فَإِن كَانَ لَكُمْ كَيْدٌ فَكِيدُونِ",
-    "eng": "So if you have a plan, then plan against Me.",
-    "ban": "সুতরাং তোমাদের যদি কোনো কলাকৌশল থাকে তাহলে আমার বিরুদ্ধে অপকৌশল চালাও।"
+    "eng:sai": "So if you have a plan, then plan against Me.",
+    "eng:arb": "if you have a trick, try you now to trick Me!'",
+    "ban": "অতএব, তোমাদের কোন অপকৌশল থাকলে তা প্রয়োগ কর আমার কাছে।"
   },
   {
     "num": "40",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক্ সেইদিন সত্যপ্রত্যাখ্যানকারীদের প্রতি!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "41",
     "ara": "إِنَّ الْمُتَّقِينَ فِي ظِلَالٍ وَعُيُونٍ",
-    "eng": "Indeed, the righteous will be among shades and springs",
-    "ban": "নিশ্চয় ধর্মভীরুরা থাকবে স্নিগ্ধছায়ায় ও ফোয়ারাগুলোতে,"
+    "eng:sai": "Indeed, the righteous will be among shades and springs",
+    "eng:arb": "Truly the godfearing shall dwell amid shades and fountains,",
+    "ban": "নিশ্চয় খোদাভীরুরা থাকবে ছায়ায় এবং প্রস্রবণসমূহে-"
   },
   {
     "num": "42",
     "ara": "وَفَوَاكِهَ مِمَّا يَشْتَهُونَ",
-    "eng": "And fruits from whatever they desire,",
-    "ban": "আর ফলফসলের মধ্যে যা তারা পেতে চায়।"
+    "eng:sai": "And fruits from whatever they desire,",
+    "eng:arb": "and such fruits as their hearts desire:",
+    "ban": "এবং তাদের বাঞ্ছিত ফল-মূলের মধ্যে।"
   },
   {
     "num": "43",
     "ara": "كُلُوا وَاشْرَبُوا هَنِيئًا بِمَا كُنتُمْ تَعْمَلُونَ",
-    "eng": "[Being told], \"Eat and drink in satisfaction for what you used to do.\"",
-    "ban": "\"খাও আর পিয়ো মহানন্দে যা তোমরা করে চলেছিলে সেজন্য।\""
+    "eng:sai": "[Being told], \"Eat and drink in satisfaction for what you used to do.\"",
+    "eng:arb": "'Eat and drink, with wholesome appetite, for that you were working.'",
+    "ban": "বলা হবেঃ তোমরা যা করতে তার বিনিময়ে তৃপ্তির সাথে পানাহার কর।"
   },
   {
     "num": "44",
     "ara": "إِنَّا كَذَلِكَ نَجْزِي الْمُحْسِنِينَ",
-    "eng": "Indeed, We thus reward the doers of good.",
-    "ban": "নিঃসন্দেহ এইভাবেই আমরা প্রতিদান দিই সৎকর্মশীলদের।"
+    "eng:sai": "Indeed, We thus reward the doers of good.",
+    "eng:arb": "Even so do We recompense the good-doers.",
+    "ban": "এভাবেই আমি সৎকর্মশীলদেরকে পুরস্কৃত করে থাকি।"
   },
   {
     "num": "45",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক্ সেইদিন সত্যপ্রত্যাখ্যানকারীদের প্রতি!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "46",
     "ara": "كُلُوا وَتَمَتَّعُوا قَلِيلًا إِنَّكُم مُّجْرِمُونَ",
-    "eng": "[O disbelievers], eat and enjoy yourselves a little; indeed, you are criminals.",
-    "ban": "খাও-দাও আর ভোগ করে নাও অল্পকালের জন্য -- তোমরা তো অপরাধী!\""
+    "eng:sai": "[O disbelievers], eat and enjoy yourselves a little; indeed, you are criminals.",
+    "eng:arb": "'Eat and take your joy a little; you are sinners!'",
+    "ban": "কাফেরগণ, তোমরা কিছুদিন খেয়ে নাও এবং ভোগ করে নাও। তোমরা তো অপরাধী।"
   },
   {
     "num": "47",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক্ সেইদিন সত্যপ্রত্যাখ্যানকারীদের প্রতি!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "48",
     "ara": "وَإِذَا قِيلَ لَهُمُ ارْكَعُوا لَا يَرْكَعُونَ",
-    "eng": "And when it is said to them, \"Bow [in prayer],\" they do not bow.",
-    "ban": "আর যখন তাদের বলা হয় \"নত হও\", তারা নত হয় না।"
+    "eng:sai": "And when it is said to them, \"Bow [in prayer],\" they do not bow.",
+    "eng:arb": "When it is said to them, 'Prostrate yourselves!' they prostrate not.",
+    "ban": "যখন তাদেরকে বলা হয়, নত হও, তখন তারা নত হয় না।"
   },
   {
     "num": "49",
     "ara": "وَيْلٌ يَوْمَئِذٍ لِّلْمُكَذِّبِينَ",
-    "eng": "Woe, that Day, to the deniers.",
-    "ban": "ধিক্ সেইদিন সত্যপ্রত্যাখ্যানকারীদের প্রতি!"
+    "eng:sai": "Woe, that Day, to the deniers.",
+    "eng:arb": "Woe that day unto those who cry it lies!",
+    "ban": "সেদিন মিথ্যারোপকারীদের দুর্ভোগ হবে।"
   },
   {
     "num": "50",
     "ara": "فَبِأَيِّ حَدِيثٍ بَعْدَهُ يُؤْمِنُونَ",
-    "eng": "Then in what statement after the Qur'an will they believe?",
-    "ban": "অতএব এর পরে আর কোন বাণীতে তারা বিশ্বাস করবে?"
+    "eng:sai": "Then in what statement after the Qur'an will they believe?",
+    "eng:arb": "In what discourse after this will they believe?",
+    "ban": "এখন কোন কথায় তারা এরপর বিশ্বাস স্থাপন করবে?"
   }
 ]

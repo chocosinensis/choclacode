@@ -2,241 +2,281 @@
   {
     "num": "1",
     "ara": "عَمَّ يَتَسَاءَلُونَ",
-    "eng": "About what are they asking one another?",
-    "ban": "কি সন্বন্ধে তারা পরস্পরকে জিজ্ঞাসাবাদ করছে?"
+    "eng:sai": "About what are they asking one another?",
+    "eng:arb": "Of what do they question one another?",
+    "ban": "তারা পরস্পরে কি বিষয়ে জিজ্ঞাসাবাদ করছে?"
   },
   {
     "num": "2",
     "ara": "عَنِ النَّبَإِ الْعَظِيمِ",
-    "eng": "About the great news -",
-    "ban": "সেই মহাসংবাদ সন্বন্ধে --"
+    "eng:sai": "About the great news -",
+    "eng:arb": "Of the mighty tiding",
+    "ban": "মহা সংবাদ সম্পর্কে,"
   },
   {
     "num": "3",
     "ara": "الَّذِي هُمْ فِيهِ مُخْتَلِفُونَ",
-    "eng": "That over which they are in disagreement.",
-    "ban": "যে বিষয়ে তারা মতানৈক্যের মধ্যে রয়েছে।"
+    "eng:sai": "That over which they are in disagreement.",
+    "eng:arb": "whereon they are at variance.",
+    "ban": "যে সম্পর্কে তারা মতানৈক্য করে।"
   },
   {
     "num": "4",
     "ara": "كَلَّا سَيَعْلَمُونَ",
-    "eng": "No! They are going to know.",
-    "ban": "না, তারা শীঘ্রই জানতে পারবে।"
+    "eng:sai": "No! They are going to know.",
+    "eng:arb": "No indeed; they shall soon know!",
+    "ban": "না, সত্ত্বরই তারা জানতে পারবে,"
   },
   {
     "num": "5",
     "ara": "ثُمَّ كَلَّا سَيَعْلَمُونَ",
-    "eng": "Then, no! They are going to know.",
-    "ban": "পুনশ্চ, না, তারা অতিশীঘ্রই জানতে পারবে।"
+    "eng:sai": "Then, no! They are going to know.",
+    "eng:arb": "Again, no indeed; they shall soon know!",
+    "ban": "অতঃপর না, সত্বর তারা জানতে পারবে।"
   },
   {
     "num": "6",
     "ara": "أَلَمْ نَجْعَلِ الْأَرْضَ مِهَادًا",
-    "eng": "Have We not made the earth a resting place?",
-    "ban": "আমরা কি পৃথিবীটাকে পাতানো-বিছানারূপে বানাই নি,"
+    "eng:sai": "Have We not made the earth a resting place?",
+    "eng:arb": "Have We not made the earth as a cradle",
+    "ban": "আমি কি করিনি ভূমিকে বিছানা"
   },
   {
     "num": "7",
     "ara": "وَالْجِبَالَ أَوْتَادًا",
-    "eng": "And the mountains as stakes?",
-    "ban": "আর পাহাড়-পর্বতকে খুটিরূঁপে?"
+    "eng:sai": "And the mountains as stakes?",
+    "eng:arb": "and the mountains as pegs?",
+    "ban": "এবং পর্বতমালাকে পেরেক?"
   },
   {
     "num": "8",
     "ara": "وَخَلَقْنَاكُمْ أَزْوَاجًا",
-    "eng": "And We created you in pairs",
-    "ban": "আর আমরা তোমাদের সৃষ্টি করেছি জোড়ায়-জোড়ায়;"
+    "eng:sai": "And We created you in pairs",
+    "eng:arb": "And We created you in pairs,",
+    "ban": "আমি তোমাদেরকে জোড়া জোড়া সৃষ্টি করেছি,"
   },
   {
     "num": "9",
     "ara": "وَجَعَلْنَا نَوْمَكُمْ سُبَاتًا",
-    "eng": "And made your sleep [a means for] rest",
-    "ban": "আর তোমাদের ঘুমকে করেছি বিশ্রাম,"
+    "eng:sai": "And made your sleep [a means for] rest",
+    "eng:arb": "and We appointed your sleep for a rest;",
+    "ban": "তোমাদের নিদ্রাকে করেছি ক্লান্তি দূরকারী,"
   },
   {
     "num": "10",
     "ara": "وَجَعَلْنَا اللَّيْلَ لِبَاسًا",
-    "eng": "And made the night as clothing",
-    "ban": "আর রাতকে করেছি পোশাকস্বরূপ;"
+    "eng:sai": "And made the night as clothing",
+    "eng:arb": "and We appointed night for a garment,",
+    "ban": "রাত্রিকে করেছি আবরণ।"
   },
   {
     "num": "11",
     "ara": "وَجَعَلْنَا النَّهَارَ مَعَاشًا",
-    "eng": "And made the day for livelihood",
-    "ban": "আর দিনকে করেছি জীবিকার সংস্থান।"
+    "eng:sai": "And made the day for livelihood",
+    "eng:arb": "and We appointed day for a livelihood.",
+    "ban": "দিনকে করেছি জীবিকা অর্জনের সময়,"
   },
   {
     "num": "12",
     "ara": "وَبَنَيْنَا فَوْقَكُمْ سَبْعًا شِدَادًا",
-    "eng": "And constructed above you seven strong [heavens]",
-    "ban": "আর তোমাদের উপরে আমরা বানিয়েছি সাত মজবুত জিনিস,"
+    "eng:sai": "And constructed above you seven strong [heavens]",
+    "eng:arb": "And We have built above you seven strong ones,",
+    "ban": "নির্মান করেছি তোমাদের মাথার উপর মজবুত সপ্ত-আকাশ।"
   },
   {
     "num": "13",
     "ara": "وَجَعَلْنَا سِرَاجًا وَهَّاجًا",
-    "eng": "And made [therein] a burning lamp",
-    "ban": "আর তৈরি করেছি একটি অত্যুজ্জ্বল প্রদীপ,"
+    "eng:sai": "And made [therein] a burning lamp",
+    "eng:arb": "and We appointed a blazing lamp",
+    "ban": "এবং একটি উজ্জ্বল প্রদীপ সৃষ্টি করেছি।"
   },
   {
     "num": "14",
     "ara": "وَأَنزَلْنَا مِنَ الْمُعْصِرَاتِ مَاءً ثَجَّاجًا",
-    "eng": "And sent down, from the rain clouds, pouring water",
-    "ban": "আর ঝরন্ত-মেঘ থেকে আমরা বর্ষণ করি প্রচুর বৃষ্টি,"
+    "eng:sai": "And sent down, from the rain clouds, pouring water",
+    "eng:arb": "and have sent down out of the rainclouds water cascading",
+    "ban": "আমি জলধর মেঘমালা থেকে প্রচুর বৃষ্টিপাত করি,"
   },
   {
     "num": "15",
     "ara": "لِّنُخْرِجَ بِهِ حَبًّا وَنَبَاتًا",
-    "eng": "That We may bring forth thereby grain and vegetation",
-    "ban": "যেন তার দ্বারা গজাতে পারি শস্য ও গাছপালা,"
+    "eng:sai": "That We may bring forth thereby grain and vegetation",
+    "eng:arb": "that We may bring forth thereby grain and plants,",
+    "ban": "যাতে তদ্দ্বারা উৎপন্ন করি শস্য, উদ্ভিদ।"
   },
   {
     "num": "16",
     "ara": "وَجَنَّاتٍ أَلْفَافًا",
-    "eng": "And gardens of entwined growth.",
-    "ban": "আর ঘনসন্নিবিষ্ট বাগানসমূহ।"
+    "eng:sai": "And gardens of entwined growth.",
+    "eng:arb": "and gardens luxuriant.",
+    "ban": "ও পাতাঘন উদ্যান।"
   },
   {
     "num": "17",
     "ara": "إِنَّ يَوْمَ الْفَصْلِ كَانَ مِيقَاتًا",
-    "eng": "Indeed, the Day of Judgement is an appointed time -",
-    "ban": "নিশ্চয় ফয়সালা করার দিনের এক নির্ধারিত সময়কাল আছে --"
+    "eng:sai": "Indeed, the Day of Judgement is an appointed time -",
+    "eng:arb": "Surely the Day of Decision is an appointed time,",
+    "ban": "নিশ্চয় বিচার দিবস নির্ধারিত রয়েছে।"
   },
   {
     "num": "18",
     "ara": "يَوْمَ يُنفَخُ فِي الصُّورِ فَتَأْتُونَ أَفْوَاجًا",
-    "eng": "The Day the Horn is blown and you will come forth in multitudes",
-    "ban": "সেইদিন শিঙ্গায় ফুৎকার দেওয়া হবে, তখন তোমরা আসবে দলে-দলে,"
+    "eng:sai": "The Day the Horn is blown and you will come forth in multitudes",
+    "eng:arb": "the day the Trumpet is blown, and you shall come in troops,",
+    "ban": "যেদিন শিংগায় ফুঁক দেয়া হবে, তখন তোমরা দলে দলে সমাগত হবে।"
   },
   {
     "num": "19",
     "ara": "وَفُتِحَتِ السَّمَاءُ فَكَانَتْ أَبْوَابًا",
-    "eng": "And the heaven is opened and will become gateways",
-    "ban": "আর আকাশকে বিদীর্ণ করা হবে, সুতরাং তা হবে বহু-দরজা-বিশিষ্ট।"
+    "eng:sai": "And the heaven is opened and will become gateways",
+    "eng:arb": "and heaven is opened, and become gates,",
+    "ban": "আকাশ বিদীর্ণ হয়ে; তাতে বহু দরজা সৃষ্টি হবে।"
   },
   {
     "num": "20",
     "ara": "وَسُيِّرَتِ الْجِبَالُ فَكَانَتْ سَرَابًا",
-    "eng": "And the mountains are removed and will be [but] a mirage.",
-    "ban": "আর পাহাড়গুলো ধসে পড়বে, ফলে তা হবে বালুময়-মরীচিকা।"
+    "eng:sai": "And the mountains are removed and will be [but] a mirage.",
+    "eng:arb": "and the mountains are set in motion, and become a vapour.",
+    "ban": "এবং পর্বতমালা চালিত হয়ে মরীচিকা হয়ে যাবে।"
   },
   {
     "num": "21",
     "ara": "إِنَّ جَهَنَّمَ كَانَتْ مِرْصَادًا",
-    "eng": "Indeed, Hell has been lying in wait",
-    "ban": "নিঃসন্দেহ জাহান্নাম -- তা প্রতীক্ষায় রয়েছে --"
+    "eng:sai": "Indeed, Hell has been lying in wait",
+    "eng:arb": "Behold, Gehenna has become an ambush,",
+    "ban": "নিশ্চয় জাহান্নাম প্রতীক্ষায় থাকবে,"
   },
   {
     "num": "22",
     "ara": "لِّلطَّاغِينَ مَآبًا",
-    "eng": "For the transgressors, a place of return,",
-    "ban": "সীমালংঘনকারীদের জন্য প্রত্যাবর্তনস্থল; --"
+    "eng:sai": "For the transgressors, a place of return,",
+    "eng:arb": "for the insolent a resort,",
+    "ban": "সীমালংঘনকারীদের আশ্রয়স্থলরূপে।"
   },
   {
     "num": "23",
     "ara": "لَّابِثِينَ فِيهَا أَحْقَابًا",
-    "eng": "In which they will remain for ages [unending].",
-    "ban": "সেখানে তারা অবস্থান করবে যুগ যুগ ধরে।"
+    "eng:sai": "In which they will remain for ages [unending].",
+    "eng:arb": "therein to tarry for ages,",
+    "ban": "তারা তথায় শতাব্দীর পর শতাব্দী অবস্থান করবে।"
   },
   {
     "num": "24",
     "ara": "لَّا يَذُوقُونَ فِيهَا بَرْدًا وَلَا شَرَابًا",
-    "eng": "They will not taste therein [any] coolness or drink",
-    "ban": "তারা সেখানে স্বাদ গ্রহণ করবে না শীতলতার, না কোনো পানীয়ের --"
+    "eng:sai": "They will not taste therein [any] coolness or drink",
+    "eng:arb": "tasting therein neither coolness nor any drink",
+    "ban": "তথায় তারা কোন শীতল এবং পানীয় আস্বাদন করবে না;"
   },
   {
     "num": "25",
     "ara": "إِلَّا حَمِيمًا وَغَسَّاقًا",
-    "eng": "Except scalding water and [foul] purulence -",
-    "ban": "শুধু ফুটন্ত জল ও হিমশীতল পানীয় ব্যতীত, --"
+    "eng:sai": "Except scalding water and [foul] purulence -",
+    "eng:arb": "save boiling water and pus",
+    "ban": "কিন্তু ফুটন্ত পানি ও পূঁজ পাবে।"
   },
   {
     "num": "26",
     "ara": "جَزَاءً وِفَاقًا",
-    "eng": "An appropriate recompense.",
-    "ban": "এক যথাযথ প্রতিদান।"
+    "eng:sai": "An appropriate recompense.",
+    "eng:arb": "for a suitable recompense.",
+    "ban": "পরিপূর্ণ প্রতিফল হিসেবে।"
   },
   {
     "num": "27",
     "ara": "إِنَّهُمْ كَانُوا لَا يَرْجُونَ حِسَابًا",
-    "eng": "Indeed, they were not expecting an account",
-    "ban": "নিঃসন্দেহ তারা হিসাবের কথা ভাবে নি,"
+    "eng:sai": "Indeed, they were not expecting an account",
+    "eng:arb": "They indeed hoped not for a reckoning,",
+    "ban": "নিশ্চয় তারা হিসাব-নিকাশ আশা করত না।"
   },
   {
     "num": "28",
     "ara": "وَكَذَّبُوا بِآيَاتِنَا كِذَّابًا",
-    "eng": "And denied Our verses with [emphatic] denial.",
-    "ban": "আর আমাদের বাণীসমূহ প্রত্যাখ্যান করেছিল জোর প্রত্যাখ্যানে।"
+    "eng:sai": "And denied Our verses with [emphatic] denial.",
+    "eng:arb": "and they cried loud lies to Our signs;",
+    "ban": "এবং আমার আয়াতসমূহে পুরোপুরি মিথ্যারোপ করত।"
   },
   {
     "num": "29",
     "ara": "وَكُلَّ شَيْءٍ أَحْصَيْنَاهُ كِتَابًا",
-    "eng": "But all things We have enumerated in writing.",
-    "ban": "আর সব-কিছুই -- আমরা তা লিখিতভাবে সংরক্ষণ করছি,"
+    "eng:sai": "But all things We have enumerated in writing.",
+    "eng:arb": "and everything We have numbered in a Book.",
+    "ban": "আমি সবকিছুই লিপিবদ্ধ করে সংরক্ষিত করেছি।"
   },
   {
     "num": "30",
     "ara": "فَذُوقُوا فَلَن نَّزِيدَكُمْ إِلَّا عَذَابًا",
-    "eng": "\"So taste [the penalty], and never will We increase you except in torment.\"",
-    "ban": "সুতরাং স্বাদ গ্রহণ করো, আমরা তোমাদের বাড়িয়ে দেবো না শাস্তি ব্যতীত।"
+    "eng:sai": "\"So taste [the penalty], and never will We increase you except in torment.\"",
+    "eng:arb": "'Taste! We shall increase you not save in chastisement.'",
+    "ban": "অতএব, তোমরা আস্বাদন কর, আমি কেবল তোমাদের শাস্তিই বৃদ্ধি করব।"
   },
   {
     "num": "31",
     "ara": "إِنَّ لِلْمُتَّقِينَ مَفَازًا",
-    "eng": "Indeed, for the righteous is attainment -",
-    "ban": "ধর্মভীরুদের জন্য নিশ্চয়ই রয়েছে মহাসাফল্য --"
+    "eng:sai": "Indeed, for the righteous is attainment -",
+    "eng:arb": "Surely for the godfearing awaits a place of security,",
+    "ban": "পরহেযগারদের জন্যে রয়েছে সাফল্য।"
   },
   {
     "num": "32",
     "ara": "حَدَائِقَ وَأَعْنَابًا",
-    "eng": "Gardens and grapevines",
-    "ban": "ফলের বাগান ও আঙুর,"
+    "eng:sai": "Gardens and grapevines",
+    "eng:arb": "gardens and vineyards",
+    "ban": "উদ্যান, আঙ্গুর,"
   },
   {
     "num": "33",
     "ara": "وَكَوَاعِبَ أَتْرَابًا",
-    "eng": "And full-breasted [companions] of equal age",
-    "ban": "আর সমবয়স্ক ফুটফুটে কিশোর,"
+    "eng:sai": "And full-breasted [companions] of equal age",
+    "eng:arb": "and maidens with swelling breasts, like of age,",
+    "ban": "সমবয়স্কা, পূর্ণযৌবনা তরুণী।"
   },
   {
     "num": "34",
     "ara": "وَكَأْسًا دِهَاقًا",
-    "eng": "And a full cup.",
-    "ban": "আর পরিপূর্ণ পানপাত্র।"
+    "eng:sai": "And a full cup.",
+    "eng:arb": "and a cup overflowing.",
+    "ban": "এবং পূর্ণ পানপাত্র।"
   },
   {
     "num": "35",
     "ara": "لَّا يَسْمَعُونَ فِيهَا لَغْوًا وَلَا كِذَّابًا",
-    "eng": "No ill speech will they hear therein or any falsehood -",
-    "ban": "তারা সেখানে খেলো কথা শুনবে না, আর মিথ্যাকথাও নয়।"
+    "eng:sai": "No ill speech will they hear therein or any falsehood -",
+    "eng:arb": "Therein they shall hear no idle talk, no cry of lies,",
+    "ban": "তারা তথায় অসার ও মিথ্যা বাক্য শুনবে না।"
   },
   {
     "num": "36",
     "ara": "جَزَاءً مِّن رَّبِّكَ عَطَاءً حِسَابًا",
-    "eng": "[As] reward from your Lord, [a generous] gift [made due by] account,",
-    "ban": "তোমার প্রভুর কাছ থেকে প্রতিফল, -- হিসাবমতো পুরস্কার, --"
+    "eng:sai": "[As] reward from your Lord, [a generous] gift [made due by] account,",
+    "eng:arb": "for a recompense from thy Lord, a gift, a reckoning,",
+    "ban": "এটা আপনার পালনকর্তার তরফ থেকে যথোচিত দান,"
   },
   {
     "num": "37",
     "ara": "رَّبِّ السَّمَاوَاتِ وَالْأَرْضِ وَمَا بَيْنَهُمَا الرَّحْمَنِ لَا يَمْلِكُونَ مِنْهُ خِطَابًا",
-    "eng": "[From] the Lord of the heavens and the earth and whatever is between them, the Most Merciful. They possess not from Him [authority for] speech.",
-    "ban": "মহাকাশমন্ডল ও পৃথিবীর এবং তাদের মধ্যে যা-কিছু আছে তার প্রভু, পরম করুণাময়, তাঁর কাছে বক্তব্য রাখার কোনো ক্ষমতা তারা রাখে না।"
+    "eng:sai": "[From] the Lord of the heavens and the earth and whatever is between them, the Most Merciful. They possess not from Him [authority for] speech.",
+    "eng:arb": "Lord of the heavens and earth, and all that between them is, the All-merciful of whom they have no power to speak.",
+    "ban": "যিনি নভোমন্ডল, ভূমন্ডল ও এতদুভয়ের মধ্যবর্তী সবকিছুর পালনকর্তা, দয়াময়, কেউ তাঁর সাথে কথার অধিকারী হবে না।"
   },
   {
     "num": "38",
     "ara": "يَوْمَ يَقُومُ الرُّوحُ وَالْمَلَائِكَةُ صَفًّا لَّا يَتَكَلَّمُونَ إِلَّا مَنْ أَذِنَ لَهُ الرَّحْمَنُ وَقَالَ صَوَابًا",
-    "eng": "The Day that the Spirit and the angels will stand in rows, they will not speak except for one whom the Most Merciful permits, and he will say what is correct.",
-    "ban": "সেইদিন আর-রূহ ও ফিরিশ্‌তাগণ সারবেঁধে দাঁড়াবে, পরম করুণাময় যাকে অনুমতি দেবেন সে ব্যতীত তাদের কেউ কথা বলতে পারবে না, আর সে সঠিক কথা বলবে।"
+    "eng:sai": "The Day that the Spirit and the angels will stand in rows, they will not speak except for one whom the Most Merciful permits, and he will say what is correct.",
+    "eng:arb": "Upon the day when the Spirit and the angels stand in ranks they shall speak not, save him to whom the All-merciful has given leave, and who speaks aright.",
+    "ban": "যেদিন রূহ ও ফেরেশতাগণ সারিবদ্ধভাবে দাঁড়াবে। দয়াময় আল্লাহ যাকে অনুমতি দিবেন, সে ব্যতিত কেউ কথা বলতে পারবে না এবং সে সত্যকথা বলবে।"
   },
   {
     "num": "39",
     "ara": "ذَلِكَ الْيَوْمُ الْحَقُّ فَمَن شَاءَ اتَّخَذَ إِلَى رَبِّهِ مَآبًا",
-    "eng": "That is the True Day; so he who wills may take to his Lord a [way of] return.",
-    "ban": "এইটাই মহাসত্যের দিন। অতএব যে কেউ চায় সে তার প্রভুর কাছে আশ্রয়স্থল খুঁজুক।"
+    "eng:sai": "That is the True Day; so he who wills may take to his Lord a [way of] return.",
+    "eng:arb": "That is the true day; so whosoever wills takes unto his Lord a resort.",
+    "ban": "এই দিবস সত্য। অতঃপর যার ইচ্ছা, সে তার পালনকর্তার কাছে ঠিকানা তৈরী করুক।"
   },
   {
     "num": "40",
     "ara": "إِنَّا أَنذَرْنَاكُمْ عَذَابًا قَرِيبًا يَوْمَ يَنظُرُ الْمَرْءُ مَا قَدَّمَتْ يَدَاهُ وَيَقُولُ الْكَافِرُ يَا لَيْتَنِي كُنتُ تُرَابًا",
-    "eng": "Indeed, We have warned you of a near punishment on the Day when a man will observe what his hands have put forth and the disbeliever will say, \"Oh, I wish that I were dust!\"",
-    "ban": "নিশ্চয় আমরা তোমাদের সতর্ক করছি এক নিকটবর্তী শাস্তি সন্বন্ধে, -- যেদিন মানুষ দেখতে পাবে তার হাত দুখানা কী আগবাড়িয়েছে, আর অবিশ্বাসী ব্যক্তি বলবে -- \"হায় আমার আফসোস! আমি যদি ধুলো হয়ে যেতাম!\""
+    "eng:sai": "Indeed, We have warned you of a near punishment on the Day when a man will observe what his hands have put forth and the disbeliever will say, \"Oh, I wish that I were dust!\"",
+    "eng:arb": "Lo, We have warned you of a nigh chastisement, upon the day when a man shall behold what his hands have forwarded, and the unbeliever shall say, 'O would that I were dust!'",
+    "ban": "আমি তোমাদেরকে আসন্ন শাস্তি সম্পর্কে সতর্ক করলাম, যেদিন মানুষ প্রত্যেক্ষ করবে যা সে সামনে প্রেরণ করেছে এবং কাফের বলবেঃ হায়, আফসোস-আমি যদি মাটি হয়ে যেতাম।"
   }
 ]

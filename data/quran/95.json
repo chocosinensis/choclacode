@@ -2,49 +2,57 @@
   {
     "num": "1",
     "ara": "وَالتِّينِ وَالزَّيْتُونِ",
-    "eng": "By the fig and the olive",
-    "ban": "ভাবো ডুমুরেব, আর জলপাইয়ের কথা;"
+    "eng:sai": "By the fig and the olive",
+    "eng:arb": "By the fig and the olive",
+    "ban": "শপথ আঞ্জীর (ডুমুর) ও যয়তুনের,"
   },
   {
     "num": "2",
     "ara": "وَطُورِ سِينِينَ",
-    "eng": "And [by] Mount Sinai",
-    "ban": "আর সিনাই পর্বতের কথা,"
+    "eng:sai": "And [by] Mount Sinai",
+    "eng:arb": "and the Mount Sinai",
+    "ban": "এবং সিনাই প্রান্তরস্থ তূর পর্বতের,"
   },
   {
     "num": "3",
     "ara": "وَهَذَا الْبَلَدِ الْأَمِينِ",
-    "eng": "And [by] this secure city [Makkah],",
-    "ban": "আর এই নিরাপদ নগরের কথা!"
+    "eng:sai": "And [by] this secure city [Makkah],",
+    "eng:arb": "and this land secure!",
+    "ban": "এবং এই নিরাপদ নগরীর।"
   },
   {
     "num": "4",
     "ara": "لَقَدْ خَلَقْنَا الْإِنسَانَ فِي أَحْسَنِ تَقْوِيمٍ",
-    "eng": "We have certainly created man in the best of stature;",
-    "ban": "সুনিশ্চয় আমরা মানুষকে সৃষ্টি করেছি শ্রেষ্ঠ-সুন্দর আকৃতিতে।"
+    "eng:sai": "We have certainly created man in the best of stature;",
+    "eng:arb": "We indeed created Man in the fairest stature",
+    "ban": "আমি সৃষ্টি করেছি মানুষকে সুন্দরতর অবয়বে।"
   },
   {
     "num": "5",
     "ara": "ثُمَّ رَدَدْنَاهُ أَسْفَلَ سَافِلِينَ",
-    "eng": "Then We return him to the lowest of the low,",
-    "ban": "তারপর আমরা তাকে পরিণত করি হীনদের মধ্যে হীনতমে, --"
+    "eng:sai": "Then We return him to the lowest of the low,",
+    "eng:arb": "then We restored him the lowest of the low --",
+    "ban": "অতঃপর তাকে ফিরিয়ে দিয়েছি নীচ থেকে নীচে।"
   },
   {
     "num": "6",
     "ara": "إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ فَلَهُمْ أَجْرٌ غَيْرُ مَمْنُونٍ",
-    "eng": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted.",
-    "ban": "তারা ব্যতীত যারা ঈমান এনেছে ও সৎকাজ করছে, তাদের জন্য তবে রয়েছে বাধা-বিরতিবিহীন প্রতিদান।"
+    "eng:sai": "Except for those who believe and do righteous deeds, for they will have a reward uninterrupted.",
+    "eng:arb": "save those who believe, and do righteous deeds; they shall have a wage unfailing.",
+    "ban": "কিন্তু যারা বিশ্বাস স্থাপন করেছে ও সৎকর্ম করেছে, তাদের জন্যে রয়েছে অশেষ পুরস্কার।"
   },
   {
     "num": "7",
     "ara": "فَمَا يُكَذِّبُكَ بَعْدُ بِالدِّينِ",
-    "eng": "So what yet causes you to deny the Recompense?",
-    "ban": "তবে কী যা এরপরে তোমাকে বিচারসন্বন্ধে মিথ্যারোপ করতে দেয়?"
+    "eng:sai": "So what yet causes you to deny the Recompense?",
+    "eng:arb": "What then shall cry thee lies as to the Doom?",
+    "ban": "অতঃপর কেন তুমি অবিশ্বাস করছ কেয়ামতকে?"
   },
   {
     "num": "8",
     "ara": "أَلَيْسَ اللَّهُ بِأَحْكَمِ الْحَاكِمِينَ",
-    "eng": "Is not Allah the most just of judges?",
-    "ban": "আল্লাহ্ কি বিচারকদের মধ্যে সর্বশ্রেষ্ঠ বিচারক নন?"
+    "eng:sai": "Is not Allah the most just of judges?",
+    "eng:arb": "Is not God the justest of judges?",
+    "ban": "আল্লাহ কি বিচারকদের মধ্যে শ্রেষ্টতম বিচারক নন?"
   }
 ]

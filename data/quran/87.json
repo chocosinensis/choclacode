@@ -2,115 +2,134 @@
   {
     "num": "1",
     "ara": "سَبِّحِ اسْمَ رَبِّكَ الْأَعْلَى",
-    "eng": "Exalt the name of your Lord, the Most High,",
-    "ban": "মহিমা ঘোষণা করো তোমার সর্বোন্নত প্রভুর নামের, --"
+    "eng:sai": "Exalt the name of your Lord, the Most High,",
+    "eng:arb": "Magnify the Name of thy Lord the Most High",
+    "ban": "আপনি আপনার মহান পালনকর্তার নামের পবিত্রতা বর্ণনা করুন"
   },
   {
     "num": "2",
     "ara": "الَّذِي خَلَقَ فَسَوَّى",
-    "eng": "Who created and proportioned",
-    "ban": "যিনি সৃষ্টি করেন, তারপর সুঠাম করেন,"
+    "eng:sai": "Who created and proportioned",
+    "eng:arb": "who created and shaped,",
+    "ban": "যিনি সৃষ্টি করেছেন ও সুবিন্যস্ত করেছেন।"
   },
   {
     "num": "3",
     "ara": "وَالَّذِي قَدَّرَ فَهَدَى",
-    "eng": "And who destined and [then] guided",
-    "ban": "আর যিনি সুসমঞ্জস করেন, তারপর পথ দেখিয়ে নেন,"
+    "eng:sai": "And who destined and [then] guided",
+    "eng:arb": "who determined and guided,",
+    "ban": "এবং যিনি সুপরিমিত করেছেন ও পথ প্রদর্শন করেছেন"
   },
   {
     "num": "4",
     "ara": "وَالَّذِي أَخْرَجَ الْمَرْعَى",
-    "eng": "And who brings out the pasture",
-    "ban": "আর যিনি তৃণলতা উদ্‌গত করেন,"
+    "eng:sai": "And who brings out the pasture",
+    "eng:arb": "who brought forth the pasturage",
+    "ban": "এবং যিনি তৃণাদি উৎপন্ন করেছেন,"
   },
   {
     "num": "5",
     "ara": "فَجَعَلَهُ غُثَاءً أَحْوَى",
-    "eng": "And [then] makes it black stubble.",
-    "ban": "তারপর তাকে শুকিয়ে পাঁশুটে বানিয়ে ফেলেন।"
+    "eng:sai": "And [then] makes it black stubble.",
+    "eng:arb": "then made it a blackening wrack.",
+    "ban": "অতঃপর করেছেন তাকে কাল আবর্জনা।"
   },
   {
     "num": "6",
     "ara": "سَنُقْرِئُكَ فَلَا تَنسَى",
-    "eng": "We will make you recite, [O Muhammad], and you will not forget,",
-    "ban": "আমরা যথাশীঘ্র তোমাকে পড়াবো, ফলে তুমি ভুলবে না, --"
+    "eng:sai": "We will make you recite, [O Muhammad], and you will not forget,",
+    "eng:arb": "We shall make thee recite, to forget not",
+    "ban": "আমি আপনাকে পাঠ করাতে থাকব, ফলে আপনি বিস্মৃত হবেন না"
   },
   {
     "num": "7",
     "ara": "إِلَّا مَا شَاءَ اللَّهُ إِنَّهُ يَعْلَمُ الْجَهْرَ وَمَا يَخْفَى",
-    "eng": "Except what Allah should will. Indeed, He knows what is declared and what is hidden.",
-    "ban": "শুধু যা-কিছু আল্লাহ্ ইচ্ছা করেন তা ব্যতীত। নিশ্চয় তিনি জানেন প্রকাশ্য এবং যা গুপ্ত রয়েছে।"
+    "eng:sai": "Except what Allah should will. Indeed, He knows what is declared and what is hidden.",
+    "eng:arb": "save what God wills; surely He knows what is spoken aloud and what is hidden.",
+    "ban": "আল্লাহ যা ইচ্ছা করেন তা ব্যতীত। নিশ্চয় তিনি জানেন প্রকাশ্য ও গোপন বিষয়।"
   },
   {
     "num": "8",
     "ara": "وَنُيَسِّرُكَ لِلْيُسْرَى",
-    "eng": "And We will ease you toward ease.",
-    "ban": "আর আমরা তোমার জন্য সহজ করে দেব সহজকরনের জন্য।"
+    "eng:sai": "And We will ease you toward ease.",
+    "eng:arb": "We shall ease thee unto the Easing.",
+    "ban": "আমি আপনার জন্যে সহজ শরীয়ত সহজতর করে দেবো।"
   },
   {
     "num": "9",
     "ara": "فَذَكِّرْ إِن نَّفَعَتِ الذِّكْرَى",
-    "eng": "So remind, if the reminder should benefit;",
-    "ban": "অতএব তুমি স্মরণ করিয়ে চলোচ নিশ্চয় স্মরণ করানোতে সুফল রয়েছে।"
+    "eng:sai": "So remind, if the reminder should benefit;",
+    "eng:arb": "Therefore remind, if the Reminder profits,",
+    "ban": "উপদেশ ফলপ্রসূ হলে উপদেশ দান করুন,"
   },
   {
     "num": "10",
     "ara": "سَيَذَّكَّرُ مَن يَخْشَى",
-    "eng": "He who fears [Allah] will be reminded.",
-    "ban": "যে ভয় করে সে যথাসত্বর উপদেশ গ্রহণ করবে,"
+    "eng:sai": "He who fears [Allah] will be reminded.",
+    "eng:arb": "and he who fears shall remember,",
+    "ban": "যে ভয় করে, সে উপদেশ গ্রহণ করবে,"
   },
   {
     "num": "11",
     "ara": "وَيَتَجَنَّبُهَا الْأَشْقَى",
-    "eng": "But the wretched one will avoid it -",
-    "ban": "কিন্ত এটি এড়িয়ে চলবে নেহাত দুশ্চরিত্র, --"
+    "eng:sai": "But the wretched one will avoid it -",
+    "eng:arb": "but the most wretched shall flout it,",
+    "ban": "আর যে, হতভাগা, সে তা উপেক্ষা করবে,"
   },
   {
     "num": "12",
     "ara": "الَّذِي يَصْلَى النَّارَ الْكُبْرَى",
-    "eng": "[He] who will [enter and] burn in the greatest Fire,",
-    "ban": "যে বিরাট আগুনে ঢোকে পড়বে,"
+    "eng:sai": "[He] who will [enter and] burn in the greatest Fire,",
+    "eng:arb": "even he who shall roast in the Great Fire,",
+    "ban": "সে মহা-অগ্নিতে প্রবেশ করবে।"
   },
   {
     "num": "13",
     "ara": "ثُمَّ لَا يَمُوتُ فِيهَا وَلَا يَحْيَى",
-    "eng": "Neither dying therein nor living.",
-    "ban": "তখন সে সেখানে মরবে না, আর বাঁচবেও না।"
+    "eng:sai": "Neither dying therein nor living.",
+    "eng:arb": "then he shall neither die therein, nor live.",
+    "ban": "অতঃপর সেখানে সে মরবেও না, জীবিতও থাকবে না।"
   },
   {
     "num": "14",
     "ara": "قَدْ أَفْلَحَ مَن تَزَكَّى",
-    "eng": "He has certainly succeeded who purifies himself",
-    "ban": "সে-ই যথার্থ সফলকাম হবে যে নিজেকে পবিত্র করেছে,"
+    "eng:sai": "He has certainly succeeded who purifies himself",
+    "eng:arb": "Prosperous is he who has cleansed himself,",
+    "ban": "নিশ্চয় সাফল্য লাভ করবে সে, যে শুদ্ধ হয়"
   },
   {
     "num": "15",
     "ara": "وَذَكَرَ اسْمَ رَبِّهِ فَصَلَّى",
-    "eng": "And mentions the name of his Lord and prays.",
-    "ban": "এবং তার প্রভুর নাম স্মরণ করে, আর নামায পড়ে।"
+    "eng:sai": "And mentions the name of his Lord and prays.",
+    "eng:arb": "and mentions the Name of his Lord, and prays.",
+    "ban": "এবং তার পালনকর্তার নাম স্মরণ করে, অতঃপর নামায আদায় করে।"
   },
   {
     "num": "16",
     "ara": "بَلْ تُؤْثِرُونَ الْحَيَاةَ الدُّنْيَا",
-    "eng": "But you prefer the worldly life,",
-    "ban": "না, তোমরা দুনিয়ার জীবনকে প্রাধান্য দাও,"
+    "eng:sai": "But you prefer the worldly life,",
+    "eng:arb": "Nay, but you prefer the present life;",
+    "ban": "বস্তুতঃ তোমরা পার্থিব জীবনকে অগ্রাধিকার দাও,"
   },
   {
     "num": "17",
     "ara": "وَالْآخِرَةُ خَيْرٌ وَأَبْقَى",
-    "eng": "While the Hereafter is better and more enduring.",
-    "ban": "অথচ পরকালই বেশি ভাল ও দীর্ঘস্থায়ী।"
+    "eng:sai": "While the Hereafter is better and more enduring.",
+    "eng:arb": "and the world to come is better, and more enduring.",
+    "ban": "অথচ পরকালের জীবন উৎকৃষ্ট ও স্থায়ী।"
   },
   {
     "num": "18",
     "ara": "إِنَّ هَذَا لَفِي الصُّحُفِ الْأُولَى",
-    "eng": "Indeed, this is in the former scriptures,",
-    "ban": "নিঃসন্দেহ এইসব আছে পূর্ববর্তী ধর্মগ্রন্থে --"
+    "eng:sai": "Indeed, this is in the former scriptures,",
+    "eng:arb": "Surely this is in the ancient scrolls,",
+    "ban": "এটা লিখিত রয়েছে পূর্ববতী কিতাবসমূহে;"
   },
   {
     "num": "19",
     "ara": "صُحُفِ إِبْرَاهِيمَ وَمُوسَى",
-    "eng": "The scriptures of Abraham and Moses.",
-    "ban": "ইব্রাহীম ও মূসার ধর্মগ্রন্থে।"
+    "eng:sai": "The scriptures of Abraham and Moses.",
+    "eng:arb": "the scrolls of Abraham and Moses.",
+    "ban": "ইব্রাহীম ও মূসার কিতাবসমূহে।"
   }
 ]

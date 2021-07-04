@@ -2,31 +2,36 @@
   {
     "num": "1",
     "ara": "إِنَّا أَنزَلْنَاهُ فِي لَيْلَةِ الْقَدْرِ",
-    "eng": "Indeed, We sent the Qur'an down during the Night of Decree.",
-    "ban": "নিঃসন্দেহ আমরা এটি অবতারণ করেছি মহিমান্বিত রজনীতে।"
+    "eng:sai": "Indeed, We sent the Qur'an down during the Night of Decree.",
+    "eng:arb": "Behold, We sent it down on the Night of Power;",
+    "ban": "আমি একে নাযিল করেছি শবে-কদরে।"
   },
   {
     "num": "2",
     "ara": "وَمَا أَدْرَاكَ مَا لَيْلَةُ الْقَدْرِ",
-    "eng": "And what can make you know what is the Night of Decree?",
-    "ban": "আর কী তোমাকে বুঝতে দেবে মহিমান্বিত রজনীটি কি?"
+    "eng:sai": "And what can make you know what is the Night of Decree?",
+    "eng:arb": "And what shall teach thee what is the Night of Power?",
+    "ban": "শবে-কদর সমন্ধে আপনি কি জানেন?"
   },
   {
     "num": "3",
     "ara": "لَيْلَةُ الْقَدْرِ خَيْرٌ مِّنْ أَلْفِ شَهْرٍ",
-    "eng": "The Night of Decree is better than a thousand months.",
-    "ban": "মহিমান্বিত রজনী হচ্ছে হাজার মাসের চাইতেও শ্রেষ্ঠ।"
+    "eng:sai": "The Night of Decree is better than a thousand months.",
+    "eng:arb": "The Night of Power is better than a thousand months;",
+    "ban": "শবে-কদর হল এক হাজার মাস অপেক্ষা শ্রেষ্ঠ।"
   },
   {
     "num": "4",
     "ara": "تَنَزَّلُ الْمَلَائِكَةُ وَالرُّوحُ فِيهَا بِإِذْنِ رَبِّهِم مِّن كُلِّ أَمْرٍ",
-    "eng": "The angels and the Spirit descend therein by permission of their Lord for every matter.",
-    "ban": "ফিরিশ্‌তাগণ ও রূহ্ তাতে অবতীর্ণ হয় তাদের প্রভুর অনুমতিক্রমে প্রতিটি ব্যাপার সন্বন্ধে --"
+    "eng:sai": "The angels and the Spirit descend therein by permission of their Lord for every matter.",
+    "eng:arb": "in it the angels and the Spirit descend, by the leave of their Lord, upon every command.",
+    "ban": "এতে প্রত্যেক কাজের জন্যে ফেরেশতাগণ ও রূহ অবতীর্ণ হয় তাদের পালনকর্তার নির্দেশক্রমে।"
   },
   {
     "num": "5",
     "ara": "سَلَامٌ هِيَ حَتَّى مَطْلَعِ الْفَجْرِ",
-    "eng": "Peace it is until the emergence of dawn.",
-    "ban": "শান্তি -- ফজরের উদয় পর্যন্ত তা চলতে থাকবে।"
+    "eng:sai": "Peace it is until the emergence of dawn.",
+    "eng:arb": "Peace it is, till the rising of dawn.",
+    "ban": "এটা নিরাপত্তা, যা ফজরের উদয় পর্যন্ত অব্যাহত থাকে।"
   }
 ]

@@ -2,31 +2,36 @@
   {
     "num": "1",
     "ara": "تَبَّتْ يَدَا أَبِي لَهَبٍ وَتَبَّ",
-    "eng": "May the hands of Abu Lahab be ruined, and ruined is he.",
-    "ban": "ধ্বংস হোক আবু লহবের উভয় হাত, আর সে-ও ধ্বংস হোক!"
+    "eng:sai": "May the hands of Abu Lahab be ruined, and ruined is he.",
+    "eng:arb": "Perish the hands of Abu Lahab, and perish he!",
+    "ban": "আবু লাহাবের হস্তদ্বয় ধ্বংস হোক এবং ধ্বংস হোক সে নিজে,"
   },
   {
     "num": "2",
     "ara": "مَا أَغْنَى عَنْهُ مَالُهُ وَمَا كَسَبَ",
-    "eng": "His wealth will not avail him or that which he gained.",
-    "ban": "তার ধন-সম্পদ ও যা সে অর্জন করেছে তা তার কোনো কাজে আসবে না।"
+    "eng:sai": "His wealth will not avail him or that which he gained.",
+    "eng:arb": "His wealth avails him not, neither what he has earned;",
+    "ban": "কোন কাজে আসেনি তার ধন-সম্পদ ও যা সে উপার্জন করেছে।"
   },
   {
     "num": "3",
     "ara": "سَيَصْلَى نَارًا ذَاتَ لَهَبٍ",
-    "eng": "He will [enter to] burn in a Fire of [blazing] flame",
-    "ban": "তাকে অচিরেই ঠেলে দেওয়া হবে লেলিহান আগুনে --"
+    "eng:sai": "He will [enter to] burn in a Fire of [blazing] flame",
+    "eng:arb": "he shall roast at a flaming fire",
+    "ban": "সত্বরই সে প্রবেশ করবে লেলিহান অগ্নিতে"
   },
   {
     "num": "4",
     "ara": "وَامْرَأَتُهُ حَمَّالَةَ الْحَطَبِ",
-    "eng": "And his wife [as well] - the carrier of firewood.",
-    "ban": "আর তার স্ত্রীকেও, -- ইন্ধন বহনকারিণী --"
+    "eng:sai": "And his wife [as well] - the carrier of firewood.",
+    "eng:arb": "and his wife, the carrier of the firewood,",
+    "ban": "এবং তার স্ত্রীও-যে ইন্ধন বহন করে,"
   },
   {
     "num": "5",
     "ara": "فِي جِيدِهَا حَبْلٌ مِّن مَّسَدٍ",
-    "eng": "Around her neck is a rope of [twisted] fiber.",
-    "ban": "তার গলায় থাকবে কড়াপাকের খেজুরের আঁশের রশি।"
+    "eng:sai": "Around her neck is a rope of [twisted] fiber.",
+    "eng:arb": "upon her neck a rope of palm-fibre.",
+    "ban": "তার গলদেশে খর্জুরের রশি নিয়ে।"
   }
 ]

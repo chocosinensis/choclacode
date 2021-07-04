@@ -2,265 +2,309 @@
   {
     "num": "1",
     "ara": "سَأَلَ سَائِلٌ بِعَذَابٍ وَاقِعٍ",
-    "eng": "A supplicant asked for a punishment bound to happen",
-    "ban": "এক প্রশ্নকারী প্রশ্ন করছে অবধারিত শাস্তি সম্পর্কে --"
+    "eng:sai": "A supplicant asked for a punishment bound to happen",
+    "eng:arb": "A questioner asked of a chastisement about to fall",
+    "ban": "একব্যক্তি চাইল, সেই আযাব সংঘটিত হোক যা অবধারিত-"
   },
   {
     "num": "2",
     "ara": "لِّلْكَافِرِينَ لَيْسَ لَهُ دَافِعٌ",
-    "eng": "To the disbelievers; of it there is no preventer.",
-    "ban": "অবিশ্বাসীদের জন্য, এর প্রতিরোধকারী কেউ নেই --"
+    "eng:sai": "To the disbelievers; of it there is no preventer.",
+    "eng:arb": "for the unbelievers, which none may avert,",
+    "ban": "কাফেরদের জন্যে, যার প্রতিরোধকারী কেউ নেই।"
   },
   {
     "num": "3",
     "ara": "مِّنَ اللَّهِ ذِي الْمَعَارِجِ",
-    "eng": "[It is] from Allah, owner of the ways of ascent.",
-    "ban": "আল্লাহ্‌র নিকট থেকে, যিনি উন্নয়নের সোপানের অধিকর্তা।"
+    "eng:sai": "[It is] from Allah, owner of the ways of ascent.",
+    "eng:arb": "from God, the Lord of the Stairways.",
+    "ban": "তা আসবে আল্লাহ তা’আলার পক্ষ থেকে, যিনি সমুন্নত মর্তবার অধিকারী।"
   },
   {
     "num": "4",
     "ara": "تَعْرُجُ الْمَلَائِكَةُ وَالرُّوحُ إِلَيْهِ فِي يَوْمٍ كَانَ مِقْدَارُهُ خَمْسِينَ أَلْفَ سَنَةٍ",
-    "eng": "The angels and the Spirit will ascend to Him during a Day the extent of which is fifty thousand years.",
-    "ban": "ফিরিশ্‌তাগণ ও আ‌ত্মা তাঁর দিকে আরোহণ করে এমন এক দিনে যার পরিমাপ হলো পঞ্চাশ হাজার বছর।"
+    "eng:sai": "The angels and the Spirit will ascend to Him during a Day the extent of which is fifty thousand years.",
+    "eng:arb": "To Him the angels and the Spirit mount up, in a day whereof the measure is fifty thousand years.",
+    "ban": "ফেরেশতাগণ এবং রূহ আল্লাহ তা’আলার দিকে উর্ধ্বগামী হয় এমন একদিনে, যার পরিমাণ পঞ্চাশ হাজার বছর।"
   },
   {
     "num": "5",
     "ara": "فَاصْبِرْ صَبْرًا جَمِيلًا",
-    "eng": "So be patient with gracious patience.",
-    "ban": "অতএব তুমি অধ্যবসায় চালিয়ে যাও এক সুমহান ধৈর্যধারণে।"
+    "eng:sai": "So be patient with gracious patience.",
+    "eng:arb": "So be thou patient with a sweet patience;",
+    "ban": "অতএব, আপনি উত্তম সবর করুন।"
   },
   {
     "num": "6",
     "ara": "إِنَّهُمْ يَرَوْنَهُ بَعِيدًا",
-    "eng": "Indeed, they see it [as] distant,",
-    "ban": "নিঃসন্দেহ তারা একে মনে করে বহু দূরে,"
+    "eng:sai": "Indeed, they see it [as] distant,",
+    "eng:arb": "behold, they see it as if far off;",
+    "ban": "তারা এই আযাবকে সুদূরপরাহত মনে করে,"
   },
   {
     "num": "7",
     "ara": "وَنَرَاهُ قَرِيبًا",
-    "eng": "But We see it [as] near.",
-    "ban": "কিন্তু আমরা দেখছি এ নিকটে।"
+    "eng:sai": "But We see it [as] near.",
+    "eng:arb": "but We see it is nigh.",
+    "ban": "আর আমি একে আসন্ন দেখছি।"
   },
   {
     "num": "8",
     "ara": "يَوْمَ تَكُونُ السَّمَاءُ كَالْمُهْلِ",
-    "eng": "On the Day the sky will be like murky oil,",
-    "ban": "সেইদিন আকাশ হয়ে যাবে গলানো তামার মতো,"
+    "eng:sai": "On the Day the sky will be like murky oil,",
+    "eng:arb": "Upon the day when heaven shall be as molten copper",
+    "ban": "সেদিন আকাশ হবে গলিত তামার মত।"
   },
   {
     "num": "9",
     "ara": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ",
-    "eng": "And the mountains will be like wool,",
-    "ban": "আর পাহাড়গুলো হবে উলের মতো,"
+    "eng:sai": "And the mountains will be like wool,",
+    "eng:arb": "and the mountains shall be as plucked wool-tufts,",
+    "ban": "এবং পর্বতসমূহ হবে রঙ্গীন পশমের মত,"
   },
   {
     "num": "10",
     "ara": "وَلَا يَسْأَلُ حَمِيمٌ حَمِيمًا",
-    "eng": "And no friend will ask [anything of] a friend,",
-    "ban": "আর কোনো অন্তরঙ্গ বন্ধু জিজ্ঞাসাবাদ করবে না অন্তরঙ্গ বন্ধু সন্বন্ধে --"
+    "eng:sai": "And no friend will ask [anything of] a friend,",
+    "eng:arb": "no loyal friend shall question loyal friend,",
+    "ban": "বন্ধু বন্ধুর খবর নিবে না।"
   },
   {
     "num": "11",
     "ara": "يُبَصَّرُونَهُمْ يَوَدُّ الْمُجْرِمُ لَوْ يَفْتَدِي مِنْ عَذَابِ يَوْمِئِذٍ بِبَنِيهِ",
-    "eng": "They will be shown each other. The criminal will wish that he could be ransomed from the punishment of that Day by his children",
-    "ban": "তাদের পরস্পরকে দৃষ্টিগোচরে রাখা হবে। অপরাধী ব্যক্তি শাস্তি থেকে সেইদিন মুক্তিলাভ করতে চাইবে তার সন্তানদের বিনিময়ে,"
+    "eng:sai": "They will be shown each other. The criminal will wish that he could be ransomed from the punishment of that Day by his children",
+    "eng:arb": "as they are given sight of them. The sinner will wish that he might ransom himself from the chastisement of that day even by his sons,",
+    "ban": "যদিও একে অপরকে দেখতে পাবে। সেদিন গোনাহগার ব্যক্তি পনস্বরূপ দিতে চাইবে তার সন্তান-সন্ততিকে,"
   },
   {
     "num": "12",
     "ara": "وَصَاحِبَتِهِ وَأَخِيهِ",
-    "eng": "And his wife and his brother",
-    "ban": "আর তার সহধর্মিণীর ও তার ভাইয়ের,"
+    "eng:sai": "And his wife and his brother",
+    "eng:arb": "his companion wife, his brother,",
+    "ban": "তার স্ত্রীকে, তার ভ্রাতাকে,"
   },
   {
     "num": "13",
     "ara": "وَفَصِيلَتِهِ الَّتِي تُؤْوِيهِ",
-    "eng": "And his nearest kindred who shelter him",
-    "ban": "আর তার নিকট-আ‌ত্মীয়ের যারা তাকে আশ্রয় দিত,"
+    "eng:sai": "And his nearest kindred who shelter him",
+    "eng:arb": "his kin who sheltered him,",
+    "ban": "তার গোষ্ঠীকে, যারা তাকে আশ্রয় দিত।"
   },
   {
     "num": "14",
     "ara": "وَمَن فِي الْأَرْضِ جَمِيعًا ثُمَّ يُنجِيهِ",
-    "eng": "And whoever is on earth entirely [so] then it could save him.",
-    "ban": "আর যা-কিছু আছে পৃথিবীতে সে-সমস্তটাই, -- যেন তাকে মুক্তি দেওয়া হয়।"
+    "eng:sai": "And whoever is on earth entirely [so] then it could save him.",
+    "eng:arb": "and whosoever is in the earth, all together, so that then it might deliver him.",
+    "ban": "এবং পৃথিবীর সবকিছুকে, অতঃপর নিজেকে রক্ষা করতে চাইবে।"
   },
   {
     "num": "15",
     "ara": "كَلَّا إِنَّهَا لَظَى",
-    "eng": "No! Indeed, it is the Flame [of Hell],",
-    "ban": "কখনোই নয়! নিঃসন্দেহ এটি এক শিখায়িত আগুন, --"
+    "eng:sai": "No! Indeed, it is the Flame [of Hell],",
+    "eng:arb": "Nay, verily it is a furnace",
+    "ban": "কখনই নয়। নিশ্চয় এটা লেলিহান অগ্নি।"
   },
   {
     "num": "16",
     "ara": "نَزَّاعَةً لِّلشَّوَى",
-    "eng": "A remover of exteriors.",
-    "ban": "চামড়া ঝলসিয়ে খসাতে উদগ্রীব, --"
+    "eng:sai": "A remover of exteriors.",
+    "eng:arb": "snatching away the scalp,",
+    "ban": "যা চামড়া তুলে দিবে।"
   },
   {
     "num": "17",
     "ara": "تَدْعُو مَنْ أَدْبَرَ وَتَوَلَّى",
-    "eng": "It invites he who turned his back [on truth] and went away [from obedience]",
-    "ban": "এ ডাকবে তাকে যে পালিয়েছিল ও ফিরে গিয়েছিল,"
+    "eng:sai": "It invites he who turned his back [on truth] and went away [from obedience]",
+    "eng:arb": "calling him who drew back and turned away,",
+    "ban": "সে সেই ব্যক্তিকে ডাকবে যে সত্যের প্রতি পৃষ্ঠপ্রদর্শন করেছিল ও বিমুখ হয়েছিল।"
   },
   {
     "num": "18",
     "ara": "وَجَمَعَ فَأَوْعَى",
-    "eng": "And collected [wealth] and hoarded.",
-    "ban": "আর জমা করেছিল এবং আটকে রেখেছিল।"
+    "eng:sai": "And collected [wealth] and hoarded.",
+    "eng:arb": "who amassed and hoarded.",
+    "ban": "সম্পদ পুঞ্জীভূত করেছিল, অতঃপর আগলিয়ে রেখেছিল।"
   },
   {
     "num": "19",
     "ara": "إِنَّ الْإِنسَانَ خُلِقَ هَلُوعًا",
-    "eng": "Indeed, mankind was created anxious:",
-    "ban": "নিঃসন্দেহ মানুষের বেলা -- তাকে সৃষ্টি করা হয়েছে ব্যস্তসমস্ত করে,"
+    "eng:sai": "Indeed, mankind was created anxious:",
+    "eng:arb": "Surely man was created fretful,",
+    "ban": "মানুষ তো সৃজিত হয়েছে ভীরুরূপে।"
   },
   {
     "num": "20",
     "ara": "إِذَا مَسَّهُ الشَّرُّ جَزُوعًا",
-    "eng": "When evil touches him, impatient,",
-    "ban": "যখন খারাপ অবস্থা তাকে স্পর্শ করে তখন অতীব ব্যথাতুর,"
+    "eng:sai": "When evil touches him, impatient,",
+    "eng:arb": "when evil visits him, impatient,",
+    "ban": "যখন তাকে অনিষ্ট স্পর্শ করে, তখন সে হা-হুতাশ করে।"
   },
   {
     "num": "21",
     "ara": "وَإِذَا مَسَّهُ الْخَيْرُ مَنُوعًا",
-    "eng": "And when good touches him, withholding [of it],",
-    "ban": "আর যখন সচ্ছলতা তাকে স্পর্শ করে তখন হাড়-কিপটে,"
+    "eng:sai": "And when good touches him, withholding [of it],",
+    "eng:arb": "when good visits him, grudging,",
+    "ban": "আর যখন কল্যাণপ্রাপ্ত হয়, তখন কৃপণ হয়ে যায়।"
   },
   {
     "num": "22",
     "ara": "إِلَّا الْمُصَلِّينَ",
-    "eng": "Except the observers of prayer -",
-    "ban": "তারা ব্যতীত যারা মুছল্লী, --"
+    "eng:sai": "Except the observers of prayer -",
+    "eng:arb": "save those that pray",
+    "ban": "তবে তারা স্বতন্ত্র, যারা নামায আদায় কারী।"
   },
   {
     "num": "23",
     "ara": "الَّذِينَ هُمْ عَلَى صَلَاتِهِمْ دَائِمُونَ",
-    "eng": "Those who are constant in their prayer",
-    "ban": "যারা তাদের নামাযের প্রতি স্বতঃনিষ্ঠাবান,"
+    "eng:sai": "Those who are constant in their prayer",
+    "eng:arb": "and continue at their prayers,",
+    "ban": "যারা তাদের নামাযে সার্বক্ষণিক কায়েম থাকে।"
   },
   {
     "num": "24",
     "ara": "وَالَّذِينَ فِي أَمْوَالِهِمْ حَقٌّ مَّعْلُومٌ",
-    "eng": "And those within whose wealth is a known right",
-    "ban": "আর যারা তাদের ধনসম্পত্তিতে নির্দিষ্ট অধিকার রেখেছে --"
+    "eng:sai": "And those within whose wealth is a known right",
+    "eng:arb": "those in whose wealth is a right known",
+    "ban": "এবং যাদের ধন-সম্পদে নির্ধারিত হক আছে"
   },
   {
     "num": "25",
     "ara": "لِّلسَّائِلِ وَالْمَحْرُومِ",
-    "eng": "For the petitioner and the deprived -",
-    "ban": "ভিখারির ও বঞ্চিতের জন্য,"
+    "eng:sai": "For the petitioner and the deprived -",
+    "eng:arb": "for the beggar and the outcast,",
+    "ban": "যাঞ্ছাকারী ও বঞ্চিতের"
   },
   {
     "num": "26",
     "ara": "وَالَّذِينَ يُصَدِّقُونَ بِيَوْمِ الدِّينِ",
-    "eng": "And those who believe in the Day of Recompense",
-    "ban": "আর যারা বিচারের দিনকে সত্য বলে গ্রহণ করে,"
+    "eng:sai": "And those who believe in the Day of Recompense",
+    "eng:arb": "who confirm the Day of Doom",
+    "ban": "এবং যারা প্রতিফল দিবসকে সত্য বলে বিশ্বাস করে।"
   },
   {
     "num": "27",
     "ara": "وَالَّذِينَ هُم مِّنْ عَذَابِ رَبِّهِم مُّشْفِقُونَ",
-    "eng": "And those who are fearful of the punishment of their Lord -",
-    "ban": "আর যারা তাদের প্রভুর শাস্তি সম্পর্কে খোদ ভীতসন্ত্রস্ত, --"
+    "eng:sai": "And those who are fearful of the punishment of their Lord -",
+    "eng:arb": "and go in fear of the chastisement of their Lord",
+    "ban": "এবং যারা তাদের পালনকর্তার শাস্তির সম্পর্কে ভীত-কম্পিত।"
   },
   {
     "num": "28",
     "ara": "إِنَّ عَذَابَ رَبِّهِمْ غَيْرُ مَأْمُونٍ",
-    "eng": "Indeed, the punishment of their Lord is not that from which one is safe -",
-    "ban": "নিশ্চয় তাদের প্রভুর শাস্তি প্রশান্তিদায়ক নয়;"
+    "eng:sai": "Indeed, the punishment of their Lord is not that from which one is safe -",
+    "eng:arb": "(from their Lord's chastisement none feels secure)",
+    "ban": "নিশ্চয় তাদের পালনকর্তার শাস্তি থেকে নিঃশঙ্কা থাকা যায় না।"
   },
   {
     "num": "29",
     "ara": "وَالَّذِينَ هُمْ لِفُرُوجِهِمْ حَافِظُونَ",
-    "eng": "And those who guard their private parts",
-    "ban": "আর যারা নিজেরাই তাদের আঙ্গিক-কর্তব্যাবলী সম্পর্কে যত্নবান, --"
+    "eng:sai": "And those who guard their private parts",
+    "eng:arb": "and guard their private parts",
+    "ban": "এবং যারা তাদের যৌন-অঙ্গকে সংযত রাখে"
   },
   {
     "num": "30",
     "ara": "إِلَّا عَلَى أَزْوَاجِهِمْ أَوْ مَا مَلَكَتْ أَيْمَانُهُمْ فَإِنَّهُمْ غَيْرُ مَلُومِينَ",
-    "eng": "Except from their wives or those their right hands possess, for indeed, they are not to be blamed -",
-    "ban": "তবে নিজেদের দম্পতি অথবা তাদের ডানহাত যাদের ধরে রেখেছে তাদের ছাড়া, কেননা সেক্ষেত্রে তারা নিন্দনীয় নহে,"
+    "eng:sai": "Except from their wives or those their right hands possess, for indeed, they are not to be blamed -",
+    "eng:arb": "save from their wives and what their right hands own, then not being blameworthy",
+    "ban": "কিন্তু তাদের স্ত্রী অথবা মালিকানাভূক্ত দাসীদের বেলায় তিরস্কৃত হবে না।"
   },
   {
     "num": "31",
     "ara": "فَمَنِ ابْتَغَى وَرَاءَ ذَلِكَ فَأُولَئِكَ هُمُ الْعَادُونَ",
-    "eng": "But whoever seeks beyond that, then they are the transgressors -",
-    "ban": "কিন্তু যে এর বাইরে যাওয়া কামনা করে তাহলে তারা নিজেরাই হবে সীমালংঘনকারী।"
+    "eng:sai": "But whoever seeks beyond that, then they are the transgressors -",
+    "eng:arb": "(but whoso seeks after more than that, they are the transgressors),",
+    "ban": "অতএব, যারা এদের ছাড়া অন্যকে কামনা করে, তারাই সীমালংঘনকারী।"
   },
   {
     "num": "32",
     "ara": "وَالَّذِينَ هُمْ لِأَمَانَاتِهِمْ وَعَهْدِهِمْ رَاعُونَ",
-    "eng": "And those who are to their trusts and promises attentive",
-    "ban": "আর যারা খোদ তাদের আমানত সন্বন্ধে ও তাদের অংগীকার সন্বন্ধে সজাগ থাকে,"
+    "eng:sai": "And those who are to their trusts and promises attentive",
+    "eng:arb": "and who preserve their trusts and their covenant,",
+    "ban": "এবং যারা তাদের আমানত ও অঙ্গীকার রক্ষা করে"
   },
   {
     "num": "33",
     "ara": "وَالَّذِينَ هُم بِشَهَادَاتِهِمْ قَائِمُونَ",
-    "eng": "And those who are in their testimonies upright",
-    "ban": "আর যারা স্বয়ং তাদের সাক্ষ্যদানে সুপ্রতিষ্ঠিত,"
+    "eng:sai": "And those who are in their testimonies upright",
+    "eng:arb": "and perform their witnessings,",
+    "ban": "এবং যারা তাদের সাক্ষ্যদানে সরল-নিষ্ঠাবান"
   },
   {
     "num": "34",
     "ara": "وَالَّذِينَ هُمْ عَلَى صَلَاتِهِمْ يُحَافِظُونَ",
-    "eng": "And those who [carefully] maintain their prayer:",
-    "ban": "আর যারা নিজেরা তাদের নামায সন্বন্ধে সদা যত্নবান,"
+    "eng:sai": "And those who [carefully] maintain their prayer:",
+    "eng:arb": "and who observe their prayers.",
+    "ban": "এবং যারা তাদের নামাযে যত্নবান,"
   },
   {
     "num": "35",
     "ara": "أُولَئِكَ فِي جَنَّاتٍ مُّكْرَمُونَ",
-    "eng": "They will be in gardens, honored.",
-    "ban": "তারাই থাকবে জান্নাতে পরম সম্মানিত অবস্থায়।"
+    "eng:sai": "They will be in gardens, honored.",
+    "eng:arb": "Those shall be in Gardens, high-honoured.",
+    "ban": "তারাই জান্নাতে সম্মানিত হবে।"
   },
   {
     "num": "36",
     "ara": "فَمَالِ الَّذِينَ كَفَرُوا قِبَلَكَ مُهْطِعِينَ",
-    "eng": "So what is [the matter] with those who disbelieve, hastening [from] before you, [O Muhammad],",
-    "ban": "কিন্তু কি হয়েছে তাদের যারা অবিশ্বাস পোষণ করে, যে তারা তোমার দিকে উদগ্রীব হয়ে ছুটে আসছে --"
+    "eng:sai": "So what is [the matter] with those who disbelieve, hastening [from] before you, [O Muhammad],",
+    "eng:arb": "What ails the unbelievers, running with outstretched necks",
+    "ban": "অতএব, কাফেরদের কি হল যে, তারা আপনার দিকে উর্ধ্বশ্বাসে ছুটে আসছে।"
   },
   {
     "num": "37",
     "ara": "عَنِ الْيَمِينِ وَعَنِ الشِّمَالِ عِزِينَ",
-    "eng": "[To sit] on [your] right and [your] left in separate groups?",
-    "ban": "ডান দিক থেকে ও বাম দিক থেকে, দলেদলে?"
+    "eng:sai": "[To sit] on [your] right and [your] left in separate groups?",
+    "eng:arb": "towards thee on the right hand and on the left hand in knots?",
+    "ban": "ডান ও বামদিক থেকে দলে দলে।"
   },
   {
     "num": "38",
     "ara": "أَيَطْمَعُ كُلُّ امْرِئٍ مِّنْهُمْ أَن يُدْخَلَ جَنَّةَ نَعِيمٍ",
-    "eng": "Does every person among them aspire to enter a garden of pleasure?",
-    "ban": "তাদের মধ্যের প্রত্যেক লোকই কি আশা করে যে তাকে প্রবেশ করানো হবে আনন্দময় উদ্যানে?"
+    "eng:sai": "Does every person among them aspire to enter a garden of pleasure?",
+    "eng:arb": "What, is every man of them eager to be admitted to a Garden of Bliss?",
+    "ban": "তাদের প্রত্যেকেই কি আশা করে যে, তাকে নেয়ামতের জান্নাতে দাখিল করা হবে?"
   },
   {
     "num": "39",
     "ara": "كَلَّا إِنَّا خَلَقْنَاهُم مِّمَّا يَعْلَمُونَ",
-    "eng": "No! Indeed, We have created them from that which they know.",
-    "ban": "কখনই না। নিঃসন্দেহ আমরা কি দিয়ে তাদের গড়েছি তা তারা জানে।"
+    "eng:sai": "No! Indeed, We have created them from that which they know.",
+    "eng:arb": "Not so; for We have created them of what they know.",
+    "ban": "কখনই নয়, আমি তাদেরকে এমন বস্তু দ্বারা সৃষ্টি করেছি, যা তারা জানে।"
   },
   {
     "num": "40",
     "ara": "فَلَا أُقْسِمُ بِرَبِّ الْمَشَارِقِ وَالْمَغَارِبِ إِنَّا لَقَادِرُونَ",
-    "eng": "So I swear by the Lord of [all] risings and settings that indeed We are able",
-    "ban": "কিন্তু না, আমি উদয়াচলের ও অস্তাচলের প্রভুর নামে শপথ করছি যে আমরা আলবৎ সমর্থ --"
+    "eng:sai": "So I swear by the Lord of [all] risings and settings that indeed We are able",
+    "eng:arb": "No! I swear by the Lord of the Easts and Wests, surely We are able",
+    "ban": "আমি শপথ করছি উদয়াচল ও অস্তাচলসমূহের পালনকর্তার, নিশ্চয়ই আমি সক্ষম!"
   },
   {
     "num": "41",
     "ara": "عَلَى أَن نُّبَدِّلَ خَيْرًا مِّنْهُمْ وَمَا نَحْنُ بِمَسْبُوقِينَ",
-    "eng": "To replace them with better than them; and We are not to be outdone.",
-    "ban": "যে আমরা তাদের চেয়ে ভালোদের দিয়ে বদলে দেব, আর আমরা পরাজিত হবার নই।"
+    "eng:sai": "To replace them with better than them; and We are not to be outdone.",
+    "eng:arb": "to substitute a better than they; We shall not be outstripped.",
+    "ban": "তাদের পরিবর্তে উৎকৃষ্টতর মানুষ সৃষ্টি করতে এবং এটা আমার সাধ্যের অতীত নয়।"
   },
   {
     "num": "42",
     "ara": "فَذَرْهُمْ يَخُوضُوا وَيَلْعَبُوا حَتَّى يُلَاقُوا يَوْمَهُمُ الَّذِي يُوعَدُونَ",
-    "eng": "So leave them to converse vainly and amuse themselves until they meet their Day which they are promised -",
-    "ban": "সেজন্য তাদের ছেড়ে দাও গল্পগুজব ও খেলাধুলো করতে যে পর্যন্ত না তারা তাদের সেই দিনটির সাক্ষাৎ পায় যার সন্বন্ধে তাদের ওয়াদা করা হয়েছিল, --"
+    "eng:sai": "So leave them to converse vainly and amuse themselves until they meet their Day which they are promised -",
+    "eng:arb": "Then leave them alone to plunge and play until they encounter that day of theirs which they are promised,",
+    "ban": "অতএব, আপনি তাদেরকে ছেড়ে দিন, তারা বাকবিতন্ডা ও ক্রীড়া-কৌতুক করুক সেই দিবসের সম্মুখীন হওয়া পর্যন্ত, যে দিবসের ওয়াদা তাদের সাথে করা হচ্ছে।"
   },
   {
     "num": "43",
     "ara": "يَوْمَ يَخْرُجُونَ مِنَ الْأَجْدَاثِ سِرَاعًا كَأَنَّهُمْ إِلَى نُصُبٍ يُوفِضُونَ",
-    "eng": "The Day they will emerge from the graves rapidly as if they were, toward an erected idol, hastening.",
-    "ban": "সেইদিন তারা কবরগুলো থেকে বেরিয়ে আসবে ব্যস্তসমস্ত হয়ে, যেন তারা একটি লক্ষ্যস্থলের দিকে ধাবিত হয়েছে,"
+    "eng:sai": "The Day they will emerge from the graves rapidly as if they were, toward an erected idol, hastening.",
+    "eng:arb": "the day they shall come forth from the tombs hastily, as if they were hurrying unto a waymark,",
+    "ban": "সে দিন তারা কবর থেকে দ্রুতবেগে বের হবে, যেন তারা কোন এক লক্ষ্যস্থলের দিকে ছুটে যাচ্ছে।"
   },
   {
     "num": "44",
     "ara": "خَاشِعَةً أَبْصَارُهُمْ تَرْهَقُهُمْ ذِلَّةٌ ذَلِكَ الْيَوْمُ الَّذِي كَانُوا يُوعَدُونَ",
-    "eng": "Their eyes humbled, humiliation will cover them. That is the Day which they had been promised.",
-    "ban": "তাদের চোখ হবে অবনত, হীনতা তাদের আচ্ছন্ন করবে। এমনটাই সেইদিন যার বিষয়ে তাদের ওয়াদা করা হয়েছিল।"
+    "eng:sai": "Their eyes humbled, humiliation will cover them. That is the Day which they had been promised.",
+    "eng:arb": "humbled their eyes, overspreading them abasement. That is the day which they were promised.",
+    "ban": "তাদের দৃষ্টি থাকবে অবনমিত; তারা হবে হীনতাগ্রস্ত। এটাই সেইদিন, যার ওয়াদা তাদেরকে দেয়া হত।"
   }
 ]

@@ -2,175 +2,204 @@
   {
     "num": "1",
     "ara": "سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ",
-    "eng": "Whatever is in the heavens and earth exalts Allah, and He is the Exalted in Might, the Wise.",
-    "ban": "মহাকাশমন্ডলে ও পৃথিবীতে যা-কিছু আছে তা আল্লাহ্‌র জপতপ করে, আর তিনি মহাশক্তিশালী, পরমজ্ঞানী।"
+    "eng:sai": "Whatever is in the heavens and earth exalts Allah, and He is the Exalted in Might, the Wise.",
+    "eng:arb": "All that is in the heavens and the earth magnifies God; He is the All-mighty, the All-wise.",
+    "ban": "নভোমন্ডল ও ভূমন্ডলে যা কিছু আছে, সবাই আল্লাহর পবিত্রতা ঘোষণা করে। তিনি শক্তিধর; প্রজ্ঞাময়।"
   },
   {
     "num": "2",
     "ara": "لَهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ يُحْيِي وَيُمِيتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
-    "eng": "His is the dominion of the heavens and earth. He gives life and causes death, and He is over all things competent.",
-    "ban": "তাঁরই হচ্ছে মহাকাশমন্ডল ও পৃথিবীর সার্বভৌমত্ব তিনি জীবন দান করেন ও মৃত্যু ঘটান, আর তিনিই সব-কিছুর উপরে সর্বশক্তিমান।"
+    "eng:sai": "His is the dominion of the heavens and earth. He gives life and causes death, and He is over all things competent.",
+    "eng:arb": "To Him belongs the Kingdom of the heavens and the earth; He gives life, and He makes to die, and He is powerful over everything.",
+    "ban": "নভোমন্ডল ও ভূমন্ডলের রাজত্ব তাঁরই। তিনি জীবন দান করেন ও মৃত্যু ঘটান। তিনি সবকিছু করতে সক্ষম।"
   },
   {
     "num": "3",
     "ara": "هُوَ الْأَوَّلُ وَالْآخِرُ وَالظَّاهِرُ وَالْبَاطِنُ وَهُوَ بِكُلِّ شَيْءٍ عَلِيمٌ",
-    "eng": "He is the First and the Last, the Ascendant and the Intimate, and He is, of all things, Knowing.",
-    "ban": "তিনিই আদি ও অন্ত আর প্রকাশ্য ও গুপ্ত, কেননা তিনিই সব-কিছু সন্বন্ধে সর্বজ্ঞাতা।"
+    "eng:sai": "He is the First and the Last, the Ascendant and the Intimate, and He is, of all things, Knowing.",
+    "eng:arb": "He is the First and the Last, the Outward and the Inward; He has knowledge of everything.",
+    "ban": "তিনিই প্রথম, তিনিই সর্বশেষ, তিনিই প্রকাশমান ও অপ্রকাশমান এবং তিনি সব বিষয়ে সম্যক পরিজ্ঞাত।"
   },
   {
     "num": "4",
     "ara": "هُوَ الَّذِي خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ فِي سِتَّةِ أَيَّامٍ ثُمَّ اسْتَوَى عَلَى الْعَرْشِ يَعْلَمُ مَا يَلِجُ فِي الْأَرْضِ وَمَا يَخْرُجُ مِنْهَا وَمَا يَنزِلُ مِنَ السَّمَاءِ وَمَا يَعْرُجُ فِيهَا وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ وَاللَّهُ بِمَا تَعْمَلُونَ بَصِيرٌ",
-    "eng": "It is He who created the heavens and earth in six days and then established Himself above the Throne. He knows what penetrates into the earth and what emerges from it and what descends from the heaven and what ascends therein; and He is with you wherever you are. And Allah, of what you do, is Seeing.",
-    "ban": "তিনিই সেইজন যিনি মহাকাশমন্ডল ও পৃথিবী সৃষ্টি করেছেন ছয় দিনে, তারপর তিনি সমারোহণ করলেন আরশের উপরে। তিনি জানেন যা পৃথিবীর ভেতরে প্রবেশ করে এবং যা তা থেকে বেরিয়ে আসে, আর যা আকাশ থেকে নেমে আসে এবং যা তাতে উঠে যায়। আর তিনি তোমাদের সঙ্গে রয়েছেন যেখানেই তোমরা থাক না কেন। আর তোমরা যা কর সে-সন্বন্ধে আল্লাহ্ সম্যক দ্রষ্টা।"
+    "eng:sai": "It is He who created the heavens and earth in six days and then established Himself above the Throne. He knows what penetrates into the earth and what emerges from it and what descends from the heaven and what ascends therein; and He is with you wherever you are. And Allah, of what you do, is Seeing.",
+    "eng:arb": "It is He that created the heavens and the earth in six days then seated Himself upon the Throne. He knows what penetrates into the earth, and what comes forth from it, -- what comes down from heaven, and what goes up unto it. He is with you wherever you are; and God sees the things you do.",
+    "ban": "তিনি নভোমন্ডল ও ভূ-মন্ডল সৃষ্টি করেছেন ছয়দিনে, অতঃপর আরশের উপর সমাসীন হয়েছেন। তিনি জানেন যা ভূমিতে প্রবেশ করে ও যা ভূমি থেকে নির্গত হয় এবং যা আকাশ থেকে বর্ষিত হয় ও যা আকাশে উত্থিত হয়। তিনি তোমাদের সাথে আছেন তোমরা যেখানেই থাক। তোমরা যা কর, আল্লাহ তা দেখেন।"
   },
   {
     "num": "5",
     "ara": "لَّهُ مُلْكُ السَّمَاوَاتِ وَالْأَرْضِ وَإِلَى اللَّهِ تُرْجَعُ الْأُمُورُ",
-    "eng": "His is the dominion of the heavens and earth. And to Allah are returned [all] matters.",
-    "ban": "তাঁরই হচ্ছে মহাকাশমন্ডল ও পৃথিবীর সার্বভৌমত্ব আর আল্লাহ্‌রই প্রতি ব্যাপার-স্যাপারগুলো ফিরিয়ে নেওয়া হয়।"
+    "eng:sai": "His is the dominion of the heavens and earth. And to Allah are returned [all] matters.",
+    "eng:arb": "To Him belongs the Kingdom of the heavens and the earth; and unto Him all matters are returned.",
+    "ban": "নভোমন্ডল ও ভূমন্ডলের রাজত্ব তাঁরই। সবকিছু তাঁরই দিকে প্রত্যাবর্তন করবে।"
   },
   {
     "num": "6",
     "ara": "يُولِجُ اللَّيْلَ فِي النَّهَارِ وَيُولِجُ النَّهَارَ فِي اللَّيْلِ وَهُوَ عَلِيمٌ بِذَاتِ الصُّدُورِ",
-    "eng": "He causes the night to enter the day and causes the day to enter the night, and he is Knowing of that within the breasts.",
-    "ban": "তিনি রাতকে দিনের মধ্যে প্রবেশ করিয়ে দেন এবং দিনকে প্রবেশ করান রাতের মধ্যে। আর বুকের ভেতরে যা-কিছু আছে সে- সন্বন্ধে তিনি সর্বজ্ঞাতা।"
+    "eng:sai": "He causes the night to enter the day and causes the day to enter the night, and he is Knowing of that within the breasts.",
+    "eng:arb": "He makes the night to enter into the day and makes the day to enter into the night. He knows the thoughts within the breasts.",
+    "ban": "তিনি রাত্রিকে দিবসে প্রবিষ্ট করেন এবং দিবসকে প্রবিষ্ট করেন রাত্রিতে। তিনি অন্তরের বিষয়াদি সম্পর্কেও সম্যক জ্ঞাত।"
   },
   {
     "num": "7",
     "ara": "آمِنُوا بِاللَّهِ وَرَسُولِهِ وَأَنفِقُوا مِمَّا جَعَلَكُم مُّسْتَخْلَفِينَ فِيهِ فَالَّذِينَ آمَنُوا مِنكُمْ وَأَنفَقُوا لَهُمْ أَجْرٌ كَبِيرٌ",
-    "eng": "Believe in Allah and His Messenger and spend out of that in which He has made you successors. For those who have believed among you and spent, there will be a great reward.",
-    "ban": "আল্লাহ্‌র ও তাঁর রসূলের প্রতি ঈমান আনো, এবং খরচ করো তা থেকে যা দিয়ে তিনি এতে তোমাদের উত্তরাধিকারী বানিয়েছেন। সুতরাং তোমাদের মধ্যের যারা ঈমান আনে ও খরচ করে, তাদের জন্য রয়েছে এক বিরাট প্রতিদান।"
+    "eng:sai": "Believe in Allah and His Messenger and spend out of that in which He has made you successors. For those who have believed among you and spent, there will be a great reward.",
+    "eng:arb": "Believe in God and His Messenger, and expend of that unto which He has made you successors. And those of you who believe and expend shall have a mighty wage.",
+    "ban": "তোমরা আল্লাহ ও তাঁর রসূলের প্রতি বিশ্বাস স্থাপন কর এবং তিনি তোমাদেরকে যার উত্তরাধিকারী করেছেন, তা থেকে ব্যয় কর। অতএব, তোমাদের মধ্যে যারা বিশ্বাস স্থাপন করে ও ব্যয় করে, তাদের জন্যে রয়েছে মহাপুরস্কার।"
   },
   {
     "num": "8",
     "ara": "وَمَا لَكُمْ لَا تُؤْمِنُونَ بِاللَّهِ وَالرَّسُولُ يَدْعُوكُمْ لِتُؤْمِنُوا بِرَبِّكُمْ وَقَدْ أَخَذَ مِيثَاقَكُمْ إِن كُنتُم مُّؤْمِنِينَ",
-    "eng": "And why do you not believe in Allah while the Messenger invites you to believe in your Lord and He has taken your covenant, if you should [truly] be believers?",
-    "ban": "আর তোমাদের কি হয়েছে যে তোমরা আল্লাহ্‌তে বিশ্বাস করছ না, অথচ রসূল তোমাদের আহ্বান করছেন যেন তোমরা তোমাদের প্রভুর প্রতি বিশ্বাস স্থাপন করো, এবং তিনিও ইতিপূর্বেই তোমাদের থেকে অঙ্গীকার গ্রহণ করেছেন, -- যদি তোমরা বিশ্বাসী হয়ে থাকো?"
+    "eng:sai": "And why do you not believe in Allah while the Messenger invites you to believe in your Lord and He has taken your covenant, if you should [truly] be believers?",
+    "eng:arb": "How is it with you, that you believe not in God seeing that the Messenger is calling you to believe in your Lord, and He has taken compact with you, if you are believers?",
+    "ban": "তোমাদের কি হল যে, তোমরা আল্লাহর প্রতি বিশ্বাস স্থাপন করছ না, অথচ রসূল তোমাদেরকে তোমাদের পালনকর্তার প্রতি বিশ্বাস স্থাপন করার দাওয়াত দিচ্ছেন? আল্লাহ তো পূর্বেই তোমাদের অঙ্গীকার নিয়েছেন-যদি তোমরা বিশ্বাসী হও।"
   },
   {
     "num": "9",
     "ara": "هُوَ الَّذِي يُنَزِّلُ عَلَى عَبْدِهِ آيَاتٍ بَيِّنَاتٍ لِّيُخْرِجَكُم مِّنَ الظُّلُمَاتِ إِلَى النُّورِ وَإِنَّ اللَّهَ بِكُمْ لَرَءُوفٌ رَّحِيمٌ",
-    "eng": "It is He who sends down upon His Servant [Muhammad] verses of clear evidence that He may bring you out from darknesses into the light. And indeed, Allah is to you Kind and Merciful.",
-    "ban": "তিনিই সেইজন যিনি তাঁর বান্দার কাছে সুস্পষ্ট নির্দেশাবলী অবতারণ করছেন যেন তিনি তোমাদের বের কবে আনতে পারেন অন্ধকার থেকে আলোকের মধ্যে। আর আল্লাহ্ নিশ্চয়ই তোমাদের প্রতি তো পরম স্নেহময়, অফুরন্ত ফলদাতা।"
+    "eng:sai": "It is He who sends down upon His Servant [Muhammad] verses of clear evidence that He may bring you out from darknesses into the light. And indeed, Allah is to you Kind and Merciful.",
+    "eng:arb": "It is He who sends down upon His servant signs, clear signs, that He may bring you forth from the shadows into the light. Surely God is to you All-gentle, All-compassionate.",
+    "ban": "তিনিই তাঁর দাসের প্রতি প্রকাশ্য আয়াত অবতীর্ণ করেন, যাতে তোমাদেরকে অন্ধকার থেকে আলোকে আনয়ন করেন। নিশ্চয় আল্লাহ তোমাদের প্রতি করুণাময়, পরম দয়ালু।"
   },
   {
     "num": "10",
     "ara": "وَمَا لَكُمْ أَلَّا تُنفِقُوا فِي سَبِيلِ اللَّهِ وَلِلَّهِ مِيرَاثُ السَّمَاوَاتِ وَالْأَرْضِ لَا يَسْتَوِي مِنكُم مَّنْ أَنفَقَ مِن قَبْلِ الْفَتْحِ وَقَاتَلَ أُولَئِكَ أَعْظَمُ دَرَجَةً مِّنَ الَّذِينَ أَنفَقُوا مِن بَعْدُ وَقَاتَلُوا وَكُلًّا وَعَدَ اللَّهُ الْحُسْنَى وَاللَّهُ بِمَا تَعْمَلُونَ خَبِيرٌ",
-    "eng": "And why do you not spend in the cause of Allah while to Allah belongs the heritage of the heavens and the earth? Not equal among you are those who spent before the conquest [of Makkah] and fought [and those who did so after it]. Those are greater in degree than they who spent afterwards and fought. But to all Allah has promised the best [reward]. And Allah, with what you do, is Acquainted.",
-    "ban": "আর তোমাদের কি হয়েছে যে তোমরা আল্লাহ্‌র পথে খরচ কর না, অথচ আল্লাহ্‌রই হচ্ছে মহাকাশমন্ডল ও পৃথিবীর উত্তরাধিকার? তোমাদের মধ্যে তারা সমতুল্য নয় যারা সেই বিজয়ের পূর্বে খরচ করেছিল ও যুদ্ধ করেছিল। এরা শ্রেণীবিভাগে উচ্চতর তাদের থেকে যারা পরবর্তীকালে খরচ করে ও যুদ্ধ করে, আর প্রত্যেককেই আল্লাহ্ ওয়াদা করেছেন কল্যাণের। কেননা তোমরা যা কর সে-সন্বন্ধে আল্লাহ্ পূর্ণ ওয়াকিফহাল।"
+    "eng:sai": "And why do you not spend in the cause of Allah while to Allah belongs the heritage of the heavens and the earth? Not equal among you are those who spent before the conquest [of Makkah] and fought [and those who did so after it]. Those are greater in degree than they who spent afterwards and fought. But to all Allah has promised the best [reward]. And Allah, with what you do, is Acquainted.",
+    "eng:arb": "How is it with you, that you expend not in the way of God, and to God belongs the inheritance of the heavens and the earth? Not equal is he among you who spent, and who fought before the victory; those are mightier in rank than they who spent and fought afterwards; and unto each God has promised the reward most fair; and God is aware of the things you do.",
+    "ban": "তোমাদেরকে আল্লাহর পথে ব্যয় করতে কিসে বাধা দেয়, যখন আল্লাহই নভোমন্ডল ও ভূমন্ডলের উত্তরাধিকারী? তোমাদের মধ্যে যে মক্কা বিজয়ের পূর্বে ব্যয় করেছে ও জেহাদ করেছে, সে সমান নয়। এরূপ লোকদের মর্যদা বড় তাদের অপেক্ষা, যার পরে ব্যয় করেছে ও জেহাদ করেছে। তবে আল্লাহ উভয়কে কল্যাণের ওয়াদা দিয়েছেন। তোমরা যা কর, আল্লাহ সে সম্পর্কে সম্যক জ্ঞাত।"
   },
   {
     "num": "11",
     "ara": "مَّن ذَا الَّذِي يُقْرِضُ اللَّهَ قَرْضًا حَسَنًا فَيُضَاعِفَهُ لَهُ وَلَهُ أَجْرٌ كَرِيمٌ",
-    "eng": "Who is it that would loan Allah a goodly loan so He will multiply it for him and he will have a noble reward?",
-    "ban": "কে সেইজন যে আল্লাহ্‌কে কর্জ দেয় উত্তম কর্জ, ফলে তিনি এটিকে তারজন্য বহুগুণিত করে দেন, আর তার জন্য রয়েছে সম্মানিত পুরস্কার?"
+    "eng:sai": "Who is it that would loan Allah a goodly loan so He will multiply it for him and he will have a noble reward?",
+    "eng:arb": "Who is he that will lend to God a good loan, and He will multiply it for him, and his shall be a generous wage?",
+    "ban": "কে সেই ব্যক্তি, যে আল্লাহকে উত্তম ধার দিবে, এরপর তিনি তার জন্যে তা বহুগুণে বৃদ্ধি করবেন এবং তার জন্যে রয়েছে সম্মানিত পুরস্কার।"
   },
   {
     "num": "12",
     "ara": "يَوْمَ تَرَى الْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ يَسْعَى نُورُهُم بَيْنَ أَيْدِيهِمْ وَبِأَيْمَانِهِم بُشْرَاكُمُ الْيَوْمَ جَنَّاتٌ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا ذَلِكَ هُوَ الْفَوْزُ الْعَظِيمُ",
-    "eng": "On the Day you see the believing men and believing women, their light proceeding before them and on their right, [it will be said], \"Your good tidings today are [of] gardens beneath which rivers flow, wherein you will abide eternally.\" That is what is the great attainment.",
-    "ban": "সেইদিন তুমি বিশ্বাসীদের ও বিশ্বাসিনীদের দেখতে পাবে -- তাদের আলোক ধাবিত হয়েছে তাদের সম্মুখে ও তাদের ডানদিক দিয়ে, -- \"তোমাদের জন্য আজ সুসংবাদ -- স্বর্গোউদ্যানসমূহে যাদের নীচে দিয়ে বয়ে চলেছে ঝরনারাজি, সেখানে অবস্থান করবে।\" এটিই হচ্ছে বিরাট সাফল্য।"
+    "eng:sai": "On the Day you see the believing men and believing women, their light proceeding before them and on their right, [it will be said], \"Your good tidings today are [of] gardens beneath which rivers flow, wherein you will abide eternally.\" That is what is the great attainment.",
+    "eng:arb": "Upon the day when thou seest the believers, men and women, their light running before them, and on their right hands. 'Good tidings for you today! Gardens underneath which rivers flow, therein to dwell for ever; that is indeed the mighty triumph.'",
+    "ban": "যেদিন আপনি দেখবেন ঈমানদার পুরুষ ও ঈমানদার নারীদেরকে, তাদের সম্মুখ ভাগে ও ডানপার্শ্বে তাদের জ্যোতি ছুটোছুটি করবে বলা হবেঃ আজ তোমাদের জন্যে সুসংবাদ জান্নাতের, যার তলদেশে নদী প্রবাহিত, তাতে তারা চিরকাল থাকবে। এটাই মহাসাফল্য।"
   },
   {
     "num": "13",
     "ara": "يَوْمَ يَقُولُ الْمُنَافِقُونَ وَالْمُنَافِقَاتُ لِلَّذِينَ آمَنُوا انظُرُونَا نَقْتَبِسْ مِن نُّورِكُمْ قِيلَ ارْجِعُوا وَرَاءَكُمْ فَالْتَمِسُوا نُورًا فَضُرِبَ بَيْنَهُم بِسُورٍ لَّهُ بَابٌ بَاطِنُهُ فِيهِ الرَّحْمَةُ وَظَاهِرُهُ مِن قِبَلِهِ الْعَذَابُ",
-    "eng": "On the [same] Day the hypocrite men and hypocrite women will say to those who believed, \"Wait for us that we may acquire some of your light.\" It will be said, \"Go back behind you and seek light.\" And a wall will be placed between them with a door, its interior containing mercy, but on the outside of it is torment.",
-    "ban": "সেই দিন যখন কপটাচারী ও কপটাচারিণীরা বলবে তাদের যারা বিশ্বাস করেছে -- \"আমাদের দিকে দেখো তো, তোমাদের আলোক থেকে যেন আমরা নিতে পারি।\" বলা হবে -- \"তোমরা তোমাদের পেছনে ফিরে যাও এবং আলোর খোঁজ কর।\" তারপর তাদের মধ্যে একটি দেওয়াল দাঁড় করানো হবে যাতে থাকবে একটি দরজা। তার ভেতরের দিকে, সেখানে রয়েছে করুণা, আর তার বাইরের দিকে, তার সামনেই রয়েছে শাস্তি।"
+    "eng:sai": "On the [same] Day the hypocrite men and hypocrite women will say to those who believed, \"Wait for us that we may acquire some of your light.\" It will be said, \"Go back behind you and seek light.\" And a wall will be placed between them with a door, its interior containing mercy, but on the outside of it is torment.",
+    "eng:arb": "Upon the day when the hypocrites, men and women, shall say to those who have believed, 'Wait for us, so that we may borrow your light!' It shall be said, 'Return you back behind, and seek for a light!' And a wall shall be set up between them, having a door in the inward whereof is mercy, and against the outward thereof is chastisement.",
+    "ban": "যেদিন কপট বিশ্বাসী পুরুষ ও কপট বিশ্বাসিনী নারীরা মুমিনদেরকে বলবেঃ তোমরা আমাদের জন্যে অপেক্ষা কর, আমরাও কিছু আলো নিব তোমাদের জ্যোতি থেকে। বলা হবেঃ তোমরা পিছনে ফিরে যাও ও আলোর খোঁজ কর। অতঃপর উভয় দলের মাঝখানে খাড়া করা হবে একটি প্রাচীর, যার একটি দরজা হবে। তার অভ্যন্তরে থাকবে রহমত এবং বাইরে থাকবে আযাব।"
   },
   {
     "num": "14",
     "ara": "يُنَادُونَهُمْ أَلَمْ نَكُن مَّعَكُمْ قَالُوا بَلَى وَلَكِنَّكُمْ فَتَنتُمْ أَنفُسَكُمْ وَتَرَبَّصْتُمْ وَارْتَبْتُمْ وَغَرَّتْكُمُ الْأَمَانِيُّ حَتَّى جَاءَ أَمْرُ اللَّهِ وَغَرَّكُم بِاللَّهِ الْغَرُورُ",
-    "eng": "The hypocrites will call to the believers, \"Were we not with you?\" They will say, \"Yes, but you afflicted yourselves and awaited [misfortune for us] and doubted, and wishful thinking deluded you until there came the command of Allah. And the Deceiver deceived you concerning Allah.",
-    "ban": "তারা তাদের ডেকে বলবে -- \"আমরা কি তোমাদের সঙ্গে ছিলাম না?\" তারা বলবে -- \"হাঁ, কিন্ত তোমরা তোমাদের নিজেদের প্রলুব্ধ করেছিলে, আর প্রতীক্ষা করেছিলে, আর বৃথা কামনা তোমাদের প্রতারিত করেছিল যে পর্যন্ত না আল্লাহ্‌র বিধান এসেছিল, আর আল্লাহ্ সম্পর্কে মহাপ্রতারক তোমাদের প্রতারণা করেছিল।"
+    "eng:sai": "The hypocrites will call to the believers, \"Were we not with you?\" They will say, \"Yes, but you afflicted yourselves and awaited [misfortune for us] and doubted, and wishful thinking deluded you until there came the command of Allah. And the Deceiver deceived you concerning Allah.",
+    "eng:arb": "They shall be calling unto them, 'Were we not with you?' They shall say, 'Yes indeed; but you tempted yourselves, and you awaited, and you were in doubt, and fancies deluded you, until God's commandment came, and the Deluder deluded you concerning God.",
+    "ban": "তারা মুমিনদেরকে ডেকে বলবেঃ আমরা কি তোমাদের সাথে ছিলাম না? তারা বলবেঃ হঁ্যা কিন্তু তোমরা নিজেরাই নিজেদেরকে বিপদগ্রস্ত করেছ। প্রতীক্ষা করেছ, সন্দেহ পোষণ করেছ এবং অলীক আশার পেছনে বিভ্রান্ত হয়েছ, অবশেষে আল্লাহর আদেশ পৌঁছেছে। এই সবই তোমাদেরকে আল্লাহ সম্পর্কে প্রতারিত করেছে।"
   },
   {
     "num": "15",
     "ara": "فَالْيَوْمَ لَا يُؤْخَذُ مِنكُمْ فِدْيَةٌ وَلَا مِنَ الَّذِينَ كَفَرُوا مَأْوَاكُمُ النَّارُ هِيَ مَوْلَاكُمْ وَبِئْسَ الْمَصِيرُ",
-    "eng": "So today no ransom will be taken from you or from those who disbelieved. Your refuge is the Fire. It is most worthy of you, and wretched is the destination.",
-    "ban": "\"সেজন্য আজকের দিনে তোমাদের থেকে কোনো মুক্তিপণ গ্রহণ করা হবে না, আর যারা অবিশ্বাস করেছিল তাদের থেকেও নয়। তোমাদের আবাসস্থল হচ্ছে জাহান্নাম, এই-ই তোমাদের মুরব্বী, আর কত নিকৃষ্ট গন্তব্যস্থল!\""
+    "eng:sai": "So today no ransom will be taken from you or from those who disbelieved. Your refuge is the Fire. It is most worthy of you, and wretched is the destination.",
+    "eng:arb": "Therefore today no ransom shall be taken from you, neither from those who disbelieved. Your refuge is the Fire, that is your master -- an evil homecoming!'",
+    "ban": "অতএব, আজ তোমাদের কাছ থেকে কোন মুক্তিপন গ্রহণ করা হবে না। এবং কাফেরদের কাছ থেকেও নয়। তোমাদের সবার আবাস্থল জাহান্নাম। সেটাই তোমাদের সঙ্গী। কতই না নিকৃষ্ট এই প্রত্যাবর্তন স্থল।"
   },
   {
     "num": "16",
     "ara": "أَلَمْ يَأْنِ لِلَّذِينَ آمَنُوا أَن تَخْشَعَ قُلُوبُهُمْ لِذِكْرِ اللَّهِ وَمَا نَزَلَ مِنَ الْحَقِّ وَلَا يَكُونُوا كَالَّذِينَ أُوتُوا الْكِتَابَ مِن قَبْلُ فَطَالَ عَلَيْهِمُ الْأَمَدُ فَقَسَتْ قُلُوبُهُمْ وَكَثِيرٌ مِّنْهُمْ فَاسِقُونَ",
-    "eng": "Has the time not come for those who have believed that their hearts should become humbly submissive at the remembrance of Allah and what has come down of the truth? And let them not be like those who were given the Scripture before, and a long period passed over them, so their hearts hardened; and many of them are defiantly disobedient.",
-    "ban": "এখনও কি সময় হয় নি তাদের জন্য যে যারা বিশ্বাস করে তাদের হৃদয় বিনত হবে আল্লাহ্‌র স্মরণে এবং সত্যের যা অবতীর্ণ হয়েছে? আর তারা ওদের মতো না হোক যাদের পূর্ববর্তীকালে গ্রন্থ দেওয়া হয়েছিল, কিন্ত সময় তাদের জন্য সুদীর্ঘ মনে হয়েছিল, ফলে তাদের হৃদয় কঠিন হয়ে পড়েছিল। আর তাদের মধ্যের অনেকেই হয়েছিল সত্যত্যাগী।"
+    "eng:sai": "Has the time not come for those who have believed that their hearts should become humbly submissive at the remembrance of Allah and what has come down of the truth? And let them not be like those who were given the Scripture before, and a long period passed over them, so their hearts hardened; and many of them are defiantly disobedient.",
+    "eng:arb": "Is it not time that the hearts of those who believe should be humbled to the Remembrance of God and the Truth which He has sent down, and that they should not be as those to whom the Book was given aforetime, and the term seemed over long to them, so that their hearts have become hard, and many of them are ungodly?",
+    "ban": "যারা মুমিন, তাদের জন্যে কি আল্লাহর স্মরণে এবং যে সত্য অবর্তীর্ণ হয়েছে, তার কারণে হৃদয় বিগলিত হওয়ার সময় আসেনি? তারা তাদের মত যেন না হয়, যাদেরকে পূর্বে কিতাব দেয়া হয়েছিল। তাদের উপর সুদীর্ঘকাল অতিক্রান্ত হয়েছে, অতঃপর তাদের অন্তঃকরণ কঠিন হয়ে গেছে। তাদের অধিকাংশই পাপাচারী।"
   },
   {
     "num": "17",
     "ara": "اعْلَمُوا أَنَّ اللَّهَ يُحْيِي الْأَرْضَ بَعْدَ مَوْتِهَا قَدْ بَيَّنَّا لَكُمُ الْآيَاتِ لَعَلَّكُمْ تَعْقِلُونَ",
-    "eng": "Know that Allah gives life to the earth after its lifelessness. We have made clear to you the signs; perhaps you will understand.",
-    "ban": "তোমরা জেনে রাখো যে আল্লাহ্ পৃথিবীটাকে তার মৃত্যুর পরে প্রাণ সঞ্চার করেন। আমরা তো তোমাদের জন্য নির্দেশাবলী সুস্পষ্ট করে দিয়েছি যেন তোমরা বুঝতে পার।"
+    "eng:sai": "Know that Allah gives life to the earth after its lifelessness. We have made clear to you the signs; perhaps you will understand.",
+    "eng:arb": "Know that God revives the earth after it was dead. We have indeed made clear for you the signs, that haply you will understand.",
+    "ban": "তোমরা জেনে রাখ, আল্লাহই ভূ-ভাগকে তার মৃত্যুর পর পুনরুজ্জীবিত করেন। আমি পরিস্কারভাবে তোমাদের জন্যে আয়াতগুলো ব্যক্ত করেছি, যাতে তোমরা বোঝ।"
   },
   {
     "num": "18",
     "ara": "إِنَّ الْمُصَّدِّقِينَ وَالْمُصَّدِّقَاتِ وَأَقْرَضُوا اللَّهَ قَرْضًا حَسَنًا يُضَاعَفُ لَهُمْ وَلَهُمْ أَجْرٌ كَرِيمٌ",
-    "eng": "Indeed, the men who practice charity and the women who practice charity and [they who] have loaned Allah a goodly loan - it will be multiplied for them, and they will have a noble reward.",
-    "ban": "নিঃসন্দেহ দানশীল পুরুষ ও দানশীলা নারীরা আর যারা আল্লাহ্‌কে উত্তম ঋণ দান করে -- তাদের জন্য তা বহুগুণিত করা হবে, আর তাদের জন্য রয়েছে সম্মানিত পুরস্কার।"
+    "eng:sai": "Indeed, the men who practice charity and the women who practice charity and [they who] have loaned Allah a goodly loan - it will be multiplied for them, and they will have a noble reward.",
+    "eng:arb": "Surely those, the men and the women, who make freewill offerings and have lent to God a good loan, it shall be multiplied for them, and theirs shall be a generous wage.",
+    "ban": "নিশ্চয় দানশীল ব্যক্তি ও দানশীলা নারী, যারা আল্লাহকে উত্তমরূপে ধার দেয়, তাদেরকে দেয়া হবে বহুগুণ এবং তাদের জন্যে রয়েছে সম্মানজনক পুরস্কার।"
   },
   {
     "num": "19",
     "ara": "وَالَّذِينَ آمَنُوا بِاللَّهِ وَرُسُلِهِ أُولَئِكَ هُمُ الصِّدِّيقُونَ وَالشُّهَدَاءُ عِندَ رَبِّهِمْ لَهُمْ أَجْرُهُمْ وَنُورُهُمْ وَالَّذِينَ كَفَرُوا وَكَذَّبُوا بِآيَاتِنَا أُولَئِكَ أَصْحَابُ الْجَحِيمِ",
-    "eng": "And those who have believed in Allah and His messengers - those are [in the ranks of] the supporters of truth and the martyrs, with their Lord. For them is their reward and their light. But those who have disbelieved and denied Our verses - those are the companions of Hellfire.",
-    "ban": "আর যারা আল্লাহ্‌র প্রতি ও তাঁর রসূলের প্রতি ঈমান এনেছে, তারাই খোদ সত্যপরায়ণ এবং তাদের প্রভুর সমক্ষে সাক্ষ্যদাতা। তাদের জন্য রয়েছে তাদের প্রতিদান ও তাদের আলোক। পক্ষান্তরে যারা অবিশ্বাস করে ও আমাদের নির্দেশাবলী প্রত্যাখ্যান করে, তারাই হচ্ছে ভয়ংকর আগুনের বাসিন্দা।"
+    "eng:sai": "And those who have believed in Allah and His messengers - those are [in the ranks of] the supporters of truth and the martyrs, with their Lord. For them is their reward and their light. But those who have disbelieved and denied Our verses - those are the companions of Hellfire.",
+    "eng:arb": "And those who believe in God and His Messengers -- they are the just men and the martyrs in their Lord's sight; they have their wage, and their light. But the unbelievers, who have cried lies to Our signs, they are the inhabitants of Hell.",
+    "ban": "আর যারা আল্লাহ ও তাঁর রসূলের প্রতি বিশ্বাস স্থাপন করে তারাই তাদের পালনকর্তার কাছে সিদ্দীক ও শহীদ বলে বিবেচিত। তাদের জন্যে রয়েছে পুরস্কার ও জ্যোতি এবং যারা কাফের ও আমার নিদর্শন অস্বীকারকারী তারাই জাহান্নামের অধিবাসী হবে।"
   },
   {
     "num": "20",
     "ara": "اعْلَمُوا أَنَّمَا الْحَيَاةُ الدُّنْيَا لَعِبٌ وَلَهْوٌ وَزِينَةٌ وَتَفَاخُرٌ بَيْنَكُمْ وَتَكَاثُرٌ فِي الْأَمْوَالِ وَالْأَوْلَادِ كَمَثَلِ غَيْثٍ أَعْجَبَ الْكُفَّارَ نَبَاتُهُ ثُمَّ يَهِيجُ فَتَرَاهُ مُصْفَرًّا ثُمَّ يَكُونُ حُطَامًا وَفِي الْآخِرَةِ عَذَابٌ شَدِيدٌ وَمَغْفِرَةٌ مِّنَ اللَّهِ وَرِضْوَانٌ وَمَا الْحَيَاةُ الدُّنْيَا إِلَّا مَتَاعُ الْغُرُورِ",
-    "eng": "Know that the life of this world is but amusement and diversion and adornment and boasting to one another and competition in increase of wealth and children - like the example of a rain whose [resulting] plant growth pleases the tillers; then it dries and you see it turned yellow; then it becomes [scattered] debris. And in the Hereafter is severe punishment and forgiveness from Allah and approval. And what is the worldly life except the enjoyment of delusion.",
-    "ban": "তোমরা জেনে রাখো যে পার্থিব জীবনটা তো খেলা-ধূলো ও আমোদ-প্রমোদ ও জাঁকজমক ও তোমাদের নিজেদের মধ্যে হামবড়াই এবং ধনদৌলত ও সন্তানসন্ততির প্রতিযোগিতা মাত্র। এটি বৃষ্টির উপমার মতো যার উৎপাদন চাষীদের চমৎকৃত করে, তারপর তা শুকিয়ে যায়, তুমি তখন তা দেখতে পাও হলদে হয়ে গেছে, অবশেষে তা খড়কুটো হয়ে যায়! আর পরকালে রয়েছে কঠোর শাস্তি, পক্ষান্তরে রয়েছে আল্লাহ্‌র কাছ থেকে পরিত্রাণ ও সন্তষ্টি। আর পার্থিব জীবন ছলনাময় ভোগবিলাস বৈ তো নয়।"
+    "eng:sai": "Know that the life of this world is but amusement and diversion and adornment and boasting to one another and competition in increase of wealth and children - like the example of a rain whose [resulting] plant growth pleases the tillers; then it dries and you see it turned yellow; then it becomes [scattered] debris. And in the Hereafter is severe punishment and forgiveness from Allah and approval. And what is the worldly life except the enjoyment of delusion.",
+    "eng:arb": "Know that the present life is but a sport and a diversion, an adornment and a cause for boasting among you, and a rivalry in wealth and children. It is as a rain whose vegetation pleases the unbelievers; then it withers, and thou seest it turning yellow, then it becomes broken orts. And in the world to come there is a terrible chastisement, and forgiveness from God and good pleasure; and the present life is but the joy of delusion.",
+    "ban": "তোমরা জেনে রাখ, পার্থিব জীবন ক্রীড়া-কৌতুক, সাজ-সজ্জা, পারস্পরিক অহমিকা এবং ধন ও জনের প্রাচুর্য ব্যতীত আর কিছু নয়, যেমন এক বৃষ্টির অবস্থা, যার সবুজ ফসল কৃষকদেরকে চমৎকৃত করে, এরপর তা শুকিয়ে যায়, ফলে তুমি তাকে পীতবর্ণ দেখতে পাও, এরপর তা খড়কুটা হয়ে যায়। আর পরকালে আছে কঠিন শাস্তি এবং আল্লাহর ক্ষমা ও সন্তুষ্টি। পার্থিব জীবন প্রতারণার উপকরণ বৈ কিছু নয়।"
   },
   {
     "num": "21",
     "ara": "سَابِقُوا إِلَى مَغْفِرَةٍ مِّن رَّبِّكُمْ وَجَنَّةٍ عَرْضُهَا كَعَرْضِ السَّمَاءِ وَالْأَرْضِ أُعِدَّتْ لِلَّذِينَ آمَنُوا بِاللَّهِ وَرُسُلِهِ ذَلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَن يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
-    "eng": "Race toward forgiveness from your Lord and a Garden whose width is like the width of the heavens and earth, prepared for those who believed in Allah and His messengers. That is the bounty of Allah which He gives to whom He wills, and Allah is the possessor of great bounty.",
-    "ban": "তোমরা প্রতিযোগিতা করো তোমাদের প্রভুর কাছ থেকে পরিত্রাণ লাভের জন্য এবং এমন এক জান্নাতের জন্য যার বিস্তার হচ্ছে মহাকাশ ও পৃথিবীর বিস্তৃতির মতো, -- এটি তৈরি করা হয়েছে তাদের জন্য যারা আল্লাহ্‌তে ও তাঁর রসূলের প্রতি ঈমান আনে। এ হচ্ছে আল্লাহ্‌র অনুগ্রহ প্রাচুর্য, তিনি তা প্রদান করেন যাকে তিনি ইচ্ছা করেন। বস্তুত আল্লাহ্ বিরাট করুণাভান্ডারের অধিকারী।"
+    "eng:sai": "Race toward forgiveness from your Lord and a Garden whose width is like the width of the heavens and earth, prepared for those who believed in Allah and His messengers. That is the bounty of Allah which He gives to whom He wills, and Allah is the possessor of great bounty.",
+    "eng:arb": "Race to forgiveness from your Lord, and a Garden the breadth whereof is as the breadth of heaven and earth, made ready for those who believe in God and His Messengers. That is the bounty of God; He gives it unto whomsoever He will; and God is of bounty abounding.",
+    "ban": "তোমরা অগ্রে ধাবিত হও তোমাদের পালনকর্তার ক্ষমা ও সেই জান্নাতের দিকে, যা আকাশ ও পৃথিবীর মত প্রশস্ত। এটা প্রস্তুত করা হয়েছে আল্লাহ ও তাঁর রসূলগণের প্রতি বিশ্বাসস্থাপনকারীদের জন্যে। এটা আল্লাহর কৃপা, তিনি যাকে ইচ্ছা, এটা দান করেন। আল্লাহ মহান কৃপার অধিকারী।"
   },
   {
     "num": "22",
     "ara": "مَا أَصَابَ مِن مُّصِيبَةٍ فِي الْأَرْضِ وَلَا فِي أَنفُسِكُمْ إِلَّا فِي كِتَابٍ مِّن قَبْلِ أَن نَّبْرَأَهَا إِنَّ ذَلِكَ عَلَى اللَّهِ يَسِيرٌ",
-    "eng": "No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being - indeed that, for Allah, is easy -",
-    "ban": "এমন কোনো বিপর্যয় পৃথিবীতে পতিত হয় না আর তোমাদের নিজেদের উপরেও নয় যা আমরা ঘটাবার আগে একটি কিতাবে না রয়েছে। নিঃসন্দেহ এটি আল্লাহ্‌র জন্যে সহজ।"
+    "eng:sai": "No disaster strikes upon the earth or among yourselves except that it is in a register before We bring it into being - indeed that, for Allah, is easy -",
+    "eng:arb": "No affliction befalls in the earth or in yourselves, but it is in a Book, before We create it; that is easy for God;",
+    "ban": "পৃথিবীতে এবং ব্যক্তিগতভাবে তোমাদের উপর কোন বিপদ আসে না; কিন্তু তা জগত সৃষ্টির পূর্বেই কিতাবে লিপিবদ্ধ আছে। নিশ্চয় এটা আল্লাহর পক্ষে সহজ।"
   },
   {
     "num": "23",
     "ara": "لِّكَيْلَا تَأْسَوْا عَلَى مَا فَاتَكُمْ وَلَا تَفْرَحُوا بِمَا آتَاكُمْ وَاللَّهُ لَا يُحِبُّ كُلَّ مُخْتَالٍ فَخُورٍ",
-    "eng": "In order that you not despair over what has eluded you and not exult [in pride] over what He has given you. And Allah does not like everyone self-deluded and boastful -",
-    "ban": "এজন্য যে তোমরা যেন দুঃখ করো না যা তোমাদের থেকে হারিয়ে যায়, এবং তোমরা যেন উল্লাস না করো যা তিনি তোমাদের প্রদান করেন সেজন্য। আর আল্লাহ্ ভালবাসেন না সমূদয় অবিবেচক অহংকারীকে, --"
+    "eng:sai": "In order that you not despair over what has eluded you and not exult [in pride] over what He has given you. And Allah does not like everyone self-deluded and boastful -",
+    "eng:arb": "that you may not grieve for what escapes you, nor rejoice in what has come to you; God loves not any man proud and boastful,",
+    "ban": "এটা এজন্যে বলা হয়, যাতে তোমরা যা হারাও তজ্জন্যে দুঃখিত না হও এবং তিনি তোমাদেরকে যা দিয়েছেন, তজ্জন্যে উল্লসিত না হও। আল্লাহ কোন উদ্ধত অহংকারীকে পছন্দ করেন না,"
   },
   {
     "num": "24",
     "ara": "الَّذِينَ يَبْخَلُونَ وَيَأْمُرُونَ النَّاسَ بِالْبُخْلِ وَمَن يَتَوَلَّ فَإِنَّ اللَّهَ هُوَ الْغَنِيُّ الْحَمِيدُ",
-    "eng": "[Those] who are stingy and enjoin upon people stinginess. And whoever turns away - then indeed, Allah is the Free of need, the Praiseworthy.",
-    "ban": "যারা কার্পণ্য করে, আর লোকেদেরও কার্পণ্যের নির্দেশ দেয়। আর যে কেউ ফিরে যায়, তবে নিশ্চয় আল্লাহ, তিনিই ধনবান, প্রশংসার্হ।"
+    "eng:sai": "[Those] who are stingy and enjoin upon people stinginess. And whoever turns away - then indeed, Allah is the Free of need, the Praiseworthy.",
+    "eng:arb": "such as are niggardly, and bid men to be niggardly. And whosoever turns away, God is the All-sufficient, the All-laudable.",
+    "ban": "যারা কৃপণতা করে এবং মানুষকে কৃপণতার প্রতি উৎসাহ দেয়, যে মুখ ফিরিয়ে নেয়, তার জানা উচিত যে, আল্লাহ অভাবমুক্ত, প্রশংসিত।"
   },
   {
     "num": "25",
     "ara": "لَقَدْ أَرْسَلْنَا رُسُلَنَا بِالْبَيِّنَاتِ وَأَنزَلْنَا مَعَهُمُ الْكِتَابَ وَالْمِيزَانَ لِيَقُومَ النَّاسُ بِالْقِسْطِ وَأَنزَلْنَا الْحَدِيدَ فِيهِ بَأْسٌ شَدِيدٌ وَمَنَافِعُ لِلنَّاسِ وَلِيَعْلَمَ اللَّهُ مَن يَنصُرُهُ وَرُسُلَهُ بِالْغَيْبِ إِنَّ اللَّهَ قَوِيٌّ عَزِيزٌ",
-    "eng": "We have already sent Our messengers with clear evidences and sent down with them the Scripture and the balance that the people may maintain [their affairs] in justice. And We sent down iron, wherein is great military might and benefits for the people, and so that Allah may make evident those who support Him and His messengers unseen. Indeed, Allah is Powerful and Exalted in Might.",
-    "ban": "আমরা তো আমাদের রসূলগণকে পাঠিয়ে দিয়েছিলাম সুস্পষ্ট প্রমাণাদি দিয়ে, আর তাঁদের সঙ্গে আমরা অবতারণ করেছিলাম ধর্মগ্রন্থ ও মানদন্ড যাতে লোকেরা ন্যায়বিচার প্রতিষ্ঠা করতে পারে, আর আমরা লোহা পাঠিয়েছি যাতে রয়েছে বিরাট শক্তিমত্তা ও মানুষের জন্য উপকারিতা, আর যেন আল্লাহ্ জানতে পারেন কে তাঁকে ও তাঁর রসূলগণকে অগোচরেও সাহায্য করে। নিঃসন্দেহ আল্লাহ্ মহাবলীয়ান, মহাশক্তিশালী।"
+    "eng:sai": "We have already sent Our messengers with clear evidences and sent down with them the Scripture and the balance that the people may maintain [their affairs] in justice. And We sent down iron, wherein is great military might and benefits for the people, and so that Allah may make evident those who support Him and His messengers unseen. Indeed, Allah is Powerful and Exalted in Might.",
+    "eng:arb": "Indeed, We sent Our Messengers with the clear signs, and We sent down with them the Book and the Balance so that men might uphold justice. And We sent down iron, wherein is great might, and many uses for men, and so that God might know who helps Him, and His Messengers, in the Unseen. Surely God is All-strong, All-mighty.",
+    "ban": "আমি আমার রসূলগণকে সুস্পষ্ট নিদর্শনসহ প্রেরণ করেছি এবং তাঁদের সাথে অবতীর্ণ করেছি কিতাব ও ন্যায়নীতি, যাতে মানুষ ইনসাফ প্রতিষ্ঠা করে। আর আমি নাযিল করেছি লৌহ, যাতে আছে প্রচন্ড রণশক্তি এবং মানুষের বহুবিধ উপকার। এটা এজন্যে যে, আল্লাহ জেনে নিবেন কে না দেখে তাঁকে ও তাঁর রসূলগণকে সাহায্য করে। আল্লাহ শক্তিধর, পরাক্রমশালী।"
   },
   {
     "num": "26",
     "ara": "وَلَقَدْ أَرْسَلْنَا نُوحًا وَإِبْرَاهِيمَ وَجَعَلْنَا فِي ذُرِّيَّتِهِمَا النُّبُوَّةَ وَالْكِتَابَ فَمِنْهُم مُّهْتَدٍ وَكَثِيرٌ مِّنْهُمْ فَاسِقُونَ",
-    "eng": "And We have already sent Noah and Abraham and placed in their descendants prophethood and scripture; and among them is he who is guided, but many of them are defiantly disobedient.",
-    "ban": "আর আমরা ইতিপূর্বে নূহ্‌কে ও ইব্রাহীমকে পাঠিয়েছিলাম, আর তাঁদের বংশধরদের মধ্যে নবুওৎ ও গ্রন্থ সংস্থাপন করেছিলাম, কাজেই তাদের কেউ-কেউ ছিল সৎপথপ্রাপ্ত, কিন্ত তাদের অধিকাংশই ছিল সত্যত্যাগী।"
+    "eng:sai": "And We have already sent Noah and Abraham and placed in their descendants prophethood and scripture; and among them is he who is guided, but many of them are defiantly disobedient.",
+    "eng:arb": "And We sent Noah, and Abraham, and We appointed the Prophecy and the Book to be among their seed; and some of them are guided, and many of them are ungodly.",
+    "ban": "আমি নূহ ও ইব্রাহীমকে রসূলরূপে প্রেরণ করেছি এবং তাদের বংশধরের মধ্যে নবুওয়ত ও কিতাব অব্যাহত রেখেছি। অতঃপর তাদের কতক সৎপথপ্রাপ্ত হয়েছে এবং অধিকাংশই হয়েছে পাপাচারী।"
   },
   {
     "num": "27",
     "ara": "ثُمَّ قَفَّيْنَا عَلَى آثَارِهِم بِرُسُلِنَا وَقَفَّيْنَا بِعِيسَى ابْنِ مَرْيَمَ وَآتَيْنَاهُ الْإِنجِيلَ وَجَعَلْنَا فِي قُلُوبِ الَّذِينَ اتَّبَعُوهُ رَأْفَةً وَرَحْمَةً وَرَهْبَانِيَّةً ابْتَدَعُوهَا مَا كَتَبْنَاهَا عَلَيْهِمْ إِلَّا ابْتِغَاءَ رِضْوَانِ اللَّهِ فَمَا رَعَوْهَا حَقَّ رِعَايَتِهَا فَآتَيْنَا الَّذِينَ آمَنُوا مِنْهُمْ أَجْرَهُمْ وَكَثِيرٌ مِّنْهُمْ فَاسِقُونَ",
-    "eng": "Then We sent following their footsteps Our messengers and followed [them] with Jesus, the son of Mary, and gave him the Gospel. And We placed in the hearts of those who followed him compassion and mercy and monasticism, which they innovated; We did not prescribe it for them except [that they did so] seeking the approval of Allah. But they did not observe it with due observance. So We gave the ones who believed among them their reward, but many of them are defiantly disobedient.",
-    "ban": "তারপর আমাদের রসূলগণকে তাঁদের পদচিহ্নে চলতে দিয়েছিলাম, আর মরিয়ম-পুত্র ঈসাকে আমরা অনুসরণ করিয়েছিলাম ও তাঁকে আমরা ইনজীল দিয়েছিলাম, আর যারা তাঁর অনুসরণ করেছিল তাদের অন্তরে আমরা সদয়তা ও করুণা দিয়েছিলাম। কিন্ত সন্ন্যাসবাদ -- তারাই এটি আবিস্কার করেছিল, আমরা তাদের প্রতি এটি লিপিবদ্ধ করি নি, শুধু আল্লাহ্‌র সন্তষ্টির অনুসন্ধান করা, কিন্ত তারা এটি পালন করে নি যেমনটা এটি পালনের যোগ্য ছিল। ফলে তাদের মধ্যের যারা ঈমান এনেছিল তাদের আমরা দিয়েছিলাম তাদের প্রতিদান, কিন্ত তাদের অধিকাংশই ছিল সত্যত্যাগী।"
+    "eng:sai": "Then We sent following their footsteps Our messengers and followed [them] with Jesus, the son of Mary, and gave him the Gospel. And We placed in the hearts of those who followed him compassion and mercy and monasticism, which they innovated; We did not prescribe it for them except [that they did so] seeking the approval of Allah. But they did not observe it with due observance. So We gave the ones who believed among them their reward, but many of them are defiantly disobedient.",
+    "eng:arb": "Then We sent, following in their footsteps, Our Messengers; and We sent, following, Jesus son of Mary, and gave unto him the Gospel. And We set in the hearts of those who followed him tenderness and mercy. And monasticism they invented -- We did not prescribe it for them -- only seeking the good pleasure of God; but they observed it not as it should be observed. So We gave those of them who believed their wage; and many of them are ungodly.",
+    "ban": "অতঃপর আমি তাদের পশ্চাতে প্রেরণ করেছি আমার রসূলগণকে এবং তাদের অনুগামী করেছি মরিয়ম তনয় ঈসাকে ও তাকে দিয়েছি ইঞ্জিল। আমি তার অনুসারীদের অন্তরে স্থাপন করেছি নম্রতা ও দয়া। আর বৈরাগ্য, সে তো তারা নিজেরাই উদ্ভাবন করেছে; আমি এটা তাদের উপর ফরজ করিনি; কিন্তু তারা আল্লাহর সন্তুষ্টি লাভের জন্যে এটা অবলম্বন করেছে। অতঃপর তারা যথাযথভাবে তা পালন করেনি। তাদের মধ্যে যারা বিশ্বাসী ছিল, আমি তাদেরকে তাদের প্রাপ্য পুরস্কার দিয়েছি। আর তাদের অধিকাংশই পাপাচারী।"
   },
   {
     "num": "28",
     "ara": "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَآمِنُوا بِرَسُولِهِ يُؤْتِكُمْ كِفْلَيْنِ مِن رَّحْمَتِهِ وَيَجْعَل لَّكُمْ نُورًا تَمْشُونَ بِهِ وَيَغْفِرْ لَكُمْ وَاللَّهُ غَفُورٌ رَّحِيمٌ",
-    "eng": "O you who have believed, fear Allah and believe in His Messenger; He will [then] give you a double portion of His mercy and make for you a light by which you will walk and forgive you; and Allah is Forgiving and Merciful.",
-    "ban": "ওহে যারা ঈমান এনেছ! আল্লাহ্‌কে ভয়ভক্তি করো এবং তাঁর রসূলের প্রতি বিশ্বাসস্থাপন করো, তিনি তাঁর করুণা থেকে দুটি অংশ তোমাদের প্রদান করবেন, আর তোমাদের জন্য তিনি একটি আলোক স্থাপন করবেন যার মধ্যে তোমরা পথ চলতে পারো, এবং তিনি তোমাদের পরিত্রাণ করতে পারেন। আর আল্লাহ্ পরিত্রাণকারী, অফুরন্ত ফলদাতা --"
+    "eng:sai": "O you who have believed, fear Allah and believe in His Messenger; He will [then] give you a double portion of His mercy and make for you a light by which you will walk and forgive you; and Allah is Forgiving and Merciful.",
+    "eng:arb": "O believers, fear God, and believe in His Messenger, and He will give you a twofold portion of His mercy; and He will appoint for you a light whereby you shall walk, and forgive you; God is All-forgiving, All-compassionate;",
+    "ban": "মুমিনগণ, তোমরা আল্লাহকে ভয় কর এবং তাঁর রসূলের প্রতি বিশ্বাস স্থাপন কর। তিনি নিজে অনুগ্রহের দ্বিগুণ অংশ তোমাদেরকে দিবেন, তোমাদেরকে দিবেন জ্যোতি, যার সাহায্যে তোমরা চলবে এবং তোমাদেরকে ক্ষমা করবেন। আল্লাহ ক্ষমাশীল, দয়াময়।"
   },
   {
     "num": "29",
     "ara": "لِّئَلَّا يَعْلَمَ أَهْلُ الْكِتَابِ أَلَّا يَقْدِرُونَ عَلَى شَيْءٍ مِّن فَضْلِ اللَّهِ وَأَنَّ الْفَضْلَ بِيَدِ اللَّهِ يُؤْتِيهِ مَن يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ",
-    "eng": "[This is] so that the People of the Scripture may know that they are not able [to obtain] anything from the bounty of Allah and that [all] bounty is in the hand of Allah; He gives it to whom He wills. And Allah is the possessor of great bounty.",
-    "ban": "গ্রন্থধারীরা হয়ত নাও জানতে পারে যে তারা আল্লাহ্‌র করুণাভান্ডারের মধ্যের কোনো কিছুতেই ক্ষমতা রাখে না, আর এই যে করুণাভান্ডার তো আল্লাহ্‌রই হাতে রয়েছে, তিনি এটি প্রদান করেন যাকে তিনি ইচ্ছা করেন। বস্তুত আল্লাহ্ বিরাট করুণাভান্ডারের অধিকারী।"
+    "eng:sai": "[This is] so that the People of the Scripture may know that they are not able [to obtain] anything from the bounty of Allah and that [all] bounty is in the hand of Allah; He gives it to whom He wills. And Allah is the possessor of great bounty.",
+    "eng:arb": "that the People of the Book may know that they have no power over anything of God's bounty, and that bounty is in the hand of God; He gives it unto whomsoever He will; and God is of bounty abounding.",
+    "ban": "যাতে কিতাবধারীরা জানে যে, আল্লাহর সামান্য অনুগ্রহের উপর ও তাদের কোন ক্ষমতা নেই, দয়া আল্লাহরই হাতে; তিনি যাকে ইচ্ছা, তা দান করেন। আল্লাহ মহা অনুগ্রহশীল।"
   }
 ]

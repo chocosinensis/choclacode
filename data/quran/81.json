@@ -2,175 +2,204 @@
   {
     "num": "1",
     "ara": "إِذَا الشَّمْسُ كُوِّرَتْ",
-    "eng": "When the sun is wrapped up [in darkness]",
-    "ban": "যখন সূর্য অন্ধকারাচ্ছন্ন হয়ে যাবে,"
+    "eng:sai": "When the sun is wrapped up [in darkness]",
+    "eng:arb": "When the sun shall be darkened,",
+    "ban": "যখন সূর্য আলোহীন হয়ে যাবে,"
   },
   {
     "num": "2",
     "ara": "وَإِذَا النُّجُومُ انكَدَرَتْ",
-    "eng": "And when the stars fall, dispersing,",
-    "ban": "আর যখন তারকারা নিস্তেজ হয়ে পড়বে,"
+    "eng:sai": "And when the stars fall, dispersing,",
+    "eng:arb": "when the stars shall be thrown down,",
+    "ban": "যখন নক্ষত্র মলিন হয়ে যাবে,"
   },
   {
     "num": "3",
     "ara": "وَإِذَا الْجِبَالُ سُيِّرَتْ",
-    "eng": "And when the mountains are removed",
-    "ban": "আর যখন পাহাড়গুলোকে অপসারণ করা হবে,"
+    "eng:sai": "And when the mountains are removed",
+    "eng:arb": "when the mountains shall be set moving,",
+    "ban": "যখন পর্বতমালা অপসারিত হবে,"
   },
   {
     "num": "4",
     "ara": "وَإِذَا الْعِشَارُ عُطِّلَتْ",
-    "eng": "And when full-term she-camels are neglected",
-    "ban": "আর যখন পূর্ণ-গর্ভা উষ্টীদের পরিত্যাগ করা হবে;"
+    "eng:sai": "And when full-term she-camels are neglected",
+    "eng:arb": "when the pregnant camels shall be neglected,",
+    "ban": "যখন দশ মাসের গর্ভবতী উষ্ট্রীসমূহ উপেক্ষিত হবে;"
   },
   {
     "num": "5",
     "ara": "وَإِذَا الْوُحُوشُ حُشِرَتْ",
-    "eng": "And when the wild beasts are gathered",
-    "ban": "আর যখন বন্য পশুদের সমবেত করা হবে,"
+    "eng:sai": "And when the wild beasts are gathered",
+    "eng:arb": "when the savage beasts shall be mustered,",
+    "ban": "যখন বন্য পশুরা একত্রিত হয়ে যাবে,"
   },
   {
     "num": "6",
     "ara": "وَإِذَا الْبِحَارُ سُجِّرَتْ",
-    "eng": "And when the seas are filled with flame",
-    "ban": "আর যখন সাগর-নদী ফেঁপে উঠবে,"
+    "eng:sai": "And when the seas are filled with flame",
+    "eng:arb": "when the seas shall be set boiling,",
+    "ban": "যখন সমুদ্রকে উত্তাল করে তোলা হবে,"
   },
   {
     "num": "7",
     "ara": "وَإِذَا النُّفُوسُ زُوِّجَتْ",
-    "eng": "And when the souls are paired",
-    "ban": "আর যখন মনপ্রাণকে একতাবদ্ধ করা হবে,"
+    "eng:sai": "And when the souls are paired",
+    "eng:arb": "when the souls shall be coupled,",
+    "ban": "যখন আত্মাসমূহকে যুগল করা হবে,"
   },
   {
     "num": "8",
     "ara": "وَإِذَا الْمَوْءُودَةُ سُئِلَتْ",
-    "eng": "And when the girl [who was] buried alive is asked",
-    "ban": "আর যখন জীবন্ত-প্রোথিত কন্যাসন্তানকে প্রশ্ন করা হবে --"
+    "eng:sai": "And when the girl [who was] buried alive is asked",
+    "eng:arb": "when the buried infant shall be asked",
+    "ban": "যখন জীবন্ত প্রোথিত কন্যাকে জিজ্ঞেস করা হবে,"
   },
   {
     "num": "9",
     "ara": "بِأَيِّ ذَنبٍ قُتِلَتْ",
-    "eng": "For what sin she was killed",
-    "ban": "\"কোন অপরাধে তাকে হত্যা করা হয়েছিল\"?"
+    "eng:sai": "For what sin she was killed",
+    "eng:arb": "for what sin she was slain,",
+    "ban": "কি অপরাধে তাকে হত্য করা হল?"
   },
   {
     "num": "10",
     "ara": "وَإِذَا الصُّحُفُ نُشِرَتْ",
-    "eng": "And when the pages are made public",
-    "ban": "আর যখন পৃষ্ঠাগুলো খুলে ধরা হবে,"
+    "eng:sai": "And when the pages are made public",
+    "eng:arb": "when the scrolls shall be unrolled,",
+    "ban": "যখন আমলনামা খোলা হবে,"
   },
   {
     "num": "11",
     "ara": "وَإِذَا السَّمَاءُ كُشِطَتْ",
-    "eng": "And when the sky is stripped away",
-    "ban": "আর যখন আকাশের ঢাকনি খুলে ফেলা হবে,"
+    "eng:sai": "And when the sky is stripped away",
+    "eng:arb": "when heaven shall be stripped off;",
+    "ban": "যখন আকাশের আবরণ অপসারিত হবে,"
   },
   {
     "num": "12",
     "ara": "وَإِذَا الْجَحِيمُ سُعِّرَتْ",
-    "eng": "And when Hellfire is set ablaze",
-    "ban": "আর যখন ভয়ংকর আগুন জ্বালিয়ে তোলা হবে,"
+    "eng:sai": "And when Hellfire is set ablaze",
+    "eng:arb": "when Hell shall be set blazing,",
+    "ban": "যখন জাহান্নামের অগ্নি প্রজ্বলিত করা হবে"
   },
   {
     "num": "13",
     "ara": "وَإِذَا الْجَنَّةُ أُزْلِفَتْ",
-    "eng": "And when Paradise is brought near,",
-    "ban": "আর যখন বেহেশতকে নিকটে আনা হবে, --"
+    "eng:sai": "And when Paradise is brought near,",
+    "eng:arb": "when Paradise shall be brought nigh,",
+    "ban": "এবং যখন জান্নাত সন্নিকটবর্তী হবে,"
   },
   {
     "num": "14",
     "ara": "عَلِمَتْ نَفْسٌ مَّا أَحْضَرَتْ",
-    "eng": "A soul will [then] know what it has brought [with it].",
-    "ban": "সত্ত্বা জানতে পারবে কী সে হাজির করেছে।"
+    "eng:sai": "A soul will [then] know what it has brought [with it].",
+    "eng:arb": "then shall a soul know what it has produced.",
+    "ban": "তখন প্রত্যেকেই জেনে নিবে সে কি উপস্থিত করেছে।"
   },
   {
     "num": "15",
     "ara": "فَلَا أُقْسِمُ بِالْخُنَّسِ",
-    "eng": "So I swear by the retreating stars -",
-    "ban": "কাজেই না, আমি সাক্ষী মানছি গ্রহ-নক্ষত্রদের --"
+    "eng:sai": "So I swear by the retreating stars -",
+    "eng:arb": "No! I swear by the slinkers,",
+    "ban": "আমি শপথ করি যেসব নক্ষত্রগুলো পশ্চাতে সরে যায়।"
   },
   {
     "num": "16",
     "ara": "الْجَوَارِ الْكُنَّسِ",
-    "eng": "Those that run [their courses] and disappear -",
-    "ban": "যারা চলে থাকে, অদৃশ্য হয়ে যায়,"
+    "eng:sai": "Those that run [their courses] and disappear -",
+    "eng:arb": "the runners, the sinkers,",
+    "ban": "চলমান হয় ও অদৃশ্য হয়,"
   },
   {
     "num": "17",
     "ara": "وَاللَّيْلِ إِذَا عَسْعَسَ",
-    "eng": "And by the night as it closes in",
-    "ban": "আর রাত্রিকে যখন তা বিগত হয়ে যায়,"
+    "eng:sai": "And by the night as it closes in",
+    "eng:arb": "by the night swarming,",
+    "ban": "শপথ নিশাবসান ও"
   },
   {
     "num": "18",
     "ara": "وَالصُّبْحِ إِذَا تَنَفَّسَ",
-    "eng": "And by the dawn when it breathes",
-    "ban": "আর প্রভাতকে যখন তা উজ্জ্বল হতে থাকে,"
+    "eng:sai": "And by the dawn when it breathes",
+    "eng:arb": "by the dawn sighing,",
+    "ban": "প্রভাত আগমন কালের,"
   },
   {
     "num": "19",
     "ara": "إِنَّهُ لَقَوْلُ رَسُولٍ كَرِيمٍ",
-    "eng": "[That] indeed, the Qur'an is a word [conveyed by] a noble messenger",
-    "ban": "নিঃসন্দেহ এ তো হচ্ছে এক সম্মানিত রসূলের বাণী --"
+    "eng:sai": "[That] indeed, the Qur'an is a word [conveyed by] a noble messenger",
+    "eng:arb": "truly this is the word of a noble Messenger",
+    "ban": "নিশ্চয় কোরআন সম্মানিত রসূলের আনীত বাণী,"
   },
   {
     "num": "20",
     "ara": "ذِي قُوَّةٍ عِندَ ذِي الْعَرْشِ مَكِينٍ",
-    "eng": "[Who is] possessed of power and with the Owner of the Throne, secure [in position],",
-    "ban": "শক্তির অধিকারী, আরশের অধীশ্বরের সামনে অধিষ্ঠিত,"
+    "eng:sai": "[Who is] possessed of power and with the Owner of the Throne, secure [in position],",
+    "eng:arb": "having power, with the Lord of the Throne secure,",
+    "ban": "যিনি শক্তিশালী, আরশের মালিকের নিকট মর্যাদাশালী,"
   },
   {
     "num": "21",
     "ara": "مُّطَاعٍ ثَمَّ أَمِينٍ",
-    "eng": "Obeyed there [in the heavens] and trustworthy.",
-    "ban": "যাঁকে মেনে চলতে হয়, আর যিনি বিশ্বাসভাজন।"
+    "eng:sai": "Obeyed there [in the heavens] and trustworthy.",
+    "eng:arb": "obeyed, moreover trusty.",
+    "ban": "সবার মান্যবর, সেখানকার বিশ্বাসভাজন।"
   },
   {
     "num": "22",
     "ara": "وَمَا صَاحِبُكُم بِمَجْنُونٍ",
-    "eng": "And your companion is not [at all] mad.",
-    "ban": "আর তোমাদের সাথী তো পাগল নন।"
+    "eng:sai": "And your companion is not [at all] mad.",
+    "eng:arb": "Your companion is not possessed;",
+    "ban": "এবং তোমাদের সাথী পাগল নন।"
   },
   {
     "num": "23",
     "ara": "وَلَقَدْ رَآهُ بِالْأُفُقِ الْمُبِينِ",
-    "eng": "And he has already seen Gabriel in the clear horizon.",
-    "ban": "আর তিনি তো নিজেকে দেখেছিলেন স্পষ্ট দিগন্তে;"
+    "eng:sai": "And he has already seen Gabriel in the clear horizon.",
+    "eng:arb": "he truly saw him on the clear horizon;",
+    "ban": "তিনি সেই ফেরেশতাকে প্রকাশ্য দিগন্তে দেখেছেন।"
   },
   {
     "num": "24",
     "ara": "وَمَا هُوَ عَلَى الْغَيْبِ بِضَنِينٍ",
-    "eng": "And Muhammad is not a withholder of [knowledge of] the unseen.",
-    "ban": "আর তিনি অদৃশ্য-সন্বন্ধে কৃপণ নন,"
+    "eng:sai": "And Muhammad is not a withholder of [knowledge of] the unseen.",
+    "eng:arb": "he is not niggardly of the Unseen.",
+    "ban": "তিনি অদৃশ্য বিষয় বলতে কৃপনতা করেন না।"
   },
   {
     "num": "25",
     "ara": "وَمَا هُوَ بِقَوْلِ شَيْطَانٍ رَّجِيمٍ",
-    "eng": "And the Qur'an is not the word of a devil, expelled [from the heavens].",
-    "ban": "আর এটি কোনো বিতাড়িত শয়তানের বক্তব্য নয়।"
+    "eng:sai": "And the Qur'an is not the word of a devil, expelled [from the heavens].",
+    "eng:arb": "And it is not the word of an accursed Satan;",
+    "ban": "এটা বিতাড়িত শয়তানের উক্তি নয়।"
   },
   {
     "num": "26",
     "ara": "فَأَيْنَ تَذْهَبُونَ",
-    "eng": "So where are you going?",
-    "ban": "তোমরা তাহলে কোন দিকে চলেছ?"
+    "eng:sai": "So where are you going?",
+    "eng:arb": "where then are you going?",
+    "ban": "অতএব, তোমরা কোথায় যাচ্ছ?"
   },
   {
     "num": "27",
     "ara": "إِنْ هُوَ إِلَّا ذِكْرٌ لِّلْعَالَمِينَ",
-    "eng": "It is not except a reminder to the worlds",
-    "ban": "এটি আলবৎ বিশ্ববাসীর জন্য স্মরণীয় বার্তা বৈ তো নয়, --"
+    "eng:sai": "It is not except a reminder to the worlds",
+    "eng:arb": "It is naught but a Reminder unto all beings,",
+    "ban": "এটা তো কেবল বিশ্বাবাসীদের জন্যে উপদেশ,"
   },
   {
     "num": "28",
     "ara": "لِمَن شَاءَ مِنكُمْ أَن يَسْتَقِيمَ",
-    "eng": "For whoever wills among you to take a right course.",
-    "ban": "তোমাদের মধ্যেকার তার জন্য যে সহজ-সঠিক পথে চলতে চায়।"
+    "eng:sai": "For whoever wills among you to take a right course.",
+    "eng:arb": "for whosoever of you who would go straight;",
+    "ban": "তার জন্যে, যে তোমাদের মধ্যে সোজা চলতে চায়।"
   },
   {
     "num": "29",
     "ara": "وَمَا تَشَاءُونَ إِلَّا أَن يَشَاءَ اللَّهُ رَبُّ الْعَالَمِينَ",
-    "eng": "And you do not will except that Allah wills - Lord of the worlds.",
-    "ban": "আর বিশ্বজগতের প্রভু আল্লাহ্ যা চান তা ব্যতীত তোমরা অন্য কোনো-কিছু চাইবে না।"
+    "eng:sai": "And you do not will except that Allah wills - Lord of the worlds.",
+    "eng:arb": "but will you shall not, unless God wills, the Lord of all Being.",
+    "ban": "তোমরা আল্লাহ রাব্বুল আলামীনের অভিপ্রায়ের বাইরে অন্য কিছুই ইচ্ছা করতে পার না।"
   }
 ]

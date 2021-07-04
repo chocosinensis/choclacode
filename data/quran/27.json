@@ -2,559 +2,652 @@
   {
     "num": "1",
     "ara": "طس تِلْكَ آيَاتُ الْقُرْآنِ وَكِتَابٍ مُّبِينٍ",
-    "eng": "Ta, Seen. These are the verses of the Qur'an and a clear Book",
-    "ban": "ত্বা, সীন। এ-সব হচ্ছে কুরআনের তথা সুস্পষ্ট গ্রন্থের বাণীসমূহ, --"
+    "eng:sai": "Ta, Seen. These are the verses of the Qur'an and a clear Book",
+    "eng:arb": "Ta Sin. Those are the signs of the Koran and a Manifest Book,",
+    "ban": "ত্বা-সীন; এগুলো আল-কোরআনের আয়াত এবং আয়াত সুস্পষ্ট কিতাবের।"
   },
   {
     "num": "2",
     "ara": "هُدًى وَبُشْرَى لِلْمُؤْمِنِينَ",
-    "eng": "As guidance and good tidings for the believers",
-    "ban": "মুমিনদের জন্য পথ-নির্দেশক এবং সুসংবাদবাহক, --"
+    "eng:sai": "As guidance and good tidings for the believers",
+    "eng:arb": "a guidance, and good tidings unto the believers",
+    "ban": "মুমিনদের জন্যে পথ নির্দেশ ও সুসংবাদ।"
   },
   {
     "num": "3",
     "ara": "الَّذِينَ يُقِيمُونَ الصَّلَاةَ وَيُؤْتُونَ الزَّكَاةَ وَهُم بِالْآخِرَةِ هُمْ يُوقِنُونَ",
-    "eng": "Who establish prayer and give zakah, and of the Hereafter they are certain [in faith].",
-    "ban": "যারা নামায কায়েম করে ও যাকাত প্রদান করে, আর তারা আখেরাত সন্বন্ধে স্বয়ং দৃঢ়বিশ্বাস রাখে।"
+    "eng:sai": "Who establish prayer and give zakah, and of the Hereafter they are certain [in faith].",
+    "eng:arb": "who perform the prayer, and pay the alms, and have sure faith in the Hereafter.",
+    "ban": "যারা নামায কায়েম করে, যাকাত প্রদান করে এবং পরকালে নিশ্চিত বিশ্বাস করে।"
   },
   {
     "num": "4",
     "ara": "إِنَّ الَّذِينَ لَا يُؤْمِنُونَ بِالْآخِرَةِ زَيَّنَّا لَهُمْ أَعْمَالَهُمْ فَهُمْ يَعْمَهُونَ",
-    "eng": "Indeed, for those who do not believe in the Hereafter, We have made pleasing to them their deeds, so they wander blindly.",
-    "ban": "নিঃসন্দেহ যারা পরকালে বিশ্বাস করে না তাদের ক্রিয়াকর্মকে আমরা তাদের জন্য চিত্তাকর্যক করেছি, ফলে তারা অন্ধভাবে ঘুরে বেড়ায়।"
+    "eng:sai": "Indeed, for those who do not believe in the Hereafter, We have made pleasing to them their deeds, so they wander blindly.",
+    "eng:arb": "Those who believe not in the Hereafter, We have decked out fair for them their works, and they wander blindly;",
+    "ban": "যারা পরকালে বিশ্বাস করে না, আমি তাদের দৃষ্টিতে তাদের কর্মকান্ডকে সুশোভিত করে দিয়েছি। অতএব, তারা উদভ্রান্ত হয়ে ঘুরে বেড়ায়।"
   },
   {
     "num": "5",
     "ara": "أُولَئِكَ الَّذِينَ لَهُمْ سُوءُ الْعَذَابِ وَهُمْ فِي الْآخِرَةِ هُمُ الْأَخْسَرُونَ",
-    "eng": "Those are the ones for whom there will be the worst of punishment, and in the Hereafter they are the greatest losers.",
-    "ban": "এরাই তারা যাদের জন্য রয়েছে এক কষ্টকর শাস্তি, আর পরকালে তারা খোদ হবে সর্বাধিক ক্ষতিগ্রস্ত।"
+    "eng:sai": "Those are the ones for whom there will be the worst of punishment, and in the Hereafter they are the greatest losers.",
+    "eng:arb": "those are they whom an evil chastisement awaits, and they will be the greatest losers in the Hereafter.",
+    "ban": "তাদের জন্যেই রয়েছে মন্দ শাস্তি এবং তারাই পরকালে অধিক ক্ষতিগ্রস্ত।"
   },
   {
     "num": "6",
     "ara": "وَإِنَّكَ لَتُلَقَّى الْقُرْآنَ مِن لَّدُنْ حَكِيمٍ عَلِيمٍ",
-    "eng": "And indeed, [O Muhammad], you receive the Qur'an from one Wise and Knowing.",
-    "ban": "আর অবশ্য তুমি, -- তোমাকেই তো কুরআন পাওয়ানো হয়েছে পরম জ্ঞানী সর্বজ্ঞাতার তরফ থেকে।"
+    "eng:sai": "And indeed, [O Muhammad], you receive the Qur'an from one Wise and Knowing.",
+    "eng:arb": "Thou receivest the Koran from One All-wise, All-knowing.",
+    "ban": "এবং আপনাকে কোরআন প্রদত্ত হচ্ছে প্রজ্ঞাময়, জ্ঞানময় আল্লাহর কাছ থেকে।"
   },
   {
     "num": "7",
     "ara": "إِذْ قَالَ مُوسَى لِأَهْلِهِ إِنِّي آنَسْتُ نَارًا سَآتِيكُم مِّنْهَا بِخَبَرٍ أَوْ آتِيكُم بِشِهَابٍ قَبَسٍ لَّعَلَّكُمْ تَصْطَلُونَ",
-    "eng": "[Mention] when Moses said to his family, \"Indeed, I have perceived a fire. I will bring you from there information or will bring you a burning torch that you may warm yourselves.\"",
-    "ban": "স্মরণ করো! মূসা তাঁর পরিজনকে বললেন -- \"নিঃসন্দেহ আমি আগুনের আভাস পাচ্ছি, আমি এখনি সেখান থেকে তোমাদের কাছে কোনো খবর নিয়ে আসছি, অথবা তোমাদের জন্য জ্বলন্ত আঙটা নিয়ে আসছি যাতে তোমরা নিজেদের গরম করতে পার।\""
+    "eng:sai": "[Mention] when Moses said to his family, \"Indeed, I have perceived a fire. I will bring you from there information or will bring you a burning torch that you may warm yourselves.\"",
+    "eng:arb": "When Moses said to his people 'I observe a fire, and will bring you news of it, or I will bring you a flaming brand, that haply you shall warm yourselves.'",
+    "ban": "যখন মূসা তাঁর পরিবারবর্গকে বললেনঃ আমি অগ্নি দেখেছি, এখন আমি সেখান থেকে তোমাদের জন্যে কোন খবর আনতে পারব অথবা তোমাদের জন্যে জ্বলন্ত অঙ্গার নিয়ে আসতে পারব যাতে তোমরা আগুন পোহাতে পার।"
   },
   {
     "num": "8",
     "ara": "فَلَمَّا جَاءَهَا نُودِيَ أَن بُورِكَ مَن فِي النَّارِ وَمَنْ حَوْلَهَا وَسُبْحَانَ اللَّهِ رَبِّ الْعَالَمِينَ",
-    "eng": "But when he came to it, he was called, \"Blessed is whoever is at the fire and whoever is around it. And exalted is Allah, Lord of the worlds.",
-    "ban": "অতঃপর যখন তিনি এর কাছে এলেন তখন আওয়াজ হলো এই বলে -- \"ধন্য সেইজন যে আগুনের ভেতরে এবং যে এর আশেপাশে রয়েছে। আর সকল মহিমা বিশ্বজগতের প্রভু আল্লাহ্‌র!"
+    "eng:sai": "But when he came to it, he was called, \"Blessed is whoever is at the fire and whoever is around it. And exalted is Allah, Lord of the worlds.",
+    "eng:arb": "So, when he came to it, he was called: 'Blessed is he who is in the fire, and he who is about it. Glory be to God, the Lord of all Being!",
+    "ban": "অতঃপর যখন তিনি আগুনের কাছে আসলেন তখন আওয়াজ হল ধন্য তিনি, যিনি আগুনের স্থানে আছেন এবং যারা আগুনের আশেপাশে আছেন। বিশ্ব জাহানের পালনকর্তা আল্লাহ পবিত্র ও মহিমান্বিত।"
   },
   {
     "num": "9",
     "ara": "يَا مُوسَى إِنَّهُ أَنَا اللَّهُ الْعَزِيزُ الْحَكِيمُ",
-    "eng": "O Moses, indeed it is I - Allah, the Exalted in Might, the Wise.\"",
-    "ban": "\"হে মূসা! নিঃসন্দেহ এই তো আমি আল্লাহ্ -- মহাশক্তিশালী, পরমজ্ঞানী।"
+    "eng:sai": "O Moses, indeed it is I - Allah, the Exalted in Might, the Wise.\"",
+    "eng:arb": "Moses, behold, it is I, God, the All-mighty, the All-wise.",
+    "ban": "হে মূসা, আমি আল্লাহ, প্রবল পরাক্রমশালী, প্রজ্ঞাময়।"
   },
   {
     "num": "10",
     "ara": "وَأَلْقِ عَصَاكَ فَلَمَّا رَآهَا تَهْتَزُّ كَأَنَّهَا جَانٌّ وَلَّى مُدْبِرًا وَلَمْ يُعَقِّبْ يَا مُوسَى لَا تَخَفْ إِنِّي لَا يَخَافُ لَدَيَّ الْمُرْسَلُونَ",
-    "eng": "And [he was told], \"Throw down your staff.\" But when he saw it writhing as if it were a snake, he turned in flight and did not return. [Allah said], \"O Moses, fear not. Indeed, in My presence the messengers do not fear.",
-    "ban": "\"আর তোমার লাঠি ছুঁড়ে মার।\" তারপর যখন তিনি এটিকে দেখলেন দৌড়ছে -- যেন এটি একটি সাপ, তিনি তখন পেছন দিকে ছুটলেন আর ঘুরে দেখলেন না। \"হে মূসা, ভয় করো না, নিঃসন্দেহ রসূলগণ আমার সামনে ভয় করে না,"
+    "eng:sai": "And [he was told], \"Throw down your staff.\" But when he saw it writhing as if it were a snake, he turned in flight and did not return. [Allah said], \"O Moses, fear not. Indeed, in My presence the messengers do not fear.",
+    "eng:arb": "Cast down thy staff.' And when he saw it quivering like a serpent he turned about, retreating, and turned not back. 'Moses, fear not; surely the Envoys do not fear in My presence,",
+    "ban": "আপনি নিক্ষেপ করুন আপনার লাঠি। অতঃপর যখন তিনি তাকে সর্পের ন্যায় ছুটাছুটি করতে দেখলেন, তখন তিনি বিপরীত দিকে ছুটতে লাগলেন এবং পেছন ফিরেও দেখলেন না। হে মূসা, ভয় করবেন না। আমি যে রয়েছি, আমার কাছে পয়গম্বরগণ ভয় করেন না।"
   },
   {
     "num": "11",
     "ara": "إِلَّا مَن ظَلَمَ ثُمَّ بَدَّلَ حُسْنًا بَعْدَ سُوءٍ فَإِنِّي غَفُورٌ رَّحِيمٌ",
-    "eng": "Otherwise, he who wrongs, then substitutes good after evil - indeed, I am Forgiving and Merciful.",
-    "ban": "\"সে ব্যতীত যে অন্যায় করেছে তারপর মন্দ কাজের পরে বদলা করে ভাল কাজ, তাহলে আমি নিশ্চয়ই পরিত্রাণ কারী, অফুরন্ত ফলদাতা।"
+    "eng:sai": "Otherwise, he who wrongs, then substitutes good after evil - indeed, I am Forgiving and Merciful.",
+    "eng:arb": "save him who has done evil, then; after evil, has changed into good; All-forgiving am I, All-compassionate.",
+    "ban": "তবে যে বাড়াবাড়ি করে এরপর মন্দ কর্মের পরিবর্তে সৎকর্ম করে। নিশ্চয় আমি ক্ষমাশীল, পরম দয়ালু।"
   },
   {
     "num": "12",
     "ara": "وَأَدْخِلْ يَدَكَ فِي جَيْبِكَ تَخْرُجْ بَيْضَاءَ مِنْ غَيْرِ سُوءٍ فِي تِسْعِ آيَاتٍ إِلَى فِرْعَوْنَ وَقَوْمِهِ إِنَّهُمْ كَانُوا قَوْمًا فَاسِقِينَ",
-    "eng": "And put your hand into the opening of your garment [at the breast]; it will come out white without disease. [These are] among the nine signs [you will take] to Pharaoh and his people. Indeed, they have been a people defiantly disobedient.\"",
-    "ban": "\"আর তোমার হাত তোমার পকেটে ঢোকাও, এটি বেরিয়ে আসবে সাদা হয়ে কোনো দোষত্রুটি ছাড়া, -- ফিরআউন ও তার লোকদলের কাছে নয়টি নিদর্শনের অন্তর্গত। নিঃসন্দেহ তারা হচ্ছে সীমালংঘনকারী জাতি।\""
+    "eng:sai": "And put your hand into the opening of your garment [at the breast]; it will come out white without disease. [These are] among the nine signs [you will take] to Pharaoh and his people. Indeed, they have been a people defiantly disobedient.\"",
+    "eng:arb": "Thrust thy hand in thy bosom and it will come forth white without evil-among nine signs to Pharaoh and his people; they are an ungodly people.'",
+    "ban": "আপনার হাত আপনার বগলে ঢুকিয়ে দিন, সুশুভ্র হয়ে বের হবে নির্দোষ অবস্থায়। এগুলো ফেরাউন ও তার সম্প্রদায়ের কাছে আনীত নয়টি নিদর্শনের অন্যতম। নিশ্চয় তারা ছিল পাপাচারী সম্প্রদায়।"
   },
   {
     "num": "13",
     "ara": "فَلَمَّا جَاءَتْهُمْ آيَاتُنَا مُبْصِرَةً قَالُوا هَذَا سِحْرٌ مُّبِينٌ",
-    "eng": "But when there came to them Our visible signs, they said, \"This is obvious magic.\"",
-    "ban": "তারপর যখন আমাদের নিদর্শনগুলো তাদের কাছে এল দর্শনীয়ভাবে, তারা বললে -- \"এ তো পরিস্কার জাদু।\""
+    "eng:sai": "But when there came to them Our visible signs, they said, \"This is obvious magic.\"",
+    "eng:arb": "But when Our signs came to them visibly, they said, 'This is a manifest sorcery';",
+    "ban": "অতঃপর যখন তাদের কাছে আমার উজ্জল নিদর্শনাবলী আগমন করল, তখন তারা বলল, এটা তো সুস্পষ্ট জাদু।"
   },
   {
     "num": "14",
     "ara": "وَجَحَدُوا بِهَا وَاسْتَيْقَنَتْهَا أَنفُسُهُمْ ظُلْمًا وَعُلُوًّا فَانظُرْ كَيْفَ كَانَ عَاقِبَةُ الْمُفْسِدِينَ",
-    "eng": "And they rejected them, while their [inner] selves were convinced thereof, out of injustice and haughtiness. So see how was the end of the corrupters.",
-    "ban": "আর তারা এসব প্রত্যাখ্যান করল অন্যায়ভাবে ও উদ্ধতভাবে, যদিও তাদের অন্তর এগুলোতে নিঃসংশয় ছিল। অতএব চেয়ে দেখো -- কেমন হয়েছিল বিপর্যয় সৃষ্টিকারীদের পরিণাম।"
+    "eng:sai": "And they rejected them, while their [inner] selves were convinced thereof, out of injustice and haughtiness. So see how was the end of the corrupters.",
+    "eng:arb": "and they denied them, though their souls acknowledged them, wrongfully and out of pride. Behold, how was the end of the workers of corruption!",
+    "ban": "তারা অন্যায় ও অহংকার করে নিদর্শনাবলীকে প্রত্যাখ্যান করল, যদিও তাদের অন্তর এগুলো সত্য বলে বিশ্বাস করেছিল। অতএব দেখুন, অনর্থকারীদের পরিণাম কেমন হয়েছিল?"
   },
   {
     "num": "15",
     "ara": "وَلَقَدْ آتَيْنَا دَاوُودَ وَسُلَيْمَانَ عِلْمًا وَقَالَا الْحَمْدُ لِلَّهِ الَّذِي فَضَّلَنَا عَلَى كَثِيرٍ مِّنْ عِبَادِهِ الْمُؤْمِنِينَ",
-    "eng": "And We had certainly given to David and Solomon knowledge, and they said, \"Praise [is due] to Allah, who has favored us over many of His believing servants.\"",
-    "ban": "আর অবশ্যই ইতিপূর্বে আমরা দাউদ ও সুলাইমানকে জ্ঞান দান করেছিলাম, আর তাঁরা উভয়ে বলেছিলেন -- \"সমস্ত প্রশংসা আল্লাহ্‌র জন্য যিনি আমাদের শ্রেষ্ঠত্ব দিয়েছেন তাঁর বহুসংখ্যক মুমিন বান্দাদের উপরে।\""
+    "eng:sai": "And We had certainly given to David and Solomon knowledge, and they said, \"Praise [is due] to Allah, who has favored us over many of His believing servants.\"",
+    "eng:arb": "And We gave David and Solomon knowledge and they said, 'Praise belongs to God who has preferred us over many of His believing servants.'",
+    "ban": "আমি অবশ্যই দাউদ ও সুলায়মানকে জ্ঞান দান করেছিলাম। তাঁরা বলে ছিলেন, আল্লাহর প্রশংসা, যিনি আমাদেরকে তাঁর অনেক মুমিন বান্দার উপর শ্রেষ্ঠত্ব দান করেছেন।"
   },
   {
     "num": "16",
     "ara": "وَوَرِثَ سُلَيْمَانُ دَاوُودَ وَقَالَ يَا أَيُّهَا النَّاسُ عُلِّمْنَا مَنطِقَ الطَّيْرِ وَأُوتِينَا مِن كُلِّ شَيْءٍ إِنَّ هَذَا لَهُوَ الْفَضْلُ الْمُبِينُ",
-    "eng": "And Solomon inherited David. He said, \"O people, we have been taught the language of birds, and we have been given from all things. Indeed, this is evident bounty.\"",
-    "ban": "আর সুলাইমান দাউদকে উত্তরাধিকার করলেন এবং বললেন -- \"ওহে জনগণ, আমাদের পক্ষি-বিজ্ঞান শেখানো হয়েছে, আর সব জিনিস থেকে আমাদের দেওয়া হয়েছে। নিঃসন্দেহ এটি -- এ অবশ্যই সুস্পষ্ট অনুগ্রহসামগ্রী।\""
+    "eng:sai": "And Solomon inherited David. He said, \"O people, we have been taught the language of birds, and we have been given from all things. Indeed, this is evident bounty.\"",
+    "eng:arb": "And Solomon was David's heir, and he said, 'Men, we have been taught the speech of the birds, and we have been given of everything; surely this is indeed the manifest bounty.'",
+    "ban": "সুলায়মান দাউদের উত্তরাধিকারী হয়েছিলেন। বলেছিলেন, ‘হে লোক সকল, আমাকে উড়ন্ত পক্ষীকূলের ভাষা শিক্ষা দেয়া হয়েছে এবং আমাকে সব কিছু দেয়া হয়েছে। নিশ্চয় এটা সুস্পষ্ট শ্রেষ্ঠত্ব। ’"
   },
   {
     "num": "17",
     "ara": "وَحُشِرَ لِسُلَيْمَانَ جُنُودُهُ مِنَ الْجِنِّ وَالْإِنسِ وَالطَّيْرِ فَهُمْ يُوزَعُونَ",
-    "eng": "And gathered for Solomon were his soldiers of the jinn and men and birds, and they were [marching] in rows.",
-    "ban": "আর সুলাইমানের সামনে সমবেত করা হয়েছিল তাঁর বাহিনীকে -- জিন ও মানুষ ও পাখিদের থেকে, আর তাদের কুচকাওয়াজ করানো হলো।"
+    "eng:sai": "And gathered for Solomon were his soldiers of the jinn and men and birds, and they were [marching] in rows.",
+    "eng:arb": "And his hosts were mustered to Solomon, jinn, men and birds, duly disposed;",
+    "ban": "সুলায়মানের সামনে তার সেনাবাহিনীকে সমবেত করা হল। জ্বিন-মানুষ ও পক্ষীকুলকে, অতঃপর তাদেরকে বিভিন্ন ব্যূহে বিভক্ত করা হল।"
   },
   {
     "num": "18",
     "ara": "حَتَّى إِذَا أَتَوْا عَلَى وَادِ النَّمْلِ قَالَتْ نَمْلَةٌ يَا أَيُّهَا النَّمْلُ ادْخُلُوا مَسَاكِنَكُمْ لَا يَحْطِمَنَّكُمْ سُلَيْمَانُ وَجُنُودُهُ وَهُمْ لَا يَشْعُرُونَ",
-    "eng": "Until, when they came upon the valley of the ants, an ant said, \"O ants, enter your dwellings that you not be crushed by Solomon and his soldiers while they perceive not.\"",
-    "ban": "তারপর যখন তাঁরা নমলদের উপত্যকায় এসেছিলেন তখন একজন নমল বললে -- \"ওহে নমলজাতি! তোমাদের বাড়িঘরে ঢোকে যাও, সুলাইমান ও তাঁর বাহিনী যেন তোমাদের পিষে না ফেলে যদিবা তারা বুঝতে না পারে।\""
+    "eng:sai": "Until, when they came upon the valley of the ants, an ant said, \"O ants, enter your dwellings that you not be crushed by Solomon and his soldiers while they perceive not.\"",
+    "eng:arb": "till, when they came on the Valley of Ants, an ant said, 'Ants, enter your dwelling-places, lest Solomon and his hosts crush you, being unaware!'",
+    "ban": "যখন তারা পিপীলিকা অধ্যূষিত উপত্যকায় পৌঁছাল, তখন এক পিপীলিকা বলল, হে পিপীলিকার দল, তোমরা তোমাদের গৃহে প্রবেশ কর। অন্যথায় সুলায়মান ও তার বাহিনী অজ্ঞাতসারে তোমাদেরকে পিষ্ট করে ফেলবে।"
   },
   {
     "num": "19",
     "ara": "فَتَبَسَّمَ ضَاحِكًا مِّن قَوْلِهَا وَقَالَ رَبِّ أَوْزِعْنِي أَنْ أَشْكُرَ نِعْمَتَكَ الَّتِي أَنْعَمْتَ عَلَيَّ وَعَلَى وَالِدَيَّ وَأَنْ أَعْمَلَ صَالِحًا تَرْضَاهُ وَأَدْخِلْنِي بِرَحْمَتِكَ فِي عِبَادِكَ الصَّالِحِينَ",
-    "eng": "So [Solomon] smiled, amused at her speech, and said, \"My Lord, enable me to be grateful for Your favor which You have bestowed upon me and upon my parents and to do righteousness of which You approve. And admit me by Your mercy into [the ranks of] Your righteous servants.\"",
-    "ban": "সুতরাং তিনি তার কথায় বিস্মিত হয়ে মুচকি হাসলেন ও বললেন -- \"আমার প্রভু! তুমি আমাকে অনুমতি দাও যেন তুমি আমার প্রতি ও আমার পিতামাতার প্রতি যে নিয়ামত অর্পণ করেছ তোমার সেই আশিসের জন্য আমি কৃতজ্ঞতা জানাতে পারি, আর আমি যেন সৎকর্ম করতে পারি যা তুমি পছন্দ কর, আর তোমার অনুগ্রহ বশতঃ আমাকে তোমার সৎপথাবলন্বী বান্দাদের অন্তর্ভূক্ত করো।\""
+    "eng:sai": "So [Solomon] smiled, amused at her speech, and said, \"My Lord, enable me to be grateful for Your favor which You have bestowed upon me and upon my parents and to do righteousness of which You approve. And admit me by Your mercy into [the ranks of] Your righteous servants.\"",
+    "eng:arb": "But he smiled, laughing at its words, and he said, 'My Lord, dispose me that I may be thankful for Thy blessing wherewith Thou hast blessed me and my father and mother, and that I may do righteousness well-pleasing to Thee; and do Thou admit me, by Thy mercy, amongst Thy righteous servants.'",
+    "ban": "তার কথা শুনে সুলায়মান মুচকি হাসলেন এবং বললেন, হে আমার পালনকর্তা, তুমি আমাকে সামর্থ?2470;াও যাতে আমি তোমার সেই নিয়ামতের কৃতজ্ঞতা প্রকাশ করতে পারি, যা তুমি আমাকে ও আমার পিতা-মাতাকে দান করেছ এবং যাতে আমি তোমার পছন্দনীয় সৎকর্ম করতে পারি এবং আমাকে নিজ অনুগ্রহে তোমার সৎকর্মপরায়ন বান্দাদের অন্তর্ভুক্ত কর।"
   },
   {
     "num": "20",
     "ara": "وَتَفَقَّدَ الطَّيْرَ فَقَالَ مَا لِيَ لَا أَرَى الْهُدْهُدَ أَمْ كَانَ مِنَ الْغَائِبِينَ",
-    "eng": "And he took attendance of the birds and said, \"Why do I not see the hoopoe - or is he among the absent?",
-    "ban": "আর তিনি পাখিদের পর্যবেক্ষণ করলেন, তখন বললেন -- \"একি! হুদহুদকে দেখছি না কেন? সে কি গরহাজিরদের একজন?"
+    "eng:sai": "And he took attendance of the birds and said, \"Why do I not see the hoopoe - or is he among the absent?",
+    "eng:arb": "And he reviewed the birds; then he said, 'How is it with me, that I do not see the hoopoe? Or is he among the absent?",
+    "ban": "সুলায়মান পক্ষীদের খোঁজ খবর নিলেন, অতঃপর বললেন, কি হল, হুদহুদকে দেখছি না কেন? নাকি সে অনুপস্থিত?"
   },
   {
     "num": "21",
     "ara": "لَأُعَذِّبَنَّهُ عَذَابًا شَدِيدًا أَوْ لَأَذْبَحَنَّهُ أَوْ لَيَأْتِيَنِّي بِسُلْطَانٍ مُّبِينٍ",
-    "eng": "I will surely punish him with a severe punishment or slaughter him unless he brings me clear authorization.\"",
-    "ban": "\"আমি অবশ্যই তাকে কঠিন শাস্তি দেব, অথবা আমি নিশ্চয়ই তাকে জবাই করব, অথবা তাকে অবশ্যই আমার কাছে আসতে হবে সুস্পষ্ট অজুহাত নিয়ে।\""
+    "eng:sai": "I will surely punish him with a severe punishment or slaughter him unless he brings me clear authorization.\"",
+    "eng:arb": "Assuredly I will chastise him with a terrible chastisement, or I will slaughter him, or he bring me a clear authority.'",
+    "ban": "আমি অবশ্যই তাকে কঠোর শাস্তি দেব কিংবা হত্যা করব অথবা সে উপস্থিত করবে উপযুক্ত কারণ।"
   },
   {
     "num": "22",
     "ara": "فَمَكَثَ غَيْرَ بَعِيدٍ فَقَالَ أَحَطتُ بِمَا لَمْ تُحِطْ بِهِ وَجِئْتُكَ مِن سَبَإٍ بِنَبَإٍ يَقِينٍ",
-    "eng": "But the hoopoe stayed not long and said, \"I have encompassed [in knowledge] that which you have not encompassed, and I have come to you from Sheba with certain news.",
-    "ban": "তারপর তিনি অনতিবিলন্বকাল অপেক্ষা করলেন তখন সে বললে, \"আমি তার খোঁজ পেয়েছি যে-সন্বন্ধে আপনি অবগত নন, আর আমি সাবা' থেকে আপনার কাছে আসছি সঠিক বার্তা নিয়ে।"
+    "eng:sai": "But the hoopoe stayed not long and said, \"I have encompassed [in knowledge] that which you have not encompassed, and I have come to you from Sheba with certain news.",
+    "eng:arb": "But he tarried not long, and said, 'I have comprehended that which thou hast not comprehended, and I have come from Sheba to thee with a sure tiding.",
+    "ban": "কিছুক্ষণ পড়েই হুদ এসে বলল, আপনি যা অবগত নন, আমি তা অবগত হয়েছি। আমি আপনার কাছে সাবা থেকে নিশ্চিত সংবাদ নিয়ে আগমন করেছি।"
   },
   {
     "num": "23",
     "ara": "إِنِّي وَجَدتُّ امْرَأَةً تَمْلِكُهُمْ وَأُوتِيَتْ مِن كُلِّ شَيْءٍ وَلَهَا عَرْشٌ عَظِيمٌ",
-    "eng": "Indeed, I found [there] a woman ruling them, and she has been given of all things, and she has a great throne.",
-    "ban": "\"আমি নিশ্চয়ই এক নারীকে দেখতে পেলাম তাদের উপর রাজত্ব করছে, আর তাকে সব-কিছু থেকে দেওয়া হয়েছে, আর তার রয়েছে এক মস্তবড় সিংহাসন।"
+    "eng:sai": "Indeed, I found [there] a woman ruling them, and she has been given of all things, and she has a great throne.",
+    "eng:arb": "I found a woman ruling over them, and she has been given of everything, and she possesses a mighty throne.",
+    "ban": "আমি এক নারীকে সাবাবাসীদের উপর রাজত্ব করতে দেখেছি। তাকে সবকিছুই দেয়া হয়েছে এবং তার একটা বিরাট সিংহাসন আছে।"
   },
   {
     "num": "24",
     "ara": "وَجَدتُّهَا وَقَوْمَهَا يَسْجُدُونَ لِلشَّمْسِ مِن دُونِ اللَّهِ وَزَيَّنَ لَهُمُ الشَّيْطَانُ أَعْمَالَهُمْ فَصَدَّهُمْ عَنِ السَّبِيلِ فَهُمْ لَا يَهْتَدُونَ",
-    "eng": "I found her and her people prostrating to the sun instead of Allah, and Satan has made their deeds pleasing to them and averted them from [His] way, so they are not guided,",
-    "ban": "\"আর আমি তাকে ও তার লোকদের দেখতে পেলাম তারা আল্লাহ্‌কে বাদ দিয়ে সূর্যকে সিজদা করছে, আর শয়তান তাদের জন্য তাদের ক্রিয়াকলাপ চিত্তাকর্ষক করেছে, কাজেই পথ থেকে সে তাদের সরিয়ে রেখেছে, সুতরাং তারা সৎপথ পাচ্ছে না, --"
+    "eng:sai": "I found her and her people prostrating to the sun instead of Allah, and Satan has made their deeds pleasing to them and averted them from [His] way, so they are not guided,",
+    "eng:arb": "I found her and her people prostrating to the sun, apart from God; Satan has decked out fair their deeds to them and he has barred them from the way, and therefore they are not guided,",
+    "ban": "আমি তাকে ও তার সম্প্রদায়কে দেখলাম তারা আল্লাহর পরিবর্তে সূর্যকে সেজদা করছে। শয়তান তাদের দৃষ্টিতে তাদের কার্যাবলী সুশোভিত করে দিয়েছে। অতঃপর তাদেরকে সৎপথ থেকে নিবৃত্ত করেছে। অতএব তারা সৎপথ পায় না।"
   },
   {
     "num": "25",
     "ara": "أَلَّا يَسْجُدُوا لِلَّهِ الَّذِي يُخْرِجُ الْخَبْءَ فِي السَّمَاوَاتِ وَالْأَرْضِ وَيَعْلَمُ مَا تُخْفُونَ وَمَا تُعْلِنُونَ",
-    "eng": "[And] so they do not prostrate to Allah, who brings forth what is hidden within the heavens and the earth and knows what you conceal and what you declare -",
-    "ban": "\"তাইতো তারা আল্লাহ্‌কে সিজদা করে না যিনি মহাকাশমন্ডলী ও পৃথিবীর গুপ্ত বিষয়বস্তু প্রকাশ করে দেন, আর যিনি জানেন যা তোমরা লুকিয়ে রাখ এবং যা প্রকাশ কর।"
+    "eng:sai": "[And] so they do not prostrate to Allah, who brings forth what is hidden within the heavens and the earth and knows what you conceal and what you declare -",
+    "eng:arb": "so that they prostrate not themselves to God, who brings forth what is hidden in the heavens and earth; and He knows what you conceal and what you publish.",
+    "ban": "তারা আল্লাহকে সেজদা করে না কেন, যিনি নভোমন্ডল ও ভুমন্ডলের গোপন বস্তু প্রকাশ করেন এবং জানেন যা তোমরা গোপন কর ও যা প্রকাশ কর।"
   },
   {
     "num": "26",
     "ara": "اللَّهُ لَا إِلَهَ إِلَّا هُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
-    "eng": "Allah - there is no deity except Him, Lord of the Great Throne.\"",
-    "ban": "\"আল্লাহ্‌, তিনি ছাড়া অন্য উপাস্য নেই, যিনি মহান আরশের অধিপতি।\""
+    "eng:sai": "Allah - there is no deity except Him, Lord of the Great Throne.\"",
+    "eng:arb": "God: there is no god but He, the Lord of the Mighty Throne.'",
+    "ban": "আল্লাহ ব্যতীত কোন উপাস্য নেই; তিনি মহা আরশের মালিক।"
   },
   {
     "num": "27",
     "ara": "قَالَ سَنَنظُرُ أَصَدَقْتَ أَمْ كُنتَ مِنَ الْكَاذِبِينَ",
-    "eng": "[Solomon] said, \"We will see whether you were truthful or were of the liars.",
-    "ban": "তিনি বললেন -- \"আমরা শীঘ্রই দেখব তুমি কি সত্য বলছ, না তুমি মিথ্যাবাদীদের মধ্যেকার?"
+    "eng:sai": "[Solomon] said, \"We will see whether you were truthful or were of the liars.",
+    "eng:arb": "Said he, 'Now We will see whether thou hast spoken truly, or whether thou art amongst those that lie.",
+    "ban": "সুলায়মান বললেন, এখন আমি দেখব তুমি সত্য বলছ, না তুমি মিথ্যবাদী।"
   },
   {
     "num": "28",
     "ara": "اذْهَب بِّكِتَابِي هَذَا فَأَلْقِهْ إِلَيْهِمْ ثُمَّ تَوَلَّ عَنْهُمْ فَانظُرْ مَاذَا يَرْجِعُونَ",
-    "eng": "Take this letter of mine and deliver it to them. Then leave them and see what [answer] they will return.\"",
-    "ban": "\"আমার এই লিপি নিয়ে যাও আর এটি তাদের কাছে অর্পণ কর, তারপর তাদের থেকে চলে এস, আর দেখ কি তারা ফেরত পাঠায়।\""
+    "eng:sai": "Take this letter of mine and deliver it to them. Then leave them and see what [answer] they will return.\"",
+    "eng:arb": "Take this letter of mine, and cast it unto them, then turn back from them and see what they shall return '",
+    "ban": "তুমি আমার এই পত্র নিয়ে যাও এবং এটা তাদের কাছে অর্পন কর। অতঃপর তাদের কাছ থেকে সরে পড় এবং দেখ, তারা কি জওয়াব দেয়।"
   },
   {
     "num": "29",
     "ara": "قَالَتْ يَا أَيُّهَا الْمَلَأُ إِنِّي أُلْقِيَ إِلَيَّ كِتَابٌ كَرِيمٌ",
-    "eng": "She said, \"O eminent ones, indeed, to me has been delivered a noble letter.",
-    "ban": "সে বললে -- \"ওহে প্রধানগণ! নিঃসন্দেহ আমার কাছে এক সম্মানিত লিপি পাঠানো হয়েছে।"
+    "eng:sai": "She said, \"O eminent ones, indeed, to me has been delivered a noble letter.",
+    "eng:arb": "She said, 'O Council, see, a letter honourable has been cast unto me.",
+    "ban": "বিলকীস বলল, হে পরিষদবর্গ, আমাকে একটি সম্মানিত পত্র দেয়া হয়েছে।"
   },
   {
     "num": "30",
     "ara": "إِنَّهُ مِن سُلَيْمَانَ وَإِنَّهُ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ",
-    "eng": "Indeed, it is from Solomon, and indeed, it reads: 'In the name of Allah, the Entirely Merciful, the Especially Merciful,",
-    "ban": "\"এটি আলবৎ সুলাইমানের কাছে থেকে, আর এটি প্রধানতঃ এই -- 'আল্লাহ্‌র নাম নিয়ে, যিনি রহমান, রহীম, --"
+    "eng:sai": "Indeed, it is from Solomon, and indeed, it reads: 'In the name of Allah, the Entirely Merciful, the Especially Merciful,",
+    "eng:arb": "It is from Solomon, and it is \"In the Name of God, the Merciful, the Compassionate.",
+    "ban": "সেই পত্র সুলায়মানের পক্ষ থেকে এবং তা এইঃ সসীম দাতা, পরম দয়ালু, আল্লাহর নামে শুরু;"
   },
   {
     "num": "31",
     "ara": "أَلَّا تَعْلُوا عَلَيَّ وَأْتُونِي مُسْلِمِينَ",
-    "eng": "Be not haughty with me but come to me in submission [as Muslims].' \"",
-    "ban": "\"আমার বিরুদ্ধে যেন হামবড়াই কর না, আর আমার কাছে এস মুসলিম হয়ে'।\""
+    "eng:sai": "Be not haughty with me but come to me in submission [as Muslims].' \"",
+    "eng:arb": "Rise not up against me, but come to me in surrender.\" '",
+    "ban": "আমার মোকাবেলায় শক্তি প্রদর্শন করো না এবং বশ্যতা স্বীকার করে আমার কাছে উপস্থিত হও।"
   },
   {
     "num": "32",
     "ara": "قَالَتْ يَا أَيُّهَا الْمَلَأُ أَفْتُونِي فِي أَمْرِي مَا كُنتُ قَاطِعَةً أَمْرًا حَتَّى تَشْهَدُونِ",
-    "eng": "She said, \"O eminent ones, advise me in my affair. I would not decide a matter until you witness [for] me.\"",
-    "ban": "সে বললে -- \"ওহে প্রধানগণ! আমার করণীয় সন্বন্ধে আমাকে উপদেশ দাও, আমি কোনো ব্যাপারে সিদ্ধান্ত গ্রহণকারী হই না যে পর্যন্ত না তোমরা আমার সাক্ষাতে থাকো।\""
+    "eng:sai": "She said, \"O eminent ones, advise me in my affair. I would not decide a matter until you witness [for] me.\"",
+    "eng:arb": "She said, 'O Council, pronounce to me concerning my affair; I am not used to decide an affair until you bear me witness.'",
+    "ban": "বিলকীস বলল, হে পরিষদবর্গ, আমাকে আমার কাজে পরামর্শ দাও। তোমাদের উপস্থিতি ব্যতিরেকে আমি কোন কাজে সিদ্ধান্ত গ্রহণ করি না।"
   },
   {
     "num": "33",
     "ara": "قَالُوا نَحْنُ أُولُو قُوَّةٍ وَأُولُو بَأْسٍ شَدِيدٍ وَالْأَمْرُ إِلَيْكِ فَانظُرِي مَاذَا تَأْمُرِينَ",
-    "eng": "They said, \"We are men of strength and of great military might, but the command is yours, so see what you will command.\"",
-    "ban": "তারা বললে -- \"আমরা শক্তির অধিকারী এবং প্রবল বিক্রমেরও অধিকারী, আর হুকুম আপনারই কাছে, অতএব ভেবে দেখুন কী আপনি হুকুম করবেন।\""
+    "eng:sai": "They said, \"We are men of strength and of great military might, but the command is yours, so see what you will command.\"",
+    "eng:arb": "They said, 'We possess force and we possess great might. The affair rests with thee; so consider what thou wilt command.'",
+    "ban": "তারা বলল, আমরা শক্তিশালী এবং কঠোর যোদ্ধা। এখন সিদ্ধান্ত গ্রহণের ক্ষমতা আপনারই। অতএব আপনি ভেবে দেখুন, আমাদেরকে কি আদেশ করবেন।"
   },
   {
     "num": "34",
     "ara": "قَالَتْ إِنَّ الْمُلُوكَ إِذَا دَخَلُوا قَرْيَةً أَفْسَدُوهَا وَجَعَلُوا أَعِزَّةَ أَهْلِهَا أَذِلَّةً وَكَذَلِكَ يَفْعَلُونَ",
-    "eng": "She said, \"Indeed kings - when they enter a city, they ruin it and render the honored of its people humbled. And thus do they do.",
-    "ban": "সে বললে -- \"নিঃসন্দেহ রাজা-বাদশারা যখন কোনো জনপদে প্রবেশ করে তখন তাকে বিপর্যস্ত করে দেয় এবং তার বাসিন্দাদের শ্রেষ্ঠ মর্যাদাসম্পন্নদের বানিয়ে দেয় চরম লাঞ্ছিত, আর এইভাবেই তারা করে থাকে।"
+    "eng:sai": "She said, \"Indeed kings - when they enter a city, they ruin it and render the honored of its people humbled. And thus do they do.",
+    "eng:arb": "She said, 'Kings, when they enter a city, disorder it and make the mighty ones of its inhabitants abased. Even so they too will do.",
+    "ban": "সে বলল, রাজা বাদশারা যখন কোন জনপদে প্রবেশ করে, তখন তাকে বিপর্যস্ত করে দেয় এবং সেখানকার সম্ভ্রান্ত ব্যক্তিবর্গকে অপদস্থ করে। তারাও এরূপই করবে।"
   },
   {
     "num": "35",
     "ara": "وَإِنِّي مُرْسِلَةٌ إِلَيْهِم بِهَدِيَّةٍ فَنَاظِرَةٌ بِمَ يَرْجِعُ الْمُرْسَلُونَ",
-    "eng": "But indeed, I will send to them a gift and see with what [reply] the messengers will return.\"",
-    "ban": "\"আর আমি অবশ্য তাদের কাছে পাঠাতে যাচ্ছি একটি উপহার, তারপর দেখতে চাই দূতরা কী নিয়ে ফেরে।\""
+    "eng:sai": "But indeed, I will send to them a gift and see with what [reply] the messengers will return.\"",
+    "eng:arb": "Now I will send them a present, and see what the envoys bring back.'",
+    "ban": "আমি তাঁর কাছে কিছু উপঢৌকন পাঠাচ্ছি; দেখি প্রেরিত লোকেরা কি জওয়াব আনে।"
   },
   {
     "num": "36",
     "ara": "فَلَمَّا جَاءَ سُلَيْمَانَ قَالَ أَتُمِدُّونَنِ بِمَالٍ فَمَا آتَانِيَ اللَّهُ خَيْرٌ مِّمَّا آتَاكُم بَلْ أَنتُم بِهَدِيَّتِكُمْ تَفْرَحُونَ",
-    "eng": "So when they came to Solomon, he said, \"Do you provide me with wealth? But what Allah has given me is better than what He has given you. Rather, it is you who rejoice in your gift.",
-    "ban": "তারপর যখন সুলাইমানের কাছে সে এল তখন তিনি বললেন -- \"কি! তোমরা কি আমাকে মাল-আসবাব দিয়ে মদদ করতে চাও? কিন্ত আল্লাহ্ আমাকে যা দিয়েছেন তা তোমাদের তিনি যা দিয়েছেন তার চাইতে শ্রেষ্ঠ। না, তোমাদের উপহার সন্বন্ধে তোমরাই গর্ববোধ করছ।"
+    "eng:sai": "So when they came to Solomon, he said, \"Do you provide me with wealth? But what Allah has given me is better than what He has given you. Rather, it is you who rejoice in your gift.",
+    "eng:arb": "But when he came to Solomon he said, 'What, would you succour me with wealth, and what God gave me is better than what He has given you? Nay, but instead you rejoice in your gift!",
+    "ban": "অতঃপর যখন দূত সুলায়মানের কাছে আগমন করল, তখন সুলায়মান বললেন, তোমরা কি ধনসম্পদ দ্বারা আমাকে সাহায্য করতে চাও? আল্লাহ আমাকে যা দিয়েছেন, তা তোমাদেরকে প্রদত্ত বস্তু থেকে উত্তম। বরং তোমরাই তোমাদের উপঢৌকন নিয়ে সুখে থাক।"
   },
   {
     "num": "37",
     "ara": "ارْجِعْ إِلَيْهِمْ فَلَنَأْتِيَنَّهُم بِجُنُودٍ لَّا قِبَلَ لَهُم بِهَا وَلَنُخْرِجَنَّهُم مِّنْهَا أَذِلَّةً وَهُمْ صَاغِرُونَ",
-    "eng": "Return to them, for we will surely come to them with soldiers that they will be powerless to encounter, and we will surely expel them therefrom in humiliation, and they will be debased.\"",
-    "ban": "\"তাদের কাছে ফিরে যাও, আমরা অবশ্যই তাদের কাছে আসব সৈন্যবাহিনী নিয়ে যার মোকাবিলা করার ক্ষমতা তাদের নেই, আর আমরা অবশ্যই সেখান থেকে তাদের বহিস্কার করব লাঞ্ছনার সাথে, আর তারা বনবে ছোটলোক।\""
+    "eng:sai": "Return to them, for we will surely come to them with soldiers that they will be powerless to encounter, and we will surely expel them therefrom in humiliation, and they will be debased.\"",
+    "eng:arb": "Return thou to them; we shall assuredly come against them with hosts they have not power to resist, and we shall expel them from there, abased and utterly humbled.'",
+    "ban": "ফিরে যাও তাদের কাছে। এখন অবশ্যই আমি তাদের বিরুদ্ধে এক সৈন্যবাহিনী নিয়ে আসব, যার মোকাবেলা করার শক্তি তাদের নেই। আমি অবশ্যই তাদেরকে অপদস্থ করে সেখান থেকে বহিষ্কৃত করব এবং তারা হবে লাঞ্ছিত।"
   },
   {
     "num": "38",
     "ara": "قَالَ يَا أَيُّهَا الْمَلَأُ أَيُّكُمْ يَأْتِينِي بِعَرْشِهَا قَبْلَ أَن يَأْتُونِي مُسْلِمِينَ",
-    "eng": "[Solomon] said, \"O assembly [of jinn], which of you will bring me her throne before they come to me in submission?\"",
-    "ban": "তিনি বললেন -- \"ওহে প্রধানগণ! তোমাদের মধ্যে কে আমার কাছে নিয়ে আসবে তার সিংহাসন আমার কাছে মুসলিমরূপে তাদের আসবার পূর্বে?\""
+    "eng:sai": "[Solomon] said, \"O assembly [of jinn], which of you will bring me her throne before they come to me in submission?\"",
+    "eng:arb": "He said, 'O Council, which one of you will bring me her throne, before they come to me in surrender?'",
+    "ban": "সুলায়মান বললেন, হে পরিষদবর্গ, তারা আত্নসমর্পণ করে আমার কাছে আসার পূর্বে কে বিলকীসের সিংহাসন আমাকে এনে দেবে?"
   },
   {
     "num": "39",
     "ara": "قَالَ عِفْرِيتٌ مِّنَ الْجِنِّ أَنَا آتِيكَ بِهِ قَبْلَ أَن تَقُومَ مِن مَّقَامِكَ وَإِنِّي عَلَيْهِ لَقَوِيٌّ أَمِينٌ",
-    "eng": "A powerful one from among the jinn said, \"I will bring it to you before you rise from your place, and indeed, I am for this [task] strong and trustworthy.\"",
-    "ban": "জিনদের এক জোয়ান বললে -- \"আমি এটি আপনার কাছে নিয়ে আসব আপনার আসন ছেড়ে ওঠবার আগেই, আর আমি অবশ্যই এ ব্যাপারে বিশেষ ক্ষমতাবান, বিশ্বস্ত।\""
+    "eng:sai": "A powerful one from among the jinn said, \"I will bring it to you before you rise from your place, and indeed, I am for this [task] strong and trustworthy.\"",
+    "eng:arb": "An efreet of the jinns said, 'I will bring it to thee, before thou risest from thy place; I have strength for it",
+    "ban": "জনৈক দৈত্য-জিন বলল, আপনি আপনার স্থান থেকে উঠার পূর্বে আমি তা এনে দেব এবং আমি একাজে শক্তিবান, বিশ্বস্ত।"
   },
   {
     "num": "40",
     "ara": "قَالَ الَّذِي عِندَهُ عِلْمٌ مِّنَ الْكِتَابِ أَنَا آتِيكَ بِهِ قَبْلَ أَن يَرْتَدَّ إِلَيْكَ طَرْفُكَ فَلَمَّا رَآهُ مُسْتَقِرًّا عِندَهُ قَالَ هَذَا مِن فَضْلِ رَبِّي لِيَبْلُوَنِي أَأَشْكُرُ أَمْ أَكْفُرُ وَمَن شَكَرَ فَإِنَّمَا يَشْكُرُ لِنَفْسِهِ وَمَن كَفَرَ فَإِنَّ رَبِّي غَنِيٌّ كَرِيمٌ",
-    "eng": "Said one who had knowledge from the Scripture, \"I will bring it to you before your glance returns to you.\" And when [Solomon] saw it placed before him, he said, \"This is from the favor of my Lord to test me whether I will be grateful or ungrateful. And whoever is grateful - his gratitude is only for [the benefit of] himself. And whoever is ungrateful - then indeed, my Lord is Free of need and Generous.\"",
-    "ban": "যার কাছে ধর্মগ্রন্থের জ্ঞান রয়েছে এমন একজন বললে -- \"আমি এটি আপনার কাছে নিয়ে আসব আপনার দৃষ্টি আপনার কাছে ফিরে আসার আগেই।\" তারপর যখন তিনি এটি দেখতে পেলেন তাঁর পার্শ্বে স্থাপিত হয়েছে তখন বললেন -- \"এ আমার প্রভুর করুণাভান্ডার থেকে, যাতে তিনি আমাকে পরীক্ষা ক'রে দেখতে পারেন আমি কৃতজ্ঞতা জ্ঞাপন করি, না অকৃতজ্ঞতা পোষণ করি। আর যে কেউ কৃতজ্ঞতা প্রকাশ করে সে অবশ্যই কৃতজ্ঞতা জানায় তার নিজের জন্য, আর যে কেউ অকৃতজ্ঞতা পোষণ করে -- আমার প্রভু নিশ্চয়ই মহাবিত্তবান, মহানুভব।\""
+    "eng:sai": "Said one who had knowledge from the Scripture, \"I will bring it to you before your glance returns to you.\" And when [Solomon] saw it placed before him, he said, \"This is from the favor of my Lord to test me whether I will be grateful or ungrateful. And whoever is grateful - his gratitude is only for [the benefit of] himself. And whoever is ungrateful - then indeed, my Lord is Free of need and Generous.\"",
+    "eng:arb": "and I am trusty.' Said he who possessed knowledge of the Book, 'I will bring it to thee, before ever thy glance returns to thee.' Then, when he saw it settled before him, he said, 'This is of my Lord's bounty that He may try me, whether I am thankful or ungrateful. Whosoever gives thanks gives thanks only for his own soul's good, and whosoever is ungrateful -- my Lord is surely All-sufficient, All-generous.'",
+    "ban": "কিতাবের জ্ঞান যার ছিল, সে বলল, আপনার দিকে আপনার চোখের পলক ফেলার পূর্বেই আমি তা আপনাকে এনে দেব। অতঃপর সুলায়মান যখন তা সামনে রক্ষিত দেখলেন, তখন বললেন এটা আমার পালনকর্তার অনুগ্রহ, যাতে তিনি আমাকে পরীক্ষা করেন যে, আমি কৃতজ্ঞতা প্রকাশ করি, না অকৃতজ্ঞতা প্রকাশ করি। যে কৃতজ্ঞতা প্রকাশ করে, সে নিজের উপকারের জন্যেই কৃতজ্ঞতা প্রকাশ করে এবং যে অকৃতজ্ঞতা প্রকাশ করে সে জানুক যে, আমার পালনকর্তা অভাবমুক্ত কৃপাশীল।"
   },
   {
     "num": "41",
     "ara": "قَالَ نَكِّرُوا لَهَا عَرْشَهَا نَنظُرْ أَتَهْتَدِي أَمْ تَكُونُ مِنَ الَّذِينَ لَا يَهْتَدُونَ",
-    "eng": "He said, \"Disguise for her her throne; we will see whether she will be guided [to truth] or will be of those who is not guided.\"",
-    "ban": "তিনি বললেন -- \"তার সিংহাসনখানা তারজন্য বদলে দাও, আমরা দেখতে চাই সে সৎপথ অবলন্বন করে, না সে তাদের দলের হয় যারা সৎপথে চলে না।\""
+    "eng:sai": "He said, \"Disguise for her her throne; we will see whether she will be guided [to truth] or will be of those who is not guided.\"",
+    "eng:arb": "He said, 'Disguise her throne for her, and we shall behold whether she is guided or if she is of those that are not guided.'",
+    "ban": "সুলায়মান বললেন, বিলকীসের সামনে তার সিংহাসনের আকার-আকৃতি বদলিয়ে দাও, দেখব সে সঠিক বুঝতে পারে, না সে তাদের অন্তর্ভুক্ত, যাদের দিশা নেই ?"
   },
   {
     "num": "42",
     "ara": "فَلَمَّا جَاءَتْ قِيلَ أَهَكَذَا عَرْشُكِ قَالَتْ كَأَنَّهُ هُوَ وَأُوتِينَا الْعِلْمَ مِن قَبْلِهَا وَكُنَّا مُسْلِمِينَ",
-    "eng": "So when she arrived, it was said [to her], \"Is your throne like this?\" She said, \"[It is] as though it was it.\" [Solomon said], \"And we were given knowledge before her, and we have been Muslims [in submission to Allah].",
-    "ban": "তারপর যখন সে এল তখন বলা হ'ল -- \"তোমার সিংহাসন কি এই রকমের?\" সে বললে, \"এটিই যেন তাই।\" \"আর আমাদের জ্ঞান দেওয়া হয়েছে তার আগে, আর আমরা মুসলিম ছিলাম।\""
+    "eng:sai": "So when she arrived, it was said [to her], \"Is your throne like this?\" She said, \"[It is] as though it was it.\" [Solomon said], \"And we were given knowledge before her, and we have been Muslims [in submission to Allah].",
+    "eng:arb": "So, when she came, it was said, 'Is thy throne like this?' She said, 'It seems the same.' 'And we were given the knowledge before her, and we were in surrender,",
+    "ban": "অতঃপর যখন বিলকীস এসে গেল, তখন তাকে জিজ্ঞাসা করা হল, তোমার সিংহাসন কি এরূপই? সে বলল, মনে হয় এটা সেটাই। আমরা পূর্বেই সমস্ত অবগত হয়েছি এবং আমরা আজ্ঞাবহও হয়ে গেছি।"
   },
   {
     "num": "43",
     "ara": "وَصَدَّهَا مَا كَانَت تَّعْبُدُ مِن دُونِ اللَّهِ إِنَّهَا كَانَتْ مِن قَوْمٍ كَافِرِينَ",
-    "eng": "And that which she was worshipping other than Allah had averted her [from submission to Him]. Indeed, she was from a disbelieving people.\"",
-    "ban": "আর আল্লাহ্‌কে বাদ দিয়ে সে যার পূজা করত তাই তাকে নিবৃত্ত করেছিল, নিঃসন্দেহ সে ছিল অবিশ্বাসী লোকদের মধ্যেকার।"
+    "eng:sai": "And that which she was worshipping other than Allah had averted her [from submission to Him]. Indeed, she was from a disbelieving people.\"",
+    "eng:arb": "but that she served, apart from God, barred her, for she was of a people of unbelievers.'",
+    "ban": "আল্লাহর পরিবর্তে সে যার এবাদত করত, সেই তাকে ঈমান থেকে নিবৃত্ত করেছিল। নিশ্চয় সে কাফের সম্প্রদায়ের অন্তর্ভুক্ত ছিল।"
   },
   {
     "num": "44",
     "ara": "قِيلَ لَهَا ادْخُلِي الصَّرْحَ فَلَمَّا رَأَتْهُ حَسِبَتْهُ لُجَّةً وَكَشَفَتْ عَن سَاقَيْهَا قَالَ إِنَّهُ صَرْحٌ مُّمَرَّدٌ مِّن قَوَارِيرَ قَالَتْ رَبِّ إِنِّي ظَلَمْتُ نَفْسِي وَأَسْلَمْتُ مَعَ سُلَيْمَانَ لِلَّهِ رَبِّ الْعَالَمِينَ",
-    "eng": "She was told, \"Enter the palace.\" But when she saw it, she thought it was a body of water and uncovered her shins [to wade through]. He said, \"Indeed, it is a palace [whose floor is] made smooth with glass.\" She said, \"My Lord, indeed I have wronged myself, and I submit with Solomon to Allah, Lord of the worlds.\"",
-    "ban": "তাকে বলা হ'ল -- \"দরবার-ঘরে প্রবেশ করো।\" কিন্ত যখন সে তা দেখল সে এটিকে মনে করল এক বিশাল জলাশয়, আর সে তার কাপড় টেনে তুললো। তিনি বললেন -- \"এটিই দরবার ঘর, মসৃণ করা হয়েছে কাচ দিয়ে ।\" সে বললে -- \"আমার প্রভু! আমি নিঃসন্দেহ আমার আ‌ত্মার প্রতি অন্যায় করেছি, আর আমি সুলাইমানের সঙ্গে বিশ্বজগতের প্রভু আল্লাহ্‌র প্রতি আত্নসমর্পণ করছি।\""
+    "eng:sai": "She was told, \"Enter the palace.\" But when she saw it, she thought it was a body of water and uncovered her shins [to wade through]. He said, \"Indeed, it is a palace [whose floor is] made smooth with glass.\" She said, \"My Lord, indeed I have wronged myself, and I submit with Solomon to Allah, Lord of the worlds.\"",
+    "eng:arb": "It was said to her, 'Enter the pavilion.' But when she saw it, she supposed it was a spreading water, and she bared her legs. He said, 'It is a pavilion smoothed of crystal. She said, 'My Lord, indeed I have wronged myself, and I surrender with Solomon to God, the Lord of all Being.'",
+    "ban": "তাকে বলা হল, এই প্রাসাদে প্রবেশ কর। যখন সে তার প্রতি দৃষ্টিপাত করল সে ধারণা করল যে, এটা স্বচ্ছ গভীর জলাশয়। সে তার পায়ের গোছা খুলে ফেলল। সুলায়মান বলল, এটা তো স্বচ্ছ স্ফটিক নির্মিত প্রাসাদ। বিলকীস বলল, হে আমার পালনকর্তা, আমি তো নিজের প্রতি জুলুম করেছি। আমি সুলায়মানের সাথে বিশ্ব জাহানের পালনকর্তা আল্লাহর কাছে আত্নসমর্পন করলাম।"
   },
   {
     "num": "45",
     "ara": "وَلَقَدْ أَرْسَلْنَا إِلَى ثَمُودَ أَخَاهُمْ صَالِحًا أَنِ اعْبُدُوا اللَّهَ فَإِذَا هُمْ فَرِيقَانِ يَخْتَصِمُونَ",
-    "eng": "And We had certainly sent to Thamud their brother Salih, [saying], \"Worship Allah,\" and at once they were two parties conflicting.",
-    "ban": "আর আমরা অবশ্যই ছামূদ জাতির কাছে তাদের ভাই সালিহ্‌কে পাঠিয়েছিলাম এই বলে -- \"তোমরা আল্লাহ্‌র এবাদত কর।\" কিন্তু দেখো! তারা দুই দল হয়ে গেল -- পরস্পরে বিবাদ করতে লাগল।"
+    "eng:sai": "And We had certainly sent to Thamud their brother Salih, [saying], \"Worship Allah,\" and at once they were two parties conflicting.",
+    "eng:arb": "And We sent to Thamood their brother Salih: 'Serve you God!' And behold, they were two parties, that were disputing one with another.",
+    "ban": "আমি সামুদ সম্প্রদায়ের কাছে তাদের ভাই সালেহকে এই মর্মে প্রেরণ করেছি যে, তোমরা আল্লাহর এবাদত কর। অতঃপর তারা দ্বিধাবিভক্ত হয়ে বিতর্কে প্রবৃত্ত হল।"
   },
   {
     "num": "46",
     "ara": "قَالَ يَا قَوْمِ لِمَ تَسْتَعْجِلُونَ بِالسَّيِّئَةِ قَبْلَ الْحَسَنَةِ لَوْلَا تَسْتَغْفِرُونَ اللَّهَ لَعَلَّكُمْ تُرْحَمُونَ",
-    "eng": "He said, \"O my people, why are you impatient for evil instead of good? Why do you not seek forgiveness of Allah that you may receive mercy?\"",
-    "ban": "তিনি বললেন -- \"হে আমার স্বজাতি, তোমরা কেন মন্দকে ত্বরান্বিত করতে চাইছ ভালর আগে? কেন তোমরা আল্লাহর পরিত্রাণ খোঁজো না যাতে তোমাদের করুণা করা হয়?\""
+    "eng:sai": "He said, \"O my people, why are you impatient for evil instead of good? Why do you not seek forgiveness of Allah that you may receive mercy?\"",
+    "eng:arb": "He said, 'O my people, why do you seek to hasten evil before good? Why do you not ask forgiveness of God? Haply so you will find mercy.'",
+    "ban": "সালেহ বললেন, হে আমার সম্প্রদায়, তোমরা কল্যাণের পূর্বে দ্রুত অকল্যাণ কামনা করছ কেন? তোমরা আল্লাহর কাছে ক্ষমা প্রার্থনা করছ না কেন? সম্ভবতঃ তোমরা দয়াপ্রাপ্ত হবে।"
   },
   {
     "num": "47",
     "ara": "قَالُوا اطَّيَّرْنَا بِكَ وَبِمَن مَّعَكَ قَالَ طَائِرُكُمْ عِندَ اللَّهِ بَلْ أَنتُمْ قَوْمٌ تُفْتَنُونَ",
-    "eng": "They said, \"We consider you a bad omen, you and those with you.\" He said, \"Your omen is with Allah. Rather, you are a people being tested.\"",
-    "ban": "তারা বললে -- \"তোমাকে ও তোমার সঙ্গে যারা আছে তাদের আমরা অমঙ্গলময় মনে করি।\" তিনি বললেন -- তোমাদের অমঙ্গল-কামনা আল্লাহ্‌র এখতিয়ারে, বস্তুতঃ তোমরা হচ্ছ এক গোষ্ঠী যাদের পরীক্ষা করা হচ্ছে।\""
+    "eng:sai": "They said, \"We consider you a bad omen, you and those with you.\" He said, \"Your omen is with Allah. Rather, you are a people being tested.\"",
+    "eng:arb": "They said, 'We augur ill of thee and of those that are with thee.' He said, 'Your augury is with God; nay, but you are a people being proved.'",
+    "ban": "তারা বলল, তোমাকে এবং তোমার সাথে যারা আছে, তাদেরকে আমরা অকল্যাণের প্রতীক মনে করি। সালেহ বললেন, তোমাদের মঙ্গলামঙ্গল আল্লাহর কাছে; বরং তোমরা এমন সম্প্রদায়, যাদেরকে পরীক্ষা করা হচ্ছে।"
   },
   {
     "num": "48",
     "ara": "وَكَانَ فِي الْمَدِينَةِ تِسْعَةُ رَهْطٍ يُفْسِدُونَ فِي الْأَرْضِ وَلَا يُصْلِحُونَ",
-    "eng": "And there were in the city nine family heads causing corruption in the land and not amending [its affairs].",
-    "ban": "আর সে শহরে ছিল নয়জন লোক যারা দেশে গন্ডগোল সৃষ্টি করত, আর তারা শান্তি স্থাপন করত না।"
+    "eng:sai": "And there were in the city nine family heads causing corruption in the land and not amending [its affairs].",
+    "eng:arb": "Now in the city there were nine persons who did corruption in the land, and put not things right;",
+    "ban": "আর সেই শহরে ছিল এমন একজন ব্যক্তি, যারা দেশময় অনর্থ সৃষ্টি করে বেড়াত এবং সংশোধন করত না।"
   },
   {
     "num": "49",
     "ara": "قَالُوا تَقَاسَمُوا بِاللَّهِ لَنُبَيِّتَنَّهُ وَأَهْلَهُ ثُمَّ لَنَقُولَنَّ لِوَلِيِّهِ مَا شَهِدْنَا مَهْلِكَ أَهْلِهِ وَإِنَّا لَصَادِقُونَ",
-    "eng": "They said, \"Take a mutual oath by Allah that we will kill him by night, he and his family. Then we will say to his executor, 'We did not witness the destruction of his family, and indeed, we are truthful.' \"",
-    "ban": "তারা বললে -- \"আল্লাহ্‌র নামে তোমরা কসম খাও যে আমরা অবশ্যই তাকে ও তার পরিজনবর্গকে রাত্রিকালে আক্রমণ করব, তারপর তার দাবিদারকে আমরা আলবৎ বলব -- 'আমরা তার পরিজনবর্গের হত্যাকান্ড দেখতে পাই নি, আর আমরা তো নিঃসন্দেহ সত্যবাদী।\""
+    "eng:sai": "They said, \"Take a mutual oath by Allah that we will kill him by night, he and his family. Then we will say to his executor, 'We did not witness the destruction of his family, and indeed, we are truthful.' \"",
+    "eng:arb": "they said, 'Swear you, one to another, by God, \"We will attack him and his family by night, then we will tell his protector, We were not witnesses of the destruction of his family; and assuredly we are truthful men.\"'",
+    "ban": "তারা বলল, তোমরা পরস্পরে আল্লাহর নামে শপথ গ্রহণ কর যে, আমরা রাত্রিকালে তাকে ও তার পরিবারবর্গকে হত্যা করব। অতঃপর তার দাবীদারকে বলে দেব যে, তার পরিবারবর্গের হত্যাকান্ড আমরা প্রত্যক্ষ করিনি। আমরা নিশ্চয়ই সত্যবাদী।"
   },
   {
     "num": "50",
     "ara": "وَمَكَرُوا مَكْرًا وَمَكَرْنَا مَكْرًا وَهُمْ لَا يَشْعُرُونَ",
-    "eng": "And they planned a plan, and We planned a plan, while they perceived not.",
-    "ban": "আর তারা এক ষড়যন্ত্রের চক্রান্ত করেছিল, আর আমারও এক পরিকল্পনা উদ্ভাবন করেছিলাম, কিন্ত তারা বুঝতেও পারে নি।"
+    "eng:sai": "And they planned a plan, and We planned a plan, while they perceived not.",
+    "eng:arb": "And they devised a device, and We likewise devised a device, while they were not aware;",
+    "ban": "তারা এক চক্রান্ত করেছিল এবং আমিও এক চক্রান্ত করেছিলাম। কিন্তু তারা বুঝতে পারেনি।"
   },
   {
     "num": "51",
     "ara": "فَانظُرْ كَيْفَ كَانَ عَاقِبَةُ مَكْرِهِمْ أَنَّا دَمَّرْنَاهُمْ وَقَوْمَهُمْ أَجْمَعِينَ",
-    "eng": "Then look how was the outcome of their plan - that We destroyed them and their people, all.",
-    "ban": "অতএব চেয়ে দেখো, তাদের ষড়যন্ত্রের পরিণাম কী হয়েছিল, -- নিঃসন্দেহ আমরা তাদের এবং তাদের স্বজাতিকে সাকল্যে ধ্বংস করেছিলাম।"
+    "eng:sai": "Then look how was the outcome of their plan - that We destroyed them and their people, all.",
+    "eng:arb": "and behold, how was the end of their device! For We destroyed them and their people all together.",
+    "ban": "অতএব, দেখ তাদের চক্রান্তের পরিনাম, আমি অবশ্রই তাদেরকে এবং তাদের সম্প্রদায়কে নাস্তনাবুদ করে দিয়েছি।"
   },
   {
     "num": "52",
     "ara": "فَتِلْكَ بُيُوتُهُمْ خَاوِيَةً بِمَا ظَلَمُوا إِنَّ فِي ذَلِكَ لَآيَةً لِّقَوْمٍ يَعْلَمُونَ",
-    "eng": "So those are their houses, desolate because of the wrong they had done. Indeed in that is a sign for people who know.",
-    "ban": "সুতরাং এই তো তাদের ঘরবাড়িসব -- ভেঙেচুরে রয়েছে যেহেতু তারা অন্যায়াচরণ করেছিল। নিঃসন্দেহ এতে তো এক নিদর্শন রয়েছে সেই লোকদের জন্য যারা জানে।"
+    "eng:sai": "So those are their houses, desolate because of the wrong they had done. Indeed in that is a sign for people who know.",
+    "eng:arb": "Those are their houses, all fallen down because of the evil they committed; surely in that is a sign for a people who have knowledge.",
+    "ban": "এই তো তাদের বাড়ীঘর-তাদের অবিশ্বাসের কারণে জনশূন্য অবস্থায় পড়ে আছে। নিশ্চয় এতে জ্ঞানী সম্প্রদায়ের জন্যে নিদর্শন আছে।"
   },
   {
     "num": "53",
     "ara": "وَأَنجَيْنَا الَّذِينَ آمَنُوا وَكَانُوا يَتَّقُونَ",
-    "eng": "And We saved those who believed and used to fear Allah.",
-    "ban": "আর আমরা উদ্ধার করেছিলাম তাদের যারা ঈমান এনেছিল ও ভয়ভক্তি করে চলত।"
+    "eng:sai": "And We saved those who believed and used to fear Allah.",
+    "eng:arb": "And We delivered those who believed and were godfearing.",
+    "ban": "যারা বিশ্বাস স্থাপন করেছিল এবং পরহেযগার ছিল, তাদেরকে আমি উদ্ধার করেছি।"
   },
   {
     "num": "54",
     "ara": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِ أَتَأْتُونَ الْفَاحِشَةَ وَأَنتُمْ تُبْصِرُونَ",
-    "eng": "And [mention] Lot, when he said to his people, \"Do you commit immorality while you are seeing?",
-    "ban": "আর লূত, স্মরণ কর! তিনি তাঁর জাতিকে বলেছিলেন -- \"তোমরা কি অশ্লীলতা করতেই থাকবে, অথচ তোমরা দেখতে পাচ্ছ?"
+    "eng:sai": "And [mention] Lot, when he said to his people, \"Do you commit immorality while you are seeing?",
+    "eng:arb": "And Lot, when he said to his people, 'What, do you commit indecency with your eyes open?",
+    "ban": "স্মরণ কর লূতের কথা, তিনি তাঁর কওমকে বলেছিলেন, তোমরা কেন অশ্লীল কাজ করছ? অথচ এর পরিণতির কথা তোমরা অবগত আছ!"
   },
   {
     "num": "55",
     "ara": "أَئِنَّكُمْ لَتَأْتُونَ الرِّجَالَ شَهْوَةً مِّن دُونِ النِّسَاءِ بَلْ أَنتُمْ قَوْمٌ تَجْهَلُونَ",
-    "eng": "Do you indeed approach men with desire instead of women? Rather, you are a people behaving ignorantly.\"",
-    "ban": "\"তোমরা কি নারীদের বাদ দিয়ে কামতৃপ্তির জন্য পুরুষেই উপগত হবে? না, তোমরা একটি সম্প্রদায় যারা মূর্খামি করছ।\""
+    "eng:sai": "Do you indeed approach men with desire instead of women? Rather, you are a people behaving ignorantly.\"",
+    "eng:arb": "What, do you approach men lustfully instead of women? No, you are a people that are ignorant.'",
+    "ban": "তোমরা কি কামতৃপ্তির জন্য নারীদেরকে ছেড়ে পুরুষে উপগত হবে? তোমরা তো এক বর্বর সম্প্রদায়।"
   },
   {
     "num": "56",
     "ara": "فَمَا كَانَ جَوَابَ قَوْمِهِ إِلَّا أَن قَالُوا أَخْرِجُوا آلَ لُوطٍ مِّن قَرْيَتِكُمْ إِنَّهُمْ أُنَاسٌ يَتَطَهَّرُونَ",
-    "eng": "But the answer of his people was not except that they said, \"Expel the family of Lot from your city. Indeed, they are people who keep themselves pure.\"",
-    "ban": "কিন্ত তাঁর লোকদের জবাব আর কিছু ছিল না এই ভিন্ন যে তারা বললে -- \"তোমাদের জনপদ থেকে লূতের পরিজনবর্গকে বের করে দাও, এরা তো এমন লোক যারা পবিত্র সাজতে চায়!\""
+    "eng:sai": "But the answer of his people was not except that they said, \"Expel the family of Lot from your city. Indeed, they are people who keep themselves pure.\"",
+    "eng:arb": "And the only answer of his people was that they said, 'Expel the folk of Lot from your city; they are men that keep themselves clean!'",
+    "ban": "উত্তরে তাঁর কওম শুধু এ কথাটিই বললো, লূত পরিবারকে তোমাদের জনপদ থেকে বের করে দাও। এরা তো এমন লোক যারা শুধু পাকপবিত্র সাজতে চায়।"
   },
   {
     "num": "57",
     "ara": "فَأَنجَيْنَاهُ وَأَهْلَهُ إِلَّا امْرَأَتَهُ قَدَّرْنَاهَا مِنَ الْغَابِرِينَ",
-    "eng": "So We saved him and his family, except for his wife; We destined her to be of those who remained behind.",
-    "ban": "আমরা তখন তাঁকে ও তাঁর পরিজনবর্গকে উদ্ধার করেছিলাম তাঁর স্ত্রী ব্যতীত, আমরা তাকে ধার্য করেছিলাম পেছনে রয়ে যাওয়াদের অন্তর্ভুক্ত।"
+    "eng:sai": "So We saved him and his family, except for his wife; We destined her to be of those who remained behind.",
+    "eng:arb": "So We delivered him and his family, except his wife; We decreed she should be of those that tarried.",
+    "ban": "অতঃপর তাঁকে ও তাঁর পরিবারবর্গকে উদ্ধার করলাম তাঁর স্ত্রী ছাড়া। কেননা, তার জন্যে ধ্বংসপ্রাপ্তদের ভাগ্যই নির্ধারিত করেছিলাম।"
   },
   {
     "num": "58",
     "ara": "وَأَمْطَرْنَا عَلَيْهِم مَّطَرًا فَسَاءَ مَطَرُ الْمُنذَرِينَ",
-    "eng": "And We rained upon them a rain [of stones], and evil was the rain of those who were warned.",
-    "ban": "আর তাদের উপরে আমরা বর্ষণ করেছিলাম এক বৃষ্টি, অতএব বড় মন্দ ছিল সতর্কীকৃতদের বর্ষণ!"
+    "eng:sai": "And We rained upon them a rain [of stones], and evil was the rain of those who were warned.",
+    "eng:arb": "And We rained on them a rain; and evil indeed is the rain of them that are warned.",
+    "ban": "আর তাদের উপর বর্ষণ করেছিলাম মুষলধারে বৃষ্টি। সেই সতর্ককৃতদের উপর কতই না মারাত্নক ছিল সে বৃষ্টি।"
   },
   {
     "num": "59",
     "ara": "قُلِ الْحَمْدُ لِلَّهِ وَسَلَامٌ عَلَى عِبَادِهِ الَّذِينَ اصْطَفَى آللَّهُ خَيْرٌ أَمَّا يُشْرِكُونَ",
-    "eng": "Say, [O Muhammad], \"Praise be to Allah, and peace upon His servants whom He has chosen. Is Allah better or what they associate with Him?\"",
-    "ban": "বলো -- \"সমস্ত প্রশংসা আল্লাহ্‌র, আর শান্তি তাঁর বান্দাদের উপরে যাদের তিনি মনোনীত করেছেন। আল্লাহ্ শ্রেষ্ঠ, না যাদের তারা শরিক করেছে?"
+    "eng:sai": "Say, [O Muhammad], \"Praise be to Allah, and peace upon His servants whom He has chosen. Is Allah better or what they associate with Him?\"",
+    "eng:arb": "Say: 'Praise belongs to God, and peace be on His servants whom He has chosen.' What, is God better, or that they associate?",
+    "ban": "বল, সকল প্রশংসাই আল্লাহর এবং শান্তি তাঁর মনোনীত বান্দাগণের প্রতি! শ্রেষ্ঠ কে? আল্লাহ না ওরা-তারা যাদেরকে শরীক সাব্যস্ত করে।"
   },
   {
     "num": "60",
     "ara": "أَمَّنْ خَلَقَ السَّمَاوَاتِ وَالْأَرْضَ وَأَنزَلَ لَكُم مِّنَ السَّمَاءِ مَاءً فَأَنبَتْنَا بِهِ حَدَائِقَ ذَاتَ بَهْجَةٍ مَّا كَانَ لَكُمْ أَن تُنبِتُوا شَجَرَهَا أَإِلَهٌ مَّعَ اللَّهِ بَلْ هُمْ قَوْمٌ يَعْدِلُونَ",
-    "eng": "[More precisely], is He [not best] who created the heavens and the earth and sent down for you rain from the sky, causing to grow thereby gardens of joyful beauty which you could not [otherwise] have grown the trees thereof? Is there a deity with Allah? [No], but they are a people who ascribe equals [to Him].",
-    "ban": "আচ্ছা! কে মহাকাশমন্ডলী ও পৃথিবী সৃষ্টি করেছেন, আর তোমাদের জন্য আকাশ থেকে পানি বর্ষণ করেন? তারপর আমরা তা দিয়ে উৎপন্ন করি শোভাময় বাগানসমূহ, -- তোমাদের পক্ষে এটি সম্ভবপর নয় যে তোমরা এগুলোর গাছপালা বাড়িয়ে তুলবে। আল্লাহ্‌র সঙ্গে কি অন্য উপাস্য আছে? তবুও তারা সত্য ত্যাগ করে এমন এক জাতি।"
+    "eng:sai": "[More precisely], is He [not best] who created the heavens and the earth and sent down for you rain from the sky, causing to grow thereby gardens of joyful beauty which you could not [otherwise] have grown the trees thereof? Is there a deity with Allah? [No], but they are a people who ascribe equals [to Him].",
+    "eng:arb": "He who created the heavens and earth, and sent down for you out of heaven water; and We caused to grow therewith gardens full of loveliness whose trees you could never grow. Is there a god with God? Nay, but they are a people who assign to Him equals!",
+    "ban": "বল তো কে সৃষ্টি করেছেন নভোমন্ডল ও ভূমন্ডল এবং আকাশ থেকে তোমাদের জন্যে বর্ষণ করেছেন পানি; অতঃপর তা দ্বারা আমি মনোরম বাগান সৃষ্টি করেছি। তার বৃক্ষাদি উৎপন্ন করার শক্তিই তোমাদের নেই। অতএব, আল্লাহর সাথে অন্য কোন উপাস্য আছে কি? বরং তারা সত্যবিচ্যুত সম্প্রদায়।"
   },
   {
     "num": "61",
     "ara": "أَمَّن جَعَلَ الْأَرْضَ قَرَارًا وَجَعَلَ خِلَالَهَا أَنْهَارًا وَجَعَلَ لَهَا رَوَاسِيَ وَجَعَلَ بَيْنَ الْبَحْرَيْنِ حَاجِزًا أَإِلَهٌ مَّعَ اللَّهِ بَلْ أَكْثَرُهُمْ لَا يَعْلَمُونَ",
-    "eng": "Is He [not best] who made the earth a stable ground and placed within it rivers and made for it firmly set mountains and placed between the two seas a barrier? Is there a deity with Allah? [No], but most of them do not know.",
-    "ban": "আচ্ছা! কে পৃথিবীটাকে আবাসস্থল করেছেন, আর এর ফাঁক-চিড়গুলোকে বানিয়েছেন নদীনালা, আর এর জন্য দাঁড় করিয়েছেন পাহাড়-পর্বত, আর দুটি সমুদ্রের মধ্যখানে তৈরি করেছেন এক ব্যবধান? আল্লাহ্‌র সঙ্গে কি অন্য উপাস্য আছে? তবুও তাদের অধিকাংশই জানে না।"
+    "eng:sai": "Is He [not best] who made the earth a stable ground and placed within it rivers and made for it firmly set mountains and placed between the two seas a barrier? Is there a deity with Allah? [No], but most of them do not know.",
+    "eng:arb": "He who made the earth a fixed place and set amidst it rivers and appointed for it firm mountains and placed a partition between the two seas. Is there a god with God? Nay, but the most of them have no knowledge.",
+    "ban": "বল তো কে পৃথিবীকে বাসোপযোগী করেছেন এবং তার মাঝে মাঝে নদ-নদী প্রবাহিত করেছেন এবং তাকে স্থিত রাখার জন্যে পর্বত স্থাপন করেছেন এবং দুই সমুদ্রের মাঝখানে অন্তরায় রেখেছেন। অতএব, আল্লাহর সাথে অন্য কোন উপাস্য আছে কি? বরং তাদের অধিকাংশই জানে না।"
   },
   {
     "num": "62",
     "ara": "أَمَّن يُجِيبُ الْمُضْطَرَّ إِذَا دَعَاهُ وَيَكْشِفُ السُّوءَ وَيَجْعَلُكُمْ خُلَفَاءَ الْأَرْضِ أَإِلَهٌ مَّعَ اللَّهِ قَلِيلًا مَّا تَذَكَّرُونَ",
-    "eng": "Is He [not best] who responds to the desperate one when he calls upon Him and removes evil and makes you inheritors of the earth? Is there a deity with Allah? Little do you remember.",
-    "ban": "আচ্ছা! কে সাড়া দেন বিপদগ্রস্তের প্রতি যখন সে তাঁকে ডাকে আর বিপদ-আপদ দূর করে দেন, আর তোমাদের বানিয়েছেন পৃথিবীতে প্রতিনিধি? আল্লাহ্‌র সঙ্গে কি অন্য উপাস্য আছে? অল্পই যা তোমরা মনোনিবেশ কর।"
+    "eng:sai": "Is He [not best] who responds to the desperate one when he calls upon Him and removes evil and makes you inheritors of the earth? Is there a deity with Allah? Little do you remember.",
+    "eng:arb": "He who answers the constrained, when he calls unto Him, and removes the evil and appoints you to be successors in the earth. Is there a god with God? Little indeed do you remember.",
+    "ban": "বল তো কে নিঃসহায়ের ডাকে সাড়া দেন যখন সে ডাকে এবং কষ্ট দূরীভূত করেন এবং তোমাদেরকে পৃথিবীতে পুর্ববর্তীদের স্থলাভিষিক্ত করেন। সুতরাং আল্লাহর সাথে অন্য কোন উপাস্য আছে কি? তোমরা অতি সামান্যই ধ্যান কর।"
   },
   {
     "num": "63",
     "ara": "أَمَّن يَهْدِيكُمْ فِي ظُلُمَاتِ الْبَرِّ وَالْبَحْرِ وَمَن يُرْسِلُ الرِّيَاحَ بُشْرًا بَيْنَ يَدَيْ رَحْمَتِهِ أَإِلَهٌ مَّعَ اللَّهِ تَعَالَى اللَّهُ عَمَّا يُشْرِكُونَ",
-    "eng": "Is He [not best] who guides you through the darknesses of the land and sea and who sends the winds as good tidings before His mercy? Is there a deity with Allah? High is Allah above whatever they associate with Him.",
-    "ban": "আচ্ছা! কে তোমাদের পথ দেখিয়ে দেন স্থলদেশের ও সমুদ্রের অন্ধকারে, আর কে পাঠিয়ে থাকেন বায়ুপ্রবাহ তাঁর করুণা-বিজড়িত সুসংবাদদাতারূপে? আল্লাহ্‌র সঙ্গে কি অন্য উপাস্য আছে? তারা যে-সব অংশী দাঁড় করায় তা থেকে আল্লাহ্ বহু ঊর্ধ্বে!"
+    "eng:sai": "Is He [not best] who guides you through the darknesses of the land and sea and who sends the winds as good tidings before His mercy? Is there a deity with Allah? High is Allah above whatever they associate with Him.",
+    "eng:arb": "He who guides you in the shadows of the land and the sea and looses the winds, bearing good tidings before His mercy. Is there a god with God? High exalted be God, above that which they associate!",
+    "ban": "বল তো কে তোমাদেরকে জলে ও স্থলে অন্ধকারে পথ দেখান এবং যিনি তাঁর অনুগ্রহের পূর্বে সুসংবাদবাহী বাতাস প্রেরণ করেন? অতএব, আল্লাহর সাথে অন্য কোন উপাস্য আছে কি? তারা যাকে শরীক করে, আল্লাহ তা থেকে অনেক ঊর্ধ্বে।"
   },
   {
     "num": "64",
     "ara": "أَمَّن يَبْدَأُ الْخَلْقَ ثُمَّ يُعِيدُهُ وَمَن يَرْزُقُكُم مِّنَ السَّمَاءِ وَالْأَرْضِ أَإِلَهٌ مَّعَ اللَّهِ قُلْ هَاتُوا بُرْهَانَكُمْ إِن كُنتُمْ صَادِقِينَ",
-    "eng": "Is He [not best] who begins creation and then repeats it and who provides for you from the heaven and earth? Is there a deity with Allah? Say, \"Produce your proof, if you should be truthful.\"",
-    "ban": "আচ্ছা! কে সৃষ্টির সূচনা করেন তারপর তার পুনরাবর্তন ঘটান, আর কে তোমাদের আকাশ ও পৃথিবী থেকে রিযেক দান করেন? আল্লাহ্‌র সঙ্গে কি অন্য উপাস্য আছে? বলো -- \"নিয়ে এস তোমাদের দলিল-দস্তাবেজ যদি তোমরা সত্যবাদী হও।\""
+    "eng:sai": "Is He [not best] who begins creation and then repeats it and who provides for you from the heaven and earth? Is there a deity with Allah? Say, \"Produce your proof, if you should be truthful.\"",
+    "eng:arb": "Who originates creation, then brings it back again, and provides you out of heaven and earth. Is there a god with God? Say: 'Produce your proof, if you speak truly.'",
+    "ban": "বল তো কে প্রথমবার সৃষ্টি করেন, অতঃপর তাকে পুনরায় সৃষ্টি করবেন এবং কে তোমাদেরকে আকাশ ও মর্ত?2469;েকে রিযিক দান করেন। সুতরাং আল্লাহর সাথে অন্য কোন উপাস্য আছে কি? বলুন, তোমরা যদি সত্যবাদী হও তবে তোমাদের প্রমাণ উপস্থিত কর।"
   },
   {
     "num": "65",
     "ara": "قُل لَّا يَعْلَمُ مَن فِي السَّمَاوَاتِ وَالْأَرْضِ الْغَيْبَ إِلَّا اللَّهُ وَمَا يَشْعُرُونَ أَيَّانَ يُبْعَثُونَ",
-    "eng": "Say, \"None in the heavens and earth knows the unseen except Allah, and they do not perceive when they will be resurrected.\"",
-    "ban": "বলো -- \"মহাকাশমন্ডলীর ও পৃথিবীর কেউই গায়েব সন্বন্ধে জানে না আল্লাহ্ ছাড়া।\" আর তারা জানে না কখন তাদের পুনরুত্থিত করা হবে।"
+    "eng:sai": "Say, \"None in the heavens and earth knows the unseen except Allah, and they do not perceive when they will be resurrected.\"",
+    "eng:arb": "Say: 'None knows the Unseen in the heavens and earth except God. And they are not aware when they shall be raised;",
+    "ban": "বলুন, আল্লাহ ব্যতীত নভোমন্ডল ও ভূমন্ডলে কেউ গায়বের খবর জানে না এবং তারা জানে না যে, তারা কখন পুনরুজ্জীবিত হবে।"
   },
   {
     "num": "66",
     "ara": "بَلِ ادَّارَكَ عِلْمُهُمْ فِي الْآخِرَةِ بَلْ هُمْ فِي شَكٍّ مِّنْهَا بَلْ هُم مِّنْهَا عَمُونَ",
-    "eng": "Rather, their knowledge is arrested concerning the Hereafter. Rather, they are in doubt about it. Rather, they are, concerning it, blind.",
-    "ban": "বস্তুতঃ তাদের জ্ঞান পরলোকে সীমিত হয়ে গেছে, বরং তারা এ বিষয়ে সন্দেহে রয়েছে, বস্তুতঃ এ সন্বন্ধে তারা অন্ধ।"
+    "eng:sai": "Rather, their knowledge is arrested concerning the Hereafter. Rather, they are in doubt about it. Rather, they are, concerning it, blind.",
+    "eng:arb": "nay, but their knowledge fails as to the Hereafter; nay, they are in doubt of it; nay, they are blind to it.",
+    "ban": "বরং পরকাল সম্পর্কে তাদের জ্ঞান নিঃশেষ হয়ে গেছে; বরং তারা এ বিষয়ে সন্দেহ পোষন করছে বরং এ বিষয়ে তারা অন্ধ।"
   },
   {
     "num": "67",
     "ara": "وَقَالَ الَّذِينَ كَفَرُوا أَإِذَا كُنَّا تُرَابًا وَآبَاؤُنَا أَئِنَّا لَمُخْرَجُونَ",
-    "eng": "And those who disbelieve say, \"When we have become dust as well as our forefathers, will we indeed be brought out [of the graves]?",
-    "ban": "আর যারা অবিশ্বাস করে তারা বলে -- \"যখন আমরা ধূলো-মাটি হয়ে যাব এবং আমাদের পিতৃপুরুষরাও, -- আমরা কি তখন ঠিকঠিকই বহির্গত হব?"
+    "eng:sai": "And those who disbelieve say, \"When we have become dust as well as our forefathers, will we indeed be brought out [of the graves]?",
+    "eng:arb": "The unbelievers say, 'What, when we are dust, and our fathers, shall we indeed be brought forth?",
+    "ban": "কাফেররা বলে, যখন আমরা ও আমাদের বাপ-দাদারা মৃত্তিকা হয়ে যাব, তখনও কি আমাদেরকে পুনরুত্থিত করা হবে?"
   },
   {
     "num": "68",
     "ara": "لَقَدْ وُعِدْنَا هَذَا نَحْنُ وَآبَاؤُنَا مِن قَبْلُ إِنْ هَذَا إِلَّا أَسَاطِيرُ الْأَوَّلِينَ",
-    "eng": "We have been promised this, we and our forefathers, before. This is not but legends of the former peoples.\"",
-    "ban": "\"অবশ্যই ইতিপূর্বে এটি আমাদের ওয়াদা করা হয়েছিল -- আমাদের আর আগেরকালে আমাদের পিতৃপুরুষদেরও, নিঃসন্দেহ এটি সেকালের উপকথা বৈ তো নয়!\""
+    "eng:sai": "We have been promised this, we and our forefathers, before. This is not but legends of the former peoples.\"",
+    "eng:arb": "We have been promised this, and our fathers before; this is naught but the fairy-tales of the ancients.'",
+    "ban": "এই ওয়াদাপ্রাপ্ত হয়েছি আমরা এবং পূর্ব থেকেই আমাদের বাপ-দাদারা। এটা তো পূর্ববর্তীদের উপকথা বৈ কিছু নয়।"
   },
   {
     "num": "69",
     "ara": "قُلْ سِيرُوا فِي الْأَرْضِ فَانظُرُوا كَيْفَ كَانَ عَاقِبَةُ الْمُجْرِمِينَ",
-    "eng": "Say, [O Muhammad], \"Travel through the land and observe how was the end of the criminals.\"",
-    "ban": "বলো -- \"পৃথিবীতে পরিভ্রমণ করো, তারপর দেখো কেমন হয়েছিল অপরাধীদের পরিণাম!\""
+    "eng:sai": "Say, [O Muhammad], \"Travel through the land and observe how was the end of the criminals.\"",
+    "eng:arb": "Say: 'Journey in the land, then behold how was the end of the sinners.'",
+    "ban": "বলুন, পৃথিবী পরিভ্রমণ কর এবং দেখ অপরাধীদের পরিণতি কি হয়েছে।"
   },
   {
     "num": "70",
     "ara": "وَلَا تَحْزَنْ عَلَيْهِمْ وَلَا تَكُن فِي ضَيْقٍ مِّمَّا يَمْكُرُونَ",
-    "eng": "And grieve not over them or be in distress from what they conspire.",
-    "ban": "আর তাদের কারণে তুমি দুঃখ করো না, আর তারা যা ষড়যন্ত্র করছে সেজন্য তুমি মনঃক্ষুন্ন হয়ো না।"
+    "eng:sai": "And grieve not over them or be in distress from what they conspire.",
+    "eng:arb": "Do not sorrow for them, nor be thou straitened for what they devise.",
+    "ban": "তাদের কারণে আপনি দুঃখিত হবেন না এবং তারা যে চক্রান্ত করেছে এতে মনঃক্ষুন্ন হবেন না।"
   },
   {
     "num": "71",
     "ara": "وَيَقُولُونَ مَتَى هَذَا الْوَعْدُ إِن كُنتُمْ صَادِقِينَ",
-    "eng": "And they say, \"When is [the fulfillment of] this promise, if you should be truthful?\"",
-    "ban": "আর তারা বলে -- \"কখন এই ওয়াদা হবে, যদি তোমরা সত্যবাদী হও?\""
+    "eng:sai": "And they say, \"When is [the fulfillment of] this promise, if you should be truthful?\"",
+    "eng:arb": "They say, 'When shall this promise come to pass, if you speak the truth?'",
+    "ban": "তারা বলে, তোমরা যদি সত্যবাদী হও তবে বল, এই ওয়াদা কখন পূর্ণ হবে?"
   },
   {
     "num": "72",
     "ara": "قُلْ عَسَى أَن يَكُونَ رَدِفَ لَكُم بَعْضُ الَّذِي تَسْتَعْجِلُونَ",
-    "eng": "Say, \"Perhaps it is close behind you - some of that for which you are impatient.",
-    "ban": "তুমি বলো -- \"হতে পারে তোমরা যার জন্য তাড়াতাড়ি করছ তার কতকটা তোমাদের নিকটেই এসে গেছে।\""
+    "eng:sai": "Say, \"Perhaps it is close behind you - some of that for which you are impatient.",
+    "eng:arb": "Say: 'It may be that riding behind you already is some part of that you seek to hasten on.",
+    "ban": "বলুন, অসম্ভব কি, তোমরা যত দ্রুত কামনা করছ তাদের কিয়দংশ তোমাদের পিঠের উপর এসে গেছে।"
   },
   {
     "num": "73",
     "ara": "وَإِنَّ رَبَّكَ لَذُو فَضْلٍ عَلَى النَّاسِ وَلَكِنَّ أَكْثَرَهُمْ لَا يَشْكُرُونَ",
-    "eng": "And indeed, your Lord is full of bounty for the people, but most of them do not show gratitude.\"",
-    "ban": "আর তোমার প্রভু নিশ্চয়ই তো মানুষের প্রতি করুণাসিন্ধুর মালিক, কিন্ত তথাপি তাদের অধিকাংশই কৃতজ্ঞতা জানায় না।"
+    "eng:sai": "And indeed, your Lord is full of bounty for the people, but most of them do not show gratitude.\"",
+    "eng:arb": "Surely thy Lord is bountiful to men; but most of them are not thankful.",
+    "ban": "আপনার পালনকর্তা মানুষের প্রতি অনুগ্রহশীল, কিন্তু তাদের অধিকাংশই কৃতজ্ঞতা প্রকাশ করে না।"
   },
   {
     "num": "74",
     "ara": "وَإِنَّ رَبَّكَ لَيَعْلَمُ مَا تُكِنُّ صُدُورُهُمْ وَمَا يُعْلِنُونَ",
-    "eng": "And indeed, your Lord knows what their breasts conceal and what they declare.",
-    "ban": "আর নিঃসন্দেহ তোমার প্রভু অবশ্যই জানেন তাদের বুক যা লুকিয়ে রাখে আর যা তারা প্রকাশ করে।"
+    "eng:sai": "And indeed, your Lord knows what their breasts conceal and what they declare.",
+    "eng:arb": "Surely thy Lord knows what their hearts conceal, and what they publish.",
+    "ban": "তাদের অন্তর যা গোপন করে এবং যা প্রকাশ করে আপনার পালনকর্তা অবশ্যই তা জানেন।"
   },
   {
     "num": "75",
     "ara": "وَمَا مِنْ غَائِبَةٍ فِي السَّمَاءِ وَالْأَرْضِ إِلَّا فِي كِتَابٍ مُّبِينٍ",
-    "eng": "And there is nothing concealed within the heaven and the earth except that it is in a clear Register.",
-    "ban": "আর মহাকাশে ও পৃথিবীতে কোনো গুপ্ত বিষয় নেই যা সুস্পষ্ট গ্রন্থে নয়।"
+    "eng:sai": "And there is nothing concealed within the heaven and the earth except that it is in a clear Register.",
+    "eng:arb": "And not a thing is there hidden in heaven and earth but it is in a Manifest Book.",
+    "ban": "আকাশে ও পৃথিবীতে এমন কোন গোপন ভেদ নেই, যা সুস্পষ্ট কিতাবে না আছে।"
   },
   {
     "num": "76",
     "ara": "إِنَّ هَذَا الْقُرْآنَ يَقُصُّ عَلَى بَنِي إِسْرَائِيلَ أَكْثَرَ الَّذِي هُمْ فِيهِ يَخْتَلِفُونَ",
-    "eng": "Indeed, this Qur'an relates to the Children of Israel most of that over which they disagree.",
-    "ban": "নিঃসন্দেহ এই কুরআন ইসরাইলের বংশধরদের কাছে যে-সব বিষয়ে তারা মতভেদ করে তার অধিকাংশই বিবৃত করে দিয়েছে।"
+    "eng:sai": "Indeed, this Qur'an relates to the Children of Israel most of that over which they disagree.",
+    "eng:arb": "Surely this Koran relates to the Children of Israel most of that concerning which they are at variance;",
+    "ban": "এই কোরআন বণী ইসরাঈল যেসব বিষয়ে মতবিরোধ করে, তার অধিকাংশ তাদের কাছে বর্ণনা করে।"
   },
   {
     "num": "77",
     "ara": "وَإِنَّهُ لَهُدًى وَرَحْمَةٌ لِّلْمُؤْمِنِينَ",
-    "eng": "And indeed, it is guidance and mercy for the believers.",
-    "ban": "আর এটি আলবৎ মুমিনদের জন্য এক পথনির্দেশ ও করুণা।"
+    "eng:sai": "And indeed, it is guidance and mercy for the believers.",
+    "eng:arb": "it is a guidance, and a mercy unto the believers.",
+    "ban": "এবং নিশ্চিতই এটা মুমিনদের জন্যে হেদায়েত ও রহমত।"
   },
   {
     "num": "78",
     "ara": "إِنَّ رَبَّكَ يَقْضِي بَيْنَهُم بِحُكْمِهِ وَهُوَ الْعَزِيزُ الْعَلِيمُ",
-    "eng": "Indeed, your Lord will judge between them by His [wise] judgement. And He is the Exalted in Might, the Knowing.",
-    "ban": "নিঃসন্দেহ তোমার প্রভু তাঁর হুকুম মোতাবেক তাদের মধ্যে মীমাংসা করে দেবেন, আর তিনিই মহাশক্তিশালী, সর্বজ্ঞাতা।"
+    "eng:sai": "Indeed, your Lord will judge between them by His [wise] judgement. And He is the Exalted in Might, the Knowing.",
+    "eng:arb": "Surely thy Lord will decide between them by His Judgment; He is the All-mighty, the All-knowing.",
+    "ban": "আপনার পালনকর্তা নিজ শাসনক্ষমতা অনুযায়ী তাদের মধ্যে ফয়সালা করে দেবেন। তিনি পরাক্রমশালী, সুবিজ্ঞ।"
   },
   {
     "num": "79",
     "ara": "فَتَوَكَّلْ عَلَى اللَّهِ إِنَّكَ عَلَى الْحَقِّ الْمُبِينِ",
-    "eng": "So rely upon Allah; indeed, you are upon the clear truth.",
-    "ban": "সুতরাং তুমি আল্লাহ্‌র উপরে নির্ভর কর। নিঃসন্দেহ তুমিই হচ্ছ সুস্পষ্ট সত্যের উপরে।"
+    "eng:sai": "So rely upon Allah; indeed, you are upon the clear truth.",
+    "eng:arb": "So put thy trust in God; thou art upon the manifest truth.",
+    "ban": "অতএব, আপনি আল্লাহর উপর ভরসা করুন। নিশ্চয় আপনি সত্য ও স্পষ্ট পথে আছেন।"
   },
   {
     "num": "80",
     "ara": "إِنَّكَ لَا تُسْمِعُ الْمَوْتَى وَلَا تُسْمِعُ الصُّمَّ الدُّعَاءَ إِذَا وَلَّوْا مُدْبِرِينَ",
-    "eng": "Indeed, you will not make the dead hear, nor will you make the deaf hear the call when they have turned their backs retreating.",
-    "ban": "তুমি নিশ্চয়ই মৃতকে শোনাতে পারবে না আর বধিরকেও আহ্বান শোনাতে পারবে না, যখন তারা ফিরে যায় পিছু হটে।"
+    "eng:sai": "Indeed, you will not make the dead hear, nor will you make the deaf hear the call when they have turned their backs retreating.",
+    "eng:arb": "Thou shalt not make the dead to hear, neither shalt thou make the deaf to hear the call when they turn about, retreating.",
+    "ban": "আপনি আহবান শোনাতে পারবেন না মৃতদেরকে এবং বধিরকেও নয়, যখন তারা পৃষ্ঠ প্রদর্শন করে চলে যায়।"
   },
   {
     "num": "81",
     "ara": "وَمَا أَنتَ بِهَادِي الْعُمْيِ عَن ضَلَالَتِهِمْ إِن تُسْمِعُ إِلَّا مَن يُؤْمِنُ بِآيَاتِنَا فَهُم مُّسْلِمُونَ",
-    "eng": "And you cannot guide the blind away from their error. You will only make hear those who believe in Our verses so they are Muslims [submitting to Allah].",
-    "ban": "আর অন্ধদের তাদের পথভ্রষ্টতা থেকে তুমি পথ-প্রদর্শক হতে পারবে না। তুমি তো শোনাতে পার শুধু তাকে যে আমাদের বাণীসমূহ বিশ্বাস করে, ফলে তারা মুসলিম হয়।"
+    "eng:sai": "And you cannot guide the blind away from their error. You will only make hear those who believe in Our verses so they are Muslims [submitting to Allah].",
+    "eng:arb": "Thou shalt not guide the blind out of their error neither shalt thou make any to hear, save such as believe in Our signs, and so surrender.",
+    "ban": "আপনি অন্ধদেরকে তাদের পথভ্রষ্টতা থেকে ফিরিয়ে সৎপথে আনতে পারবেন না। আপনি কেবল তাদেরকে শোনাতে পারবেন, যারা আমার আয়াতসমূহে বিশ্বাস করে। অতএব, তারাই আজ্ঞাবহ।"
   },
   {
     "num": "82",
     "ara": "وَإِذَا وَقَعَ الْقَوْلُ عَلَيْهِمْ أَخْرَجْنَا لَهُمْ دَابَّةً مِّنَ الْأَرْضِ تُكَلِّمُهُمْ أَنَّ النَّاسَ كَانُوا بِآيَاتِنَا لَا يُوقِنُونَ",
-    "eng": "And when the word befalls them, We will bring forth for them a creature from the earth speaking to them, [saying] that the people were, of Our verses, not certain [in faith].",
-    "ban": "আর যখন তাদের উপরে উক্তিটি বর্তাবে তখন তাদের জন্য আমরা বের ক'রে আনব মাটির কীট যেটি তাদের সঙ্গে বাক্যালাপ করবে, কেননা মানুষগুলো আমাদের নির্দেশাবলীতে দৃঢ় বিশ্বাস পোষণ করে নি।"
+    "eng:sai": "And when the word befalls them, We will bring forth for them a creature from the earth speaking to them, [saying] that the people were, of Our verses, not certain [in faith].",
+    "eng:arb": "When the Word falls on them, We shall bring forth for them out of the earth a beast that shall speak unto them: 'Mankind had no faith in Our signs.'",
+    "ban": "যখন প্রতিশ্রুতি (কেয়ামত) সমাগত হবে, তখন আমি তাদের সামনে ভূগর্ভ থেকে একটি জীব নির্গত করব। সে মানুষের সাথে কথা বলবে। এ কারণে যে মানুষ আমার নিদর্শনসমূহে বিশ্বাস করত না।"
   },
   {
     "num": "83",
     "ara": "وَيَوْمَ نَحْشُرُ مِن كُلِّ أُمَّةٍ فَوْجًا مِّمَّن يُكَذِّبُ بِآيَاتِنَا فَهُمْ يُوزَعُونَ",
-    "eng": "And [warn of] the Day when We will gather from every nation a company of those who deny Our signs, and they will be [driven] in rows",
-    "ban": "আর সেইদিন -- প্রত্যেক সম্প্রদায় থেকে আমরা এক একটি ফৌজকে সমবেত করব যারা আমাদের নির্দেশসমূহ প্রত্যাখ্যান করত, তারপর তাদের শ্রেণীবদ্ধ করা হবে।"
+    "eng:sai": "And [warn of] the Day when We will gather from every nation a company of those who deny Our signs, and they will be [driven] in rows",
+    "eng:arb": "Upon the day when We shall muster out of every nation a troop of those that cried lies to Our signs, duly disposed,",
+    "ban": "যেদিন আমি একত্রিত করব একেকটি দলকে সেসব সম্প্রদায় থেকে, যারা আমার আয়াতসমূহকে মিথ্যা বলত; অতঃপর তাদেরকে বিভিন্ন দলে বিভক্ত করা হবে।"
   },
   {
     "num": "84",
     "ara": "حَتَّى إِذَا جَاءُوا قَالَ أَكَذَّبْتُم بِآيَاتِي وَلَمْ تُحِيطُوا بِهَا عِلْمًا أَمَّاذَا كُنتُمْ تَعْمَلُونَ",
-    "eng": "Until, when they arrive [at the place of Judgement], He will say, \"Did you deny My signs while you encompassed them not in knowledge, or what [was it that] you were doing?\"",
-    "ban": "তারপর যখন তারা এসে পেছঁবে তখন তিনি বলবেন -- \"তোমরা কি আমার নির্দেশসমূহ প্রত্যাখ্যান করেছিলে যখন তোমরা জ্ঞানে তার ধারণা করতে পার নি? অথবা কী তা যা তোমরা করে চলেছিলে?\""
+    "eng:sai": "Until, when they arrive [at the place of Judgement], He will say, \"Did you deny My signs while you encompassed them not in knowledge, or what [was it that] you were doing?\"",
+    "eng:arb": "till, when they are come, He shall say, 'Did you cry lies to My signs, not comprehending them in knowledge, or what have you been doing?'",
+    "ban": "যখন তারা উপস্থিত হয়ে যাবে, তখন আল্লাহ বলবেন, তোমরা কি আমার আয়াতসমূহকে মিথ্যা বলেছিলে? অথচ এগুলো সম্পর্কে তোমাদের পুর্ণ জ্ঞান ছিল না। না তোমরা অন্য কিছু করছিলে?"
   },
   {
     "num": "85",
     "ara": "وَوَقَعَ الْقَوْلُ عَلَيْهِم بِمَا ظَلَمُوا فَهُمْ لَا يَنطِقُونَ",
-    "eng": "And the decree will befall them for the wrong they did, and they will not [be able to] speak.",
-    "ban": "আর তাদের উপরে উক্তিটি বর্তাবে যেহেতু তারা অন্যায়াচরণ করেছিল। তখন তারা বাদানুবাদ করতে পারবে না।"
+    "eng:sai": "And the decree will befall them for the wrong they did, and they will not [be able to] speak.",
+    "eng:arb": "And the Word shall fall upon them because of the evil they committed, while they speak naught.",
+    "ban": "জুলুমের কারণে তাদের কাছে আযাবের ওয়াদা এসে গেছে। এখন তারা কোন কিছু বলতে পারবে না।"
   },
   {
     "num": "86",
     "ara": "أَلَمْ يَرَوْا أَنَّا جَعَلْنَا اللَّيْلَ لِيَسْكُنُوا فِيهِ وَالنَّهَارَ مُبْصِرًا إِنَّ فِي ذَلِكَ لَآيَاتٍ لِّقَوْمٍ يُؤْمِنُونَ",
-    "eng": "Do they not see that We made the night that they may rest therein and the day giving sight? Indeed in that are signs for a people who believe.",
-    "ban": "তারা কি দেখে না যে আমরা অবশ্যই রাতকে সৃষ্টি করেছি যেন তারা এতে বিশ্রাম করে, আর দিনকে দৃশ্যমান? নিশ্চয় এতে তো এক নিদর্শন রয়েছে সেই জাতির জন্য যারা বিশ্বাস করে।"
+    "eng:sai": "Do they not see that We made the night that they may rest therein and the day giving sight? Indeed in that are signs for a people who believe.",
+    "eng:arb": "Have they not seen how We made the night for them, to repose in it, and the day, to see? Surely in that is a sign for a people who are believers.",
+    "ban": "তারা কি দেখে না যে, আমি রাত্রি সৃষ্টি করেছি তাদের বিশ্রামের জন্যে এবং দিনকে করেছি আলোকময়। নিশ্চয় এতে ঈমানদার সম্প্রদায়ের জন্যে নিদর্শনাবলী রয়েছে।"
   },
   {
     "num": "87",
     "ara": "وَيَوْمَ يُنفَخُ فِي الصُّورِ فَفَزِعَ مَن فِي السَّمَاوَاتِ وَمَن فِي الْأَرْضِ إِلَّا مَن شَاءَ اللَّهُ وَكُلٌّ أَتَوْهُ دَاخِرِينَ",
-    "eng": "And [warn of] the Day the Horn will be blown, and whoever is in the heavens and whoever is on the earth will be terrified except whom Allah wills. And all will come to Him humbled.",
-    "ban": "আর যেদিন শিঙায় ফুৎকার দেওয়া হবে তখন যে কেউ আছে মহাকাশমন্ডলে ও যে কেউ আছে পৃথিবীতে তারা ভীতিগ্রস্ত হবে সে ব্যতীত যাকে আল্লাহ্ ইচ্ছা করেন। আর সবাই তাঁর কাছে আসবে বিনত অবস্থায়।"
+    "eng:sai": "And [warn of] the Day the Horn will be blown, and whoever is in the heavens and whoever is on the earth will be terrified except whom Allah wills. And all will come to Him humbled.",
+    "eng:arb": "On the day the Trumpet is blown, and terrified is whosoever is in the heavens and earth, excepting whom God wills, and every one shall come to Him, all utterly abject;",
+    "ban": "যেদিন সিঙ্গায় ফুৎকার দেওয়া হবে, অতঃপর আল্লাহ যাদেরকে ইচ্ছা করবেন, তারা ব্যতীত নভোমন্ডলে ও ভূমন্ডলে যারা আছে, তারা সবাই ভীতবিহ্বল হয়ে পড়বে এবং সকলেই তাঁর কাছে আসবে বিনীত অবস্থায়।"
   },
   {
     "num": "88",
     "ara": "وَتَرَى الْجِبَالَ تَحْسَبُهَا جَامِدَةً وَهِيَ تَمُرُّ مَرَّ السَّحَابِ صُنْعَ اللَّهِ الَّذِي أَتْقَنَ كُلَّ شَيْءٍ إِنَّهُ خَبِيرٌ بِمَا تَفْعَلُونَ",
-    "eng": "And you see the mountains, thinking them rigid, while they will pass as the passing of clouds. [It is] the work of Allah, who perfected all things. Indeed, He is Acquainted with that which you do.",
-    "ban": "আর তুমি পাহাড়গুলোকে দেখছ, তাদের ভাবছ অচল-অনড়, কিন্ত তারা চলে যাবে মেঘমালার চলে যাবার ন্যায়। এ আল্লাহরই হাতের কাজ যিনি সব কিছুই সুনিপুণভাবে করেছেন। তোমরা যা কর সে-সন্বন্ধে নিঃসন্দেহ তিনি পূর্ণ-ওয়াকিফহাল।"
+    "eng:sai": "And you see the mountains, thinking them rigid, while they will pass as the passing of clouds. [It is] the work of Allah, who perfected all things. Indeed, He is Acquainted with that which you do.",
+    "eng:arb": "and thou shalt see the mountains, that thou supposest fixed, passing by like clouds -- God's handiwork, who has created everything very well. He is aware of the things you do.",
+    "ban": "তুমি পর্বতমালাকে দেখে অচল মনে কর, অথচ সেদিন এগুলো মেঘমালার মত চলমান হবে। এটা আল্লাহর কারিগরী, যিনি সবকিছুকে করেছেন সুসংহত। তোমরা যা কিছু করছ, তিনি তা অবগত আছেন।"
   },
   {
     "num": "89",
     "ara": "مَن جَاءَ بِالْحَسَنَةِ فَلَهُ خَيْرٌ مِّنْهَا وَهُم مِّن فَزَعٍ يَوْمَئِذٍ آمِنُونَ",
-    "eng": "Whoever comes [at Judgement] with a good deed will have better than it, and they, from the terror of that Day, will be safe.",
-    "ban": "যে কেউ একটি সৎকাজ নিয়ে আসে, তার জন্য তবে থাকবে এর চেয়েও ভাল, আর তারা সেই দিনের ভীতি থেকে নিরাপদ থাকবে।"
+    "eng:sai": "Whoever comes [at Judgement] with a good deed will have better than it, and they, from the terror of that Day, will be safe.",
+    "eng:arb": "Whosoever comes with a good deed, he shall have better than it; and they shall be secure from terror that day.",
+    "ban": "যে কেউ সৎকর্ম নিয়ে আসবে, সে উৎকৃষ্টতর প্রতিদান পাবে এবং সেদিন তারা গুরুতর অস্থিরতা থেকে নিরাপদ থাকবে।"
   },
   {
     "num": "90",
     "ara": "وَمَن جَاءَ بِالسَّيِّئَةِ فَكُبَّتْ وُجُوهُهُمْ فِي النَّارِ هَلْ تُجْزَوْنَ إِلَّا مَا كُنتُمْ تَعْمَلُونَ",
-    "eng": "And whoever comes with an evil deed - their faces will be overturned into the Fire, [and it will be said], \"Are you recompensed except for what you used to do?\"",
-    "ban": "আর যে কেউ একটি মন্দ কাজ নিয়ে আসে, তাদের তবে তাদের মুখের উপরে নিক্ষেপ করা হবে আগুনের মধ্যে। \"তোমরা যা করে চলেছিলে তা ছাড়া অন্য কিছু কি তোমাদের প্রতিদান দেওয়া হচ্ছে?\""
+    "eng:sai": "And whoever comes with an evil deed - their faces will be overturned into the Fire, [and it will be said], \"Are you recompensed except for what you used to do?\"",
+    "eng:arb": "And whosoever comes with an evil deed, their faces shall be thrust into the Fire: 'Are you recompensed but for what you did?'",
+    "ban": "এবং যে মন্দ কাজ নিয়ে আসবে, তাকে অগ্নিতে অধঃমূখে নিক্ষেপ করা হবে। তোমরা যা করছিলে, তারই প্রতিফল তোমরা পাবে।"
   },
   {
     "num": "91",
     "ara": "إِنَّمَا أُمِرْتُ أَنْ أَعْبُدَ رَبَّ هَذِهِ الْبَلْدَةِ الَّذِي حَرَّمَهَا وَلَهُ كُلُّ شَيْءٍ وَأُمِرْتُ أَنْ أَكُونَ مِنَ الْمُسْلِمِينَ",
-    "eng": "[Say, O Muhammad], \"I have only been commanded to worship the Lord of this city, who made it sacred and to whom [belongs] all things. And I am commanded to be of the Muslims [those who submit to Allah]",
-    "ban": "\"আমাকে অবশ্য আদেশ করা হয়েছে যে আমি উপাসনা করব এই শহরের প্রভুকে যেটিকে তিনি পবিত্র করেছেন, আর তাঁরই হচ্ছে সব-কিছু। আর আমাকে আদেশ করা হয়েছে যে আমি মুসলিমদেরই একজন হব, --"
+    "eng:sai": "[Say, O Muhammad], \"I have only been commanded to worship the Lord of this city, who made it sacred and to whom [belongs] all things. And I am commanded to be of the Muslims [those who submit to Allah]",
+    "eng:arb": "I have only been commanded to serve the Lord of this territory which He has made sacred; to Him belongs everything. And I have been commanded to be of those that surrender,",
+    "ban": "আমি তো কেবল এই নগরীর প্রভুর এবাদত করতে আদিষ্ট হয়েছি, যিনি একে সম্মানিত করেছেন। এবং সব কিছু তাঁরই। আমি আরও আদিষ্ট হয়েছি যেন আমি আজ্ঞাবহদের একজন হই।"
   },
   {
     "num": "92",
     "ara": "وَأَنْ أَتْلُوَ الْقُرْآنَ فَمَنِ اهْتَدَى فَإِنَّمَا يَهْتَدِي لِنَفْسِهِ وَمَن ضَلَّ فَقُلْ إِنَّمَا أَنَا مِنَ الْمُنذِرِينَ",
-    "eng": "And to recite the Qur'an.\" And whoever is guided is only guided for [the benefit of] himself; and whoever strays - say, \"I am only [one] of the warners.\"",
-    "ban": "\"আর যেন আমি কুরআন পাঠ করতে পারি।\" সুতরাং যে কেউ সৎপথ অনুসরণ করে, সে তবে নিঃসন্দেহ সৎপথে চলে তার নিজেরই জন্যে, আর যে কেউ বিপথে যায় তবে বলো -- \"আমি তো কেবল সতর্ককারীদেরই একজন।\""
+    "eng:sai": "And to recite the Qur'an.\" And whoever is guided is only guided for [the benefit of] himself; and whoever strays - say, \"I am only [one] of the warners.\"",
+    "eng:arb": "and to recite the Koran. So whosoever is guided, is only guided to his own gain; and whosoever goes astray, say: 'I am naught but a warner.",
+    "ban": "এবং যেন আমি কোরআন পাঠ করে শোনাই। পর যে ব্যক্তি সৎপথে চলে, সে নিজের কল্যাণার্থেই সৎপথে চলে এবং কেউ পথভ্রষ্ট হলে আপনি বলে দিন, আমি তো কেবল একজন ভীতি প্রদর্শনকারী।"
   },
   {
     "num": "93",
     "ara": "وَقُلِ الْحَمْدُ لِلَّهِ سَيُرِيكُمْ آيَاتِهِ فَتَعْرِفُونَهَا وَمَا رَبُّكَ بِغَافِلٍ عَمَّا تَعْمَلُونَ",
-    "eng": "And say, \"[All] praise is [due] to Allah. He will show you His signs, and you will recognize them. And your Lord is not unaware of what you do.\"",
-    "ban": "আর বলো -- \"সকল প্রশংসা আল্লাহ্‌র, তিনি শীঘ্রই তোমাদের দেখাবেন তাঁর নিদর্শনসমূহ, তখন তোমরা সে-সব চিনতে পারবে।\" আর তোমার প্রভু অমনোযোগী নন তোমরা যা কর সে-সন্বন্ধে।"
+    "eng:sai": "And say, \"[All] praise is [due] to Allah. He will show you His signs, and you will recognize them. And your Lord is not unaware of what you do.\"",
+    "eng:arb": "And say: 'Praise belongs to God. He shall show you His signs and you will recognise them. Thy Lord is not heedless of the things you do.'",
+    "ban": "এবং আরও বলুন, সমস্ত প্রশংসা আল্লাহর। সত্বরই তিনি তাঁর নিদর্শনসমূহ তোমাদেরকে দেখাবেন। তখন তোমরা তা চিনতে পারবে। এবং তোমরা যা কর, সে সম্পর্কে আপনার পালনকর্তা গাফেল নন।"
   }
 ]

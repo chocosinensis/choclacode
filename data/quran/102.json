@@ -2,49 +2,57 @@
   {
     "num": "1",
     "ara": "أَلْهَاكُمُ التَّكَاثُرُ",
-    "eng": "Competition in [worldly] increase diverts you",
-    "ban": "প্রাচুর্যের প্রতিযোগিতা তোমাদের মতিভ্রম ঘটায়, --"
+    "eng:sai": "Competition in [worldly] increase diverts you",
+    "eng:arb": "Gross rivalry diverts you,",
+    "ban": "প্রাচুর্যের লালসা তোমাদেরকে গাফেল রাখে,"
   },
   {
     "num": "2",
     "ara": "حَتَّى زُرْتُمُ الْمَقَابِرَ",
-    "eng": "Until you visit the graveyards.",
-    "ban": "যতক্ষণ না তোমরা কবরে আসো।"
+    "eng:sai": "Until you visit the graveyards.",
+    "eng:arb": "even till you visit the tombs.",
+    "ban": "এমনকি, তোমরা কবরস্থানে পৌছে যাও।"
   },
   {
     "num": "3",
     "ara": "كَلَّا سَوْفَ تَعْلَمُونَ",
-    "eng": "No! You are going to know.",
-    "ban": "না! শীঘ্রই তোমরা জানতে পারবে!"
+    "eng:sai": "No! You are going to know.",
+    "eng:arb": "No indeed; but soon you shall know.",
+    "ban": "এটা কখনও উচিত নয়। তোমরা সত্ত্বরই জেনে নেবে।"
   },
   {
     "num": "4",
     "ara": "ثُمَّ كَلَّا سَوْفَ تَعْلَمُونَ",
-    "eng": "Then no! You are going to know.",
-    "ban": "আবার বলি, -- না, শীঘ্রই তোমরা জানতে পারবে!"
+    "eng:sai": "Then no! You are going to know.",
+    "eng:arb": "Again, no indeed; but soon you shall know.",
+    "ban": "অতঃপর এটা কখনও উচিত নয়। তোমরা সত্ত্বরই জেনে নেবে।"
   },
   {
     "num": "5",
     "ara": "كَلَّا لَوْ تَعْلَمُونَ عِلْمَ الْيَقِينِ",
-    "eng": "No! If you only knew with knowledge of certainty...",
-    "ban": "না, যদি তোমরা জানতে নিশ্চিত জ্ঞানে!"
+    "eng:sai": "No! If you only knew with knowledge of certainty...",
+    "eng:arb": "No indeed; did you know with the knowledge of certainty,",
+    "ban": "কখনই নয়; যদি তোমরা নিশ্চিত জানতে।"
   },
   {
     "num": "6",
     "ara": "لَتَرَوُنَّ الْجَحِيمَ",
-    "eng": "You will surely see the Hellfire.",
-    "ban": "তোমরা তো ভয়ংকর আগুন দেখবেই।"
+    "eng:sai": "You will surely see the Hellfire.",
+    "eng:arb": "you shall surely see Hell;",
+    "ban": "তোমরা অবশ্যই জাহান্নাম দেখবে,"
   },
   {
     "num": "7",
     "ara": "ثُمَّ لَتَرَوُنَّهَا عَيْنَ الْيَقِينِ",
-    "eng": "Then you will surely see it with the eye of certainty.",
-    "ban": "আবার বলি, তোমরা অবশ্যই এটি দেখবে নিশ্চিত দৃষ্টিতে।"
+    "eng:sai": "Then you will surely see it with the eye of certainty.",
+    "eng:arb": "Again, you shall surely see it with the eye of certainty",
+    "ban": "অতঃপর তোমরা তা অবশ্যই দেখবে দিব্য প্রত্যয়ে,"
   },
   {
     "num": "8",
     "ara": "ثُمَّ لَتُسْأَلُنَّ يَوْمَئِذٍ عَنِ النَّعِيمِ",
-    "eng": "Then you will surely be asked that Day about pleasure.",
-    "ban": "এরপর সেইদিন তোমাদের অবশ্যই জিজ্ঞাসা করা হবে অবদান সম্পর্কে।"
+    "eng:sai": "Then you will surely be asked that Day about pleasure.",
+    "eng:arb": "then you shall be questioned that day concerning true bliss.",
+    "ban": "এরপর অবশ্যই সেদিন তোমরা নেয়ামত সম্পর্কে জিজ্ঞাসিত হবে।"
   }
 ]

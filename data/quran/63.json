@@ -2,67 +2,78 @@
   {
     "num": "1",
     "ara": "إِذَا جَاءَكَ الْمُنَافِقُونَ قَالُوا نَشْهَدُ إِنَّكَ لَرَسُولُ اللَّهِ وَاللَّهُ يَعْلَمُ إِنَّكَ لَرَسُولُهُ وَاللَّهُ يَشْهَدُ إِنَّ الْمُنَافِقِينَ لَكَاذِبُونَ",
-    "eng": "When the hypocrites come to you, [O Muhammad], they say, \"We testify that you are the Messenger of Allah.\" And Allah knows that you are His Messenger, and Allah testifies that the hypocrites are liars.",
-    "ban": "মুনাফিকরা যখন তোমার কাছে আসে তারা তখন বলে -- \"আমরা সাক্ষ্য দিচ্ছি যে তুমিই তো নিশ্চয়ই আল্লাহ্‌র রসূল।\" আর আল্লাহ্ জানেন যে তুমি নিশ্চয়ই তাঁর রসূল। বস্তুত আল্লাহ্ সাক্ষ্য দিচ্ছেন যে মুনাফিকগোষ্ঠীই আলবৎ মিথ্যাবাদী।"
+    "eng:sai": "When the hypocrites come to you, [O Muhammad], they say, \"We testify that you are the Messenger of Allah.\" And Allah knows that you are His Messenger, and Allah testifies that the hypocrites are liars.",
+    "eng:arb": "When the hypocrites come to thee they say, 'We bear witness that thou art indeed the Messenger of God.' And God knows that thou art indeed His Messenger, and God bears witness that the hypocrites are truly liars.",
+    "ban": "মুনাফিকরা আপনার কাছে এসে বলেঃ আমরা সাক্ষ্য দিচ্ছি যে আপনি নিশ্চয়ই আল্লাহর রসূল। আল্লাহ জানেন যে, আপনি অবশ্যই আল্লাহর রসূল এবং আল্লাহ সাক্ষ্য দিচ্ছেন যে, মুনাফিকরা অবশ্যই মিথ্যাবাদী।"
   },
   {
     "num": "2",
     "ara": "اتَّخَذُوا أَيْمَانَهُمْ جُنَّةً فَصَدُّوا عَن سَبِيلِ اللَّهِ إِنَّهُمْ سَاءَ مَا كَانُوا يَعْمَلُونَ",
-    "eng": "They have taken their oaths as a cover, so they averted [people] from the way of Allah. Indeed, it was evil that they were doing.",
-    "ban": "তারা তাদের শপথগুলোকে আবরণীরূপে গ্রহণ করে, যাতে তারা আল্লাহ্‌র পথ থেকে ফিরিয়ে রাখতে পারে। নিঃসন্দেহ তারা যা করে চলেছে তা কত মন্দ!"
+    "eng:sai": "They have taken their oaths as a cover, so they averted [people] from the way of Allah. Indeed, it was evil that they were doing.",
+    "eng:arb": "They have taken their oaths as a covering, then they have barred from the way of God. Surely they -- evil are the things they have been doing.",
+    "ban": "তারা তাদের শপথসমূহকে ঢালরূপে ব্যবহার করে। অতঃপর তারা আল্লাহর পথে বাধা সৃষ্টি করে। তারা যা করছে, তা খুবই মন্দ।"
   },
   {
     "num": "3",
     "ara": "ذَلِكَ بِأَنَّهُمْ آمَنُوا ثُمَّ كَفَرُوا فَطُبِعَ عَلَى قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ",
-    "eng": "That is because they believed, and then they disbelieved; so their hearts were sealed over, and they do not understand.",
-    "ban": "এটি এই জন্য যে তারা ঈমান আনে, তারপর অবিশ্বাস করে; সেজন্য তাদের হৃদয়ের উপরে মোহর মেরে দেয়া হয়েছে, পরিণামে তারা বুঝতে-সুঝতে পারে না।"
+    "eng:sai": "That is because they believed, and then they disbelieved; so their hearts were sealed over, and they do not understand.",
+    "eng:arb": "That is because they have believed, then they have disbelieved; therefore a seal has been set on their hearts, and they do not understand.",
+    "ban": "এটা এজন্য যে, তারা বিশ্বাস করার পর পুনরায় কাফের হয়েছে। ফলে তাদের অন্তরে মোহর মেরে দেয়া হয়েছে। অতএব তারা বুঝে না।"
   },
   {
     "num": "4",
     "ara": "وَإِذَا رَأَيْتَهُمْ تُعْجِبُكَ أَجْسَامُهُمْ وَإِن يَقُولُوا تَسْمَعْ لِقَوْلِهِمْ كَأَنَّهُمْ خُشُبٌ مُّسَنَّدَةٌ يَحْسَبُونَ كُلَّ صَيْحَةٍ عَلَيْهِمْ هُمُ الْعَدُوُّ فَاحْذَرْهُمْ قَاتَلَهُمُ اللَّهُ أَنَّى يُؤْفَكُونَ",
-    "eng": "And when you see them, their forms please you, and if they speak, you listen to their speech. [They are] as if they were pieces of wood propped up - they think that every shout is against them. They are the enemy, so beware of them. May Allah destroy them; how are they deluded?",
-    "ban": "আর তুমি যখন তাদের দেখ তখন তাদের গা-গতর তোমাকে তাজ্জব বানিয়ে দেয়, আর যদি তারা কথা বলে তবে তুমি তাদের বুলি শোনে থাক। তারা যেন এক-একটি কাঠের কুদোঁ ঠেস দিয়ে রাখা। তারা মনে করে প্রত্যেকটি শোরগোল তাদেরই বিরুদ্ধে। তারাই হচ্ছে শত্রু, ফলে তাদের সন্বন্ধে সাবধান হও। আল্লাহ্ তাদের ধ্বংস করুন! কোথা থেকে তাদের ফিরিয়ে দেওয়া হচ্ছে!"
+    "eng:sai": "And when you see them, their forms please you, and if they speak, you listen to their speech. [They are] as if they were pieces of wood propped up - they think that every shout is against them. They are the enemy, so beware of them. May Allah destroy them; how are they deluded?",
+    "eng:arb": "When thou seest them, their bodies please thee; but when they speak, thou listenest to their speech, and it is as they were propped-up timbers. They think every cry is against them. They are the enemy; so beware of them. God assail them! How they are perverted!",
+    "ban": "আপনি যখন তাদেরকে দেখেন, তখন তাদের দেহাবয়ব আপনার কাছে প্রীতিকর মনে হয়। আর যদি তারা কথা বলে, তবে আপনি তাদের কথা শুনেন। তারা প্রাচীরে ঠেকানো কাঠসদৃশ্য। প্রত্যেক শোরগোলকে তারা নিজেদের বিরুদ্ধে মনে করে। তারাই শত্রু, অতএব তাদের সম্পর্কে সতর্ক হোন। ধ্বংস করুন আল্লাহ তাদেরকে। তারা কোথায় বিভ্রান্ত হচ্ছে ?"
   },
   {
     "num": "5",
     "ara": "وَإِذَا قِيلَ لَهُمْ تَعَالَوْا يَسْتَغْفِرْ لَكُمْ رَسُولُ اللَّهِ لَوَّوْا رُءُوسَهُمْ وَرَأَيْتَهُمْ يَصُدُّونَ وَهُم مُّسْتَكْبِرُونَ",
-    "eng": "And when it is said to them, \"Come, the Messenger of Allah will ask forgiveness for you,\" they turn their heads aside and you see them evading while they are arrogant.",
-    "ban": "আর যখন তাদের বলা হয় -- \"এসো, আল্লাহ্‌র রসূল তোমাদের জন্য ক্ষমা প্রার্থনা করবেন\", তারা তখন তাদের মাথা নাড়ে, আর তুমি দেখতে পাও তারা ফিরিয়ে রাখছে। আর তারা গর্বিত বোধ করছে।"
+    "eng:sai": "And when it is said to them, \"Come, the Messenger of Allah will ask forgiveness for you,\" they turn their heads aside and you see them evading while they are arrogant.",
+    "eng:arb": "And when it is said to them, 'Come now, and God's Messenger will ask forgiveness for you,' they twist their heads, and thou seest them turning their faces away, waxing proud.",
+    "ban": "যখন তাদেরকে বলা হয়ঃ তোমরা এস, আল্লাহর রসূল তোমাদের জন্য ক্ষমাপ্রার্থনা করবেন, তখন তারা মাথা ঘুরিয়ে নেয় এবং আপনি তাদেরকে দেখেন যে, তারা অহংকার করে মুখ ফিরিয়ে নেয়।"
   },
   {
     "num": "6",
     "ara": "سَوَاءٌ عَلَيْهِمْ أَسْتَغْفَرْتَ لَهُمْ أَمْ لَمْ تَسْتَغْفِرْ لَهُمْ لَن يَغْفِرَ اللَّهُ لَهُمْ إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الْفَاسِقِينَ",
-    "eng": "It is all the same for them whether you ask forgiveness for them or do not ask forgiveness for them; never will Allah forgive them. Indeed, Allah does not guide the defiantly disobedient people.",
-    "ban": "তুমি তাদের জন্য ক্ষমা প্রার্থনা কর অথবা তাদের জন্য ক্ষমা প্রার্থনা নাই কর -- এ তাদের জন্য একসমান। আল্লাহ্ কখনো তাদের ক্ষমা করবেন না। নিশ্চয় সত্যত্যাগী লোকদলকে আল্লাহ্ সৎপথে চালান না।"
+    "eng:sai": "It is all the same for them whether you ask forgiveness for them or do not ask forgiveness for them; never will Allah forgive them. Indeed, Allah does not guide the defiantly disobedient people.",
+    "eng:arb": "Equal it is for them, whether thou askest forgiveness for them or thou askest not forgiveness for them; God will never forgive them. God guides not the people of the ungodly.",
+    "ban": "আপনি তাদের জন্যে ক্ষমাপ্রার্থনা করুন অথবা না করুন, উভয়ই সমান। আল্লাহ কখনও তাদেরকে ক্ষমা করবেন না। আল্লাহ পাপাচারী সম্প্রদায়কে পথপ্রদর্শন করেন না।"
   },
   {
     "num": "7",
     "ara": "هُمُ الَّذِينَ يَقُولُونَ لَا تُنفِقُوا عَلَى مَنْ عِندَ رَسُولِ اللَّهِ حَتَّى يَنفَضُّوا وَلِلَّهِ خَزَائِنُ السَّمَاوَاتِ وَالْأَرْضِ وَلَكِنَّ الْمُنَافِقِينَ لَا يَفْقَهُونَ",
-    "eng": "They are the ones who say, \"Do not spend on those who are with the Messenger of Allah until they disband.\" And to Allah belongs the depositories of the heavens and the earth, but the hypocrites do not understand.",
-    "ban": "ওরাই তো তারা যারা বলে -- \"আল্লাহ্‌র রসূলের সঙ্গে যারা রয়েছে তাদের জন্য খরচ করো না যে পর্যন্ত না তারা সরে পড়ে।\" আর মহাকাশমন্ডলের ও পৃথিবীর ধনভান্ডার তো আল্লাহ্‌রই, কিন্ত মুনাফিকগোষ্ঠী বোঝে না।"
+    "eng:sai": "They are the ones who say, \"Do not spend on those who are with the Messenger of Allah until they disband.\" And to Allah belongs the depositories of the heavens and the earth, but the hypocrites do not understand.",
+    "eng:arb": "Those are they that say, 'Do not expend on them that are with God's Messenger until they scatter off'; yet unto God belong the treasuries of the heavens and of the earth, but the hypocrites do not understand.",
+    "ban": "তারাই বলেঃ আল্লাহর রাসূলের সাহচর্যে যারা আছে তাদের জন্যে ব্যয় করো না। পরিণামে তারা আপনা-আপনি সরে যাবে। ভূ ও নভোমন্ডলের ধন-ভান্ডার আল্লাহরই কিন্তু মুনাফিকরা তা বোঝে না।"
   },
   {
     "num": "8",
     "ara": "يَقُولُونَ لَئِن رَّجَعْنَا إِلَى الْمَدِينَةِ لَيُخْرِجَنَّ الْأَعَزُّ مِنْهَا الْأَذَلَّ وَلِلَّهِ الْعِزَّةُ وَلِرَسُولِهِ وَلِلْمُؤْمِنِينَ وَلَكِنَّ الْمُنَافِقِينَ لَا يَعْلَمُونَ",
-    "eng": "They say, \"If we return to al-Madinah, the more honored [for power] will surely expel therefrom the more humble.\" And to Allah belongs [all] honor, and to His Messenger, and to the believers, but the hypocrites do not know.",
-    "ban": "তারা বলে -- \"আমরা যদি মদীনায় ফিরে যাই তাহলে প্রবলরা দুর্বলদের সেখান থেকে অবশ্যই বের করে দেবে।\" কিন্ত ক্ষমতা তো আল্লাহ্‌রই আর তাঁর রসূলের আর মুমিনদের, কিন্ত মুনাফিকরা জানে না।"
+    "eng:sai": "They say, \"If we return to al-Madinah, the more honored [for power] will surely expel therefrom the more humble.\" And to Allah belongs [all] honor, and to His Messenger, and to the believers, but the hypocrites do not know.",
+    "eng:arb": "They say, 'If we return to the City, the mightier ones of it will expel the more abased'; yet glory belongs unto God, and unto His Messenger and the believers, but the hypocrites do not know it.",
+    "ban": "তারাই বলেঃ আমরা যদি মদীনায় প্রত্যাবর্তন করি তবে সেখান থেকে সবল অবশ্যই দুর্বলকে বহিস্কৃত করবে। শক্তি তো আল্লাহ তাঁর রসূল ও মুমিনদেরই কিন্তু মুনাফিকরা তা জানে না।"
   },
   {
     "num": "9",
     "ara": "يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُلْهِكُمْ أَمْوَالُكُمْ وَلَا أَوْلَادُكُمْ عَن ذِكْرِ اللَّهِ وَمَن يَفْعَلْ ذَلِكَ فَأُولَئِكَ هُمُ الْخَاسِرُونَ",
-    "eng": "O you who have believed, let not your wealth and your children divert you from remembrance of Allah. And whoever does that - then those are the losers.",
-    "ban": "ওহে যারা ঈমান এনেছ! তোমাদের ধনসম্পত্তি ও তোমাদের সন্তানসন্ততি যেন তোমাদের আল্লাহ্‌র স্মরণ থেকে ফিরিয়ে না রাখে। আর যে তেমন করে -- তারাই তো তবে খোদ ক্ষতিগ্রস্ত হবে।"
+    "eng:sai": "O you who have believed, let not your wealth and your children divert you from remembrance of Allah. And whoever does that - then those are the losers.",
+    "eng:arb": "O believers, let not your possessions neither your children divert you from God's remembrance; whoso does that, they are the losers.",
+    "ban": "মুমিনগণ! তোমাদের ধন-সম্পদ ও সন্তান-সন্ততি যেন তোমাদেরকে আল্লাহর স্মরণ থেকে গাফেল না করে। যারা এ কারণে গাফেল হয়, তারাই তো ক্ষতিগ্রস্ত।"
   },
   {
     "num": "10",
     "ara": "وَأَنفِقُوا مِن مَّا رَزَقْنَاكُم مِّن قَبْلِ أَن يَأْتِيَ أَحَدَكُمُ الْمَوْتُ فَيَقُولَ رَبِّ لَوْلَا أَخَّرْتَنِي إِلَى أَجَلٍ قَرِيبٍ فَأَصَّدَّقَ وَأَكُن مِّنَ الصَّالِحِينَ",
-    "eng": "And spend [in the way of Allah] from what We have provided you before death approaches one of you and he says, \"My Lord, if only You would delay me for a brief term so I would give charity and be among the righteous.\"",
-    "ban": "আর আমরা তোমাদের যা জীবনোপকরণ দিয়েছি তা থেকে তোমরা খরচ করো তোমাদের কোনো একজনের কাছে মৃত্যু এসে পড়ার আগেই, পাছে তাকে বলতে হয় -- \"আমার প্রভু! কেন তুমি আমাকে এক আসন্নকাল পর্যন্ত অবকাশ দাও নি, তাহলে তো আমি দান-খয়রাত করতাম এবং আমি সৎকর্মীদের অন্তর্ভুক্ত হতে পারতাম।\""
+    "eng:sai": "And spend [in the way of Allah] from what We have provided you before death approaches one of you and he says, \"My Lord, if only You would delay me for a brief term so I would give charity and be among the righteous.\"",
+    "eng:arb": "Expend of what We have provided you before that death comes upon one of you and he says, 'O my Lord, if only Thou wouldst defer me unto a near term, so that I may make freewill offering, and so I may become one of the righteous.'",
+    "ban": "আমি তোমাদেরকে যা দিয়েছি, তা থেকে মৃত্যু আসার আগেই ব্যয় কর। অন্যথায় সে বলবেঃ হে আমার পালনকর্তা, আমাকে আরও কিছুকাল অবকাশ দিলে না কেন? তাহলে আমি সদকা করতাম এবং সৎকর্মীদের অন্তর্ভুক্ত হতাম।"
   },
   {
     "num": "11",
     "ara": "وَلَن يُؤَخِّرَ اللَّهُ نَفْسًا إِذَا جَاءَ أَجَلُهَا وَاللَّهُ خَبِيرٌ بِمَا تَعْمَلُونَ",
-    "eng": "But never will Allah delay a soul when its time has come. And Allah is Acquainted with what you do.",
-    "ban": "আর আল্লাহ্ কোনো সত্ত্বাকে অবকাশ দেন না যখন তার অন্তিম-সময় এসে যায়। আর তোমরা যা কর সে-সন্বন্ধে আল্লাহ্ পূর্ণওয়াকিফহাল।"
+    "eng:sai": "But never will Allah delay a soul when its time has come. And Allah is Acquainted with what you do.",
+    "eng:arb": "But God will never defer any soul when its term comes. And God is aware of the things you do.",
+    "ban": "প্রত্যেক ব্যক্তির নির্ধারিত সময় যখন উপস্থিত হবে, তখন আল্লাহ কাউকে অবকাশ দেবেন না। তোমরা যা কর, আল্লাহ সে বিষয়ে খবর রাখেন।"
   }
 ]

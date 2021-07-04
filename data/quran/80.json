@@ -2,253 +2,295 @@
   {
     "num": "1",
     "ara": "عَبَسَ وَتَوَلَّى",
-    "eng": "The Prophet frowned and turned away",
-    "ban": "তিনি ভ্রকুটি করলেন এবং ফিরে বসলেন,"
+    "eng:sai": "The Prophet frowned and turned away",
+    "eng:arb": "He frowned and turned away",
+    "ban": "তিনি ভ্রূকুঞ্চিত করলেন এবং মুখ ফিরিয়ে নিলেন।"
   },
   {
     "num": "2",
     "ara": "أَن جَاءَهُ الْأَعْمَى",
-    "eng": "Because there came to him the blind man, [interrupting].",
-    "ban": "কেননা একজন অন্ধ তাঁর কাছে এসেছিল।"
+    "eng:sai": "Because there came to him the blind man, [interrupting].",
+    "eng:arb": "that the blind man came to him.",
+    "ban": "কারণ, তাঁর কাছে এক অন্ধ আগমন করল।"
   },
   {
     "num": "3",
     "ara": "وَمَا يُدْرِيكَ لَعَلَّهُ يَزَّكَّى",
-    "eng": "But what would make you perceive, [O Muhammad], that perhaps he might be purified",
-    "ban": "আর কী তোমাকে বুঝতে দেবে যে সে হয়ত পবিত্র হতে চেয়েছিল,"
+    "eng:sai": "But what would make you perceive, [O Muhammad], that perhaps he might be purified",
+    "eng:arb": "And what should teach thee? Perchance he would cleanse him,",
+    "ban": "আপনি কি জানেন, সে হয়তো পরিশুদ্ধ হত,"
   },
   {
     "num": "4",
     "ara": "أَوْ يَذَّكَّرُ فَتَنفَعَهُ الذِّكْرَى",
-    "eng": "Or be reminded and the remembrance would benefit him?",
-    "ban": "অথবা সে মনোনিবেশ করত, ফলে স্মারকবাণী তার উপকারে আসত?"
+    "eng:sai": "Or be reminded and the remembrance would benefit him?",
+    "eng:arb": "or yet remember, and the Reminder profit him.",
+    "ban": "অথবা উপদেশ গ্রহণ করতো এবং উপদেশ তার উপকার হত।"
   },
   {
     "num": "5",
     "ara": "أَمَّا مَنِ اسْتَغْنَى",
-    "eng": "As for he who thinks himself without need,",
-    "ban": "আর তার ক্ষেত্রে যে নিজেকে সমৃদ্ধ ভাবে,"
+    "eng:sai": "As for he who thinks himself without need,",
+    "eng:arb": "But the self-sufficient,",
+    "ban": "পরন্তু যে বেপরোয়া,"
   },
   {
     "num": "6",
     "ara": "فَأَنتَ لَهُ تَصَدَّى",
-    "eng": "To him you give attention.",
-    "ban": "তুমি তো তার প্রতিই মনোযোগ দেখাচ্ছ।"
+    "eng:sai": "To him you give attention.",
+    "eng:arb": "to him thou attendest",
+    "ban": "আপনি তার চিন্তায় মশগুল।"
   },
   {
     "num": "7",
     "ara": "وَمَا عَلَيْكَ أَلَّا يَزَّكَّى",
-    "eng": "And not upon you [is any blame] if he will not be purified.",
-    "ban": "অথচ তোমার উপরে নেই যদি সে নিজেকে পবিত্র না করে।"
+    "eng:sai": "And not upon you [is any blame] if he will not be purified.",
+    "eng:arb": "though it is not thy concern, if he does not cleanse himself.",
+    "ban": "সে শুদ্ধ না হলে আপনার কোন দোষ নেই।"
   },
   {
     "num": "8",
     "ara": "وَأَمَّا مَن جَاءَكَ يَسْعَى",
-    "eng": "But as for he who came to you striving [for knowledge]",
-    "ban": "আর তার ক্ষেত্রে যে তোমার কাছে এসেছিল আগ্রহ নিয়ে,"
+    "eng:sai": "But as for he who came to you striving [for knowledge]",
+    "eng:arb": "And he who comes to thee eagerly",
+    "ban": "যে আপনার কাছে দৌড়ে আসলো"
   },
   {
     "num": "9",
     "ara": "وَهُوَ يَخْشَى",
-    "eng": "While he fears [Allah],",
-    "ban": "আর সে ভয় করছিল,"
+    "eng:sai": "While he fears [Allah],",
+    "eng:arb": "and fearfully,",
+    "ban": "এমতাবস্থায় যে, সে ভয় করে,"
   },
   {
     "num": "10",
     "ara": "فَأَنتَ عَنْهُ تَلَهَّى",
-    "eng": "From him you are distracted.",
-    "ban": "কিন্ত তুমি তার প্রতি অবহেলা দেখালে।"
+    "eng:sai": "From him you are distracted.",
+    "eng:arb": "to him thou payest no heed.",
+    "ban": "আপনি তাকে অবজ্ঞা করলেন।"
   },
   {
     "num": "11",
     "ara": "كَلَّا إِنَّهَا تَذْكِرَةٌ",
-    "eng": "No! Indeed, these verses are a reminder;",
-    "ban": "কদাচ না! নিঃসন্দেহ এ এক স্মরণীয় বার্তা,"
+    "eng:sai": "No! Indeed, these verses are a reminder;",
+    "eng:arb": "No indeed; it is a Reminder",
+    "ban": "কখনও এরূপ করবেন না, এটা উপদেশবানী।"
   },
   {
     "num": "12",
     "ara": "فَمَن شَاءَ ذَكَرَهُ",
-    "eng": "So whoever wills may remember it.",
-    "ban": "অতএব যে ইচ্ছা করে সে তা স্মরণ রাখুক।"
+    "eng:sai": "So whoever wills may remember it.",
+    "eng:arb": "(and whoso wills, shall remember it)",
+    "ban": "অতএব, যে ইচ্ছা করবে, সে একে গ্রহণ করবে।"
   },
   {
     "num": "13",
     "ara": "فِي صُحُفٍ مُّكَرَّمَةٍ",
-    "eng": "[It is recorded] in honored sheets,",
-    "ban": "সম্মানিত পৃষ্ঠাগুলোয় --"
+    "eng:sai": "[It is recorded] in honored sheets,",
+    "eng:arb": "upon pages high-honoured,",
+    "ban": "এটা লিখিত আছে সম্মানিত,"
   },
   {
     "num": "14",
     "ara": "مَّرْفُوعَةٍ مُّطَهَّرَةٍ",
-    "eng": "Exalted and purified,",
-    "ban": "সুউন্নত, সুপবিত্র,"
+    "eng:sai": "Exalted and purified,",
+    "eng:arb": "uplifted, purified,",
+    "ban": "উচ্চ পবিত্র পত্রসমূহে,"
   },
   {
     "num": "15",
     "ara": "بِأَيْدِي سَفَرَةٍ",
-    "eng": "[Carried] by the hands of messenger-angels,",
-    "ban": "লেখকদের হস্তাক্ষরে,"
+    "eng:sai": "[Carried] by the hands of messenger-angels,",
+    "eng:arb": "by the hands of scribes",
+    "ban": "লিপিকারের হস্তে,"
   },
   {
     "num": "16",
     "ara": "كِرَامٍ بَرَرَةٍ",
-    "eng": "Noble and dutiful.",
-    "ban": "সম্মানিত, গুণান্নিত।"
+    "eng:sai": "Noble and dutiful.",
+    "eng:arb": "noble, pious.",
+    "ban": "যারা মহৎ, পূত চরিত্র।"
   },
   {
     "num": "17",
     "ara": "قُتِلَ الْإِنسَانُ مَا أَكْفَرَهُ",
-    "eng": "Cursed is man; how disbelieving is he.",
-    "ban": "যা তাকে অকৃতজ্ঞ বানিয়েছে সেজন্য মানুষকে ধ্বংস করা হোক।"
+    "eng:sai": "Cursed is man; how disbelieving is he.",
+    "eng:arb": "Perish Man! How unthankful he is!",
+    "ban": "মানুষ ধ্বংস হোক, সে কত অকৃতজ্ঞ!"
   },
   {
     "num": "18",
     "ara": "مِنْ أَيِّ شَيْءٍ خَلَقَهُ",
-    "eng": "From what substance did He create him?",
-    "ban": "কী জিনিস থেকে তাকে তিনি সৃষ্টি করেছেন?"
+    "eng:sai": "From what substance did He create him?",
+    "eng:arb": "Of what did He create him?",
+    "ban": "তিনি তাকে কি বস্তু থেকে সৃষ্টি করেছেন?"
   },
   {
     "num": "19",
     "ara": "مِن نُّطْفَةٍ خَلَقَهُ فَقَدَّرَهُ",
-    "eng": "From a sperm-drop He created him and destined for him;",
-    "ban": "এক শুক্রকীট থেকে! তিনি তাকে সৃষ্টি করেছেন, তারপর তিনি তাকে সুসমঞ্জস করেছেন,"
+    "eng:sai": "From a sperm-drop He created him and destined for him;",
+    "eng:arb": "Of a sperm-drop He created him, and determined him,",
+    "ban": "শুক্র থেকে তাকে সৃষ্টি করেছেন, অতঃপর তাকে সুপরিমিত করেছেন।"
   },
   {
     "num": "20",
     "ara": "ثُمَّ السَّبِيلَ يَسَّرَهُ",
-    "eng": "Then He eased the way for him;",
-    "ban": "তারপর তার জন্য পথ সহজ করে দিয়েছেন,"
+    "eng:sai": "Then He eased the way for him;",
+    "eng:arb": "then the way eased for him,",
+    "ban": "অতঃপর তার পথ সহজ করেছেন,"
   },
   {
     "num": "21",
     "ara": "ثُمَّ أَمَاتَهُ فَأَقْبَرَهُ",
-    "eng": "Then He causes his death and provides a grave for him.",
-    "ban": "তারপর তিনি তার মৃত্যু ঘটান, এবং তাকে কবরস্থ করেন,"
+    "eng:sai": "Then He causes his death and provides a grave for him.",
+    "eng:arb": "then makes him to die, and buries him,",
+    "ban": "অতঃপর তার মৃত্যু ঘটান ও কবরস্থ করেন তাকে।"
   },
   {
     "num": "22",
     "ara": "ثُمَّ إِذَا شَاءَ أَنشَرَهُ",
-    "eng": "Then when He wills, He will resurrect him.",
-    "ban": "তারপর যখন তিনি চাইবেন তখন তাকে পুনর্জীবিত করবেন।"
+    "eng:sai": "Then when He wills, He will resurrect him.",
+    "eng:arb": "then, when He wills, He raises him.",
+    "ban": "এরপর যখন ইচ্ছা করবেন তখন তাকে পুনরুজ্জীবিত করবেন।"
   },
   {
     "num": "23",
     "ara": "كَلَّا لَمَّا يَقْضِ مَا أَمَرَهُ",
-    "eng": "No! Man has not yet accomplished what He commanded him.",
-    "ban": "না, তাকে তিনি যা আদেশ করেছিলেন তা সে পালন করে নি।"
+    "eng:sai": "No! Man has not yet accomplished what He commanded him.",
+    "eng:arb": "No indeed! Man has not accomplished His bidding.",
+    "ban": "সে কখনও কৃতজ্ঞ হয়নি, তিনি তাকে যা আদেশ করেছেন, সে তা পূর্ণ করেনি।"
   },
   {
     "num": "24",
     "ara": "فَلْيَنظُرِ الْإِنسَانُ إِلَى طَعَامِهِ",
-    "eng": "Then let mankind look at his food -",
-    "ban": "অতএব মানুষ তার খাদ্যের দিকে ভেবে দেখুক --"
+    "eng:sai": "Then let mankind look at his food -",
+    "eng:arb": "Let Man consider his nourishment.",
+    "ban": "মানুষ তার খাদ্যের প্রতি লক্ষ্য করুক,"
   },
   {
     "num": "25",
     "ara": "أَنَّا صَبَبْنَا الْمَاءَ صَبًّا",
-    "eng": "How We poured down water in torrents,",
-    "ban": "কেমন ক'রে আমরা বৃষ্টি বর্ষণ করি বর্ষণধারায়,"
+    "eng:sai": "How We poured down water in torrents,",
+    "eng:arb": "We poured out the rains abundantly,",
+    "ban": "আমি আশ্চর্য উপায়ে পানি বর্ষণ করেছি,"
   },
   {
     "num": "26",
     "ara": "ثُمَّ شَقَقْنَا الْأَرْضَ شَقًّا",
-    "eng": "Then We broke open the earth, splitting [it with sprouts],",
-    "ban": "তারপর আমরা মাটিকে ফাটিয়ে দিই চৌচির ক'রে,"
+    "eng:sai": "Then We broke open the earth, splitting [it with sprouts],",
+    "eng:arb": "then We split the earth in fissures",
+    "ban": "এরপর আমি ভূমিকে বিদীর্ণ করেছি,"
   },
   {
     "num": "27",
     "ara": "فَأَنبَتْنَا فِيهَا حَبًّا",
-    "eng": "And caused to grow within it grain",
-    "ban": "তারপর তাতে আমরা জন্মাই শস্য,"
+    "eng:sai": "And caused to grow within it grain",
+    "eng:arb": "and therein made the grains to grow",
+    "ban": "অতঃপর তাতে উৎপন্ন করেছি শস্য,"
   },
   {
     "num": "28",
     "ara": "وَعِنَبًا وَقَضْبًا",
-    "eng": "And grapes and herbage",
-    "ban": "আর আঙ্গুর ও শাকসবজি,"
+    "eng:sai": "And grapes and herbage",
+    "eng:arb": "and vines, and reeds,",
+    "ban": "আঙ্গুর, শাক-সব্জি,"
   },
   {
     "num": "29",
     "ara": "وَزَيْتُونًا وَنَخْلًا",
-    "eng": "And olive and palm trees",
-    "ban": "আর জলপাই ও খেজুর,"
+    "eng:sai": "And olive and palm trees",
+    "eng:arb": "and olives, and palms,",
+    "ban": "যয়তুন, খর্জূর,"
   },
   {
     "num": "30",
     "ara": "وَحَدَائِقَ غُلْبًا",
-    "eng": "And gardens of dense shrubbery",
-    "ban": "আর ঘন গাছপালাময় বাগান,"
+    "eng:sai": "And gardens of dense shrubbery",
+    "eng:arb": "and dense-tree'd gardens,",
+    "ban": "ঘন উদ্যান,"
   },
   {
     "num": "31",
     "ara": "وَفَاكِهَةً وَأَبًّا",
-    "eng": "And fruit and grass -",
-    "ban": "আর ফলফসল ও তৃণলতা, --"
+    "eng:sai": "And fruit and grass -",
+    "eng:arb": "and fruits, and pastures,",
+    "ban": "ফল এবং ঘাস"
   },
   {
     "num": "32",
     "ara": "مَّتَاعًا لَّكُمْ وَلِأَنْعَامِكُمْ",
-    "eng": "[As] enjoyment for you and your grazing livestock.",
-    "ban": "তোমাদের জন্য খাদ্যভান্ডার ও তোমাদের গবাদি-পশুর জন্যেও।"
+    "eng:sai": "[As] enjoyment for you and your grazing livestock.",
+    "eng:arb": "an enjoyment for you and your flocks.",
+    "ban": "তোমাদেরও তোমাদের চতুস্পদ জন্তুদের উপাকারার্থে।"
   },
   {
     "num": "33",
     "ara": "فَإِذَا جَاءَتِ الصَّاخَّةُ",
-    "eng": "But when there comes the Deafening Blast",
-    "ban": "তারপর যেদিন কান-ফাটানো আওয়াজ আসবে --"
+    "eng:sai": "But when there comes the Deafening Blast",
+    "eng:arb": "And when the Blast shall sound,",
+    "ban": "অতঃপর যেদিন কর্ণবিদারক নাদ আসবে,"
   },
   {
     "num": "34",
     "ara": "يَوْمَ يَفِرُّ الْمَرْءُ مِنْ أَخِيهِ",
-    "eng": "On the Day a man will flee from his brother",
-    "ban": "সেইদিন মানুষ তার ভাইকে ছেড়ে পালাবে,"
+    "eng:sai": "On the Day a man will flee from his brother",
+    "eng:arb": "upon the day when a man shall flee from his brother,",
+    "ban": "সেদিন পলায়ন করবে মানুষ তার ভ্রাতার কাছ থেকে,"
   },
   {
     "num": "35",
     "ara": "وَأُمِّهِ وَأَبِيهِ",
-    "eng": "And his mother and his father",
-    "ban": "আর তার মাকে ও তার বাবাকে,"
+    "eng:sai": "And his mother and his father",
+    "eng:arb": "his mother, his father,",
+    "ban": "তার মাতা, তার পিতা,"
   },
   {
     "num": "36",
     "ara": "وَصَاحِبَتِهِ وَبَنِيهِ",
-    "eng": "And his wife and his children,",
-    "ban": "আর তার পতিপত্নীকে ও তার সন্তানসন্ততিকে।"
+    "eng:sai": "And his wife and his children,",
+    "eng:arb": "his consort, his sons,",
+    "ban": "তার পত্নী ও তার সন্তানদের কাছ থেকে।"
   },
   {
     "num": "37",
     "ara": "لِكُلِّ امْرِئٍ مِّنْهُمْ يَوْمَئِذٍ شَأْنٌ يُغْنِيهِ",
-    "eng": "For every man, that Day, will be a matter adequate for him.",
-    "ban": "সেদিন তাদের মধ্যের প্রত্যেক লোকেরই এত ব্যস্ততা থাকবে যে তাকে বেখেয়াল করে দেবে।"
+    "eng:sai": "For every man, that Day, will be a matter adequate for him.",
+    "eng:arb": "every man that day shall have business to suffice him.",
+    "ban": "সেদিন প্রত্যেকেরই নিজের এক চিন্তা থাকবে, যা তাকে ব্যতিব্যস্ত করে রাখবে।"
   },
   {
     "num": "38",
     "ara": "وُجُوهٌ يَوْمَئِذٍ مُّسْفِرَةٌ",
-    "eng": "[Some] faces, that Day, will be bright -",
-    "ban": "অনেক মুখ সেইদিন হবে উজ্জ্বল,"
+    "eng:sai": "[Some] faces, that Day, will be bright -",
+    "eng:arb": "Some faces on that day shall shine",
+    "ban": "অনেক মুখমন্ডল সেদিন হবে উজ্জ্বল,"
   },
   {
     "num": "39",
     "ara": "ضَاحِكَةٌ مُّسْتَبْشِرَةٌ",
-    "eng": "Laughing, rejoicing at good news.",
-    "ban": "হাসিমাখা, আনন্দমুখর,"
+    "eng:sai": "Laughing, rejoicing at good news.",
+    "eng:arb": "laughing, joyous;",
+    "ban": "সহাস্য ও প্রফুল্ল।"
   },
   {
     "num": "40",
     "ara": "وَوُجُوهٌ يَوْمَئِذٍ عَلَيْهَا غَبَرَةٌ",
-    "eng": "And [other] faces, that Day, will have upon them dust.",
-    "ban": "আর সেইদিন অনেক মুখ -- তাদের উপরে ধূলো-বালি,"
+    "eng:sai": "And [other] faces, that Day, will have upon them dust.",
+    "eng:arb": "some faces on that day shall be dusty",
+    "ban": "এবং অনেক মুখমন্ডল সেদিন হবে ধুলি ধূসরিত।"
   },
   {
     "num": "41",
     "ara": "تَرْهَقُهَا قَتَرَةٌ",
-    "eng": "Blackness will cover them.",
-    "ban": "কালো- আঁধার তাদের ঢেকে ফেলবে।"
+    "eng:sai": "Blackness will cover them.",
+    "eng:arb": "o'erspread with darkness --",
+    "ban": "তাদেরকে কালিমা আচ্ছন্ন করে রাখবে।"
   },
   {
     "num": "42",
     "ara": "أُولَئِكَ هُمُ الْكَفَرَةُ الْفَجَرَةُ",
-    "eng": "Those are the disbelievers, the wicked ones.",
-    "ban": "এরা নিজেরাই সত্যপ্রত্যাখ্যানকারী, দুষ্কৃতিকারী।"
+    "eng:sai": "Those are the disbelievers, the wicked ones.",
+    "eng:arb": "those -- they are the unbelievers, the libertines.",
+    "ban": "তারাই কাফের পাপিষ্ঠের দল।"
   }
 ]

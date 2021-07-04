@@ -2,25 +2,29 @@
   {
     "num": "1",
     "ara": "قُلْ هُوَ اللَّهُ أَحَدٌ",
-    "eng": "Say, \"He is Allah, [who is] One,",
-    "ban": "তুমি বলো -- \"তিনি আল্লাহ্‌, একক-অদ্বিতীয়;"
+    "eng:sai": "Say, \"He is Allah, [who is] One,",
+    "eng:arb": "Say: 'He is God, One,",
+    "ban": "বলুন, তিনি আল্লাহ, এক,"
   },
   {
     "num": "2",
     "ara": "اللَّهُ الصَّمَدُ",
-    "eng": "Allah, the Eternal Refuge.",
-    "ban": "\"আল্লাহ্ -- পরম নির্ভরস্থল।"
+    "eng:sai": "Allah, the Eternal Refuge.",
+    "eng:arb": "God, the Everlasting Refuge,",
+    "ban": "আল্লাহ অমুখাপেক্ষী,"
   },
   {
     "num": "3",
     "ara": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
-    "eng": "He neither begets nor is born,",
-    "ban": "\"তিনি জন্ম দেন না, এবং জন্ম নেনও নি,"
+    "eng:sai": "He neither begets nor is born,",
+    "eng:arb": "who has not begotten, and has not been begotten,",
+    "ban": "তিনি কাউকে জন্ম দেননি এবং কেউ তাকে জন্ম দেয়নি"
   },
   {
     "num": "4",
     "ara": "وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ",
-    "eng": "Nor is there to Him any equivalent.\"",
-    "ban": "\"এবং কেউই তাঁর সমতুল্য হতে পারে না।\""
+    "eng:sai": "Nor is there to Him any equivalent.\"",
+    "eng:arb": "and equal to Him is not any one.'",
+    "ban": "এবং তার সমতুল্য কেউ নেই।"
   }
 ]

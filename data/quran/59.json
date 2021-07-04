@@ -2,145 +2,169 @@
   {
     "num": "1",
     "ara": "سَبَّحَ لِلَّهِ مَا فِي السَّمَاوَاتِ وَمَا فِي الْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ",
-    "eng": "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise.",
-    "ban": "আল্লাহ্‌র মহিমা ঘোষণা করছে যা-কিছু আছে মহাকাশমন্ডলে ও যা-কিছু আছে পৃথিবীতে, আর তিনি মহাশক্তিশালী, পরমজ্ঞানী।"
+    "eng:sai": "Whatever is in the heavens and whatever is on the earth exalts Allah, and He is the Exalted in Might, the Wise.",
+    "eng:arb": "All that is in the heavens and the earth magnifies God; He is the All-mighty, the All-wise.",
+    "ban": "নভোমন্ডল ও ভূমন্ডলে যা কিছু আছে, সবই আল্লাহর পবিত্রতা বর্ণনা করে। তিনি পরাক্রমশালী মহাজ্ঞানী।"
   },
   {
     "num": "2",
     "ara": "هُوَ الَّذِي أَخْرَجَ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ مِن دِيَارِهِمْ لِأَوَّلِ الْحَشْرِ مَا ظَنَنتُمْ أَن يَخْرُجُوا وَظَنُّوا أَنَّهُم مَّانِعَتُهُمْ حُصُونُهُم مِّنَ اللَّهِ فَأَتَاهُمُ اللَّهُ مِنْ حَيْثُ لَمْ يَحْتَسِبُوا وَقَذَفَ فِي قُلُوبِهِمُ الرُّعْبَ يُخْرِبُونَ بُيُوتَهُم بِأَيْدِيهِمْ وَأَيْدِي الْمُؤْمِنِينَ فَاعْتَبِرُوا يَا أُولِي الْأَبْصَارِ",
-    "eng": "It is He who expelled the ones who disbelieved among the People of the Scripture from their homes at the first gathering. You did not think they would leave, and they thought that their fortresses would protect them from Allah; but [the decree of] Allah came upon them from where they had not expected, and He cast terror into their hearts [so] they destroyed their houses by their [own] hands and the hands of the believers. So take warning, O people of vision.",
-    "ban": "তিনিই সেইজন যিনি গ্রন্থধারীদের মধ্যের যারা অবিশ্বাস পোষণ করেছিল তাদের বিতাড়িত করে দিয়েছিলেন তাদের বাড়িঘর থেকে প্রথমকার সমাবেশে। তোমরা ভাবো নি যে তারা বেরিয়ে যাবে, আর তারা ভেবেছিল যে তাদের দুর্গগুলি তাদের সংরক্ষণ করবে আল্লাহ্‌র বিরুদ্ধে, কিন্ত আল্লাহ্ তাদের কাছে এসে পৌঁছেছিলেন এমন এক দিক থেকে যা তারা ধারণা করে নি, আর তিনি তাদের অন্তরে ভয় সঞ্চার করেছিলেন, তারা তাদের বাড়িঘর বিনষ্ট করেছিল তাদের নিজেদের হাত দিয়ে, আর মুমিনদের হাত দিয়ে। অতএব তোমরা শিক্ষা গ্রহণ করো, হে চক্ষুষ্মান্ লোকেরা!"
+    "eng:sai": "It is He who expelled the ones who disbelieved among the People of the Scripture from their homes at the first gathering. You did not think they would leave, and they thought that their fortresses would protect them from Allah; but [the decree of] Allah came upon them from where they had not expected, and He cast terror into their hearts [so] they destroyed their houses by their [own] hands and the hands of the believers. So take warning, O people of vision.",
+    "eng:arb": "It is He who expelled from their habitations the unbelievers among the People of the Book at the first mustering. You did not think that they would go forth, and they thought that their fortresses would defend them against God; then God came upon them from whence they had not reckoned, and He cast terror into their hearts as they destroyed their houses with their own hands, and the hands of the believers; therefore take heed, you who have eyes!",
+    "ban": "তিনিই কিতাবধারীদের মধ্যে যারা কাফের, তাদেরকে প্রথমবার একত্রিত করে তাদের বাড়ী-ঘর থেকে বহিস্কার করেছেন। তোমরা ধারণাও করতে পারনি যে, তারা বের হবে এবং তারা মনে করেছিল যে, তাদের দূর্গগুলো তাদেরকে আল্লাহর কবল থেকে রক্ষা করবে। অতঃপর আল্লাহর শাস্তি তাদের উপর এমনদিক থেকে আসল, যার কল্পনাও তারা করেনি। আল্লাহ তাদের অন্তরে ত্রাস সঞ্চার করে দিলেন। তারা তাদের বাড়ী-ঘর নিজেদের হাতে এবং মুসলমানদের হাতে ধ্বংস করছিল। অতএব, হে চক্ষুষ্মান ব্যক্তিগণ, তোমরা শিক্ষা গ্রহণ কর।"
   },
   {
     "num": "3",
     "ara": "وَلَوْلَا أَن كَتَبَ اللَّهُ عَلَيْهِمُ الْجَلَاءَ لَعَذَّبَهُمْ فِي الدُّنْيَا وَلَهُمْ فِي الْآخِرَةِ عَذَابُ النَّارِ",
-    "eng": "And if not that Allah had decreed for them evacuation, He would have punished them in [this] world, and for them in the Hereafter is the punishment of the Fire.",
-    "ban": "আর যদি এ না হতো যে আল্লাহ্ তাদের জন্যে নির্বাসনের সিদ্ধান্ত করেছেন তাহলে তিনি অবশ্যই তাদের এই দুনিয়াতেই শাস্তি দিতেন। আর তাদের জন্য আখেরাতে রয়েছে আগুনের শাস্তি।"
+    "eng:sai": "And if not that Allah had decreed for them evacuation, He would have punished them in [this] world, and for them in the Hereafter is the punishment of the Fire.",
+    "eng:arb": "Had God not prescribed dispersal for them, He would have chastised them in this world; and there awaits them in the world to come the chastisement of the Fire.",
+    "ban": "আল্লাহ যদি তাদের জন্যে নির্বাসন অবধারিত না করতেন, তবে তাদেরকে দুনিয়াতে শাস্তি দিতেন। আর পরকালে তাদের জন্যে রয়েছে জাহান্নামের আযাব।"
   },
   {
     "num": "4",
     "ara": "ذَلِكَ بِأَنَّهُمْ شَاقُّوا اللَّهَ وَرَسُولَهُ وَمَن يُشَاقِّ اللَّهَ فَإِنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
-    "eng": "That is because they opposed Allah and His Messenger. And whoever opposes Allah - then indeed, Allah is severe in penalty.",
-    "ban": "এ এইজন্য যে তারা আল্লাহ্ ও তাঁর রসূলের বিরুদ্ধাচরণ করেছিল, আর যে কেউ আল্লাহ্‌র বিরুদ্ধাচরণ করে, আল্লাহ্ তবে নিশ্চয়ই প্রতিফল দানে কঠোর।"
+    "eng:sai": "That is because they opposed Allah and His Messenger. And whoever opposes Allah - then indeed, Allah is severe in penalty.",
+    "eng:arb": "That is because they made a breach with God and His Messenger; and whosoever makes a breach with God, God is terrible in retribution.",
+    "ban": "এটা এ কারণে যে, তারা আল্লাহ ও তাঁর রসূলের বিরুদ্ধাচরণ করেছে। যে আল্লাহর বিরুদ্ধাচরণ করে, তার জানা উচিত যে, আল্লাহ কঠোর শাস্তিদাতা।"
   },
   {
     "num": "5",
     "ara": "مَا قَطَعْتُم مِّن لِّينَةٍ أَوْ تَرَكْتُمُوهَا قَائِمَةً عَلَى أُصُولِهَا فَبِإِذْنِ اللَّهِ وَلِيُخْزِيَ الْفَاسِقِينَ",
-    "eng": "Whatever you have cut down of [their] palm trees or left standing on their trunks - it was by permission of Allah and so He would disgrace the defiantly disobedient.",
-    "ban": "তোমরা যে-কতক খেজুর গাছ কেটে ফেলেছ অথবা যেগুলোকে তাদের শিকড়ের উপরে খাড়া রেখে দিয়েছ, তা তো আল্লাহ্‌রই অনুমতিক্রমে, আর যেন তিনি সত্যত্যাগীদের লাঞ্ছিত করতে পারেন।"
+    "eng:sai": "Whatever you have cut down of [their] palm trees or left standing on their trunks - it was by permission of Allah and so He would disgrace the defiantly disobedient.",
+    "eng:arb": "Whatever palm-trees you cut down, or left standing upon their roots, that was by God's leave, and that He might degrade the ungodly.",
+    "ban": "তোমরা যে কিছু কিছু খর্জুর বৃক্ষ কেটে দিয়েছ এবং কতক না কেটে ছেড়ে দিয়েছ, তা তো আল্লাহরই আদেশ এবং যাতে তিনি অবাধ্যদেরকে লাঞ্ছিত করেন।"
   },
   {
     "num": "6",
     "ara": "وَمَا أَفَاءَ اللَّهُ عَلَى رَسُولِهِ مِنْهُمْ فَمَا أَوْجَفْتُمْ عَلَيْهِ مِنْ خَيْلٍ وَلَا رِكَابٍ وَلَكِنَّ اللَّهَ يُسَلِّطُ رُسُلَهُ عَلَى مَن يَشَاءُ وَاللَّهُ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
-    "eng": "And what Allah restored [of property] to His Messenger from them - you did not spur for it [in an expedition] any horses or camels, but Allah gives His messengers power over whom He wills, and Allah is over all things competent.",
-    "ban": "আর যা-কিছু তাদের থেকে আল্লাহ্ তাঁর রসূলকে ফাও দিয়েছেন, যার জন্য তোমরা ধাওয়া করাও নি কোনো ঘোড়া, আর না কোনো উট, কিন্ত আল্লাহ্ তাঁর রসূলগণকে দখল দিয়ে থাকেন যার উপরে তিনি ইচ্ছা করে থাকেন। আর আল্লাহ্ সব-কিছুর উপরে সর্বশক্তিমান।"
+    "eng:sai": "And what Allah restored [of property] to His Messenger from them - you did not spur for it [in an expedition] any horses or camels, but Allah gives His messengers power over whom He wills, and Allah is over all things competent.",
+    "eng:arb": "And whatever spoils of war God has given unto His Messenger from them, against that you pricked neither horse nor camel; but God gives authority to His Messengers over whomsoever He will. God is powerful over everything.",
+    "ban": "আল্লাহ বনু-বনুযায়রের কাছ থেকে তাঁর রসূলকে যে ধন-সম্পদ দিয়েছেন, তজ্জন্যে তোমরা ঘোড়ায় কিংবা উটে চড়ে যুদ্ধ করনি, কিন্তু আল্লাহ যার উপর ইচ্ছা, তাঁর রসূলগণকে প্রাধান্য দান করেন। আল্লাহ সবকিছুর উপর সর্বশক্তিমান।"
   },
   {
     "num": "7",
     "ara": "مَّا أَفَاءَ اللَّهُ عَلَى رَسُولِهِ مِنْ أَهْلِ الْقُرَى فَلِلَّهِ وَلِلرَّسُولِ وَلِذِي الْقُرْبَى وَالْيَتَامَى وَالْمَسَاكِينِ وَابْنِ السَّبِيلِ كَيْ لَا يَكُونَ دُولَةً بَيْنَ الْأَغْنِيَاءِ مِنكُمْ وَمَا آتَاكُمُ الرَّسُولُ فَخُذُوهُ وَمَا نَهَاكُمْ عَنْهُ فَانتَهُوا وَاتَّقُوا اللَّهَ إِنَّ اللَّهَ شَدِيدُ الْعِقَابِ",
-    "eng": "And what Allah restored to His Messenger from the people of the towns - it is for Allah and for the Messenger and for [his] near relatives and orphans and the [stranded] traveler - so that it will not be a perpetual distribution among the rich from among you. And whatever the Messenger has given you - take; and what he has forbidden you - refrain from. And fear Allah; indeed, Allah is severe in penalty.",
-    "ban": "আল্লাহ্ তাঁর রসূলকে জনপদবাসীর নিকট থেকে যা-কিছু ফাও দিয়েছেন তা কিন্ত আল্লাহ্‌র জন্য, আর রসূলের জন্য, আর নিকট- আ‌ত্মীয়দের জন্য, আর এতীমদের ও নিঃস্বদের ও পথচারীদের জন্য, যাতে তা তোমাদের মধ্যেকার ধনীদের মধ্যেই ঘোরাঘুরির বস্তু না হয়। আর রসূল যা-কিছু তোমাদের দেন তা তবে গ্রহণ করো, আর যা-কিছু তিনি নিষেধ করেন তোমরা বিরত থাকো। আর আল্লাহ্‌কে ভয়ভক্তি করো, নিঃসন্দেহ আল্লাহ্ প্রতিফল দানে কঠোর।"
+    "eng:sai": "And what Allah restored to His Messenger from the people of the towns - it is for Allah and for the Messenger and for [his] near relatives and orphans and the [stranded] traveler - so that it will not be a perpetual distribution among the rich from among you. And whatever the Messenger has given you - take; and what he has forbidden you - refrain from. And fear Allah; indeed, Allah is severe in penalty.",
+    "eng:arb": "Whatsoever spoils of war God has given to His Messenger from the people of the cities belongs to God, and His Messenger, and the near kinsman, orphans, the needy and the traveller, so that it be not a thing taken in turns among the rich of you. Whatever the Messenger gives you, take; whatever he forbids you, give over. And fear God; surely God is terrible in retribution.",
+    "ban": "আল্লাহ জনপদবাসীদের কাছ থেকে তাঁর রসূলকে যা দিয়েছেন, তা আল্লাহর, রসূলের, তাঁর আত্নীয়-স্বজনের, ইয়াতীমদের, অভাবগ্রস্তদের এবং মুসাফিরদের জন্যে, যাতে ধনৈশ্বর্য্য কেবল তোমাদের বিত্তশালীদের মধ্যেই পুঞ্জীভূত না হয়। রসূল তোমাদেরকে যা দেন, তা গ্রহণ কর এবং যা নিষেধ করেন, তা থেকে বিরত থাক এবং আল্লাহকে ভয় কর। নিশ্চয় আল্লাহ কঠোর শাস্তিদাতা।"
   },
   {
     "num": "8",
     "ara": "لِلْفُقَرَاءِ الْمُهَاجِرِينَ الَّذِينَ أُخْرِجُوا مِن دِيَارِهِمْ وَأَمْوَالِهِمْ يَبْتَغُونَ فَضْلًا مِّنَ اللَّهِ وَرِضْوَانًا وَيَنصُرُونَ اللَّهَ وَرَسُولَهُ أُولَئِكَ هُمُ الصَّادِقُونَ",
-    "eng": "For the poor emigrants who were expelled from their homes and their properties, seeking bounty from Allah and [His] approval and supporting Allah and His Messenger, [there is also a share]. Those are the truthful.",
-    "ban": "সেইসব দরিদ্র মুহাজিরদের জন্য যাদের বের করে দেওয়া হয়েছিল তাদের বাড়িঘর ও তাদের বিষয়-সম্পত্তি থেকে, যারা কামনা করছিল আল্লাহ্‌র কাছ থেকে অনুগ্রহ-প্রাচুর্য ও সন্তষ্টি, এবং সাহায্য করছিল আল্লাহ্‌কে ও তাঁর রসূলকে। এরাই খোদ সত্যপরায়ণ।"
+    "eng:sai": "For the poor emigrants who were expelled from their homes and their properties, seeking bounty from Allah and [His] approval and supporting Allah and His Messenger, [there is also a share]. Those are the truthful.",
+    "eng:arb": "It is for the poor emigrants, who were expelled from their habitations and their possessions, seeking bounty from God and good pleasure, and helping God and His Messenger; those -- they are the truthful ones.",
+    "ban": "এই ধন-সম্পদ দেশত্যাগী নিঃস্বদের জন্যে, যারা আল্লাহর অনুগ্রহ ও সন্তুষ্টিলাভের অন্বেষণে এবং আল্লাহ তাঁর রসূলের সাহায্যার্থে নিজেদের বাস্তুভিটা ও ধন-সম্পদ থেকে বহিস্কৃত হয়েছে। তারাই সত্যবাদী।"
   },
   {
     "num": "9",
     "ara": "وَالَّذِينَ تَبَوَّءُوا الدَّارَ وَالْإِيمَانَ مِن قَبْلِهِمْ يُحِبُّونَ مَنْ هَاجَرَ إِلَيْهِمْ وَلَا يَجِدُونَ فِي صُدُورِهِمْ حَاجَةً مِّمَّا أُوتُوا وَيُؤْثِرُونَ عَلَى أَنفُسِهِمْ وَلَوْ كَانَ بِهِمْ خَصَاصَةٌ وَمَن يُوقَ شُحَّ نَفْسِهِ فَأُولَئِكَ هُمُ الْمُفْلِحُونَ",
-    "eng": "And [also for] those who were settled in al-Madinah and [adopted] the faith before them. They love those who emigrated to them and find not any want in their breasts of what the emigrants were given but give [them] preference over themselves, even though they are in privation. And whoever is protected from the stinginess of his soul - it is those who will be the successful.",
-    "ban": "আর যারা তাদের পূর্বেই বাড়িঘর ও ধর্মবিশ্বাস সুপ্রতিষ্ঠিত করেছিল তারা ভালবাসে তাদের যারা তাদের কাছে হিজরত করে এসেছে, আর তারা তাদের অন্তরে কোনো প্রয়োজন বোধ করে না তাদের যা দেওয়া হয়েছে তার জন্য, আর তারা তাদের নিজেদের চেয়েও অগ্রাধিকার দেয় যদিও বা তারা স্বয়ং অভাবগ্রস্ত রয়েছে। আর যে কেউ তার অন্তরের কৃপণতা থেকে মুক্ত রেখেছে তারাই তাহলে খোদ সফলকাম।"
+    "eng:sai": "And [also for] those who were settled in al-Madinah and [adopted] the faith before them. They love those who emigrated to them and find not any want in their breasts of what the emigrants were given but give [them] preference over themselves, even though they are in privation. And whoever is protected from the stinginess of his soul - it is those who will be the successful.",
+    "eng:arb": "And those who made their dwelling in the abode, and in belief, before them; love whosoever has emigrated to them, not finding in their breasts any need for what they have been given, and preferring others above themselves, even though poverty be their portion. And whoso is guarded against the avarice of his own soul, those -- they are the prosperers.",
+    "ban": "যারা মুহাজিরদের আগমনের পূর্বে মদীনায় বসবাস করেছিল এবং বিশ্বাস স্থাপন করেছিল, তারা মুহাজিরদের ভালবাসে, মুহাজিরদেরকে যা দেয়া হয়েছে, তজ্জন্যে তারা অন্তরে ঈর্ষাপোষণ করে না এবং নিজেরা অভাবগ্রস্ত হলেও তাদেরকে অগ্রাধিকার দান করে। যারা মনের কার্পণ্য থেকে মুক্ত, তারাই সফলকাম।"
   },
   {
     "num": "10",
     "ara": "وَالَّذِينَ جَاءُوا مِن بَعْدِهِمْ يَقُولُونَ رَبَّنَا اغْفِرْ لَنَا وَلِإِخْوَانِنَا الَّذِينَ سَبَقُونَا بِالْإِيمَانِ وَلَا تَجْعَلْ فِي قُلُوبِنَا غِلًّا لِّلَّذِينَ آمَنُوا رَبَّنَا إِنَّكَ رَءُوفٌ رَّحِيمٌ",
-    "eng": "And [there is a share for] those who came after them, saying, \"Our Lord, forgive us and our brothers who preceded us in faith and put not in our hearts [any] resentment toward those who have believed. Our Lord, indeed You are Kind and Merciful.\"",
-    "ban": "আর যারা তাদের পরে এসেছিল তারা বলে -- \"আমাদের প্রভু! আমাদের পরিত্রাণ করো আর আমাদের ভাই-বন্ধুদের যারা ধর্মবিশ্বাসে আমাদের অগ্রবর্তী রয়েছেন, আর আমাদের অন্তরে কোনো হিংসা-বিদ্বেষ রেখো না তাদের প্রতি যারা ঈমান এনেছেন; আমাদের প্রভু! তুমিই নিশ্চয় পরম স্নেহময়, অফুরন্ত ফলদাতা।\""
+    "eng:sai": "And [there is a share for] those who came after them, saying, \"Our Lord, forgive us and our brothers who preceded us in faith and put not in our hearts [any] resentment toward those who have believed. Our Lord, indeed You are Kind and Merciful.\"",
+    "eng:arb": "And as for those who came after them, they say, 'Our Lord, forgive us and our brothers, who preceded us in belief, and put Thou not into our hearts any rancour towards those who believe. Our Lord, surely Thou art the All-gentle, the All-compassionate.'",
+    "ban": "আর এই সম্পদ তাদের জন্যে, যারা তাদের পরে আগমন করেছে। তারা বলেঃ হে আমাদের পালনকর্তা, আমাদেরকে এবং ঈমানে আগ্রহী আমাদের ভ্রাতাগণকে ক্ষমা কর এবং ঈমানদারদের বিরুদ্ধে আমাদের অন্তরে কোন বিদ্বেষ রেখো না। হে আমাদের পালনকর্তা, আপনি দয়ালু, পরম করুণাময়।"
   },
   {
     "num": "11",
     "ara": "أَلَمْ تَرَ إِلَى الَّذِينَ نَافَقُوا يَقُولُونَ لِإِخْوَانِهِمُ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ لَئِنْ أُخْرِجْتُمْ لَنَخْرُجَنَّ مَعَكُمْ وَلَا نُطِيعُ فِيكُمْ أَحَدًا أَبَدًا وَإِن قُوتِلْتُمْ لَنَنصُرَنَّكُمْ وَاللَّهُ يَشْهَدُ إِنَّهُمْ لَكَاذِبُونَ",
-    "eng": "Have you not considered those who practice hypocrisy, saying to their brothers who have disbelieved among the People of the Scripture, \"If you are expelled, we will surely leave with you, and we will not obey, in regard to you, anyone - ever; and if you are fought, we will surely aid you.\" But Allah testifies that they are liars.",
-    "ban": "তুমি কি তাদের দেখ নি যারা কপটাচরণ করছে, -- তারা গ্রন্থধারীদের মধ্যের যারা অবিশ্বাস পোষণ করে তাদের তেমন ভাই- বন্ধুদের বলে -- \"তোমাদের যদি বের করে দেওয়া হয় তাহলে আমরাও নিশ্চয়ই তোমাদের সঙ্গে বেরিয়ে যাব, আর তোমাদের ব্যাপারে আমরা কারোর তাবেদারি কখনো করব না, আর তোমাদের সঙ্গে যদি যুদ্ধ করা হয় তাহলে আমরা নিশ্চয়ই তোমাদের সাহায্য করব\"? আর আল্লাহ্ সাক্ষ্য দিচ্ছেন যে তারা নিশ্চয়ই মিথ্যাবাদী।"
+    "eng:sai": "Have you not considered those who practice hypocrisy, saying to their brothers who have disbelieved among the People of the Scripture, \"If you are expelled, we will surely leave with you, and we will not obey, in regard to you, anyone - ever; and if you are fought, we will surely aid you.\" But Allah testifies that they are liars.",
+    "eng:arb": "Hast thou not regarded the hypocrites, saying to their brothers of the People of the Book who disbelieve, 'If you are expelled, we will go forth with you, and we will never obey anyone in regard to you. If you are fought against, we will help you.' And God bears witness that they are truly liars.",
+    "ban": "আপনি কি মুনাফিকদেরকে দেখেন নি? তারা তাদের কিতাবধারী কাফের ভাইদেরকে বলেঃ তোমরা যদি বহিস্কৃত হও, তবে আমরা অবশ্যই তোমাদের সাথে দেশ থেকে বের হয়ে যাব এবং তোমাদের ব্যাপারে আমরা কখনও কারও কথা মানব না। আর যদি তোমরা আক্রান্ত হও, তবে আমরা অবশ্যই তোমাদেরকে সাহায্য করব। আল্লাহ তা’আলা সাক্ষ্য দেন যে, ওরা নিশ্চয়ই মিথ্যাবাদী।"
   },
   {
     "num": "12",
     "ara": "لَئِنْ أُخْرِجُوا لَا يَخْرُجُونَ مَعَهُمْ وَلَئِن قُوتِلُوا لَا يَنصُرُونَهُمْ وَلَئِن نَّصَرُوهُمْ لَيُوَلُّنَّ الْأَدْبَارَ ثُمَّ لَا يُنصَرُونَ",
-    "eng": "If they are expelled, they will not leave with them, and if they are fought, they will not aid them. And [even] if they should aid them, they will surely turn their backs; then [thereafter] they will not be aided.",
-    "ban": "যদি তাদের বহিস্কার করা হয়, তারা তাদের সঙ্গে বেরুবে না, আর যদি তাদের সঙ্গে যুদ্ধ করা হয় তাহলে তারা তাদের সাহায্য করবে না, আর যদিও তারা তাদের সাহায্য করতে আসে তাহলেও তারা পৃষ্ঠপ্রদর্শন করবে, শেষপর্যন্ত তাদের সাহায্য করা হবে না।"
+    "eng:sai": "If they are expelled, they will not leave with them, and if they are fought, they will not aid them. And [even] if they should aid them, they will surely turn their backs; then [thereafter] they will not be aided.",
+    "eng:arb": "If those are expelled, they will not go forth with them, and if they are fought against, they will not help them. Even if they helped them, they would surely turn their backs, then they would not be helped.",
+    "ban": "যদি তারা বহিস্কৃত হয়, তবে মুনাফিকরা তাদের সাথে দেশত্যাগ করবে না আর যদি তারা আক্রান্ত হয়, তবে তারা তাদেরকে সাহায্য করবে না। যদি তাদেরকে সাহায্য করে, তবে অবশ্যই পৃষ্ঠপ্রদর্শন করে পলায়ন করবে। এরপর কাফেররা কোন সাহায্য পাবে না।"
   },
   {
     "num": "13",
     "ara": "لَأَنتُمْ أَشَدُّ رَهْبَةً فِي صُدُورِهِم مِّنَ اللَّهِ ذَلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَفْقَهُونَ",
-    "eng": "You [believers] are more fearful within their breasts than Allah. That is because they are a people who do not understand.",
-    "ban": "তোমরাই বরং তাদের অন্তরে আল্লাহ্‌র চাইতেও অধিকতর ভয়াবহ। এ এইজন্য যে তারা হচ্ছে এমন এক লোকদল যারা বুদ্ধি- বিবেচনা রাখে না।"
+    "eng:sai": "You [believers] are more fearful within their breasts than Allah. That is because they are a people who do not understand.",
+    "eng:arb": "Why, you arouse greater fear in their hearts than God; that is because they are a people who understand not.",
+    "ban": "নিশ্চয় তোমরা তাদের অন্তরে আল্লাহ তা’আলা অপেক্ষা অধিকতর ভয়াবহ। এটা এ কারণে যে, তারা এক নির্বোধ সম্প্রদায়।"
   },
   {
     "num": "14",
     "ara": "لَا يُقَاتِلُونَكُمْ جَمِيعًا إِلَّا فِي قُرًى مُّحَصَّنَةٍ أَوْ مِن وَرَاءِ جُدُرٍ بَأْسُهُم بَيْنَهُمْ شَدِيدٌ تَحْسَبُهُمْ جَمِيعًا وَقُلُوبُهُمْ شَتَّى ذَلِكَ بِأَنَّهُمْ قَوْمٌ لَّا يَعْقِلُونَ",
-    "eng": "They will not fight you all except within fortified cities or from behind walls. Their violence among themselves is severe. You think they are together, but their hearts are diverse. That is because they are a people who do not reason.",
-    "ban": "তারা সংঘবদ্ধ হয়ে তোমাদের বিরুদ্ধে যুদ্ধ করবে না সুরক্ষিত জন-বসতির ভেতরে অথবা দেওয়াল দুর্গের আড়াল থেকে ব্যতীত। তাদের নিজেদের মধ্যে তাদের সংঘর্ষ অতি প্রচন্ড। তুমি তাদের ভাবতে পার ঐক্যবদ্ধ, কিন্ত তাদের অন্তর হচ্ছে বিচ্ছিন্ন। এ এইজন্য যে তারা হচ্ছে এমন এক জাতি যারা বুদ্ধিশুদ্ধি রাখে না।"
+    "eng:sai": "They will not fight you all except within fortified cities or from behind walls. Their violence among themselves is severe. You think they are together, but their hearts are diverse. That is because they are a people who do not reason.",
+    "eng:arb": "They will not fight against you all together except in fortified cities, or from behind walls. Their valour is great, among themselves; you think of them as a host; but their hearts are scattered; that is because they are a people who have no sense.",
+    "ban": "তারা সংঘবদ্ধভাবেও তোমাদের বিরুদ্ধে যুদ্ধ করতে পারবে না। তারা যুদ্ধ করবে কেবল সুরক্ষিত জনপদে অথবা দুর্গ প্রাচীরের আড়াল থেকে। তাদের পারস্পরিক যুদ্ধই প্রচন্ড হয়ে থাকে। আপনি তাদেরকে ঐক্যবদ্ধ মনে করবেন; কিন্তু তাদের অন্তর শতধাবিচ্ছিন্ন। এটা এ কারণে যে, তারা এক কান্ডজ্ঞানহীণ সম্প্রদায়।"
   },
   {
     "num": "15",
     "ara": "كَمَثَلِ الَّذِينَ مِن قَبْلِهِمْ قَرِيبًا ذَاقُوا وَبَالَ أَمْرِهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ",
-    "eng": "[Theirs is] like the example of those shortly before them: they tasted the bad consequence of their affair, and they will have a painful punishment.",
-    "ban": "এরা তাদের মতো যারা এদের অব্যবহিত পূর্বে অবস্থান করছিল, -- তারা তাদের কৃতকর্মের কুফল আস্বাদন করেছিল, আর তাদের জন্য রয়েছে মর্মন্তুদ শাস্তি।"
+    "eng:sai": "[Theirs is] like the example of those shortly before them: they tasted the bad consequence of their affair, and they will have a painful punishment.",
+    "eng:arb": "Like those who a short time before them tasted the mischief of their action; there awaits them a painful chastisement.",
+    "ban": "তারা সেই লোকদের মত, যারা তাদের নিকট অতীতে নিজেদের কর্মের শাস্তিভোগ করেছে। তাদের জন্যে রয়েছে যন্ত্রণাদায়ক শাস্তি।"
   },
   {
     "num": "16",
     "ara": "كَمَثَلِ الشَّيْطَانِ إِذْ قَالَ لِلْإِنسَانِ اكْفُرْ فَلَمَّا كَفَرَ قَالَ إِنِّي بَرِيءٌ مِّنكَ إِنِّي أَخَافُ اللَّهَ رَبَّ الْعَالَمِينَ",
-    "eng": "[The hypocrites are] like the example of Satan when he says to man, \"Disbelieve.\" But when he disbelieves, he says, \"Indeed, I am disassociated from you. Indeed, I fear Allah, Lord of the worlds.\"",
-    "ban": "শয়তানের সমতুল্য, দেখো! সে মানুষকে বলে -- \"অবিশ্বাস করো\", তারপর যখন সে অবিশ্বাস করে তখন সে বলে -- \"আমি নিশ্চয়ই তোমার থেকে সম্পর্কচ্যুত, আমি অবশ্যই বিশ্বজগতের প্রভু আল্লাহ্‌কে ভয় করি।\""
+    "eng:sai": "[The hypocrites are] like the example of Satan when he says to man, \"Disbelieve.\" But when he disbelieves, he says, \"Indeed, I am disassociated from you. Indeed, I fear Allah, Lord of the worlds.\"",
+    "eng:arb": "Like Satan, when he said to man, 'Disbelieve'; then, when he disbelieved, he said, 'Surely I am quit of you. Surely I fear God, the Lord of all Being.'",
+    "ban": "তারা শয়তানের মত, যে মানুষকে কাফের হতে বলে। অতঃপর যখন সে কাফের হয়, তখন শয়তান বলেঃ তোমার সাথে আমার কোন সম্পর্ক নেই। আমি বিশ্বপালনকর্তা আল্লাহ তা’আলাকে ভয় করি।"
   },
   {
     "num": "17",
     "ara": "فَكَانَ عَاقِبَتَهُمَا أَنَّهُمَا فِي النَّارِ خَالِدَيْنِ فِيهَا وَذَلِكَ جَزَاءُ الظَّالِمِينَ",
-    "eng": "So the outcome for both of them is that they will be in the Fire, abiding eternally therein. And that is the recompense of the wrong-doers.",
-    "ban": "সুতরাং তাদের উভয়ের পরিণাম এই যে উভয়েই থাকবে আগুনে, তারা সেখানে দীর্ঘকাল অবস্থান করবে। আর এই হচ্ছে অন্যায়াচারীদের প্রতিফল।"
+    "eng:sai": "So the outcome for both of them is that they will be in the Fire, abiding eternally therein. And that is the recompense of the wrong-doers.",
+    "eng:arb": "Their end is, both are in the Fire, there dwelling forever; that is the recompense of the evildoers.",
+    "ban": "অতঃপর উভয়ের পরিণতি হবে এই যে, তারা জাহান্নামে যাবে এবং চিরকাল তথায় বসবাস করবে। এটাই জালেমদের শাস্তি।"
   },
   {
     "num": "18",
     "ara": "يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّهَ وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍ وَاتَّقُوا اللَّهَ إِنَّ اللَّهَ خَبِيرٌ بِمَا تَعْمَلُونَ",
-    "eng": "O you who have believed, fear Allah. And let every soul look to what it has put forth for tomorrow - and fear Allah. Indeed, Allah is Acquainted with what you do.",
-    "ban": "ওহে যারা ঈমান এনেছ! আল্লাহ্‌কে ভয়-ভক্তি করো, আর প্রত্যেকেই ভেবে দেখুক কী সে আগবাড়াচ্ছে আগামীকালের জন্য, আর আল্লাহ্‌কে ভয়ভক্তি করো। নিঃসন্দেহ তোমরা যা করছ আল্লাহ্ সে-সন্বন্ধে পূর্ণ-ওয়াকিফহাল।"
+    "eng:sai": "O you who have believed, fear Allah. And let every soul look to what it has put forth for tomorrow - and fear Allah. Indeed, Allah is Acquainted with what you do.",
+    "eng:arb": "O believers, fear God. Let every soul consider what it has forwarded for the morrow. And fear God; God is aware of the things you do.",
+    "ban": "মুমিনগণ, তোমরা আল্লাহ তা’আলাকে ভয় কর। প্রত্যেক ব্যক্তির উচিত, আগামী কালের জন্যে সে কি প্রেরণ করে, তা চিন্তা করা। আল্লাহ তা’আলাকে ভয় করতে থাক। তোমরা যা কর, আল্লাহ তা’আলা সে সম্পর্কে খবর রাখেন।"
   },
   {
     "num": "19",
     "ara": "وَلَا تَكُونُوا كَالَّذِينَ نَسُوا اللَّهَ فَأَنسَاهُمْ أَنفُسَهُمْ أُولَئِكَ هُمُ الْفَاسِقُونَ",
-    "eng": "And be not like those who forgot Allah, so He made them forget themselves. Those are the defiantly disobedient.",
-    "ban": "আর তোমরা তাদের মতো হয়ো না যারা আল্লাহ্‌কে ভুলে যায়, ফলে তিনি তাদের ভুলিয়ে দিয়ে থাকেন তাদের নিজেদের সন্বন্ধে। তারাই স্বয়ং সত্যত্যাগী।"
+    "eng:sai": "And be not like those who forgot Allah, so He made them forget themselves. Those are the defiantly disobedient.",
+    "eng:arb": "Be not as those who forgot God, and so He caused them to forget their souls; those -- they are the ungodly.",
+    "ban": "তোমরা তাদের মত হয়ো না, যারা আল্লাহ তা’আলাকে ভুলে গেছে। ফলে আল্লাহ তা’আলা তাদেরকে আত্ন বিস্মৃত করে দিয়েছেন। তারাই অবাধ্য।"
   },
   {
     "num": "20",
     "ara": "لَا يَسْتَوِي أَصْحَابُ النَّارِ وَأَصْحَابُ الْجَنَّةِ أَصْحَابُ الْجَنَّةِ هُمُ الْفَائِزُونَ",
-    "eng": "Not equal are the companions of the Fire and the companions of Paradise. The companions of Paradise - they are the attainers [of success].",
-    "ban": "আগুনের বাসিন্দারা ও জান্নাতের বাসিন্দারা একসমান নয়। জান্নাতের অধিবাসীরাই স্বয়ং সফলকাম।"
+    "eng:sai": "Not equal are the companions of the Fire and the companions of Paradise. The companions of Paradise - they are the attainers [of success].",
+    "eng:arb": "Not equal are the inhabitants of the Fire and the inhabitants of Paradise. The inhabitants of Paradise -- they are the triumphant.",
+    "ban": "জাহান্নামের অধিবাসী এবং জান্নাতের অধিবাসী সমান হতে পারে না। যারা জান্নাতের অধিবাসী, তারাই সফলকাম।"
   },
   {
     "num": "21",
     "ara": "لَوْ أَنزَلْنَا هَذَا الْقُرْآنَ عَلَى جَبَلٍ لَّرَأَيْتَهُ خَاشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ اللَّهِ وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ",
-    "eng": "If We had sent down this Qur'an upon a mountain, you would have seen it humbled and coming apart from fear of Allah. And these examples We present to the people that perhaps they will give thought.",
-    "ban": "আমরা যদি এই কুরআনকে কোনো পাহাড়ের উপরে অবতীর্ণ করতাম তাহলে তুমি দেখতে পেতে আল্লাহ্‌র ভয়ে তা নুইয়ে পড়েছে, ভেঙ্গে চুরমার হয়ে গেছে। আর এই উপমা -- আমরা এটি লোকেদের জন্য বিবৃত করছি যেন তারা চিন্তা করে।"
+    "eng:sai": "If We had sent down this Qur'an upon a mountain, you would have seen it humbled and coming apart from fear of Allah. And these examples We present to the people that perhaps they will give thought.",
+    "eng:arb": "If We had sent down this Koran upon a mountain, thou wouldst have seen it humbled, split asunder out of the fear of God. And those similitudes -- We strike them for men; haply they will reflect.",
+    "ban": "যদি আমি এই কোরআন পাহাড়ের উপর অবতীর্ণ করতাম, তবে তুমি দেখতে যে, পাহাড় বিনীত হয়ে আল্লাহ তা’আলার ভয়ে বিদীর্ণ হয়ে গেছে। আমি এসব দৃষ্টান্ত মানুষের জন্যে বর্ণনা করি, যাতে তারা চিন্তা-ভাবনা করে।"
   },
   {
     "num": "22",
     "ara": "هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ هُوَ الرَّحْمَنُ الرَّحِيمُ",
-    "eng": "He is Allah, other than whom there is no deity, Knower of the unseen and the witnessed. He is the Entirely Merciful, the Especially Merciful.",
-    "ban": "তিনিই সেই আল্লাহ্ যিনি ব্যতীত অন্য উপাস্য নেই, তিনি অদৃশ্যের ও দৃশ্যের পরিজ্ঞাতা। তিনি পরম করুণাময়, অফুরন্ত ফলদাতা।"
+    "eng:sai": "He is Allah, other than whom there is no deity, Knower of the unseen and the witnessed. He is the Entirely Merciful, the Especially Merciful.",
+    "eng:arb": "He is God; there is no god but He. He is the knower of the Unseen and the Visible; He is the All-merciful, the All-compassionate.",
+    "ban": "তিনিই আল্লাহ তা’আলা, তিনি ব্যতীত কোন উপাস্য নেই; তিনি দৃশ্য ও অদৃশ্যকে জানেন তিনি পরম দয়ালু, অসীম দাতা।"
   },
   {
     "num": "23",
     "ara": "هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ",
-    "eng": "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection, the Bestower of Faith, the Overseer, the Exalted in Might, the Compeller, the Superior. Exalted is Allah above whatever they associate with Him.",
-    "ban": "তিনিই সেই আল্লাহ্ যিনি ব্যতীত কোনো উপাস্য নেই, -- রাজাধিরাজ, মহাপবিত্র, প্রশান্তিদাতা, নিরাপত্তা-বিধায়ক, সুরক্ষক, মহাশক্তিশালী, মহামহিম, পরম গেরবান্নিত। সকল মহিমা আল্লাহ্‌র, তারা যা আরোপ করে তার বহু উর্ধ্বে।"
+    "eng:sai": "He is Allah, other than whom there is no deity, the Sovereign, the Pure, the Perfection, the Bestower of Faith, the Overseer, the Exalted in Might, the Compeller, the Superior. Exalted is Allah above whatever they associate with Him.",
+    "eng:arb": "He is God; there is no god but He. He is the King, the All-holy, the All-peaceable, the All-faithful, the All-preserver, the All-mighty, the All-compeller, the All-sublime. Glory be to God, above that they associate!",
+    "ban": "তিনিই আল্লাহ তিনি ব্যতিত কোন উপাস্য নেই। তিনিই একমাত্র মালিক, পবিত্র, শান্তি ও নিরাপত্তাদাতা, আশ্রয়দাতা, পরাক্রান্ত, প্রতাপান্বিত, মাহাত্ন?486;ীল। তারা যাকে অংশীদার করে আল্লাহ তা’ আলা তা থেকে পবিত্র।"
   },
   {
     "num": "24",
     "ara": "هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْأَسْمَاءُ الْحُسْنَى يُسَبِّحُ لَهُ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ",
-    "eng": "He is Allah, the Creator, the Inventor, the Fashioner; to Him belong the best names. Whatever is in the heavens and earth is exalting Him. And He is the Exalted in Might, the Wise.",
-    "ban": "তিনি আল্লাহ্‌, সৃজনকর্তা, উদ্ভাবনকর্তা, রূপদাতা, তাঁরই হচ্ছে সর্বাঙ্গসুন্দর নামাবলী। মহাকাশমন্ডলে ও পৃথিবীতে যারা আছে তারা তাঁরই জপতপ করে, আর তিনি মহাশক্তিশালী, পরমজ্ঞানী।"
+    "eng:sai": "He is Allah, the Creator, the Inventor, the Fashioner; to Him belong the best names. Whatever is in the heavens and earth is exalting Him. And He is the Exalted in Might, the Wise.",
+    "eng:arb": "He is God, the Creator, the Maker, the Shaper. To Him belong the Names Most Beautiful. All that is in the heavens and the earth magnifies Him; He is the All-mighty, the All-wise.",
+    "ban": "তিনিই আল্লাহ তা’আলা, স্রষ্টা, উদ্ভাবক, রূপদাতা, উত্তম নাম সমূহ তাঁরই। নভোমন্ডলে ও ভূমন্ডলে যা কিছু আছে, সবই তাঁর পবিত্রতা ঘোষণা করে। তিনি পরাক্রান্ত প্রজ্ঞাময়।"
   }
 ]

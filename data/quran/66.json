@@ -2,73 +2,85 @@
   {
     "num": "1",
     "ara": "يَا أَيُّهَا النَّبِيُّ لِمَ تُحَرِّمُ مَا أَحَلَّ اللَّهُ لَكَ تَبْتَغِي مَرْضَاتَ أَزْوَاجِكَ وَاللَّهُ غَفُورٌ رَّحِيمٌ",
-    "eng": "O Prophet, why do you prohibit [yourself from] what Allah has made lawful for you, seeking the approval of your wives? And Allah is Forgiving and Merciful.",
-    "ban": "হে প্রিয় নবী! কেন তুমি তা নিষিদ্ধ করছ যা আল্লাহ্ তোমার জন্য বৈধ করছেন? তুমি চাইছ তোমার স্ত্রীদের খুশি করতে? আর আল্লাহ্ পরিত্রাণকারী, অফুরন্ত ফলদাতা।"
+    "eng:sai": "O Prophet, why do you prohibit [yourself from] what Allah has made lawful for you, seeking the approval of your wives? And Allah is Forgiving and Merciful.",
+    "eng:arb": "O Prophet, why forbiddest thou what God has made lawful to thee, seeking the good pleasure of thy wives? And God is All-forgiving, All-compassionate.",
+    "ban": "হে নবী, আল্লাহ আপনার জন্যে যা হালাল করছেন, আপনি আপনার স্ত্রীদেরকে খুশী করার জন্যে তা নিজের জন্যে হারাম করেছেন কেন? আল্লাহ ক্ষমাশীল, দয়াময়।"
   },
   {
     "num": "2",
     "ara": "قَدْ فَرَضَ اللَّهُ لَكُمْ تَحِلَّةَ أَيْمَانِكُمْ وَاللَّهُ مَوْلَاكُمْ وَهُوَ الْعَلِيمُ الْحَكِيمُ",
-    "eng": "Allah has already ordained for you [Muslims] the dissolution of your oaths. And Allah is your protector, and He is the Knowing, the Wise.",
-    "ban": "আল্লাহ্ তোমাদের জন্য বিধান দিয়ে রেখেছেন তোমাদের শপথগুলো থেকে মুক্তির উপায়; আর আল্লাহ্ তোমাদের রক্ষাকারী বন্ধু, আর তিনিই সর্বজ্ঞাতা, পরমজ্ঞানী।"
+    "eng:sai": "Allah has already ordained for you [Muslims] the dissolution of your oaths. And Allah is your protector, and He is the Knowing, the Wise.",
+    "eng:arb": "God has ordained for you the absolution of your oaths. God is your Protector, and He is the All-knowing, the All-wise.",
+    "ban": "আল্লাহ তোমাদের জন্যে কসম থেকে অব্যহতি লাভের উপায় নির্ধারণ করে দিয়েছেন। আল্লাহ তোমাদের মালিক। তিনি সর্বজ্ঞ, প্রজ্ঞাময়।"
   },
   {
     "num": "3",
     "ara": "وَإِذْ أَسَرَّ النَّبِيُّ إِلَى بَعْضِ أَزْوَاجِهِ حَدِيثًا فَلَمَّا نَبَّأَتْ بِهِ وَأَظْهَرَهُ اللَّهُ عَلَيْهِ عَرَّفَ بَعْضَهُ وَأَعْرَضَ عَن بَعْضٍ فَلَمَّا نَبَّأَهَا بِهِ قَالَتْ مَنْ أَنبَأَكَ هَذَا قَالَ نَبَّأَنِيَ الْعَلِيمُ الْخَبِيرُ",
-    "eng": "And [remember] when the Prophet confided to one of his wives a statement; and when she informed [another] of it and Allah showed it to him, he made known part of it and ignored a part. And when he informed her about it, she said, \"Who told you this?\" He said, \"I was informed by the Knowing, the Acquainted.\"",
-    "ban": "আর স্মরণ করো! নবী তাঁর স্ত্রীদের কোনো একজনের কাছে গোপনে একটি সংবাদ দিয়েছিলেন; -- কিন্ত তিনি যখন তা বলে দিলেন, এবং আল্লাহ্ তাঁর কাছে এটি জানিয়ে দিয়েছিলেন, তখন তিনি তাঁকে তার কতকটা জানিয়েছিলেন এবং চেপে গিয়েছিলেন অন্য কতকটা। তিনি যখন তাঁকে তা জানিয়েছিলেন তখন তিনি বললেন -- \"কে আপনাকে এ কথা বললে?\" তিনি বলেছিলেন -- \"আমাকে সংবাদ দিয়েছেন সেই সর্বজ্ঞাতা, চির-ওয়াকিফহাল।\""
+    "eng:sai": "And [remember] when the Prophet confided to one of his wives a statement; and when she informed [another] of it and Allah showed it to him, he made known part of it and ignored a part. And when he informed her about it, she said, \"Who told you this?\" He said, \"I was informed by the Knowing, the Acquainted.\"",
+    "eng:arb": "And when the Prophet confided to one of his wives a certain matter; and then, when she told of it, and God disclosed that to him, he made known part of it, and turned aside from part; then, when he told her of it, she said, 'Who told thee this?' He said, 'I was told of it by the All-knowing, the All-aware.'",
+    "ban": "যখন নবী তাঁর একজন স্ত্রীর কাছে একটি কথা গোপনে বললেন, অতঃপর স্ত্রী যখন তা বলে দিল এবং আল্লাহ নবীকে তা জানিয়ে দিলেন, তখন নবী সে বিষয়ে স্ত্রীকে কিছু বললেন এবং কিছু বললেন না। নবী যখন তা স্ত্রীকে বললেন, তখন স্ত্রী বললেনঃ কে আপনাকে এ সম্পর্কে অবহিত করল? নবী বললেন,ঃ যিনি সর্বজ্ঞ, ওয়াকিফহাল, তিনি আমাকে অবহিত করেছেন।"
   },
   {
     "num": "4",
     "ara": "إِن تَتُوبَا إِلَى اللَّهِ فَقَدْ صَغَتْ قُلُوبُكُمَا وَإِن تَظَاهَرَا عَلَيْهِ فَإِنَّ اللَّهَ هُوَ مَوْلَاهُ وَجِبْرِيلُ وَصَالِحُ الْمُؤْمِنِينَ وَالْمَلَائِكَةُ بَعْدَ ذَلِكَ ظَهِيرٌ",
-    "eng": "If you two [wives] repent to Allah, [it is best], for your hearts have deviated. But if you cooperate against him - then indeed Allah is his protector, and Gabriel and the righteous of the believers and the angels, moreover, are [his] assistants.",
-    "ban": "যদি তোমরা উভয়ে আল্লাহ্‌র দিকে ফেরো, কেননা তোমাদের হৃদয় ইতিপূর্বেই ঝোঁকে গেছে। কিন্ত যদি তোমরা দুজনে তাঁর বিরুদ্ধে পৃষ্ঠপোষকতা কর তাহলে আল্লাহ্ -- তিনিই তাঁর রক্ষাকারী বন্ধু, আর জিব্রীল ও পুণ্যবান মুমিনগণ, আর উপরন্ত ফিরিশ্‌তারাও পৃষ্ঠপোষক।"
+    "eng:sai": "If you two [wives] repent to Allah, [it is best], for your hearts have deviated. But if you cooperate against him - then indeed Allah is his protector, and Gabriel and the righteous of the believers and the angels, moreover, are [his] assistants.",
+    "eng:arb": "If you two repent to God, yet your hearts certainly inclined; but if you support one another against him, God is his Protector, and Gabriel, and the righteous among the believers; and, after that, the angels are his supporters.",
+    "ban": "তোমাদের অন্তর অন্যায়ের দিকে ঝুঁকে পড়েছে বলে যদি তোমরা উভয়ে তওবা কর, তবে ভাল কথা। আর যদি নবীর বিরুদ্ধে একে অপরকে সাহায্য কর, তবে জেনে রেখ আল্লাহ জিবরাঈল এবং সৎকর্মপরায়ণ মুমিনগণ তাঁর সহায়। উপরন্তুত ফেরেশতাগণও তাঁর সাহায্যকারী।"
   },
   {
     "num": "5",
     "ara": "عَسَى رَبُّهُ إِن طَلَّقَكُنَّ أَن يُبْدِلَهُ أَزْوَاجًا خَيْرًا مِّنكُنَّ مُسْلِمَاتٍ مُّؤْمِنَاتٍ قَانِتَاتٍ تَائِبَاتٍ عَابِدَاتٍ سَائِحَاتٍ ثَيِّبَاتٍ وَأَبْكَارًا",
-    "eng": "Perhaps his Lord, if he divorced you [all], would substitute for him wives better than you - submitting [to Allah], believing, devoutly obedient, repentant, worshipping, and traveling - [ones] previously married and virgins.",
-    "ban": "হতে পারে তাঁর প্রভু, যদি তিনি তোমাদের তালাক দিয়ে দেন, তবে তিনি তাঁকে বদলে দেবেন তোমাদের চাইতেও উৎকৃষ্ট স্ত্রীদের -- আ‌ত্মসমর্পিতা, বিশ্বাসিনী, বিনয়াবনতা, অনুতাপকারিণী, উপাসনাকারিণী, রোযাপালনকারিণী, স্বামিঘরকারিণী ও কুমারী।"
+    "eng:sai": "Perhaps his Lord, if he divorced you [all], would substitute for him wives better than you - submitting [to Allah], believing, devoutly obedient, repentant, worshipping, and traveling - [ones] previously married and virgins.",
+    "eng:arb": "It is possible that, if he divorces you, his Lord will give him in exchange wives better than you, women who have surrendered, believing, obedient, penitent, devout, given to fasting, who have been married and virgins too.",
+    "ban": "যদি নবী তোমাদের সকলকে পরিত্যাগ করেন, তবে সম্ভবতঃ তাঁর পালনকর্তা তাঁকে পরিবর্তে দিবেন তোমাদের চাইতে উত্তম স্ত্রী, যারা হবে আজ্ঞাবহ, ঈমানদার, নামাযী তওবাকারিণী, এবাদতকারিণী, রোযাদার, অকুমারী ও কুমারী।"
   },
   {
     "num": "6",
     "ara": "يَا أَيُّهَا الَّذِينَ آمَنُوا قُوا أَنفُسَكُمْ وَأَهْلِيكُمْ نَارًا وَقُودُهَا النَّاسُ وَالْحِجَارَةُ عَلَيْهَا مَلَائِكَةٌ غِلَاظٌ شِدَادٌ لَّا يَعْصُونَ اللَّهَ مَا أَمَرَهُمْ وَيَفْعَلُونَ مَا يُؤْمَرُونَ",
-    "eng": "O you who have believed, protect yourselves and your families from a Fire whose fuel is people and stones, over which are [appointed] angels, harsh and severe; they do not disobey Allah in what He commands them but do what they are commanded.",
-    "ban": "ওহে যারা ঈমান এনেছ! তোমাদের নিজেদের ও তোমাদের পরিবার-পরিজনদের রক্ষা করো সেই আগুন থেকে যার জ্বালানি হচ্ছে মানুষ ও পাথরগুলো, তার উপরে রয়েছে ফিরিশ্‌তারা -- অনমনীয়, কঠোর, তারা আল্লাহ্‌কে অমান্য করে না যা তিনি তাদের আদেশ করে থাকেন, আর তারা তাই করে যা তাদের আদেশ করা হয়।"
+    "eng:sai": "O you who have believed, protect yourselves and your families from a Fire whose fuel is people and stones, over which are [appointed] angels, harsh and severe; they do not disobey Allah in what He commands them but do what they are commanded.",
+    "eng:arb": "Believers, guard yourselves and your families against a Fire whose fuel is men and stones, and over which are harsh, terrible angels who disobey not God in what He commands them and do what they are commanded.",
+    "ban": "মুমিনগণ, তোমরা নিজেদেরকে এবং তোমাদের পরিবার-পরিজনকে সেই অগ্নি থেকে রক্ষা কর, যার ইন্ধন হবে মানুষ ও প্রস্তর, যাতে নিয়োজিত আছে পাষাণ হৃদয়, কঠোরস্বভাব ফেরেশতাগণ। তারা আল্লাহ তা’আলা যা আদেশ করেন, তা অমান্য করে না এবং যা করতে আদেশ করা হয়, তাই করে।"
   },
   {
     "num": "7",
     "ara": "يَا أَيُّهَا الَّذِينَ كَفَرُوا لَا تَعْتَذِرُوا الْيَوْمَ إِنَّمَا تُجْزَوْنَ مَا كُنتُمْ تَعْمَلُونَ",
-    "eng": "O you who have disbelieved, make no excuses that Day. You will only be recompensed for what you used to do.",
-    "ban": "ওহে যারা অবিশ্বাস পোষণ করেছ! আজকের দিনে কোনো অজুহাত এনো না। নিঃসন্দেহ তোমাদের তো প্রতিফল দেওয়া হচ্ছে যা তোমরা করে থাকতে তারই।"
+    "eng:sai": "O you who have disbelieved, make no excuses that Day. You will only be recompensed for what you used to do.",
+    "eng:arb": "'O you unbelievers, do not excuse yourselves today; you are only being recompensed for what you were doing.'",
+    "ban": "হে কাফের সম্প্রদায়, তোমরা আজ ওযর পেশ করো না। তোমাদেরকে তারই প্রতিফল দেয়া হবে, যা তোমরা করতে।"
   },
   {
     "num": "8",
     "ara": "يَا أَيُّهَا الَّذِينَ آمَنُوا تُوبُوا إِلَى اللَّهِ تَوْبَةً نَّصُوحًا عَسَى رَبُّكُمْ أَن يُكَفِّرَ عَنكُمْ سَيِّئَاتِكُمْ وَيُدْخِلَكُمْ جَنَّاتٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ يَوْمَ لَا يُخْزِي اللَّهُ النَّبِيَّ وَالَّذِينَ آمَنُوا مَعَهُ نُورُهُمْ يَسْعَى بَيْنَ أَيْدِيهِمْ وَبِأَيْمَانِهِمْ يَقُولُونَ رَبَّنَا أَتْمِمْ لَنَا نُورَنَا وَاغْفِرْ لَنَا إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
-    "eng": "O you who have believed, repent to Allah with sincere repentance. Perhaps your Lord will remove from you your misdeeds and admit you into gardens beneath which rivers flow [on] the Day when Allah will not disgrace the Prophet and those who believed with him. Their light will proceed before them and on their right; they will say, \"Our Lord, perfect for us our light and forgive us. Indeed, You are over all things competent.\"",
-    "ban": "ওহে যারা ঈমান এনেছ! আল্লাহ্‌র দিকে ফেরো বিশুদ্ধ ফেরায়, হতে পারে তোমাদের প্রভু তোমাদের থেকে তোমাদের পাপ মোচন করে দেবেন এবং তোমাদের প্রবেশ করাবেন জান্নাতে যাদের নিচে দিয়ে বয়ে চলেছে ঝরনারাজি; সেই দিন আল্লাহ্ অপদস্থ করবেন না নবীকে এবং যারা তাঁর সঙ্গে ঈমান এনেছে তাদের, তাদের রোশনি তাদের সামনে চলবে আর তাদের ডানপাশে, তারা বলবে -- \"আমাদের প্রভু! আমাদের জন্য আমাদের রোশনি পরিপূর্ণ করো, আর আমাদের পরিত্রাণ করো। নিঃসন্দেহ তুমি সব-কিছুর উপরে সর্বশক্তিমান।\""
+    "eng:sai": "O you who have believed, repent to Allah with sincere repentance. Perhaps your Lord will remove from you your misdeeds and admit you into gardens beneath which rivers flow [on] the Day when Allah will not disgrace the Prophet and those who believed with him. Their light will proceed before them and on their right; they will say, \"Our Lord, perfect for us our light and forgive us. Indeed, You are over all things competent.\"",
+    "eng:arb": "Believers, turn to God in sincere repentance; it may be that your Lord will acquit you of your evil deeds, and will admit you into gardens underneath which rivers flow. Upon the day when God will not degrade the Prophet and those who believe with him, their light running before them, and on their right hands; and they say, 'Our 'Lord, perfect for us our light, and forgive us; surely Thou art powerful over everything.'",
+    "ban": "মুমিনগণ! তোমরা আল্লাহ তা’আলার কাছে তওবা কর-আন্তরিক তওবা। আশা করা যায়, তোমাদের পালনকর্তা তোমাদের মন্দ কর্মসমূহ মোচন করে দেবেন এবং তোমাদেরকে দাখিল করবেন জান্নাতে, যার তলদেশে নদী প্রবাহিত। সেদিন আল্লাহ নবী এবং তাঁর বিশ্বাসী সহচরদেরকে অপদস্থ করবেন না। তাদের নূর তাদের সামনে ও ডানদিকে ছুটোছুটি করবে। তারা বলবেঃ হে আমাদের পালনকর্তা, আমাদের নূরকে পূর্ণ করে দিন এবং আমাদেরকে ক্ষমা করুন। নিশ্চয় আপনি সবকিছুর উপর সর্ব শক্তিমান।"
   },
   {
     "num": "9",
     "ara": "يَا أَيُّهَا النَّبِيُّ جَاهِدِ الْكُفَّارَ وَالْمُنَافِقِينَ وَاغْلُظْ عَلَيْهِمْ وَمَأْوَاهُمْ جَهَنَّمُ وَبِئْسَ الْمَصِيرُ",
-    "eng": "O Prophet, strive against the disbelievers and the hypocrites and be harsh upon them. And their refuge is Hell, and wretched is the destination.",
-    "ban": "হে প্রিয় নবী! জিহাদ করো অবিশ্বাসীদের ও মুনাফিকদের সঙ্গে, আর তাদের প্রতি কঠোর হও। আর তাদের আবাসস্থল হচ্ছে জাহান্নাম, আর মন্দ সেই গন্তব্যস্থান!"
+    "eng:sai": "O Prophet, strive against the disbelievers and the hypocrites and be harsh upon them. And their refuge is Hell, and wretched is the destination.",
+    "eng:arb": "O Prophet, struggle with the unbelievers and the hypocrites, and be thou harsh with them; their refuge shall be Gehenna -- an evil homecoming!",
+    "ban": "হে নবী! কাফের ও মুনাফিকদের বিরুদ্ধে জেহাদ করুন এবং তাদের প্রতি কঠোর হোন। তাদের ঠিকানা জাহান্নাম। সেটা কতই না নিকৃষ্ট স্থান।"
   },
   {
     "num": "10",
     "ara": "ضَرَبَ اللَّهُ مَثَلًا لِّلَّذِينَ كَفَرُوا امْرَأَتَ نُوحٍ وَامْرَأَتَ لُوطٍ كَانَتَا تَحْتَ عَبْدَيْنِ مِنْ عِبَادِنَا صَالِحَيْنِ فَخَانَتَاهُمَا فَلَمْ يُغْنِيَا عَنْهُمَا مِنَ اللَّهِ شَيْئًا وَقِيلَ ادْخُلَا النَّارَ مَعَ الدَّاخِلِينَ",
-    "eng": "Allah presents an example of those who disbelieved: the wife of Noah and the wife of Lot. They were under two of Our righteous servants but betrayed them, so those prophets did not avail them from Allah at all, and it was said, \"Enter the Fire with those who enter.\"",
-    "ban": "আল্লাহ্ একটি দৃষ্টান্ত উপস্থাপিত করছেন তাদের জন্য যারা অবিশ্বাস পোষণ করে, -- নূহের স্ত্রীর ও লূতের স্ত্রীর। তারা উভয়ে ছিল আমাদের বান্দাদের মধ্যের দুইজন সৎকর্মপরায়ণ বান্দার অধীনে, কিন্ত তারা তাঁদের প্রতি বিশ্বাসঘাতকতা করেছিল, ফলে তাঁরা আল্লাহ্‌র বিরুদ্ধে তাদের কোনো কাজে আসেন নি; আর বলা হবে -- \"তোমরা দুজনেও প্রবেশকারীদের সঙ্গে আগুনে প্রবেশ করো।\""
+    "eng:sai": "Allah presents an example of those who disbelieved: the wife of Noah and the wife of Lot. They were under two of Our righteous servants but betrayed them, so those prophets did not avail them from Allah at all, and it was said, \"Enter the Fire with those who enter.\"",
+    "eng:arb": "God has struck a similitude for the unbelievers -- the wife of Noah, and the wife of Lot; for they were under two of Our righteous servants, but they betrayed them, so they availed them nothing whatsoever against God; so it was said, 'Enter, you two, the Fire with those who enter.'",
+    "ban": "আল্লাহ তা’আলা কাফেরদের জন্যে নূহ-পত্নী ও লূত-পত্নীর দৃষ্টান্ত বর্ণনা করেছেন। তারা ছিল আমার দুই ধর্মপরায়ণ বান্দার গৃহে। অতঃপর তারা তাদের সাথে বিশ্বাসঘাতকতা করল। ফলে নূহ ও লূত তাদেরকে আল্লাহ তা’আলার কবল থেকে রক্ষা করতে পারল না এবং তাদেরকে বলা হলঃ জাহান্নামীদের সাথে জাহান্নামে চলে যাও।"
   },
   {
     "num": "11",
     "ara": "وَضَرَبَ اللَّهُ مَثَلًا لِّلَّذِينَ آمَنُوا امْرَأَتَ فِرْعَوْنَ إِذْ قَالَتْ رَبِّ ابْنِ لِي عِندَكَ بَيْتًا فِي الْجَنَّةِ وَنَجِّنِي مِن فِرْعَوْنَ وَعَمَلِهِ وَنَجِّنِي مِنَ الْقَوْمِ الظَّالِمِينَ",
-    "eng": "And Allah presents an example of those who believed: the wife of Pharaoh, when she said, \"My Lord, build for me near You a house in Paradise and save me from Pharaoh and his deeds and save me from the wrongdoing people.\"",
-    "ban": "আর আল্লাহ্ একটি দৃষ্টান্ত উপস্থাপিত করছেন তাদের জন্য যারা ঈমান এনেছে, -- ফিরআউনের স্ত্রীর। স্মরণ করো! সে বলেছিল -- \"আমার প্রভু! আমার জন্য বেহেশতে তোমার সন্নিকটে একটি আবাস তৈরি করো, আর আমাকে উদ্ধার করো ফিরআউন ও তার ক্রিয়াকলাপ থেকে, আর আমাকে উদ্ধার করো অন্যায়াচারী লোকদের থেকে।\""
+    "eng:sai": "And Allah presents an example of those who believed: the wife of Pharaoh, when she said, \"My Lord, build for me near You a house in Paradise and save me from Pharaoh and his deeds and save me from the wrongdoing people.\"",
+    "eng:arb": "God has struck a similitude for the believers -- the wife of Pharaoh, when she said, 'My Lord, build for me a house in Paradise, in Thy presence, and deliver me from Pharaoh and his work, and do Thou deliver me from the people of the evildoers.'",
+    "ban": "আল্লাহ তা’আলা মুমিনদের জন্যে ফেরাউন-পত্নীর দৃষ্টান্ত বর্ণনা করেছেন। সে বললঃ হে আমার পালনকর্তা! আপনার সন্নিকটে জান্নাতে আমার জন্যে একটি গৃহ নির্মাণ করুন, আমাকে ফেরাউন ও তার দুস্কর্ম থেকে উদ্ধার করুন এবং আমাকে যালেম সম্প্রদায় থেকে মুক্তি দিন।"
   },
   {
     "num": "12",
     "ara": "وَمَرْيَمَ ابْنَتَ عِمْرَانَ الَّتِي أَحْصَنَتْ فَرْجَهَا فَنَفَخْنَا فِيهِ مِن رُّوحِنَا وَصَدَّقَتْ بِكَلِمَاتِ رَبِّهَا وَكُتُبِهِ وَكَانَتْ مِنَ الْقَانِتِينَ",
-    "eng": "And [the example of] Mary, the daughter of 'Imran, who guarded her chastity, so We blew into [her garment] through Our angel, and she believed in the words of her Lord and His scriptures and was of the devoutly obedient.",
-    "ban": "আর ইমরানের কন্যা মরিয়ম, যে তার আঙ্গিক কর্তব্যাবলী রক্ষা করেছিল, ফলে আমরা তার মধ্যে আমাদের রূহ থেকে ফুঁকে দিয়েছিলাম, আর সে তার প্রভুর বাণীকে ও তাঁর গ্রন্থগুলোকে সত্য জেনেছিল, আর সে ছিল বিনয়াবনতদের মধ্যেকার।"
+    "eng:sai": "And [the example of] Mary, the daughter of 'Imran, who guarded her chastity, so We blew into [her garment] through Our angel, and she believed in the words of her Lord and His scriptures and was of the devoutly obedient.",
+    "eng:arb": "And Mary, Imran's daughter, who guarded her virginity, so We breathed into her of Our Spirit, and she confirmed the Words of her Lord and His Books, and became one of the obedient.",
+    "ban": "আর দৃষ্টান্ত বর্ণনা করেছেন এমরান-তনয়া মরিয়মের, যে তার সতীত্ব বজায় রেখেছিল। অতঃপর আমি তার মধ্যে আমার পক্ষ থেকে জীবন ফুঁকে দিয়েছিলাম এবং সে তার পালনকর্তার বানী ও কিতাবকে সত্যে পরিণত করেছিল। সে ছিল বিনয় প্রকাশকারীনীদের একজন।"
   }
 ]

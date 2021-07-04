@@ -2,67 +2,78 @@
   {
     "num": "1",
     "ara": "الْقَارِعَةُ",
-    "eng": "The Striking Calamity -",
-    "ban": "মহাসংকট!"
+    "eng:sai": "The Striking Calamity -",
+    "eng:arb": "The Clatterer!",
+    "ban": "করাঘাতকারী,"
   },
   {
     "num": "2",
     "ara": "مَا الْقَارِعَةُ",
-    "eng": "What is the Striking Calamity?",
-    "ban": "কী সে মহাসংকট?"
+    "eng:sai": "What is the Striking Calamity?",
+    "eng:arb": "What is the Clatterer?",
+    "ban": "করাঘাতকারী কি?"
   },
   {
     "num": "3",
     "ara": "وَمَا أَدْرَاكَ مَا الْقَارِعَةُ",
-    "eng": "And what can make you know what is the Striking Calamity?",
-    "ban": "হায়, কিভাবে তোমাকে বোঝানো যাবে সেই মহাসংকট কি?"
+    "eng:sai": "And what can make you know what is the Striking Calamity?",
+    "eng:arb": "And what shall teach thee what is the Clatterer?",
+    "ban": "করাঘাতকারী সম্পর্কে আপনি কি জানেন ?"
   },
   {
     "num": "4",
     "ara": "يَوْمَ يَكُونُ النَّاسُ كَالْفَرَاشِ الْمَبْثُوثِ",
-    "eng": "It is the Day when people will be like moths, dispersed,",
-    "ban": "সেইদিন মানুষরা হবে বিক্ষিপ্ত পঙ্গপালের মতো,"
+    "eng:sai": "It is the Day when people will be like moths, dispersed,",
+    "eng:arb": "The day that men shall be like scattered moths,",
+    "ban": "যেদিন মানুষ হবে বিক্ষিপ্ত পতংগের মত"
   },
   {
     "num": "5",
     "ara": "وَتَكُونُ الْجِبَالُ كَالْعِهْنِ الْمَنفُوشِ",
-    "eng": "And the mountains will be like wool, fluffed up.",
-    "ban": "আর পাহাড়গুলো হয়ে যাবে ধোনা পশমের মতো।"
+    "eng:sai": "And the mountains will be like wool, fluffed up.",
+    "eng:arb": "and the mountains shall be like plucked wool-tufts.",
+    "ban": "এবং পর্বতমালা হবে ধুনিত রঙ্গীন পশমের মত।"
   },
   {
     "num": "6",
     "ara": "فَأَمَّا مَن ثَقُلَتْ مَوَازِينُهُ",
-    "eng": "Then as for one whose scales are heavy [with good deeds],",
-    "ban": "সুতরাং তার ক্ষেত্রে যার পাল্লা ভারী হবে, --"
+    "eng:sai": "Then as for one whose scales are heavy [with good deeds],",
+    "eng:arb": "Then he whose deeds weigh heavy in the Balance",
+    "ban": "অতএব যার পাল্লা ভারী হবে,"
   },
   {
     "num": "7",
     "ara": "فَهُوَ فِي عِيشَةٍ رَّاضِيَةٍ",
-    "eng": "He will be in a pleasant life.",
-    "ban": "সে তো তখন হবে সন্তোষজনক জীবনযাপনে।"
+    "eng:sai": "He will be in a pleasant life.",
+    "eng:arb": "shall inherit a pleasing life,",
+    "ban": "সে সুখীজীবন যাপন করবে।"
   },
   {
     "num": "8",
     "ara": "وَأَمَّا مَنْ خَفَّتْ مَوَازِينُهُ",
-    "eng": "But as for one whose scales are light,",
-    "ban": "কিন্ত তার ক্ষেত্রে যার পাল্লা হবে হাল্কা --"
+    "eng:sai": "But as for one whose scales are light,",
+    "eng:arb": "but he whose deeds weigh light in the Balance",
+    "ban": "আর যার পাল্লা হালকা হবে,"
   },
   {
     "num": "9",
     "ara": "فَأُمُّهُ هَاوِيَةٌ",
-    "eng": "His refuge will be an abyss.",
-    "ban": "তার মাতা হবে হাবিয়াহ্‌।"
+    "eng:sai": "His refuge will be an abyss.",
+    "eng:arb": "shall plunge in the womb of the Pit.",
+    "ban": "তার ঠিকানা হবে হাবিয়া।"
   },
   {
     "num": "10",
     "ara": "وَمَا أَدْرَاكَ مَا هِيَهْ",
-    "eng": "And what can make you know what that is?",
-    "ban": "হায়, কি করে তোমাকে বোঝানো যাবে কী সেই!"
+    "eng:sai": "And what can make you know what that is?",
+    "eng:arb": "And what shall teach thee what is the Pit?",
+    "ban": "আপনি জানেন তা কি?"
   },
   {
     "num": "11",
     "ara": "نَارٌ حَامِيَةٌ",
-    "eng": "It is a Fire, intensely hot.",
-    "ban": "জ্বলন্ত আগুন।"
+    "eng:sai": "It is a Fire, intensely hot.",
+    "eng:arb": "A blazing Fire!",
+    "ban": "প্রজ্জ্বলিত অগ্নি!"
   }
 ]

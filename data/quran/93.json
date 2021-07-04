@@ -2,67 +2,78 @@
   {
     "num": "1",
     "ara": "وَالضُّحَى",
-    "eng": "By the morning brightness",
-    "ban": "ভাবো পূর্বাহ্নের সূর্যকিরণের কথা;"
+    "eng:sai": "By the morning brightness",
+    "eng:arb": "By the white forenoon",
+    "ban": "শপথ পূর্বাহ্নের,"
   },
   {
     "num": "2",
     "ara": "وَاللَّيْلِ إِذَا سَجَى",
-    "eng": "And [by] the night when it covers with darkness,",
-    "ban": "আর রাত্রির কথা যখন তা অন্ধকার ছড়িয়ে দেয়।"
+    "eng:sai": "And [by] the night when it covers with darkness,",
+    "eng:arb": "and the brooding night!",
+    "ban": "শপথ রাত্রির যখন তা গভীর হয়,"
   },
   {
     "num": "3",
     "ara": "مَا وَدَّعَكَ رَبُّكَ وَمَا قَلَى",
-    "eng": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you].",
-    "ban": "তোমার প্রভু তোমাকে পরিত্যাগ করেন নি, এবং তিনি অসন্তষ্টও নন।"
+    "eng:sai": "Your Lord has not taken leave of you, [O Muhammad], nor has He detested [you].",
+    "eng:arb": "Thy Lord has neither forsaken thee nor hates thee",
+    "ban": "আপনার পালনকর্তা আপনাকে ত্যাগ করেনি এবং আপনার প্রতি বিরূপও হননি।"
   },
   {
     "num": "4",
     "ara": "وَلَلْآخِرَةُ خَيْرٌ لَّكَ مِنَ الْأُولَى",
-    "eng": "And the Hereafter is better for you than the first [life].",
-    "ban": "আর আলবৎ পরকাল তোমার জন্য হবে প্রাথমিককালের চেয়ে ভালো।"
+    "eng:sai": "And the Hereafter is better for you than the first [life].",
+    "eng:arb": "and the Last shall be better for thee than the First.",
+    "ban": "আপনার জন্যে পরকাল ইহকাল অপেক্ষা শ্রেয়।"
   },
   {
     "num": "5",
     "ara": "وَلَسَوْفَ يُعْطِيكَ رَبُّكَ فَتَرْضَى",
-    "eng": "And your Lord is going to give you, and you will be satisfied.",
-    "ban": "আর শীঘ্রই তো তোমার প্রভু তোমাকে দান করবেন, ফলে তুমি সন্তষ্ট হবে।"
+    "eng:sai": "And your Lord is going to give you, and you will be satisfied.",
+    "eng:arb": "Thy Lord shall give thee, and thou shalt be satisfied.",
+    "ban": "আপনার পালনকর্তা সত্বরই আপনাকে দান করবেন, অতঃপর আপনি সন্তুষ্ট হবেন।"
   },
   {
     "num": "6",
     "ara": "أَلَمْ يَجِدْكَ يَتِيمًا فَآوَى",
-    "eng": "Did He not find you an orphan and give [you] refuge?",
-    "ban": "তিনি কি তোমাকে এতীম অবস্থায় পান নি, তখন তিনি আশ্রয় দেন?"
+    "eng:sai": "Did He not find you an orphan and give [you] refuge?",
+    "eng:arb": "Did He not find thee an orphan, and shelter thee?",
+    "ban": "তিনি কি আপনাকে এতীমরূপে পাননি? অতঃপর তিনি আশ্রয় দিয়েছেন।"
   },
   {
     "num": "7",
     "ara": "وَوَجَدَكَ ضَالًّا فَهَدَى",
-    "eng": "And He found you lost and guided [you],",
-    "ban": "আর তিনি তোমাকে পান দিশাহারা, কাজেই তিনি পথনির্দেশ দেন।"
+    "eng:sai": "And He found you lost and guided [you],",
+    "eng:arb": "Did He not find thee erring, and guide thee?",
+    "ban": "তিনি আপনাকে পেয়েছেন পথহারা, অতঃপর পথপ্রদর্শন করেছেন।"
   },
   {
     "num": "8",
     "ara": "وَوَجَدَكَ عَائِلًا فَأَغْنَى",
-    "eng": "And He found you poor and made [you] self-sufficient.",
-    "ban": "আর তিনি তোমাকে পান নিঃস্ব অবস্থায়, সেজন্য তিনি সমৃদ্ধ করেন।"
+    "eng:sai": "And He found you poor and made [you] self-sufficient.",
+    "eng:arb": "Did He not find thee needy, and suffice thee?",
+    "ban": "তিনি আপনাকে পেয়েছেন নিঃস্ব, অতঃপর অভাবমুক্ত করেছেন।"
   },
   {
     "num": "9",
     "ara": "فَأَمَّا الْيَتِيمَ فَلَا تَقْهَرْ",
-    "eng": "So as for the orphan, do not oppress [him].",
-    "ban": "সুতরাং এতীমের ক্ষেত্রে -- তুমি তবে রূঢ় হয়ো না।"
+    "eng:sai": "So as for the orphan, do not oppress [him].",
+    "eng:arb": "As for the orphan, do not oppress him,",
+    "ban": "সুতরাং আপনি এতীমের প্রতি কঠোর হবেন না;"
   },
   {
     "num": "10",
     "ara": "وَأَمَّا السَّائِلَ فَلَا تَنْهَرْ",
-    "eng": "And as for the petitioner, do not repel [him].",
-    "ban": "আর সাহায্যপ্রার্থীর ক্ষেত্রে -- তুমি তবে হাঁকিয়ে দিয়ো না।"
+    "eng:sai": "And as for the petitioner, do not repel [him].",
+    "eng:arb": "and as for the beggar, scold him not;",
+    "ban": "সওয়ালকারীকে ধমক দেবেন না।"
   },
   {
     "num": "11",
     "ara": "وَأَمَّا بِنِعْمَةِ رَبِّكَ فَحَدِّثْ",
-    "eng": "But as for the favor of your Lord, report [it].",
-    "ban": "আর তোমার প্রভুর অনুগ্রহের ক্ষেত্রে -- তুমি তবে ঘোষণা করতে থাকো।"
+    "eng:sai": "But as for the favor of your Lord, report [it].",
+    "eng:arb": "and as for thy Lord's blessing, declare it.",
+    "ban": "এবং আপনার পালনকর্তার নেয়ামতের কথা প্রকাশ করুন।"
   }
 ]

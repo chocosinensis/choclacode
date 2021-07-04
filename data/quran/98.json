@@ -2,49 +2,57 @@
   {
     "num": "1",
     "ara": "لَمْ يَكُنِ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ مُنفَكِّينَ حَتَّى تَأْتِيَهُمُ الْبَيِّنَةُ",
-    "eng": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence -",
-    "ban": "গ্রন্থধারীদের মধ্যে থেকে যারা অবিশ্বাস পোষণ করে আর বহুখোদাবাদীরা তাদের ছাড়ানো যাচ্ছিল না যতক্ষণ না তাদের কাছে এসেছে সুস্পষ্ট প্রমাণ --"
+    "eng:sai": "Those who disbelieved among the People of the Scripture and the polytheists were not to be parted [from misbelief] until there came to them clear evidence -",
+    "eng:arb": "The unbelievers of the People of the Book and the idolaters would never leave off; till the Clear Sign came to them,",
+    "ban": "আহলে-কিতাব ও মুশরেকদের মধ্যে যারা কাফের ছিল, তারা প্রত্যাবর্তন করত না যতক্ষণ না তাদের কাছে সুস্পষ্ট প্রমাণ আসত।"
   },
   {
     "num": "2",
     "ara": "رَسُولٌ مِّنَ اللَّهِ يَتْلُو صُحُفًا مُّطَهَّرَةً",
-    "eng": "A Messenger from Allah, reciting purified scriptures",
-    "ban": "আল্লাহ্‌র কাছ থেকে একজন রসূল, তিনি পাঠ করছেন পবিত্র পৃষ্ঠাসমূহ,"
+    "eng:sai": "A Messenger from Allah, reciting purified scriptures",
+    "eng:arb": "a Messenger from God, reciting pages purified,",
+    "ban": "অর্থাৎ আল্লাহর একজন রসূল, যিনি আবৃত্তি করতেন পবিত্র সহীফা,"
   },
   {
     "num": "3",
     "ara": "فِيهَا كُتُبٌ قَيِّمَةٌ",
-    "eng": "Within which are correct writings.",
-    "ban": "যাতে রয়েছে সুপ্রতিষ্ঠিত গ্রন্থসমূহ।"
+    "eng:sai": "Within which are correct writings.",
+    "eng:arb": "therein true Books.",
+    "ban": "যাতে আছে, সঠিক বিষয়বস্তু।"
   },
   {
     "num": "4",
     "ara": "وَمَا تَفَرَّقَ الَّذِينَ أُوتُوا الْكِتَابَ إِلَّا مِن بَعْدِ مَا جَاءَتْهُمُ الْبَيِّنَةُ",
-    "eng": "Nor did those who were given the Scripture become divided until after there had come to them clear evidence.",
-    "ban": "আর যাদের গ্রন্থখানা দেওয়া হয়েছিল তারা বিভক্ত হয় নি যতক্ষণ না তাদের কাছে সুস্পষ্ট প্রমাণ এসেছিল।"
+    "eng:sai": "Nor did those who were given the Scripture become divided until after there had come to them clear evidence.",
+    "eng:arb": "And they scattered not, those that were given the Book, excepting after the Clear Sign came to them.",
+    "ban": "অপর কিতাব প্রাপ্তরা যে বিভ্রান্ত হয়েছে, তা হয়েছে তাদের কাছে সুস্পষ্ট প্রমাণ আসার পরেই।"
   },
   {
     "num": "5",
     "ara": "وَمَا أُمِرُوا إِلَّا لِيَعْبُدُوا اللَّهَ مُخْلِصِينَ لَهُ الدِّينَ حُنَفَاءَ وَيُقِيمُوا الصَّلَاةَ وَيُؤْتُوا الزَّكَاةَ وَذَلِكَ دِينُ الْقَيِّمَةِ",
-    "eng": "And they were not commanded except to worship Allah, [being] sincere to Him in religion, inclining to truth, and to establish prayer and to give zakah. And that is the correct religion.",
-    "ban": "আর তাদের আদেশ করা হয় নি এ ভিন্ন যে তারা আল্লাহ্‌র উপাসনা করবে ধর্মে তাঁর প্রতি বিশুদ্ধচিত্ত হয়ে, একনিষ্ঠভাবে, আর নামায কায়েম করবে ও যাকাত আদায় করবে, -- আর এইটিই সুপ্রতিষ্ঠিত ধর্ম।"
+    "eng:sai": "And they were not commanded except to worship Allah, [being] sincere to Him in religion, inclining to truth, and to establish prayer and to give zakah. And that is the correct religion.",
+    "eng:arb": "They were commanded only to serve God, making the religion His sincerely, men of pure faith, and to perform the prayer, and pay the alms -- that is the religion of the True.",
+    "ban": "তাদেরকে এছাড়া কোন নির্দেশ করা হয়নি যে, তারা খাঁটি মনে একনিষ্ঠভাবে আল্লাহর এবাদত করবে, নামায কায়েম করবে এবং যাকাত দেবে। এটাই সঠিক ধর্ম।"
   },
   {
     "num": "6",
     "ara": "إِنَّ الَّذِينَ كَفَرُوا مِنْ أَهْلِ الْكِتَابِ وَالْمُشْرِكِينَ فِي نَارِ جَهَنَّمَ خَالِدِينَ فِيهَا أُولَئِكَ هُمْ شَرُّ الْبَرِيَّةِ",
-    "eng": "Indeed, they who disbelieved among the People of the Scripture and the polytheists will be in the fire of Hell, abiding eternally therein. Those are the worst of creatures.",
-    "ban": "নিঃসন্দেহ গ্রন্থের অনুবর্তীদের মধ্যের যারা অবিশ্বাস পোষণ করে আর বহুখোদাবাদীরা -- জাহান্নামের আগুনে, তা তে তারা অবস্থান করবে। তারাই স্বয়ং সৃষ্টজীবদের মধ্যে নিকৃষ্টতম।"
+    "eng:sai": "Indeed, they who disbelieved among the People of the Scripture and the polytheists will be in the fire of Hell, abiding eternally therein. Those are the worst of creatures.",
+    "eng:arb": "The unbelievers of the People of the Book and the idolaters shall be in the Fire of Gehenna, therein dwelling forever; those are the worst of creatures.",
+    "ban": "আহলে-কিতাব ও মুশরেকদের মধ্যে যারা কাফের, তারা জাহান্নামের আগুনে স্থায়ীভাবে থাকবে। তারাই সৃষ্টির অধম।"
   },
   {
     "num": "7",
     "ara": "إِنَّ الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ أُولَئِكَ هُمْ خَيْرُ الْبَرِيَّةِ",
-    "eng": "Indeed, they who have believed and done righteous deeds - those are the best of creatures.",
-    "ban": "পক্ষান্তরে যারা ঈমান এনেছে ও সৎকাজ করছে -- তারাই খোদ সৃষ্টজগতের মধ্যে শ্রেষ্ঠতম।"
+    "eng:sai": "Indeed, they who have believed and done righteous deeds - those are the best of creatures.",
+    "eng:arb": "But those who believe, and do righteous deeds, those are the best of creatures;",
+    "ban": "যারা ঈমান আনে ও সৎকর্ম করে, তারাই সৃষ্টির সেরা।"
   },
   {
     "num": "8",
     "ara": "جَزَاؤُهُمْ عِندَ رَبِّهِمْ جَنَّاتُ عَدْنٍ تَجْرِي مِن تَحْتِهَا الْأَنْهَارُ خَالِدِينَ فِيهَا أَبَدًا رَّضِيَ اللَّهُ عَنْهُمْ وَرَضُوا عَنْهُ ذَلِكَ لِمَنْ خَشِيَ رَبَّهُ",
-    "eng": "Their reward with Allah will be gardens of perpetual residence beneath which rivers flow, wherein they will abide forever, Allah being pleased with them and they with Him. That is for whoever has feared his Lord.",
-    "ban": "তাদের পুরস্কার রয়েছে তাদের প্রভুর কাছে -- নন্দনকাননসমূহ, তাদের নিচ দিয়ে বয়ে চলেছে ঝরনারাজি, সেখানে তারা অবস্থান করবে চিরকাল। আল্লাহ্ তাদের উপরে সন্তষ্ট আর তারা সন্তষ্ট তাঁর প্রতি। এইটি তার জন্য যে তার প্রভুকে ভয় করে।"
+    "eng:sai": "Their reward with Allah will be gardens of perpetual residence beneath which rivers flow, wherein they will abide forever, Allah being pleased with them and they with Him. That is for whoever has feared his Lord.",
+    "eng:arb": "their recompense is with their Lord-Gardens of Eden, underneath which rivers flow, therein dwelling for ever and ever. God is well-pleased with them, and they are well-pleased with Him; that is for him who fears his Lord.",
+    "ban": "তাদের পালনকর্তার কাছে রয়েছে তাদের প্রতিদান চিরকাল বসবাসের জান্নাত, যার তলদেশে নির্ঝরিণী প্রবাহিত। তারা সেখানে থাকবে অনন্তকাল। আল্লাহ তাদের প্রতি সন্তুষ্ট এবং তারা আল্লাহর প্রতি সন্তুষ্ট। এটা তার জন্যে, যে তার পালনকর্তাকে ভয় কর।"
   }
 ]
