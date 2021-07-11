@@ -18,14 +18,11 @@ export const main = () => {
     aside.addEventListener('click', (e) => {
       if (e.target == aside) {
         aside.classList.add('reverse')
-        aside.addEventListener(
-          'animationend',
-          () => {
-            aside.classList.remove('show')
-            aside.classList.remove('reverse')
-          },
-          { once: true }
-        )
+        // prettier-ignore
+        aside.addEventListener('animationend', () => {
+          aside.classList.remove('show')
+          aside.classList.remove('reverse')
+        }, { once: true })
       }
     })
   })()

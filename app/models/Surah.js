@@ -52,9 +52,10 @@ exports.findById = (id, show) => {
 exports.search = (term, l, show) => {
   const ayahs = []
   for (let i = 1; i <= 114; i++) {
-    const { info, surah } = this.findById(i, { ara: true, 'eng:sai': true, ban: true })
+    const { info, surah } = this.findById(i, { ara: true, 'eng:sai': true, 'eng:arb': true, ban: true })
     surah.forEach((ayah) => {
-      if (ayah[l === 'eng' ? 'eng:sai' : l].includes(term)) ayahs.push({ info, ...formatAyah(ayah, show) })
+      if (ayah[l === 'eng' ? 'eng:sai' : l].toLowerCase().includes(term.toLowerCase().trim()))
+        ayahs.push({ info, ...formatAyah(ayah, show) })
     })
   }
   return ayahs
