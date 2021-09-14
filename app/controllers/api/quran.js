@@ -61,10 +61,10 @@ exports.search = (req, res) => {
 exports.surah_get = (req, res) => {
   const { surah } = req.params
   const { show } = res.locals
-  const { raw } = req.query
+  const { raw, range } = req.query
 
   try {
-    const surahjson = Surah.findById(surah, show)
+    const surahjson = Surah.findById(surah, show, range ?? '')
 
     if (raw && raw == 'false')
       return res.render('api/details', {
