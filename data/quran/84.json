@@ -144,7 +144,8 @@
     "ara": "وَإِذَا قُرِئَ عَلَيْهِمُ الْقُرْآنُ لَا يَسْجُدُونَ",
     "eng:sai": "And when the Qur'an is recited to them, they do not prostrate [to Allah]?",
     "eng:arb": "and when the Koran is recited to them they do not bow?",
-    "ban": "যখন তাদের কাছে কোরআন পাঠ করা হয়, তখন সেজদা করে না।"
+    "ban": "যখন তাদের কাছে কোরআন পাঠ করা হয়, তখন সেজদা করে না।",
+    "sajdah": true
   },
   {
     "num": "22",

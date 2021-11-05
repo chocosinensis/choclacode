@@ -102,7 +102,8 @@
     "ara": "إِنَّمَا يُؤْمِنُ بِآيَاتِنَا الَّذِينَ إِذَا ذُكِّرُوا بِهَا خَرُّوا سُجَّدًا وَسَبَّحُوا بِحَمْدِ رَبِّهِمْ وَهُمْ لَا يَسْتَكْبِرُونَ",
     "eng:sai": "Only those believe in Our verses who, when they are reminded by them, fall down in prostration and exalt [Allah] with praise of their Lord, and they are not arrogant.",
     "eng:arb": "Only those believe in Our signs who, when they are reminded of them, fall down prostrate and proclaim the praise of their Lord, not waxing proud.",
-    "ban": "কেবল তারাই আমার আয়াতসমূহের প্রতি ঈমান আনে, যারা আয়াতসমূহ দ্বারা উপদেশপ্রাপ্ত হয়ে সেজদায় লুটিয়ে পড়ে এবং অহংকারমুক্ত হয়ে তাদের পালনকর্তার সপ্রশংস পবিত্রতা বর্ণনা করে।"
+    "ban": "কেবল তারাই আমার আয়াতসমূহের প্রতি ঈমান আনে, যারা আয়াতসমূহ দ্বারা উপদেশপ্রাপ্ত হয়ে সেজদায় লুটিয়ে পড়ে এবং অহংকারমুক্ত হয়ে তাদের পালনকর্তার সপ্রশংস পবিত্রতা বর্ণনা করে।",
+    "sajdah": true
   },
   {
     "num": "16",

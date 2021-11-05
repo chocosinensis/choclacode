@@ -179,7 +179,8 @@
     "ara": "اللَّهُ لَا إِلَهَ إِلَّا هُوَ رَبُّ الْعَرْشِ الْعَظِيمِ",
     "eng:sai": "Allah - there is no deity except Him, Lord of the Great Throne.\"",
     "eng:arb": "God: there is no god but He, the Lord of the Mighty Throne.'",
-    "ban": "আল্লাহ ব্যতীত কোন উপাস্য নেই; তিনি মহা আরশের মালিক।"
+    "ban": "আল্লাহ ব্যতীত কোন উপাস্য নেই; তিনি মহা আরশের মালিক।",
+    "sajdah": true
   },
   {
     "num": "27",

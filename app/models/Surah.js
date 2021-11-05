@@ -10,12 +10,12 @@ exports.find = () => require('../../data/surahs.json')
  * @param {{ [prop: 'num' | 'ara' | 'eng' | 'ban']: String }} param0
  * @param {{ [prop: 'ara' | 'eng' | 'ban']: Boolean }} show
  */
-const formatAyah = ({ num, ara, 'eng:sai': ens, 'eng:arb': ena, ban }, show) => ({
+const formatAyah = ({ num, ara, 'eng:sai': ens, 'eng:arb': ena, ban, sajdah }, show) => ({
   num,
-  ara: show.ara ? ara : undefined,
-  'eng:sai': show['eng:sai'] ? ens : undefined,
-  'eng:arb': show['eng:arb'] ? ena : undefined,
-  ban: show.ban ? ban : undefined,
+  ara: show.ara ? `${ara}${sajdah && ' ۩'}` : undefined,
+  'eng:sai': show['eng:sai'] ? `${ens}${sajdah && ' ۩'}` : undefined,
+  'eng:arb': show['eng:arb'] ? `${ena}${sajdah && ' ۩'}` : undefined,
+  ban: show.ban ? `${ban}${sajdah && ' ۩'}` : undefined,
 })
 
 /**
