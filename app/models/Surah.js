@@ -4,18 +4,20 @@ const { error } = require('../helpers/logger')
 
 exports.find = () => require('../../data/surahs.json')
 
+const formatforSajdah = (txt, sajdah) => `${txt}${sajdah ? ' ۩' : ''}`
+
 /**
  * Formats the ayah according to the language provided
  *
  * @param {{ [prop: 'num' | 'ara' | 'eng' | 'ban']: String }} param0
  * @param {{ [prop: 'ara' | 'eng' | 'ban']: Boolean }} show
  */
-const formatAyah = ({ num, ara, 'eng:sai': ens, 'eng:arb': ena, ban, sajdah }, show) => ({
+const formatAyah = ({ num, ara, 'eng:sai': ens, 'eng:arb': ena, ban, sajdah = false }, show) => ({
   num,
-  ara: show.ara ? `${ara}${sajdah && ' ۩'}` : undefined,
-  'eng:sai': show['eng:sai'] ? `${ens}${sajdah && ' ۩'}` : undefined,
-  'eng:arb': show['eng:arb'] ? `${ena}${sajdah && ' ۩'}` : undefined,
-  ban: show.ban ? `${ban}${sajdah && ' ۩'}` : undefined,
+  ara: show.ara ? formatforSajdah(ara, sajdah) : undefined,
+  'eng:sai': show['eng:sai'] ? formatforSajdah(ens, sajdah) : undefined,
+  'eng:arb': show['eng:arb'] ? formatforSajdah(ena, sajdah) : undefined,
+  ban: show.ban ? formatforSajdah(ban, sajdah) : undefined,
 })
 
 /**
