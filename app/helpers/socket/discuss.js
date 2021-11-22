@@ -21,10 +21,10 @@ const emoticons = {
 
 const helpMsg = (name) => `Here you go @${name} \n
   @user \n &nbsp;&nbsp; - mention @user \n
-  @chocoBot help \n &nbsp;&nbsp; - show this message
-  @chocoBot lstyle \n &nbsp;&nbsp; - show list of stylistic commands
-  @chocoBot inspire <surah>:<ayah> \n &nbsp; &nbsp; - inspire with the mentioned or a random verse
-  @chocoBot tip \n &nbsp;&nbsp; - show some tips \n`
+  #help / @chocoBot help \n &nbsp;&nbsp; - show this message
+  #lstyle / @chocoBot lstyle \n &nbsp;&nbsp; - show list of stylistic commands
+  #inspire / @chocoBot inspire <surah>:<ayah> \n &nbsp; &nbsp; - inspire with the mentioned or a random verse
+  #tip / @chocoBot tip \n &nbsp;&nbsp; - show some tips \n`
 const styleMsg = (name) => `Here you go @${name} \n
 \\*\\*Bold\\*\\* / \\_\\_Bold\\_\\_ - __Bold__
 \\*Italics\\* / \\_Italics\\_ - _Italics_
@@ -53,14 +53,14 @@ const inspire = (msg) => {
   if (isNaN(surahNo) || !isFinite(surahNo) || parseInt(surahNo) < 1 || 114 < parseInt(surahNo))
     surahNo = Math.floor(Math.random() * 114) + 1
 
-  const { info, surah } = Surah.findById(parseInt(surahNo))
+  const { info, surah } = Surah.findById(parseInt(surahNo), { ara: true, 'eng:sai': true, ban: true })
 
   if (isNaN(ayahNo) || !isFinite(ayahNo) || parseInt(ayahNo) < 1 || surah.length < parseInt(ayahNo))
     ayahNo = Math.floor(Math.random() * (surah.length - 1)) + 1
 
   const ayah = surah[parseInt(ayahNo) - 1]
-  return `${ayah.ara} \n\n ${ayah.eng} \n\n ${ayah.ban} \n
-  #${info.eng} - ${info.num} : ${parseInt(ayahNo)}`
+  return `${ayah.ara} \n\n ${ayah['eng:sai']} \n\n ${ayah.ban} \n
+  #${info.eng.replace(/\s+/g, '_')} - ${info.num} : ${parseInt(ayahNo)}`
 }
 const msgify = (msg) =>
   marked(
@@ -100,6 +100,14 @@ const markupify = ({ name, msg, time }) => {
 }
 const botMsg = (msg, time = getTime()) => markupify({ name: bot, msg, time })
 
+const makeCommands = (msg, likeMsg, id, name) => ({
+  thank: likeMsg(id, `My pleasure @${name} 😊️`),
+  help: helpMsg(name),
+  lstyle: styleMsg(name),
+  tip: tipmsg,
+  inspire: inspire(msg.split(/\s+/g)[msg.split(/\s+/g).length - 1]),
+})
+
 /**
  *
  * @param {import('socket.io').Server} io
@@ -108,10 +116,7 @@ exports.discuss = (io) => {
   let users = []
 
   const like = (id) => io.sockets.emit(events.msglike, { id })
-  const likeMsg = (id, msg) => {
-    like(id)
-    return msg
-  }
+  const likeMsg = (id, msg) => (like(id), msg)
 
   io.on('connection', (socket) => {
     let _name
@@ -132,29 +137,25 @@ exports.discuss = (io) => {
         .split(/\s+/gs)
         .filter((m) => m.startsWith('@'))
         .map((m) => m.slice(1))
+      const commands = makeCommands(msg, likeMsg, msgToSend.id, name)
       socket.emit(events.sendmsg, msgToSend)
       if (!msg.match(/^\s*-p\s+/g)) socket.broadcast.emit(events.sendmsg, msgToSend)
+      msg.includes('#') &&
+        Object.keys(commands).filter((k) => msg.toLowerCase().includes(`#${k}`))
+          .forEach((k, i) => i == 0 && io.sockets.emit(events.sendmsg, botMsg(commands[k])))
       mentions.length &&
         mentions.forEach((n) => {
           if (n == 'chocoBot')
             io.sockets.emit(
               events.sendmsg,
               botMsg(
-                msg.toLowerCase().includes('thank')
-                  ? likeMsg(msgToSend.id, `My pleasure @${name} 😊️`)
-                  : msg.toLowerCase().includes('help')
-                  ? helpMsg(name)
-                  : msg.toLowerCase().includes('lstyle')
-                  ? styleMsg(name)
-                  : msg.toLowerCase().includes('tip')
-                  ? tipmsg
-                  : msg.toLowerCase().includes('inspire')
-                  ? inspire(msg.split(/\s+/g)[2])
-                  : msg == `@${n}`
-                  ? `I am here @${name} 🙂️ \n Need some #help ?`
-                  : Math.random() > 0.5
-                  ? `Yeah dear @${name}`
-                  : `/shrug @${name}`
+                msg.toLowerCase().includes('thank') ? commands.thank
+                  : msg.toLowerCase().includes('help') ? commands.help
+                  : msg.toLowerCase().includes('lstyle') ? commands.lstyle
+                  : msg.toLowerCase().includes('tip') ? commands.tip
+                  : msg.toLowerCase().includes('inspire') ? commands.inspire
+                  : msg == `@${n}` ? `At your service @${name} 🙂️ \n Need some #help ?`
+                  : Math.random() > 0.5 ? `Yeah dear @${name}` : `/shrug @${name}`
               )
             )
           else if (n.toLowerCase() == 'everyone')
