@@ -5,6 +5,9 @@ const { error } = require('../helpers/logger')
 exports.find = () => require('../../data/surahs.json')
 
 const formatforSajdah = (txt, sajdah) => `${txt}${sajdah ? ' ۩' : ''}`
+const removeHarkats = (txt) => txt.toLowerCase().trim()
+  .replace(/([^\u0621-\u063A\u0641-\u064A\u0660-\u0669a-zA-Z 0-9])/g, '')
+  .replace(/(آ|إ|أ)/g, 'ا').replace(/(ة)/g, 'ه').replace(/(ئ|ؤ)/g, 'ء').replace(/(ى)/g, 'ي')
 
 /**
  * Formats the ayah according to the language provided
@@ -55,19 +58,19 @@ exports.findById = (id, show, range = '') => {
 /**
  * Searches the whole Quran and returns the found ayahs
  *
- * @param {String} term
+ * @param {String} terms
  * @param {'ara' | 'eng' | 'ban'} l
  * @param {{ [prop: 'ara' | 'eng' | 'ban']: Boolean }} show
  */
-exports.search = (term, l, show) => {
-  if (term.trim() == '') return []
+exports.search = (terms, l, show) => {
+  if (terms.trim() == '') return []
   const ayahs = []
   for (let i = 1; i <= 114; i++) {
     const { info, surah } = this.findById(i, { ara: true, 'eng:sai': true, 'eng:arb': true, ban: true })
-    surah.forEach((ayah) => {
-      if (ayah[l === 'eng' ? 'eng:sai' : l].toLowerCase().includes(term.toLowerCase().trim()))
+    terms.split(/,\s*/g).forEach((term) => surah.forEach((ayah) => {
+      if (removeHarkats(ayah[l === 'eng' ? 'eng:sai' : l]).includes(removeHarkats(term)))
         ayahs.push({ info, ...formatAyah(ayah, show) })
-    })
+    }))
   }
   return ayahs
 }
