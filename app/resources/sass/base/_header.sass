@@ -1,5 +1,3 @@
-@use '../util' as *
-
 header
   background-image: $grad-pr
   display: flex !important
@@ -150,3 +148,13 @@ header
       img
         height: 40px
         width: 40px
+
+body.chocolatey header
+  ul li p ~ div a
+    background-color: $font-pr !important
+    color: $font-se !important
+    opacity: 0.8
+    transition: 0.2s opacity ease
+
+    &:hover
+      opacity: 1

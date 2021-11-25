@@ -1,36 +1,6 @@
-@use '../util' as *
-
 main
   padding: 10px 10%
   box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.5)
-
-  &.chocolatey
-    background-color: $font-pr
-
-    *
-      color: $font-se
-
-    .title
-      background-image: $grad-se
-
-    .color
-      &,
-      & *
-        color: $secondary
-
-    .quran *
-      color: $font-se !important
-
-    hr,
-    tr
-      border-color: wheat
-
-    .errorsect
-      .status
-        border-right-color: $secondary
-
-      .detail
-        color: $secondary
 
   @include media($breakpoint-sm)
     padding: 10px 0

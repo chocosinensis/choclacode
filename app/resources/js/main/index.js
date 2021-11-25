@@ -29,7 +29,7 @@ export const main = () => {
   ;(() => {
     if (!$.l('theme')) $.l('theme', 'default')
 
-    $('main').classList.add($.l('theme'))
+    $('body').classList.add($.l('theme'))
   })()
 }
 

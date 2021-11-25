@@ -11,7 +11,7 @@ export class Home {
   init() {
     this.quoteElem = $('.quote')
 
-    this.main = $('main')
+    this.body = $('body')
     this.themes = $$('#themes a')
     this.icons = $$('#themes a i')
   }
@@ -36,17 +36,15 @@ export class Home {
   }
 
   updateIcons() {
-    this.icons.forEach(
-      (i) =>
-        (i.textContent = this.main.classList.contains(i.parentElement.dataset.theme) ? 'done' : 'disabled_by_default')
-    )
+    this.icons.forEach((i) => (i.textContent =
+      this.body.classList.contains(i.parentElement.dataset.theme) ? 'done' : 'disabled_by_default'))
   }
   theme() {
     this.updateIcons()
     this.themes.forEach((a) =>
       a.addEventListener('click', () => {
-        localStorage.setItem('theme', a.dataset.theme)
-        this.main.className = localStorage.getItem('theme')
+        $.l('theme', a.dataset.theme)
+        this.body.className = localStorage.getItem('theme')
         this.updateIcons()
       })
     )
