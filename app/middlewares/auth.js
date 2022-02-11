@@ -6,7 +6,6 @@ const User = require('../models/User')
 const { error } = require('../helpers/logger')
 
 /**
- *
  * @param {import('express').Request} req
  * @param {import('express').Response} res
  * @param {Error | null} err
@@ -70,10 +69,9 @@ exports.checkUser = (req, res, next) => {
  * @param {import('express').Response} res
  * @param {import('express').NextFunction} next
  */
-exports.requireGuest = (req, res, next) =>
-  res.locals.user
-    ? (() => {
-        error.log(`Authorized access: =:= ${req.originalUrl}`)
-        res.redirect(req.query.next ?? '/dashboard')
-      })()
-    : next()
+exports.requireGuest = (req, res, next) => res.locals.user
+  ? (() => {
+      error.log(`Unauthorized access: =:= ${req.originalUrl}`)
+      res.redirect(req.query.next ?? '/dashboard')
+    })()
+  : next()

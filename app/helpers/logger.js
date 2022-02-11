@@ -3,9 +3,7 @@
 const { resolve } = require('path')
 const { createWriteStream, existsSync, mkdir } = require('fs')
 
-/**
- * Logger levels
- */
+/** Logger levels */
 const levels = {
   info: 'info',
   debug: 'debug',
@@ -84,14 +82,10 @@ class Logger {
     return this
   }
 
-  /**
-   * The default logger to be used
-   */
+  /** The default logger to be used */
   static logger = new Logger('default')
 
-  /**
-   * The error logger to be used
-   */
+  /** The error logger to be used */
   static error = new Logger('error', levels.error)
 
   static levels = levels

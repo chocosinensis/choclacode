@@ -60,9 +60,7 @@ const articleSchema = new Schema({
   },
 })
 
-/**
- * Edits an article
- */
+/** Edits an article */
 articleSchema.statics.edit = async function ({ slug, id, username, title, body }) {
   const article = await this.findOne({
     slug,

@@ -6,6 +6,11 @@ const { account_get, password_edit, profileimage_edit, account_delete } = requir
 
 const account = Router()
 
-account.get('/', account_get).put('/', password_edit).put('/image', profileimage_edit).delete('/', account_delete)
+// prettier-ignore
+account
+  .get('/', account_get)
+  .put('/', password_edit)
+  .put('/image', profileimage_edit)
+  .delete('/', account_delete)
 
 module.exports = account

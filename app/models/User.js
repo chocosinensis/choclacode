@@ -40,9 +40,7 @@ const userSchema = new Schema({
   },
 })
 
-/**
- * Hashes the password
- */
+/** Hashes the password */
 userSchema.pre('save', async function (next) {
   if (this.isModified('password')) {
     const salt = await genSalt()
@@ -68,9 +66,7 @@ userSchema.statics.login = async function (username, password) {
   throw new Error('Incorrect username')
 }
 
-/**
- * Changes the password of a user
- */
+/** Changes the password of a user */
 userSchema.statics.changePassword = async function ({ email, password }) {
   const user = await this.findOne({ email, deleted: false })
   if (user) {

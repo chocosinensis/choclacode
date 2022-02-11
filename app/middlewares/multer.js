@@ -7,32 +7,24 @@ const GridFSStorage = require('multer-gridfs-storage')
 
 const { uri } = require('../helpers/constants')
 
-/**
- * Multer middleware for uploading files
- */
+/** Multer middleware for uploading files */
 exports.upload = multer({
   storage: new GridFSStorage({
     url: uri(),
-    file: (req, file) =>
-      new Promise((resolve, reject) => {
-        crypto.randomBytes(16, (err, buf) => {
-          if (err) {
-            return reject(err)
-          }
-          const filename = buf.toString('hex') + extname(file.originalname)
-          resolve({
-            filename,
-            bucketName: 'uploads',
-          })
-        })
-      }),
+    file: (req, file) => new Promise((resolve, reject) => {
+      crypto.randomBytes(16, (err, buf) => {
+        if (err) return reject(err)
+
+        const filename = buf.toString('hex') + extname(file.originalname)
+        resolve({ filename, bucketName: 'uploads' })
+      })
+    }),
   }),
   limits: { fileSize: 1_000_000 },
   fileFilter(req, file, callback) {
     const filetypes = /jpeg|jpg|png|gif/
-    if (filetypes.test(extname(file.originalname).toLowerCase()) && filetypes.test(file.mimetype)) {
+    if (filetypes.test(extname(file.originalname).toLowerCase()) && filetypes.test(file.mimetype))
       return callback(null, true)
-    }
 
     callback(new Error('Only jpeg, jpg, png and gif extensions are allowed'))
   },

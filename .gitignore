@@ -6,6 +6,7 @@
 /logs
 /config/.env/.env
 /.vscode
+*.swp
 
 # public
 /public/main.*

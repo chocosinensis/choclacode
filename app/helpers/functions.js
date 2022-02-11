@@ -87,6 +87,7 @@ exports.createToken = (id) => sign({ id }, process.env.JWT_SECRET, { expiresIn: 
 
 /**
  * Custom date string formatter
+ *
  * @param {Date} date
  */
 exports.toDate = (date) => `${date.toDateString().substr(4)} ${date.toTimeString().substring(0, 8)}`

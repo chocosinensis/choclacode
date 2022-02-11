@@ -6,21 +6,16 @@ const {
   Types: { ObjectId },
 } = require('mongoose')
 
-/**
- * The GridFSBucket instance
- */
+/** The GridFSBucket instance */
 exports.gfs = () => new mongo.GridFSBucket(connection.db, { bucketName: 'uploads' })
 
-/**
- * Retreaves a single gridfs document
- */
+/** Retreaves a single gridfs document */
 exports.findOne = (params) =>
   new Promise((resolve, reject) => {
     this.gfs()
       .find(params)
       .toArray((err, files) => {
         if (err) return reject(err)
-
         if (files && files[0]) return resolve(files[0])
 
         resolve(null)

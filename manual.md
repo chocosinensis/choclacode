@@ -62,4 +62,4 @@ You are good to go!
 
 For any queries, feel free to drop a message in my personal twitter account
 
-[@choclacode](https://twitter.com/choclacode)
+[@ChocoSinensis](https://twitter.com/ChocoSinensis)
