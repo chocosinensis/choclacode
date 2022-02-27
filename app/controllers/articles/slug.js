@@ -1,6 +1,6 @@
 'use strict'
 
-const marked = require('marked')
+const { parse } = require('marked')
 
 const Article = require('../../models/Article')
 const { getArticleBySlug, getArticle } = require('../../services/articles')
@@ -39,7 +39,7 @@ exports.editarticle_get = async (req, res, next) => {
       article: {
         title: article.title,
         raw: article.body,
-        body: marked(article.body),
+        body: parse(article.body),
       },
     })
   else next()

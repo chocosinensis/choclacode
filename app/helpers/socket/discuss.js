@@ -1,6 +1,6 @@
 'use strict'
 
-const marked = require('marked')
+const { parse } = require('marked')
 
 const Surah = require('../../models/Surah')
 
@@ -63,7 +63,7 @@ const inspire = (msg) => {
   #${info.eng.replace(/\s+/g, '_')} - ${info.num} : ${parseInt(ayahNo)}`
 }
 const msgify = (msg) =>
-  marked(
+  parse(
     msg
       .trim()
       .replace(/\n/g, ' <br> ')

@@ -1,6 +1,6 @@
 'use strict'
 
-const marked = require('marked')
+const { parse } = require('marked')
 
 const Article = require('../models/Article')
 
@@ -26,7 +26,7 @@ exports.getArticleBySlug = async (slug) => {
       slug,
       deleted: false,
     })
-    const body = marked(raw)
+    const body = parse(raw)
     return { title, raw, body, slug, author, createdAt, likes }
   } catch (err) {
     throw err

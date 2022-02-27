@@ -1,4 +1,4 @@
-import marked from 'marked'
+import { parse } from 'marked'
 
 import { $, $_, $$, Base } from '../utils'
 
@@ -42,7 +42,7 @@ export class Article extends Base {
     })
     this.form.body.addEventListener(
       'keyup',
-      () => (this.article.body.innerHTML = marked(textify(this.form.body.value)))
+      () => (this.article.body.innerHTML = parse(textify(this.form.body.value)))
     )
   }
 
