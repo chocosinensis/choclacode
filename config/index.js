@@ -21,8 +21,10 @@ const connectDatabase = async () => {
       useUnifiedTopology: true,
       useCreateIndex: true,
     })
+    console.log('Database Connected')
     logger.log(`Database Connected ~~> ~@[${process.env.DB_ATLAS == 'false' ? uri() : 'Atlas'}]`)
   } catch (err) {
+    console.log('Database Connection Failed')
     error.log(err.stack.toString())
   }
 }
