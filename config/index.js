@@ -24,7 +24,7 @@ const connectDatabase = async () => {
     console.log('Database Connected')
     logger.log(`Database Connected ~~> ~@[${process.env.DB_ATLAS == 'false' ? uri() : 'Atlas'}]`)
   } catch (err) {
-    console.log('Database Connection Failed')
+    console.log('Database Connection Failed', err.stack.toString())
     error.log(err.stack.toString())
   }
 }
