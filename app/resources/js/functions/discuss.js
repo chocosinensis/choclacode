@@ -105,7 +105,7 @@ export class Discuss extends Base {
   }
   socketEvents() {
     this.socket.on('connection', () => this.socket.emit(events.newuser, { name: this.name }))
-    this.socket.on(events.users, (data) => (this.users.innerHTML = data.map((user) => `<li>@${user}</li>`).join('')))
+    this.socket.on(events.users, (data) => (this.users.innerHTML = data.map((user) => `<li class="tag">@${user}</li>`).join('')))
     this.socket.on(events.sendmsg, this.sendmsg)
     this.socket.on(events.msglike, this.msglike)
   }
