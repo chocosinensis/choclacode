@@ -5,7 +5,7 @@
 # development
 /tests
 /logs
-**/.*
+# **/.*
 **/*.md
 !/.gitignore
 /Makefile
