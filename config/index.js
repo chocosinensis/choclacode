@@ -15,7 +15,6 @@ const socket = require('../app/helpers/socket')
 const { logger, error } = require('../app/helpers/logger')
 
 const connectDatabase = async () => {
-  console.log(uri())
   try {
     await connect(uri(), {
       useNewUrlParser: true,
